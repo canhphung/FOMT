@@ -141,9 +141,12 @@ OBJ VRAM tiles 864..877 trên title đang chạy. Chữ gồm ba segment 4bpp 1D
 y dao động 112..114. Đây là hình pixel, không dùng codec EB hoặc UTF-8.
 
 `tools/title_graphics.py` kiểm tra SHA-256 asset nguồn và dữ liệu giải nén,
-thay đúng 14 tile, giữ nguyên mọi byte khác trong asset. Mask nét Việt tự vẽ
-nằm ở `localization/vi/title_start.json`; viền trắng/đen, màu xanh và bóng
-dùng palette title sẵn có. Đóng gói lại bằng mode literal 040 mà `Unpack`
+thay đúng 14 tile, giữ nguyên mọi byte khác trong asset. Mask ở
+`localization/vi/title_start.json` hiện dùng thân chữ ROM gốc và dấu Việt từ
+font v2, làm đậm ngang 1px. Chữ tô trắng đặc, viền đen 1px và bóng tối,
+dùng palette title sẵn có. `native_title_mask(rom)` tái tạo mask từ ROM đã
+xác minh; giữ baseline, tách 3 cột trống giữa chữ và 5 cột giữa từ. Đóng gói
+lại bằng mode literal 040 mà `Unpack`
 của game hỗ trợ, append asset mới ở vùng mở rộng rồi sửa duy nhất literal
 `0xCB4`. Không ghi đè asset nén hoặc vùng trống chưa xác minh. Không thêm
 OBJ/tile/VRAM hoặc sửa handler nút Start; allocation và pointer được audit.

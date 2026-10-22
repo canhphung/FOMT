@@ -134,8 +134,11 @@ Chưa kiểm tra mọi UI/biến thể cửa sổ, phần cứng GBA thật ho�
 Font của lịch/đồng hồ/đồ họa title là hệ riêng. Không tuyên bố đã Việt hóa toàn bộ
 font/toàn game hoặc đã thêm proportional spacing vào các hàm tile-aligned.
 
-Prompt title `Start` hiện được thay riêng bằng artwork **Bắt đầu** 56×16,
-không lấy font hội thoại để vẽ runtime. Sáu chữ được vẽ nét pixel nhỏ, gồm
-dấu sắc + breve ở ắ, gạch đ, huyền + mũ ở ầ. Sinh viền và bóng trong đúng
-14 tile gốc; không đổi spacing/renderer của các nhóm chữ khác. Xem phần
-đồ họa title trong [TEXT_SYSTEM.md](TEXT_SYSTEM.md) và ảnh `title-start.png`.
+Prompt title `Start` được thay riêng bằng artwork **Bắt đầu** 56×16.
+Revision `native-bold-white-v2` lấy outline chữ ROM gốc + dấu Việt lúc build,
+làm đậm ngang 1px: thân hoa cao 10px, thân thường 7px, cùng baseline hàng 13.
+Tô trắng đặc, viền đen một lớp và bóng tối giúp đọc trên nền nhiều nhân vật;
+dấu sắc + breve ở ắ, gạch đ, huyền + mũ ở ầ giữ đủ hàng pixel. Khoảng trống
+giữa chữ 3px, giữa từ 5px. Mask và viền/bóng nằm gọn trong 14 tile gốc,
+không đổi font hội thoại/spacing runtime. Xem [TEXT_SYSTEM.md](TEXT_SYSTEM.md)
+và `title-start.png`, `title-font-comparison.png` trong evidence.

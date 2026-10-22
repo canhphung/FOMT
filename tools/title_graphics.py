@@ -19,6 +19,34 @@ TILE_SIZE = 14 * 32
 PACKED_SHA256 = 'd00631160fde8a8d0a18ae6216f9ad9db85ed5dc5c0baa0970d7227fc496b897'
 DECODED_SHA256 = '8e73d527aa1a7f905cdd1d4068bf4add642190baaff989b3a1b3be2106acd9d6'
 ART_PATH = Path(__file__).resolve().parents[1]/'localization/vi/title_start.json'
+TITLE_REVISION = 'native-bold-white-v2'
+
+
+def native_title_mask(rom):
+    """Native 10px capitals/7px lowercase, bolded horizontally by one pixel.
+
+    Unlike dialogue layout, this fixed graphic uses trimmed horizontal bearings,
+    three empty columns between letters and five between the two words.
+    All letters retain the native common baseline and Vietnamese accent rows.
+    """
+    from vietnamese_font import glyph, ascii_glyph
+    ink = set()
+    cursor = 0
+    for word in ('Bắt', 'đầu'):
+        if cursor:
+            cursor += 2
+        for ch in word:
+            mask = glyph(rom,ch) if ord(ch) > 127 else ascii_glyph(rom,ch)
+            points = {(x,y) for y,row in enumerate(mask) for x in range(8) if row & (128 >> x)}
+            left = min(x for x,y in points)
+            right = max(x for x,y in points)
+            points = {(cursor+x-left,y) for x,y in points}
+            ink |= points | {(x+1,y) for x,y in points}
+            cursor += right-left+2+3
+    width = max(x for x,y in ink)+1
+    left = (56-width)//2
+    ink = {(x+left,y) for x,y in ink}
+    return [''.join('#' if (x,y) in ink else '.' for x in range(56)) for y in range(16)]
 
 
 class Bits:
@@ -121,19 +149,15 @@ def title_pixels():
     if len(rows) != 16 or any(len(r) != 56 or set(r)-set('.#') for r in rows):
         raise FormatError('title art must be a 56x16 binary stroke mask')
     ink = {(x,y) for y,r in enumerate(rows) for x,c in enumerate(r) if c == '#'}
-    def expand(points):
-        return {(x+dx,y+dy) for x,y in points for dx,dy in [(0,0),(-1,0),(1,0),(0,-1),(0,1)]}
-    white = expand(ink)
-    black = expand(white)
+    # Solid white strokes with one dark border stay readable on the busy title.
+    black = {(x+dx,y+dy) for x,y in ink for dx in (-1,0,1) for dy in (-1,0,1)}
     shadow = {(x+1,y+1) for x,y in black}
     if any(not (0 <= x < 56 and 0 <= y < 16) for x,y in black|shadow):
         raise FormatError('title outline/shadow exceeds sprite bounds')
     pixels = [[0]*56 for _ in range(16)]
-    for points,color in [(shadow,15),(black,14),(white,13)]:
+    for points,color in [(shadow,9),(black,14),(ink,13)]:
         for x,y in points:
             pixels[y][x] = color
-    for x,y in ink:
-        pixels[y][x] = 3 if y >= 8 else 5
     return pixels
 
 
@@ -169,4 +193,5 @@ def localize(rom):
         'vietnamese_translation':'Bắt đầu','source_offset':ASSET_OFFSET,
         'pointer_offset':POINTER_OFFSET,'decoded_tile_offset':TILE_OFFSET,
         'tile_bytes':TILE_SIZE,'dimensions':[56,16], 'mode':'Popuri literal 040',
+        'revision':TITLE_REVISION,
         'tiles_sha256':hashlib.sha256(tiles).hexdigest()}

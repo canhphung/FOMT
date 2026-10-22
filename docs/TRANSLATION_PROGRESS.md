@@ -160,3 +160,22 @@ là framebuffer thật, không vẽ chồng bản dịch lên screenshot.
 Số bản ghi văn bản dịch vẫn **385/9.069**; thêm **1 asset đồ họa**. Đây vẫn là
 bản thử. Các nhóm title khác, lịch/đồng hồ, Diary/options và các hạng mục chưa
 dịch nêu trên còn nguyên; chưa kiểm tra GBA thật hoặc toàn bộ gameplay.
+
+## Phiên 2026-10-22 — sửa độ rõ chữ “Bắt đầu” ở title
+
+Người dùng phản hồi prompt khó đọc. Artwork trước có thân hoa 7px/thường 5px,
+nét xanh mảnh kèm viền trắng + viền đen hai lớp. Các lớp viền dính vào dấu và
+thân chữ, giảm độ rõ trên nền nhân vật. Đã thay riêng artwork này bằng revision
+`native-bold-white-v2`: lấy outline ROM gốc cùng dấu của font Việt v2, làm đậm
+ngang 1px, tô trắng đặc với viền đen 1px và bóng tối. Thân hoa trở lại 10px,
+thân thường 7px, baseline hàng 13; tách 3px giữa chữ, 5px giữa hai từ.
+
+Hàm `native_title_mask(rom)` tái tạo mask đã lưu trong JSON. Không đổi font hội
+thoại, codec, kích thước 56×16, số OBJ/tile hoặc handler Start. Chỉ 448 byte tile
+trong asset giải nén thay đổi; cùng literal đã xác minh trỏ tới asset mới.
+
+Đã xem framebuffer cold boot và so sánh trước/sau ở kích thước nguyên pixel.
+Bộ 55 pytest và smoke trên mGBA 0.10.5/0.11-dev kiểm tra lại artwork trong VRAM,
+OAM/chuyển động title, Start vào tạo nhân vật, hội thoại, menu và save/load.
+Bản vá/manifest và evidence được cập nhật; số chuỗi dịch vẫn 385 + 1 asset.
+Giới hạn: chưa thử GBA thật; phần nội dung chưa dịch không thay đổi.

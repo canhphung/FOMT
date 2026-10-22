@@ -2,7 +2,7 @@
   "date": "2026-10-22",
   "font_revision": "native-outline-aligned-v2",
   "base_sha1": "a2fc3574f0a65a4fcf7682fb274b9d7eebdef963",
-  "target_sha256": "82c05e4bfe4f6947364483a352b8384b6a2a0e8f315df1c441ef144149ae8391",
+  "target_sha256": "4844dd001d1d71eabb1bd89830ad836464ec6b6516b351e454e9b71d2d0778c9",
   "mgba_version": "0.10.5",
   "mgba_commit": "26b7884bc25a5933960f3cdcd98bac1ae14d42e2",
   "pytest": {
@@ -12,7 +12,7 @@
     "command": "FOMT_ROM=/path/to/base.gba .venv/bin/python -m pytest -q"
   },
   "emulator": {
-    "target_sha256": "82c05e4bfe4f6947364483a352b8384b6a2a0e8f315df1c441ef144149ae8391",
+    "target_sha256": "4844dd001d1d71eabb1bd89830ad836464ec6b6516b351e454e9b71d2d0778c9",
     "checks": {
       "ascii_native_outlines_at_common_baseline": 95,
       "legacy_glyph_fallback_unchanged": 10,
@@ -52,7 +52,7 @@
     "version": "0.11-dev",
     "commit": "fd9dc5c2cbf234365068855851107e762fc6211b",
     "report": {
-      "target_sha256": "82c05e4bfe4f6947364483a352b8384b6a2a0e8f315df1c441ef144149ae8391",
+      "target_sha256": "4844dd001d1d71eabb1bd89830ad836464ec6b6516b351e454e9b71d2d0778c9",
       "checks": {
         "ascii_native_outlines_at_common_baseline": 95,
         "legacy_glyph_fallback_unchanged": 10,
@@ -104,7 +104,7 @@
       "All item UI variants",
       "Real GBA hardware"
     ],
-    "title_start": "mGBA 0.10.5 framebuffer reviewed: Bắt đầu, Vietnamese accents and 56x16 outline fit; title motion and button flow validated by replay"
+    "title_start": "mGBA 0.10.5 native framebuffer reviewed: solid white bold native letter bodies, thin black border, distinct Vietnamese accents and word gap; title motion and Start flow passed"
   },
   "comparison": {
     "before_target_sha256": "952087635bbb9e000e0acf54cbf0dad1ef3f19006ebbf3948a6d2f27110db714",
@@ -113,6 +113,7 @@
   },
   "images": {
     "diary-saved.png": "c0b2de472ac1c99dc3a8e306e7a5ddbdccaf4aefe873e82afc36d046731dac97",
+    "title-font-comparison.png": "b155bf5a9c800f21c5009e262c9f55a45468605e302de64b2a98d4b352405104",
     "v1-save-loaded-in-v2.png": "b445eef939588509f40a49c393280d56211aacc0bf865c7af1c57e01956d2312",
     "diary-load-menu.png": "65b38a2a342bd9dcf174541990c8a3a7489ecc769388926721d27d72de9323fe",
     "vietnamese-font.png": "4c2850da6e0a65cfc3472514fdcea4358d7a8de3d18e7d236f84eec2e5321f44",
@@ -121,7 +122,7 @@
     "game-loaded.png": "b445eef939588509f40a49c393280d56211aacc0bf865c7af1c57e01956d2312",
     "pause-menu.png": "4ab9944c74de0b5d4828acf1aeb326c66c58749c7d896aa8b32d25fd87d81dbf",
     "font-spacing-comparison.png": "a1a27a7fcfebe39fc2e4cd1710832ad01b531616772f47137413724a259c4258",
-    "title-start.png": "d296525a97498fd267ad67eb06478965930eeee8b9a30f05ce2b8204f832bf61"
+    "title-start.png": "2b91c2561df1085fd57434df03ac71dfe652cd20edb3aab27fa19d33e3692582"
   },
   "previous_release_save_compatibility": {
     "source_rom_sha256": "952087635bbb9e000e0acf54cbf0dad1ef3f19006ebbf3948a6d2f27110db714",
@@ -145,7 +146,8 @@
         16
       ],
       "mode": "Popuri literal 040",
-      "tiles_sha256": "22182f0403ef7d49759a51fefda078037d30baf76d09bcd108f43fc29f7e0c62",
+      "revision": "native-bold-white-v2",
+      "tiles_sha256": "4342dbaad1488f7f3eab85af4d0725684208feb8ce2bc4612f85d36f47612943",
       "target_offset": 8457012
     }
   ],
@@ -157,7 +159,8 @@
       "pause-menu.png",
       "diary-saved.png",
       "diary-load-menu.png",
-      "game-loaded.png"
+      "game-loaded.png",
+      "title-font-comparison.png"
     ],
     "unchanged_font_v2_evidence": [
       "vietnamese-font.png",
@@ -166,5 +169,15 @@
     "historical_save_compatibility_evidence": [
       "v1-save-loaded-in-v2.png"
     ]
+  },
+  "title_font_comparison": {
+    "before_target_sha256": "82c05e4bfe4f6947364483a352b8384b6a2a0e8f315df1c441ef144149ae8391",
+    "after_target_sha256": "4844dd001d1d71eabb1bd89830ad836464ec6b6516b351e454e9b71d2d0778c9",
+    "origin": "Two cold-boot mGBA framebuffers with labels outside the game; nearest-neighbor 3x scale",
+    "checks": {
+      "stored_mask_matches_native_bold_generator": true,
+      "all_bytes_outside_relocated_title_asset_unchanged": true,
+      "dialogue_font_script_and_pointer_bytes_unchanged": true
+    }
   }
 }
