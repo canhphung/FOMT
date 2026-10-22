@@ -216,3 +216,9 @@ Nhãn người nói gốc bị chia nhóm **4 byte**, không phải 4 ký tự. 
 `0x50B50` chỉ xử lý các pointer nhãn intro đã chuyển vùng, copy cache đúng ba
 buffer gốc; tên khác đi nguyên đường native. Chi tiết, giới hạn menu 12 byte
 và kiểm chứng trong [INTRO_LOCALIZATION.md](INTRO_LOCALIZATION.md).
+
+## Menu con START
+
+Adapter `tools/start_menu.py` thêm 162 chuỗi native và dòng sách mẹo đã xác minh.
+Xem [START_MENU.md](START_MENU.md) cho bảng con trỏ, ngân sách ô/byte, hai hook
+tiêu đề Ba lô và cache tiêu đề sách. CLI build mặc định nạp `start_menu.json`.

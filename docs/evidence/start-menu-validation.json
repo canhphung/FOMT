@@ -1,0 +1,415 @@
+{
+  "revision": "start-menu-v1",
+  "date": "2026-10-22",
+  "target_sha256": "50e587f1e8cfdf09b1bd2118574ff460856cb30e4f678f822d43ad78b5528caa",
+  "pytest": {
+    "passed": 79,
+    "failed": 0,
+    "skipped": 0
+  },
+  "emulators": {
+    "0.10.5": {
+      "start_menu": {
+        "target_sha256": "50e587f1e8cfdf09b1bd2118574ff460856cb30e4f678f822d43ad78b5528caa",
+        "status": "passed",
+        "translated_records": 162,
+        "isolated_renderer_lines_with_guards": 239,
+        "relocated_pointer_fields_verified": 197,
+        "bag_title_buffers": [
+          {
+            "id": "ui.start.1000b4",
+            "encoded_bytes": 9,
+            "cells": 7,
+            "title_buffer_bytes": 12,
+            "next_field_backpack_size": 2
+          },
+          {
+            "id": "ui.start.1000bc",
+            "encoded_bytes": 10,
+            "cells": 8,
+            "title_buffer_bytes": 12,
+            "next_field_backpack_size": 2
+          }
+        ],
+        "book_title_cache_vram_offset": 2048,
+        "screenshots": [
+          "start-diary.png",
+          "start-rucksack.png",
+          "start-world-map.png",
+          "start-farm-map.png",
+          "start-earnings.png",
+          "start-memo.png",
+          "start-tutorial.png",
+          "diary-row-0.png",
+          "diary-row-1.png",
+          "diary-row-2.png",
+          "diary-row-3.png",
+          "diary-row-4.png",
+          "diary-row-5.png",
+          "diary-save-slot.png",
+          "diary-save-confirm.png",
+          "diary-load-slot.png",
+          "diary-load-confirm.png",
+          "earnings-page-0.png",
+          "earnings-page-1.png",
+          "earnings-page-2.png",
+          "earnings-page-3.png",
+          "memo-page-0.png",
+          "memo-page-1.png",
+          "memo-page-2.png",
+          "tutorial-useful-tips.png",
+          "tutorial-useful-tips-1.png",
+          "tutorial-useful-tips-2.png",
+          "tutorial-useful-tips-3.png",
+          "tutorial-useful-tips-4.png",
+          "tutorial-crops.png",
+          "tutorial-animals.png"
+        ],
+        "emulator_error_count": 0,
+        "limitations": [
+          "Screenshots require visual inspection; no OCR assertion",
+          "Empty animal/fish lists in this SRAM fixture; those labels have isolated renderer checks only",
+          "Map descriptions all pointer-verified and line-probed; all hotspots not manually replayed",
+          "HUD date abbreviations SP/Mon/AM and day-unit graphics remain original",
+          "No real-hardware or full-season test"
+        ]
+      },
+      "full_smoke": {
+        "target_sha256": "50e587f1e8cfdf09b1bd2118574ff460856cb30e4f678f822d43ad78b5528caa",
+        "checks": {
+          "ascii_native_outlines_at_common_baseline": 95,
+          "legacy_glyph_fallback_unchanged": 10,
+          "vietnamese_glyph_rasters_and_buffer_guards": 134,
+          "custom_code_width_without_drawing": 134,
+          "menu_multibyte_string_renderer_and_guards": 7,
+          "crop_item_pointers_and_multibyte_renderer": 15,
+          "full_charset_through_multibyte_string_renderer": 134,
+          "ascii_and_mixed_accent_spacing_strings": 9,
+          "no_save_title_cursor": {
+            "label": "title.start",
+            "x": 67,
+            "y": 114,
+            "visible_border_x": 82,
+            "gap_pixels": 0
+          },
+          "title_sprite_vram_matches_artwork": "28 tiles, 56x32 canvas, Bắt đầu",
+          "title_animation_matches_original_frames": 180,
+          "title_prompt_y_positions": [
+            110,
+            111,
+            112
+          ],
+          "title_initial_frame_pixels_outside_prompt_unchanged": "passed",
+          "normal_new_game_input_replay_frames": 13463,
+          "emulator_state_round_trip": "passed",
+          "saved_title_cursor_switch_left_right": [
+            {
+              "label": "title.continue",
+              "x": 134,
+              "y": 114,
+              "visible_border_x": 149,
+              "gap_pixels": 0
+            },
+            {
+              "label": "title.start",
+              "x": 11,
+              "y": 114,
+              "visible_border_x": 26,
+              "gap_pixels": 0
+            },
+            {
+              "label": "title.continue",
+              "x": 133,
+              "y": 114,
+              "visible_border_x": 149,
+              "gap_pixels": 1
+            }
+          ],
+          "continue_sprite_vram_and_saved_title_animation": "40 tiles, 80x32; original arrow; 180 frames passed",
+          "saved_title_pixels_outside_prompts_unchanged": "passed",
+          "in_game_sram_save_and_cold_boot_load": {
+            "size": 32768,
+            "sha256": "010d245cc521b3d21b5eecfe1ee31ce5ab432f22cf1ed990defda9325451258b",
+            "save_integrity_after_reboot": "identical",
+            "screenshots": "diary-saved, diary-load-menu, game-loaded"
+          },
+          "emulator_error_count": 0
+        },
+        "limitations": [
+          "No real-hardware test",
+          "No full-season gameplay test",
+          "Popuri not encountered in normal gameplay replay",
+          "All item screens and description layouts not playtested"
+        ],
+        "status": "passed; screenshots require visual inspection"
+      }
+    },
+    "dev": {
+      "start_menu": {
+        "target_sha256": "50e587f1e8cfdf09b1bd2118574ff460856cb30e4f678f822d43ad78b5528caa",
+        "status": "passed",
+        "translated_records": 162,
+        "isolated_renderer_lines_with_guards": 239,
+        "relocated_pointer_fields_verified": 197,
+        "bag_title_buffers": [
+          {
+            "id": "ui.start.1000b4",
+            "encoded_bytes": 9,
+            "cells": 7,
+            "title_buffer_bytes": 12,
+            "next_field_backpack_size": 2
+          },
+          {
+            "id": "ui.start.1000bc",
+            "encoded_bytes": 10,
+            "cells": 8,
+            "title_buffer_bytes": 12,
+            "next_field_backpack_size": 2
+          }
+        ],
+        "book_title_cache_vram_offset": 2048,
+        "screenshots": [
+          "start-diary.png",
+          "start-rucksack.png",
+          "start-world-map.png",
+          "start-farm-map.png",
+          "start-earnings.png",
+          "start-memo.png",
+          "start-tutorial.png",
+          "diary-row-0.png",
+          "diary-row-1.png",
+          "diary-row-2.png",
+          "diary-row-3.png",
+          "diary-row-4.png",
+          "diary-row-5.png",
+          "diary-save-slot.png",
+          "diary-save-confirm.png",
+          "diary-load-slot.png",
+          "diary-load-confirm.png",
+          "earnings-page-0.png",
+          "earnings-page-1.png",
+          "earnings-page-2.png",
+          "earnings-page-3.png",
+          "memo-page-0.png",
+          "memo-page-1.png",
+          "memo-page-2.png",
+          "tutorial-useful-tips.png",
+          "tutorial-useful-tips-1.png",
+          "tutorial-useful-tips-2.png",
+          "tutorial-useful-tips-3.png",
+          "tutorial-useful-tips-4.png",
+          "tutorial-crops.png",
+          "tutorial-animals.png"
+        ],
+        "emulator_error_count": 0,
+        "limitations": [
+          "Screenshots require visual inspection; no OCR assertion",
+          "Empty animal/fish lists in this SRAM fixture; those labels have isolated renderer checks only",
+          "Map descriptions all pointer-verified and line-probed; all hotspots not manually replayed",
+          "HUD date abbreviations SP/Mon/AM and day-unit graphics remain original",
+          "No real-hardware or full-season test"
+        ]
+      },
+      "full_smoke": {
+        "target_sha256": "50e587f1e8cfdf09b1bd2118574ff460856cb30e4f678f822d43ad78b5528caa",
+        "checks": {
+          "ascii_native_outlines_at_common_baseline": 95,
+          "legacy_glyph_fallback_unchanged": 10,
+          "vietnamese_glyph_rasters_and_buffer_guards": 134,
+          "custom_code_width_without_drawing": 134,
+          "menu_multibyte_string_renderer_and_guards": 7,
+          "crop_item_pointers_and_multibyte_renderer": 15,
+          "full_charset_through_multibyte_string_renderer": 134,
+          "ascii_and_mixed_accent_spacing_strings": 9,
+          "no_save_title_cursor": {
+            "label": "title.start",
+            "x": 67,
+            "y": 114,
+            "visible_border_x": 82,
+            "gap_pixels": 0
+          },
+          "title_sprite_vram_matches_artwork": "28 tiles, 56x32 canvas, Bắt đầu",
+          "title_animation_matches_original_frames": 180,
+          "title_prompt_y_positions": [
+            110,
+            111,
+            112
+          ],
+          "title_initial_frame_pixels_outside_prompt_unchanged": "passed",
+          "normal_new_game_input_replay_frames": 13463,
+          "emulator_state_round_trip": "passed",
+          "saved_title_cursor_switch_left_right": [
+            {
+              "label": "title.continue",
+              "x": 134,
+              "y": 114,
+              "visible_border_x": 149,
+              "gap_pixels": 0
+            },
+            {
+              "label": "title.start",
+              "x": 11,
+              "y": 114,
+              "visible_border_x": 26,
+              "gap_pixels": 0
+            },
+            {
+              "label": "title.continue",
+              "x": 133,
+              "y": 114,
+              "visible_border_x": 149,
+              "gap_pixels": 1
+            }
+          ],
+          "continue_sprite_vram_and_saved_title_animation": "40 tiles, 80x32; original arrow; 180 frames passed",
+          "saved_title_pixels_outside_prompts_unchanged": "passed",
+          "in_game_sram_save_and_cold_boot_load": {
+            "size": 32768,
+            "sha256": "010d245cc521b3d21b5eecfe1ee31ce5ab432f22cf1ed990defda9325451258b",
+            "save_integrity_after_reboot": "identical",
+            "screenshots": "diary-saved, diary-load-menu, game-loaded"
+          },
+          "emulator_error_count": 0
+        },
+        "limitations": [
+          "No real-hardware test",
+          "No full-season gameplay test",
+          "Popuri not encountered in normal gameplay replay",
+          "All item screens and description layouts not playtested"
+        ],
+        "status": "passed; screenshots require visual inspection"
+      }
+    }
+  },
+  "screenshots": [
+    {
+      "path": "docs/evidence/start-menu/diary-load-confirm.png",
+      "sha256": "c6088645401d92872cc5c8e7b35ac8aad14dd25fada41ad71c151463ac5aac20"
+    },
+    {
+      "path": "docs/evidence/start-menu/diary-load-slot.png",
+      "sha256": "1eb35997aa3592d64b159fa641e5460faea624ca24778475b2cb532c0e67eb7e"
+    },
+    {
+      "path": "docs/evidence/start-menu/diary-row-0.png",
+      "sha256": "8220ed9b22477d13d8b1be576e53d87b65925d7ce6e09ad74507750096da3ac0"
+    },
+    {
+      "path": "docs/evidence/start-menu/diary-row-1.png",
+      "sha256": "d5f092ad54443201accdfcc74820864151df071e91c4666fbb56ccd1fc347fff"
+    },
+    {
+      "path": "docs/evidence/start-menu/diary-row-2.png",
+      "sha256": "bb98eea7886f8d86564836383619a51184d06e1f8d32e3838cdf9ef7671768d8"
+    },
+    {
+      "path": "docs/evidence/start-menu/diary-row-3.png",
+      "sha256": "9875ec48a228839eb83e1ac3721dd9d763378b27b74de9cedbfb83c584435796"
+    },
+    {
+      "path": "docs/evidence/start-menu/diary-row-4.png",
+      "sha256": "92ba5429da1c3dbc5268301b5c8171d50a88915d3d1ed9f6edcfbb21a2e85d8e"
+    },
+    {
+      "path": "docs/evidence/start-menu/diary-row-5.png",
+      "sha256": "b8fde984998675c053813e05473e8fe884901a7071ee944023589fa3a41dc9bf"
+    },
+    {
+      "path": "docs/evidence/start-menu/diary-save-confirm.png",
+      "sha256": "9ab7fa0ddd7faa46f15d4ab2326cf65b9467e02582cb33daceb9c1caf4d9eb4d"
+    },
+    {
+      "path": "docs/evidence/start-menu/diary-save-slot.png",
+      "sha256": "0755bcb0541539a7ada0918164529a7a2e749decc5b564e13dc0aee816412b1e"
+    },
+    {
+      "path": "docs/evidence/start-menu/earnings-page-0.png",
+      "sha256": "37462367125f71163c7f1f8c8bf2754be5b17d1d6a3d6d25c35edd95be6a935e"
+    },
+    {
+      "path": "docs/evidence/start-menu/earnings-page-1.png",
+      "sha256": "c2afb796ddcd52da9bab1a4453500e312fe170990f6c6ddfbb912487d271db96"
+    },
+    {
+      "path": "docs/evidence/start-menu/earnings-page-2.png",
+      "sha256": "88b0dbff6eb5b33756f5ca446dc4f890ededd3176f0e112433777315242ae5d2"
+    },
+    {
+      "path": "docs/evidence/start-menu/earnings-page-3.png",
+      "sha256": "ebd8596a63852a8a3fb3bca5887bdbcc23de9cb4852bc3b4ddbef12233a7f17a"
+    },
+    {
+      "path": "docs/evidence/start-menu/memo-page-0.png",
+      "sha256": "7fadbae52cc67d9cbbb038f7c722169e157f28a58c0d1a62eafb305cd3c1fdcc"
+    },
+    {
+      "path": "docs/evidence/start-menu/memo-page-1.png",
+      "sha256": "ef24f48d07aa0791806d0d8f67a9213569b6196f96fab3181d96726aadd1f9ac"
+    },
+    {
+      "path": "docs/evidence/start-menu/memo-page-2.png",
+      "sha256": "9cdc0757fdaccd3f53a5b09a70502f513241ec70f21dd21f04b2d01eda239124"
+    },
+    {
+      "path": "docs/evidence/start-menu/start-diary.png",
+      "sha256": "022cb866cc5b54f6eaa531a03a2cde96bf92b52449fa0da39a3fa8a901ff82b2"
+    },
+    {
+      "path": "docs/evidence/start-menu/start-earnings.png",
+      "sha256": "37462367125f71163c7f1f8c8bf2754be5b17d1d6a3d6d25c35edd95be6a935e"
+    },
+    {
+      "path": "docs/evidence/start-menu/start-farm-map.png",
+      "sha256": "607040e19988afff9fd4729168a7ff187db603a0f74157b2179297b4af6aa785"
+    },
+    {
+      "path": "docs/evidence/start-menu/start-memo.png",
+      "sha256": "7fadbae52cc67d9cbbb038f7c722169e157f28a58c0d1a62eafb305cd3c1fdcc"
+    },
+    {
+      "path": "docs/evidence/start-menu/start-overview.png",
+      "sha256": "79e0bda9820aac249943f2994f2b37b9c0b39a723a57578274d85c75352bd447"
+    },
+    {
+      "path": "docs/evidence/start-menu/start-rucksack.png",
+      "sha256": "eed5ce6a82013999e7cd7f6e2500fd64ea01da2c23bd165adf873b3b5a374a36"
+    },
+    {
+      "path": "docs/evidence/start-menu/start-tutorial.png",
+      "sha256": "71cbdf6bf4bc310750f5f5918adecef555d0b90f386269cd58de8595db0314ff"
+    },
+    {
+      "path": "docs/evidence/start-menu/start-world-map.png",
+      "sha256": "bcd06f27bddc968f866b9105863bb3662f268cfe5c05493ee99c32da18568d14"
+    },
+    {
+      "path": "docs/evidence/start-menu/tutorial-animals.png",
+      "sha256": "3a1a4f2074656431d5004a8fb4b631f7de42a2f2c75c8949f2d3ce095ae50c2a"
+    },
+    {
+      "path": "docs/evidence/start-menu/tutorial-crops.png",
+      "sha256": "0dfb6a00d17e096e1f4fed8c05ca829d5f478dc47780b832b9bd64dec74bf3f5"
+    },
+    {
+      "path": "docs/evidence/start-menu/tutorial-useful-tips-1.png",
+      "sha256": "fbec9cd1d44f2010ee77d7e29e01c4ce19a5bf81388718b8552f74ad0d63431f"
+    },
+    {
+      "path": "docs/evidence/start-menu/tutorial-useful-tips-2.png",
+      "sha256": "317946dfe3f5045ab2b9719aeb90ecf6e08113a8d66fc0d4ac7385170003a3d5"
+    },
+    {
+      "path": "docs/evidence/start-menu/tutorial-useful-tips-3.png",
+      "sha256": "317946dfe3f5045ab2b9719aeb90ecf6e08113a8d66fc0d4ac7385170003a3d5"
+    },
+    {
+      "path": "docs/evidence/start-menu/tutorial-useful-tips-4.png",
+      "sha256": "317946dfe3f5045ab2b9719aeb90ecf6e08113a8d66fc0d4ac7385170003a3d5"
+    },
+    {
+      "path": "docs/evidence/start-menu/tutorial-useful-tips.png",
+      "sha256": "595c758331d87731ab79aafabc6fcab446da8069812c8e5e7bfc6c00ab92d9bd"
+    }
+  ],
+  "visual_review": "Overview, diary rows/confirmations, bag headers, statistics/memo pages, tutorial choices and useful-controls pages reviewed manually; limitations in reports apply."
+}

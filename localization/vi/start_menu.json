@@ -1,0 +1,3675 @@
+{
+  "schema_version": 1,
+  "rom_sha1": "a2fc3574f0a65a4fcf7682fb274b9d7eebdef963",
+  "scope": "START pause menu: diary, bag, map descriptions, statistics, memo and tutorial choices",
+  "records": [
+    {
+      "id": "ui.start.0e86a8",
+      "rom_address": "0x080E86A8",
+      "rom_offset": "0x0E86A8",
+      "original_english": "Diary",
+      "vietnamese_translation": "Nhật ký",
+      "context": "start_menu_diary",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "4469617279",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          952068
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 12,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0e86b0",
+      "rom_address": "0x080E86B0",
+      "rom_offset": "0x0E86B0",
+      "original_english": "Save",
+      "vietnamese_translation": "Lưu",
+      "context": "start_menu_diary",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "53617665",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          952072
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 8,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0e86b8",
+      "rom_address": "0x080E86B8",
+      "rom_offset": "0x0E86B8",
+      "original_english": "Load",
+      "vietnamese_translation": "Tải",
+      "context": "start_menu_diary",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "4c6f6164",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          952076
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 6,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0e86c4",
+      "rom_address": "0x080E86C4",
+      "rom_offset": "0x0E86C4",
+      "original_english": "Data 1",
+      "vietnamese_translation": "Tệp 1",
+      "context": "start_menu_diary",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "446174612031",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          952084
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 8,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0e86cc",
+      "rom_address": "0x080E86CC",
+      "rom_offset": "0x0E86CC",
+      "original_english": "Data 2",
+      "vietnamese_translation": "Tệp 2",
+      "context": "start_menu_diary",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "446174612032",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          952088
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 6,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0e86d4",
+      "rom_address": "0x080E86D4",
+      "rom_offset": "0x0E86D4",
+      "original_english": "Buttons",
+      "vietnamese_translation": "Nút bấm",
+      "context": "start_menu_diary",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "427574746f6e73",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          952092
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 12,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0e86e4",
+      "rom_address": "0x080E86E4",
+      "rom_offset": "0x0E86E4",
+      "original_english": "Clock",
+      "vietnamese_translation": "Đồng hồ",
+      "context": "start_menu_diary",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "436c6f636b",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          952104
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 12,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0e86ec",
+      "rom_address": "0x080E86EC",
+      "rom_offset": "0x0E86EC",
+      "original_english": "Yes",
+      "vietnamese_translation": "Có",
+      "context": "start_menu_diary",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "596573",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          18488,
+          18584,
+          952108,
+          952120,
+          952132
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 6,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0e86f0",
+      "rom_address": "0x080E86F0",
+      "rom_offset": "0x0E86F0",
+      "original_english": "No",
+      "vietnamese_translation": "Không",
+      "context": "start_menu_diary",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "4e6f",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          18492,
+          18588,
+          952112,
+          952124,
+          952136
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 6,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0e86f4",
+      "rom_address": "0x080E86F4",
+      "rom_offset": "0x0E86F4",
+      "original_english": "Face",
+      "vietnamese_translation": "Chân dung",
+      "context": "start_menu_diary",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "46616365",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          952116
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 12,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0e86fc",
+      "rom_address": "0x080E86FC",
+      "rom_offset": "0x0E86FC",
+      "original_english": "Name",
+      "vietnamese_translation": "Tên",
+      "context": "start_menu_diary",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "4e616d65",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          952128
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 12,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0e874c",
+      "rom_address": "0x080E874C",
+      "rom_offset": "0x0E874C",
+      "original_english": "Years",
+      "vietnamese_translation": "Năm",
+      "context": "start_menu_diary",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "5965617273",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          15140
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0e8758",
+      "rom_address": "0x080E8758",
+      "rom_offset": "0x0E8758",
+      "original_english": " Day",
+      "vietnamese_translation": " Ngày",
+      "context": "start_menu_diary",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "20446179",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          15148
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0e8768",
+      "rom_address": "0x080E8768",
+      "rom_offset": "0x0E8768",
+      "original_english": " Farm",
+      "vietnamese_translation": " - Trại",
+      "context": "start_menu_diary",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "204661726d",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          15160
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0e8770",
+      "rom_address": "0x080E8770",
+      "rom_offset": "0x0E8770",
+      "original_english": "Read diary.",
+      "vietnamese_translation": "Đọc nhật ký.",
+      "context": "start_menu_diary",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "526561642064696172792e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          16180
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0e877c",
+      "rom_address": "0x080E877C",
+      "rom_offset": "0x0E877C",
+      "original_english": "Write in diary.",
+      "vietnamese_translation": "Ghi nhật ký.",
+      "context": "start_menu_diary",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "577269746520696e2064696172792e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          16176
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0e878c",
+      "rom_address": "0x080E878C",
+      "rom_offset": "0x0E878C",
+      "original_english": "There is no saved data.",
+      "vietnamese_translation": "Chưa có dữ liệu đã lưu.",
+      "context": "start_menu_diary",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "5468657265206973206e6f20736176656420646174612e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          16224,
+          18528
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0e87a4",
+      "rom_address": "0x080E87A4",
+      "rom_offset": "0x0E87A4",
+      "original_english": "Controls        1       2{CR}{LF}Control Pad     Walk    Run{CR}{LF}R Button        Run     Walk",
+      "vietnamese_translation": "Nút bấm       1       2{CR}{LF}Phím hướng    Đi bộ   Chạy{CR}{LF}Nút R         Chạy    Đi bộ",
+      "context": "start_menu_diary",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "436f6e74726f6c7320202020202020203120202020202020320d0a436f6e74726f6c20506164202020202057616c6b2020202052756e0d0a5220427574746f6e202020202020202052756e202020202057616c6b",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          16232
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0e87fc",
+      "rom_address": "0x080E87FC",
+      "rom_offset": "0x0E87FC",
+      "original_english": "Show or hide the Clock {CR}{LF}in the Map Window",
+      "vietnamese_translation": "Hiện hoặc ẩn đồng hồ{CR}{LF}trên cửa sổ bản đồ",
+      "context": "start_menu_diary",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "53686f77206f7220686964652074686520436c6f636b200d0a696e20746865204d61702057696e646f77",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          16240
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0e8828",
+      "rom_address": "0x080E8828",
+      "rom_offset": "0x0E8828",
+      "original_english": "Show or hide the face of {CR}{LF}the person you're talking{CR}{LF}to in the Message Window{WAIT}",
+      "vietnamese_translation": "Hiện hoặc ẩn chân dung{CR}{LF}của người đang trò chuyện{CR}{LF}trong khung hội thoại{WAIT}",
+      "context": "start_menu_diary",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "53686f77206f722068696465207468652066616365206f66200d0a74686520706572736f6e20796f752772652074616c6b696e670d0a746f20696e20746865204d6573736167652057696e646f7705",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          16248
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0e8878",
+      "rom_address": "0x080E8878",
+      "rom_offset": "0x0E8878",
+      "original_english": "Show or hide the name of {CR}{LF}the person you're talking{CR}{LF}to in the Message Window{WAIT}",
+      "vietnamese_translation": "Hiện hoặc ẩn tên{CR}{LF}của người đang trò chuyện{CR}{LF}trong khung hội thoại{WAIT}",
+      "context": "start_menu_diary",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "53686f77206f72206869646520746865206e616d65206f66200d0a74686520706572736f6e20796f752772652074616c6b696e670d0a746f20696e20746865204d6573736167652057696e646f7705",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          16276
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0e88c8",
+      "rom_address": "0x080E88C8",
+      "rom_offset": "0x0E88C8",
+      "original_english": "Save failed.{WAIT}",
+      "vietnamese_translation": "Lưu thất bại.{WAIT}",
+      "context": "start_menu_diary",
+      "speaker": null,
+      "control_codes": [
+        "{WAIT}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "53617665206661696c65642e05",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          16540
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0e88d8",
+      "rom_address": "0x080E88D8",
+      "rom_offset": "0x0E88D8",
+      "original_english": "Load failed.{CR}{LF}The saved data may{CR}{LF}be corrupted.{WAIT}",
+      "vietnamese_translation": "Tải thất bại.{CR}{LF}Dữ liệu đã lưu có thể{CR}{LF}đã bị hỏng.{WAIT}",
+      "context": "start_menu_diary",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "4c6f6164206661696c65642e0d0a5468652073617665642064617461206d61790d0a626520636f727275707465642e05",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          16856
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0e890c",
+      "rom_address": "0x080E890C",
+      "rom_offset": "0x0E890C",
+      "original_english": "Load?",
+      "vietnamese_translation": "Tải dữ liệu?",
+      "context": "start_menu_diary",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "4c6f61643f",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          18484
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required",
+      "max_encoded_bytes": 28
+    },
+    {
+      "id": "ui.start.0e8914",
+      "rom_address": "0x080E8914",
+      "rom_offset": "0x0E8914",
+      "original_english": "Overwrite?",
+      "vietnamese_translation": "Ghi đè dữ liệu?",
+      "context": "start_menu_diary",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "4f76657277726974653f",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          18580
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required",
+      "max_encoded_bytes": 28
+    },
+    {
+      "id": "ui.start.0f05b8",
+      "rom_address": "0x080F05B8",
+      "rom_offset": "0x0F05B8",
+      "original_english": "Crops",
+      "vietnamese_translation": "Trồng trọt",
+      "context": "start_menu_tutorial",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "43726f7073",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          888204,
+          891300
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 12,
+      "layout_budget": "conservative; runtime review required",
+      "max_encoded_bytes": 12
+    },
+    {
+      "id": "ui.start.0f05c0",
+      "rom_address": "0x080F05C0",
+      "rom_offset": "0x0F05C0",
+      "original_english": "Animals",
+      "vietnamese_translation": "Chăn nuôi",
+      "context": "start_menu_tutorial",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "416e696d616c73",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          888208,
+          891304
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 12,
+      "layout_budget": "conservative; runtime review required",
+      "max_encoded_bytes": 12
+    },
+    {
+      "id": "ui.start.0f05c8",
+      "rom_address": "0x080F05C8",
+      "rom_offset": "0x0F05C8",
+      "original_english": "Useful Tips",
+      "vietnamese_translation": "Mẹo hay",
+      "context": "start_menu_tutorial",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "55736566756c2054697073",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          888212,
+          891308
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 12,
+      "layout_budget": "conservative; runtime review required",
+      "max_encoded_bytes": 12
+    },
+    {
+      "id": "ui.start.0f05d4",
+      "rom_address": "0x080F05D4",
+      "rom_offset": "0x0F05D4",
+      "original_english": "Exit",
+      "vietnamese_translation": "Thoát",
+      "context": "start_menu_tutorial",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "45786974",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          888216,
+          891312
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 12,
+      "layout_budget": "conservative; runtime review required",
+      "max_encoded_bytes": 12
+    },
+    {
+      "id": "ui.start.0fb824",
+      "rom_address": "0x080FB824",
+      "rom_offset": "0x0FB824",
+      "original_english": " Property ",
+      "vietnamese_translation": " - Tài sản",
+      "context": "start_menu_statistics",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "2050726f706572747920",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          393384
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 10,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fb838",
+      "rom_address": "0x080FB838",
+      "rom_offset": "0x0FB838",
+      "original_english": "Healthy ",
+      "vietnamese_translation": "Khỏe    ",
+      "context": "start_menu_statistics",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "4865616c74687920",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          405424
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 8,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fb844",
+      "rom_address": "0x080FB844",
+      "rom_offset": "0x0FB844",
+      "original_english": "Unhappy ",
+      "vietnamese_translation": "Buồn    ",
+      "context": "start_menu_statistics",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "556e686170707920",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          405820
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 8,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fb850",
+      "rom_address": "0x080FB850",
+      "rom_offset": "0x0FB850",
+      "original_english": "Sick    ",
+      "vietnamese_translation": "Ốm      ",
+      "context": "start_menu_statistics",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "5369636b20202020",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          406124
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 8,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fb85c",
+      "rom_address": "0x080FB85C",
+      "rom_offset": "0x0FB85C",
+      "original_english": "Spring",
+      "vietnamese_translation": "Xuân  ",
+      "context": "start_menu_statistics",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "537072696e67",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          406408,
+          420620
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 6,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fb864",
+      "rom_address": "0x080FB864",
+      "rom_offset": "0x0FB864",
+      "original_english": "Summer",
+      "vietnamese_translation": "Hạ    ",
+      "context": "start_menu_statistics",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "53756d6d6572",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          406692,
+          420904
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 6,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fb86c",
+      "rom_address": "0x080FB86C",
+      "rom_offset": "0x0FB86C",
+      "original_english": "Fall  ",
+      "vietnamese_translation": "Thu   ",
+      "context": "start_menu_statistics",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "46616c6c2020",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          406976,
+          421192
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 6,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fb874",
+      "rom_address": "0x080FB874",
+      "rom_offset": "0x0FB874",
+      "original_english": "Winter",
+      "vietnamese_translation": "Đông  ",
+      "context": "start_menu_statistics",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "57696e746572",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          407260,
+          421480
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 6,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fb87c",
+      "rom_address": "0x080FB87C",
+      "rom_offset": "0x0FB87C",
+      "original_english": "yr",
+      "vietnamese_translation": "n.",
+      "context": "start_menu_statistics",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "7972",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          407540
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 3,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fb880",
+      "rom_address": "0x080FB880",
+      "rom_offset": "0x0FB880",
+      "original_english": "List of Chickens",
+      "vietnamese_translation": "Đàn gà          ",
+      "context": "start_menu_statistics",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "4c697374206f6620436869636b656e73",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          410500
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 16,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fb894",
+      "rom_address": "0x080FB894",
+      "rom_offset": "0x0FB894",
+      "original_english": "List of Cattle",
+      "vietnamese_translation": "Đàn bò        ",
+      "context": "start_menu_statistics",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "4c697374206f6620436174746c65",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          410712
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 16,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fb8a4",
+      "rom_address": "0x080FB8A4",
+      "rom_offset": "0x0FB8A4",
+      "original_english": "List of Sheep ",
+      "vietnamese_translation": "Đàn cừu       ",
+      "context": "start_menu_statistics",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "4c697374206f6620536865657020",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          410984
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 16,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fb8b4",
+      "rom_address": "0x080FB8B4",
+      "rom_offset": "0x0FB8B4",
+      "original_english": "Harvest Sprites ",
+      "vietnamese_translation": "Chú lùn         ",
+      "context": "start_menu_statistics",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "48617276657374205370726974657320",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          411324
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 16,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fb8cc",
+      "rom_address": "0x080FB8CC",
+      "rom_offset": "0x0FB8CC",
+      "original_english": "left",
+      "vietnamese_translation": "còn ",
+      "context": "start_menu_statistics",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "6c656674",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          411684
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 4,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fb8d4",
+      "rom_address": "0x080FB8D4",
+      "rom_offset": "0x0FB8D4",
+      "original_english": "work    ",
+      "vietnamese_translation": "làm việc",
+      "context": "start_menu_statistics",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "776f726b20202020",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          411976
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 8,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fb8e0",
+      "rom_address": "0x080FB8E0",
+      "rom_offset": "0x0FB8E0",
+      "original_english": "N/A         ",
+      "vietnamese_translation": "Không có    ",
+      "context": "start_menu_statistics",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "4e2f41202020202020202020",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          412268
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 12,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fb8f0",
+      "rom_address": "0x080FB8F0",
+      "rom_offset": "0x0FB8F0",
+      "original_english": "Earnings Report ",
+      "vietnamese_translation": "Báo cáo thu chi ",
+      "context": "start_menu_statistics",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "4561726e696e6773205265706f727420",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          419192
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 16,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fb90c",
+      "rom_address": "0x080FB90C",
+      "rom_offset": "0x0FB90C",
+      "original_english": "Year",
+      "vietnamese_translation": "Năm ",
+      "context": "start_menu_statistics",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "59656172",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          421788
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 4,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fb914",
+      "rom_address": "0x080FB914",
+      "rom_offset": "0x0FB914",
+      "original_english": "Income",
+      "vietnamese_translation": "Thu   ",
+      "context": "start_menu_statistics",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "496e636f6d65",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          422104
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 6,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fb91c",
+      "rom_address": "0x080FB91C",
+      "rom_offset": "0x0FB91C",
+      "original_english": "Expenses",
+      "vietnamese_translation": "Chi     ",
+      "context": "start_menu_statistics",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "457870656e736573",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          422416
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 8,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fb928",
+      "rom_address": "0x080FB928",
+      "rom_offset": "0x0FB928",
+      "original_english": "Tool Level List ",
+      "vietnamese_translation": "Cấp dụng cụ     ",
+      "context": "start_menu_statistics",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "546f6f6c204c6576656c204c69737420",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          427004
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 16,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fb93c",
+      "rom_address": "0x080FB93C",
+      "rom_offset": "0x0FB93C",
+      "original_english": "Shop  ",
+      "vietnamese_translation": "Tiệm  ",
+      "context": "start_menu_statistics",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "53686f702020",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          427024
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 6,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fb944",
+      "rom_address": "0x080FB944",
+      "rom_offset": "0x0FB944",
+      "original_english": "Upgrade?",
+      "vietnamese_translation": "Nâng cấp",
+      "context": "start_menu_statistics",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "557067726164653f",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          427368
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 8,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fbe7c",
+      "rom_address": "0x080FBE7C",
+      "rom_offset": "0x0FBE7C",
+      "original_english": "Number shipped",
+      "vietnamese_translation": "Số lượng đã bán",
+      "context": "start_menu_statistics",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "4e756d6265722073686970706564",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          462440
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 22,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fbe90",
+      "rom_address": "0x080FBE90",
+      "rom_offset": "0x0FBE90",
+      "original_english": "Fishing ",
+      "vietnamese_translation": "Câu cá  ",
+      "context": "start_menu_statistics",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "46697368696e6720",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          464016
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 8,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fbe9c",
+      "rom_address": "0x080FBE9C",
+      "rom_offset": "0x0FBE9C",
+      "original_english": "Name",
+      "vietnamese_translation": "Tên ",
+      "context": "start_menu_statistics",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "4e616d65",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          464028
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 4,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fbea4",
+      "rom_address": "0x080FBEA4",
+      "rom_offset": "0x0FBEA4",
+      "original_english": "Maximum size",
+      "vietnamese_translation": "Cỡ lớn nhất ",
+      "context": "start_menu_statistics",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "4d6178696d756d2073697a65",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          464448
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 12,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fbeb4",
+      "rom_address": "0x080FBEB4",
+      "rom_offset": "0x0FBEB4",
+      "original_english": "Results ",
+      "vietnamese_translation": "Kết quả ",
+      "context": "start_menu_statistics",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "526573756c747320",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          464748
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 8,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fbec0",
+      "rom_address": "0x080FBEC0",
+      "rom_offset": "0x0FBEC0",
+      "original_english": "fish",
+      "vietnamese_translation": "con ",
+      "context": "start_menu_statistics",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "66697368",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          465048
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 4,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fbed8",
+      "rom_address": "0x080FBED8",
+      "rom_offset": "0x0FBED8",
+      "original_english": "Other ",
+      "vietnamese_translation": "Khác  ",
+      "context": "start_menu_statistics",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "4f7468657220",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          468156
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 6,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fbefc",
+      "rom_address": "0x080FBEFC",
+      "rom_offset": "0x0FBEFC",
+      "original_english": "Harvest ",
+      "vietnamese_translation": "Thu hái ",
+      "context": "start_menu_statistics",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "4861727665737420",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          469004
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 9,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fbf08",
+      "rom_address": "0x080FBF08",
+      "rom_offset": "0x0FBF08",
+      "original_english": "Animal Husbandry",
+      "vietnamese_translation": "Chăn nuôi       ",
+      "context": "start_menu_statistics",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "416e696d616c2048757362616e647279",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          469300
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 16,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fbf1c",
+      "rom_address": "0x080FBF1C",
+      "rom_offset": "0x0FBF1C",
+      "original_english": "Watering",
+      "vietnamese_translation": "Tưới cây",
+      "context": "start_menu_statistics",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "5761746572696e67",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          469596
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 8,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fbf28",
+      "rom_address": "0x080FBF28",
+      "rom_offset": "0x0FBF28",
+      "original_english": "Frisbee ",
+      "vietnamese_translation": "Ném đĩa ",
+      "context": "start_menu_statistics",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "4672697362656520",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          469892
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 8,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fbf34",
+      "rom_address": "0x080FBF34",
+      "rom_offset": "0x0FBF34",
+      "original_english": "sec.",
+      "vietnamese_translation": "giây",
+      "context": "start_menu_statistics",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "7365632e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          471068
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 4,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fbf58",
+      "rom_address": "0x080FBF58",
+      "rom_offset": "0x0FBF58",
+      "original_english": "Highest amount",
+      "vietnamese_translation": "Cao nhất      ",
+      "context": "start_menu_statistics",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "4869676865737420616d6f756e74",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          472384
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 14,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fbf68",
+      "rom_address": "0x080FBF68",
+      "rom_offset": "0x0FBF68",
+      "original_english": "earned  ",
+      "vietnamese_translation": "đã thu  ",
+      "context": "start_menu_statistics",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "6561726e65642020",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          472688
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 8,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fbf74",
+      "rom_address": "0x080FBF74",
+      "rom_offset": "0x0FBF74",
+      "original_english": "used    ",
+      "vietnamese_translation": "đã chi  ",
+      "context": "start_menu_statistics",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "7573656420202020",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          472992
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 8,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fbfa0",
+      "rom_address": "0x080FBFA0",
+      "rom_offset": "0x0FBFA0",
+      "original_english": "Chicken ",
+      "vietnamese_translation": "Gà      ",
+      "context": "start_menu_statistics",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "436869636b656e20",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          474576
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 8,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fbfac",
+      "rom_address": "0x080FBFAC",
+      "rom_offset": "0x0FBFAC",
+      "original_english": "Cow ",
+      "vietnamese_translation": "Bò  ",
+      "context": "start_menu_statistics",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "436f7720",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          474880
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 4,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fbfb4",
+      "rom_address": "0x080FBFB4",
+      "rom_offset": "0x0FBFB4",
+      "original_english": "Sheep ",
+      "vietnamese_translation": "Cừu   ",
+      "context": "start_menu_statistics",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "536865657020",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          475184
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 6,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fbfbc",
+      "rom_address": "0x080FBFBC",
+      "rom_offset": "0x0FBFBC",
+      "original_english": "years ",
+      "vietnamese_translation": "năm   ",
+      "context": "start_menu_statistics",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "796561727320",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          475488
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 6,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fbff0",
+      "rom_address": "0x080FBFF0",
+      "rom_offset": "0x0FBFF0",
+      "original_english": "levels below ground ",
+      "vietnamese_translation": "tầng dưới mặt đất   ",
+      "context": "start_menu_statistics",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "6c6576656c732062656c6f772067726f756e6420",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          478604
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 20,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fc008",
+      "rom_address": "0x080FC008",
+      "rom_offset": "0x0FC008",
+      "original_english": "Number of moles whacked ",
+      "vietnamese_translation": "Số chuột chũi đã đập    ",
+      "context": "start_menu_statistics",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "4e756d626572206f66206d6f6c657320776861636b656420",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          479028
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 24,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.1000b4",
+      "rom_address": "0x081000B4",
+      "rom_offset": "0x1000B4",
+      "original_english": "Tools",
+      "vietnamese_translation": "Dụng cụ",
+      "context": "start_menu_rucksack",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "546f6f6c73",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          574192
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 8,
+      "layout_budget": "conservative; runtime review required",
+      "max_encoded_bytes": 11
+    },
+    {
+      "id": "ui.start.1000bc",
+      "rom_address": "0x081000BC",
+      "rom_offset": "0x1000BC",
+      "original_english": "Items",
+      "vietnamese_translation": "Vật phẩm",
+      "context": "start_menu_rucksack",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "4974656d73",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          574196
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 8,
+      "layout_budget": "conservative; runtime review required",
+      "max_encoded_bytes": 11
+    },
+    {
+      "id": "ui.start.0fc6f0",
+      "rom_address": "0x080FC6F0",
+      "rom_offset": "0x0FC6F0",
+      "original_english": "Mountain Cottage",
+      "vietnamese_translation": "Nhà trên núi",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "4d6f756e7461696e20436f7474616765",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1036416,
+          1036420
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fc704",
+      "rom_address": "0x080FC704",
+      "rom_offset": "0x0FC704",
+      "original_english": "Seaside Cottage",
+      "vietnamese_translation": "Nhà ven biển",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "5365617369646520436f7474616765",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1036436,
+          1036440
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fc714",
+      "rom_address": "0x080FC714",
+      "rom_offset": "0x0FC714",
+      "original_english": "Town Cottage",
+      "vietnamese_translation": "Nhà trong phố",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "546f776e20436f7474616765",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1036456,
+          1036460
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fc724",
+      "rom_address": "0x080FC724",
+      "rom_offset": "0x0FC724",
+      "original_english": "Time Window{CR}{LF}This is the present season.",
+      "vietnamese_translation": "Đồng hồ{CR}{LF}Đây là mùa hiện tại.",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "54696d652057696e646f770d0a54686973206973207468652070726573656e7420736561736f6e2e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1036476,
+          1036480
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fc750",
+      "rom_address": "0x080FC750",
+      "rom_offset": "0x0FC750",
+      "original_english": "Time Window{CR}{LF}This is today's date.",
+      "vietnamese_translation": "Đồng hồ{CR}{LF}Đây là ngày hôm nay.",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "54696d652057696e646f770d0a5468697320697320746f646179277320646174652e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1036496,
+          1036500
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fc774",
+      "rom_address": "0x080FC774",
+      "rom_offset": "0x0FC774",
+      "original_english": "Time Window{CR}{LF}This is today's day.",
+      "vietnamese_translation": "Đồng hồ{CR}{LF}Đây là thứ hôm nay.",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "54696d652057696e646f770d0a5468697320697320746f6461792773206461792e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1036516,
+          1036520
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fc798",
+      "rom_address": "0x080FC798",
+      "rom_offset": "0x0FC798",
+      "original_english": "Time Window{CR}{LF}This is the current time.",
+      "vietnamese_translation": "Đồng hồ{CR}{LF}Đây là giờ hiện tại.",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "54696d652057696e646f770d0a54686973206973207468652063757272656e742074696d652e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1036536,
+          1036540
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fc7c0",
+      "rom_address": "0x080FC7C0",
+      "rom_offset": "0x0FC7C0",
+      "original_english": "Time Window{CR}{LF}This is today's weather.",
+      "vietnamese_translation": "Đồng hồ{CR}{LF}Đây là thời tiết hôm nay.",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "54696d652057696e646f770d0a5468697320697320746f646179277320776561746865722e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1036556,
+          1036560
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fc7e8",
+      "rom_address": "0x080FC7E8",
+      "rom_offset": "0x0FC7E8",
+      "original_english": "Time Window",
+      "vietnamese_translation": "Đồng hồ",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "54696d652057696e646f77",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1036576,
+          1036580
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fc7f4",
+      "rom_address": "0x080FC7F4",
+      "rom_offset": "0x0FC7F4",
+      "original_english": "Basil's House",
+      "vietnamese_translation": "Nhà Basil",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "426173696c277320486f757365",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1036596,
+          1036600
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fc804",
+      "rom_address": "0x080FC804",
+      "rom_offset": "0x0FC804",
+      "original_english": "Mary's Library {CR}{LF}There are many books.",
+      "vietnamese_translation": "Thư viện Mary{CR}{LF}Có rất nhiều sách ở đây.",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "4d6172792773204c696272617279200d0a546865726520617265206d616e7920626f6f6b732e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1036616
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fc82c",
+      "rom_address": "0x080FC82C",
+      "rom_offset": "0x0FC82C",
+      "original_english": "Mary's Library{CR}{LF}Hours: 10AM-4PM{CR}{LF}Closed: Mondays",
+      "vietnamese_translation": "Thư viện Mary{CR}{LF}Mở cửa: 10h-16h{CR}{LF}Nghỉ: Thứ Hai",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "4d6172792773204c6962726172790d0a486f7572733a203130414d2d34504d0d0a436c6f7365643a204d6f6e64617973",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1036620
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fc860",
+      "rom_address": "0x080FC860",
+      "rom_offset": "0x0FC860",
+      "original_english": "Ellen's House",
+      "vietnamese_translation": "Nhà Ellen",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "456c6c656e277320486f757365",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1036636,
+          1036640
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fc870",
+      "rom_address": "0x080FC870",
+      "rom_offset": "0x0FC870",
+      "original_english": "Mayor's House",
+      "vietnamese_translation": "Nhà thị trưởng",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "4d61796f72277320486f757365",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1036656,
+          1036660
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fc880",
+      "rom_address": "0x080FC880",
+      "rom_offset": "0x0FC880",
+      "original_english": "Supermarket{CR}{LF}Has many things, including {CR}{LF}Seeds and ingredients.",
+      "vietnamese_translation": "Siêu thị{CR}{LF}Bán nhiều mặt hàng, gồm{CR}{LF}hạt giống và nguyên liệu.",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "53757065726d61726b65740d0a486173206d616e79207468696e67732c20696e636c7564696e67200d0a536565647320616e6420696e6772656469656e74732e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1036676
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fc8c4",
+      "rom_address": "0x080FC8C4",
+      "rom_offset": "0x0FC8C4",
+      "original_english": "Supermarket{CR}{LF}Hours: 9AM-5PM{CR}{LF}Closed: Tuesdays, Sundays",
+      "vietnamese_translation": "Siêu thị{CR}{LF}Mở cửa: 9h-17h{CR}{LF}Nghỉ: Thứ Ba, Chủ nhật",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "53757065726d61726b65740d0a486f7572733a2039414d2d35504d0d0a436c6f7365643a2054756573646179732c2053756e64617973",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1036680
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fc8fc",
+      "rom_address": "0x080FC8FC",
+      "rom_offset": "0x0FC8FC",
+      "original_english": "Mineral Clinic{CR}{LF}Get examined or buy drugs.",
+      "vietnamese_translation": "Phòng khám Mineral{CR}{LF}Khám bệnh hoặc mua thuốc.",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "4d696e6572616c20436c696e69630d0a476574206578616d696e6564206f72206275792064727567732e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1036696
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fc928",
+      "rom_address": "0x080FC928",
+      "rom_offset": "0x0FC928",
+      "original_english": "Mineral Clinic{CR}{LF}Hours: 9AM-4PM{CR}{LF}Closed: Wednesdays",
+      "vietnamese_translation": "Phòng khám Mineral{CR}{LF}Mở cửa: 9h-16h{CR}{LF}Nghỉ: Thứ Tư",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "4d696e6572616c20436c696e69630d0a486f7572733a2039414d2d34504d0d0a436c6f7365643a205765646e657364617973",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1036700
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fc95c",
+      "rom_address": "0x080FC95C",
+      "rom_offset": "0x0FC95C",
+      "original_english": "Church{CR}{LF}Weddings, funerals and also{CR}{LF}confessionals are here.",
+      "vietnamese_translation": "Nhà thờ{CR}{LF}Nơi tổ chức lễ cưới,{CR}{LF}tang lễ và xưng tội.",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "4368757263680d0a57656464696e67732c2066756e6572616c7320616e6420616c736f0d0a636f6e66657373696f6e616c732061726520686572652e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1036716
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fc99c",
+      "rom_address": "0x080FC99C",
+      "rom_offset": "0x0FC99C",
+      "original_english": "Church{CR}{LF}Time: 10AM-7PM",
+      "vietnamese_translation": "Nhà thờ{CR}{LF}Giờ: 10h-19h",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "4368757263680d0a54696d653a203130414d2d37504d",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1036720
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fc9b4",
+      "rom_address": "0x080FC9B4",
+      "rom_offset": "0x0FC9B4",
+      "original_english": "Aja Winery{CR}{LF}Duke and his wife sell {CR}{LF}both juice and wine.",
+      "vietnamese_translation": "Xưởng rượu Aja{CR}{LF}Vợ chồng Duke bán{CR}{LF}nước ép và rượu ở đây.",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "416a612057696e6572790d0a44756b6520616e642068697320776966652073656c6c200d0a626f7468206a7569636520616e642077696e652e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1036736
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fc9f0",
+      "rom_address": "0x080FC9F0",
+      "rom_offset": "0x0FC9F0",
+      "original_english": "Aja Winery{CR}{LF}Hours: 10AM-Noon{CR}{LF}Closed: Saturdays",
+      "vietnamese_translation": "Xưởng rượu Aja{CR}{LF}Mở cửa: 10h-12h{CR}{LF}Nghỉ: Thứ Bảy",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "416a612057696e6572790d0a486f7572733a203130414d2d4e6f6f6e0d0a436c6f7365643a20536174757264617973",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1036740
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fca20",
+      "rom_address": "0x080FCA20",
+      "rom_offset": "0x0FCA20",
+      "original_english": "Duke's Cellar",
+      "vietnamese_translation": "Hầm rượu Duke",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "44756b6527732043656c6c6172",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1036756,
+          1036760
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fca30",
+      "rom_address": "0x080FCA30",
+      "rom_offset": "0x0FCA30",
+      "original_english": "Doug's Inn. Doug serves food{CR}{LF}during the day and liquor at{CR}{LF}night. He also has a phone.",
+      "vietnamese_translation": "Quán trọ Doug bán đồ ăn{CR}{LF}ban ngày, rượu ban đêm.{CR}{LF}Ở đây còn có điện thoại.",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "446f7567277320496e6e2e20446f75672073657276657320666f6f640d0a647572696e67207468652064617920616e64206c6971756f722061740d0a6e696768742e20486520616c736f2068617320612070686f6e652e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1036776
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fca88",
+      "rom_address": "0x080FCA88",
+      "rom_offset": "0x0FCA88",
+      "original_english": "Doug's Inn{CR}{LF}Hours: 8AM-9PM{CR}{LF}Closed: Never",
+      "vietnamese_translation": "Quán trọ Doug{CR}{LF}Mở cửa: 8h-21h{CR}{LF}Mở cửa hằng ngày",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "446f7567277320496e6e0d0a486f7572733a2038414d2d39504d0d0a436c6f7365643a204e65766572",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1036780
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fcab4",
+      "rom_address": "0x080FCAB4",
+      "rom_offset": "0x0FCAB4",
+      "original_english": "Harvest Sprites' Home{CR}{LF}A small house behind the {CR}{LF}Church.",
+      "vietnamese_translation": "Nhà các chú lùn{CR}{LF}Ngôi nhà nhỏ nằm{CR}{LF}phía sau nhà thờ.",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "4861727665737420537072697465732720486f6d650d0a4120736d616c6c20686f75736520626568696e6420746865200d0a4368757263682e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1036796
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fcaf0",
+      "rom_address": "0x080FCAF0",
+      "rom_offset": "0x0FCAF0",
+      "original_english": "Harvest Sprites' House{CR}{LF}Time: 9AM-6PM",
+      "vietnamese_translation": "Nhà các chú lùn{CR}{LF}Giờ: 9h-18h",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "4861727665737420537072697465732720486f7573650d0a54696d653a2039414d2d36504d",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1036800
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fcb18",
+      "rom_address": "0x080FCB18",
+      "rom_offset": "0x0FCB18",
+      "original_english": "Zack's House{CR}{LF}The merchant Won also {CR}{LF}lives here.",
+      "vietnamese_translation": "Nhà Zack{CR}{LF}Thương nhân Won{CR}{LF}cũng sống ở đây.",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "5a61636b277320486f7573650d0a546865206d65726368616e7420576f6e20616c736f200d0a6c6976657320686572652e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1036816
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fcb4c",
+      "rom_address": "0x080FCB4C",
+      "rom_offset": "0x0FCB4C",
+      "original_english": "Zack's House",
+      "vietnamese_translation": "Nhà Zack",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "5a61636b277320486f757365",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1036820
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fcb5c",
+      "rom_address": "0x080FCB5C",
+      "rom_offset": "0x0FCB5C",
+      "original_english": "Kai's Seaside Lodge{CR}{LF}Open only in Summer",
+      "vietnamese_translation": "Quán ven biển Kai{CR}{LF}Chỉ mở vào mùa Hạ",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "4b616927732053656173696465204c6f6467650d0a4f70656e206f6e6c7920696e2053756d6d6572",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1036836
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fcb88",
+      "rom_address": "0x080FCB88",
+      "rom_offset": "0x0FCB88",
+      "original_english": "Kai's Seaside Lodge{CR}{LF}Hours: 11AM-1PM{CR}{LF}       5PM-7PM",
+      "vietnamese_translation": "Quán ven biển Kai{CR}{LF}Mở cửa: 11h-13h{CR}{LF}        17h-19h",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "4b616927732053656173696465204c6f6467650d0a486f7572733a203131414d2d31504d0d0a2020202020202035504d2d37504d",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1036840
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fcbc0",
+      "rom_address": "0x080FCBC0",
+      "rom_offset": "0x0FCBC0",
+      "original_english": "Saibara the Blacksmith{CR}{LF}Makes many things for you{CR}{LF}if you give him the Ore.",
+      "vietnamese_translation": "Lò rèn Saibara{CR}{LF}Mang quặng đến để{CR}{LF}nhờ rèn đồ cho bạn.",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "536169626172612074686520426c61636b736d6974680d0a4d616b6573206d616e79207468696e677320666f7220796f750d0a696620796f7520676976652068696d20746865204f72652e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1036856
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fcc0c",
+      "rom_address": "0x080FCC0C",
+      "rom_offset": "0x0FCC0C",
+      "original_english": "Saibara the Blacksmith{CR}{LF}Hours: 10AM-4PM{CR}{LF}Closed: Thursdays",
+      "vietnamese_translation": "Lò rèn Saibara{CR}{LF}Mở cửa: 10h-16h{CR}{LF}Nghỉ: Thứ Năm",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "536169626172612074686520426c61636b736d6974680d0a486f7572733a203130414d2d34504d0d0a436c6f7365643a20546875727364617973",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1036860
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fcc48",
+      "rom_address": "0x080FCC48",
+      "rom_offset": "0x0FCC48",
+      "original_english": "Yodel Farm{CR}{LF}Sells Cows and Sheep.",
+      "vietnamese_translation": "Trại Yodel{CR}{LF}Bán bò và cừu.",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "596f64656c204661726d0d0a53656c6c7320436f777320616e642053686565702e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1036876
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fcc6c",
+      "rom_address": "0x080FCC6C",
+      "rom_offset": "0x0FCC6C",
+      "original_english": "Yodel Farm{CR}{LF}Hours: 10AM-3PM{CR}{LF}Closed: Mondays",
+      "vietnamese_translation": "Trại Yodel{CR}{LF}Mở cửa: 10h-15h{CR}{LF}Nghỉ: Thứ Hai",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "596f64656c204661726d0d0a486f7572733a203130414d2d33504d0d0a436c6f7365643a204d6f6e64617973",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1036880
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fcc9c",
+      "rom_address": "0x080FCC9C",
+      "rom_offset": "0x0FCC9C",
+      "original_english": "Poultry Farm{CR}{LF}Sells Chickens.",
+      "vietnamese_translation": "Trại gia cầm{CR}{LF}Bán gà.",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "506f756c747279204661726d0d0a53656c6c7320436869636b656e732e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1036896
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fccbc",
+      "rom_address": "0x080FCCBC",
+      "rom_offset": "0x0FCCBC",
+      "original_english": "Poultry Farm{CR}{LF}Hours: 11AM-4PM{CR}{LF}Closed: Sundays",
+      "vietnamese_translation": "Trại gia cầm{CR}{LF}Mở cửa: 11h-16h{CR}{LF}Nghỉ: Chủ nhật",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "506f756c747279204661726d0d0a486f7572733a203131414d2d34504d0d0a436c6f7365643a2053756e64617973",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1036900
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fccec",
+      "rom_address": "0x080FCCEC",
+      "rom_offset": "0x0FCCEC",
+      "original_english": "Woodcutter's House{CR}{LF}Sells Lumber, and can {CR}{LF}expand your house.",
+      "vietnamese_translation": "Nhà thợ mộc{CR}{LF}Bán gỗ và nhận{CR}{LF}mở rộng nhà cho bạn.",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "576f6f64637574746572277320486f7573650d0a53656c6c73204c756d6265722c20616e642063616e200d0a657870616e6420796f757220686f7573652e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1036916
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fcd2c",
+      "rom_address": "0x080FCD2C",
+      "rom_offset": "0x0FCD2C",
+      "original_english": "Woodcutter's House{CR}{LF}Hours: 11AM-4PM{CR}{LF}Closed: Saturdays",
+      "vietnamese_translation": "Nhà thợ mộc{CR}{LF}Mở cửa: 11h-16h{CR}{LF}Nghỉ: Thứ Bảy",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "576f6f64637574746572277320486f7573650d0a486f7572733a203131414d2d34504d0d0a436c6f7365643a20536174757264617973",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1036920
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fcd64",
+      "rom_address": "0x080FCD64",
+      "rom_offset": "0x0FCD64",
+      "original_english": "Lake Mine{CR}{LF}You can mine many{CR}{LF}things here.",
+      "vietnamese_translation": "Mỏ hồ{CR}{LF}Bạn có thể đào được{CR}{LF}nhiều thứ ở đây.",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "4c616b65204d696e650d0a596f752063616e206d696e65206d616e790d0a7468696e677320686572652e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1036936
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fcd90",
+      "rom_address": "0x080FCD90",
+      "rom_offset": "0x0FCD90",
+      "original_english": "Lake Mine",
+      "vietnamese_translation": "Mỏ hồ",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "4c616b65204d696e65",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1036940
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fcd9c",
+      "rom_address": "0x080FCD9C",
+      "rom_offset": "0x0FCD9C",
+      "original_english": "Spring Mine{CR}{LF}You can mine many{CR}{LF}things here.",
+      "vietnamese_translation": "Mỏ suối{CR}{LF}Bạn có thể đào được{CR}{LF}nhiều thứ ở đây.",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "537072696e67204d696e650d0a596f752063616e206d696e65206d616e790d0a7468696e677320686572652e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1036956
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fcdcc",
+      "rom_address": "0x080FCDCC",
+      "rom_offset": "0x0FCDCC",
+      "original_english": "Spring Mine",
+      "vietnamese_translation": "Mỏ suối",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "537072696e67204d696e65",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1036960
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fcdd8",
+      "rom_address": "0x080FCDD8",
+      "rom_offset": "0x0FCDD8",
+      "original_english": "Hot Spring{CR}{LF}Recuperate Stamina and{CR}{LF}Fatigue.",
+      "vietnamese_translation": "Suối nước nóng{CR}{LF}Hồi phục thể lực và{CR}{LF}giảm mệt mỏi.",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "486f7420537072696e670d0a52656375706572617465205374616d696e6120616e640d0a466174696775652e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1036976
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fce08",
+      "rom_address": "0x080FCE08",
+      "rom_offset": "0x0FCE08",
+      "original_english": "Hot Spring",
+      "vietnamese_translation": "Suối nước nóng",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "486f7420537072696e67",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1036980
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fce18",
+      "rom_address": "0x080FCE18",
+      "rom_offset": "0x0FCE18",
+      "original_english": "North Side of Mineral Town{CR}{LF}Lots of shops and homes.",
+      "vietnamese_translation": "Phía bắc Mineral Town{CR}{LF}Có nhiều cửa hàng và nhà ở.",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "4e6f7274682053696465206f66204d696e6572616c20546f776e0d0a4c6f7473206f662073686f707320616e6420686f6d65732e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1037016
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fce50",
+      "rom_address": "0x080FCE50",
+      "rom_offset": "0x0FCE50",
+      "original_english": "North Side of Mineral Town",
+      "vietnamese_translation": "Phía bắc Mineral Town",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "4e6f7274682053696465206f66204d696e6572616c20546f776e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1037020
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fce6c",
+      "rom_address": "0x080FCE6C",
+      "rom_offset": "0x0FCE6C",
+      "original_english": "Rear of Church{CR}{LF}Harvest Sprites' home {CR}{LF}is here.",
+      "vietnamese_translation": "Sau nhà thờ{CR}{LF}Nhà các chú lùn{CR}{LF}nằm ở đây.",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "52656172206f66204368757263680d0a4861727665737420537072697465732720686f6d65200d0a697320686572652e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1037036
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fcea0",
+      "rom_address": "0x080FCEA0",
+      "rom_offset": "0x0FCEA0",
+      "original_english": "Rear of Church",
+      "vietnamese_translation": "Sau nhà thờ",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "52656172206f6620436875726368",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1037040
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fceb0",
+      "rom_address": "0x080FCEB0",
+      "rom_offset": "0x0FCEB0",
+      "original_english": "Rose Square{CR}{LF}Many events are held here.",
+      "vietnamese_translation": "Quảng trường Rose{CR}{LF}Nơi diễn ra nhiều sự kiện.",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "526f7365205371756172650d0a4d616e79206576656e7473206172652068656c6420686572652e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1037056
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fced8",
+      "rom_address": "0x080FCED8",
+      "rom_offset": "0x0FCED8",
+      "original_english": "Rose Square",
+      "vietnamese_translation": "Quảng trường Rose",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "526f736520537175617265",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1037060
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fcee4",
+      "rom_address": "0x080FCEE4",
+      "rom_offset": "0x0FCEE4",
+      "original_english": "Mineral Beach{CR}{LF}Beach House is open {CR}{LF}in Summer. Zack lives here.",
+      "vietnamese_translation": "Bãi biển Mineral{CR}{LF}Quán biển mở vào mùa Hạ.{CR}{LF}Zack sống ở đây.",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "4d696e6572616c2042656163680d0a426561636820486f757365206973206f70656e200d0a696e2053756d6d65722e205a61636b206c6976657320686572652e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1037076
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fcf28",
+      "rom_address": "0x080FCF28",
+      "rom_offset": "0x0FCF28",
+      "original_english": "Mineral Beach",
+      "vietnamese_translation": "Bãi biển Mineral",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "4d696e6572616c204265616368",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1037080
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fcf38",
+      "rom_address": "0x080FCF38",
+      "rom_offset": "0x0FCF38",
+      "original_english": "South Side of Mineral Town{CR}{LF}Yodel Farm, Poultry Farm, {CR}{LF}and Blacksmith are here.",
+      "vietnamese_translation": "Phía nam Mineral Town{CR}{LF}Có trại Yodel, trại gia cầm{CR}{LF}và lò rèn.",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "536f7574682053696465206f66204d696e6572616c20546f776e0d0a596f64656c204661726d2c20506f756c747279204661726d2c200d0a616e6420426c61636b736d6974682061726520686572652e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1037096,
+          1037116
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fcf8c",
+      "rom_address": "0x080FCF8C",
+      "rom_offset": "0x0FCF8C",
+      "original_english": "South Side of Mineral Town",
+      "vietnamese_translation": "Phía nam Mineral Town",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "536f7574682053696465206f66204d696e6572616c20546f776e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1037100,
+          1037120
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fcfa8",
+      "rom_address": "0x080FCFA8",
+      "rom_offset": "0x0FCFA8",
+      "original_english": "Forest{CR}{LF}The Woodcutter's House{CR}{LF}is here.",
+      "vietnamese_translation": "Rừng{CR}{LF}Nhà thợ mộc{CR}{LF}nằm ở đây.",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "466f726573740d0a54686520576f6f64637574746572277320486f7573650d0a697320686572652e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1037136,
+          1037156
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fcfd4",
+      "rom_address": "0x080FCFD4",
+      "rom_offset": "0x0FCFD4",
+      "original_english": "Forest",
+      "vietnamese_translation": "Rừng",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "466f72657374",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1037140,
+          1037160
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fcfdc",
+      "rom_address": "0x080FCFDC",
+      "rom_offset": "0x0FCFDC",
+      "original_english": "Peak of Mother's Hill{CR}{LF}There's a great view{CR}{LF}from here.",
+      "vietnamese_translation": "Đỉnh đồi Mother's Hill{CR}{LF}Từ đây có thể ngắm{CR}{LF}cảnh đẹp.",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "5065616b206f66204d6f7468657227732048696c6c0d0a54686572652773206120677265617420766965770d0a66726f6d20686572652e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1037176
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fd014",
+      "rom_address": "0x080FD014",
+      "rom_offset": "0x0FD014",
+      "original_english": "Peak of Mother's Hill",
+      "vietnamese_translation": "Đỉnh đồi Mother's Hill",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "5065616b206f66204d6f7468657227732048696c6c",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1037180
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fd02c",
+      "rom_address": "0x080FD02C",
+      "rom_offset": "0x0FD02C",
+      "original_english": "Mother's Hill{CR}{LF}The Harvest Goddess is said{CR}{LF}to live in the spring.",
+      "vietnamese_translation": "Đồi Mother's Hill{CR}{LF}Nghe nói Nữ thần Mùa màng{CR}{LF}sống ở suối này.",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "4d6f7468657227732048696c6c0d0a546865204861727665737420476f646465737320697320736169640d0a746f206c69766520696e2074686520737072696e672e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1037196
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fd070",
+      "rom_address": "0x080FD070",
+      "rom_offset": "0x0FD070",
+      "original_english": "Mother's Hill",
+      "vietnamese_translation": "Đồi Mother's Hill",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "4d6f7468657227732048696c6c",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1037200
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fc6e8",
+      "rom_address": "0x080FC6E8",
+      "rom_offset": "0x0FC6E8",
+      "original_english": " Farm",
+      "vietnamese_translation": " - Trại",
+      "context": "start_menu_world_map",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "204661726d",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          494100
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s (Diary); asm/code_0803EE94.s (bag/statistics/map); map descriptor table 080FD080 stride20"
+      },
+      "max_columns": 10,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fbee0",
+      "rom_address": "0x080FBEE0",
+      "rom_offset": "0x0FBEE0",
+      "original_english": "Mini-Game Records {RAW:81A1}{RAW:81A1}{RAW:81A1}{RAW:81A1}",
+      "vietnamese_translation": "Kỷ lục trò chơi   {RAW:81A1}{RAW:81A1}{RAW:81A1}{RAW:81A1}",
+      "context": "start_menu_statistics",
+      "speaker": null,
+      "control_codes": [
+        "{RAW:81A1}",
+        "{RAW:81A1}",
+        "{RAW:81A1}",
+        "{RAW:81A1}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "4d696e692d47616d65205265636f7264732081a181a181a181a1",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          468168
+        ],
+        "reference": "StanHash/fomt b8471ae asm/code_0803EE94.s memo Other section headings"
+      },
+      "max_columns": 26,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fbf3c",
+      "rom_address": "0x080FBF3C",
+      "rom_offset": "0x0FBF3C",
+      "original_english": "Income/Expenses {RAW:81A1}{RAW:81A1}{RAW:81A1}{RAW:81A1}{RAW:81A1}",
+      "vietnamese_translation": "Thu / Chi       {RAW:81A1}{RAW:81A1}{RAW:81A1}{RAW:81A1}{RAW:81A1}",
+      "context": "start_menu_statistics",
+      "speaker": null,
+      "control_codes": [
+        "{RAW:81A1}",
+        "{RAW:81A1}",
+        "{RAW:81A1}",
+        "{RAW:81A1}",
+        "{RAW:81A1}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "496e636f6d652f457870656e7365732081a181a181a181a181a1",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          472068
+        ],
+        "reference": "StanHash/fomt b8471ae asm/code_0803EE94.s memo Other section headings"
+      },
+      "max_columns": 26,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fbf84",
+      "rom_address": "0x080FBF84",
+      "rom_offset": "0x0FBF84",
+      "original_english": "Longest living animal {RAW:81A1}{RAW:81A1}",
+      "vietnamese_translation": "Vật nuôi thọ nhất     {RAW:81A1}{RAW:81A1}",
+      "context": "start_menu_statistics",
+      "speaker": null,
+      "control_codes": [
+        "{RAW:81A1}",
+        "{RAW:81A1}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "4c6f6e67657374206c6976696e6720616e696d616c2081a181a1",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          474272
+        ],
+        "reference": "StanHash/fomt b8471ae asm/code_0803EE94.s memo Other section headings"
+      },
+      "max_columns": 26,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.0fbfcc",
+      "rom_address": "0x080FBFCC",
+      "rom_offset": "0x0FBFCC",
+      "original_english": "Lowest Level in Mine{RAW:81A1}{RAW:81A1}{RAW:81A1}",
+      "vietnamese_translation": "Tầng mỏ sâu nhất   {RAW:81A1}{RAW:81A1}{RAW:81A1}",
+      "context": "start_menu_statistics",
+      "speaker": null,
+      "control_codes": [
+        "{RAW:81A1}",
+        "{RAW:81A1}",
+        "{RAW:81A1}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "4c6f77657374204c6576656c20696e204d696e6581a181a181a1",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          477996
+        ],
+        "reference": "StanHash/fomt b8471ae asm/code_0803EE94.s memo Other section headings"
+      },
+      "max_columns": 26,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.11561c",
+      "rom_address": "0x0811561C",
+      "rom_offset": "0x11561C",
+      "original_english": "Useful Controls",
+      "vietnamese_translation": "Mẹo điều khiển",
+      "context": "start_menu_useful_controls",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "55736566756c20436f6e74726f6c73",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1136592
+        ],
+        "reference": "Useful Controls book: 081084AC -> 081157D0, 27 line pointers; natural START/Tutorial/Useful Tips replay"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.11562c",
+      "rom_address": "0x0811562C",
+      "rom_offset": "0x11562C",
+      "original_english": "Open Town Map",
+      "vietnamese_translation": "Mở bản đồ vùng",
+      "context": "start_menu_useful_controls",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "4f70656e20546f776e204d6170",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1136596
+        ],
+        "reference": "Useful Controls book: 081084AC -> 081157D0, 27 line pointers; natural START/Tutorial/Useful Tips replay"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.11563c",
+      "rom_address": "0x0811563C",
+      "rom_offset": "0x11563C",
+      "original_english": "Press Start while holding",
+      "vietnamese_translation": "Nhấn START khi đang giữ",
+      "context": "start_menu_useful_controls",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "5072657373205374617274207768696c6520686f6c64696e67",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1136600
+        ],
+        "reference": "Useful Controls book: 081084AC -> 081157D0, 27 line pointers; natural START/Tutorial/Useful Tips replay"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.115658",
+      "rom_address": "0x08115658",
+      "rom_offset": "0x115658",
+      "original_english": "down the L Button.",
+      "vietnamese_translation": "nút L.",
+      "context": "start_menu_useful_controls",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "646f776e20746865204c20427574746f6e2e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1136604,
+          1136620
+        ],
+        "reference": "Useful Controls book: 081084AC -> 081157D0, 27 line pointers; natural START/Tutorial/Useful Tips replay"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.11566c",
+      "rom_address": "0x0811566C",
+      "rom_offset": "0x11566C",
+      "original_english": "Open Farm Map",
+      "vietnamese_translation": "Mở bản đồ trại",
+      "context": "start_menu_useful_controls",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "4f70656e204661726d204d6170",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1136612
+        ],
+        "reference": "Useful Controls book: 081084AC -> 081157D0, 27 line pointers; natural START/Tutorial/Useful Tips replay"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.11567c",
+      "rom_address": "0x0811567C",
+      "rom_offset": "0x11567C",
+      "original_english": "Press Select while holding",
+      "vietnamese_translation": "Nhấn SELECT khi đang giữ",
+      "context": "start_menu_useful_controls",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "50726573732053656c656374207768696c6520686f6c64696e67",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1136616
+        ],
+        "reference": "Useful Controls book: 081084AC -> 081157D0, 27 line pointers; natural START/Tutorial/Useful Tips replay"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.115698",
+      "rom_address": "0x08115698",
+      "rom_offset": "0x115698",
+      "original_english": "Switch Tools",
+      "vietnamese_translation": "Đổi dụng cụ",
+      "context": "start_menu_useful_controls",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "53776974636820546f6f6c73",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1136628
+        ],
+        "reference": "Useful Controls book: 081084AC -> 081157D0, 27 line pointers; natural START/Tutorial/Useful Tips replay"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.1156a8",
+      "rom_address": "0x081156A8",
+      "rom_offset": "0x1156A8",
+      "original_english": "With empty hands,",
+      "vietnamese_translation": "Khi không cầm gì,",
+      "context": "start_menu_useful_controls",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "5769746820656d7074792068616e64732c",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1136632
+        ],
+        "reference": "Useful Controls book: 081084AC -> 081157D0, 27 line pointers; natural START/Tutorial/Useful Tips replay"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.1156bc",
+      "rom_address": "0x081156BC",
+      "rom_offset": "0x1156BC",
+      "original_english": "press the B Button while ",
+      "vietnamese_translation": "nhấn nút B trong lúc",
+      "context": "start_menu_useful_controls",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "707265737320746865204220427574746f6e207768696c6520",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1136636
+        ],
+        "reference": "Useful Controls book: 081084AC -> 081157D0, 27 line pointers; natural START/Tutorial/Useful Tips replay"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.109884",
+      "rom_address": "0x08109884",
+      "rom_offset": "0x109884",
+      "original_english": "holding down the L Button.",
+      "vietnamese_translation": "giữ nút L.",
+      "context": "start_menu_useful_controls",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "686f6c64696e6720646f776e20746865204c20427574746f6e2e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1136640
+        ],
+        "reference": "Useful Controls book: 081084AC -> 081157D0, 27 line pointers; natural START/Tutorial/Useful Tips replay"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.1156d8",
+      "rom_address": "0x081156D8",
+      "rom_offset": "0x1156D8",
+      "original_english": "Open Tools and Item Screen",
+      "vietnamese_translation": "Mở Ba lô",
+      "context": "start_menu_useful_controls",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "4f70656e20546f6f6c7320616e64204974656d2053637265656e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1136648
+        ],
+        "reference": "Useful Controls book: 081084AC -> 081157D0, 27 line pointers; natural START/Tutorial/Useful Tips replay"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.1156f4",
+      "rom_address": "0x081156F4",
+      "rom_offset": "0x1156F4",
+      "original_english": "Press the B Button while",
+      "vietnamese_translation": "Nhấn nút B trong lúc",
+      "context": "start_menu_useful_controls",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "507265737320746865204220427574746f6e207768696c65",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1136652
+        ],
+        "reference": "Useful Controls book: 081084AC -> 081157D0, 27 line pointers; natural START/Tutorial/Useful Tips replay"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.115710",
+      "rom_address": "0x08115710",
+      "rom_offset": "0x115710",
+      "original_english": "holding down the A Button.",
+      "vietnamese_translation": "giữ nút A.",
+      "context": "start_menu_useful_controls",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "686f6c64696e6720646f776e20746865204120427574746f6e2e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1136656
+        ],
+        "reference": "Useful Controls book: 081084AC -> 081157D0, 27 line pointers; natural START/Tutorial/Useful Tips replay"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.11572c",
+      "rom_address": "0x0811572C",
+      "rom_offset": "0x11572C",
+      "original_english": "Put Item Away",
+      "vietnamese_translation": "Cất vật phẩm",
+      "context": "start_menu_useful_controls",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "507574204974656d2041776179",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1136664
+        ],
+        "reference": "Useful Controls book: 081084AC -> 081157D0, 27 line pointers; natural START/Tutorial/Useful Tips replay"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.11573c",
+      "rom_address": "0x0811573C",
+      "rom_offset": "0x11573C",
+      "original_english": "Press the B Button",
+      "vietnamese_translation": "Nhấn nút B",
+      "context": "start_menu_useful_controls",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "507265737320746865204220427574746f6e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1136668
+        ],
+        "reference": "Useful Controls book: 081084AC -> 081157D0, 27 line pointers; natural START/Tutorial/Useful Tips replay"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.115750",
+      "rom_address": "0x08115750",
+      "rom_offset": "0x115750",
+      "original_english": "when holding something,",
+      "vietnamese_translation": "khi đang cầm vật phẩm,",
+      "context": "start_menu_useful_controls",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "7768656e20686f6c64696e6720736f6d657468696e672c",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1136672
+        ],
+        "reference": "Useful Controls book: 081084AC -> 081157D0, 27 line pointers; natural START/Tutorial/Useful Tips replay"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.115768",
+      "rom_address": "0x08115768",
+      "rom_offset": "0x115768",
+      "original_english": " *Except when Rucksack",
+      "vietnamese_translation": " *Trừ khi Ba lô",
+      "context": "start_menu_useful_controls",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "202a457863657074207768656e205275636b7361636b",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1136676
+        ],
+        "reference": "Useful Controls book: 081084AC -> 081157D0, 27 line pointers; natural START/Tutorial/Useful Tips replay"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.115780",
+      "rom_address": "0x08115780",
+      "rom_offset": "0x115780",
+      "original_english": " is full.",
+      "vietnamese_translation": " đã đầy.",
+      "context": "start_menu_useful_controls",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "2069732066756c6c2e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1136680
+        ],
+        "reference": "Useful Controls book: 081084AC -> 081157D0, 27 line pointers; natural START/Tutorial/Useful Tips replay"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.11578c",
+      "rom_address": "0x0811578C",
+      "rom_offset": "0x11578C",
+      "original_english": "Call Out to Person",
+      "vietnamese_translation": "Gọi người khác",
+      "context": "start_menu_useful_controls",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "43616c6c204f757420746f20506572736f6e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1136688
+        ],
+        "reference": "Useful Controls book: 081084AC -> 081157D0, 27 line pointers; natural START/Tutorial/Useful Tips replay"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.1157a0",
+      "rom_address": "0x081157A0",
+      "rom_offset": "0x1157A0",
+      "original_english": "Press L Button when ",
+      "vietnamese_translation": "Nhấn nút L khi",
+      "context": "start_menu_useful_controls",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "5072657373204c20427574746f6e207768656e20",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1136692
+        ],
+        "reference": "Useful Controls book: 081084AC -> 081157D0, 27 line pointers; natural START/Tutorial/Useful Tips replay"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.start.1157b8",
+      "rom_address": "0x081157B8",
+      "rom_offset": "0x1157B8",
+      "original_english": "not holding anything.",
+      "vietnamese_translation": "không cầm gì trên tay.",
+      "context": "start_menu_useful_controls",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "6e6f7420686f6c64696e6720616e797468696e672e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          1136696
+        ],
+        "reference": "Useful Controls book: 081084AC -> 081157D0, 27 line pointers; natural START/Tutorial/Useful Tips replay"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    }
+  ]
+}

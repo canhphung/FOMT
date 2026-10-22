@@ -156,3 +156,9 @@ Nhãn Mẹ/Bố/Ông lão/Cô bé trong hồi tưởng có cache riêng 12 ô, c
 EBxx hoặc tạo khoảng trống trong từ. Hook chỉ nhận pointer của 5 nhãn intro
 (kể cả ???); Thomas/Zack và tên khác dùng native fallback đã so đúng byte.
 Không tăng số OBJ/VRAM. Xem [INTRO_LOCALIZATION.md](INTRO_LOCALIZATION.md).
+
+## Tiêu đề Ba lô và sách mẹo
+
+Bản menu START xử lý thêm giới hạn byte trong buffer tiêu đề Ba lô và bộ vẽ
+từng byte của tiêu đề sách, giữ kích thước tile/OBJ gốc. Chi tiết và địa chỉ
+trong [START_MENU.md](START_MENU.md). Font glyph v2 không đổi.

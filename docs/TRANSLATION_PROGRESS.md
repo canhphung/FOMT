@@ -1,7 +1,7 @@
 # Tiến độ Việt hóa
 
-**Hiện tại:** 544/9.121 bản ghi dịch nháp, 2 prompt title đồ họa, 72 test đạt.
-Đã Việt hóa các màn tạo game mới và intro; mục cuối ghi phiên triển khai.
+**Hiện tại:** 706/9.283 bản ghi dịch nháp, 2 prompt title đồ họa, 79 test đạt.
+Đã Việt hóa các màn tạo game mới, intro và menu con START; mục cuối ghi phiên triển khai.
 Các mục cũ bên dưới giữ số liệu theo từng phiên lịch sử.
 
 ## Phiên 2026-10-22 — nền tảng và bản thử đầu tiên
@@ -285,7 +285,7 @@ Diary/options/shop, phân loại hội thoại và mô tả vật phẩm còn th
 Tách `intro.json` EN/VI gồm **145 ID**: 28 mục native của hồi tưởng thời thơ ấu,
 10 câu Thomas nhận trại (chuyển từ pilot), 22 mục buổi sáng Thomas/Zack và
 85 mục hướng dẫn tùy chọn trồng trọt/nuôi gà/bò/cừu. Thêm 135 bản dịch so với
-phiên trước; hiện **544/9.121** mục catalog có bản dịch nháp, khoảng **5,96%**.
+phiên trước; hiện **706/9.283** mục catalog có bản dịch nháp, khoảng **5,96%**.
 Pilot nay còn 38 ID; bốn subset mặc định không trùng ID. Hai prompt title
 đồ họa giữ nguyên. Chưa Việt hóa toàn bộ game.
 
@@ -316,3 +316,23 @@ Xem [nguồn và phương pháp](INTRO_LOCALIZATION.md),
 Đã xem các cảnh chính và menu; chưa duyệt thủ công từng ảnh, chưa thử GBA thật.
 Những phần còn lại: Diary/options/shop, hội thoại NPC/sự kiện/TV/sách, các mô
 tả vật phẩm chưa dịch và nhập tên Việt có dấu. Toàn bộ bản dịch vẫn là nháp.
+
+
+## Phiên 2026-10-22 — menu START và các màn con
+
+Thêm 162 bản ghi nháp có nguồn xác minh, tổng 706/9.283 mục trong catalog.
+Dịch Nhật ký/lưu/tải/tùy chọn, Ba lô, mô tả bản đồ và lịch mở cửa, tiêu đề bảng
+thống kê/Ghi chú, hướng dẫn và sách mẹo. Không thay gameplay hoặc dữ liệu save.
+
+Sửa hai buffer tiêu đề Ba lô cắt chuỗi theo byte; giữ char[12], 8 ô và trường
+sức chứa túi gốc. Bổ sung cache glyph cho tiêu đề Mẹo điều khiển vốn vẽ từng
+byte, dùng lại upload OBJ gốc. Pad nhãn bảng theo vùng tile để bỏ nét sót.
+
+79 pytest đạt. mGBA 0.10.5 và 0.11-dev: 197 con trỏ đúng, 239 dòng qua renderer
+có canh bộ nhớ, kiểm tra hai buffer Ba lô và cache tiêu đề sách trong VRAM;
+replay các menu và kiểm thử tạo game, font/title, lưu SRAM/cold boot tải lại.
+Xem [START_MENU.md](START_MENU.md), ảnh và báo cáo có hash ROM đích.
+
+Chưa dịch chữ đồ họa SP/Mon/AM và đơn vị ngày D. Chưa có save chứa đầy đủ cá/
+vật nuôi để replay mọi danh sách, chưa duyệt mọi hotspot bản đồ hoặc chơi xuyên
+mùa/máy thật. Không đánh dấu reviewed; không tuyên bố Việt hóa 100% game.

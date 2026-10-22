@@ -20,6 +20,7 @@ import title_graphics
 import title_cursor
 import new_game_ui
 import intro_text
+import start_menu
 
 
 def build(base: bytes, translations: dict) -> tuple[bytes, dict]:
@@ -91,6 +92,16 @@ def build(base: bytes, translations: dict) -> tuple[bytes, dict]:
     if base[GLYPH_FUNCTION:GLYPH_FUNCTION+8] != expected:
         raise FormatError("glyph prologue mismatch")
     write(GLYPH_FUNCTION, trampoline(ROM_BASE+hook_offset), "glyph function entry")
+    if any(k in selected for k in ("ui.start.1000b4","ui.start.1000bc")):
+        start_menu.verify_bag(base)
+        at = append(start_menu.bag_width_hook(ROM_BASE+((len(result)+3)&~3)),"bag title cell width hook")
+        write(0xCB05A,bytes.fromhex("0b2c"),"bag title cap: 11 bytes within char[12]")
+        write(0xCB05E,bytes.fromhex("0b24"),"bag title cap: 11 bytes within char[12]")
+        write(0xCB178,trampoline(ROM_BASE+at),"bag title width: glyph cells instead of bytes")
+        at = append(start_menu.bag_width_hook(ROM_BASE+((len(result)+3)&~3),0x080CC41D),"items title cell width hook")
+        write(0xCC1F8,bytes.fromhex("0b2c"),"items title cap: 11 bytes within char[12]")
+        write(0xCC1FC,bytes.fromhex("0b24"),"items title cap: 11 bytes within char[12]")
+        write(0xCC414,trampoline(ROM_BASE+at),"items title width: glyph cells instead of bytes")
     scripts = defaultdict(dict)
     for identifier, payload in selected.items():
         original = originals[identifier]
@@ -123,6 +134,14 @@ def build(base: bytes, translations: dict) -> tuple[bytes, dict]:
             if ent["raw"] != expect:
                 raise FormatError("script reinsertion round trip failed")
         write(src["script_pointer_offset"], p32(ROM_BASE+at), f"script {script_id} pointer")
+    if start_menu.BOOK_TITLE_ID in selected:
+        text = selected_texts[start_menu.BOOK_TITLE_ID]
+        cache_at = append(new_game_ui.strip(base,text,len(text)*8),"Useful Controls title glyph cache")
+        at = append(start_menu.book_title_hook(ROM_BASE+((len(result)+3)&~3),
+            ROM_BASE+relocated[start_menu.BOOK_TITLE_ID],ROM_BASE+cache_at,len(text)),
+            "Useful Controls title cache dispatch; other book titles use native byte loop")
+        # Halfword-aligned site: 10-byte trampoline puts its literal at site+6.
+        write(start_menu.BOOK_TITLE_SITE,bytes.fromhex("014b1847c046")+p32((ROM_BASE+at)|1),"Useful Controls title: complete Vietnamese glyph cells")
     if any(k.startswith(new_game_ui.PREFIX+'summary.') for k in selected):
         write(new_game_ui.SUMMARY_BLANK_SITE,new_game_ui.summary_blank_patch(base,selected_texts),
               "summary background: reserved blank label tile 109")
@@ -211,7 +230,7 @@ def atomic_write(path: Path, content: bytes):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("rom", type=Path)
-    parser.add_argument("--translations", type=Path, nargs="+", default=[Path("localization/vi/pilot.json"), Path("localization/vi/items.json"), Path("localization/vi/new_game.json"), Path("localization/vi/intro.json")])
+    parser.add_argument("--translations", type=Path, nargs="+", default=[Path("localization/vi/pilot.json"), Path("localization/vi/items.json"), Path("localization/vi/new_game.json"), Path("localization/vi/intro.json"), Path("localization/vi/start_menu.json")])
     parser.add_argument("--output", type=Path, default=Path("build/fomt-vi-demo.gba"))
     parser.add_argument("--patch", type=Path, default=Path("patches/fomt-vi-demo.ips"))
     parser.add_argument("--report", type=Path, default=Path("build/insertion-report.json"))

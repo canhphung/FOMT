@@ -2416,6 +2416,66 @@
       "vietnamese": "Ổ ấp",
       "category": "intro_or_tutorial",
       "source_id": "script.1061.011"
+    },
+    {
+      "english": "Save",
+      "vietnamese": "Lưu",
+      "category": "start_menu",
+      "source_id": "ui.start.0e86b0"
+    },
+    {
+      "english": "Load",
+      "vietnamese": "Tải",
+      "category": "start_menu",
+      "source_id": "ui.start.0e86b8"
+    },
+    {
+      "english": "Data 1",
+      "vietnamese": "Tệp 1",
+      "category": "start_menu",
+      "source_id": "ui.start.0e86c4"
+    },
+    {
+      "english": "Face",
+      "vietnamese": "Chân dung",
+      "category": "start_menu",
+      "source_id": "ui.start.0e86f4"
+    },
+    {
+      "english": "Tools",
+      "vietnamese": "Dụng cụ",
+      "category": "start_menu",
+      "source_id": "ui.start.1000b4"
+    },
+    {
+      "english": "Items",
+      "vietnamese": "Vật phẩm",
+      "category": "start_menu",
+      "source_id": "ui.start.1000bc"
+    },
+    {
+      "english": "Earnings Report",
+      "vietnamese": "Báo cáo thu chi",
+      "category": "start_menu",
+      "source_id": "ui.start.0fb8f0"
+    },
+    {
+      "english": "Number shipped",
+      "vietnamese": "Số lượng đã bán",
+      "category": "start_menu",
+      "source_id": "ui.start.0fbe7c"
+    },
+    {
+      "english": "Useful Controls",
+      "vietnamese": "Mẹo điều khiển",
+      "category": "start_menu",
+      "source_id": "ui.start.11561c"
+    },
+    {
+      "english": "Mother's Hill",
+      "vietnamese": "Đồi Mother's Hill",
+      "category": "start_menu",
+      "source_id": "ui.start.0fd070"
     }
   ]
 }

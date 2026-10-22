@@ -2,17 +2,17 @@
   "date": "2026-10-22",
   "font_revision": "native-outline-aligned-v2",
   "base_sha1": "a2fc3574f0a65a4fcf7682fb274b9d7eebdef963",
-  "target_sha256": "2886f416b61ba7fb1b913e1d1a81d2a6d6721d637711cf596b38e4268a8a062d",
+  "target_sha256": "50e587f1e8cfdf09b1bd2118574ff460856cb30e4f678f822d43ad78b5528caa",
   "mgba_version": "0.10.5",
   "mgba_commit": "26b7884bc25a5933960f3cdcd98bac1ae14d42e2",
   "pytest": {
-    "passed": 72,
+    "passed": 79,
     "failed": 0,
     "skipped": 0,
     "command": "FOMT_ROM=/path/to/base.gba .venv/bin/python -m pytest -q"
   },
   "emulator": {
-    "target_sha256": "2886f416b61ba7fb1b913e1d1a81d2a6d6721d637711cf596b38e4268a8a062d",
+    "target_sha256": "50e587f1e8cfdf09b1bd2118574ff460856cb30e4f678f822d43ad78b5528caa",
     "checks": {
       "ascii_native_outlines_at_common_baseline": 95,
       "legacy_glyph_fallback_unchanged": 10,
@@ -84,7 +84,7 @@
     "version": "0.11-dev",
     "commit": "fd9dc5c2cbf234365068855851107e762fc6211b",
     "report": {
-      "target_sha256": "2886f416b61ba7fb1b913e1d1a81d2a6d6721d637711cf596b38e4268a8a062d",
+      "target_sha256": "50e587f1e8cfdf09b1bd2118574ff460856cb30e4f678f822d43ad78b5528caa",
       "checks": {
         "ascii_native_outlines_at_common_baseline": 95,
         "legacy_glyph_fallback_unchanged": 10,
@@ -668,5 +668,7 @@
     "isolated_line_probes": 460,
     "report": "intro-validation.json",
     "report_sha256": "ad634fea3ea1d873724895a01a8357edc8b861b0aa6aad9d96791cddfde9abe8"
-  }
+  },
+  "start_menu_evidence": "docs/evidence/start-menu-validation.json",
+  "historical_intro_evidence": "docs/evidence/intro-validation.json (previous build hash; detailed intro replay not rerun this session)"
 }

@@ -131,7 +131,7 @@ def real_rom():
 
 def test_all_actual_strings_round_trip(real_rom):
     catalog = extract(real_rom)
-    assert len(catalog["records"]) == 9121
+    assert len(catalog["records"]) == 9283
     for row in catalog["records"]:
         if row['source']['kind'] == 'glyph_strip':
             assert struct.pack('<8H', *map(ord,row['original_english'])) == bytes.fromhex(row['original_bytes'])
@@ -279,11 +279,11 @@ def test_wrong_font_mask_height_rejected():
 
 def test_expanded_translation_set_builds_without_overlap(real_rom):
     merged = {"rom_sha1":ROM_SHA1,"records":[]}
-    for name in ("pilot.json","items.json","new_game.json","intro.json"):
+    for name in ("pilot.json","items.json","new_game.json","intro.json","start_menu.json"):
         merged["records"].extend(json.loads((ROOT/"localization/vi"/name).read_text())["records"])
     _, report = build(real_rom,merged)
-    assert report["translated_records"] == 544
-    assert len({r["id"] for r in merged["records"]}) == 544
+    assert report["translated_records"] == 706
+    assert len({r["id"] for r in merged["records"]}) == 706
 
 
 @pytest.mark.parametrize('site',[0x5F78C,0x5F958,0x50B50])
@@ -482,3 +482,26 @@ def test_title_cursor_hook_refuses_wrong_instructions(real_rom):
     wrong[DRAW_OFFSET] ^= 1
     with pytest.raises(FormatError,match='cursor draw instructions'):
         verify_site(wrong)
+
+
+@pytest.mark.parametrize('site',[0xE8704,0xFD328,0x600A8,0xCB05A,0xCC414,0x7A216])
+def test_start_menu_rejects_changed_verified_source(real_rom,site):
+    import start_menu
+    bad = bytearray(real_rom)
+    bad[site] ^= 1
+    with pytest.raises(FormatError):start_menu.extract_records(bad)
+
+
+def test_start_menu_payloads_fit_verified_cell_and_byte_limits(real_rom):
+    import start_menu
+    rows = json.loads((ROOT/'localization/vi/start_menu.json').read_text())['records']
+    source = {r['id']:r for r in start_menu.extract_records(real_rom)}
+    assert len(rows) == len(source) == 162
+    for row in rows:
+        original = source[row['id']]
+        result = check_translation(original['original_english'],row['vietnamese_translation'],original['max_columns'])
+        assert result['maximum_tiles'] <= original['max_columns']
+        assert len(encode(row['vietnamese_translation'],True)) <= original.get('max_encoded_bytes',1000)
+    for identifier in ('ui.start.1000b4','ui.start.1000bc'):
+        assert source[identifier]['max_columns'] == 8
+        assert source[identifier]['max_encoded_bytes'] == 11
