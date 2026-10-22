@@ -102,6 +102,15 @@
     "thomas-dialogue.png": "40c1f6e15f697d499efee01f22f1494d7bbf4461d1e094b8e787f9b84c8479e8",
     "game-loaded.png": "b445eef939588509f40a49c393280d56211aacc0bf865c7af1c57e01956d2312",
     "pause-menu.png": "bcf49999f428c6dba733182dfe05fc9df9596233975efc67635d8daf6514661a",
-    "font-spacing-comparison.png": "a1a27a7fcfebe39fc2e4cd1710832ad01b531616772f47137413724a259c4258"
+    "font-spacing-comparison.png": "a1a27a7fcfebe39fc2e4cd1710832ad01b531616772f47137413724a259c4258",
+    "v1-save-loaded-in-v2.png": "b445eef939588509f40a49c393280d56211aacc0bf865c7af1c57e01956d2312"
+  },
+  "previous_release_save_compatibility": {
+    "source_rom_sha256": "952087635bbb9e000e0acf54cbf0dad1ef3f19006ebbf3948a6d2f27110db714",
+    "savedata_sha256": "e6008f528fa60778d770ed962b67b71584c763c7e754d0ba61bb4818bd12c9c4",
+    "size": 32768,
+    "emulator": "0.10.5",
+    "result": "v1 Spring day 2 SRAM accepted on v2 cold boot and loaded; bytes unchanged",
+    "limitation": "one in-game save sample; old emulator savestates are not supported"
   }
 }

@@ -95,6 +95,10 @@ font OTF hoặc bảng 4bpp trực tiếp. Sửa mẫu trong `tools/vietnamese_f
 lại cache và chạy test; không sửa JSON rồi coi đó là đầu vào build. Bảng mã
 không đổi nên các bản dịch hiện có vẫn dùng được. ROM mới phải được tạo từ ROM
 USA gốc đúng SHA-1, không áp IPS mới chồng lên ROM đã patch.
+Phải boot lại ROM mới thay vì nạp savestate v1: cache lớn hơn làm thay đổi
+địa chỉ allocation mới, trong khi savestate giữ pointer RAM của ROM trước.
+Đã thử một save SRAM trong game của v1 (ngày 2) bằng cold boot trên v2 và load
+thành công, giữ nguyên byte SRAM. Không cam kết mọi save/savestate đều tương thích.
 
 ## Kiểm thử và ảnh so sánh
 

@@ -126,6 +126,9 @@ Adapter được sửa để đọc define CMake thực tế của từng versio
 trên chuỗi chẩn đoán; ảnh Thomas/menu/save cũng được chụp lại từ ROM v2.
 `font-metrics.json` lưu phép đo và metadata OTF, manifest trỏ đúng hash ROM/bản vá
 mới. Bản vá mới phải áp lên ROM USA gốc, không chồng lên ROM đã Việt hóa v1.
+Đã thử thêm SRAM của release v1 trên ROM v2: cold boot/load về nhà ngày 2,
+byte SRAM không đổi. Khi nâng bản, dùng save trong game và boot lại; savestate
+v1 giữ các pointer của layout ROM cũ nên không được xem là tương thích.
 
 Giới hạn còn lại: ô chữ vẫn cố định 8px (chưa có kerning/VWF); chưa chơi thử
 mọi UI và phần cứng GBA thật. Native glyph ngoài ASCII/Việt, lịch, đồng hồ và

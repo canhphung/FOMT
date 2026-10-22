@@ -31,6 +31,11 @@ SHA1: a2fc3574f0a65a4fcf7682fb274b9d7eebdef963
 ROM có patch sẵn hoặc revision khác sẽ bị từ chối. Luôn giữ ROM và save gốc
 riêng; công cụ không ghi đè ROM đầu vào. ROM build và save không được track Git.
 
+Khi đổi từ bản font v1 sang v2, hãy khởi động lại ROM mới và load save **trong
+game** (`.sav`), không load savestate emulator của ROM cũ. Savestate giữ các
+con trỏ vào vùng ROM mở rộng đã được bố trí lại. Đã kiểm tra một save SRAM v1
+ngày 2 load trên v2; chưa kiểm tra mọi save/cảnh của người chơi.
+
 ## Chạy từ đầu
 
 Python 3.10+; các lệnh bên dưới chạy tại thư mục repo. Không cần decompile game,
