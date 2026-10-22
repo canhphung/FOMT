@@ -158,30 +158,30 @@ def main():
         patched.press(8,settle=120)
         # Title letters are an OBJ graphic, independent of the dialogue codec.
         import ctypes as C
-        from title_graphics import encode_tiles, title_pixels
+        from title_graphics import encode_tiles, title_pixels, expected_title_oam
         title_state = patched.state()
         patched.screenshot(args.output_dir/"title-start.png")
         original.restore(original_state)
         original.press(8,settle=120)
-        assert patched.read(0x06010000+864*32,14*32) == encode_tiles(title_pixels())
+        assert patched.read(0x06010000+864*32,28*32) == encode_tiles(title_pixels())
         positions = set()
         animation_frames = 180
         for frame in range(animation_frames):
-            assert patched.read(0x07000000,1024) == original.read(0x07000000,1024), "title OAM behavior changed"
+            assert patched.read(0x07000000,1024) == expected_title_oam(original.read(0x07000000,1024)), "unexpected title OAM change"
             a = C.string_at(patched.lib.session_pixels(patched.handle),240*160*4)
             b = C.string_at(original.lib.session_pixels(original.handle),240*160*4)
-            # The 56x16 prompt bobs vertically. Check the first aligned frame;
+            # The 56x32 transparent canvas preserves the ink's original motion.
             # unrelated character blinks can subsequently differ in phase.
-            outside = lambda raw: raw[:112*240*4]+b''.join(
+            outside = lambda raw: raw[:110*240*4]+b''.join(
                 raw[(y*240)*4:(y*240+80)*4]+raw[(y*240+136)*4:((y+1)*240)*4]
-                for y in range(112,132))+raw[132*240*4:]
+                for y in range(110,134))+raw[134*240*4:]
             if frame == 0:
                 assert outside(a) == outside(b), "title changed outside prompt on initial frame"
             positions.add(patched.read(0x07000040,1)[0])
             patched.frames(1)
             original.frames(1)
         assert len(positions) > 1, "title prompt no longer moves"
-        report["checks"]["title_sprite_vram_matches_artwork"] = "14 tiles, 56x16, Bắt đầu"
+        report["checks"]["title_sprite_vram_matches_artwork"] = "28 tiles, 56x32 canvas, Bắt đầu"
         report["checks"]["title_animation_matches_original_frames"] = animation_frames
         report["checks"]["title_prompt_y_positions"] = sorted(positions)
         report["checks"]["title_initial_frame_pixels_outside_prompt_unchanged"] = "passed"
@@ -238,6 +238,30 @@ def main():
             reloaded.frames(360)
             assert reloaded.sram() == savedata, "game rejected save on cold boot"
             reloaded.press(8,settle=180)
+            reloaded.screenshot(args.output_dir/"title-continue.png")
+            assert reloaded.read(0x06010000+864*32,28*32) == encode_tiles(title_pixels())
+            assert reloaded.read(0x06010000+896*32,40*32) == encode_tiles(title_pixels('title.continue'))
+            # Same SRAM on the source ROM proves original title/load behavior.
+            original.load_sram(savedata)
+            original.lib.session_reset(original.handle)
+            original.frames(360)
+            original.press(8,settle=180)
+            a = C.string_at(reloaded.lib.session_pixels(reloaded.handle),240*160*4)
+            b = C.string_at(original.lib.session_pixels(original.handle),240*160*4)
+            def outside_saved_prompts(raw):
+                return raw[:110*240*4]+b''.join(
+                    raw[y*240*4:(y*240+24)*4]+raw[(y*240+80)*4:(y*240+136)*4]+
+                    raw[(y*240+216)*4:(y+1)*240*4] for y in range(110,134))+raw[134*240*4:]
+            assert outside_saved_prompts(a) == outside_saved_prompts(b), "saved title changed outside prompts"
+            assert reloaded.read(0x06010000+936*32,32) == original.read(0x06010000+916*32,32), "selection arrow changed"
+            saved_title = reloaded.state()
+            for _ in range(180):
+                assert reloaded.read(0x07000000,1024) == expected_title_oam(original.read(0x07000000,1024),with_save=True), "saved-title OAM behavior changed"
+                reloaded.frames(1)
+                original.frames(1)
+            reloaded.restore(saved_title)
+            report['checks']['continue_sprite_vram_and_saved_title_animation'] = '40 tiles, 80x32; original arrow; 180 frames passed'
+            report['checks']['saved_title_pixels_outside_prompts_unchanged'] = 'passed'
             reloaded.press(8,settle=360)
             reloaded.screenshot(args.output_dir/"diary-load-menu.png")
             reloaded.press(1,settle=360)  # Load? Yes

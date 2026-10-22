@@ -20,11 +20,12 @@ Target ROM và bản vá được định danh trong `validation.json` và
   người dùng gửi. Không đóng gói file OTF; build dùng outline ROM.
 - `title-start.png`: framebuffer mGBA 0.10.5, cold boot và nhấn Start để tới
   title; prompt đồ họa đã đổi thành **Bắt đầu**. Không ghép chữ lên ảnh.
-- `title-font-comparison.png`: hai framebuffer title trước/sau đổi màu nét,
-  phóng nguyên pixel 3 lần; nhãn Before/After nằm ngoài ảnh game. Bản mới dùng
-  nét xanh ngọc mảnh 1px và halo trắng; hình dáng giữ nguyên bản v3 đã được duyệt.
-- `title-font-sample.png`: artwork tile hiện tại trên nền tối, phóng nguyên
-  pixel 3 lần để xem xanh ngọc/trắng; đây không phải framebuffer game.
+- `title-continue.png`: cold boot với SRAM đã ghi bằng Diary trong bài smoke;
+  hiện cả **Bắt đầu / Tiếp tục**, đầy đủ viền đen → trắng → xanh ngọc.
+- `title-font-comparison.png`: title có save trước/sau, phóng nguyên pixel 3
+  lần; nhãn Before/After ngoài framebuffer. Bản sau thêm Tiếp tục và viền đen.
+- `title-font-sample.png`: artwork của cả hai prompt trên nền tối, phóng 3 lần;
+  mẫu tile, không phải framebuffer game.
 
 Ảnh đã được xem thủ công. Các phép so pixel/canary và kết quả pytest nằm trong
 `validation.json`. Probe hàm dùng trạng thái emulator cô lập và không được xem

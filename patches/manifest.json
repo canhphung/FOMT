@@ -3,14 +3,14 @@
   "stage": "experimental localization demo; not a full translation",
   "source_sha1": "a2fc3574f0a65a4fcf7682fb274b9d7eebdef963",
   "source_size": 8388608,
-  "target_sha256": "2278496e3eb410e8f1bdbb524725eacd6149d1a65a4c24f6e79d9090fcb5fb59",
+  "target_sha256": "46350b194fc4a36f29f172dfd9a44f2272b3742e37be3893a9e9c70d963d0c8e",
   "target_size": 16777216,
-  "patch_sha256": "41ccbb261c0f60a92d3feb422f51cd3eb6a2d8222ee4426e5c34ff4b235cc0b5",
+  "patch_sha256": "db98528b181c6a57d309df73a1791f5e33ea0a15a03f6f942623fa99523ad2fa",
   "patch_size": 135015,
   "translated_draft_records": 385,
   "revision": "2026-10-22",
-  "validation": "55 pytest tests; mGBA 0.10.5 and 0.11-dev title sprite/OAM, glyph/spacing probes, new game, menus and SRAM cold-boot load; see docs/evidence/validation.json",
+  "validation": "57 pytest tests; mGBA 0.10.5 and 0.11-dev no-save/saved title VRAM/OAM, new game, menus and SRAM cold-boot load; see docs/evidence/validation.json",
   "font_revision": "native-outline-aligned-v2",
-  "translated_graphics_assets": 1,
-  "title_graphics_revision": "native-thin-mint-v4"
+  "translated_graphics_assets": 2,
+  "title_graphics_revision": "native-thin-double-outline-v5"
 }

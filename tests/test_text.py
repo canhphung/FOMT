@@ -275,27 +275,56 @@ def test_unclassified_script_cannot_be_silently_translated(real_rom):
         build(real_rom,{"rom_sha1":ROM_SHA1,"records":[original]})
 
 
-def test_title_asset_only_changes_verified_prompt_tiles(real_rom):
+def test_title_asset_preserves_unrelated_data_and_reallocates_safely(real_rom):
     import title_graphics as t
     packed, report = t.localize(real_rom)
     before = t.unpack(real_rom[t.ASSET_OFFSET:t.ASSET_OFFSET+t.ASSET_SIZE])
     after = t.unpack(packed)
-    assert len(before) == len(after) == t.DECODED_SIZE
-    assert after[:t.TILE_OFFSET] == before[:t.TILE_OFFSET]
-    assert after[t.TILE_OFFSET+t.TILE_SIZE:] == before[t.TILE_OFFSET+t.TILE_SIZE:]
-    assert after[t.TILE_OFFSET:t.TILE_OFFSET+t.TILE_SIZE] != before[t.TILE_OFFSET:t.TILE_OFFSET+t.TILE_SIZE]
-    # Independent inverse of the three OAM segments catches swapped tile rows.
-    data = after[t.TILE_OFFSET:t.TILE_OFFSET+t.TILE_SIZE]
-    pixels = [[] for _ in range(16)]
-    off = 0
-    for width in (32,16,8):
-        for y in range(16):
-            for x in range(width):
-                b = data[off+((y//8)*(width//8)+x//8)*32+y%8*4+(x%8)//2]
-                pixels[y].append((b >> (x%2*4)) & 15)
-        off += width*8
-    assert pixels == t.title_pixels()
-    assert report['vietnamese_translation'] == 'Bắt đầu'
+    assert len(after) == 20556 < 0x6A00
+    assert after[:0x28] == before[:0x28]  # animation index table
+    assert after[0x240:0x240+474*32] == before[0x240:t.TILE_OFFSET]  # logo
+    assert after[0x240+542*32:0x240+543*32] == before[0x41C0:0x41E0]  # arrow
+    assert after[0x240+543*32:0x4DA0] == before[0x41E0:0x4960]  # copyright
+    assert after[0x4DA0:] == before[0x4960:]  # palettes and animation commands
+    assert [r['vietnamese_translation'] for r in report['labels']] == ['Bắt đầu','Tiếp tục']
+    assert 864+28 <= 896 and 896+41 <= 960 and 960+60 <= 1024
+    for row in report['labels']:
+        width,height = row['dimensions']
+        widths = (32,16,8) if width == 56 else (32,32,16)
+        at = row['decoded_tile_offset']
+        data = after[at:at+row['tile_bytes']]
+        # Independent inverse of OAM segments catches tile-row/stride mistakes.
+        pixels = [[] for _ in range(height)]
+        off = 0
+        for segment in widths:
+            for y in range(height):
+                for x in range(segment):
+                    b = data[off+((y//8)*(segment//8)+x//8)*32+y%8*4+(x%8)//2]
+                    pixels[y].append((b >> (x%2*4)) & 15)
+            off += segment*height//2
+        assert pixels == t.title_pixels(row['id'])
+    # Object count and all unmodified scene objects are preserved.
+    assert after[0xC8:0xCC] == before[0xC8:0xCC]
+    assert after[0xCC:0xCC+17*8] == before[0xCC:0xCC+17*8]
+    assert after[0xCC+38*8:0x23C] == before[0xCC+38*8:0x23C]
+
+
+@pytest.mark.parametrize('identifier',['title.start','title.continue'])
+def test_title_has_complete_black_white_green_layers(identifier):
+    import title_graphics as t
+    path = t.ART_PATH if identifier == 'title.start' else t.CONTINUE_ART_PATH
+    rows = json.loads(path.read_text())['stroke_mask']
+    pixels = t.title_pixels(identifier)
+    ink = {(x,y) for y,r in enumerate(rows) for x,c in enumerate(r) if c == '#'}
+    assert {(x,y) for y,r in enumerate(pixels) for x,c in enumerate(r) if c == 3} == ink
+    assert set(c for row in pixels for c in row) == {0,3,13,14}
+    # Each stroke has a light neighbor and a separate outer dark neighbor,
+    # including above stacked accents and below the dot of ụ.
+    for x,y in ink:
+        for dx,dy in [(-1,0),(1,0),(0,-1),(0,1)]:
+            if (x+dx,y+dy) not in ink:
+                assert pixels[y+dy][x+dx] == 13
+    assert min(y for x,y in ink) >= 2 and max(y for x,y in ink) <= 29
 
 
 def test_title_source_mismatch_rejected(real_rom):

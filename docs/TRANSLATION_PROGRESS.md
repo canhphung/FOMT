@@ -209,3 +209,24 @@ và toàn bộ byte ngoài asset title mở rộng không đổi. Bộ 55 pytest
 mGBA 0.10.5/0.11-dev kiểm tra lại title, Start, hội thoại/menu và save/load.
 Cập nhật IPS, manifest và ảnh framebuffer/mẫu màu/so sánh. Vẫn là bản thử,
 385 chuỗi dịch + 1 asset; chưa kiểm tra phần cứng GBA thật.
+
+## Phiên 2026-10-22 — Continue → Tiếp tục và viền đen đầy đủ
+
+Đã xác minh Continue bằng đối chiếu asset giải nén `0x3F40..0x41BF` với OBJ
+VRAM 896..915 khi có save. Thêm `localization/vi/title_continue.json`, bản dịch
+**Tiếp tục**; đồng bộ hai prompt với viền đen ngoài, trắng trong, nét xanh ngọc.
+Giữ nét mảnh/font đã duyệt. Để dấu ế, descender p và dấu nặng ụ không cắt viền,
+canvas tăng từ 16 lên 32px cao, mask xuống 2px và OAM lên 2px; nét vẫn ở vị trí
+màn hình cũ. Số OBJ không đổi, cần thêm 34 tile trong allocation title đã xác
+minh; không chồng copyright hoặc nhân vật. Asset 20.556 byte nằm gọn buffer
+27.136 byte. Giữ nguyên logo, copyright, mũi tên, palette và lệnh animation.
+
+**57 pytest đạt, không skip**. Smoke mGBA 0.10.5/0.11-dev so đúng VRAM và OAM
+qua 180 frame cả khi không save/khi có save; giữ mũi tên; Start vào game mới,
+Continue mở load menu và nạp SRAM thành công sau cold boot; không log error.
+Test mới kiểm tra hai vòng màu, stride segment, RAM/VRAM và dữ liệu bảo toàn.
+Ảnh `title-continue.png` chụp framebuffer từ ROM build thực tế.
+
+Số bản ghi dịch vẫn 385/9.069; nay có **2 prompt đồ họa** trong cùng 1 asset.
+Nội dung gameplay/font hội thoại không đổi; chưa thử GBA thật hoặc mọi save
+người chơi. Diary/options và các nhóm nội dung chưa dịch vẫn còn tiếng Anh.

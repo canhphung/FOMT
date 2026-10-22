@@ -16,13 +16,16 @@ POINTER_OFFSET = 0xCB4
 DECODED_SIZE = 0x4C0C
 TILE_OFFSET = 0x3D80
 TILE_SIZE = 14 * 32
+CONTINUE_TILE_OFFSET = 0x3F40
+CONTINUE_TILE_SIZE = 20 * 32
 PACKED_SHA256 = 'd00631160fde8a8d0a18ae6216f9ad9db85ed5dc5c0baa0970d7227fc496b897'
 DECODED_SHA256 = '8e73d527aa1a7f905cdd1d4068bf4add642190baaff989b3a1b3be2106acd9d6'
 ART_PATH = Path(__file__).resolve().parents[1]/'localization/vi/title_start.json'
-TITLE_REVISION = 'native-thin-mint-v4'
+CONTINUE_ART_PATH = ART_PATH.with_name('title_continue.json')
+TITLE_REVISION = 'native-thin-double-outline-v5'
 
 
-def native_title_mask(rom):
+def native_title_mask(rom, text='Bắt đầu', width=56):
     """Native 10px capitals/7px lowercase with unexpanded one-pixel strokes.
 
     Unlike dialogue layout, this fixed graphic uses trimmed horizontal bearings,
@@ -32,7 +35,7 @@ def native_title_mask(rom):
     from vietnamese_font import glyph, ascii_glyph
     ink = set()
     cursor = 0
-    for word in ('Bắt', 'đầu'):
+    for word in text.split(' '):
         if cursor:
             cursor += 2
         for ch in word:
@@ -43,10 +46,14 @@ def native_title_mask(rom):
             points = {(cursor+x-left,y) for x,y in points}
             ink |= points
             cursor += right-left+1+3
-    width = max(x for x,y in ink)+1
-    left = (56-width)//2
-    ink = {(x+left,y) for x,y in ink}
-    return [''.join('#' if (x,y) in ink else '.' for x in range(56)) for y in range(16)]
+    ink_width = max(x for x,y in ink)+1
+    # A 32px OBJ canvas leaves room for stacked accents, dot below and both
+    # outlines. Moving each text OBJ up 2px preserves the original ink position.
+    if ink_width+4 > width:
+        raise FormatError('title text and outlines exceed canvas width')
+    left = (width-ink_width)//2
+    ink = {(x+left,y+2) for x,y in ink}
+    return [''.join('#' if (x,y) in ink else '.' for x in range(width)) for y in range(32)]
 
 
 class Bits:
@@ -143,30 +150,33 @@ def pack_literal(data):
     return p32((len(data)<<8)|0x70)+b''.join(stream[i:i+4][::-1] for i in range(0,len(stream),4))
 
 
-def title_pixels():
-    art = json.loads(ART_PATH.read_text(encoding='utf-8'))
+def title_pixels(identifier='title.start'):
+    path, width = { 'title.start':(ART_PATH,56),
+                    'title.continue':(CONTINUE_ART_PATH,80)}[identifier]
+    art = json.loads(path.read_text(encoding='utf-8'))
     rows = art['stroke_mask']
-    if len(rows) != 16 or any(len(r) != 56 or set(r)-set('.#') for r in rows):
-        raise FormatError('title art must be a 56x16 binary stroke mask')
+    if len(rows) != 32 or any(len(r) != width or set(r)-set('.#') for r in rows):
+        raise FormatError(f'title art must be a {width}x32 binary stroke mask')
     ink = {(x,y) for y,r in enumerate(rows) for x,c in enumerate(r) if c == '#'}
-    # Preserve the approved thin mask and halo; use the original Start palette's
-    # mint-green ink (bank 2, index 3) and white halo (index 13).
+    # Outer black -> inner white -> mint-green ink. Two actual rings; no shadow.
     halo = {(x+dx,y+dy) for x,y in ink for dx in (-1,0,1) for dy in (-1,0,1)}
-    if any(not (0 <= x < 56 and 0 <= y < 16) for x,y in halo):
-        raise FormatError('title halo exceeds sprite bounds')
-    pixels = [[0]*56 for _ in range(16)]
-    for points,color in [(halo,13),(ink,3)]:
+    outer = {(x+dx,y+dy) for x,y in halo for dx in (-1,0,1) for dy in (-1,0,1)}
+    if not ink or any(not (0 <= x < width and 0 <= y < 32) for x,y in outer):
+        raise FormatError('title double outline exceeds sprite bounds')
+    pixels = [[0]*width for _ in range(32)]
+    for points,color in [(outer,14),(halo,13),(ink,3)]:
         for x,y in points:
             pixels[y][x] = color
     return pixels
 
 
 def encode_tiles(pixels):
-    """Three original 1D OBJ segments: 32x16, 16x16, 8x16, 4bpp."""
+    """Three 1D 4bpp OBJ segments, 32px high; preserve original text widths."""
+    widths = {56:(32,16,8),80:(32,32,16)}[len(pixels[0])]
     out = bytearray()
     left = 0
-    for width in (32,16,8):
-        for ty in (0,8):
+    for width in widths:
+        for ty in range(0,len(pixels),8):
             for tx in range(0,width,8):
                 for y in range(8):
                     for x in range(0,8,2):
@@ -175,25 +185,85 @@ def encode_tiles(pixels):
     return bytes(out)
 
 
+def expected_title_oam(original, with_save=False):
+    """Expected hardware OAM delta from verified enlarged text descriptors."""
+    import struct
+    out = bytearray(original)
+    groups = [(8,(0,0x8000,0x8000),(0x8000,0x8000,0x4000),(864,880,888))]
+    if with_save:
+        groups.append((11,(0,0,0x8000),(0x8000,0x8000,0x8000),(896,912,928)))
+    for first,shapes,sizes,tiles in groups:
+        for i in range(3):
+            at = (first+i)*8
+            a,b,c = struct.unpack_from('<HHH',out,at)
+            a = (a & ~0xC0FF) | shapes[i] | (((a & 255)-2) & 255)
+            b = (b & ~0xC000) | sizes[i]
+            c = (c & ~0x03FF) | tiles[i]
+            struct.pack_into('<HHH',out,at,a,b,c)
+    if with_save:
+        at = 14*8+4
+        c = struct.unpack_from('<H',out,at)[0]
+        struct.pack_into('<H',out,at,(c & ~0x03FF)|936)
+    return bytes(out)
+
+
 def localize(rom):
+    import struct
     original = rom[ASSET_OFFSET:ASSET_OFFSET+ASSET_SIZE]
     if hashlib.sha256(original).hexdigest() != PACKED_SHA256 or u32(rom,POINTER_OFFSET) != 0x08000000+ASSET_OFFSET:
         raise FormatError('title source asset/pointer mismatch')
     decoded = unpack(original)
     if len(decoded) != DECODED_SIZE or hashlib.sha256(decoded).hexdigest() != DECODED_SHA256:
         raise FormatError('title decoded asset mismatch')
-    tiles = encode_tiles(title_pixels())
-    if len(tiles) != TILE_SIZE:
-        raise FormatError('title tile size changed')
-    updated = decoded[:TILE_OFFSET]+tiles+decoded[TILE_OFFSET+TILE_SIZE:]
+    # Original pool: logo 474 tiles; Start 14; Continue 20 + selection arrow 1;
+    # copyright 60. Keep logo, arrow, copyright, palettes and animation commands.
+    if u32(decoded,0x23C) != 569 or u32(decoded,0xC8) != 46:
+        raise FormatError('title sprite table layout mismatch')
+    start = encode_tiles(title_pixels())
+    cont = encode_tiles(title_pixels('title.continue'))
+    if len(start) != 28*32 or len(cont) != 40*32:
+        raise FormatError('title tile allocation mismatch')
+    prefix = bytearray(decoded[:0x23C])
+    for frame in (1,2,3):
+        struct.pack_into('<HH',prefix,0x28+frame*16+4,28,474)
+    for frame in (5,6,7):
+        struct.pack_into('<HH',prefix,0x28+frame*16+4,41,502)
+    struct.pack_into('<HH',prefix,0x28+9*16+4,60,543)
+    def object_group(first, shapes, sizes, offsets):
+        for i,(shape,size,tile) in enumerate(zip(shapes,sizes,offsets)):
+            at = 0xCC+(first+i)*8
+            a,b,c = struct.unpack_from('<HHH',prefix,at)
+            a = (a & ~0xC0FF) | shape | (((a & 255)-2) & 255)
+            b = (b & ~0xC000) | size
+            struct.pack_into('<HHH',prefix,at,a,b,(c & ~0x3FF)|tile)
+    for first in (17,20,23):
+        object_group(first,(0,0x8000,0x8000),(0x8000,0x8000,0x4000),(0,16,24))
+    for first in (26,30,34):
+        object_group(first,(0,0,0x8000),(0x8000,0x8000,0x8000),(0,16,32))
+        struct.pack_into('<H',prefix,0xCC+(first+3)*8+4,40)
+    pool = decoded[0x240:0x4960]
+    updated = bytes(prefix)+p32(603)+pool[:474*32]+start+cont+pool[508*32:]+decoded[0x4960:]
+    # Constructor reserves this+0x10 .. this+0x6A10 for the unpacked definition.
+    if len(updated) != 20556 or len(updated) > 0x6A00:
+        raise FormatError('title unpack buffer overflow')
+    # Fixed OBJ allocations verified in the original live title, no free VRAM guesses.
+    if 864+28 > 896 or 896+41 > 960:
+        raise FormatError('title OBJ VRAM allocation overlap')
     packed = pack_literal(updated)
     if unpack(packed) != updated:
         raise FormatError('title asset round trip failed')
-    return packed, {'id':'title.start', 'original_english':'Start',
-        'vietnamese_translation':'Bắt đầu','source_offset':ASSET_OFFSET,
-        'pointer_offset':POINTER_OFFSET,'decoded_tile_offset':TILE_OFFSET,
-        'tile_bytes':TILE_SIZE,'dimensions':[56,16], 'mode':'Popuri literal 040',
-        'revision':TITLE_REVISION,
-        'palette':{'obj_bank':2,'ink_index':3,'halo_index':13,
-                   'ink_bgr555':'3B60','halo_bgr555':'7FFF'},
-        'tiles_sha256':hashlib.sha256(tiles).hexdigest()}
+    labels = []
+    for identifier,text,translation,width,source_at,target_at,tiles in [
+        ('title.start','Start','Bắt đầu',56,TILE_OFFSET,0x240+474*32,start),
+        ('title.continue','Continue','Tiếp tục',80,CONTINUE_TILE_OFFSET,0x240+502*32,cont)]:
+        labels.append({'id':identifier,'original_english':text,
+            'vietnamese_translation':translation,'dimensions':[width,32],
+            'source_decoded_tile_offset':source_at,'decoded_tile_offset':target_at,
+            'tile_bytes':len(tiles),'tiles_sha256':hashlib.sha256(tiles).hexdigest()})
+    return packed, {'id':'title.prompts','source_offset':ASSET_OFFSET,
+        'pointer_offset':POINTER_OFFSET,'decoded_size':len(updated),
+        'tile_pool_count':603,'mode':'Popuri literal 040','revision':TITLE_REVISION,
+        'palette':{'obj_bank':2,'ink_index':3,'halo_index':13,'outer_index':14,
+            'ink_bgr555':'3B60','halo_bgr555':'7FFF','outer_bgr555':'0000'},
+        'labels':labels,'vram':{'start':[864,891],'continue':[896,935],
+            'selection_arrow':936,'copyright':[960,1019]}}

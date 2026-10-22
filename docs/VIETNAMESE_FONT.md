@@ -134,12 +134,13 @@ Chưa kiểm tra mọi UI/biến thể cửa sổ, phần cứng GBA thật ho�
 Font của lịch/đồng hồ/đồ họa title là hệ riêng. Không tuyên bố đã Việt hóa toàn bộ
 font/toàn game hoặc đã thêm proportional spacing vào các hàm tile-aligned.
 
-Prompt title `Start` được thay riêng bằng artwork **Bắt đầu** 56×16.
-Revision `native-thin-mint-v4` lấy outline chữ ROM gốc + dấu Việt lúc build,
-giữ nét 1px: thân hoa cao 10px, thân thường 7px, cùng baseline hàng 13.
-Nét xanh ngọc (#00DE73) trên halo trắng 1px theo mẫu màu Start người dùng gửi;
-chỉ đổi màu nét từ v3, giữ nguyên mask/halo, không giãn nét hay thêm bóng đổ;
-dấu sắc + breve ở ắ, gạch đ, huyền + mũ ở ầ giữ đủ hàng pixel. Khoảng trống
-giữa chữ 3px, giữa từ 5px. Mask và halo nằm gọn trong 14 tile gốc,
-không đổi font hội thoại/spacing runtime. Xem [TEXT_SYSTEM.md](TEXT_SYSTEM.md)
-và `title-start.png`, `title-font-comparison.png` trong evidence.
+Hai prompt title **Bắt đầu** và **Tiếp tục** dùng artwork riêng, revision
+`native-thin-double-outline-v5`. Giữ nét mảnh đã duyệt: thân hoa 10px/thường
+7px, dấu Việt và descender nguyên vẹn. Từ ngoài vào: viền đen, viền trắng,
+nét xanh ngọc (#00DE73); không giãn nét hoặc thay font hội thoại.
+
+Canvas trong suốt cao 32px (Start rộng 56px, Continue 80px) để cả dấu trên,
+dấu nặng ụ và hai lớp viền đều nằm gọn. Mask xuống 2px, OAM lên 2px nên vị
+trí nét trên màn hình không đổi; nguyên số OBJ và chuyển động title.
+Khoảng chữ 3px, khoảng từ 5px. Xem [TEXT_SYSTEM.md](TEXT_SYSTEM.md) để đối
+chiếu RAM/VRAM và `title-start.png`, `title-continue.png` trong evidence.

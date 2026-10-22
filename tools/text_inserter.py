@@ -108,7 +108,7 @@ def build(base: bytes, translations: dict) -> tuple[bytes, dict]:
                 raise FormatError("script reinsertion round trip failed")
         write(src["script_pointer_offset"], p32(ROM_BASE+at), f"script {script_id} pointer")
     title_asset, title_report = title_graphics.localize(base)
-    title_offset = append(title_asset, "title sprite asset: Bắt đầu")
+    title_offset = append(title_asset, "title sprite asset: Bắt đầu / Tiếp tục")
     write(title_graphics.POINTER_OFFSET, p32(ROM_BASE+title_offset), "title sprite asset pointer")
     title_report["target_offset"] = title_offset
     if len(result) > 0x1000000:

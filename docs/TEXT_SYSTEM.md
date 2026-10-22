@@ -127,37 +127,47 @@ không tận dụng vùng FF bên trong ROM gốc bằng suy đoán. Chỉ sửa
 renderer và các slot pointer đã xác minh. Header và SRAM routine giữ nguyên.
 Mỗi build có audit report liệt kê các write, allocation, layout và hash.
 
-## Đồ họa chữ Start ở title
+## Đồ họa Start / Continue ở title
 
-`Start` không phải chuỗi ASCII hoặc chuỗi SCR. Constructor `func_08000914`
-trong StanHash/fomt (`b8471ae`, `asm/intro_scene.s`) gọi `Unpack` qua literal
-ROM offset `0xCB4`, trỏ tới `0x08747A74`. Asset nén dài `0x2F4C`, magic
-`0x70`, Popuri Huff8/LZSS2/no-delta (format 220); giải nén được `0x4C0C` byte.
-Không áp dụng địa chỉ MFOMTU từ tài liệu cũ.
+`Start` và `Continue` là sprite, không phải ASCII/SCR. Constructor
+`func_08000914` trong StanHash/fomt (`b8471ae`, `asm/intro_scene.s`) gọi
+`Unpack` qua literal ROM offset `0xCB4` → `0x08747A74`. Asset nguồn dài
+`0x2F4C`, magic `0x70`, Popuri Huff8/LZSS2/no-delta (220), giải nén `0x4C0C`.
+Đã đối chiếu trực tiếp với OBJ VRAM khi không có save và khi có SRAM hợp lệ:
 
-Đã đối chiếu chính xác 448 byte tại offset giải nén `0x3D80..0x3F3F` với
-OBJ VRAM tiles 864..877 trên title đang chạy. Chữ gồm ba segment 4bpp 1D
-32×16, 16×16, 8×16, palette bank 2. Tổng khung 56×16; tọa độ gốc x=80,
-y dao động 112..114. Đây là hình pixel, không dùng codec EB hoặc UTF-8.
+| Prompt nguồn | Offset trong asset giải nén | Tile live gốc | Segment gốc |
+| --- | --- | --- | --- |
+| Start | `0x3D80..0x3F3F` | 864..877 | 32×16 + 16×16 + 8×16 |
+| Continue | `0x3F40..0x41BF` | 896..915 | 32×16 + 32×16 + 16×16 |
+| Mũi tên Continue | `0x41C0..0x41DF` | 916 | 8×8 |
 
-`tools/title_graphics.py` kiểm tra SHA-256 asset nguồn và dữ liệu giải nén,
-thay đúng 14 tile, giữ nguyên mọi byte khác trong asset. Mask ở
-`localization/vi/title_start.json` hiện dùng thân chữ ROM gốc và dấu Việt từ
-font v2, giữ nét mảnh 1px, không giãn nét. Revision `native-thin-mint-v4`
-dùng nét xanh ngọc, halo trắng 1px và không có bóng. Màu theo mẫu Start:
-OBJ bank 2 index 3 (`0x3B60`, RGB #00DE73) và 13 (`0x7FFF`, trắng);
-dùng palette title sẵn có. `native_title_mask(rom)` tái tạo mask từ ROM đã
-xác minh; giữ baseline, tách 3 cột trống giữa chữ và 5 cột giữa từ. Đóng gói
-lại bằng mode literal 040 mà `Unpack`
-của game hỗ trợ, append asset mới ở vùng mở rộng rồi sửa duy nhất literal
-`0xCB4`. Không ghi đè asset nén hoặc vùng trống chưa xác minh. Không thêm
-OBJ/tile/VRAM hoặc sửa handler nút Start; allocation và pointer được audit.
+`localization/vi/title_start.json` và `title_continue.json` lưu **Bắt đầu** /
+**Tiếp tục**. `native_title_mask(rom,text,width)` tạo nét 1px từ thân ROM gốc
+và dấu Việt, khoảng chữ 3px/từ 5px. Revision `native-thin-double-outline-v5`
+có đủ hai vòng: đen ngoài (palette 14, `0x0000`), trắng trong (13, `0x7FFF`),
+xanh ngọc ở nét (3, `0x3B60`, #00DE73). Dùng OBJ palette bank 2 sẵn có.
 
-Emulator smoke kiểm tra tile VRAM đúng artwork, OAM giống ROM gốc qua 180
-frame, chuyển động y=112..114, pixel ngoài prompt ở frame đầu và việc Start
-đi tiếp vào tạo nhân vật. Blink của nhân vật nền có thể khác pha sau đó;
-không tuyên bố toàn bộ framebuffer giống nhau ở mọi frame. `title.start` là
-một asset đồ họa riêng, không cộng vào 385 chuỗi dịch trong catalog văn bản.
+Hai lớp viền quanh dấu trên và dấu nặng ụ vượt chiều cao 16px. Adapter giữ
+nguyên nét/độ cao chữ, mở canvas trong suốt lên 32px: Start 56×32, Continue
+80×32. Mask dịch xuống 2px và ba OBJ chữ dịch lên 2px ở mọi frame, nên vị trí
+nét trên màn hình không đổi. Số OBJ và độ rộng không đổi. Tile mới nằm trong
+các allocation title đã xác minh: Start 864..891, Continue 896..935, mũi tên
+936, copyright 960..1019; không chồng nhau và đều dưới 1024 tile OBJ.
+
+Asset mới có 603 tile thay 569, dài 20.556 byte, nhỏ hơn buffer constructor
+`this+0x10..this+0x6A10` (27.136 byte). Chỉ đổi descriptor của ba frame Start /
+ba frame Continue, tile count/base của các frame bị dịch trong pool. Logo,
+copyright, mũi tên, palette, bảng animation và lệnh animation giữ nguyên byte.
+Không giả định vùng FF/VRAM trống. Công cụ kiểm tra hash nguồn, giới hạn RAM,
+VRAM và round trip; đóng gói literal 040, append ROM mở rộng và sửa duy nhất
+literal `0xCB4` ở ROM gốc. Gameplay/codec/font hội thoại không đổi.
+
+Smoke so raster VRAM và đối chiếu OAM với đúng các thay đổi descriptor dự kiến
+qua 180 frame, cả hai trạng thái save. Có kiểm tra mũi tên gốc, Start vào tạo
+nhân vật, Continue vào load menu, load SRAM sau cold boot và ảnh thực tế.
+OAM Y canvas là 110..112 thay 112..114; vị trí và chuyển động nét vẫn như cũ.
+Không tuyên bố toàn bộ framebuffer đồng nhất từng frame vì blink nền có thể
+khác pha. Hai artwork không cộng vào 385 chuỗi dịch/9.069 chuỗi catalog.
 
 ## Phân loại còn thiếu
 

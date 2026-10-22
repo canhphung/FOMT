@@ -10,9 +10,9 @@ Không chứa hoặc tự tải ROM thương mại. Bản vá IPS nằm trong `p
   chiếu, 347 tên + 347 mô tả vật phẩm, 7 nhãn menu tạm dừng.
 - 385 bản ghi dịch nháp: 346 tên vật phẩm, 21 mô tả, 7 menu, 11 chuỗi hội thoại/
   dẫn chuyện. Tên riêng được giữ nguyên khi phù hợp.
-- Đồ họa chữ `Start` ở màn hình khởi đầu đã đổi thành **Bắt đầu**, có dấu;
-  nét xanh ngọc mảnh 1px, viền trắng theo cặp màu Start gốc; giữ kích thước sprite
-  và thao tác nút Start.
+- Title đã đổi **Start → Bắt đầu**, **Continue → Tiếp tục**, có dấu, nét xanh
+  ngọc mảnh với viền trắng bên trong và viền đen ngoài cùng. Có save thì hiện
+  cả hai lựa chọn; giữ luồng tạo game mới/nạp save của game gốc.
 - Font 134 chữ Việt; ASCII/chữ có dấu cùng baseline, giữ nét và advance 8px gốc.
   Bản sửa v2 xử lý lỗi lệch thân chữ/spacing; xem ảnh trước–sau trong `docs/evidence`.
 - Chèn lại ở vùng ROM mở rộng, giữ nguyên bytecode sự kiện và dữ liệu gameplay.
