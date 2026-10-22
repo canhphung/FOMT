@@ -347,3 +347,20 @@ def test_popuri_truncation_or_unsupported_mode_rejected(payload):
     from title_graphics import unpack
     with pytest.raises(FormatError):
         unpack(payload)
+
+
+def test_title_cursor_alignment_uses_visible_black_border():
+    from title_cursor import offsets, assemble_hook
+    assert offsets() == {'title.start':2,'title.continue':13}
+    code = assemble_hook(0x08820000)
+    assert len(code) <= 64
+    assert code.endswith(p32(0x08002785))
+
+
+def test_title_cursor_hook_refuses_wrong_instructions(real_rom):
+    from title_cursor import verify_site, DRAW_OFFSET
+    verify_site(real_rom)
+    wrong = bytearray(real_rom)
+    wrong[DRAW_OFFSET] ^= 1
+    with pytest.raises(FormatError,match='cursor draw instructions'):
+        verify_site(wrong)

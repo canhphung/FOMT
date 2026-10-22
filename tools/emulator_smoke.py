@@ -21,6 +21,23 @@ def raster(data):
              for x in range(16)] for y in range(16)]
 
 
+def assert_title_cursor(session, with_save):
+    """The hand's rightmost pixel meets the localized outer black border."""
+    import struct
+    from title_cursor import offsets
+    oam = session.read(0x07000000,1024)
+    a,b,c = struct.unpack_from('<HHH',oam,(15 if with_save else 11)*8)
+    cursor_x = b & 511
+    assert a & 255 == 114, 'cursor Y changed'
+    assert c & 1023 == 844, 'cursor artwork changed'
+    key = 'title.continue' if cursor_x > 100 else 'title.start'
+    text_slot = 11 if key == 'title.continue' else 8
+    text_x = struct.unpack_from('<H',oam,text_slot*8+2)[0] & 511
+    gap = text_x+offsets()[key]-(cursor_x+15)
+    assert abs(gap) <= 1, f'cursor gap beside {key}'  # preserve original +/-1px motion
+    return {'label':key,'x':cursor_x,'y':114,'visible_border_x':text_x+offsets()[key],'gap_pixels':gap}
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("rom", type=Path)
@@ -164,6 +181,7 @@ def main():
         original.restore(original_state)
         original.press(8,settle=120)
         assert patched.read(0x06010000+864*32,28*32) == encode_tiles(title_pixels())
+        report['checks']['no_save_title_cursor'] = assert_title_cursor(patched,False)
         positions = set()
         animation_frames = 180
         for frame in range(animation_frames):
@@ -173,7 +191,7 @@ def main():
             # The 56x32 transparent canvas preserves the ink's original motion.
             # unrelated character blinks can subsequently differ in phase.
             outside = lambda raw: raw[:110*240*4]+b''.join(
-                raw[(y*240)*4:(y*240+80)*4]+raw[(y*240+136)*4:((y+1)*240)*4]
+                raw[(y*240)*4:(y*240+65)*4]+raw[(y*240+136)*4:((y+1)*240)*4]
                 for y in range(110,134))+raw[134*240*4:]
             if frame == 0:
                 assert outside(a) == outside(b), "title changed outside prompt on initial frame"
@@ -250,15 +268,32 @@ def main():
             b = C.string_at(original.lib.session_pixels(original.handle),240*160*4)
             def outside_saved_prompts(raw):
                 return raw[:110*240*4]+b''.join(
-                    raw[y*240*4:(y*240+24)*4]+raw[(y*240+80)*4:(y*240+136)*4]+
+                    raw[y*240*4:(y*240+9)*4]+raw[(y*240+80)*4:(y*240+121)*4]+
                     raw[(y*240+216)*4:(y+1)*240*4] for y in range(110,134))+raw[134*240*4:]
             assert outside_saved_prompts(a) == outside_saved_prompts(b), "saved title changed outside prompts"
             assert reloaded.read(0x06010000+936*32,32) == original.read(0x06010000+916*32,32), "selection arrow changed"
+            assert reloaded.read(0x06010000+844*32,128) == original.read(0x06010000+844*32,128), 'hand cursor bitmap changed'
             saved_title = reloaded.state()
+            original_saved_title = original.state()
             for _ in range(180):
                 assert reloaded.read(0x07000000,1024) == expected_title_oam(original.read(0x07000000,1024),with_save=True), "saved-title OAM behavior changed"
+                assert_title_cursor(reloaded,True)
                 reloaded.frames(1)
                 original.frames(1)
+            reloaded.restore(saved_title)
+            original.restore(original_saved_title)
+            cursor_choices = [assert_title_cursor(reloaded,True)]
+            for key,name in [(32,'start'),(16,'continue')]:
+                reloaded.press(key,settle=30)
+                original.press(key,settle=30)
+                assert reloaded.read(0x07000000,1024) == expected_title_oam(original.read(0x07000000,1024),with_save=True)
+                cursor_choices.append(assert_title_cursor(reloaded,True))
+                reloaded.screenshot(args.output_dir/f'title-cursor-{name}.png')
+            report['checks']['saved_title_cursor_switch_left_right'] = cursor_choices
+            # Also confirm that Start still opens new-game name entry with a save.
+            reloaded.press(32,settle=30)
+            reloaded.press(8,settle=300)
+            reloaded.screenshot(args.output_dir/'new-game-with-save.png')
             reloaded.restore(saved_title)
             report['checks']['continue_sprite_vram_and_saved_title_animation'] = '40 tiles, 80x32; original arrow; 180 frames passed'
             report['checks']['saved_title_pixels_outside_prompts_unchanged'] = 'passed'

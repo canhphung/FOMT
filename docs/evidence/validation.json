@@ -2,17 +2,17 @@
   "date": "2026-10-22",
   "font_revision": "native-outline-aligned-v2",
   "base_sha1": "a2fc3574f0a65a4fcf7682fb274b9d7eebdef963",
-  "target_sha256": "46350b194fc4a36f29f172dfd9a44f2272b3742e37be3893a9e9c70d963d0c8e",
+  "target_sha256": "29c9f0ab8a7616a01937ca4e79bef03e7f484a8701019a1f149953230a8a85dd",
   "mgba_version": "0.10.5",
   "mgba_commit": "26b7884bc25a5933960f3cdcd98bac1ae14d42e2",
   "pytest": {
-    "passed": 57,
+    "passed": 59,
     "failed": 0,
     "skipped": 0,
     "command": "FOMT_ROM=/path/to/base.gba .venv/bin/python -m pytest -q"
   },
   "emulator": {
-    "target_sha256": "46350b194fc4a36f29f172dfd9a44f2272b3742e37be3893a9e9c70d963d0c8e",
+    "target_sha256": "29c9f0ab8a7616a01937ca4e79bef03e7f484a8701019a1f149953230a8a85dd",
     "checks": {
       "ascii_native_outlines_at_common_baseline": 95,
       "legacy_glyph_fallback_unchanged": 10,
@@ -22,6 +22,13 @@
       "crop_item_pointers_and_multibyte_renderer": 15,
       "full_charset_through_multibyte_string_renderer": 134,
       "ascii_and_mixed_accent_spacing_strings": 9,
+      "no_save_title_cursor": {
+        "label": "title.start",
+        "x": 67,
+        "y": 114,
+        "visible_border_x": 82,
+        "gap_pixels": 0
+      },
       "title_sprite_vram_matches_artwork": "28 tiles, 56x32 canvas, Bắt đầu",
       "title_animation_matches_original_frames": 180,
       "title_prompt_y_positions": [
@@ -32,6 +39,29 @@
       "title_initial_frame_pixels_outside_prompt_unchanged": "passed",
       "normal_new_game_input_replay_frames": 20483,
       "emulator_state_round_trip": "passed",
+      "saved_title_cursor_switch_left_right": [
+        {
+          "label": "title.continue",
+          "x": 134,
+          "y": 114,
+          "visible_border_x": 149,
+          "gap_pixels": 0
+        },
+        {
+          "label": "title.start",
+          "x": 11,
+          "y": 114,
+          "visible_border_x": 26,
+          "gap_pixels": 0
+        },
+        {
+          "label": "title.continue",
+          "x": 133,
+          "y": 114,
+          "visible_border_x": 149,
+          "gap_pixels": 1
+        }
+      ],
       "continue_sprite_vram_and_saved_title_animation": "40 tiles, 80x32; original arrow; 180 frames passed",
       "saved_title_pixels_outside_prompts_unchanged": "passed",
       "in_game_sram_save_and_cold_boot_load": {
@@ -54,7 +84,7 @@
     "version": "0.11-dev",
     "commit": "fd9dc5c2cbf234365068855851107e762fc6211b",
     "report": {
-      "target_sha256": "46350b194fc4a36f29f172dfd9a44f2272b3742e37be3893a9e9c70d963d0c8e",
+      "target_sha256": "29c9f0ab8a7616a01937ca4e79bef03e7f484a8701019a1f149953230a8a85dd",
       "checks": {
         "ascii_native_outlines_at_common_baseline": 95,
         "legacy_glyph_fallback_unchanged": 10,
@@ -64,6 +94,13 @@
         "crop_item_pointers_and_multibyte_renderer": 15,
         "full_charset_through_multibyte_string_renderer": 134,
         "ascii_and_mixed_accent_spacing_strings": 9,
+        "no_save_title_cursor": {
+          "label": "title.start",
+          "x": 67,
+          "y": 114,
+          "visible_border_x": 82,
+          "gap_pixels": 0
+        },
         "title_sprite_vram_matches_artwork": "28 tiles, 56x32 canvas, Bắt đầu",
         "title_animation_matches_original_frames": 180,
         "title_prompt_y_positions": [
@@ -74,6 +111,29 @@
         "title_initial_frame_pixels_outside_prompt_unchanged": "passed",
         "normal_new_game_input_replay_frames": 20483,
         "emulator_state_round_trip": "passed",
+        "saved_title_cursor_switch_left_right": [
+          {
+            "label": "title.continue",
+            "x": 134,
+            "y": 114,
+            "visible_border_x": 149,
+            "gap_pixels": 0
+          },
+          {
+            "label": "title.start",
+            "x": 11,
+            "y": 114,
+            "visible_border_x": 26,
+            "gap_pixels": 0
+          },
+          {
+            "label": "title.continue",
+            "x": 133,
+            "y": 114,
+            "visible_border_x": 149,
+            "gap_pixels": 1
+          }
+        ],
         "continue_sprite_vram_and_saved_title_animation": "40 tiles, 80x32; original arrow; 180 frames passed",
         "saved_title_pixels_outside_prompts_unchanged": "passed",
         "in_game_sram_save_and_cold_boot_load": {
@@ -109,7 +169,8 @@
       "Real GBA hardware"
     ],
     "title_start": "No-save title framebuffer reviewed: approved thin green strokes retain exact screen positions; full black outer / white inner outline",
-    "title_continue": "Saved title framebuffer reviewed: Tiếp tục, ê acute, ụ dot and p descender complete; original arrow; black-white-green order; no missing sprites outside prompts"
+    "title_continue": "Saved title framebuffer reviewed: Tiếp tục, ê acute, ụ dot and p descender complete; original arrow; black-white-green order; no missing sprites outside prompts",
+    "title_cursor": "Native mGBA framebuffers reviewed for both choices: hand now follows visible left border; same thin font and colors, cursor Y and bitmap; original +/-1px motion retained"
   },
   "comparison": {
     "before_target_sha256": "952087635bbb9e000e0acf54cbf0dad1ef3f19006ebbf3948a6d2f27110db714",
@@ -120,16 +181,19 @@
     "diary-saved.png": "c0b2de472ac1c99dc3a8e306e7a5ddbdccaf4aefe873e82afc36d046731dac97",
     "title-font-sample.png": "42f5923a4bcb5ed9549804e100b7cf49361c49c5cbdeeb6fd2327900b1736305",
     "title-font-comparison.png": "e5f1ece483020625485166af697dfaac5929f1d38aefc1b0dbdaabd282868ee0",
+    "title-cursor-continue.png": "953a1b36bebbe32c8a21a0b29cee21a3f0743fccf208446b063c34d12d9419b6",
     "v1-save-loaded-in-v2.png": "b445eef939588509f40a49c393280d56211aacc0bf865c7af1c57e01956d2312",
     "diary-load-menu.png": "65b38a2a342bd9dcf174541990c8a3a7489ecc769388926721d27d72de9323fe",
     "vietnamese-font.png": "4c2850da6e0a65cfc3472514fdcea4358d7a8de3d18e7d236f84eec2e5321f44",
     "thomas-three-lines.png": "9fe3c00c2f3b9198407003083e4d7899b886f6aec18375be97d60f2ac13fa7cd",
+    "title-cursor-start.png": "68147c1c3d44e8e66380a76b1bdc05688490d8dd55664ce2c91c65ce2afdc316",
     "thomas-dialogue.png": "2761d4919597aa9f1f429408cae149a492baf6a94035ffff3f8e2a6f581fc6ec",
     "game-loaded.png": "b445eef939588509f40a49c393280d56211aacc0bf865c7af1c57e01956d2312",
     "pause-menu.png": "4ab9944c74de0b5d4828acf1aeb326c66c58749c7d896aa8b32d25fd87d81dbf",
-    "title-continue.png": "88e1681d45457b4277d886cc4438a42e8f377859b9ead133872fd30a570fa892",
+    "title-continue.png": "e4dc99c1df5d2b841bf31007a2cab03a6618fae97e766d2d244c469bc5a375ee",
+    "title-cursor-comparison.png": "ba52f4872db230b10859d2399c9709660c57c6f1c6fc8de482a954dfa7dd9d08",
     "font-spacing-comparison.png": "a1a27a7fcfebe39fc2e4cd1710832ad01b531616772f47137413724a259c4258",
-    "title-start.png": "938b1510f63872236029fb32bb16dc0116eaf61c1cc487f25b2eee2c51aa8841"
+    "title-start.png": "fdb3d717a1748d1742dd53ea011bc4b758e2ebe642d88a3cc4c186a8a7d62db2"
   },
   "previous_release_save_compatibility": {
     "source_rom_sha256": "952087635bbb9e000e0acf54cbf0dad1ef3f19006ebbf3948a6d2f27110db714",
@@ -200,7 +264,19 @@
           1019
         ]
       },
-      "target_offset": 8457012
+      "target_offset": 8457012,
+      "cursor": {
+        "revision": "visible-left-edge-v1",
+        "source_offset": 10108,
+        "hook_offset": 8477576,
+        "hook_bytes": "1a20215e882905d0182901d0502902d1023100e00d3168460180014b184700bf85270008",
+        "x_adjustments": {
+          "title.start": 2,
+          "title.continue": 13
+        },
+        "font_pixels_changed": false,
+        "cursor_y_changed": false
+      }
     }
   ],
   "image_provenance": {
@@ -212,8 +288,10 @@
       "diary-saved.png",
       "diary-load-menu.png",
       "game-loaded.png",
-      "title-font-comparison.png",
-      "title-continue.png"
+      "title-continue.png",
+      "title-cursor-start.png",
+      "title-cursor-continue.png",
+      "title-cursor-comparison.png"
     ],
     "unchanged_font_v2_evidence": [
       "vietnamese-font.png",
@@ -224,6 +302,9 @@
     ],
     "current_artwork_samples": [
       "title-font-sample.png"
+    ],
+    "historical_title_font_evidence": [
+      "title-font-comparison.png"
     ]
   },
   "title_font_comparison": {
@@ -238,5 +319,20 @@
       "title_vram_allocations_nonoverlapping": true
     },
     "manual_controls": "With valid SRAM, Left then Start opens new-game name entry; default Continue opens existing load menu and loads sample save"
+  },
+  "title_cursor_comparison": {
+    "before_target_sha256": "46350b194fc4a36f29f172dfd9a44f2272b3742e37be3893a9e9c70d963d0c8e",
+    "after_target_sha256": "29c9f0ab8a7616a01937ca4e79bef03e7f484a8701019a1f149953230a8a85dd",
+    "origin": "Saved-title cold-boot mGBA frames, label outside framebuffer, nearest-neighbor 3x",
+    "checks": {
+      "only_8_byte_cursor_draw_site_and_appended_hook_changed": true,
+      "font_and_title_graphic_asset_bytes_unchanged": true,
+      "cursor_bitmap_and_y_unchanged": true,
+      "x_adjustment": {
+        "title.start": 2,
+        "title.continue": 13
+      },
+      "hook_size": 36
+    }
   }
 }

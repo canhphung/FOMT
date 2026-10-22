@@ -124,7 +124,8 @@ cache 4bpp 229 glyph dùng đúng staging 128 byte của engine, không đổi a
 
 ROM đầu ra 16 MiB. Mọi allocation mới bắt đầu từ offset `0x800000`, căn 4 byte;
 không tận dụng vùng FF bên trong ROM gốc bằng suy đoán. Chỉ sửa 8 byte prologue
-renderer và các slot pointer đã xác minh. Header và SRAM routine giữ nguyên.
+renderer, các slot pointer và 8 byte call-site vẽ con trỏ title đã xác minh.
+Header và SRAM routine giữ nguyên.
 Mỗi build có audit report liệt kê các write, allocation, layout và hash.
 
 ## Đồ họa Start / Continue ở title
@@ -168,6 +169,25 @@ nhân vật, Continue vào load menu, load SRAM sau cold boot và ảnh thực t
 OAM Y canvas là 110..112 thay 112..114; vị trí và chuyển động nét vẫn như cũ.
 Không tuyên bố toàn bộ framebuffer đồng nhất từng frame vì blink nền có thể
 khác pha. Hai artwork không cộng vào 385 chuỗi dịch/9.069 chuỗi catalog.
+
+### Căn con trỏ theo viền chữ Việt
+
+Khung Continue rộng 80px, nhưng viền ngoài của “Tiếp tục” bắt đầu ở x=13 trong
+khung; “Bắt đầu” có inset 2px trong khung 56px. Giữ con trỏ bám mép khung gốc
+làm nó xa chữ Việt. `tools/title_cursor.py` tính inset từ pixel thực tế và
+chỉ điều chỉnh X của bàn tay, giữ nguyên text/bitmap cursor/Y và nhịp ±1px.
+
+Call-site riêng cho cursor tại ROM `0x277C` (`intro_scene.s`, draw this+6C40)
+có 8 byte nguồn `1a20215e68460180`: đọc signed X và ghi tham số render lên
+stack. Importer kiểm tra đúng bytes rồi trỏ tới hook Thumb ở ROM mở rộng.
+Hook cộng 13px khi anchor=136 (Continue), 2px khi anchor=24/80 (Start có/không
+save), giữ nguyên các giá trị khác và trở về `0x08002785`. Không sửa API cursor
+dùng chung, handler chọn menu hoặc routine save/load.
+
+Vị trí bàn tay trung tâm chu kỳ: Continue x=134 thay 121, Start có save x=11
+thay 9, Start không save x=67 thay 65; Y=114. Bitmap tay có pixel tận cùng
+x=15 nên đầu ngón bám mép viền chữ, với dao động gốc ±1px. Smoke kiểm tra
+OAM/VRAM, đổi trái/phải, Start tạo game mới và Continue nạp SRAM.
 
 ## Phân loại còn thiếu
 

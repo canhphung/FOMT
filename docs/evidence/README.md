@@ -23,7 +23,12 @@ Target ROM và bản vá được định danh trong `validation.json` và
 - `title-continue.png`: cold boot với SRAM đã ghi bằng Diary trong bài smoke;
   hiện cả **Bắt đầu / Tiếp tục**, đầy đủ viền đen → trắng → xanh ngọc.
 - `title-font-comparison.png`: title có save trước/sau, phóng nguyên pixel 3
-  lần; nhãn Before/After ngoài framebuffer. Bản sau thêm Tiếp tục và viền đen.
+  lần ở phiên dịch Continue; nhãn Before/After ngoài framebuffer. Ảnh lịch sử
+  trước phiên căn cursor, dùng để đối chiếu font/viền.
+- `title-cursor-start.png`, `title-cursor-continue.png`: chuyển Left/Right khi
+  có save; cursor đã bám mép chữ Việt ở cả hai lựa chọn.
+- `title-cursor-comparison.png`: hai framebuffer trước/sau căn cursor Continue,
+  phóng 3 lần; font/màu/vị trí chữ giữ nguyên.
 - `title-font-sample.png`: artwork của cả hai prompt trên nền tối, phóng 3 lần;
   mẫu tile, không phải framebuffer game.
 

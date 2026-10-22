@@ -16,6 +16,7 @@ from fomt_text import (FormatError, GLYPH_FUNCTION, ROM_BASE, ROM_SHA1, VI_CODES
 from vietnamese_font import (assemble_hook, build_glyphs, trampoline, FONT_REVISION,
     SOURCE_ROWS, BASELINE, ADVANCE_PIXELS, ASCII_COUNT, STAGING_BYTES)
 import title_graphics
+import title_cursor
 
 
 def build(base: bytes, translations: dict) -> tuple[bytes, dict]:
@@ -111,6 +112,17 @@ def build(base: bytes, translations: dict) -> tuple[bytes, dict]:
     title_offset = append(title_asset, "title sprite asset: Bắt đầu / Tiếp tục")
     write(title_graphics.POINTER_OFFSET, p32(ROM_BASE+title_offset), "title sprite asset pointer")
     title_report["target_offset"] = title_offset
+    title_cursor.verify_site(base)
+    cursor_address = ROM_BASE+((len(result)+3) & ~3)
+    cursor_hook = title_cursor.assemble_hook(cursor_address)
+    cursor_offset = append(cursor_hook, "title cursor: align to localized visible border")
+    if ROM_BASE+cursor_offset != cursor_address:
+        raise FormatError("title cursor hook alignment mismatch")
+    write(title_cursor.DRAW_OFFSET, trampoline(cursor_address), "title cursor X draw hook")
+    title_report["cursor"] = {"revision":title_cursor.REVISION,
+        "source_offset":title_cursor.DRAW_OFFSET,"hook_offset":cursor_offset,
+        "hook_bytes":cursor_hook.hex(),"x_adjustments":title_cursor.offsets(),
+        "font_pixels_changed":False,"cursor_y_changed":False}
     if len(result) > 0x1000000:
         raise FormatError("build exceeds IPS target limit; use a BPS backend")
     # Conventional 16MiB cartridge image: original 8MiB preserved, new allocations

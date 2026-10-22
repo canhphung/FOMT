@@ -204,6 +204,14 @@ def expected_title_oam(original, with_save=False):
         at = 14*8+4
         c = struct.unpack_from('<H',out,at)[0]
         struct.pack_into('<H',out,at,(c & ~0x03FF)|936)
+    from title_cursor import offsets
+    at = (15 if with_save else 11)*8+2
+    b = struct.unpack_from('<H',out,at)[0]
+    x = b & 511
+    delta = offsets()
+    # The original hand oscillates +/-1px within its own animation frame.
+    adjustment = delta['title.continue'] if with_save and x > 100 else delta['title.start']
+    struct.pack_into('<H',out,at,(b & ~511)|((x+adjustment) & 511))
     return bytes(out)
 
 

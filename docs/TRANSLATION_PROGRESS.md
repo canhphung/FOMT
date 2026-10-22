@@ -230,3 +230,19 @@ Test mới kiểm tra hai vòng màu, stride segment, RAM/VRAM và dữ liệu b
 Số bản ghi dịch vẫn 385/9.069; nay có **2 prompt đồ họa** trong cùng 1 asset.
 Nội dung gameplay/font hội thoại không đổi; chưa thử GBA thật hoặc mọi save
 người chơi. Diary/options và các nhóm nội dung chưa dịch vẫn còn tiếng Anh.
+
+## Phiên 2026-10-22 — căn con trỏ cạnh “Tiếp tục”
+
+Con trỏ cũ bám mép khung 80px trong khi chữ Việt được căn giữa và có inset
+13px; vì vậy cách “Tiếp tục” quá xa. Đã thêm hook tại đúng call-site vẽ bàn
+tay title `0x277C`, kiểm tra 8 byte nguồn trước khi patch. Hook lấy inset từ
+artwork: Continue +13px, Start +2px cả có/không save, không đổi Y. Bàn tay còn
+nhịp ±1px như ROM gốc. Không sửa cursor API dùng chung hoặc logic chọn menu.
+
+Font, viền, màu, vị trí chữ và toàn bộ asset đồ họa giữ nguyên byte. Chỉ đổi
+8 byte call-site cursor và thêm hook Thumb vào vùng mở rộng. Test kiểm tra
+inset, bytes nguồn và build whitelist; smoke kiểm tra đầu ngón theo viền chữ,
+bitmap tay không đổi, chuyển trái/phải, tạo game khi có save và nạp SRAM.
+59 pytest đạt; mGBA 0.10.5/0.11-dev đều đạt. Cập nhật IPS/manifest và ảnh
+`title-cursor-start.png`, `title-cursor-continue.png`, so sánh trước/sau.
+Vẫn 385 chuỗi + 2 prompt đồ họa; chưa thử GBA thật hoặc mọi save người chơi.
