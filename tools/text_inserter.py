@@ -15,6 +15,7 @@ from fomt_text import (FormatError, GLYPH_FUNCTION, ROM_BASE, ROM_SHA1, VI_CODES
     check_translation, encode, extract, offset, p32, parse_script, rebuild_script, u32, verified_rom)
 from vietnamese_font import (assemble_hook, build_glyphs, trampoline, FONT_REVISION,
     SOURCE_ROWS, BASELINE, ADVANCE_PIXELS, ASCII_COUNT, STAGING_BYTES)
+import title_graphics
 
 
 def build(base: bytes, translations: dict) -> tuple[bytes, dict]:
@@ -106,6 +107,10 @@ def build(base: bytes, translations: dict) -> tuple[bytes, dict]:
             if ent["raw"] != expect:
                 raise FormatError("script reinsertion round trip failed")
         write(src["script_pointer_offset"], p32(ROM_BASE+at), f"script {script_id} pointer")
+    title_asset, title_report = title_graphics.localize(base)
+    title_offset = append(title_asset, "title sprite asset: Bắt đầu")
+    write(title_graphics.POINTER_OFFSET, p32(ROM_BASE+title_offset), "title sprite asset pointer")
+    title_report["target_offset"] = title_offset
     if len(result) > 0x1000000:
         raise FormatError("build exceeds IPS target limit; use a BPS backend")
     # Conventional 16MiB cartridge image: original 8MiB preserved, new allocations
@@ -120,6 +125,7 @@ def build(base: bytes, translations: dict) -> tuple[bytes, dict]:
     return patched, {"rom_sha1": ROM_SHA1, "target_sha256": hashlib.sha256(patched).hexdigest(),
         "size": len(patched), "translated_records": len(selected), "writes": writes,
         "allocations": allocations, "layout": layout, "font_hook_bytes": hook.hex(),
+        "graphics": [title_report],
         "font": {"revision":FONT_REVISION,"source_mask_rows":SOURCE_ROWS,
                  "baseline_row":BASELINE,"advance_pixels":ADVANCE_PIXELS,
                  "ascii_glyphs":ASCII_COUNT,"vietnamese_glyphs":len(VI_CODES),

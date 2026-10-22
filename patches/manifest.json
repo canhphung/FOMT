@@ -3,12 +3,13 @@
   "stage": "experimental localization demo; not a full translation",
   "source_sha1": "a2fc3574f0a65a4fcf7682fb274b9d7eebdef963",
   "source_size": 8388608,
-  "target_sha256": "dc1bd5e79e57844a00e6564fbe5f90811e7ffe28108536aa55dfdbf0a0bd451e",
+  "target_sha256": "82c05e4bfe4f6947364483a352b8384b6a2a0e8f315df1c441ef144149ae8391",
   "target_size": 16777216,
-  "patch_sha256": "34f6d4ed13b5cdc3685b78ab9718c75fe79346a6dc3d89d7a97b50da9f4a15ef",
-  "patch_size": 135007,
+  "patch_sha256": "d16ba67f7399db3e505cf9a13c9004f54f56a2788175198094ed862d644a574f",
+  "patch_size": 135015,
   "translated_draft_records": 385,
   "revision": "2026-10-22",
-  "validation": "47 pytest tests; mGBA 0.10.5 and 0.11-dev glyph/spacing probes, new game, menus and SRAM cold-boot load; see docs/evidence/validation.json",
-  "font_revision": "native-outline-aligned-v2"
+  "validation": "55 pytest tests; mGBA 0.10.5 and 0.11-dev title sprite/OAM, glyph/spacing probes, new game, menus and SRAM cold-boot load; see docs/evidence/validation.json",
+  "font_revision": "native-outline-aligned-v2",
+  "translated_graphics_assets": 1
 }

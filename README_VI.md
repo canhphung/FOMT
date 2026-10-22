@@ -10,6 +10,8 @@ Không chứa hoặc tự tải ROM thương mại. Bản vá IPS nằm trong `p
   chiếu, 347 tên + 347 mô tả vật phẩm, 7 nhãn menu tạm dừng.
 - 385 bản ghi dịch nháp: 346 tên vật phẩm, 21 mô tả, 7 menu, 11 chuỗi hội thoại/
   dẫn chuyện. Tên riêng được giữ nguyên khi phù hợp.
+- Đồ họa chữ `Start` ở màn hình khởi đầu đã đổi thành **Bắt đầu**, có dấu;
+  giữ kích thước sprite, màu viền/bóng và thao tác nút Start.
 - Font 134 chữ Việt; ASCII/chữ có dấu cùng baseline, giữ nét và advance 8px gốc.
   Bản sửa v2 xử lý lỗi lệch thân chữ/spacing; xem ảnh trước–sau trong `docs/evidence`.
 - Chèn lại ở vùng ROM mở rộng, giữ nguyên bytecode sự kiện và dữ liệu gameplay.
@@ -55,7 +57,7 @@ FOMT_ROM="$FOMT_ROM" .venv/bin/python -m pytest -q
 
 Đầu ra mặc định: `localization/en/catalog.json` (catalog tổng, sinh local),
 `build/fomt-vi-demo.gba` (chỉ local), `patches/fomt-vi-demo.ips`,
-`build/insertion-report.json`. Cùng ROM/bản dịch/font tạo cùng byte đầu ra.
+`build/insertion-report.json`. Cùng ROM/bản dịch/font/artwork tạo cùng byte đầu ra.
 
 Có thể dùng `make extract/build/test ROM="$FOMT_ROM" PYTHON=.venv/bin/python`.
 `Makefile` mới chỉ phục vụ localization. Makefile decomp gốc ở checkout tham

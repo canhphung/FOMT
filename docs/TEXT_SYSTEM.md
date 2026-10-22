@@ -127,6 +127,33 @@ không tận dụng vùng FF bên trong ROM gốc bằng suy đoán. Chỉ sửa
 renderer và các slot pointer đã xác minh. Header và SRAM routine giữ nguyên.
 Mỗi build có audit report liệt kê các write, allocation, layout và hash.
 
+## Đồ họa chữ Start ở title
+
+`Start` không phải chuỗi ASCII hoặc chuỗi SCR. Constructor `func_08000914`
+trong StanHash/fomt (`b8471ae`, `asm/intro_scene.s`) gọi `Unpack` qua literal
+ROM offset `0xCB4`, trỏ tới `0x08747A74`. Asset nén dài `0x2F4C`, magic
+`0x70`, Popuri Huff8/LZSS2/no-delta (format 220); giải nén được `0x4C0C` byte.
+Không áp dụng địa chỉ MFOMTU từ tài liệu cũ.
+
+Đã đối chiếu chính xác 448 byte tại offset giải nén `0x3D80..0x3F3F` với
+OBJ VRAM tiles 864..877 trên title đang chạy. Chữ gồm ba segment 4bpp 1D
+32×16, 16×16, 8×16, palette bank 2. Tổng khung 56×16; tọa độ gốc x=80,
+y dao động 112..114. Đây là hình pixel, không dùng codec EB hoặc UTF-8.
+
+`tools/title_graphics.py` kiểm tra SHA-256 asset nguồn và dữ liệu giải nén,
+thay đúng 14 tile, giữ nguyên mọi byte khác trong asset. Mask nét Việt tự vẽ
+nằm ở `localization/vi/title_start.json`; viền trắng/đen, màu xanh và bóng
+dùng palette title sẵn có. Đóng gói lại bằng mode literal 040 mà `Unpack`
+của game hỗ trợ, append asset mới ở vùng mở rộng rồi sửa duy nhất literal
+`0xCB4`. Không ghi đè asset nén hoặc vùng trống chưa xác minh. Không thêm
+OBJ/tile/VRAM hoặc sửa handler nút Start; allocation và pointer được audit.
+
+Emulator smoke kiểm tra tile VRAM đúng artwork, OAM giống ROM gốc qua 180
+frame, chuyển động y=112..114, pixel ngoài prompt ở frame đầu và việc Start
+đi tiếp vào tạo nhân vật. Blink của nhân vật nền có thể khác pha sau đó;
+không tuyên bố toàn bộ framebuffer giống nhau ở mọi frame. `title.start` là
+một asset đồ họa riêng, không cộng vào 385 chuỗi dịch trong catalog văn bản.
+
 ## Phân loại còn thiếu
 
 9,069 là số chuỗi trong **các cấu trúc đã hỗ trợ**, không phải khẳng định đã tìm

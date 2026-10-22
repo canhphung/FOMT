@@ -273,3 +273,48 @@ def test_unclassified_script_cannot_be_silently_translated(real_rom):
     original.update(vietnamese_translation="Đã khỏi bệnh!{WAIT}",translation_status="translated")
     with pytest.raises(FormatError,match="unclassified"):
         build(real_rom,{"rom_sha1":ROM_SHA1,"records":[original]})
+
+
+def test_title_asset_only_changes_verified_prompt_tiles(real_rom):
+    import title_graphics as t
+    packed, report = t.localize(real_rom)
+    before = t.unpack(real_rom[t.ASSET_OFFSET:t.ASSET_OFFSET+t.ASSET_SIZE])
+    after = t.unpack(packed)
+    assert len(before) == len(after) == t.DECODED_SIZE
+    assert after[:t.TILE_OFFSET] == before[:t.TILE_OFFSET]
+    assert after[t.TILE_OFFSET+t.TILE_SIZE:] == before[t.TILE_OFFSET+t.TILE_SIZE:]
+    assert after[t.TILE_OFFSET:t.TILE_OFFSET+t.TILE_SIZE] != before[t.TILE_OFFSET:t.TILE_OFFSET+t.TILE_SIZE]
+    # Independent inverse of the three OAM segments catches swapped tile rows.
+    data = after[t.TILE_OFFSET:t.TILE_OFFSET+t.TILE_SIZE]
+    pixels = [[] for _ in range(16)]
+    off = 0
+    for width in (32,16,8):
+        for y in range(16):
+            for x in range(width):
+                b = data[off+((y//8)*(width//8)+x//8)*32+y%8*4+(x%8)//2]
+                pixels[y].append((b >> (x%2*4)) & 15)
+        off += width*8
+    assert pixels == t.title_pixels()
+    assert report['vietnamese_translation'] == 'Bắt đầu'
+
+
+def test_title_source_mismatch_rejected(real_rom):
+    import title_graphics as t
+    for at in (t.ASSET_OFFSET,t.POINTER_OFFSET):
+        wrong = bytearray(real_rom)
+        wrong[at] ^= 1
+        with pytest.raises(FormatError,match='title source'):
+            t.localize(wrong)
+
+
+@pytest.mark.parametrize('payload',[bytes(range(256)),b'\xff'*31,b'abcde'])
+def test_popuri_literal_word_boundaries(payload):
+    from title_graphics import unpack, pack_literal
+    assert unpack(pack_literal(payload)) == payload
+
+
+@pytest.mark.parametrize('payload',[b'',b'\x70\x10\x00\x00',b'\x70\x10\x00\x00\x00\x00\x00\xff'])
+def test_popuri_truncation_or_unsupported_mode_rejected(payload):
+    from title_graphics import unpack
+    with pytest.raises(FormatError):
+        unpack(payload)

@@ -18,6 +18,8 @@ Target ROM và bản vá được định danh trong `validation.json` và
   (v2), phóng 3 lần. Dòng alphabet là chuỗi chẩn đoán, không phải lời thoại gốc.
 - `font-metrics.json`: baseline/bearing/advance đo từ ROM và cmap/metrics OTF
   người dùng gửi. Không đóng gói file OTF; build dùng outline ROM.
+- `title-start.png`: framebuffer mGBA 0.10.5, cold boot và nhấn Start để tới
+  title; prompt đồ họa đã đổi thành **Bắt đầu**. Không ghép chữ lên ảnh.
 
 Ảnh đã được xem thủ công. Các phép so pixel/canary và kết quả pytest nằm trong
 `validation.json`. Probe hàm dùng trạng thái emulator cô lập và không được xem

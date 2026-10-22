@@ -2,17 +2,17 @@
   "date": "2026-10-22",
   "font_revision": "native-outline-aligned-v2",
   "base_sha1": "a2fc3574f0a65a4fcf7682fb274b9d7eebdef963",
-  "target_sha256": "dc1bd5e79e57844a00e6564fbe5f90811e7ffe28108536aa55dfdbf0a0bd451e",
+  "target_sha256": "82c05e4bfe4f6947364483a352b8384b6a2a0e8f315df1c441ef144149ae8391",
   "mgba_version": "0.10.5",
   "mgba_commit": "26b7884bc25a5933960f3cdcd98bac1ae14d42e2",
   "pytest": {
-    "passed": 47,
+    "passed": 55,
     "failed": 0,
     "skipped": 0,
     "command": "FOMT_ROM=/path/to/base.gba .venv/bin/python -m pytest -q"
   },
   "emulator": {
-    "target_sha256": "dc1bd5e79e57844a00e6564fbe5f90811e7ffe28108536aa55dfdbf0a0bd451e",
+    "target_sha256": "82c05e4bfe4f6947364483a352b8384b6a2a0e8f315df1c441ef144149ae8391",
     "checks": {
       "ascii_native_outlines_at_common_baseline": 95,
       "legacy_glyph_fallback_unchanged": 10,
@@ -22,11 +22,19 @@
       "crop_item_pointers_and_multibyte_renderer": 15,
       "full_charset_through_multibyte_string_renderer": 134,
       "ascii_and_mixed_accent_spacing_strings": 9,
+      "title_sprite_vram_matches_artwork": "14 tiles, 56x16, Bắt đầu",
+      "title_animation_matches_original_frames": 180,
+      "title_prompt_y_positions": [
+        112,
+        113,
+        114
+      ],
+      "title_initial_frame_pixels_outside_prompt_unchanged": "passed",
       "normal_new_game_input_replay_frames": 20483,
       "emulator_state_round_trip": "passed",
       "in_game_sram_save_and_cold_boot_load": {
         "size": 32768,
-        "sha256": "f1b6edfbe3bf5f5e5a5966f5a30a33b7dd2eddfd738f34f776e654038dec5b3d",
+        "sha256": "a073a80974cc46e2d8d6cbfb6bc8eab215a9c21ec017b26577ba96cf3779ec1e",
         "save_integrity_after_reboot": "identical",
         "screenshots": "diary-saved, diary-load-menu, game-loaded"
       },
@@ -44,7 +52,7 @@
     "version": "0.11-dev",
     "commit": "fd9dc5c2cbf234365068855851107e762fc6211b",
     "report": {
-      "target_sha256": "dc1bd5e79e57844a00e6564fbe5f90811e7ffe28108536aa55dfdbf0a0bd451e",
+      "target_sha256": "82c05e4bfe4f6947364483a352b8384b6a2a0e8f315df1c441ef144149ae8391",
       "checks": {
         "ascii_native_outlines_at_common_baseline": 95,
         "legacy_glyph_fallback_unchanged": 10,
@@ -54,11 +62,19 @@
         "crop_item_pointers_and_multibyte_renderer": 15,
         "full_charset_through_multibyte_string_renderer": 134,
         "ascii_and_mixed_accent_spacing_strings": 9,
+        "title_sprite_vram_matches_artwork": "14 tiles, 56x16, Bắt đầu",
+        "title_animation_matches_original_frames": 180,
+        "title_prompt_y_positions": [
+          112,
+          113,
+          114
+        ],
+        "title_initial_frame_pixels_outside_prompt_unchanged": "passed",
         "normal_new_game_input_replay_frames": 20483,
         "emulator_state_round_trip": "passed",
         "in_game_sram_save_and_cold_boot_load": {
           "size": 32768,
-          "sha256": "f1b6edfbe3bf5f5e5a5966f5a30a33b7dd2eddfd738f34f776e654038dec5b3d",
+          "sha256": "a073a80974cc46e2d8d6cbfb6bc8eab215a9c21ec017b26577ba96cf3779ec1e",
           "save_integrity_after_reboot": "identical",
           "screenshots": "diary-saved, diary-load-menu, game-loaded"
         },
@@ -87,7 +103,8 @@
       "Natural Popuri encounter",
       "All item UI variants",
       "Real GBA hardware"
-    ]
+    ],
+    "title_start": "mGBA 0.10.5 framebuffer reviewed: Bắt đầu, Vietnamese accents and 56x16 outline fit; title motion and button flow validated by replay"
   },
   "comparison": {
     "before_target_sha256": "952087635bbb9e000e0acf54cbf0dad1ef3f19006ebbf3948a6d2f27110db714",
@@ -96,14 +113,15 @@
   },
   "images": {
     "diary-saved.png": "c0b2de472ac1c99dc3a8e306e7a5ddbdccaf4aefe873e82afc36d046731dac97",
+    "v1-save-loaded-in-v2.png": "b445eef939588509f40a49c393280d56211aacc0bf865c7af1c57e01956d2312",
     "diary-load-menu.png": "65b38a2a342bd9dcf174541990c8a3a7489ecc769388926721d27d72de9323fe",
     "vietnamese-font.png": "4c2850da6e0a65cfc3472514fdcea4358d7a8de3d18e7d236f84eec2e5321f44",
-    "thomas-three-lines.png": "553de20daa5affe5336c6cfa6d52b7970e1bf654751027b74231ea1f26961be6",
-    "thomas-dialogue.png": "40c1f6e15f697d499efee01f22f1494d7bbf4461d1e094b8e787f9b84c8479e8",
+    "thomas-three-lines.png": "9fe3c00c2f3b9198407003083e4d7899b886f6aec18375be97d60f2ac13fa7cd",
+    "thomas-dialogue.png": "2761d4919597aa9f1f429408cae149a492baf6a94035ffff3f8e2a6f581fc6ec",
     "game-loaded.png": "b445eef939588509f40a49c393280d56211aacc0bf865c7af1c57e01956d2312",
-    "pause-menu.png": "bcf49999f428c6dba733182dfe05fc9df9596233975efc67635d8daf6514661a",
+    "pause-menu.png": "4ab9944c74de0b5d4828acf1aeb326c66c58749c7d896aa8b32d25fd87d81dbf",
     "font-spacing-comparison.png": "a1a27a7fcfebe39fc2e4cd1710832ad01b531616772f47137413724a259c4258",
-    "v1-save-loaded-in-v2.png": "b445eef939588509f40a49c393280d56211aacc0bf865c7af1c57e01956d2312"
+    "title-start.png": "d296525a97498fd267ad67eb06478965930eeee8b9a30f05ce2b8204f832bf61"
   },
   "previous_release_save_compatibility": {
     "source_rom_sha256": "952087635bbb9e000e0acf54cbf0dad1ef3f19006ebbf3948a6d2f27110db714",
@@ -112,5 +130,41 @@
     "emulator": "0.10.5",
     "result": "v1 Spring day 2 SRAM accepted on v2 cold boot and loaded; bytes unchanged",
     "limitation": "one in-game save sample; old emulator savestates are not supported"
+  },
+  "graphics": [
+    {
+      "id": "title.start",
+      "original_english": "Start",
+      "vietnamese_translation": "Bắt đầu",
+      "source_offset": 7633524,
+      "pointer_offset": 3252,
+      "decoded_tile_offset": 15744,
+      "tile_bytes": 448,
+      "dimensions": [
+        56,
+        16
+      ],
+      "mode": "Popuri literal 040",
+      "tiles_sha256": "22182f0403ef7d49759a51fefda078037d30baf76d09bcd108f43fc29f7e0c62",
+      "target_offset": 8457012
+    }
+  ],
+  "image_provenance": {
+    "current_target": [
+      "title-start.png",
+      "thomas-dialogue.png",
+      "thomas-three-lines.png",
+      "pause-menu.png",
+      "diary-saved.png",
+      "diary-load-menu.png",
+      "game-loaded.png"
+    ],
+    "unchanged_font_v2_evidence": [
+      "vietnamese-font.png",
+      "font-spacing-comparison.png"
+    ],
+    "historical_save_compatibility_evidence": [
+      "v1-save-loaded-in-v2.png"
+    ]
   }
 }

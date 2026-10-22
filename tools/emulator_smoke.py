@@ -156,6 +156,37 @@ def main():
         # Replay ordinary controls. A=1, Start=8, Right=16.
         replay_start_frames = patched.frames_run
         patched.press(8,settle=120)
+        # Title letters are an OBJ graphic, independent of the dialogue codec.
+        import ctypes as C
+        from title_graphics import encode_tiles, title_pixels
+        title_state = patched.state()
+        patched.screenshot(args.output_dir/"title-start.png")
+        original.restore(original_state)
+        original.press(8,settle=120)
+        assert patched.read(0x06010000+864*32,14*32) == encode_tiles(title_pixels())
+        positions = set()
+        animation_frames = 180
+        for frame in range(animation_frames):
+            assert patched.read(0x07000000,1024) == original.read(0x07000000,1024), "title OAM behavior changed"
+            a = C.string_at(patched.lib.session_pixels(patched.handle),240*160*4)
+            b = C.string_at(original.lib.session_pixels(original.handle),240*160*4)
+            # The 56x16 prompt bobs vertically. Check the first aligned frame;
+            # unrelated character blinks can subsequently differ in phase.
+            outside = lambda raw: raw[:112*240*4]+b''.join(
+                raw[(y*240)*4:(y*240+80)*4]+raw[(y*240+136)*4:((y+1)*240)*4]
+                for y in range(112,132))+raw[132*240*4:]
+            if frame == 0:
+                assert outside(a) == outside(b), "title changed outside prompt on initial frame"
+            positions.add(patched.read(0x07000040,1)[0])
+            patched.frames(1)
+            original.frames(1)
+        assert len(positions) > 1, "title prompt no longer moves"
+        report["checks"]["title_sprite_vram_matches_artwork"] = "14 tiles, 56x16, Bắt đầu"
+        report["checks"]["title_animation_matches_original_frames"] = animation_frames
+        report["checks"]["title_prompt_y_positions"] = sorted(positions)
+        report["checks"]["title_initial_frame_pixels_outside_prompt_unchanged"] = "passed"
+        patched.restore(title_state)
+        replay_start_frames += animation_frames  # exclude isolated probes from the normal input replay
         patched.press(8,settle=300)
         patched.press(1)       # A as player name
         patched.press(8)       # select End

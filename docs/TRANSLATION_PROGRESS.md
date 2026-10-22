@@ -134,3 +134,29 @@ Giới hạn còn lại: ô chữ vẫn cố định 8px (chưa có kerning/VWF)
 mọi UI và phần cứng GBA thật. Native glyph ngoài ASCII/Việt, lịch, đồng hồ và
 đồ họa title vẫn theo hệ gốc. Các hạng mục dịch chưa giải quyết ở trên vẫn giữ
 nguyên, không tăng số chuỗi dịch để tính việc sửa font.
+
+## Phiên 2026-10-22 — Việt hóa prompt title “Start”
+
+Đã xác minh `Start` là sprite đồ họa trong asset Popuri ở ROM `0x747A74`,
+được constructor title tham chiếu qua literal `0xCB4`. Giải nén và đối chiếu
+448 byte/14 tile tại offset `0x3D80` với VRAM thực tế; không tìm địa chỉ bằng
+suy đoán hoặc thay ASCII hàng loạt.
+
+Thêm adapter `tools/title_graphics.py`, mask `localization/vi/title_start.json`
+và tích hợp build mặc định. Prompt hiện là **Bắt đầu**, đủ dấu tiếng Việt,
+khung 56×16, dùng palette/viền/bóng gốc. Asset giải nén giữ cùng kích thước;
+chỉ thay tile prompt, đóng gói literal mode 040 (format byte 0x04), append vào
+ROM mở rộng và sửa literal đã xác minh. Chuyển động title và thao tác nút Start
+giữ nguyên.
+
+Kiểm thử: **55 pytest đạt, không skip**; gồm source/pointer mismatch,
+truncation, Popuri word boundary, round trip, bố trí ba segment tile và xác
+nhận chỉ 448 byte trong asset thay đổi. Bộ smoke mGBA kiểm tra VRAM đúng
+artwork, OAM khớp gốc qua 180 frame, prompt dao động y=112..114 và frame đầu
+không thay pixel ngoài vùng prompt. Replay tiếp tục qua tạo game mới, thoại,
+menu, save Diary và load SRAM sau cold boot. Ảnh `docs/evidence/title-start.png`
+là framebuffer thật, không vẽ chồng bản dịch lên screenshot.
+
+Số bản ghi văn bản dịch vẫn **385/9.069**; thêm **1 asset đồ họa**. Đây vẫn là
+bản thử. Các nhóm title khác, lịch/đồng hồ, Diary/options và các hạng mục chưa
+dịch nêu trên còn nguyên; chưa kiểm tra GBA thật hoặc toàn bộ gameplay.

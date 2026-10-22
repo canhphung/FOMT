@@ -133,3 +133,9 @@ lệch ABI `USE_DEBUGGERS`/`ENABLE_DEBUGGERS`; không sửa SRAM game để làm
 Chưa kiểm tra mọi UI/biến thể cửa sổ, phần cứng GBA thật hoặc nhập tên có dấu.
 Font của lịch/đồng hồ/đồ họa title là hệ riêng. Không tuyên bố đã Việt hóa toàn bộ
 font/toàn game hoặc đã thêm proportional spacing vào các hàm tile-aligned.
+
+Prompt title `Start` hiện được thay riêng bằng artwork **Bắt đầu** 56×16,
+không lấy font hội thoại để vẽ runtime. Sáu chữ được vẽ nét pixel nhỏ, gồm
+dấu sắc + breve ở ắ, gạch đ, huyền + mũ ở ầ. Sinh viền và bóng trong đúng
+14 tile gốc; không đổi spacing/renderer của các nhóm chữ khác. Xem phần
+đồ họa title trong [TEXT_SYSTEM.md](TEXT_SYSTEM.md) và ảnh `title-start.png`.
