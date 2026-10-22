@@ -195,3 +195,17 @@ chuyển động title, Start vào game mới, menu, hội thoại và lưu/nạ
 Kiểm tra byte chứng minh ngoài asset title mở rộng không thay đổi gì so với
 release trước; font hội thoại và gameplay không đổi. Cập nhật IPS/manifest,
 ảnh evidence và báo cáo; vẫn 385 chuỗi dịch + 1 asset, chưa thử GBA thật.
+
+## Phiên 2026-10-22 — đổi cặp màu title sang xanh ngọc/trắng
+
+Người dùng duyệt nét mảnh và yêu cầu dùng cặp màu trong ảnh Start gốc. Đã đổi
+nét tối sang xanh ngọc bằng OBJ palette bank 2 index 3 (`0x3B60`, #00DE73),
+giữ halo trắng index 13 (`0x7FFF`). Revision `native-thin-mint-v4` giữ nguyên
+mask, dấu, khoảng cách và halo v3; không giãn nét hay thêm bóng/viền mới.
+Không sửa palette dùng chung hoặc font hội thoại.
+
+Kiểm tra byte xác nhận tile chỉ đổi nibble màu E thành 3; nibble 0/D giữ nguyên,
+và toàn bộ byte ngoài asset title mở rộng không đổi. Bộ 55 pytest và smoke
+mGBA 0.10.5/0.11-dev kiểm tra lại title, Start, hội thoại/menu và save/load.
+Cập nhật IPS, manifest và ảnh framebuffer/mẫu màu/so sánh. Vẫn là bản thử,
+385 chuỗi dịch + 1 asset; chưa kiểm tra phần cứng GBA thật.

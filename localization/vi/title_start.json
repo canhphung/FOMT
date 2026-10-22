@@ -5,7 +5,7 @@
   "translation_status": "translated",
   "context": "Title-screen animated Start prompt; graphical sprite, not encoded dialogue",
   "source_reference": "StanHash/fomt b8471ae asm/intro_scene.s func_08000914 literal 0x08000CB4 -> 0x08747A74; decoded bytes 0x3D80..0x3F3F verified against live OBJ VRAM tiles 864..877",
-  "artwork": "Reference-inspired thin dark pixel lettering: native ROM letter bodies and Vietnamese accents, no stroke dilation, one-pixel white halo and no shadow. # = dark stroke; . = transparent before halo.",
+  "artwork": "Approved thin pixel lettering with original Start mint-green ink (OBJ bank 2, index 3) and white halo (index 13). Stroke mask and halo geometry unchanged from v3; no dilation or shadow. # = mint-green stroke; . = transparent before white halo.",
   "stroke_mask": [
     "........................................................",
     "...............#.......................#................",
@@ -24,5 +24,5 @@
     "........................................................",
     "........................................................"
   ],
-  "revision": "native-thin-ink-v3"
+  "revision": "native-thin-mint-v4"
 }

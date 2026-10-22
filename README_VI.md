@@ -11,7 +11,7 @@ Không chứa hoặc tự tải ROM thương mại. Bản vá IPS nằm trong `p
 - 385 bản ghi dịch nháp: 346 tên vật phẩm, 21 mô tả, 7 menu, 11 chuỗi hội thoại/
   dẫn chuyện. Tên riêng được giữ nguyên khi phù hợp.
 - Đồ họa chữ `Start` ở màn hình khởi đầu đã đổi thành **Bắt đầu**, có dấu;
-  nét tối mảnh 1px, viền trắng nhẹ theo ảnh tham khảo; giữ kích thước sprite
+  nét xanh ngọc mảnh 1px, viền trắng theo cặp màu Start gốc; giữ kích thước sprite
   và thao tác nút Start.
 - Font 134 chữ Việt; ASCII/chữ có dấu cùng baseline, giữ nét và advance 8px gốc.
   Bản sửa v2 xử lý lỗi lệch thân chữ/spacing; xem ảnh trước–sau trong `docs/evidence`.

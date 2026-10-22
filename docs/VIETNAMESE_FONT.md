@@ -135,9 +135,10 @@ Font của lịch/đồng hồ/đồ họa title là hệ riêng. Không tuyên 
 font/toàn game hoặc đã thêm proportional spacing vào các hàm tile-aligned.
 
 Prompt title `Start` được thay riêng bằng artwork **Bắt đầu** 56×16.
-Revision `native-thin-ink-v3` lấy outline chữ ROM gốc + dấu Việt lúc build,
+Revision `native-thin-mint-v4` lấy outline chữ ROM gốc + dấu Việt lúc build,
 giữ nét 1px: thân hoa cao 10px, thân thường 7px, cùng baseline hàng 13.
-Nét tối trên halo trắng 1px theo ảnh tham khảo; không giãn nét, không bóng đổ;
+Nét xanh ngọc (#00DE73) trên halo trắng 1px theo mẫu màu Start người dùng gửi;
+chỉ đổi màu nét từ v3, giữ nguyên mask/halo, không giãn nét hay thêm bóng đổ;
 dấu sắc + breve ở ắ, gạch đ, huyền + mũ ở ầ giữ đủ hàng pixel. Khoảng trống
 giữa chữ 3px, giữa từ 5px. Mask và halo nằm gọn trong 14 tile gốc,
 không đổi font hội thoại/spacing runtime. Xem [TEXT_SYSTEM.md](TEXT_SYSTEM.md)

@@ -143,8 +143,9 @@ y dao động 112..114. Đây là hình pixel, không dùng codec EB hoặc UTF-
 `tools/title_graphics.py` kiểm tra SHA-256 asset nguồn và dữ liệu giải nén,
 thay đúng 14 tile, giữ nguyên mọi byte khác trong asset. Mask ở
 `localization/vi/title_start.json` hiện dùng thân chữ ROM gốc và dấu Việt từ
-font v2, giữ nét mảnh 1px, không giãn nét. Revision `native-thin-ink-v3`
-dùng nét tối, halo trắng 1px và không có bóng, theo mẫu người dùng gửi;
+font v2, giữ nét mảnh 1px, không giãn nét. Revision `native-thin-mint-v4`
+dùng nét xanh ngọc, halo trắng 1px và không có bóng. Màu theo mẫu Start:
+OBJ bank 2 index 3 (`0x3B60`, RGB #00DE73) và 13 (`0x7FFF`, trắng);
 dùng palette title sẵn có. `native_title_mask(rom)` tái tạo mask từ ROM đã
 xác minh; giữ baseline, tách 3 cột trống giữa chữ và 5 cột giữa từ. Đóng gói
 lại bằng mode literal 040 mà `Unpack`

@@ -19,7 +19,7 @@ TILE_SIZE = 14 * 32
 PACKED_SHA256 = 'd00631160fde8a8d0a18ae6216f9ad9db85ed5dc5c0baa0970d7227fc496b897'
 DECODED_SHA256 = '8e73d527aa1a7f905cdd1d4068bf4add642190baaff989b3a1b3be2106acd9d6'
 ART_PATH = Path(__file__).resolve().parents[1]/'localization/vi/title_start.json'
-TITLE_REVISION = 'native-thin-ink-v3'
+TITLE_REVISION = 'native-thin-mint-v4'
 
 
 def native_title_mask(rom):
@@ -149,13 +149,13 @@ def title_pixels():
     if len(rows) != 16 or any(len(r) != 56 or set(r)-set('.#') for r in rows):
         raise FormatError('title art must be a 56x16 binary stroke mask')
     ink = {(x,y) for y,r in enumerate(rows) for x,c in enumerate(r) if c == '#'}
-    # The reference uses slender dark strokes on white. A single light halo
-    # preserves that appearance against the title characters without a shadow.
+    # Preserve the approved thin mask and halo; use the original Start palette's
+    # mint-green ink (bank 2, index 3) and white halo (index 13).
     halo = {(x+dx,y+dy) for x,y in ink for dx in (-1,0,1) for dy in (-1,0,1)}
     if any(not (0 <= x < 56 and 0 <= y < 16) for x,y in halo):
         raise FormatError('title halo exceeds sprite bounds')
     pixels = [[0]*56 for _ in range(16)]
-    for points,color in [(halo,13),(ink,14)]:
+    for points,color in [(halo,13),(ink,3)]:
         for x,y in points:
             pixels[y][x] = color
     return pixels
@@ -194,4 +194,6 @@ def localize(rom):
         'pointer_offset':POINTER_OFFSET,'decoded_tile_offset':TILE_OFFSET,
         'tile_bytes':TILE_SIZE,'dimensions':[56,16], 'mode':'Popuri literal 040',
         'revision':TITLE_REVISION,
+        'palette':{'obj_bank':2,'ink_index':3,'halo_index':13,
+                   'ink_bgr555':'3B60','halo_bgr555':'7FFF'},
         'tiles_sha256':hashlib.sha256(tiles).hexdigest()}
