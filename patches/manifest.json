@@ -3,14 +3,14 @@
   "stage": "experimental localization demo; not a full translation",
   "source_sha1": "a2fc3574f0a65a4fcf7682fb274b9d7eebdef963",
   "source_size": 8388608,
-  "target_sha256": "4844dd001d1d71eabb1bd89830ad836464ec6b6516b351e454e9b71d2d0778c9",
+  "target_sha256": "4ee9b004df828514f3b4034a4119b256bc3cdc4afea36de4dfd35d9eabd68226",
   "target_size": 16777216,
-  "patch_sha256": "2b1e8e43192ab30917c8bcbb583f872e1a4fdac67db626bc95feb3d391875e79",
+  "patch_sha256": "e0f32d6cf54a63dd30248b68d17e305fe42f3532ab6a33ac13089a9e05d08376",
   "patch_size": 135015,
   "translated_draft_records": 385,
   "revision": "2026-10-22",
   "validation": "55 pytest tests; mGBA 0.10.5 and 0.11-dev title sprite/OAM, glyph/spacing probes, new game, menus and SRAM cold-boot load; see docs/evidence/validation.json",
   "font_revision": "native-outline-aligned-v2",
   "translated_graphics_assets": 1,
-  "title_graphics_revision": "native-bold-white-v2"
+  "title_graphics_revision": "native-thin-ink-v3"
 }

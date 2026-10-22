@@ -179,3 +179,19 @@ Bộ 55 pytest và smoke trên mGBA 0.10.5/0.11-dev kiểm tra lại artwork tro
 OAM/chuyển động title, Start vào tạo nhân vật, hội thoại, menu và save/load.
 Bản vá/manifest và evidence được cập nhật; số chuỗi dịch vẫn 385 + 1 asset.
 Giới hạn: chưa thử GBA thật; phần nội dung chưa dịch không thay đổi.
+
+## Phiên 2026-10-22 — làm mảnh title theo ảnh tham khảo
+
+Người dùng muốn chữ “Bắt đầu” thanh hơn và gửi mẫu chữ pixel tối trên nền trắng.
+Đã đổi riêng title sang `native-thin-ink-v3`: bỏ giãn nét ngang, giữ nguyên nét
+1px của thân chữ ROM/dấu Việt. Nét tối với halo trắng 1px, bỏ bóng đổ; giữ dáng
+vuông, thân hoa 10px/thường 7px, baseline hàng 13 và khoảng chữ/từ 3px/5px.
+Đây là thiết kế theo hình tham khảo, không khẳng định nhận diện được tên font
+trong ảnh hoặc sao chép chính xác từng pixel của font đó.
+
+Đã xem framebuffer cold boot, ảnh so sánh bản dày/bản mảnh và mẫu artwork trên
+nền trắng. Bộ 55 pytest cùng smoke mGBA 0.10.5/0.11-dev kiểm tra tile/VRAM,
+chuyển động title, Start vào game mới, menu, hội thoại và lưu/nạp SRAM.
+Kiểm tra byte chứng minh ngoài asset title mở rộng không thay đổi gì so với
+release trước; font hội thoại và gameplay không đổi. Cập nhật IPS/manifest,
+ảnh evidence và báo cáo; vẫn 385 chuỗi dịch + 1 asset, chưa thử GBA thật.

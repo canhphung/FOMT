@@ -19,11 +19,11 @@ TILE_SIZE = 14 * 32
 PACKED_SHA256 = 'd00631160fde8a8d0a18ae6216f9ad9db85ed5dc5c0baa0970d7227fc496b897'
 DECODED_SHA256 = '8e73d527aa1a7f905cdd1d4068bf4add642190baaff989b3a1b3be2106acd9d6'
 ART_PATH = Path(__file__).resolve().parents[1]/'localization/vi/title_start.json'
-TITLE_REVISION = 'native-bold-white-v2'
+TITLE_REVISION = 'native-thin-ink-v3'
 
 
 def native_title_mask(rom):
-    """Native 10px capitals/7px lowercase, bolded horizontally by one pixel.
+    """Native 10px capitals/7px lowercase with unexpanded one-pixel strokes.
 
     Unlike dialogue layout, this fixed graphic uses trimmed horizontal bearings,
     three empty columns between letters and five between the two words.
@@ -41,8 +41,8 @@ def native_title_mask(rom):
             left = min(x for x,y in points)
             right = max(x for x,y in points)
             points = {(cursor+x-left,y) for x,y in points}
-            ink |= points | {(x+1,y) for x,y in points}
-            cursor += right-left+2+3
+            ink |= points
+            cursor += right-left+1+3
     width = max(x for x,y in ink)+1
     left = (56-width)//2
     ink = {(x+left,y) for x,y in ink}
@@ -149,13 +149,13 @@ def title_pixels():
     if len(rows) != 16 or any(len(r) != 56 or set(r)-set('.#') for r in rows):
         raise FormatError('title art must be a 56x16 binary stroke mask')
     ink = {(x,y) for y,r in enumerate(rows) for x,c in enumerate(r) if c == '#'}
-    # Solid white strokes with one dark border stay readable on the busy title.
-    black = {(x+dx,y+dy) for x,y in ink for dx in (-1,0,1) for dy in (-1,0,1)}
-    shadow = {(x+1,y+1) for x,y in black}
-    if any(not (0 <= x < 56 and 0 <= y < 16) for x,y in black|shadow):
-        raise FormatError('title outline/shadow exceeds sprite bounds')
+    # The reference uses slender dark strokes on white. A single light halo
+    # preserves that appearance against the title characters without a shadow.
+    halo = {(x+dx,y+dy) for x,y in ink for dx in (-1,0,1) for dy in (-1,0,1)}
+    if any(not (0 <= x < 56 and 0 <= y < 16) for x,y in halo):
+        raise FormatError('title halo exceeds sprite bounds')
     pixels = [[0]*56 for _ in range(16)]
-    for points,color in [(shadow,9),(black,14),(ink,13)]:
+    for points,color in [(halo,13),(ink,14)]:
         for x,y in points:
             pixels[y][x] = color
     return pixels

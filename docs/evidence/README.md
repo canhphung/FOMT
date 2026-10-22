@@ -20,9 +20,11 @@ Target ROM và bản vá được định danh trong `validation.json` và
   người dùng gửi. Không đóng gói file OTF; build dùng outline ROM.
 - `title-start.png`: framebuffer mGBA 0.10.5, cold boot và nhấn Start để tới
   title; prompt đồ họa đã đổi thành **Bắt đầu**. Không ghép chữ lên ảnh.
-- `title-font-comparison.png`: hai framebuffer title trước/sau bản sửa độ rõ,
+- `title-font-comparison.png`: hai framebuffer title trước/sau bản sửa nét mảnh,
   phóng nguyên pixel 3 lần; nhãn Before/After nằm ngoài ảnh game. Bản mới dùng
-  chữ trắng nét dày, viền đen một lớp, thân chữ và dấu từ font ROM/Việt v2.
+  nét tối mảnh 1px, halo trắng, không bóng; thân chữ/dấu từ font ROM/Việt v2.
+- `title-font-sample.png`: artwork tile hiện tại trên nền trắng, phóng nguyên
+  pixel 3 lần để so dáng chữ với ảnh tham khảo; đây không phải framebuffer game.
 
 Ảnh đã được xem thủ công. Các phép so pixel/canary và kết quả pytest nằm trong
 `validation.json`. Probe hàm dùng trạng thái emulator cô lập và không được xem
