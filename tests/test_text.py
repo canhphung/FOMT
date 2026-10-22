@@ -131,9 +131,79 @@ def real_rom():
 
 def test_all_actual_strings_round_trip(real_rom):
     catalog = extract(real_rom)
-    assert len(catalog["records"]) == 9069
+    assert len(catalog["records"]) == 9093
     for row in catalog["records"]:
-        assert encode(row["original_english"]) == bytes.fromhex(row["original_bytes"])
+        if row['source']['kind'] == 'glyph_strip':
+            assert struct.pack('<8H', *map(ord,row['original_english'])) == bytes.fromhex(row['original_bytes'])
+        else:
+            assert encode(row["original_english"]) == bytes.fromhex(row["original_bytes"])
+
+
+def new_game_translations():
+    return json.loads((ROOT/'localization/vi/new_game.json').read_text())
+
+
+def test_new_game_sources_and_atlas_dimensions(real_rom):
+    import new_game_ui as ui
+    rows = ui.extract_records(real_rom)
+    assert len(rows) == 24 and len({r['id'] for r in rows}) == 24
+    texts = {r['id']:r['vietnamese_translation'] for r in new_game_translations()['records']}
+    atlas = ui.build_atlas(real_rom,texts)
+    assert len(atlas) == 43*64
+    assert atlas[:640] == b''.join(ui.strip(real_rom,str(i),8) for i in range(10))
+    assert atlas[35*64:] == ui.strip(real_rom,'Sinh nhật',64,advance=7)
+    import unicodedata
+    assert ui.build_atlas(real_rom,{k:unicodedata.normalize('NFD',v) for k,v in texts.items()}) == atlas
+    assert ui.summary_blank_patch(real_rom,texts) == bytes.fromhex('6d21')
+
+
+@pytest.mark.parametrize('site',[0x4EE8,0xFBD30,0x6E3BC])
+def test_new_game_rejects_unverified_pointer_atlas_or_call_site(real_rom,site):
+    import new_game_ui as ui
+    damaged = bytearray(real_rom)
+    damaged[site] ^= 1
+    with pytest.raises(FormatError):ui.extract_records(damaged)
+
+
+def test_new_game_build_repoints_labels_preserves_keyboard_and_fixed_row_bounds(real_rom):
+    import new_game_ui as ui
+    trans = new_game_translations()
+    out,report = build(real_rom,trans)
+    assert report['translated_records'] == 24
+    assert report['new_game_birthday_atlas']['glyphs'] == 43
+    assert report['new_game_birthday_atlas']['vram_allocation_changed'] is False
+    originals = {r['id']:r for r in ui.extract_records(real_rom)}
+    for row in trans['records']:
+        src = originals[row['id']]['source']
+        payload = encode(row['vietnamese_translation'],True)+b'\0'
+        if src['kind'] == 'pointer':
+            for slot in src['pointer_offsets']:
+                at = struct.unpack_from('<I',out,slot)[0]-0x08000000
+                assert at >= len(real_rom) and at%4 == 0
+                assert out[at:at+len(payload)] == payload
+        elif src['kind'] == 'fixed_cstring':
+            assert out[src['offset']:src['offset']+7] == payload.ljust(7,b'\0')
+    assert out[ui.SEASON_TABLE-2:ui.SEASON_TABLE] == real_rom[ui.SEASON_TABLE-2:ui.SEASON_TABLE]
+    assert out[ui.SEASON_TABLE+28:ui.SEASON_TABLE+32] == real_rom[ui.SEASON_TABLE+28:ui.SEASON_TABLE+32]
+    # Original keyboard character tables, used to enter/save names, stay intact.
+    assert out[0xE89AC:0xE8BF4] == real_rom[0xE89AC:0xE8BF4]
+    assert out[ui.GLYPH_TABLE:ui.GLYPH_TABLE+86] == real_rom[ui.GLYPH_TABLE:ui.GLYPH_TABLE+86]
+    assert out[ui.SUMMARY_BLANK_SITE:ui.SUMMARY_BLANK_SITE+2] == bytes.fromhex('6d21')
+
+
+@pytest.mark.parametrize('identifier,text,reason',[
+    ('ui.newgame.summary.confirm','ạ'*20,'encoded-byte limit'),
+    ('ui.newgame.season.spring','đ'*6,'fixed string row'),
+    ('ui.newgame.summary.player','ABCDEFGHIJKLMN','column 13 blank'),
+])
+def test_new_game_storage_and_blank_tile_constraints(real_rom,identifier,text,reason):
+    trans = new_game_translations()
+    row = next(r for r in trans['records'] if r['id'] == identifier)
+    row['vietnamese_translation'] = text
+    # Tampered client budget fields must not bypass verified-source constraints.
+    row['max_encoded_bytes'] = 9999
+    row['max_columns'] = 9999
+    with pytest.raises(FormatError,match=reason):build(real_rom,trans)
 
 
 def test_font_distinguishes_all_134_characters(real_rom):

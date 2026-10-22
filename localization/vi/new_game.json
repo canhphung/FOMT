@@ -1,0 +1,530 @@
+{
+  "schema_version": 1,
+  "rom_sha1": "a2fc3574f0a65a4fcf7682fb274b9d7eebdef963",
+  "scope": "Verified new-game labels, prompts, shared seasons and birthday OBJ title",
+  "records": [
+    {
+      "id": "ui.newgame.name.player",
+      "rom_address": "0x080E8934",
+      "rom_offset": "0x0E8934",
+      "original_english": "Your  ",
+      "vietnamese_translation": "Tên bạn",
+      "context": "new_game_name_player",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "596f75722020",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          20200
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s; birthday confirm: asm/code_0803EE94.s 0806DE84"
+      },
+      "max_columns": 10,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.newgame.name.farm",
+      "rom_address": "0x080E893C",
+      "rom_offset": "0x0E893C",
+      "original_english": "Farm's",
+      "vietnamese_translation": "Tên trại",
+      "context": "new_game_name_farm",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "4661726d2773",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          20204
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s; birthday confirm: asm/code_0803EE94.s 0806DE84"
+      },
+      "max_columns": 10,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.newgame.name.pet",
+      "rom_address": "0x080E8944",
+      "rom_offset": "0x0E8944",
+      "original_english": "Dog's ",
+      "vietnamese_translation": "Tên chó",
+      "context": "new_game_name_pet",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "446f67277320",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          20208
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s; birthday confirm: asm/code_0803EE94.s 0806DE84"
+      },
+      "max_columns": 10,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.newgame.name.label",
+      "rom_address": "0x080E8BF4",
+      "rom_offset": "0x0E8BF4",
+      "original_english": "Name  ",
+      "vietnamese_translation": "      ",
+      "context": "new_game_name_label",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "4e616d652020",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          24344
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s; birthday confirm: asm/code_0803EE94.s 0806DE84"
+      },
+      "max_columns": 6,
+      "layout_budget": "conservative; runtime review required",
+      "translation_note": "Header prefix contains the complete Vietnamese label; blank the original trailing Name field, retaining the six-cell geometry."
+    },
+    {
+      "id": "ui.newgame.name.end",
+      "rom_address": "0x080E8BFC",
+      "rom_offset": "0x0E8BFC",
+      "original_english": "                    End",
+      "vietnamese_translation": "                    Xong",
+      "context": "new_game_name_end",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "2020202020202020202020202020202020202020456e64",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          26356
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s; birthday confirm: asm/code_0803EE94.s 0806DE84"
+      },
+      "max_columns": 27,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.newgame.name.end.wide",
+      "rom_address": "0x080E8C14",
+      "rom_offset": "0x0E8C14",
+      "original_english": "{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}End",
+      "vietnamese_translation": "{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}Xong",
+      "context": "new_game_name_end_wide",
+      "speaker": null,
+      "control_codes": [
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:8140}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "8140814081408140814081408140814081408140456e64",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          26384,
+          26480
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s; birthday confirm: asm/code_0803EE94.s 0806DE84"
+      },
+      "max_columns": 27,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.newgame.name.confirm",
+      "rom_address": "0x080E8C2C",
+      "rom_offset": "0x0E8C2C",
+      "original_english": "Is this name correct?",
+      "vietnamese_translation": "Tên này đúng chưa?",
+      "context": "new_game_name_confirm",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "49732074686973206e616d6520636f72726563743f",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          28712
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s; birthday confirm: asm/code_0803EE94.s 0806DE84"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required",
+      "max_encoded_bytes": 28
+    },
+    {
+      "id": "ui.newgame.name.yes",
+      "rom_address": "0x080E8C44",
+      "rom_offset": "0x0E8C44",
+      "original_english": "Yes",
+      "vietnamese_translation": "Đúng",
+      "context": "new_game_name_yes",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "596573",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          28716
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s; birthday confirm: asm/code_0803EE94.s 0806DE84"
+      },
+      "max_columns": 12,
+      "layout_budget": "conservative; runtime review required",
+      "max_encoded_bytes": 26
+    },
+    {
+      "id": "ui.newgame.name.no",
+      "rom_address": "0x080E8C48",
+      "rom_offset": "0x0E8C48",
+      "original_english": "No",
+      "vietnamese_translation": "Sửa lại",
+      "context": "new_game_name_no",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "4e6f",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          28720
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s; birthday confirm: asm/code_0803EE94.s 0806DE84"
+      },
+      "max_columns": 12,
+      "layout_budget": "conservative; runtime review required",
+      "max_encoded_bytes": 26
+    },
+    {
+      "id": "ui.newgame.summary.player",
+      "rom_address": "0x080E8958",
+      "rom_offset": "0x0E8958",
+      "original_english": "Your name     ",
+      "vietnamese_translation": "Tên bạn       ",
+      "context": "new_game_summary_player",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "596f7572206e616d652020202020",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          21688
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s; birthday confirm: asm/code_0803EE94.s 0806DE84"
+      },
+      "max_columns": 14,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.newgame.summary.birthday",
+      "rom_address": "0x080E8968",
+      "rom_offset": "0x0E8968",
+      "original_english": "Your birthday ",
+      "vietnamese_translation": "Sinh nhật     ",
+      "context": "new_game_summary_birthday",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "596f757220626972746864617920",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          21692
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s; birthday confirm: asm/code_0803EE94.s 0806DE84"
+      },
+      "max_columns": 14,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.newgame.summary.farm",
+      "rom_address": "0x080E8978",
+      "rom_offset": "0x0E8978",
+      "original_english": "Farm name     ",
+      "vietnamese_translation": "Tên nông trại ",
+      "context": "new_game_summary_farm",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "4661726d206e616d652020202020",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          21696
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s; birthday confirm: asm/code_0803EE94.s 0806DE84"
+      },
+      "max_columns": 14,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.newgame.summary.pet",
+      "rom_address": "0x080E8988",
+      "rom_offset": "0x0E8988",
+      "original_english": "Dog's name    ",
+      "vietnamese_translation": "Tên thú cưng  ",
+      "context": "new_game_summary_pet",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "446f672773206e616d6520202020",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          21700
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s; birthday confirm: asm/code_0803EE94.s 0806DE84"
+      },
+      "max_columns": 14,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.newgame.summary.confirm",
+      "rom_address": "0x080E8998",
+      "rom_offset": "0x0E8998",
+      "original_english": "Is this OK?",
+      "vietnamese_translation": "Bắt đầu nhé?",
+      "context": "new_game_summary_confirm",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "49732074686973204f4b3f",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          22788
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s; birthday confirm: asm/code_0803EE94.s 0806DE84"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required",
+      "max_encoded_bytes": 28
+    },
+    {
+      "id": "ui.newgame.summary.yes",
+      "rom_address": "0x080E89A4",
+      "rom_offset": "0x0E89A4",
+      "original_english": "Yes",
+      "vietnamese_translation": "Bắt đầu",
+      "context": "new_game_summary_yes",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "596573",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          22792
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s; birthday confirm: asm/code_0803EE94.s 0806DE84"
+      },
+      "max_columns": 12,
+      "layout_budget": "conservative; runtime review required",
+      "max_encoded_bytes": 26
+    },
+    {
+      "id": "ui.newgame.summary.no",
+      "rom_address": "0x080E89A8",
+      "rom_offset": "0x0E89A8",
+      "original_english": "No",
+      "vietnamese_translation": "Sửa lại",
+      "context": "new_game_summary_no",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "4e6f",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          22796
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s; birthday confirm: asm/code_0803EE94.s 0806DE84"
+      },
+      "max_columns": 12,
+      "layout_budget": "conservative; runtime review required",
+      "max_encoded_bytes": 26
+    },
+    {
+      "id": "ui.newgame.birthday.confirm",
+      "rom_address": "0x080FBD18",
+      "rom_offset": "0x0FBD18",
+      "original_english": "Are you sure?",
+      "vietnamese_translation": "Chọn ngày này nhé?",
+      "context": "new_game_birthday_confirm",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "41726520796f7520737572653f",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          450228
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s; birthday confirm: asm/code_0803EE94.s 0806DE84"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required",
+      "max_encoded_bytes": 28
+    },
+    {
+      "id": "ui.newgame.birthday.yes",
+      "rom_address": "0x080FBD28",
+      "rom_offset": "0x0FBD28",
+      "original_english": "Yes",
+      "vietnamese_translation": "Có",
+      "context": "new_game_birthday_yes",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "596573",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          450232
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s; birthday confirm: asm/code_0803EE94.s 0806DE84"
+      },
+      "max_columns": 12,
+      "layout_budget": "conservative; runtime review required",
+      "max_encoded_bytes": 26
+    },
+    {
+      "id": "ui.newgame.birthday.no",
+      "rom_address": "0x080FBD2C",
+      "rom_offset": "0x0FBD2C",
+      "original_english": "No",
+      "vietnamese_translation": "Không",
+      "context": "new_game_birthday_no",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "4e6f",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          450236
+        ],
+        "reference": "StanHash/fomt b8471ae asm/new_game.s; birthday confirm: asm/code_0803EE94.s 0806DE84"
+      },
+      "max_columns": 12,
+      "layout_budget": "conservative; runtime review required",
+      "max_encoded_bytes": 26
+    },
+    {
+      "id": "ui.newgame.season.spring",
+      "rom_address": "0x080F04EE",
+      "rom_offset": "0x0F04EE",
+      "original_english": "Spring",
+      "vietnamese_translation": "Xuân",
+      "context": "season_name_shared_with_new_game",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "537072696e67",
+      "source": {
+        "kind": "fixed_cstring",
+        "offset": 984302,
+        "size": 7,
+        "reference": "src/code_0800E2E4.cc func_0800E2E4; fixed char[4][7]"
+      },
+      "max_columns": 6,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.newgame.season.summer",
+      "rom_address": "0x080F04F5",
+      "rom_offset": "0x0F04F5",
+      "original_english": "Summer",
+      "vietnamese_translation": "Hạ",
+      "context": "season_name_shared_with_new_game",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "53756d6d6572",
+      "source": {
+        "kind": "fixed_cstring",
+        "offset": 984309,
+        "size": 7,
+        "reference": "src/code_0800E2E4.cc func_0800E2E4; fixed char[4][7]"
+      },
+      "max_columns": 6,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.newgame.season.fall",
+      "rom_address": "0x080F04FC",
+      "rom_offset": "0x0F04FC",
+      "original_english": "Fall  ",
+      "vietnamese_translation": "Thu",
+      "context": "season_name_shared_with_new_game",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "46616c6c2020",
+      "source": {
+        "kind": "fixed_cstring",
+        "offset": 984316,
+        "size": 7,
+        "reference": "src/code_0800E2E4.cc func_0800E2E4; fixed char[4][7]"
+      },
+      "max_columns": 6,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.newgame.season.winter",
+      "rom_address": "0x080F0503",
+      "rom_offset": "0x0F0503",
+      "original_english": "Winter",
+      "vietnamese_translation": "Đông",
+      "context": "season_name_shared_with_new_game",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "57696e746572",
+      "source": {
+        "kind": "fixed_cstring",
+        "offset": 984323,
+        "size": 7,
+        "reference": "src/code_0800E2E4.cc func_0800E2E4; fixed char[4][7]"
+      },
+      "max_columns": 6,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "ui.newgame.birthday.title",
+      "rom_address": "0x080FBD76",
+      "rom_offset": "0x0FBD76",
+      "original_english": "Birthday",
+      "vietnamese_translation": "Sinh nhật",
+      "context": "new_game_birthday_glyph_strip",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "42006900720074006800640061007900",
+      "source": {
+        "kind": "glyph_strip",
+        "glyph_table_offset": 1031472,
+        "first": 35,
+        "count": 8,
+        "raw_format": "u16le_glyphs",
+        "reference": "asm/code_0803EE94.s func_0806E234/0806E578; eight title OBJ cells"
+      },
+      "max_columns": 9,
+      "layout_budget": "conservative; runtime review required"
+    }
+  ]
+}

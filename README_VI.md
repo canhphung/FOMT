@@ -6,10 +6,14 @@ Không chứa hoặc tự tải ROM thương mại. Bản vá IPS nằm trong `p
 
 ## Trạng thái hiện tại
 
-- Trích xuất 9.069 chuỗi: toàn bộ 8.368 chuỗi trong các SCR được bảng VM tham
-  chiếu, 347 tên + 347 mô tả vật phẩm, 7 nhãn menu tạm dừng.
-- 385 bản ghi dịch nháp: 346 tên vật phẩm, 21 mô tả, 7 menu, 11 chuỗi hội thoại/
-  dẫn chuyện. Tên riêng được giữ nguyên khi phù hợp.
+- Trích xuất 9.093 bản ghi: toàn bộ 8.368 chuỗi trong các SCR được bảng VM tham
+  chiếu, 347 tên + 347 mô tả vật phẩm, 7 nhãn menu tạm dừng và 24 mục tạo game mới.
+- 409 bản ghi dịch nháp: 346 tên vật phẩm, 21 mô tả, 7 menu, 11 chuỗi hội thoại/
+  dẫn chuyện và 24 mục tạo game mới. Tên riêng được giữ nguyên khi phù hợp.
+- Đã Việt hóa luồng đặt tên nhân vật/nông trại/chó, chọn mùa/ngày sinh, xác nhận
+  tên và xác nhận tạo game. Bàn phím giữ bộ ký tự gốc và giới hạn tên 12 ký tự.
+  [Ảnh trong mGBA](docs/evidence/new-game-setup.png),
+  [chi tiết hệ thống](docs/NEW_GAME_UI.md).
 - Title đã đổi **Start → Bắt đầu**, **Continue → Tiếp tục**, có dấu, nét xanh
   ngọc mảnh với viền trắng bên trong và viền đen ngoài cùng. Có save thì hiện
   cả hai lựa chọn; giữ luồng tạo game mới/nạp save của game gốc.

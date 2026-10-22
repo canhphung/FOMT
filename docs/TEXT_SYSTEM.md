@@ -106,7 +106,8 @@ Chưa lập đầy đủ ý nghĩa mọi variable ID. `{RAW:8140}` thường là
 rộng theo CP932 nhưng vẫn giữ nguyên byte thay vì thay thành dấu cách ASCII.
 Không diễn giải byte `FF` thành ký tự Private Use của Python CP932.
 
-Đã kiểm tra `encode(decode(bytes)) == bytes` cho toàn bộ 9,069 bản ghi.
+Đã kiểm tra round trip cho 9.093 bản ghi: 9.092 C-string qua codec lossless;
+riêng tiêu đề Birthday là 8 mã glyph `u16le`, được kiểm tra theo đúng định dạng.
 Importer yêu cầu token và thứ tự token giống hoàn toàn nguồn. Phần tử `RAW`
 không được xóa/đổi để làm validator qua. Văn bản thường được chuẩn hóa NFC.
 
@@ -168,7 +169,7 @@ qua 180 frame, cả hai trạng thái save. Có kiểm tra mũi tên gốc, Star
 nhân vật, Continue vào load menu, load SRAM sau cold boot và ảnh thực tế.
 OAM Y canvas là 110..112 thay 112..114; vị trí và chuyển động nét vẫn như cũ.
 Không tuyên bố toàn bộ framebuffer đồng nhất từng frame vì blink nền có thể
-khác pha. Hai artwork không cộng vào 385 chuỗi dịch/9.069 chuỗi catalog.
+khác pha. Hai artwork không cộng vào 409 bản ghi dịch/9.093 mục catalog.
 
 ### Căn con trỏ theo viền chữ Việt
 
@@ -191,9 +192,15 @@ OAM/VRAM, đổi trái/phải, Start tạo game mới và Continue nạp SRAM.
 
 ## Phân loại còn thiếu
 
-9,069 là số chuỗi trong **các cấu trúc đã hỗ trợ**, không phải khẳng định đã tìm
+9.093 là số bản ghi trong **các cấu trúc đã hỗ trợ**, không phải khẳng định đã tìm
 hết mọi chữ game có thể hiển thị. Script còn chứa TV, sách, sự kiện, menu chọn,
 lời NPC và hướng dẫn; phần lớn chưa nối được đến speaker/call-site, nên giữ
-`script_string_unclassified`. Chưa dịch tự động nhóm này. Tên NPC, UI static,
-name-entry, đồ họa chữ và lịch/đồng hồ cần adapter và kiểm thử riêng. Không có
+`script_string_unclassified`. Chưa dịch tự động nhóm này. Tên NPC, UI static
+ngoài luồng tạo game mới, đồ họa chữ và lịch/đồng hồ cần adapter riêng. Không có
 địa chỉ hay hội thoại tự đặt nào được đưa vào catalog dưới tên nội dung gốc.
+
+## Tạo game mới
+
+Adapter [new_game_ui.py](../tools/new_game_ui.py) hỗ trợ 19 C-string có con trỏ,
+4 hàng mùa cố định và một tiêu đề bằng bảng glyph. Xem [NEW_GAME_UI.md](NEW_GAME_UI.md)
+về địa chỉ xác minh, giới hạn byte trước khi render, cache OBJ và ô nền tổng kết.

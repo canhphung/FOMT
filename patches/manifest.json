@@ -3,15 +3,17 @@
   "stage": "experimental localization demo; not a full translation",
   "source_sha1": "a2fc3574f0a65a4fcf7682fb274b9d7eebdef963",
   "source_size": 8388608,
-  "target_sha256": "29c9f0ab8a7616a01937ca4e79bef03e7f484a8701019a1f149953230a8a85dd",
+  "target_sha256": "d4100dd0597fa1499feb61eb695b8b3396c666d50ec560f17c71729f6886b4c6",
   "target_size": 16777216,
-  "patch_sha256": "c6ebf4362e467036c5f177727456e533736804b3af890b62f1a4b519c248d0c4",
-  "patch_size": 135028,
-  "translated_draft_records": 385,
+  "patch_sha256": "5fdaa28bf4d17352356d9fde0ef643006676dd65fd5cede23c17554b3af93e66",
+  "patch_size": 135194,
+  "translated_draft_records": 409,
   "revision": "2026-10-22",
-  "validation": "59 pytest tests; mGBA 0.10.5 and 0.11-dev cursor alignment/left-right selection, title VRAM/OAM, new game and SRAM cold-boot load; see docs/evidence/validation.json",
+  "validation": "67 pytest tests; mGBA 0.10.5 and 0.11-dev: new-game UI eight birthday cases, edit/cancel/name boundary, title/font, normal intro and SRAM cold-boot save/load; see docs/evidence/validation.json",
   "font_revision": "native-outline-aligned-v2",
   "translated_graphics_assets": 2,
   "title_graphics_revision": "native-thin-double-outline-v5",
-  "title_cursor_revision": "visible-left-edge-v1"
+  "title_cursor_revision": "visible-left-edge-v1",
+  "new_game_ui_revision": "new-game-ui-v1",
+  "new_game_ui_records": 24
 }

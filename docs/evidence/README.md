@@ -31,6 +31,10 @@ Target ROM và bản vá được định danh trong `validation.json` và
   phóng 3 lần; font/màu/vị trí chữ giữ nguyên.
 - `title-font-sample.png`: artwork của cả hai prompt trên nền tối, phóng 3 lần;
   mẫu tile, không phải framebuffer game.
+- `new-game-*.png`: framebuffer mGBA 0.10.5 khi đi qua từng bước tạo game bằng
+  nút bình thường, gồm các câu xác nhận và nhánh quay lại sửa. `new-game-setup.png`
+  ghép 6 framebuffer phóng nearest-neighbor 2 lần, nhãn bước nằm ngoài ảnh game.
+  Báo cáo riêng kiểm tra 4 mùa × ngày 1/30 và tên dài 12 ký tự trên cả hai mGBA.
 
 Ảnh đã được xem thủ công. Các phép so pixel/canary và kết quả pytest nằm trong
 `validation.json`. Probe hàm dùng trạng thái emulator cô lập và không được xem

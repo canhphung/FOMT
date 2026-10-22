@@ -2271,6 +2271,54 @@
       "vietnamese": "Đĩa ném",
       "category": "item_name",
       "source_id": "item.article.094.name"
+    },
+    {
+      "english": "Birthday",
+      "vietnamese": "Sinh nhật",
+      "category": "new_game_ui",
+      "source_id": "ui.newgame.birthday.title"
+    },
+    {
+      "english": "Spring",
+      "vietnamese": "Xuân",
+      "category": "new_game_ui",
+      "source_id": "ui.newgame.season.spring"
+    },
+    {
+      "english": "Summer",
+      "vietnamese": "Hạ",
+      "category": "new_game_ui",
+      "source_id": "ui.newgame.season.summer"
+    },
+    {
+      "english": "Fall",
+      "vietnamese": "Thu",
+      "category": "new_game_ui",
+      "source_id": "ui.newgame.season.fall"
+    },
+    {
+      "english": "Winter",
+      "vietnamese": "Đông",
+      "category": "new_game_ui",
+      "source_id": "ui.newgame.season.winter"
+    },
+    {
+      "english": "End",
+      "vietnamese": "Xong",
+      "category": "new_game_ui",
+      "source_id": "ui.newgame.name.end"
+    },
+    {
+      "english": "Farm name",
+      "vietnamese": "Tên nông trại",
+      "category": "new_game_ui",
+      "source_id": "ui.newgame.summary.farm"
+    },
+    {
+      "english": "Dog's name",
+      "vietnamese": "Tên thú cưng",
+      "category": "new_game_ui",
+      "source_id": "ui.newgame.summary.pet"
     }
   ]
 }

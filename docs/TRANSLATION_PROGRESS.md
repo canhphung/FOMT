@@ -1,7 +1,8 @@
 # Tiến độ Việt hóa
 
-**Hiện tại:** font v2 sửa lệch baseline/bearing, 47 test đạt; bản dịch vẫn 385 ID.
-Mục đầu lưu lịch sử bản thử v1; mục cuối ghi phiên sửa font và bằng chứng mới.
+**Hiện tại:** 409/9.093 bản ghi dịch nháp, 2 prompt title đồ họa, 67 test đạt.
+Đã Việt hóa các màn tạo game mới; mục cuối ghi phiên triển khai và kiểm chứng.
+Các mục cũ bên dưới giữ số liệu theo từng phiên lịch sử.
 
 ## Phiên 2026-10-22 — nền tảng và bản thử đầu tiên
 
@@ -246,3 +247,35 @@ bitmap tay không đổi, chuyển trái/phải, tạo game khi có save và n�
 59 pytest đạt; mGBA 0.10.5/0.11-dev đều đạt. Cập nhật IPS/manifest và ảnh
 `title-cursor-start.png`, `title-cursor-continue.png`, so sánh trước/sau.
 Vẫn 385 chuỗi + 2 prompt đồ họa; chưa thử GBA thật hoặc mọi save người chơi.
+
+## Phiên 2026-10-22 — Việt hóa luồng tạo game mới
+
+Thêm adapter có nguồn xác minh cho 24 ID: đặt tên nhân vật/nông trại/chó,
+Xong, xác nhận tên, sinh nhật, Xuân/Hạ/Thu/Đông và xác nhận tạo game. Catalog
+hiện **9.093** mục, có **409** bản dịch nháp (khoảng 4,50% catalog đã hỗ trợ),
+cộng hai prompt title đồ họa. Các mục lịch sử phía trên giữ nguyên số liệu cũ.
+
+19 C-string được chuyển con trỏ sang vùng mở rộng; 4 hàng mùa giữ cấu trúc
+`char[4][7]`; tiêu đề Birthday được trích xuất đúng dạng glyph u16, không coi
+byte u16 là ASCII. Cache sinh nhật vẫn 43 ô 8×16, không tăng VRAM hoặc OBJ.
+Tài liệu nguồn/địa chỉ và quyết định bố cục: [NEW_GAME_UI.md](NEW_GAME_UI.md).
+
+Hai lỗi được phát hiện khi chạy mGBA và đã xử lý:
+
+- Nhãn đầu tổng kết thay đổi làm tile nền cũ chứa nét chữ: chuyển fill sang
+  cột trống được dành riêng, thêm kiểm tra để bản dịch sau không ghi vào cột này.
+- Popup gốc dùng giới hạn `strlen` 28 byte cho câu hỏi: câu Việt vừa số ô vẫn
+  có thể bị ẩn. Bổ sung giới hạn byte có nguồn từ hàm thật, dùng “Bắt đầu nhé?”.
+
+**Kiểm chứng:** 67 pytest đạt, không skip; build lặp lại và IPS apply tái tạo
+đúng hash ROM đích. mGBA 0.10.5 và 0.11-dev đều qua 8 ca 4 mùa × ngày 1/30,
+đối chiếu tên/ngày sinh giữa ROM gốc và ROM Việt, xóa ký tự, tên dài 12 ký tự,
+quay lại sửa tên/ngày sinh/tổng kết. Smoke toàn pipeline trên cả hai mGBA vẫn
+qua boot/title/font/intro/menu/Diary save và load SRAM sau cold boot, không
+log error/fatal. Đã xem ảnh framebuffer thật, gồm nhãn/câu hỏi/nút tiếng Việt
+và nền tổng kết sạch; xem [ảnh tổng hợp](evidence/new-game-setup.png).
+
+Cập nhật glossary, EN/VI subset, IPS/manifest và báo cáo evidence. Giới hạn còn
+lại: bàn phím chưa nhập tên Việt có dấu; phần lớn hội thoại/menu khác còn tiếng
+Anh; chưa thử GBA thật hoặc toàn bộ save/cảnh. Các bước tiếp theo là adapter
+Diary/options/shop, phân loại hội thoại và mô tả vật phẩm còn thiếu.

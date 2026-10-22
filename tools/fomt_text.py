@@ -285,6 +285,8 @@ def extract(data: bytes) -> dict:
                  "script_offset": address, "script_pointer_offset": slot,
                  "relative_offset_slot": ent["slot"], "pool_offset": ent["pool"],
                  "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"}, 28, speaker))
+    from new_game_ui import extract_records
+    records.extend(extract_records(data))
     return {"schema_version": 1, "rom": {"sha1": ROM_SHA1,
             "sha256": hashlib.sha256(data).hexdigest(), "size": len(data),
             "game_code": data[0xAC:0xB0].decode("ascii"), "revision": data[0xBC]},

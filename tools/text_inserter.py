@@ -7,6 +7,7 @@ import json
 import os
 import sys
 import tempfile
+import unicodedata
 from collections import defaultdict
 from pathlib import Path
 
@@ -17,6 +18,7 @@ from vietnamese_font import (assemble_hook, build_glyphs, trampoline, FONT_REVIS
     SOURCE_ROWS, BASELINE, ADVANCE_PIXELS, ASCII_COUNT, STAGING_BYTES)
 import title_graphics
 import title_cursor
+import new_game_ui
 
 
 def build(base: bytes, translations: dict) -> tuple[bytes, dict]:
@@ -25,6 +27,7 @@ def build(base: bytes, translations: dict) -> tuple[bytes, dict]:
         raise FormatError("translation catalog targets a different ROM")
     originals = {r["id"]: r for r in catalog["records"]}
     selected = {}
+    selected_texts = {}
     seen = set()
     layout = {}
     for row in translations["records"]:
@@ -49,6 +52,9 @@ def build(base: bytes, translations: dict) -> tuple[bytes, dict]:
         except FormatError as exc:
             raise FormatError(f"{identifier}: {exc}") from exc
         selected[identifier] = encode(row["vietnamese_translation"], vietnamese=True)
+        if len(selected[identifier]) > original.get('max_encoded_bytes', 1 << 30):
+            raise FormatError(f"{identifier}: exceeds encoded-byte limit before rendering")
+        selected_texts[identifier] = unicodedata.normalize('NFC',row["vietnamese_translation"])
     if not selected:
         return base, {"translated_records": 0, "size": len(base), "writes": [], "layout": {}}
     result = bytearray(base)
@@ -75,7 +81,7 @@ def build(base: bytes, translations: dict) -> tuple[bytes, dict]:
 
     hook_offset = append(b"\xFF"*128, "Vietnamese Thumb hook reservation")
     glyph_offset = append(build_glyphs(base), "229 Latin/Vietnamese glyphs, common baseline, 16x16 4bpp staging")
-    hook = assemble_hook(ROM_BASE+hook_offset, ROM_BASE+glyph_offset)
+    hook = font_hook = assemble_hook(ROM_BASE+hook_offset, ROM_BASE+glyph_offset)
     if len(hook) > 128:
         raise FormatError("hook reservation overflow")
     result[hook_offset:hook_offset+len(hook)] = hook
@@ -93,6 +99,12 @@ def build(base: bytes, translations: dict) -> tuple[bytes, dict]:
                 if offset(u32(base, slot), len(base)) != int(original["rom_offset"], 16):
                     raise FormatError("pointer identity mismatch")
                 write(slot, p32(ROM_BASE+at), identifier+" pointer")
+        elif src["kind"] == "fixed_cstring":
+            if len(payload)+1 > src["size"]:
+                raise FormatError(f"{identifier}: encoded bytes exceed fixed string row")
+            write(src["offset"],(payload+b"\0").ljust(src["size"],b"\0"),identifier)
+        elif src["kind"] == "glyph_strip":
+            pass  # rendered into the verified birthday OBJ cache below
         else:
             scripts[src["script_id"]][src["string_index"]] = payload
     for script_id, replacements in sorted(scripts.items()):
@@ -108,6 +120,21 @@ def build(base: bytes, translations: dict) -> tuple[bytes, dict]:
             if ent["raw"] != expect:
                 raise FormatError("script reinsertion round trip failed")
         write(src["script_pointer_offset"], p32(ROM_BASE+at), f"script {script_id} pointer")
+    if any(k.startswith(new_game_ui.PREFIX+'summary.') for k in selected):
+        write(new_game_ui.SUMMARY_BLANK_SITE,new_game_ui.summary_blank_patch(base,selected_texts),
+              "summary background: reserved blank label tile 109")
+    birthday_report = None
+    if any(k.startswith('ui.newgame.season.') or k == 'ui.newgame.birthday.title' for k in selected):
+        atlas = new_game_ui.build_atlas(base,selected_texts)
+        atlas_at = append(atlas,"birthday: 43 native/Vietnamese 8x16 OBJ cells")
+        hook_address = ROM_BASE+((len(result)+3)&~3)
+        hook = new_game_ui.atlas_hook(hook_address,ROM_BASE+atlas_at)
+        hook_at = append(hook,"birthday OBJ atlas copy hook")
+        write(new_game_ui.ATLAS_SITE,trampoline(ROM_BASE+hook_at),"birthday glyph cache call site")
+        birthday_report = {"offset":atlas_at,"size":len(atlas),"glyphs":43,
+            "hook_offset":hook_at,"hook_bytes":hook.hex(),"source_site":new_game_ui.ATLAS_SITE,
+            "title_advance":7 if len(selected_texts.get('ui.newgame.birthday.title','Birthday'))>8 else 8,
+            "vram_allocation_changed":False}
     title_asset, title_report = title_graphics.localize(base)
     title_offset = append(title_asset, "title sprite asset: Bắt đầu / Tiếp tục")
     write(title_graphics.POINTER_OFFSET, p32(ROM_BASE+title_offset), "title sprite asset pointer")
@@ -136,8 +163,9 @@ def build(base: bytes, translations: dict) -> tuple[bytes, dict]:
     patched = bytes(result)
     return patched, {"rom_sha1": ROM_SHA1, "target_sha256": hashlib.sha256(patched).hexdigest(),
         "size": len(patched), "translated_records": len(selected), "writes": writes,
-        "allocations": allocations, "layout": layout, "font_hook_bytes": hook.hex(),
+        "allocations": allocations, "layout": layout, "font_hook_bytes": font_hook.hex(),
         "graphics": [title_report],
+        "new_game_birthday_atlas": birthday_report,
         "font": {"revision":FONT_REVISION,"source_mask_rows":SOURCE_ROWS,
                  "baseline_row":BASELINE,"advance_pixels":ADVANCE_PIXELS,
                  "ascii_glyphs":ASCII_COUNT,"vietnamese_glyphs":len(VI_CODES),
@@ -163,7 +191,7 @@ def atomic_write(path: Path, content: bytes):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("rom", type=Path)
-    parser.add_argument("--translations", type=Path, nargs="+", default=[Path("localization/vi/pilot.json"), Path("localization/vi/items.json")])
+    parser.add_argument("--translations", type=Path, nargs="+", default=[Path("localization/vi/pilot.json"), Path("localization/vi/items.json"), Path("localization/vi/new_game.json")])
     parser.add_argument("--output", type=Path, default=Path("build/fomt-vi-demo.gba"))
     parser.add_argument("--patch", type=Path, default=Path("patches/fomt-vi-demo.ips"))
     parser.add_argument("--report", type=Path, default=Path("build/insertion-report.json"))

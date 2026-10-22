@@ -2,17 +2,17 @@
   "date": "2026-10-22",
   "font_revision": "native-outline-aligned-v2",
   "base_sha1": "a2fc3574f0a65a4fcf7682fb274b9d7eebdef963",
-  "target_sha256": "29c9f0ab8a7616a01937ca4e79bef03e7f484a8701019a1f149953230a8a85dd",
+  "target_sha256": "d4100dd0597fa1499feb61eb695b8b3396c666d50ec560f17c71729f6886b4c6",
   "mgba_version": "0.10.5",
   "mgba_commit": "26b7884bc25a5933960f3cdcd98bac1ae14d42e2",
   "pytest": {
-    "passed": 59,
+    "passed": 67,
     "failed": 0,
     "skipped": 0,
     "command": "FOMT_ROM=/path/to/base.gba .venv/bin/python -m pytest -q"
   },
   "emulator": {
-    "target_sha256": "29c9f0ab8a7616a01937ca4e79bef03e7f484a8701019a1f149953230a8a85dd",
+    "target_sha256": "d4100dd0597fa1499feb61eb695b8b3396c666d50ec560f17c71729f6886b4c6",
     "checks": {
       "ascii_native_outlines_at_common_baseline": 95,
       "legacy_glyph_fallback_unchanged": 10,
@@ -66,7 +66,7 @@
       "saved_title_pixels_outside_prompts_unchanged": "passed",
       "in_game_sram_save_and_cold_boot_load": {
         "size": 32768,
-        "sha256": "a073a80974cc46e2d8d6cbfb6bc8eab215a9c21ec017b26577ba96cf3779ec1e",
+        "sha256": "8d9031da8049adb98c82e024f09fe0dee33952c103c563597917710408e866e9",
         "save_integrity_after_reboot": "identical",
         "screenshots": "diary-saved, diary-load-menu, game-loaded"
       },
@@ -84,7 +84,7 @@
     "version": "0.11-dev",
     "commit": "fd9dc5c2cbf234365068855851107e762fc6211b",
     "report": {
-      "target_sha256": "29c9f0ab8a7616a01937ca4e79bef03e7f484a8701019a1f149953230a8a85dd",
+      "target_sha256": "d4100dd0597fa1499feb61eb695b8b3396c666d50ec560f17c71729f6886b4c6",
       "checks": {
         "ascii_native_outlines_at_common_baseline": 95,
         "legacy_glyph_fallback_unchanged": 10,
@@ -138,7 +138,7 @@
         "saved_title_pixels_outside_prompts_unchanged": "passed",
         "in_game_sram_save_and_cold_boot_load": {
           "size": 32768,
-          "sha256": "a073a80974cc46e2d8d6cbfb6bc8eab215a9c21ec017b26577ba96cf3779ec1e",
+          "sha256": "8d9031da8049adb98c82e024f09fe0dee33952c103c563597917710408e866e9",
           "save_integrity_after_reboot": "identical",
           "screenshots": "diary-saved, diary-load-menu, game-loaded"
         },
@@ -170,7 +170,8 @@
     ],
     "title_start": "No-save title framebuffer reviewed: approved thin green strokes retain exact screen positions; full black outer / white inner outline",
     "title_continue": "Saved title framebuffer reviewed: Tiếp tục, ê acute, ụ dot and p descender complete; original arrow; black-white-green order; no missing sprites outside prompts",
-    "title_cursor": "Native mGBA framebuffers reviewed for both choices: hand now follows visible left border; same thin font and colors, cursor Y and bitmap; original +/-1px motion retained"
+    "title_cursor": "Native mGBA framebuffers reviewed for both choices: hand now follows visible left border; same thin font and colors, cursor Y and bitmap; original +/-1px motion retained",
+    "new_game_ui": "Reviewed six-panel framebuffer gallery and all confirmation/edit screens: Vietnamese diacritics complete, prompts/buttons visible, original input grid retained, final background clear."
   },
   "comparison": {
     "before_target_sha256": "952087635bbb9e000e0acf54cbf0dad1ef3f19006ebbf3948a6d2f27110db714",
@@ -178,22 +179,34 @@
     "origin": "actual mGBA string-renderer output on labeled diagnostics; not an NPC encounter screenshot"
   },
   "images": {
-    "diary-saved.png": "c0b2de472ac1c99dc3a8e306e7a5ddbdccaf4aefe873e82afc36d046731dac97",
-    "title-font-sample.png": "42f5923a4bcb5ed9549804e100b7cf49361c49c5cbdeeb6fd2327900b1736305",
-    "title-font-comparison.png": "e5f1ece483020625485166af697dfaac5929f1d38aefc1b0dbdaabd282868ee0",
-    "title-cursor-continue.png": "953a1b36bebbe32c8a21a0b29cee21a3f0743fccf208446b063c34d12d9419b6",
-    "v1-save-loaded-in-v2.png": "b445eef939588509f40a49c393280d56211aacc0bf865c7af1c57e01956d2312",
-    "diary-load-menu.png": "65b38a2a342bd9dcf174541990c8a3a7489ecc769388926721d27d72de9323fe",
-    "vietnamese-font.png": "4c2850da6e0a65cfc3472514fdcea4358d7a8de3d18e7d236f84eec2e5321f44",
-    "thomas-three-lines.png": "9fe3c00c2f3b9198407003083e4d7899b886f6aec18375be97d60f2ac13fa7cd",
-    "title-cursor-start.png": "68147c1c3d44e8e66380a76b1bdc05688490d8dd55664ce2c91c65ce2afdc316",
-    "thomas-dialogue.png": "2761d4919597aa9f1f429408cae149a492baf6a94035ffff3f8e2a6f581fc6ec",
+    "diary-load-menu.png": "2966c77d35c10213a3b8e3cb9d5995103fd8b795ca3985ae4b7eefae8ded199a",
+    "diary-saved.png": "48c2473fbaa9c84184d5e4a296e5188e0f2cd624c404f8237a0348f76b3a3062",
+    "font-spacing-comparison.png": "a1a27a7fcfebe39fc2e4cd1710832ad01b531616772f47137413724a259c4258",
     "game-loaded.png": "b445eef939588509f40a49c393280d56211aacc0bf865c7af1c57e01956d2312",
-    "pause-menu.png": "4ab9944c74de0b5d4828acf1aeb326c66c58749c7d896aa8b32d25fd87d81dbf",
+    "new-game-birthday-confirm.png": "00b2d2f7942c7f32f1b7f698588b91c6ae65a19d15e4f83ae3b7a97a4422bea2",
+    "new-game-day.png": "248c30218f39d382641e1a02c4618387de5cbdc248bff0e25478cae9badc4c48",
+    "new-game-edit-again.png": "a9d304b7fb838cd0b8783200cc078eb9099e554ecb9946d6aebf019958049629",
+    "new-game-farm-confirm.png": "8ce03289329671d45c82897df20dfc6870a199ecf81a2cecc5dcdfa2bfe69e5a",
+    "new-game-farm.png": "9aca52262a7afb061cdb9e260a6a7a4a324479206709fc8a6000dfed3848144c",
+    "new-game-final.png": "af8f57f67b0c3958bbd2228f202f7f865b0b5bbc3f59054c9ba86722ac03770e",
+    "new-game-pet-confirm.png": "1747bde6cbbb88dc13b63749a42add9a8219c918e000c093162b38e21a4446fe",
+    "new-game-pet.png": "c1e7245051f5bc7488ab581ff94bb57844b2d3f04e573038c53212adf3a82ef3",
+    "new-game-player-confirm.png": "49a68b112759f64b1f32b13a1db6efb0933b3b494125af523ca18f0a7fce39fe",
+    "new-game-player.png": "9582b05053a2f5b43574fb6d5533962963515532261b06f5d6386edcd248f78c",
+    "new-game-season.png": "b772626d844d6ea72b82f827369940c05fcf220f58eec22b23e26ebda084e0af",
+    "new-game-setup.png": "3c49cdbdb4be82c0ab98336201e33aa6c31ca9a424687449cee8dbafc43f03b9",
+    "pause-menu.png": "f00f0902d85f0994ebdc06efe8d915fab5f8702fd3787953ed25a2db944ebc3f",
+    "thomas-dialogue.png": "2761d4919597aa9f1f429408cae149a492baf6a94035ffff3f8e2a6f581fc6ec",
+    "thomas-three-lines.png": "9fe3c00c2f3b9198407003083e4d7899b886f6aec18375be97d60f2ac13fa7cd",
     "title-continue.png": "e4dc99c1df5d2b841bf31007a2cab03a6618fae97e766d2d244c469bc5a375ee",
     "title-cursor-comparison.png": "ba52f4872db230b10859d2399c9709660c57c6f1c6fc8de482a954dfa7dd9d08",
-    "font-spacing-comparison.png": "a1a27a7fcfebe39fc2e4cd1710832ad01b531616772f47137413724a259c4258",
-    "title-start.png": "fdb3d717a1748d1742dd53ea011bc4b758e2ebe642d88a3cc4c186a8a7d62db2"
+    "title-cursor-continue.png": "953a1b36bebbe32c8a21a0b29cee21a3f0743fccf208446b063c34d12d9419b6",
+    "title-cursor-start.png": "68147c1c3d44e8e66380a76b1bdc05688490d8dd55664ce2c91c65ce2afdc316",
+    "title-font-comparison.png": "e5f1ece483020625485166af697dfaac5929f1d38aefc1b0dbdaabd282868ee0",
+    "title-font-sample.png": "42f5923a4bcb5ed9549804e100b7cf49361c49c5cbdeeb6fd2327900b1736305",
+    "title-start.png": "fdb3d717a1748d1742dd53ea011bc4b758e2ebe642d88a3cc4c186a8a7d62db2",
+    "v1-save-loaded-in-v2.png": "b445eef939588509f40a49c393280d56211aacc0bf865c7af1c57e01956d2312",
+    "vietnamese-font.png": "4c2850da6e0a65cfc3472514fdcea4358d7a8de3d18e7d236f84eec2e5321f44"
   },
   "previous_release_save_compatibility": {
     "source_rom_sha256": "952087635bbb9e000e0acf54cbf0dad1ef3f19006ebbf3948a6d2f27110db714",
@@ -264,11 +277,11 @@
           1019
         ]
       },
-      "target_offset": 8457012,
+      "target_offset": 8460100,
       "cursor": {
         "revision": "visible-left-edge-v1",
         "source_offset": 10108,
-        "hook_offset": 8477576,
+        "hook_offset": 8480664,
         "hook_bytes": "1a20215e882905d0182901d0502902d1023100e00d3168460180014b184700bf85270008",
         "x_adjustments": {
           "title.start": 2,
@@ -291,7 +304,18 @@
       "title-continue.png",
       "title-cursor-start.png",
       "title-cursor-continue.png",
-      "title-cursor-comparison.png"
+      "new-game-player.png",
+      "new-game-player-confirm.png",
+      "new-game-season.png",
+      "new-game-day.png",
+      "new-game-birthday-confirm.png",
+      "new-game-farm.png",
+      "new-game-farm-confirm.png",
+      "new-game-pet.png",
+      "new-game-pet-confirm.png",
+      "new-game-final.png",
+      "new-game-edit-again.png",
+      "new-game-setup.png"
     ],
     "unchanged_font_v2_evidence": [
       "vietnamese-font.png",
@@ -305,6 +329,9 @@
     ],
     "historical_title_font_evidence": [
       "title-font-comparison.png"
+    ],
+    "historical_title_cursor_evidence": [
+      "title-cursor-comparison.png"
     ]
   },
   "title_font_comparison": {
@@ -334,5 +361,273 @@
       },
       "hook_size": 36
     }
+  },
+  "new_game_ui": {
+    "revision": "new-game-ui-v1",
+    "translated_records": 24,
+    "primary_emulator": {
+      "target_sha256": "d4100dd0597fa1499feb61eb695b8b3396c666d50ec560f17c71729f6886b4c6",
+      "status": "passed",
+      "cases": [
+        {
+          "season": 0,
+          "day": 1,
+          "original_and_localized_selection": {
+            "names": [
+              "A",
+              "BC",
+              "CD"
+            ],
+            "packed_birthday": 0
+          }
+        },
+        {
+          "season": 0,
+          "day": 30,
+          "original_and_localized_selection": {
+            "names": [
+              "AB",
+              "BC",
+              "CD"
+            ],
+            "packed_birthday": 116
+          }
+        },
+        {
+          "season": 1,
+          "day": 1,
+          "original_and_localized_selection": {
+            "names": [
+              "AB",
+              "BC",
+              "CD"
+            ],
+            "packed_birthday": 1
+          }
+        },
+        {
+          "season": 1,
+          "day": 30,
+          "original_and_localized_selection": {
+            "names": [
+              "AB",
+              "BC",
+              "CD"
+            ],
+            "packed_birthday": 117
+          }
+        },
+        {
+          "season": 2,
+          "day": 1,
+          "original_and_localized_selection": {
+            "names": [
+              "AB",
+              "BC",
+              "CD"
+            ],
+            "packed_birthday": 2
+          }
+        },
+        {
+          "season": 2,
+          "day": 30,
+          "original_and_localized_selection": {
+            "names": [
+              "AB",
+              "BC",
+              "CD"
+            ],
+            "packed_birthday": 118
+          }
+        },
+        {
+          "season": 3,
+          "day": 1,
+          "original_and_localized_selection": {
+            "names": [
+              "AB",
+              "BC",
+              "CD"
+            ],
+            "packed_birthday": 3
+          }
+        },
+        {
+          "season": 3,
+          "day": 30,
+          "original_and_localized_selection": {
+            "names": [
+              "AAAAAAAAAAAA",
+              "BC",
+              "CD"
+            ],
+            "packed_birthday": 119
+          }
+        }
+      ],
+      "screenshots": [
+        "new-game-player.png",
+        "new-game-player-confirm.png",
+        "new-game-season.png",
+        "new-game-day.png",
+        "new-game-birthday-confirm.png",
+        "new-game-farm.png",
+        "new-game-farm-confirm.png",
+        "new-game-pet.png",
+        "new-game-pet-confirm.png",
+        "new-game-final.png",
+        "new-game-edit-again.png"
+      ],
+      "checks": [
+        "four seasons x days 1/30 through normal controls",
+        "all 43 birthday OBJ cells uploaded intact",
+        "name input/delete, 12-character boundary, name/birthday/final cancel",
+        "final summary names/date and blank background tile",
+        "selected names/birthday match original ROM for same input"
+      ],
+      "limitations": [
+        "Keyboard retains original character set; Vietnamese name input not added",
+        "No real GBA hardware test"
+      ]
+    },
+    "additional_emulator": {
+      "target_sha256": "d4100dd0597fa1499feb61eb695b8b3396c666d50ec560f17c71729f6886b4c6",
+      "status": "passed",
+      "cases": [
+        {
+          "season": 0,
+          "day": 1,
+          "original_and_localized_selection": {
+            "names": [
+              "A",
+              "BC",
+              "CD"
+            ],
+            "packed_birthday": 0
+          }
+        },
+        {
+          "season": 0,
+          "day": 30,
+          "original_and_localized_selection": {
+            "names": [
+              "AB",
+              "BC",
+              "CD"
+            ],
+            "packed_birthday": 116
+          }
+        },
+        {
+          "season": 1,
+          "day": 1,
+          "original_and_localized_selection": {
+            "names": [
+              "AB",
+              "BC",
+              "CD"
+            ],
+            "packed_birthday": 1
+          }
+        },
+        {
+          "season": 1,
+          "day": 30,
+          "original_and_localized_selection": {
+            "names": [
+              "AB",
+              "BC",
+              "CD"
+            ],
+            "packed_birthday": 117
+          }
+        },
+        {
+          "season": 2,
+          "day": 1,
+          "original_and_localized_selection": {
+            "names": [
+              "AB",
+              "BC",
+              "CD"
+            ],
+            "packed_birthday": 2
+          }
+        },
+        {
+          "season": 2,
+          "day": 30,
+          "original_and_localized_selection": {
+            "names": [
+              "AB",
+              "BC",
+              "CD"
+            ],
+            "packed_birthday": 118
+          }
+        },
+        {
+          "season": 3,
+          "day": 1,
+          "original_and_localized_selection": {
+            "names": [
+              "AB",
+              "BC",
+              "CD"
+            ],
+            "packed_birthday": 3
+          }
+        },
+        {
+          "season": 3,
+          "day": 30,
+          "original_and_localized_selection": {
+            "names": [
+              "AAAAAAAAAAAA",
+              "BC",
+              "CD"
+            ],
+            "packed_birthday": 119
+          }
+        }
+      ],
+      "screenshots": [
+        "new-game-player.png",
+        "new-game-player-confirm.png",
+        "new-game-season.png",
+        "new-game-day.png",
+        "new-game-birthday-confirm.png",
+        "new-game-farm.png",
+        "new-game-farm-confirm.png",
+        "new-game-pet.png",
+        "new-game-pet-confirm.png",
+        "new-game-final.png",
+        "new-game-edit-again.png"
+      ],
+      "checks": [
+        "four seasons x days 1/30 through normal controls",
+        "all 43 birthday OBJ cells uploaded intact",
+        "name input/delete, 12-character boundary, name/birthday/final cancel",
+        "final summary names/date and blank background tile",
+        "selected names/birthday match original ROM for same input"
+      ],
+      "limitations": [
+        "Keyboard retains original character set; Vietnamese name input not added",
+        "No real GBA hardware test"
+      ]
+    },
+    "birthday_atlas": {
+      "offset": 8457312,
+      "size": 2752,
+      "glyphs": 43,
+      "hook_offset": 8460064,
+      "hook_bytes": "4046a901054a891810220b68036004310430013af9d1024b184700bf600c8108cfe30608",
+      "source_site": 451516,
+      "title_advance": 7,
+      "vram_allocation_changed": false
+    },
+    "summary_background_tile": 109,
+    "keyboard_character_set_changed": false
   }
 }

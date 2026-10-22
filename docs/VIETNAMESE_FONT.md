@@ -144,3 +144,9 @@ dấu nặng ụ và hai lớp viền đều nằm gọn. Mask xuống 2px, OAM 
 trí nét trên màn hình không đổi; nguyên số OBJ và chuyển động title.
 Khoảng chữ 3px, khoảng từ 5px. Xem [TEXT_SYSTEM.md](TEXT_SYSTEM.md) để đối
 chiếu RAM/VRAM và `title-start.png`, `title-continue.png` trong evidence.
+
+Màn sinh nhật có cache OBJ riêng gồm 43 ô 8×16, 64 byte/ô. Adapter tạo lại
+cache từ mask font v2, giữ nguyên số tile, palette và bộ cấp phát VRAM. Nhãn
+**Sinh nhật** gồm 9 ký tự trong dải 64px của **Birthday**, dùng bước 7px khi
+raster hóa; bốn mùa vẫn bước 8px trong mỗi dải 48px. Đây là cache đồ họa riêng,
+không đổi advance của bộ render hội thoại hoặc bàn phím nhập tên.
