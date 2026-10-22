@@ -1,0 +1,9 @@
+*.gba
+*.sav
+*.ss[0-9]
+__pycache__/
+.pytest_cache/
+.venv/
+build/
+localization/en/catalog.json
+localization/en/discovery.json

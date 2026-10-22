@@ -1,0 +1,1200 @@
+{
+  "schema_version": 1,
+  "rom_sha1": "a2fc3574f0a65a4fcf7682fb274b9d7eebdef963",
+  "records": [
+    {
+      "id": "menu.pause.0",
+      "rom_address": "0x080F19E8",
+      "rom_offset": "0x0F19E8",
+      "original_english": "Diary",
+      "vietnamese_translation": "",
+      "context": "pause_menu_label",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "untranslated",
+      "original_bytes": "4469617279",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          989748
+        ],
+        "reference": "asm/code_0803A8A4.s; literal 0x0803C0C4 -> table 0x080F1A34"
+      },
+      "max_columns": 12,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "menu.pause.1",
+      "rom_address": "0x080F19F0",
+      "rom_offset": "0x0F19F0",
+      "original_english": "Rucksack",
+      "vietnamese_translation": "",
+      "context": "pause_menu_label",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "untranslated",
+      "original_bytes": "5275636b7361636b",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          989752
+        ],
+        "reference": "asm/code_0803A8A4.s; literal 0x0803C0C4 -> table 0x080F1A34"
+      },
+      "max_columns": 12,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "menu.pause.2",
+      "rom_address": "0x080F19FC",
+      "rom_offset": "0x0F19FC",
+      "original_english": "World Map",
+      "vietnamese_translation": "",
+      "context": "pause_menu_label",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "untranslated",
+      "original_bytes": "576f726c64204d6170",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          989756
+        ],
+        "reference": "asm/code_0803A8A4.s; literal 0x0803C0C4 -> table 0x080F1A34"
+      },
+      "max_columns": 12,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "menu.pause.3",
+      "rom_address": "0x080F1A08",
+      "rom_offset": "0x0F1A08",
+      "original_english": "Farm Map",
+      "vietnamese_translation": "",
+      "context": "pause_menu_label",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "untranslated",
+      "original_bytes": "4661726d204d6170",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          989760
+        ],
+        "reference": "asm/code_0803A8A4.s; literal 0x0803C0C4 -> table 0x080F1A34"
+      },
+      "max_columns": 12,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "menu.pause.4",
+      "rom_address": "0x080F1A14",
+      "rom_offset": "0x0F1A14",
+      "original_english": "Earnings",
+      "vietnamese_translation": "",
+      "context": "pause_menu_label",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "untranslated",
+      "original_bytes": "4561726e696e6773",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          989764
+        ],
+        "reference": "asm/code_0803A8A4.s; literal 0x0803C0C4 -> table 0x080F1A34"
+      },
+      "max_columns": 12,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "menu.pause.5",
+      "rom_address": "0x080F1A20",
+      "rom_offset": "0x0F1A20",
+      "original_english": "Memo",
+      "vietnamese_translation": "",
+      "context": "pause_menu_label",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "untranslated",
+      "original_bytes": "4d656d6f",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          989768
+        ],
+        "reference": "asm/code_0803A8A4.s; literal 0x0803C0C4 -> table 0x080F1A34"
+      },
+      "max_columns": 12,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "menu.pause.6",
+      "rom_address": "0x080F1A28",
+      "rom_offset": "0x0F1A28",
+      "original_english": "Tutorial",
+      "vietnamese_translation": "",
+      "context": "pause_menu_label",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "untranslated",
+      "original_bytes": "5475746f7269616c",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          989772
+        ],
+        "reference": "asm/code_0803A8A4.s; literal 0x0803C0C4 -> table 0x080F1A34"
+      },
+      "max_columns": 12,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.000",
+      "rom_address": "0x0839F4A8",
+      "rom_offset": "0x39F4A8",
+      "original_english": "Hello, my name is Popuri.{CR}{LF}What's your's?{WAIT}{PAGE}Nice to meet you!{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_greeting_self_introduction",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "48656c6c6f2c206d79206e616d6520697320506f707572692e0d0a57686174277320796f757227733f050c4e69636520746f206d65657420796f752105",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 0,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3797608,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "item.food.000.name",
+      "rom_address": "0x080EAED8",
+      "rom_offset": "0x0EAED8",
+      "original_english": "Turnip",
+      "vietnamese_translation": "",
+      "context": "item_name",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "untranslated",
+      "original_bytes": "5475726e6970",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          974040
+        ],
+        "reference": "StanHash/fomt data/item/food.def; tools/scripts/dump_item_tables.py"
+      },
+      "max_columns": 20,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "item.food.000.description",
+      "rom_address": "0x080EAEE0",
+      "rom_offset": "0x0EAEE0",
+      "original_english": "Turnip{CR}{LF}Can be eaten or shipped.{CR}{LF}",
+      "vietnamese_translation": "",
+      "context": "item_description",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "5475726e69700d0a43616e20626520656174656e206f7220736869707065642e0d0a",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          974052
+        ],
+        "reference": "StanHash/fomt data/item/food.def; tools/scripts/dump_item_tables.py"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "item.food.001.name",
+      "rom_address": "0x080EAF04",
+      "rom_offset": "0x0EAF04",
+      "original_english": "Potato",
+      "vietnamese_translation": "",
+      "context": "item_name",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "untranslated",
+      "original_bytes": "506f7461746f",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          974056
+        ],
+        "reference": "StanHash/fomt data/item/food.def; tools/scripts/dump_item_tables.py"
+      },
+      "max_columns": 20,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "item.food.001.description",
+      "rom_address": "0x080EAF0C",
+      "rom_offset": "0x0EAF0C",
+      "original_english": "Potato{CR}{LF}Can be eaten or shipped.{CR}{LF}",
+      "vietnamese_translation": "",
+      "context": "item_description",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "506f7461746f0d0a43616e20626520656174656e206f7220736869707065642e0d0a",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          974068
+        ],
+        "reference": "StanHash/fomt data/item/food.def; tools/scripts/dump_item_tables.py"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "item.food.002.name",
+      "rom_address": "0x080EAF30",
+      "rom_offset": "0x0EAF30",
+      "original_english": "Cucumber",
+      "vietnamese_translation": "",
+      "context": "item_name",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "untranslated",
+      "original_bytes": "437563756d626572",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          974072
+        ],
+        "reference": "StanHash/fomt data/item/food.def; tools/scripts/dump_item_tables.py"
+      },
+      "max_columns": 20,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "item.food.002.description",
+      "rom_address": "0x080EAF3C",
+      "rom_offset": "0x0EAF3C",
+      "original_english": "Cucumber{CR}{LF}Can be eaten or shipped.{CR}{LF}",
+      "vietnamese_translation": "",
+      "context": "item_description",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "437563756d6265720d0a43616e20626520656174656e206f7220736869707065642e0d0a",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          974084
+        ],
+        "reference": "StanHash/fomt data/item/food.def; tools/scripts/dump_item_tables.py"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "item.food.003.name",
+      "rom_address": "0x080EAF64",
+      "rom_offset": "0x0EAF64",
+      "original_english": "Strawberry",
+      "vietnamese_translation": "",
+      "context": "item_name",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "untranslated",
+      "original_bytes": "53747261776265727279",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          974088
+        ],
+        "reference": "StanHash/fomt data/item/food.def; tools/scripts/dump_item_tables.py"
+      },
+      "max_columns": 20,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "item.food.003.description",
+      "rom_address": "0x080EAF70",
+      "rom_offset": "0x0EAF70",
+      "original_english": "Strawberry{CR}{LF}Can be eaten or shipped.{CR}{LF}",
+      "vietnamese_translation": "",
+      "context": "item_description",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "537472617762657272790d0a43616e20626520656174656e206f7220736869707065642e0d0a",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          974100
+        ],
+        "reference": "StanHash/fomt data/item/food.def; tools/scripts/dump_item_tables.py"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "item.food.004.name",
+      "rom_address": "0x080EAF98",
+      "rom_offset": "0x0EAF98",
+      "original_english": "Cabbage",
+      "vietnamese_translation": "",
+      "context": "item_name",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "untranslated",
+      "original_bytes": "43616262616765",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          974104
+        ],
+        "reference": "StanHash/fomt data/item/food.def; tools/scripts/dump_item_tables.py"
+      },
+      "max_columns": 20,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "item.food.004.description",
+      "rom_address": "0x080EAFA0",
+      "rom_offset": "0x0EAFA0",
+      "original_english": "Cabbage{CR}{LF}Can be eaten or shipped.{CR}{LF}",
+      "vietnamese_translation": "",
+      "context": "item_description",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "436162626167650d0a43616e20626520656174656e206f7220736869707065642e0d0a",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          974116
+        ],
+        "reference": "StanHash/fomt data/item/food.def; tools/scripts/dump_item_tables.py"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "item.food.005.name",
+      "rom_address": "0x080EAFC4",
+      "rom_offset": "0x0EAFC4",
+      "original_english": "Tomato",
+      "vietnamese_translation": "",
+      "context": "item_name",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "untranslated",
+      "original_bytes": "546f6d61746f",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          974120
+        ],
+        "reference": "StanHash/fomt data/item/food.def; tools/scripts/dump_item_tables.py"
+      },
+      "max_columns": 20,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "item.food.005.description",
+      "rom_address": "0x080EAFCC",
+      "rom_offset": "0x0EAFCC",
+      "original_english": "Tomato{CR}{LF}Can be eaten or shipped.{CR}{LF}",
+      "vietnamese_translation": "",
+      "context": "item_description",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "546f6d61746f0d0a43616e20626520656174656e206f7220736869707065642e0d0a",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          974132
+        ],
+        "reference": "StanHash/fomt data/item/food.def; tools/scripts/dump_item_tables.py"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "item.food.006.name",
+      "rom_address": "0x080EAFF0",
+      "rom_offset": "0x0EAFF0",
+      "original_english": "Corn",
+      "vietnamese_translation": "",
+      "context": "item_name",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "untranslated",
+      "original_bytes": "436f726e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          974136
+        ],
+        "reference": "StanHash/fomt data/item/food.def; tools/scripts/dump_item_tables.py"
+      },
+      "max_columns": 20,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "item.food.006.description",
+      "rom_address": "0x080EAFF8",
+      "rom_offset": "0x0EAFF8",
+      "original_english": "Corn{CR}{LF}Can be eaten or shipped.{CR}{LF}",
+      "vietnamese_translation": "",
+      "context": "item_description",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "436f726e0d0a43616e20626520656174656e206f7220736869707065642e0d0a",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          974148
+        ],
+        "reference": "StanHash/fomt data/item/food.def; tools/scripts/dump_item_tables.py"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "item.food.007.name",
+      "rom_address": "0x080EB01C",
+      "rom_offset": "0x0EB01C",
+      "original_english": "Onion",
+      "vietnamese_translation": "",
+      "context": "item_name",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "untranslated",
+      "original_bytes": "4f6e696f6e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          974152
+        ],
+        "reference": "StanHash/fomt data/item/food.def; tools/scripts/dump_item_tables.py"
+      },
+      "max_columns": 20,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "item.food.007.description",
+      "rom_address": "0x080EB024",
+      "rom_offset": "0x0EB024",
+      "original_english": "Onion{CR}{LF}Can be eaten or shipped.{CR}{LF}",
+      "vietnamese_translation": "",
+      "context": "item_description",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "4f6e696f6e0d0a43616e20626520656174656e206f7220736869707065642e0d0a",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          974164
+        ],
+        "reference": "StanHash/fomt data/item/food.def; tools/scripts/dump_item_tables.py"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "item.food.008.name",
+      "rom_address": "0x080EB048",
+      "rom_offset": "0x0EB048",
+      "original_english": "Pumpkin",
+      "vietnamese_translation": "",
+      "context": "item_name",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "untranslated",
+      "original_bytes": "50756d706b696e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          974168
+        ],
+        "reference": "StanHash/fomt data/item/food.def; tools/scripts/dump_item_tables.py"
+      },
+      "max_columns": 20,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "item.food.008.description",
+      "rom_address": "0x080EB050",
+      "rom_offset": "0x0EB050",
+      "original_english": "Pumpkin{CR}{LF}Can be eaten or shipped.{CR}{LF}",
+      "vietnamese_translation": "",
+      "context": "item_description",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "50756d706b696e0d0a43616e20626520656174656e206f7220736869707065642e0d0a",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          974180
+        ],
+        "reference": "StanHash/fomt data/item/food.def; tools/scripts/dump_item_tables.py"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "item.food.009.name",
+      "rom_address": "0x080EB074",
+      "rom_offset": "0x0EB074",
+      "original_english": "Pineapple",
+      "vietnamese_translation": "",
+      "context": "item_name",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "untranslated",
+      "original_bytes": "50696e656170706c65",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          974184
+        ],
+        "reference": "StanHash/fomt data/item/food.def; tools/scripts/dump_item_tables.py"
+      },
+      "max_columns": 20,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "item.food.009.description",
+      "rom_address": "0x080EB080",
+      "rom_offset": "0x0EB080",
+      "original_english": "Pineapple{CR}{LF}Can be eaten or shipped.{CR}{LF}",
+      "vietnamese_translation": "",
+      "context": "item_description",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "50696e656170706c650d0a43616e20626520656174656e206f7220736869707065642e0d0a",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          974196
+        ],
+        "reference": "StanHash/fomt data/item/food.def; tools/scripts/dump_item_tables.py"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "item.food.010.name",
+      "rom_address": "0x080EB0A8",
+      "rom_offset": "0x0EB0A8",
+      "original_english": "Eggplant",
+      "vietnamese_translation": "",
+      "context": "item_name",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "untranslated",
+      "original_bytes": "456767706c616e74",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          974200
+        ],
+        "reference": "StanHash/fomt data/item/food.def; tools/scripts/dump_item_tables.py"
+      },
+      "max_columns": 20,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "item.food.010.description",
+      "rom_address": "0x080EB0B4",
+      "rom_offset": "0x0EB0B4",
+      "original_english": "Eggplant{CR}{LF}Can be eaten or shipped.{CR}{LF}",
+      "vietnamese_translation": "",
+      "context": "item_description",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "456767706c616e740d0a43616e20626520656174656e206f7220736869707065642e0d0a",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          974212
+        ],
+        "reference": "StanHash/fomt data/item/food.def; tools/scripts/dump_item_tables.py"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "item.food.011.name",
+      "rom_address": "0x080EB0DC",
+      "rom_offset": "0x0EB0DC",
+      "original_english": "Carrot",
+      "vietnamese_translation": "",
+      "context": "item_name",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "untranslated",
+      "original_bytes": "436172726f74",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          974216
+        ],
+        "reference": "StanHash/fomt data/item/food.def; tools/scripts/dump_item_tables.py"
+      },
+      "max_columns": 20,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "item.food.011.description",
+      "rom_address": "0x080EB0E4",
+      "rom_offset": "0x0EB0E4",
+      "original_english": "Carrot{CR}{LF}Can be eaten or shipped.{CR}{LF}",
+      "vietnamese_translation": "",
+      "context": "item_description",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "436172726f740d0a43616e20626520656174656e206f7220736869707065642e0d0a",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          974228
+        ],
+        "reference": "StanHash/fomt data/item/food.def; tools/scripts/dump_item_tables.py"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "item.food.012.name",
+      "rom_address": "0x080EB108",
+      "rom_offset": "0x0EB108",
+      "original_english": "Sweet Potato",
+      "vietnamese_translation": "",
+      "context": "item_name",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "untranslated",
+      "original_bytes": "537765657420506f7461746f",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          974232
+        ],
+        "reference": "StanHash/fomt data/item/food.def; tools/scripts/dump_item_tables.py"
+      },
+      "max_columns": 20,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "item.food.012.description",
+      "rom_address": "0x080EB118",
+      "rom_offset": "0x0EB118",
+      "original_english": "Sweet Potato{CR}{LF}Can be eaten or shipped.{CR}{LF}",
+      "vietnamese_translation": "",
+      "context": "item_description",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "537765657420506f7461746f0d0a43616e20626520656174656e206f7220736869707065642e0d0a",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          974244
+        ],
+        "reference": "StanHash/fomt data/item/food.def; tools/scripts/dump_item_tables.py"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "item.food.013.name",
+      "rom_address": "0x080EB144",
+      "rom_offset": "0x0EB144",
+      "original_english": "Spinach",
+      "vietnamese_translation": "",
+      "context": "item_name",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "untranslated",
+      "original_bytes": "5370696e616368",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          974248
+        ],
+        "reference": "StanHash/fomt data/item/food.def; tools/scripts/dump_item_tables.py"
+      },
+      "max_columns": 20,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "item.food.013.description",
+      "rom_address": "0x080EB14C",
+      "rom_offset": "0x0EB14C",
+      "original_english": "Spinach{CR}{LF}Can be eaten or shipped.{CR}{LF}",
+      "vietnamese_translation": "",
+      "context": "item_description",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "5370696e6163680d0a43616e20626520656174656e206f7220736869707065642e0d0a",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          974260
+        ],
+        "reference": "StanHash/fomt data/item/food.def; tools/scripts/dump_item_tables.py"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "item.food.014.name",
+      "rom_address": "0x080EB170",
+      "rom_offset": "0x0EB170",
+      "original_english": "Green Pepper",
+      "vietnamese_translation": "",
+      "context": "item_name",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "untranslated",
+      "original_bytes": "477265656e20506570706572",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          974264
+        ],
+        "reference": "StanHash/fomt data/item/food.def; tools/scripts/dump_item_tables.py"
+      },
+      "max_columns": 20,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "item.food.014.description",
+      "rom_address": "0x080EB180",
+      "rom_offset": "0x0EB180",
+      "original_english": "Green Pepper{CR}{LF}Can be eaten or shipped.{CR}{LF}",
+      "vietnamese_translation": "",
+      "context": "item_description",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "477265656e205065707065720d0a43616e20626520656174656e206f7220736869707065642e0d0a",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          974276
+        ],
+        "reference": "StanHash/fomt data/item/food.def; tools/scripts/dump_item_tables.py"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0867.000",
+      "rom_address": "0x08379FC8",
+      "rom_offset": "0x379FC8",
+      "original_english": "Hey! The owner of this farm{CR}{LF}died a while back.{WAIT}{PAGE}You can't just come {CR}{LF}waltzing in here!{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "4865792120546865206f776e6572206f662074686973206661726d0d0a646965642061207768696c65206261636b2e050c596f752063616e2774206a75737420636f6d65200d0a77616c747a696e6720696e20686572652105",
+      "source": {
+        "kind": "script",
+        "script_id": 867,
+        "string_index": 0,
+        "script_offset": 3644248,
+        "script_pointer_offset": 1021792,
+        "relative_offset_slot": 3645344,
+        "pool_offset": 3645384,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0867.001",
+      "rom_address": "0x0837A022",
+      "rom_offset": "0x37A022",
+      "original_english": "What? You knew him?{WAIT}{PAGE}And you didn't know that{CR}{LF}he had died...?{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{WAIT}",
+        "{PAGE}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "576861743f20596f75206b6e65772068696d3f050c416e6420796f75206469646e2774206b6e6f7720746861740d0a68652068616420646965642e2e2e3f05",
+      "source": {
+        "kind": "script",
+        "script_id": 867,
+        "string_index": 1,
+        "script_offset": 3644248,
+        "script_pointer_offset": 1021792,
+        "relative_offset_slot": 3645348,
+        "pool_offset": 3645384,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0867.002",
+      "rom_address": "0x0837A062",
+      "rom_offset": "0x37A062",
+      "original_english": "He died about...{WAIT}{PAGE}Oh, 6 months ago, I reckon.{CR}{LF}When I was cleaning out his{CR}{LF}place I found his will. {WAIT}{PAGE}In it, he said \"I'm leaving{CR}{LF}my farm to {VAR:21}.\"{WAIT}{PAGE}So, until whoever that is {CR}{LF}shows up, I'm taking care{CR}{LF}of the farm. {WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{WAIT}",
+        "{PAGE}",
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{CR}",
+        "{LF}",
+        "{VAR:21}",
+        "{WAIT}",
+        "{PAGE}",
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "486520646965642061626f75742e2e2e050c4f682c2036206d6f6e7468732061676f2c2049207265636b6f6e2e0d0a5768656e20492077617320636c65616e696e67206f7574206869730d0a706c616365204920666f756e64206869732077696c6c2e20050c496e2069742c2068652073616964202249276d206c656176696e670d0a6d79206661726d20746f20ff212e22050c536f2c20756e74696c2077686f657665722074686174206973200d0a73686f77732075702c2049276d2074616b696e6720636172650d0a6f6620746865206661726d2e2005",
+      "source": {
+        "kind": "script",
+        "script_id": 867,
+        "string_index": 2,
+        "script_offset": 3644248,
+        "script_pointer_offset": 1021792,
+        "relative_offset_slot": 3645352,
+        "pool_offset": 3645384,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0867.003",
+      "rom_address": "0x0837A13C",
+      "rom_offset": "0x37A13C",
+      "original_english": "What? You say {CR}{LF}you're {VAR:21}? {WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{VAR:21}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "576861743f20596f7520736179200d0a796f7527726520ff213f2005",
+      "source": {
+        "kind": "script",
+        "script_id": 867,
+        "string_index": 3,
+        "script_offset": 3644248,
+        "script_pointer_offset": 1021792,
+        "relative_offset_slot": 3645356,
+        "pool_offset": 3645384,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0867.004",
+      "rom_address": "0x0837A159",
+      "rom_offset": "0x37A159",
+      "original_english": "Will you tell me how you{CR}{LF}met the old man...?{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "57696c6c20796f752074656c6c206d6520686f7720796f750d0a6d657420746865206f6c64206d616e2e2e2e3f05",
+      "source": {
+        "kind": "script",
+        "script_id": 867,
+        "string_index": 4,
+        "script_offset": 3644248,
+        "script_pointer_offset": 1021792,
+        "relative_offset_slot": 3645360,
+        "pool_offset": 3645384,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0867.005",
+      "rom_address": "0x0837A188",
+      "rom_offset": "0x37A188",
+      "original_english": "You were writing letters to {CR}{LF}each other, eh?{WAIT}{PAGE}And when he stopped writing{CR}{LF}back, you came to check on {CR}{LF}him, did you? {WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "596f7520776572652077726974696e67206c65747465727320746f200d0a65616368206f746865722c2065683f050c416e64207768656e2068652073746f707065642077726974696e670d0a6261636b2c20796f752063616d6520746f20636865636b206f6e200d0a68696d2c2064696420796f753f2005",
+      "source": {
+        "kind": "script",
+        "script_id": 867,
+        "string_index": 5,
+        "script_offset": 3644248,
+        "script_pointer_offset": 1021792,
+        "relative_offset_slot": 3645364,
+        "pool_offset": 3645384,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0867.006",
+      "rom_address": "0x0837A201",
+      "rom_offset": "0x37A201",
+      "original_english": "Since he left you the farm,{CR}{LF}it's yours if you want it. {WAIT}{PAGE}Well, what do you think? {WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "53696e6365206865206c65667420796f7520746865206661726d2c0d0a6974277320796f75727320696620796f752077616e742069742e20050c57656c6c2c207768617420646f20796f75207468696e6b3f2005",
+      "source": {
+        "kind": "script",
+        "script_id": 867,
+        "string_index": 6,
+        "script_offset": 3644248,
+        "script_pointer_offset": 1021792,
+        "relative_offset_slot": 3645368,
+        "pool_offset": 3645384,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0867.007",
+      "rom_address": "0x0837A256",
+      "rom_offset": "0x37A256",
+      "original_english": "Great! From here on out{CR}{LF}this place is yours!{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "4772656174212046726f6d2068657265206f6e206f75740d0a7468697320706c61636520697320796f7572732105",
+      "source": {
+        "kind": "script",
+        "script_id": 867,
+        "string_index": 7,
+        "script_offset": 3644248,
+        "script_pointer_offset": 1021792,
+        "relative_offset_slot": 3645372,
+        "pool_offset": 3645384,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0867.008",
+      "rom_address": "0x0837A285",
+      "rom_offset": "0x37A285",
+      "original_english": "It won't be easy, but if {CR}{LF}you try hard you can do a {CR}{LF}job to make him proud. {WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "497420776f6e277420626520656173792c20627574206966200d0a796f7520747279206861726420796f752063616e20646f2061200d0a6a6f6220746f206d616b652068696d2070726f75642e2005",
+      "source": {
+        "kind": "script",
+        "script_id": 867,
+        "string_index": 8,
+        "script_offset": 3644248,
+        "script_pointer_offset": 1021792,
+        "relative_offset_slot": 3645376,
+        "pool_offset": 3645384,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0867.009",
+      "rom_address": "0x0837A2D5",
+      "rom_offset": "0x37A2D5",
+      "original_english": "{CR}{LF}Then, the next day...{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "0d0a5468656e2c20746865206e657874206461792e2e2e05",
+      "source": {
+        "kind": "script",
+        "script_id": 867,
+        "string_index": 9,
+        "script_offset": 3644248,
+        "script_pointer_offset": 1021792,
+        "relative_offset_slot": 3645380,
+        "pool_offset": 3645384,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    }
+  ]
+}

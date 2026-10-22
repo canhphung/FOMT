@@ -1,0 +1,680 @@
+{
+  "encoding": "FOMT-VI-EB-v1",
+  "normalization": "NFC",
+  "lead_byte": "EB",
+  "glyph_advance_pixels": 8,
+  "glyph_rows": 12,
+  "glyph_storage": "1bpp MSB-left",
+  "characters": [
+    {
+      "character": "À",
+      "code": "EB40",
+      "bitmap_hex": "201000003844447c44444400"
+    },
+    {
+      "character": "Á",
+      "code": "EB41",
+      "bitmap_hex": "081000003844447c44444400"
+    },
+    {
+      "character": "Â",
+      "code": "EB42",
+      "bitmap_hex": "000010283844447c44444400"
+    },
+    {
+      "character": "Ã",
+      "code": "EB43",
+      "bitmap_hex": "285000003844447c44444400"
+    },
+    {
+      "character": "È",
+      "code": "EB44",
+      "bitmap_hex": "201000007c40407840407c00"
+    },
+    {
+      "character": "É",
+      "code": "EB45",
+      "bitmap_hex": "081000007c40407840407c00"
+    },
+    {
+      "character": "Ê",
+      "code": "EB46",
+      "bitmap_hex": "000010287c40407840407c00"
+    },
+    {
+      "character": "Ì",
+      "code": "EB47",
+      "bitmap_hex": "201000003810101010103800"
+    },
+    {
+      "character": "Í",
+      "code": "EB48",
+      "bitmap_hex": "081000003810101010103800"
+    },
+    {
+      "character": "Ò",
+      "code": "EB49",
+      "bitmap_hex": "201000007884848484847800"
+    },
+    {
+      "character": "Ó",
+      "code": "EB4A",
+      "bitmap_hex": "081000007884848484847800"
+    },
+    {
+      "character": "Ô",
+      "code": "EB4B",
+      "bitmap_hex": "000010287884848484847800"
+    },
+    {
+      "character": "Õ",
+      "code": "EB4C",
+      "bitmap_hex": "285000007884848484847800"
+    },
+    {
+      "character": "Ù",
+      "code": "EB4D",
+      "bitmap_hex": "201000004444444444443800"
+    },
+    {
+      "character": "Ú",
+      "code": "EB4E",
+      "bitmap_hex": "081000004444444444443800"
+    },
+    {
+      "character": "Ý",
+      "code": "EB4F",
+      "bitmap_hex": "081000004444281010101000"
+    },
+    {
+      "character": "à",
+      "code": "EB50",
+      "bitmap_hex": "201000003844043c44443c00"
+    },
+    {
+      "character": "á",
+      "code": "EB51",
+      "bitmap_hex": "081000003844043c44443c00"
+    },
+    {
+      "character": "â",
+      "code": "EB52",
+      "bitmap_hex": "000010283844043c44443c00"
+    },
+    {
+      "character": "ã",
+      "code": "EB53",
+      "bitmap_hex": "285000003844043c44443c00"
+    },
+    {
+      "character": "è",
+      "code": "EB54",
+      "bitmap_hex": "201000003844447c40443800"
+    },
+    {
+      "character": "é",
+      "code": "EB55",
+      "bitmap_hex": "081000003844447c40443800"
+    },
+    {
+      "character": "ê",
+      "code": "EB56",
+      "bitmap_hex": "000010283844447c40443800"
+    },
+    {
+      "character": "ì",
+      "code": "EB57",
+      "bitmap_hex": "201000000010101010101000"
+    },
+    {
+      "character": "í",
+      "code": "EB58",
+      "bitmap_hex": "081000000010101010101000"
+    },
+    {
+      "character": "ò",
+      "code": "EB59",
+      "bitmap_hex": "201000003844444444443800"
+    },
+    {
+      "character": "ó",
+      "code": "EB5A",
+      "bitmap_hex": "081000003844444444443800"
+    },
+    {
+      "character": "ô",
+      "code": "EB5B",
+      "bitmap_hex": "000010283844444444443800"
+    },
+    {
+      "character": "õ",
+      "code": "EB5C",
+      "bitmap_hex": "285000003844444444443800"
+    },
+    {
+      "character": "ù",
+      "code": "EB5D",
+      "bitmap_hex": "201000004444444444443c00"
+    },
+    {
+      "character": "ú",
+      "code": "EB5E",
+      "bitmap_hex": "081000004444444444443c00"
+    },
+    {
+      "character": "ý",
+      "code": "EB5F",
+      "bitmap_hex": "081000004444443c04443800"
+    },
+    {
+      "character": "Ă",
+      "code": "EB60",
+      "bitmap_hex": "000028103844447c44444400"
+    },
+    {
+      "character": "ă",
+      "code": "EB61",
+      "bitmap_hex": "000028103844043c44443c00"
+    },
+    {
+      "character": "Đ",
+      "code": "EB62",
+      "bitmap_hex": "000000007844447c44447800"
+    },
+    {
+      "character": "đ",
+      "code": "EB63",
+      "bitmap_hex": "00000000041c3c4444443c00"
+    },
+    {
+      "character": "Ĩ",
+      "code": "EB64",
+      "bitmap_hex": "285000003810101010103800"
+    },
+    {
+      "character": "ĩ",
+      "code": "EB65",
+      "bitmap_hex": "285000000010101010101000"
+    },
+    {
+      "character": "Ũ",
+      "code": "EB66",
+      "bitmap_hex": "285000004444444444443800"
+    },
+    {
+      "character": "ũ",
+      "code": "EB67",
+      "bitmap_hex": "285000004444444444443c00"
+    },
+    {
+      "character": "Ơ",
+      "code": "EB68",
+      "bitmap_hex": "000000027e84848484847800"
+    },
+    {
+      "character": "ơ",
+      "code": "EB69",
+      "bitmap_hex": "000000023e44444444443800"
+    },
+    {
+      "character": "Ư",
+      "code": "EB6A",
+      "bitmap_hex": "000000024644444444443800"
+    },
+    {
+      "character": "ư",
+      "code": "EB6B",
+      "bitmap_hex": "000000024644444444443c00"
+    },
+    {
+      "character": "Ạ",
+      "code": "EB6C",
+      "bitmap_hex": "000000003844447c44444410"
+    },
+    {
+      "character": "ạ",
+      "code": "EB6D",
+      "bitmap_hex": "000000003844043c44443c10"
+    },
+    {
+      "character": "Ả",
+      "code": "EB6E",
+      "bitmap_hex": "180800003844447c44444400"
+    },
+    {
+      "character": "ả",
+      "code": "EB6F",
+      "bitmap_hex": "180800003844043c44443c00"
+    },
+    {
+      "character": "Ấ",
+      "code": "EB70",
+      "bitmap_hex": "081010283844447c44444400"
+    },
+    {
+      "character": "ấ",
+      "code": "EB71",
+      "bitmap_hex": "081010283844043c44443c00"
+    },
+    {
+      "character": "Ầ",
+      "code": "EB72",
+      "bitmap_hex": "201010283844447c44444400"
+    },
+    {
+      "character": "ầ",
+      "code": "EB73",
+      "bitmap_hex": "201010283844043c44443c00"
+    },
+    {
+      "character": "Ẩ",
+      "code": "EB74",
+      "bitmap_hex": "180810283844447c44444400"
+    },
+    {
+      "character": "ẩ",
+      "code": "EB75",
+      "bitmap_hex": "180810283844043c44443c00"
+    },
+    {
+      "character": "Ẫ",
+      "code": "EB76",
+      "bitmap_hex": "285010283844447c44444400"
+    },
+    {
+      "character": "ẫ",
+      "code": "EB77",
+      "bitmap_hex": "285010283844043c44443c00"
+    },
+    {
+      "character": "Ậ",
+      "code": "EB78",
+      "bitmap_hex": "000010283844447c44444410"
+    },
+    {
+      "character": "ậ",
+      "code": "EB79",
+      "bitmap_hex": "000010283844043c44443c10"
+    },
+    {
+      "character": "Ắ",
+      "code": "EB7A",
+      "bitmap_hex": "081028103844447c44444400"
+    },
+    {
+      "character": "ắ",
+      "code": "EB7B",
+      "bitmap_hex": "081028103844043c44443c00"
+    },
+    {
+      "character": "Ằ",
+      "code": "EB7C",
+      "bitmap_hex": "201028103844447c44444400"
+    },
+    {
+      "character": "ằ",
+      "code": "EB7D",
+      "bitmap_hex": "201028103844043c44443c00"
+    },
+    {
+      "character": "Ẳ",
+      "code": "EB7E",
+      "bitmap_hex": "180828103844447c44444400"
+    },
+    {
+      "character": "ẳ",
+      "code": "EB7F",
+      "bitmap_hex": "180828103844043c44443c00"
+    },
+    {
+      "character": "Ẵ",
+      "code": "EB80",
+      "bitmap_hex": "285028103844447c44444400"
+    },
+    {
+      "character": "ẵ",
+      "code": "EB81",
+      "bitmap_hex": "285028103844043c44443c00"
+    },
+    {
+      "character": "Ặ",
+      "code": "EB82",
+      "bitmap_hex": "000028103844447c44444410"
+    },
+    {
+      "character": "ặ",
+      "code": "EB83",
+      "bitmap_hex": "000028103844043c44443c10"
+    },
+    {
+      "character": "Ẹ",
+      "code": "EB84",
+      "bitmap_hex": "000000007c40407840407c10"
+    },
+    {
+      "character": "ẹ",
+      "code": "EB85",
+      "bitmap_hex": "000000003844447c40443810"
+    },
+    {
+      "character": "Ẻ",
+      "code": "EB86",
+      "bitmap_hex": "180800007c40407840407c00"
+    },
+    {
+      "character": "ẻ",
+      "code": "EB87",
+      "bitmap_hex": "180800003844447c40443800"
+    },
+    {
+      "character": "Ẽ",
+      "code": "EB88",
+      "bitmap_hex": "285000007c40407840407c00"
+    },
+    {
+      "character": "ẽ",
+      "code": "EB89",
+      "bitmap_hex": "285000003844447c40443800"
+    },
+    {
+      "character": "Ế",
+      "code": "EB8A",
+      "bitmap_hex": "081010287c40407840407c00"
+    },
+    {
+      "character": "ế",
+      "code": "EB8B",
+      "bitmap_hex": "081010283844447c40443800"
+    },
+    {
+      "character": "Ề",
+      "code": "EB8C",
+      "bitmap_hex": "201010287c40407840407c00"
+    },
+    {
+      "character": "ề",
+      "code": "EB8D",
+      "bitmap_hex": "201010283844447c40443800"
+    },
+    {
+      "character": "Ể",
+      "code": "EB8E",
+      "bitmap_hex": "180810287c40407840407c00"
+    },
+    {
+      "character": "ể",
+      "code": "EB8F",
+      "bitmap_hex": "180810283844447c40443800"
+    },
+    {
+      "character": "Ễ",
+      "code": "EB90",
+      "bitmap_hex": "285010287c40407840407c00"
+    },
+    {
+      "character": "ễ",
+      "code": "EB91",
+      "bitmap_hex": "285010283844447c40443800"
+    },
+    {
+      "character": "Ệ",
+      "code": "EB92",
+      "bitmap_hex": "000010287c40407840407c10"
+    },
+    {
+      "character": "ệ",
+      "code": "EB93",
+      "bitmap_hex": "000010283844447c40443810"
+    },
+    {
+      "character": "Ỉ",
+      "code": "EB94",
+      "bitmap_hex": "180800003810101010103800"
+    },
+    {
+      "character": "ỉ",
+      "code": "EB95",
+      "bitmap_hex": "180800000010101010101000"
+    },
+    {
+      "character": "Ị",
+      "code": "EB96",
+      "bitmap_hex": "000000003810101010103810"
+    },
+    {
+      "character": "ị",
+      "code": "EB97",
+      "bitmap_hex": "000000000010101010101010"
+    },
+    {
+      "character": "Ọ",
+      "code": "EB98",
+      "bitmap_hex": "000000007884848484847810"
+    },
+    {
+      "character": "ọ",
+      "code": "EB99",
+      "bitmap_hex": "000000003844444444443810"
+    },
+    {
+      "character": "Ỏ",
+      "code": "EB9A",
+      "bitmap_hex": "180800007884848484847800"
+    },
+    {
+      "character": "ỏ",
+      "code": "EB9B",
+      "bitmap_hex": "180800003844444444443800"
+    },
+    {
+      "character": "Ố",
+      "code": "EB9C",
+      "bitmap_hex": "081010287884848484847800"
+    },
+    {
+      "character": "ố",
+      "code": "EB9D",
+      "bitmap_hex": "081010283844444444443800"
+    },
+    {
+      "character": "Ồ",
+      "code": "EB9E",
+      "bitmap_hex": "201010287884848484847800"
+    },
+    {
+      "character": "ồ",
+      "code": "EB9F",
+      "bitmap_hex": "201010283844444444443800"
+    },
+    {
+      "character": "Ổ",
+      "code": "EBA0",
+      "bitmap_hex": "180810287884848484847800"
+    },
+    {
+      "character": "ổ",
+      "code": "EBA1",
+      "bitmap_hex": "180810283844444444443800"
+    },
+    {
+      "character": "Ỗ",
+      "code": "EBA2",
+      "bitmap_hex": "285010287884848484847800"
+    },
+    {
+      "character": "ỗ",
+      "code": "EBA3",
+      "bitmap_hex": "285010283844444444443800"
+    },
+    {
+      "character": "Ộ",
+      "code": "EBA4",
+      "bitmap_hex": "000010287884848484847810"
+    },
+    {
+      "character": "ộ",
+      "code": "EBA5",
+      "bitmap_hex": "000010283844444444443810"
+    },
+    {
+      "character": "Ớ",
+      "code": "EBA6",
+      "bitmap_hex": "081000027e84848484847800"
+    },
+    {
+      "character": "ớ",
+      "code": "EBA7",
+      "bitmap_hex": "081000023e44444444443800"
+    },
+    {
+      "character": "Ờ",
+      "code": "EBA8",
+      "bitmap_hex": "201000027e84848484847800"
+    },
+    {
+      "character": "ờ",
+      "code": "EBA9",
+      "bitmap_hex": "201000023e44444444443800"
+    },
+    {
+      "character": "Ở",
+      "code": "EBAA",
+      "bitmap_hex": "180800027e84848484847800"
+    },
+    {
+      "character": "ở",
+      "code": "EBAB",
+      "bitmap_hex": "180800023e44444444443800"
+    },
+    {
+      "character": "Ỡ",
+      "code": "EBAC",
+      "bitmap_hex": "285000027e84848484847800"
+    },
+    {
+      "character": "ỡ",
+      "code": "EBAD",
+      "bitmap_hex": "285000023e44444444443800"
+    },
+    {
+      "character": "Ợ",
+      "code": "EBAE",
+      "bitmap_hex": "000000027e84848484847810"
+    },
+    {
+      "character": "ợ",
+      "code": "EBAF",
+      "bitmap_hex": "000000023e44444444443810"
+    },
+    {
+      "character": "Ụ",
+      "code": "EBB0",
+      "bitmap_hex": "000000004444444444443810"
+    },
+    {
+      "character": "ụ",
+      "code": "EBB1",
+      "bitmap_hex": "000000004444444444443c10"
+    },
+    {
+      "character": "Ủ",
+      "code": "EBB2",
+      "bitmap_hex": "180800004444444444443800"
+    },
+    {
+      "character": "ủ",
+      "code": "EBB3",
+      "bitmap_hex": "180800004444444444443c00"
+    },
+    {
+      "character": "Ứ",
+      "code": "EBB4",
+      "bitmap_hex": "081000024644444444443800"
+    },
+    {
+      "character": "ứ",
+      "code": "EBB5",
+      "bitmap_hex": "081000024644444444443c00"
+    },
+    {
+      "character": "Ừ",
+      "code": "EBB6",
+      "bitmap_hex": "201000024644444444443800"
+    },
+    {
+      "character": "ừ",
+      "code": "EBB7",
+      "bitmap_hex": "201000024644444444443c00"
+    },
+    {
+      "character": "Ử",
+      "code": "EBB8",
+      "bitmap_hex": "180800024644444444443800"
+    },
+    {
+      "character": "ử",
+      "code": "EBB9",
+      "bitmap_hex": "180800024644444444443c00"
+    },
+    {
+      "character": "Ữ",
+      "code": "EBBA",
+      "bitmap_hex": "285000024644444444443800"
+    },
+    {
+      "character": "ữ",
+      "code": "EBBB",
+      "bitmap_hex": "285000024644444444443c00"
+    },
+    {
+      "character": "Ự",
+      "code": "EBBC",
+      "bitmap_hex": "000000024644444444443810"
+    },
+    {
+      "character": "ự",
+      "code": "EBBD",
+      "bitmap_hex": "000000024644444444443c10"
+    },
+    {
+      "character": "Ỳ",
+      "code": "EBBE",
+      "bitmap_hex": "201000004444281010101000"
+    },
+    {
+      "character": "ỳ",
+      "code": "EBBF",
+      "bitmap_hex": "201000004444443c04443800"
+    },
+    {
+      "character": "Ỵ",
+      "code": "EBC0",
+      "bitmap_hex": "000000004444281010101010"
+    },
+    {
+      "character": "ỵ",
+      "code": "EBC1",
+      "bitmap_hex": "000000004444443c04443810"
+    },
+    {
+      "character": "Ỷ",
+      "code": "EBC2",
+      "bitmap_hex": "180800004444281010101000"
+    },
+    {
+      "character": "ỷ",
+      "code": "EBC3",
+      "bitmap_hex": "180800004444443c04443800"
+    },
+    {
+      "character": "Ỹ",
+      "code": "EBC4",
+      "bitmap_hex": "285000004444281010101000"
+    },
+    {
+      "character": "ỹ",
+      "code": "EBC5",
+      "bitmap_hex": "285000004444443c04443800"
+    }
+  ]
+}

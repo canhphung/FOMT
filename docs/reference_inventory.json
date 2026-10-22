@@ -1,0 +1,1147 @@
+{
+  "repository": "https://github.com/StanHash/fomt",
+  "commit": "b8471ae065744869f64283473ed68372f82321c9",
+  "files": [
+    {
+      "path": ".clang-format",
+      "bytes": 439,
+      "sha256": "075f256da3bb4932ed1296853e222382813706d636ff5ffa1e47d27fc6d54cbe",
+      "lines": 18
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 58,
+      "sha256": "719d75f66a7e97cbafda2b5ad19db78a9f638d30eab2aad7fd8db2a8498c5141",
+      "lines": 10
+    },
+    {
+      "path": "INSTALL.md",
+      "bytes": 1122,
+      "sha256": "9415831ff9bb4f2f48289775903a4f56d52d6d7bd3193168eb8dafd4215eeaa3",
+      "lines": 39
+    },
+    {
+      "path": "Makefile",
+      "bytes": 3437,
+      "sha256": "d4cc223a2adda98ec75b9d566ecb415f49cf3c33f45f4a4628448504ed85c7e5",
+      "lines": 145
+    },
+    {
+      "path": "README.md",
+      "bytes": 988,
+      "sha256": "e940fcbb559f1c7a82b06d48fa6443f9eb75c5403fed2e1f548cb66627ae82bf",
+      "lines": 28
+    },
+    {
+      "path": "TODO.md",
+      "bytes": 224,
+      "sha256": "1c48476412686c2b729fe11dbf7c8c711c6a23b1862934aeff845169785a2d3c",
+      "lines": 6
+    },
+    {
+      "path": "asm/code_0803A8A4.s",
+      "bytes": 150662,
+      "sha256": "8b56b935ecd8ff400c5843a8561aa8024c94a415a352cdd6e3d72fa54cc48bfb",
+      "lines": 8757
+    },
+    {
+      "path": "asm/code_0803EE94.s",
+      "bytes": 3116487,
+      "sha256": "43f64de6b60676cc48892ba3983be189fdff7b50e64fd0287a2d429b45787dd8",
+      "lines": 179483
+    },
+    {
+      "path": "asm/code_809E804.s",
+      "bytes": 1756432,
+      "sha256": "f44d73c4114beff35d7b88d5442bb0d82527ad41d881771513b0228e27bd3334",
+      "lines": 104131
+    },
+    {
+      "path": "asm/code_actor_0809BFE8.s",
+      "bytes": 85220,
+      "sha256": "edfb4052964e6e32096bf7cdefd72917ec9884c7cae0f3ef36e6f3fdef6f1573",
+      "lines": 4337
+    },
+    {
+      "path": "asm/code_entities.s",
+      "bytes": 675979,
+      "sha256": "382534d220cecc28672f441304da6c867ea0b79ae95700f8c800d3e4b200f791",
+      "lines": 31812
+    },
+    {
+      "path": "asm/code_entities_080320DC.s",
+      "bytes": 108762,
+      "sha256": "9877645934761bb3a260a42380a37e702b39378dbfac48d86daf71ac615aead9",
+      "lines": 4437
+    },
+    {
+      "path": "asm/code_entities_08034CEC.s",
+      "bytes": 223103,
+      "sha256": "eb91ff3607bdcb5223646ebefb93a9867adef7fdabb77b18de5c58e34343127b",
+      "lines": 10739
+    },
+    {
+      "path": "asm/code_iwram.s",
+      "bytes": 1286,
+      "sha256": "9d982751de8264c4ced91bd4ee8b814d63c454f3d36332a9b235fcc98926eb32",
+      "lines": 63
+    },
+    {
+      "path": "asm/code_lib_sram.s",
+      "bytes": 3795,
+      "sha256": "2c1805d660e994d505e23b7b59f6c2f2543baa3494625e0546ba6dfc015f065f",
+      "lines": 223
+    },
+    {
+      "path": "asm/code_lib_syscall.s",
+      "bytes": 658,
+      "sha256": "2ee59d5545db16be1e8fd5b12ea0907528b667d2d95541d2c13fdd68d1ce3565",
+      "lines": 43
+    },
+    {
+      "path": "asm/code_libc_string.s",
+      "bytes": 5529,
+      "sha256": "02f2d1e71e8c6c304ba29e16c4fa271c5b7e183ceb8da13cde2f814fa3887682",
+      "lines": 371
+    },
+    {
+      "path": "asm/code_linkonce.s",
+      "bytes": 591219,
+      "sha256": "62d9f90f684acd6f5a143f11ef8d59dfd3e814772c897ea1c8357b350848bd8b",
+      "lines": 35468
+    },
+    {
+      "path": "asm/data/data_080E8610.s",
+      "bytes": 3728,
+      "sha256": "88f5d9b20e4279dd4f4f73925c7167a15216385e74c3087db054e2a910bb2e0c",
+      "lines": 196
+    },
+    {
+      "path": "asm/data/data_080F0348.s",
+      "bytes": 6501,
+      "sha256": "5946b4f1e17cef3a7170220594e0b217f9abee923ae48fe068155b7db07047af",
+      "lines": 339
+    },
+    {
+      "path": "asm/data/data_080F1A80.s",
+      "bytes": 2633,
+      "sha256": "4c4dc82ea22bf796b72ca91119bd9de4237cdfb0b112892772214972faea3f34",
+      "lines": 135
+    },
+    {
+      "path": "asm/data/data_080F9EB8.s",
+      "bytes": 65843,
+      "sha256": "0a50157adfbc9864c1c1eb7078db761e9dcc97b8a56a64a1aa1a7aab0ff69f36",
+      "lines": 3407
+    },
+    {
+      "path": "asm/data/data_0813B288.s",
+      "bytes": 22463,
+      "sha256": "ad6ff544b03214829f353d1c4161c2eb32007f7f1dd7e8857db3c8ae07a1e3ca",
+      "lines": 1141
+    },
+    {
+      "path": "asm/game_scene.s",
+      "bytes": 5806,
+      "sha256": "e1fbc057d452d92c607a48db4b4c50d5dccb30b130d8d87264d2dd201190a951",
+      "lines": 155
+    },
+    {
+      "path": "asm/game_state.s",
+      "bytes": 585399,
+      "sha256": "e971d6a95bcf04ced65cf5e81ef799e6b80a7bc1eaea40af6ee7029bac752811",
+      "lines": 26553
+    },
+    {
+      "path": "asm/hardware.s",
+      "bytes": 94850,
+      "sha256": "68c5711798628adadc86daece49b96c55ee59c780f9a7887811c44897d583229",
+      "lines": 4325
+    },
+    {
+      "path": "asm/interrupt.s",
+      "bytes": 2287,
+      "sha256": "576d5682c018d811d5b3541e0897d7e99bd5235bf3f0bd78401142211436e68d",
+      "lines": 99
+    },
+    {
+      "path": "asm/intro_scene.s",
+      "bytes": 115152,
+      "sha256": "5ed92ab25de247a8f186d6f29eb380fca3418b343d3b2cc13e91610634366002",
+      "lines": 5487
+    },
+    {
+      "path": "asm/macro.inc",
+      "bytes": 879,
+      "sha256": "f829203afecebb9273b2aadde9ce5679f1c3b86b8b52721bc36152364a5e7842",
+      "lines": 47
+    },
+    {
+      "path": "asm/main.s",
+      "bytes": 3320,
+      "sha256": "303d194d4991b7c3e5aa649af666633c498a3677cffdefaf567ae8b124935e01",
+      "lines": 154
+    },
+    {
+      "path": "asm/more_items.s",
+      "bytes": 2319,
+      "sha256": "1c011d8c3f10e71f8891943c6926dc8ecb0038792c14ef3ceddffb33b06779ad",
+      "lines": 126
+    },
+    {
+      "path": "asm/new_game.s",
+      "bytes": 141940,
+      "sha256": "5327924468216572e67699936d3d45b0f9729b98212185fa20115a8323e5d0d1",
+      "lines": 7181
+    },
+    {
+      "path": "asm/scene.s",
+      "bytes": 2553,
+      "sha256": "f33cb1a2faa1f7e48f20e60d96f9aee90dd8584bded830e3af9eaf5515543093",
+      "lines": 145
+    },
+    {
+      "path": "asm/sram_proxy_1.s",
+      "bytes": 4696,
+      "sha256": "29ab22786a5a75f02b3a3e8dd32b9d1c082f0ba13cba762299a6932da0ab7e03",
+      "lines": 231
+    },
+    {
+      "path": "asm/sram_proxy_2.s",
+      "bytes": 4580,
+      "sha256": "a17337b9f7a9f4c16a5f76023b6c9690adaaeec6089f5d68f564fa1105db8935",
+      "lines": 210
+    },
+    {
+      "path": "asm/vtables.s",
+      "bytes": 30522,
+      "sha256": "e7ab864527809f9d5f891b477274332dc33a9dbe1cf2dc6582b519f28c582163",
+      "lines": 1385
+    },
+    {
+      "path": "asmdiff.sh",
+      "bytes": 272,
+      "sha256": "fc58f02ced5bb192e58a777b9f824091d6df1a16207840200447d36f9214e690",
+      "lines": 7
+    },
+    {
+      "path": "bindiff.sh",
+      "bytes": 214,
+      "sha256": "56ad0e04698e4162402ace80c3b3d4cdddbdc823fead4c82cc2397d1f4c930b9",
+      "lines": 4
+    },
+    {
+      "path": "data/item/article.def",
+      "bytes": 9565,
+      "sha256": "5d1a2ee613bb784966dae30019ab73854861e4c3f98ccdcfc4975176dca59f5a",
+      "lines": 97
+    },
+    {
+      "path": "data/item/food.def",
+      "bytes": 21141,
+      "sha256": "34711d366e1568e8544d02f4bc04afc103cebb3dec70718320fe9eec1bee647a",
+      "lines": 174
+    },
+    {
+      "path": "data/item/product.def",
+      "bytes": 3746,
+      "sha256": "3bf00980d6cdb840f2604b58e64a3b358c83b67e60ec096a041bdab9d4b017f5",
+      "lines": 105
+    },
+    {
+      "path": "data/item/tool.def",
+      "bytes": 8606,
+      "sha256": "3cd8db57c90e9e0d135e8c860c7d7f2de49a20fcd927c56633e9c4c0bae5c3fd",
+      "lines": 83
+    },
+    {
+      "path": "data/m4a_config.h",
+      "bytes": 709,
+      "sha256": "b353b02ee2b1fd11aaafa7de13afeeea924c2a0875dbd64f866da8b542a3f3cd",
+      "lines": 29
+    },
+    {
+      "path": "data/sound/music_player_table.s",
+      "bytes": 899,
+      "sha256": "80e5606689c654576daf0dd6146a6453fed9be3c692a0c031b3a8101ea7e1284",
+      "lines": 29
+    },
+    {
+      "path": "data/sound/song_table.s",
+      "bytes": 201,
+      "sha256": "52879a788e8f99ba71943a4c759550ffb88e283a4dc590c08710d0bd84d7af9d",
+      "lines": 8
+    },
+    {
+      "path": "fomt.lds",
+      "bytes": 6906,
+      "sha256": "e2653371e3822d1f8864deea08f6bc4282c2454cf5d5e28891eeb9d249eb8d35",
+      "lines": 207
+    },
+    {
+      "path": "fomt.sha1",
+      "bytes": 51,
+      "sha256": "cb343a6d6712e36b76fcb32bdf6e658d8eb1bc8754eb600ee07d4b5cd72a0bba",
+      "lines": 1
+    },
+    {
+      "path": "include/actor.hh",
+      "bytes": 840,
+      "sha256": "e7498ffb56edd25ab644ae6a64d61c7bdc6cece57ca0a883b87485e94ab7cc68",
+      "lines": 48
+    },
+    {
+      "path": "include/animal.hh",
+      "bytes": 897,
+      "sha256": "9d546b84f324133ab1867108f32d1280fc7eaa02e8a5e4d02bc93815fa1cd931",
+      "lines": 36
+    },
+    {
+      "path": "include/asm/m4a.s",
+      "bytes": 10414,
+      "sha256": "1324c4640e12ea4a07583d43066825548e2e2094052d79b8786dd57bf3c71842",
+      "lines": 276
+    },
+    {
+      "path": "include/bachelorette.hh",
+      "bytes": 884,
+      "sha256": "0b1749d3dc819ccef8f202cbee864ae45b31bf467aa0b461e76db128f1d6d266",
+      "lines": 34
+    },
+    {
+      "path": "include/barn.hh",
+      "bytes": 3605,
+      "sha256": "f1024eb65aa806e976044e5f60025b435330adc20963b8f53c7b4c1e62aa3e7d",
+      "lines": 116
+    },
+    {
+      "path": "include/barn_animal.hh",
+      "bytes": 969,
+      "sha256": "8202260264fb0bb1639c964dc6931e6ffb891676bea36b8ba70d46f4fba9d524",
+      "lines": 33
+    },
+    {
+      "path": "include/chicken.hh",
+      "bytes": 728,
+      "sha256": "676f28205ac3dae5053c03d50e70d416e83379d62f343b081f878e35993c6f38",
+      "lines": 32
+    },
+    {
+      "path": "include/coop.hh",
+      "bytes": 3191,
+      "sha256": "672364d340aadabdf87f7a3a428d877887089737636b74656ad2eab89bad30ad",
+      "lines": 122
+    },
+    {
+      "path": "include/cow.hh",
+      "bytes": 594,
+      "sha256": "1507ec3a9c8ed6cee5edc6399628b62c3d9717ffc50bc0bc14baa42664dfb5e9",
+      "lines": 30
+    },
+    {
+      "path": "include/dog.hh",
+      "bytes": 908,
+      "sha256": "a680c1d4352813717ad7eba699c3128d80e4e5f074d074a13f4ba11294aacfab",
+      "lines": 37
+    },
+    {
+      "path": "include/entity.hh",
+      "bytes": 1552,
+      "sha256": "ef6fbea2d4bad61b1e29278a5b69512f4397228b36835eb1ce65cb1ad253de93",
+      "lines": 48
+    },
+    {
+      "path": "include/entity_actor.hh",
+      "bytes": 945,
+      "sha256": "bca1ebdc861ad0433d88c9e280326e55dc4d979efb799a2f7630275d5ccd513d",
+      "lines": 41
+    },
+    {
+      "path": "include/farm.hh",
+      "bytes": 1417,
+      "sha256": "afb011d435ecccfc3a341130d72f8fb4575537a39549df148a779776947b572e",
+      "lines": 59
+    },
+    {
+      "path": "include/farm_house.hh",
+      "bytes": 3229,
+      "sha256": "b168562c2c0806f07e4f8c64f30725b1ff99dfc92a3a5e29bd25f6bbb9ccdcd2",
+      "lines": 105
+    },
+    {
+      "path": "include/farmer.hh",
+      "bytes": 3907,
+      "sha256": "d0bbb37996666fae03482d7d003df4dd0c00bf19c0054c95f4a1075f8bd4690d",
+      "lines": 119
+    },
+    {
+      "path": "include/field.hh",
+      "bytes": 3922,
+      "sha256": "900170949398e5aac7740ebc5a098fa1b0892b5edfd4cceccd20eb48d05cbd21",
+      "lines": 163
+    },
+    {
+      "path": "include/furniture.hh",
+      "bytes": 2281,
+      "sha256": "3d82f9a1851c033cb1160673961ba836e8949e6483d5fe06cb5baab71899d591",
+      "lines": 103
+    },
+    {
+      "path": "include/gbaio.h",
+      "bytes": 6905,
+      "sha256": "810ebfb244b86d516e141664b35a9449b4119d2a39b018c995aea8981997812f",
+      "lines": 217
+    },
+    {
+      "path": "include/gbasvc.h",
+      "bytes": 3115,
+      "sha256": "53943f7cebf5924e4a66ae7d9ca6c04585972eb1b0a248f7b0d85bb9adfa05da",
+      "lines": 74
+    },
+    {
+      "path": "include/harvest_sprite.hh",
+      "bytes": 1320,
+      "sha256": "98b9c15132e280d3b849c8179bfc81421ee4be1b3cb5d314df091aca04dea169",
+      "lines": 50
+    },
+    {
+      "path": "include/held_item.hh",
+      "bytes": 948,
+      "sha256": "e3351fddaec3f6ed3175a3c5d513ecc86a671c6170a626484f756998fb6a3c2a",
+      "lines": 56
+    },
+    {
+      "path": "include/horse.hh",
+      "bytes": 623,
+      "sha256": "90896f10f65dd716d86bb21196a6e1c43f40ae3c72130321c060e5dffc392112",
+      "lines": 30
+    },
+    {
+      "path": "include/item.hh",
+      "bytes": 3048,
+      "sha256": "fc0caa44ed70b21e6bc1e75d7d73726bffa2073dbd663e7e9d85c85ede4bdd52",
+      "lines": 179
+    },
+    {
+      "path": "include/livestock.hh",
+      "bytes": 1634,
+      "sha256": "f701407686f98193aa06aca56b67297d7256c4ca0255cf9ce486064af5ceb155",
+      "lines": 66
+    },
+    {
+      "path": "include/m4a.h",
+      "bytes": 11133,
+      "sha256": "fcd4673747180941c865e21fe21c7f13c87fb6a6cef1213dc4e3c56439014730",
+      "lines": 405
+    },
+    {
+      "path": "include/npc.hh",
+      "bytes": 1204,
+      "sha256": "9bd3e1956ec117c440691005b28012e3a3906d91609afa725c7c8b10498b54b5",
+      "lines": 47
+    },
+    {
+      "path": "include/pet.hh",
+      "bytes": 717,
+      "sha256": "4a432fc7d5abdc4be518a74a8a82cc9e6e8606528fe038c59c5a3e837b7fbd8d",
+      "lines": 30
+    },
+    {
+      "path": "include/placeholder.hh",
+      "bytes": 433,
+      "sha256": "914d4836a11861c6421accd979ef4467d952f2b23fa85e1f7692fd347cc77b56",
+      "lines": 17
+    },
+    {
+      "path": "include/prelude.h",
+      "bytes": 1275,
+      "sha256": "416a4102b48b183ea471c0a6c17ddb10e06cb26b3ecfb0c3b857f0a6b62d5a3e",
+      "lines": 55
+    },
+    {
+      "path": "include/rucksack.hh",
+      "bytes": 1636,
+      "sha256": "a559a539c670d891f312a44946eb5b7d5b27e33ca0b7900f5d2e1a85ad3eef7f",
+      "lines": 55
+    },
+    {
+      "path": "include/rucksack_item.hh",
+      "bytes": 657,
+      "sha256": "29b9bd893d51e7ead912318d0b2acddd19f37394093f82dee5c01980057ffe8c",
+      "lines": 39
+    },
+    {
+      "path": "include/scene.hh",
+      "bytes": 376,
+      "sha256": "ac131d9e8802eb310b5de50a8ed2c63d78e031ad219d26935f48d8395b205b8f",
+      "lines": 25
+    },
+    {
+      "path": "include/schedule_info.hh",
+      "bytes": 797,
+      "sha256": "1e07a9fe025df43b8495f052be4ef21f55552a2470d1cc201ca2ebe20f5b2f0c",
+      "lines": 52
+    },
+    {
+      "path": "include/script_engine.hh",
+      "bytes": 2049,
+      "sha256": "ccb00b4ac1b1309fb2c12565bf9efc7f57431245b2340ea2f925250c96781152",
+      "lines": 98
+    },
+    {
+      "path": "include/sheep.hh",
+      "bytes": 596,
+      "sha256": "d97aa36d92338a45bf64e674343d7751d32d158f3f06d0b0afd8f42b33a13623",
+      "lines": 29
+    },
+    {
+      "path": "include/shipping_bin.hh",
+      "bytes": 1082,
+      "sha256": "6c7450575e4acf4a5e5028c0f36afecc40bb33843270715c1183e9ef70243cea",
+      "lines": 49
+    },
+    {
+      "path": "include/smart_ptr.hh",
+      "bytes": 903,
+      "sha256": "09bc202b720650d9f2092220ce0adfbcad05e8b6aedd1d8145eda7ac665d369a",
+      "lines": 53
+    },
+    {
+      "path": "include/types.h",
+      "bytes": 505,
+      "sha256": "c66ed652c9aebc56e40ee2ea42da300cfd972c490fa1f8515f5f03c3f0a172f6",
+      "lines": 38
+    },
+    {
+      "path": "include/unknown_inlines.hh",
+      "bytes": 494,
+      "sha256": "bb3c5723e005291f666b30e53ee3269d8c762467fafc3160a8987dd94ae66c2b",
+      "lines": 31
+    },
+    {
+      "path": "include/unknown_types.hh",
+      "bytes": 4216,
+      "sha256": "12a9e7e5f0db1f796c7be3bc38eb289958fcf4600c0b65ffaee250bca67d65d6",
+      "lines": 189
+    },
+    {
+      "path": "include/utility/bit_array.hh",
+      "bytes": 1539,
+      "sha256": "eac0fd3eba9f87bc44ca7f03dc822f8b1620a8858411217b594df8e386951650",
+      "lines": 63
+    },
+    {
+      "path": "include/utility/fixed_str.hh",
+      "bytes": 881,
+      "sha256": "0637c4f83862e2a2b08300171c3b65cc6c91a03d2e4c95c90143a1a6b96e0c83",
+      "lines": 43
+    },
+    {
+      "path": "include/utility/fixed_vec.hh",
+      "bytes": 2444,
+      "sha256": "6d1b6159f3e672b44f976b878a5d7f2cf5db1f6251d5898051157176c265c80e",
+      "lines": 80
+    },
+    {
+      "path": "include/utility/popcnt.hh",
+      "bytes": 395,
+      "sha256": "efeadde8446069106f02452bc4dc8329b831dc50205389025b141b336f38ff64",
+      "lines": 16
+    },
+    {
+      "path": "include/utility/vec2.hh",
+      "bytes": 213,
+      "sha256": "dd8388bed7423d5d0db12936a1f64c76061ab847eb15c78ad5c4ee4938cf2b79",
+      "lines": 19
+    },
+    {
+      "path": "src/actor.cc",
+      "bytes": 259,
+      "sha256": "aeb831d084d0ecad85ba45e3e37915f84bd47ed31398cde301721bd4d4fa6658",
+      "lines": 16
+    },
+    {
+      "path": "src/animal.cc",
+      "bytes": 1659,
+      "sha256": "d345f087f637dab3fffcebc7e535320caa45b95c1b9792e72ce2d708706f6bc1",
+      "lines": 109
+    },
+    {
+      "path": "src/bachelorette.cc",
+      "bytes": 2121,
+      "sha256": "9d155209fa0414d6865474fe377a67235a2a4a1ab385faed90bac77eb1707718",
+      "lines": 123
+    },
+    {
+      "path": "src/barn.cc",
+      "bytes": 13585,
+      "sha256": "7123e6d94b81cf9bdb36ec99ec22dcc560618c991c47b5c63b833f2399aedaa1",
+      "lines": 655
+    },
+    {
+      "path": "src/barn_animal.cc",
+      "bytes": 1894,
+      "sha256": "d3ce3af72f568cc6996365147998c7bb426a66e71444a674e36130904c7766fd",
+      "lines": 103
+    },
+    {
+      "path": "src/chicken.cc",
+      "bytes": 1409,
+      "sha256": "8daa69b9a3ccef5dceca811b8464ba84ef41347ca3ca836e2ea37142f628f475",
+      "lines": 78
+    },
+    {
+      "path": "src/code_0800BC58.cc",
+      "bytes": 1150,
+      "sha256": "d0b9b60b0b835b838b5cd62f66fec1e9d45863fbed63afee25c847c75d5ea819",
+      "lines": 50
+    },
+    {
+      "path": "src/code_0800E2E4.cc",
+      "bytes": 1208,
+      "sha256": "a575597c00bbe194717ed8c3e879ad41696e343c7fd5fe8b60b826f65f969fc6",
+      "lines": 59
+    },
+    {
+      "path": "src/code_actor_0809BFE8.cc",
+      "bytes": 842,
+      "sha256": "5f95ee6e22302b113dc020de77f4154080d11ba487014fa286c3704a0590a4ca",
+      "lines": 42
+    },
+    {
+      "path": "src/code_entity_08020018.cc",
+      "bytes": 570,
+      "sha256": "810811f611c20dc4cf220aa55fdcc6cea97908bfdb2f350b2184da6fc33c2506",
+      "lines": 23
+    },
+    {
+      "path": "src/coop.cc",
+      "bytes": 7589,
+      "sha256": "f3130e5c5911d026d53e350d71d04ef6ddf53204d81a118a4b2f18d1db9bfd30",
+      "lines": 414
+    },
+    {
+      "path": "src/cow.cc",
+      "bytes": 1386,
+      "sha256": "021ce5080a502780f05ce141f2d2d6b4023695448060cf074459d78ea5e7de64",
+      "lines": 75
+    },
+    {
+      "path": "src/crt0.s",
+      "bytes": 3786,
+      "sha256": "4492189ac54a8e91df846c8a783e63fc83624287ad259b40dd7ec63f10f8918f",
+      "lines": 123
+    },
+    {
+      "path": "src/data_schedules.cc",
+      "bytes": 18594,
+      "sha256": "7ef3e14f49e6d5336c211343247f536ea6162a43e7d013e8e2441927ed4a0fd8",
+      "lines": 455
+    },
+    {
+      "path": "src/dog.cc",
+      "bytes": 1348,
+      "sha256": "0c9eec0ce96295b413116816fd7b9ff2f5ef18a17d8db9ebfdb9e58466397464",
+      "lines": 76
+    },
+    {
+      "path": "src/entity.cc",
+      "bytes": 1282,
+      "sha256": "4bd9863dec7e9b57ad20a60d0627e6c9f11a56d07d28262942b7f6def36e29f6",
+      "lines": 80
+    },
+    {
+      "path": "src/entity_actor.cc",
+      "bytes": 5286,
+      "sha256": "bf42d17f776459cf070141e8fd1dfdcde64fa3f5c7ca1b67440646011b66c1dc",
+      "lines": 250
+    },
+    {
+      "path": "src/farm.cc",
+      "bytes": 2091,
+      "sha256": "9020cbffb60717f4991fc9a49fd2e8ca9e4081f9df0157616d118d85962ab9f3",
+      "lines": 123
+    },
+    {
+      "path": "src/farm_house.cc",
+      "bytes": 6834,
+      "sha256": "539e15d30a7974216e5dd792e62e107f859f092d970ea9df198fe1088ecefa51",
+      "lines": 390
+    },
+    {
+      "path": "src/farmer.cc",
+      "bytes": 12106,
+      "sha256": "f732ca2581fe7059677047b2f57001f926db01b955e2b7998dfc4ac7c6f954b8",
+      "lines": 549
+    },
+    {
+      "path": "src/field.cc",
+      "bytes": 25440,
+      "sha256": "b76fb0bc0f333c933292e2b38ca08d8a0244a866f0b4929eeb3ad62591636628",
+      "lines": 1179
+    },
+    {
+      "path": "src/fridge.cc",
+      "bytes": 2881,
+      "sha256": "1df53a987fc9011ccf9d24683c843488b879e57270e85809218e5cd3973da61d",
+      "lines": 143
+    },
+    {
+      "path": "src/hardware.cc",
+      "bytes": 4265,
+      "sha256": "ac0675aa9721450016f75cd2c1739648c6d1528f06d9508898b36f9d74a14254",
+      "lines": 188
+    },
+    {
+      "path": "src/harvest_sprite.cc",
+      "bytes": 2870,
+      "sha256": "28485aab0c65507976002b2ec9c72931ed5c3892d58e785265a78e54cc8f6462",
+      "lines": 155
+    },
+    {
+      "path": "src/held_item.cc",
+      "bytes": 4990,
+      "sha256": "6c7fa6a270674b1b0f3de55f20638e435a9539ce5b0e8f20cc6b4b80bf3086d7",
+      "lines": 221
+    },
+    {
+      "path": "src/horse.cc",
+      "bytes": 827,
+      "sha256": "95ad466b5833481b20b7ef28099e49bb817f65fd9f7f015d65d56045d6098d86",
+      "lines": 48
+    },
+    {
+      "path": "src/item.cc",
+      "bytes": 10090,
+      "sha256": "960f91a020ffd87e375cfcff618426f61c8464485387b2d5687d1a27eadbd7b6",
+      "lines": 599
+    },
+    {
+      "path": "src/livestock.cc",
+      "bytes": 4495,
+      "sha256": "e6831d2d3f31ded1be790e94ffc42374b7cbc3ce5c40b649f974a8b6c1dd73ce",
+      "lines": 259
+    },
+    {
+      "path": "src/m4a.c",
+      "bytes": 48154,
+      "sha256": "152328836623997c5f47342ff60584f1973f322f71bf39df344ec34da9510381",
+      "lines": 1651
+    },
+    {
+      "path": "src/m4a_1.s",
+      "bytes": 40812,
+      "sha256": "4eeac0b2296ebb2bad7a3b44faa5d2b651315ee4568b2ff7767cac6525e08377",
+      "lines": 1980
+    },
+    {
+      "path": "src/new.cc",
+      "bytes": 1320,
+      "sha256": "9976d5e09e1134b3eb729d0cef4a2a5d966655bf93fdb4959010506c28b763f9",
+      "lines": 79
+    },
+    {
+      "path": "src/npc.cc",
+      "bytes": 2047,
+      "sha256": "a7b2305c869fbf8851d40bf197b33005d1909ee6d943145c5e44d9baf02acd80",
+      "lines": 135
+    },
+    {
+      "path": "src/npc_entity.cc",
+      "bytes": 19034,
+      "sha256": "46b9995cdbbe2ef5d7149580e87d8fe0549ed7ecd904ab9f7eb9a2529e9f7659",
+      "lines": 763
+    },
+    {
+      "path": "src/pet.cc",
+      "bytes": 1531,
+      "sha256": "d3766b742c7063e9358f1c82352659d3badb2069f37f152bffa3de7e12ca5884",
+      "lines": 87
+    },
+    {
+      "path": "src/pure_virtual.c",
+      "bytes": 206,
+      "sha256": "aa0a00fe03bb4c7b20b7f26a0b2ec1814c0d7f0c80c737cb2e85838f1bcba422",
+      "lines": 6
+    },
+    {
+      "path": "src/record_player.cc",
+      "bytes": 1043,
+      "sha256": "80235edc546ee0159bfa7beda2e90a3d47f28c3464bcc79dccc9abac3e62588a",
+      "lines": 53
+    },
+    {
+      "path": "src/rucksack.cc",
+      "bytes": 17269,
+      "sha256": "4b228bffac046b170b6bd5ae883ed74f8c38a46a48b9f47470a1fb4d624b7ca0",
+      "lines": 777
+    },
+    {
+      "path": "src/rucksack_item.cc",
+      "bytes": 1683,
+      "sha256": "1b6d9f8db8327667ea9d8b7dc009a667bf58d7209433e6cb145d1de1873f83bb",
+      "lines": 97
+    },
+    {
+      "path": "src/scene.cc",
+      "bytes": 237,
+      "sha256": "d175b1b763735c9b00ade67da94e7e766df062166301e1a27f90aeb66f049751",
+      "lines": 9
+    },
+    {
+      "path": "src/script_engine.cc",
+      "bytes": 13103,
+      "sha256": "a971cf3bba2d64d3a7555117f9ad286f03f48842e5c8dca744e2554c928800fe",
+      "lines": 653
+    },
+    {
+      "path": "src/sheep.cc",
+      "bytes": 1445,
+      "sha256": "d06f2e79c9e81a7411126b112e867d73db087ca4d4c1eee430b4617b478ec883",
+      "lines": 75
+    },
+    {
+      "path": "src/shelf.cc",
+      "bytes": 2994,
+      "sha256": "b3fd7a534ad20410fa2c0b65fcf41289446b633afd088eff411f716275f0d916",
+      "lines": 143
+    },
+    {
+      "path": "src/shipping_bin.cc",
+      "bytes": 4368,
+      "sha256": "5efdc2eb39ea2d339df069dd45f4daa9b9cb4b38a9a4e89c62fbab1e7da8dc52",
+      "lines": 206
+    },
+    {
+      "path": "src/sound_data.s",
+      "bytes": 86,
+      "sha256": "325db6c67d21fcb6ca33d80a0de321c11908f1921618c1fe9d4c9ff2d1a215c1",
+      "lines": 2
+    },
+    {
+      "path": "src/tool_chest.cc",
+      "bytes": 3307,
+      "sha256": "4aebef16af44169046f12d30c6b2cd53c1e805e2931fa568a8e629fb77be39f5",
+      "lines": 158
+    },
+    {
+      "path": "tools/.gitignore",
+      "bytes": 6,
+      "sha256": "2abf646cd752ae9a507832052c5a71668a168b0db6d0673a4b79c4948a37f652",
+      "lines": 1
+    },
+    {
+      "path": "tools/install_agbcp.sh",
+      "bytes": 260,
+      "sha256": "130605ba64c56612384589d91460987245d8352fcc850b1bcf13c82cf27e5717",
+      "lines": 16
+    },
+    {
+      "path": "tools/libagbc++/algorithm",
+      "bytes": 1368,
+      "sha256": "4b26fa58a6c27c9fbdd5e98de181ac783755dac3549b3fc23675dfdf479c0162",
+      "lines": 40
+    },
+    {
+      "path": "tools/libagbc++/cstddef",
+      "bytes": 152,
+      "sha256": "c20ba6b0a18871032e7e7eaace89a961b77a94909c1e1997fd3561ae8a0fd4fb",
+      "lines": 7
+    },
+    {
+      "path": "tools/libagbc++/cstdlib",
+      "bytes": 443,
+      "sha256": "870b3124147fb1874110cc6b3c8e9d33889347e3170c03bc879e4dbc12e80549",
+      "lines": 23
+    },
+    {
+      "path": "tools/libagbc++/cstring",
+      "bytes": 1812,
+      "sha256": "ec57ea9c90a4bef612e8a8344d2f59a03a6e49d8fecb0d9234d9cdf4419e431a",
+      "lines": 96
+    },
+    {
+      "path": "tools/libagbc++/exception",
+      "bytes": 808,
+      "sha256": "6956b782485f45fe3dbc00caf8311e85df005e097d0d4d43ee511231e0d22232",
+      "lines": 39
+    },
+    {
+      "path": "tools/libagbc++/iterator",
+      "bytes": 1327,
+      "sha256": "91f04ed5c6e3ea5645b85edb10f79167694cca2658a2f02b5f352f6dfbf89159",
+      "lines": 39
+    },
+    {
+      "path": "tools/libagbc++/memory",
+      "bytes": 2872,
+      "sha256": "f47d43651cfbe6123b3880cf660da03f226d369dce93b11e7bdede238cacab11",
+      "lines": 108
+    },
+    {
+      "path": "tools/libagbc++/new",
+      "bytes": 1634,
+      "sha256": "1cb801605ae6a54db51acaa3468187fefdde42ba3411c8333732cf4f32119269",
+      "lines": 60
+    },
+    {
+      "path": "tools/libagbc++/new.h",
+      "bytes": 161,
+      "sha256": "e9e7e99c08fb6e33bdd8ababaf9ef0300b8deb797dc0b58f550415148bb57131",
+      "lines": 11
+    },
+    {
+      "path": "tools/libagbc++/stl_algo.h",
+      "bytes": 92357,
+      "sha256": "0c3949eea95867f9b3e1428f5592c4aa63aafa9eac8577f1a6776ce0dcf05c0f",
+      "lines": 2892
+    },
+    {
+      "path": "tools/libagbc++/stl_algobase.h",
+      "bytes": 17642,
+      "sha256": "09f74ccd082441f3b5cdecb5f2ec77cde79c789d24f5248c236d76e10e118b9d",
+      "lines": 525
+    },
+    {
+      "path": "tools/libagbc++/stl_config.h",
+      "bytes": 8293,
+      "sha256": "14d085c74b4f563c31388da7062413c0db3d88430470057ac3618cf8779690d8",
+      "lines": 223
+    },
+    {
+      "path": "tools/libagbc++/stl_construct.h",
+      "bytes": 2704,
+      "sha256": "4b4e8a7c77c607f6363f08bedba9fe1c6619baea9f25c3da761c8634dd3af4a9",
+      "lines": 90
+    },
+    {
+      "path": "tools/libagbc++/stl_heap.h",
+      "bytes": 9055,
+      "sha256": "a0f17ab388f6ae584236f7190a99bc72b7095275eb729475656fc13970362514",
+      "lines": 281
+    },
+    {
+      "path": "tools/libagbc++/stl_iterator.h",
+      "bytes": 25639,
+      "sha256": "065457984a9f2c37f9a394db2ddfb1d2575492aa2214eef8ee6ea486e29cb7c3",
+      "lines": 813
+    },
+    {
+      "path": "tools/libagbc++/stl_pair.h",
+      "bytes": 2340,
+      "sha256": "256f94c7c00e11bbcc71b637b1477e12d9afa897bacda9f5f43a6577e3f95de3",
+      "lines": 77
+    },
+    {
+      "path": "tools/libagbc++/stl_raw_storage_iter.h",
+      "bytes": 2595,
+      "sha256": "0989b1d1489dbcce376b632f93be5da05899cb77a4555e860828997a3a647329",
+      "lines": 81
+    },
+    {
+      "path": "tools/libagbc++/stl_relops.h",
+      "bytes": 1828,
+      "sha256": "684315cc5a8ffbba7db56752ed35263200981a10f195e1b1c0d4fe4a7c3e7518",
+      "lines": 62
+    },
+    {
+      "path": "tools/libagbc++/stl_tempbuf.h",
+      "bytes": 4676,
+      "sha256": "12bbe301536e64984b9d945dc6bf9f67faf3c711234b76328cac95a4db76d204",
+      "lines": 156
+    },
+    {
+      "path": "tools/libagbc++/stl_uninitialized.h",
+      "bytes": 9292,
+      "sha256": "5abb709a4cedf9e2f6b0f21ad45e9e5720764410757e3bf0859cee564a83fdf8",
+      "lines": 276
+    },
+    {
+      "path": "tools/libagbc++/type_traits.h",
+      "bytes": 12934,
+      "sha256": "f86bf3aed5c0322aae8e53fab94df7e78c992a38e0ee69e1aa9368a36f660e44",
+      "lines": 373
+    },
+    {
+      "path": "tools/libagbc++/typeinfo",
+      "bytes": 1049,
+      "sha256": "c6e77173f1ab39bc19e03902183fe4b8bab0799d6340946fe276539d7311a430",
+      "lines": 58
+    },
+    {
+      "path": "tools/libsix/LICENSE",
+      "bytes": 16725,
+      "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5",
+      "lines": 373
+    },
+    {
+      "path": "tools/libsix/include/six/asm/base.s",
+      "bytes": 829,
+      "sha256": "af94f43f2a2c495838b91a9e6be0f1275a34329edf1012adb6bad18ce8cb02a6",
+      "lines": 40
+    },
+    {
+      "path": "tools/libsix/include/six/asm/hw/dma.s",
+      "bytes": 1617,
+      "sha256": "bae01c2486b89ff2f601129d76da088307d71cee4ba53ead89ef4e6f2617094f",
+      "lines": 67
+    },
+    {
+      "path": "tools/libsix/include/six/asm/hw/gpio.s",
+      "bytes": 530,
+      "sha256": "95fe27ea9a8108f414a3e45dc3d26e21ce94a180a2dff9e4cad4adecd18de4d2",
+      "lines": 24
+    },
+    {
+      "path": "tools/libsix/include/six/asm/hw/input.s",
+      "bytes": 1726,
+      "sha256": "74c3c0d9dfcecec621de2e51e7ddb13a03ce5204015a33e0874cbc12e2aa2e28",
+      "lines": 52
+    },
+    {
+      "path": "tools/libsix/include/six/asm/hw/irq.s",
+      "bytes": 1690,
+      "sha256": "61840158631452d85c2717391e55110766a3cfb917b9d5fb86b77dc2687cdc1f",
+      "lines": 57
+    },
+    {
+      "path": "tools/libsix/include/six/asm/hw/memory.s",
+      "bytes": 969,
+      "sha256": "e5beb592cdec30eab2b67e7a2f75e266837c9b5bb56c2a2b161dca523f1a542e",
+      "lines": 41
+    },
+    {
+      "path": "tools/libsix/include/six/asm/hw/sound.s",
+      "bytes": 786,
+      "sha256": "e13a818afc95e8f34fbb58e12242458d0254d3de970315bb86eb2cfd4bc7a0af",
+      "lines": 31
+    },
+    {
+      "path": "tools/libsix/include/six/asm/hw/svc.s",
+      "bytes": 2762,
+      "sha256": "7693e0e219592b72b4fda8c19bb147de92318b8b83af6485337ae9e835e12933",
+      "lines": 101
+    },
+    {
+      "path": "tools/libsix/include/six/asm/hw/timer.s",
+      "bytes": 892,
+      "sha256": "c7c66026b45c75d0ebfbe40d2432bfc2c7789e3dacdb40397dd261318d701414",
+      "lines": 34
+    },
+    {
+      "path": "tools/libsix/include/six/asm/hw/video.s",
+      "bytes": 5326,
+      "sha256": "7a0ab14a5e0b276d07500b1bce76886f8571895fccfa7f421097a62638bf99af",
+      "lines": 212
+    },
+    {
+      "path": "tools/libsix/include/six/asm/hw/waitstate.s",
+      "bytes": 918,
+      "sha256": "dd92e9f275f80ea8fdc8e2d8309c906f0482efe74a0da68c58245b742f453e34",
+      "lines": 40
+    },
+    {
+      "path": "tools/libsix/include/six/asm/macros.s",
+      "bytes": 4402,
+      "sha256": "29314299dbcecd300c376fe55e8f45d1524eb013bebb951aa2e810d9206ab4bf",
+      "lines": 196
+    },
+    {
+      "path": "tools/libsix/include/six/asm/prelude.s",
+      "bytes": 482,
+      "sha256": "d06f7571f2a23a9ff1ac4fe7c96e9efb5f9dda8c8058025db2e664b938eba5ae",
+      "lines": 18
+    },
+    {
+      "path": "tools/libsix/readme.md",
+      "bytes": 450,
+      "sha256": "6ef28caacaffdec6d6fa66d9bd87b638561488441d83af5dfa954a079ef54741",
+      "lines": 17
+    },
+    {
+      "path": "tools/scripts/.gitignore",
+      "bytes": 12,
+      "sha256": "ef8a1af1847c80dc4ac41ea50ada2a9a0b41db1a599d6339dfd42c978c08fe58",
+      "lines": 1
+    },
+    {
+      "path": "tools/scripts/align_sections.sh",
+      "bytes": 220,
+      "sha256": "4d80c10ceb02a58a1c142b992f1a7f50f13b052f4d5986830c17d546401b693f",
+      "lines": 10
+    },
+    {
+      "path": "tools/scripts/calcrom.pl",
+      "bytes": 873,
+      "sha256": "8d6f6991e0ad41637984df08cfd542b90c440a348b417086aea10357b75227f0",
+      "lines": 37
+    },
+    {
+      "path": "tools/scripts/data_analysis.py",
+      "bytes": 3124,
+      "sha256": "722b7ab46cc2e3a0b2354fbf05ced1c9f7229cd5c3ed87b3f085689aca9a4a39",
+      "lines": 116
+    },
+    {
+      "path": "tools/scripts/decompress.py",
+      "bytes": 15208,
+      "sha256": "ba40892a7527bb9c86ec2e129e3e39e725a17473b07e5575743cc1ae806c9032",
+      "lines": 601
+    },
+    {
+      "path": "tools/scripts/dump_item_tables.py",
+      "bytes": 5232,
+      "sha256": "9b487c306bb341213d3417b827021b4c3db53ac47aca3eec541921e6261ee26b",
+      "lines": 205
+    },
+    {
+      "path": "tools/scripts/dump_pointers.py",
+      "bytes": 966,
+      "sha256": "3594a285fc883bbcbcb0233ad7bd6d690e19450d53997874b9d40c09b5eee32f",
+      "lines": 39
+    },
+    {
+      "path": "tools/scripts/dump_schedule.py",
+      "bytes": 4134,
+      "sha256": "400d847225e3616cd42acfbe0ea561fdec4b08d8e905698c806c07e0057fef8c",
+      "lines": 165
+    },
+    {
+      "path": "tools/scripts/finddata.py",
+      "bytes": 1396,
+      "sha256": "b70172489ee4b1f8170bc98579391833c007e474dcce4eb9ef60d5c6093bf3c5",
+      "lines": 57
+    },
+    {
+      "path": "tools/scripts/findiwrams.py",
+      "bytes": 1441,
+      "sha256": "067b4b7f58fddf1c68bc76c8da4ec2536b15e7b4f653df71ab7b0bb77d78276a",
+      "lines": 57
+    },
+    {
+      "path": "tools/scripts/quick_disasm.sh",
+      "bytes": 230,
+      "sha256": "7f87e12e3190ad6967bb7d729337fbc27407a93601f1ef183b8593d9a53e448e",
+      "lines": 10
+    },
+    {
+      "path": "tools/scripts/schedule_to_c.py",
+      "bytes": 7051,
+      "sha256": "d9a9acf4274dc724ae4dbfdc2e9a1453f0f6598b19210c78427e7ede8f742a95",
+      "lines": 292
+    },
+    {
+      "path": "tools/scripts/symbols.py",
+      "bytes": 436,
+      "sha256": "57f2049cbf91d421f9d97fe036115ebb1ba8e0be9d77ca23915eefb145af29b8",
+      "lines": 16
+    },
+    {
+      "path": "tools/scripts/vtnames.py",
+      "bytes": 1307,
+      "sha256": "1e3d952c694f1fb6a46048a6d8b3c130dec28db9ed8a31d383992ca857e1b230",
+      "lines": 50
+    }
+  ],
+  "scope_note": "Complete tracked-file inventory; semantic analysis focuses on text VM, item tables, font rendering and their callers. Does not claim full-game decompilation."
+}

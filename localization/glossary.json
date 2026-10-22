@@ -1,0 +1,2276 @@
+{
+  "schema_version": 1,
+  "status": "draft; terminology review required",
+  "rules": [
+    "Keep proper names unchanged.",
+    "Preserve grades S/M/L/G/P/X exactly as displayed in the source.",
+    "Item names use sentence capitalization, not English Title Case.",
+    "Do not silently fix source typos or infer undocumented variable meanings."
+  ],
+  "pronouns": {
+    "Popuri": {
+      "self": "mình",
+      "player": "bạn",
+      "scope": "first greeting only"
+    },
+    "Thomas": {
+      "self": "bác",
+      "player": "cháu",
+      "scope": "new-game introduction"
+    },
+    "unclassified_speaker": {
+      "policy": "do not translate until context is verified"
+    }
+  },
+  "proper_names": [
+    {
+      "english": "Popuri",
+      "vietnamese": "Popuri"
+    },
+    {
+      "english": "Karen",
+      "vietnamese": "Karen"
+    },
+    {
+      "english": "Ann",
+      "vietnamese": "Ann"
+    },
+    {
+      "english": "Elli",
+      "vietnamese": "Elli"
+    },
+    {
+      "english": "Mary",
+      "vietnamese": "Mary"
+    },
+    {
+      "english": "Thomas",
+      "vietnamese": "Thomas"
+    },
+    {
+      "english": "Harris",
+      "vietnamese": "Harris"
+    },
+    {
+      "english": "Cliff",
+      "vietnamese": "Cliff"
+    },
+    {
+      "english": "Gray",
+      "vietnamese": "Gray"
+    },
+    {
+      "english": "Kai",
+      "vietnamese": "Kai"
+    },
+    {
+      "english": "Rick",
+      "vietnamese": "Rick"
+    },
+    {
+      "english": "Doctor",
+      "vietnamese": "Doctor"
+    },
+    {
+      "english": "Basil",
+      "vietnamese": "Basil"
+    },
+    {
+      "english": "Ellen",
+      "vietnamese": "Ellen"
+    },
+    {
+      "english": "Doug",
+      "vietnamese": "Doug"
+    },
+    {
+      "english": "Sasha",
+      "vietnamese": "Sasha"
+    },
+    {
+      "english": "Jeff",
+      "vietnamese": "Jeff"
+    },
+    {
+      "english": "Saibara",
+      "vietnamese": "Saibara"
+    },
+    {
+      "english": "Gotz",
+      "vietnamese": "Gotz"
+    },
+    {
+      "english": "Barley",
+      "vietnamese": "Barley"
+    },
+    {
+      "english": "May",
+      "vietnamese": "May"
+    },
+    {
+      "english": "Duke",
+      "vietnamese": "Duke"
+    },
+    {
+      "english": "Manna",
+      "vietnamese": "Manna"
+    },
+    {
+      "english": "Carter",
+      "vietnamese": "Carter"
+    },
+    {
+      "english": "Zack",
+      "vietnamese": "Zack"
+    },
+    {
+      "english": "Won",
+      "vietnamese": "Won"
+    },
+    {
+      "english": "Kappa",
+      "vietnamese": "Kappa"
+    },
+    {
+      "english": "Mineral Town",
+      "vietnamese": "Mineral Town"
+    },
+    {
+      "english": "Moon Drop",
+      "vietnamese": "Moon Drop"
+    },
+    {
+      "english": "Pink Cat",
+      "vietnamese": "Pink Cat"
+    },
+    {
+      "english": "Toy Flower",
+      "vietnamese": "Toy Flower"
+    },
+    {
+      "english": "Mystrile",
+      "vietnamese": "Mystrile"
+    },
+    {
+      "english": "Orichalc",
+      "vietnamese": "Orichalc"
+    },
+    {
+      "english": "Adamantite",
+      "vietnamese": "Adamantite"
+    },
+    {
+      "english": "Bodigizer",
+      "vietnamese": "Bodigizer"
+    },
+    {
+      "english": "Turbojolt",
+      "vietnamese": "Turbojolt"
+    }
+  ],
+  "terms": [
+    {
+      "english": "Rucksack",
+      "vietnamese": "Ba lô",
+      "category": "menu"
+    },
+    {
+      "english": "Harvest Goddess",
+      "vietnamese": "Nữ thần Mùa màng",
+      "category": "character_title",
+      "note": "Short item labels use Nữ thần."
+    },
+    {
+      "english": "Lumber",
+      "vietnamese": "Gỗ",
+      "category": "material"
+    },
+    {
+      "english": "Mystrile",
+      "vietnamese": "Mystrile",
+      "category": "material",
+      "note": "Keep distinct from Mythic."
+    },
+    {
+      "english": "Mythic",
+      "vietnamese": "thần thoại",
+      "category": "quality"
+    },
+    {
+      "english": "Turnip",
+      "vietnamese": "Củ cải",
+      "category": "item_name",
+      "source_id": "item.food.000.name"
+    },
+    {
+      "english": "Potato",
+      "vietnamese": "Khoai tây",
+      "category": "item_name",
+      "source_id": "item.food.001.name"
+    },
+    {
+      "english": "Cucumber",
+      "vietnamese": "Dưa leo",
+      "category": "item_name",
+      "source_id": "item.food.002.name"
+    },
+    {
+      "english": "Strawberry",
+      "vietnamese": "Dâu tây",
+      "category": "item_name",
+      "source_id": "item.food.003.name"
+    },
+    {
+      "english": "Cabbage",
+      "vietnamese": "Bắp cải",
+      "category": "item_name",
+      "source_id": "item.food.004.name"
+    },
+    {
+      "english": "Tomato",
+      "vietnamese": "Cà chua",
+      "category": "item_name",
+      "source_id": "item.food.005.name"
+    },
+    {
+      "english": "Corn",
+      "vietnamese": "Bắp",
+      "category": "item_name",
+      "source_id": "item.food.006.name"
+    },
+    {
+      "english": "Onion",
+      "vietnamese": "Hành tây",
+      "category": "item_name",
+      "source_id": "item.food.007.name"
+    },
+    {
+      "english": "Pumpkin",
+      "vietnamese": "Bí ngô",
+      "category": "item_name",
+      "source_id": "item.food.008.name"
+    },
+    {
+      "english": "Pineapple",
+      "vietnamese": "Dứa",
+      "category": "item_name",
+      "source_id": "item.food.009.name"
+    },
+    {
+      "english": "Eggplant",
+      "vietnamese": "Cà tím",
+      "category": "item_name",
+      "source_id": "item.food.010.name"
+    },
+    {
+      "english": "Carrot",
+      "vietnamese": "Cà rốt",
+      "category": "item_name",
+      "source_id": "item.food.011.name"
+    },
+    {
+      "english": "Sweet Potato",
+      "vietnamese": "Khoai lang",
+      "category": "item_name",
+      "source_id": "item.food.012.name"
+    },
+    {
+      "english": "Spinach",
+      "vietnamese": "Cải bó xôi",
+      "category": "item_name",
+      "source_id": "item.food.013.name"
+    },
+    {
+      "english": "Green Pepper",
+      "vietnamese": "Ớt chuông",
+      "category": "item_name",
+      "source_id": "item.food.014.name"
+    },
+    {
+      "english": "Iron Sickle",
+      "vietnamese": "Liềm sắt",
+      "category": "item_name",
+      "source_id": "item.tool.000.name"
+    },
+    {
+      "english": "Copper Sickle",
+      "vietnamese": "Liềm đồng",
+      "category": "item_name",
+      "source_id": "item.tool.001.name"
+    },
+    {
+      "english": "Silver Sickle",
+      "vietnamese": "Liềm bạc",
+      "category": "item_name",
+      "source_id": "item.tool.002.name"
+    },
+    {
+      "english": "Gold Sickle",
+      "vietnamese": "Liềm vàng",
+      "category": "item_name",
+      "source_id": "item.tool.003.name"
+    },
+    {
+      "english": "Mystrile Sickle",
+      "vietnamese": "Liềm Mystrile",
+      "category": "item_name",
+      "source_id": "item.tool.004.name"
+    },
+    {
+      "english": "Cursed Sickle",
+      "vietnamese": "Liềm nguyền rủa",
+      "category": "item_name",
+      "source_id": "item.tool.005.name"
+    },
+    {
+      "english": "Blessed Sickle",
+      "vietnamese": "Liềm phúc lành",
+      "category": "item_name",
+      "source_id": "item.tool.006.name"
+    },
+    {
+      "english": "Mythic Sickle",
+      "vietnamese": "Liềm thần thoại",
+      "category": "item_name",
+      "source_id": "item.tool.007.name"
+    },
+    {
+      "english": "Iron Hoe",
+      "vietnamese": "Cuốc sắt",
+      "category": "item_name",
+      "source_id": "item.tool.008.name"
+    },
+    {
+      "english": "Copper Hoe",
+      "vietnamese": "Cuốc đồng",
+      "category": "item_name",
+      "source_id": "item.tool.009.name"
+    },
+    {
+      "english": "Silver Hoe",
+      "vietnamese": "Cuốc bạc",
+      "category": "item_name",
+      "source_id": "item.tool.010.name"
+    },
+    {
+      "english": "Gold Hoe",
+      "vietnamese": "Cuốc vàng",
+      "category": "item_name",
+      "source_id": "item.tool.011.name"
+    },
+    {
+      "english": "Mystrile Hoe",
+      "vietnamese": "Cuốc Mystrile",
+      "category": "item_name",
+      "source_id": "item.tool.012.name"
+    },
+    {
+      "english": "Cursed Hoe",
+      "vietnamese": "Cuốc nguyền rủa",
+      "category": "item_name",
+      "source_id": "item.tool.013.name"
+    },
+    {
+      "english": "Blessed Hoe",
+      "vietnamese": "Cuốc phúc lành",
+      "category": "item_name",
+      "source_id": "item.tool.014.name"
+    },
+    {
+      "english": "Mythic Hoe",
+      "vietnamese": "Cuốc thần thoại",
+      "category": "item_name",
+      "source_id": "item.tool.015.name"
+    },
+    {
+      "english": "Iron Axe",
+      "vietnamese": "Rìu sắt",
+      "category": "item_name",
+      "source_id": "item.tool.016.name"
+    },
+    {
+      "english": "Copper Axe",
+      "vietnamese": "Rìu đồng",
+      "category": "item_name",
+      "source_id": "item.tool.017.name"
+    },
+    {
+      "english": "Silver Axe",
+      "vietnamese": "Rìu bạc",
+      "category": "item_name",
+      "source_id": "item.tool.018.name"
+    },
+    {
+      "english": "Gold Axe",
+      "vietnamese": "Rìu vàng",
+      "category": "item_name",
+      "source_id": "item.tool.019.name"
+    },
+    {
+      "english": "Mystrile Axe",
+      "vietnamese": "Rìu Mystrile",
+      "category": "item_name",
+      "source_id": "item.tool.020.name"
+    },
+    {
+      "english": "Cursed Axe",
+      "vietnamese": "Rìu nguyền rủa",
+      "category": "item_name",
+      "source_id": "item.tool.021.name"
+    },
+    {
+      "english": "Blessed Axe",
+      "vietnamese": "Rìu phúc lành",
+      "category": "item_name",
+      "source_id": "item.tool.022.name"
+    },
+    {
+      "english": "Mythic Axe",
+      "vietnamese": "Rìu thần thoại",
+      "category": "item_name",
+      "source_id": "item.tool.023.name"
+    },
+    {
+      "english": "Iron Hammer",
+      "vietnamese": "Búa sắt",
+      "category": "item_name",
+      "source_id": "item.tool.024.name"
+    },
+    {
+      "english": "Copper Hammer",
+      "vietnamese": "Búa đồng",
+      "category": "item_name",
+      "source_id": "item.tool.025.name"
+    },
+    {
+      "english": "Silver Hammer",
+      "vietnamese": "Búa bạc",
+      "category": "item_name",
+      "source_id": "item.tool.026.name"
+    },
+    {
+      "english": "Gold Hammer",
+      "vietnamese": "Búa vàng",
+      "category": "item_name",
+      "source_id": "item.tool.027.name"
+    },
+    {
+      "english": "Mystrile Hammer",
+      "vietnamese": "Búa Mystrile",
+      "category": "item_name",
+      "source_id": "item.tool.028.name"
+    },
+    {
+      "english": "Cursed Hammer",
+      "vietnamese": "Búa nguyền rủa",
+      "category": "item_name",
+      "source_id": "item.tool.029.name"
+    },
+    {
+      "english": "Blessed Hammer",
+      "vietnamese": "Búa phúc lành",
+      "category": "item_name",
+      "source_id": "item.tool.030.name"
+    },
+    {
+      "english": "Mythic Hammer",
+      "vietnamese": "Búa thần thoại",
+      "category": "item_name",
+      "source_id": "item.tool.031.name"
+    },
+    {
+      "english": "Watering Can",
+      "vietnamese": "Bình tưới",
+      "category": "item_name",
+      "source_id": "item.tool.032.name"
+    },
+    {
+      "english": "Copper Watering Can",
+      "vietnamese": "Bình tưới đồng",
+      "category": "item_name",
+      "source_id": "item.tool.033.name"
+    },
+    {
+      "english": "Silver Watering Can",
+      "vietnamese": "Bình tưới bạc",
+      "category": "item_name",
+      "source_id": "item.tool.034.name"
+    },
+    {
+      "english": "Gold Watering Can",
+      "vietnamese": "Bình tưới vàng",
+      "category": "item_name",
+      "source_id": "item.tool.035.name"
+    },
+    {
+      "english": "Mystrile Watering Can",
+      "vietnamese": "Bình tưới Mystrile",
+      "category": "item_name",
+      "source_id": "item.tool.036.name"
+    },
+    {
+      "english": "Cursed Watering Can",
+      "vietnamese": "Bình tưới nguyền rủa",
+      "category": "item_name",
+      "source_id": "item.tool.037.name"
+    },
+    {
+      "english": "Blessed Watering Can",
+      "vietnamese": "Bình tưới phúc lành",
+      "category": "item_name",
+      "source_id": "item.tool.038.name"
+    },
+    {
+      "english": "Mythic Watering Can",
+      "vietnamese": "Bình tưới thần thoại",
+      "category": "item_name",
+      "source_id": "item.tool.039.name"
+    },
+    {
+      "english": "Fishing Rod",
+      "vietnamese": "Cần câu",
+      "category": "item_name",
+      "source_id": "item.tool.040.name"
+    },
+    {
+      "english": "Copper Fishing Rod",
+      "vietnamese": "Cần câu đồng",
+      "category": "item_name",
+      "source_id": "item.tool.041.name"
+    },
+    {
+      "english": "Silver Fishing Rod",
+      "vietnamese": "Cần câu bạc",
+      "category": "item_name",
+      "source_id": "item.tool.042.name"
+    },
+    {
+      "english": "Gold Fishing Rod",
+      "vietnamese": "Cần câu vàng",
+      "category": "item_name",
+      "source_id": "item.tool.043.name"
+    },
+    {
+      "english": "Mystrile Fishing Rod",
+      "vietnamese": "Cần câu Mystrile",
+      "category": "item_name",
+      "source_id": "item.tool.044.name"
+    },
+    {
+      "english": "Cursed Fishing Rod",
+      "vietnamese": "Cần câu nguyền rủa",
+      "category": "item_name",
+      "source_id": "item.tool.045.name"
+    },
+    {
+      "english": "Blessed Fishing Rod",
+      "vietnamese": "Cần câu phúc lành",
+      "category": "item_name",
+      "source_id": "item.tool.046.name"
+    },
+    {
+      "english": "Mythic Fishing Rod",
+      "vietnamese": "Cần câu thần thoại",
+      "category": "item_name",
+      "source_id": "item.tool.047.name"
+    },
+    {
+      "english": "Cow Miracle Potion",
+      "vietnamese": "Thuốc phối giống bò",
+      "category": "item_name",
+      "source_id": "item.tool.048.name"
+    },
+    {
+      "english": "Sheep Miracle Potion",
+      "vietnamese": "Thuốc phối giống cừu",
+      "category": "item_name",
+      "source_id": "item.tool.049.name"
+    },
+    {
+      "english": "Turnip Seeds",
+      "vietnamese": "Hạt giống củ cải",
+      "category": "item_name",
+      "source_id": "item.tool.050.name"
+    },
+    {
+      "english": "Potato Seeds",
+      "vietnamese": "Hạt giống khoai tây",
+      "category": "item_name",
+      "source_id": "item.tool.051.name"
+    },
+    {
+      "english": "Cucumber Seeds",
+      "vietnamese": "Hạt giống dưa leo",
+      "category": "item_name",
+      "source_id": "item.tool.052.name"
+    },
+    {
+      "english": "Strawberry Seeds",
+      "vietnamese": "Hạt giống dâu tây",
+      "category": "item_name",
+      "source_id": "item.tool.053.name"
+    },
+    {
+      "english": "Cabbage Seeds",
+      "vietnamese": "Hạt giống bắp cải",
+      "category": "item_name",
+      "source_id": "item.tool.054.name"
+    },
+    {
+      "english": "Tomato Seeds",
+      "vietnamese": "Hạt giống cà chua",
+      "category": "item_name",
+      "source_id": "item.tool.055.name"
+    },
+    {
+      "english": "Corn Seeds",
+      "vietnamese": "Hạt giống bắp",
+      "category": "item_name",
+      "source_id": "item.tool.056.name"
+    },
+    {
+      "english": "Onion Seeds",
+      "vietnamese": "Hạt giống hành tây",
+      "category": "item_name",
+      "source_id": "item.tool.057.name"
+    },
+    {
+      "english": "Pumpkin Seeds",
+      "vietnamese": "Hạt giống bí ngô",
+      "category": "item_name",
+      "source_id": "item.tool.058.name"
+    },
+    {
+      "english": "Pineapple Seeds",
+      "vietnamese": "Hạt giống dứa",
+      "category": "item_name",
+      "source_id": "item.tool.059.name"
+    },
+    {
+      "english": "Eggplant Seeds",
+      "vietnamese": "Hạt giống cà tím",
+      "category": "item_name",
+      "source_id": "item.tool.060.name"
+    },
+    {
+      "english": "Carrot Seeds",
+      "vietnamese": "Hạt giống cà rốt",
+      "category": "item_name",
+      "source_id": "item.tool.061.name"
+    },
+    {
+      "english": "Sweet Potato Seeds",
+      "vietnamese": "Hạt giống khoai lang",
+      "category": "item_name",
+      "source_id": "item.tool.062.name"
+    },
+    {
+      "english": "Spinach Seeds",
+      "vietnamese": "Hạt giống cải bó xôi",
+      "category": "item_name",
+      "source_id": "item.tool.063.name"
+    },
+    {
+      "english": "Green Pepper Seeds",
+      "vietnamese": "Hạt giống ớt chuông",
+      "category": "item_name",
+      "source_id": "item.tool.064.name"
+    },
+    {
+      "english": "Grass Seeds",
+      "vietnamese": "Hạt giống cỏ",
+      "category": "item_name",
+      "source_id": "item.tool.065.name"
+    },
+    {
+      "english": "Moon Drop Seeds",
+      "vietnamese": "Hạt hoa Moon Drop",
+      "category": "item_name",
+      "source_id": "item.tool.066.name"
+    },
+    {
+      "english": "Pink Cat Seeds",
+      "vietnamese": "Hạt hoa Pink Cat",
+      "category": "item_name",
+      "source_id": "item.tool.067.name"
+    },
+    {
+      "english": "Magic Seeds",
+      "vietnamese": "Hạt hoa Magic",
+      "category": "item_name",
+      "source_id": "item.tool.068.name"
+    },
+    {
+      "english": "Toy Flower Seeds",
+      "vietnamese": "Hạt hoa Toy Flower",
+      "category": "item_name",
+      "source_id": "item.tool.069.name"
+    },
+    {
+      "english": "Brush",
+      "vietnamese": "Bàn chải",
+      "category": "item_name",
+      "source_id": "item.tool.070.name"
+    },
+    {
+      "english": "Milker",
+      "vietnamese": "Dụng cụ vắt sữa",
+      "category": "item_name",
+      "source_id": "item.tool.071.name"
+    },
+    {
+      "english": "Clipper",
+      "vietnamese": "Kéo xén lông",
+      "category": "item_name",
+      "source_id": "item.tool.072.name"
+    },
+    {
+      "english": "Bell",
+      "vietnamese": "Chuông",
+      "category": "item_name",
+      "source_id": "item.tool.073.name"
+    },
+    {
+      "english": "Animal Medicine",
+      "vietnamese": "Thuốc thú y",
+      "category": "item_name",
+      "source_id": "item.tool.074.name"
+    },
+    {
+      "english": "Blue Feather",
+      "vietnamese": "Lông vũ xanh",
+      "category": "item_name",
+      "source_id": "item.tool.075.name"
+    },
+    {
+      "english": "Pedometer",
+      "vietnamese": "Máy đếm bước",
+      "category": "item_name",
+      "source_id": "item.tool.076.name"
+    },
+    {
+      "english": "Teleport Stone",
+      "vietnamese": "Đá dịch chuyển",
+      "category": "item_name",
+      "source_id": "item.tool.077.name"
+    },
+    {
+      "english": "Gem of the Goddess",
+      "vietnamese": "Ngọc Nữ thần",
+      "category": "item_name",
+      "source_id": "item.tool.078.name"
+    },
+    {
+      "english": "Gem of the Kappa",
+      "vietnamese": "Ngọc Kappa",
+      "category": "item_name",
+      "source_id": "item.tool.079.name"
+    },
+    {
+      "english": "Gem of Truth",
+      "vietnamese": "Ngọc Sự thật",
+      "category": "item_name",
+      "source_id": "item.tool.080.name"
+    },
+    {
+      "english": "Regular Quality Egg",
+      "vietnamese": "Trứng thường",
+      "category": "item_name",
+      "source_id": "item.food.015.name"
+    },
+    {
+      "english": "Good Quality Egg",
+      "vietnamese": "Trứng ngon",
+      "category": "item_name",
+      "source_id": "item.food.016.name"
+    },
+    {
+      "english": "High Quality Egg",
+      "vietnamese": "Trứng hảo hạng",
+      "category": "item_name",
+      "source_id": "item.food.017.name"
+    },
+    {
+      "english": "Golden Egg",
+      "vietnamese": "Trứng vàng",
+      "category": "item_name",
+      "source_id": "item.food.018.name"
+    },
+    {
+      "english": "P Egg",
+      "vietnamese": "Trứng P",
+      "category": "item_name",
+      "source_id": "item.food.019.name"
+    },
+    {
+      "english": "X Egg",
+      "vietnamese": "Trứng X",
+      "category": "item_name",
+      "source_id": "item.food.020.name"
+    },
+    {
+      "english": "Spa-Boiled Egg",
+      "vietnamese": "Trứng suối nóng",
+      "category": "item_name",
+      "source_id": "item.food.021.name"
+    },
+    {
+      "english": "Mayonnaise (S)",
+      "vietnamese": "Mayonnaise (S)",
+      "category": "item_name",
+      "source_id": "item.food.022.name"
+    },
+    {
+      "english": "Mayonnaise (M)",
+      "vietnamese": "Mayonnaise (M)",
+      "category": "item_name",
+      "source_id": "item.food.023.name"
+    },
+    {
+      "english": "Mayonnaise (L)",
+      "vietnamese": "Mayonnaise (L)",
+      "category": "item_name",
+      "source_id": "item.food.024.name"
+    },
+    {
+      "english": "Mayonnaise (G)",
+      "vietnamese": "Mayonnaise (G)",
+      "category": "item_name",
+      "source_id": "item.food.025.name"
+    },
+    {
+      "english": "Mayonnaise (P)",
+      "vietnamese": "Mayonnaise (P)",
+      "category": "item_name",
+      "source_id": "item.food.026.name"
+    },
+    {
+      "english": "Mayonnaise (X)",
+      "vietnamese": "Mayonnaise (X)",
+      "category": "item_name",
+      "source_id": "item.food.027.name"
+    },
+    {
+      "english": "Milk (S)",
+      "vietnamese": "Sữa (S)",
+      "category": "item_name",
+      "source_id": "item.food.028.name"
+    },
+    {
+      "english": "Milk (M)",
+      "vietnamese": "Sữa (M)",
+      "category": "item_name",
+      "source_id": "item.food.029.name"
+    },
+    {
+      "english": "Milk (L)",
+      "vietnamese": "Sữa (L)",
+      "category": "item_name",
+      "source_id": "item.food.030.name"
+    },
+    {
+      "english": "Milk (G)",
+      "vietnamese": "Sữa (G)",
+      "category": "item_name",
+      "source_id": "item.food.031.name"
+    },
+    {
+      "english": "Milk (P)",
+      "vietnamese": "Sữa (P)",
+      "category": "item_name",
+      "source_id": "item.food.032.name"
+    },
+    {
+      "english": "Milk (X)",
+      "vietnamese": "Sữa (X)",
+      "category": "item_name",
+      "source_id": "item.food.033.name"
+    },
+    {
+      "english": "Cheese (S)",
+      "vietnamese": "Phô mai (S)",
+      "category": "item_name",
+      "source_id": "item.food.034.name"
+    },
+    {
+      "english": "Cheese (M)",
+      "vietnamese": "Phô mai (M)",
+      "category": "item_name",
+      "source_id": "item.food.035.name"
+    },
+    {
+      "english": "Cheese (L)",
+      "vietnamese": "Phô mai (L)",
+      "category": "item_name",
+      "source_id": "item.food.036.name"
+    },
+    {
+      "english": "Cheese (G)",
+      "vietnamese": "Phô mai (G)",
+      "category": "item_name",
+      "source_id": "item.food.037.name"
+    },
+    {
+      "english": "Cheese (P)",
+      "vietnamese": "Phô mai (P)",
+      "category": "item_name",
+      "source_id": "item.food.038.name"
+    },
+    {
+      "english": "Cheese (X)",
+      "vietnamese": "Phô mai (X)",
+      "category": "item_name",
+      "source_id": "item.food.039.name"
+    },
+    {
+      "english": "Apple",
+      "vietnamese": "Táo",
+      "category": "item_name",
+      "source_id": "item.food.040.name"
+    },
+    {
+      "english": "Honey",
+      "vietnamese": "Mật ong",
+      "category": "item_name",
+      "source_id": "item.food.041.name"
+    },
+    {
+      "english": "Bamboo Shoot",
+      "vietnamese": "Măng",
+      "category": "item_name",
+      "source_id": "item.food.042.name"
+    },
+    {
+      "english": "Wild Grapes",
+      "vietnamese": "Nho dại",
+      "category": "item_name",
+      "source_id": "item.food.043.name"
+    },
+    {
+      "english": "Mushroom",
+      "vietnamese": "Nấm",
+      "category": "item_name",
+      "source_id": "item.food.044.name"
+    },
+    {
+      "english": "Poisonous Mushroom",
+      "vietnamese": "Nấm độc",
+      "category": "item_name",
+      "source_id": "item.food.045.name"
+    },
+    {
+      "english": "Truffle",
+      "vietnamese": "Nấm cục",
+      "category": "item_name",
+      "source_id": "item.food.046.name"
+    },
+    {
+      "english": "Blue Grass",
+      "vietnamese": "Cỏ xanh dương",
+      "category": "item_name",
+      "source_id": "item.food.047.name"
+    },
+    {
+      "english": "Green Grass",
+      "vietnamese": "Cỏ xanh lá",
+      "category": "item_name",
+      "source_id": "item.food.048.name"
+    },
+    {
+      "english": "Red Grass",
+      "vietnamese": "Cỏ đỏ",
+      "category": "item_name",
+      "source_id": "item.food.049.name"
+    },
+    {
+      "english": "Yellow Grass",
+      "vietnamese": "Cỏ vàng",
+      "category": "item_name",
+      "source_id": "item.food.050.name"
+    },
+    {
+      "english": "Orange Grass",
+      "vietnamese": "Cỏ cam",
+      "category": "item_name",
+      "source_id": "item.food.051.name"
+    },
+    {
+      "english": "Purple Grass",
+      "vietnamese": "Cỏ tím",
+      "category": "item_name",
+      "source_id": "item.food.052.name"
+    },
+    {
+      "english": "Indigo Grass",
+      "vietnamese": "Cỏ chàm",
+      "category": "item_name",
+      "source_id": "item.food.053.name"
+    },
+    {
+      "english": "Black Grass",
+      "vietnamese": "Cỏ đen",
+      "category": "item_name",
+      "source_id": "item.food.054.name"
+    },
+    {
+      "english": "White Grass",
+      "vietnamese": "Cỏ trắng",
+      "category": "item_name",
+      "source_id": "item.food.055.name"
+    },
+    {
+      "english": "Queen of the Night",
+      "vietnamese": "Hoa quỳnh",
+      "category": "item_name",
+      "source_id": "item.food.056.name"
+    },
+    {
+      "english": "Bodigizer",
+      "vietnamese": "Bodigizer",
+      "category": "item_name",
+      "source_id": "item.food.057.name"
+    },
+    {
+      "english": "Bodigizer XL",
+      "vietnamese": "Bodigizer XL",
+      "category": "item_name",
+      "source_id": "item.food.058.name"
+    },
+    {
+      "english": "Turbojolt",
+      "vietnamese": "Turbojolt",
+      "category": "item_name",
+      "source_id": "item.food.059.name"
+    },
+    {
+      "english": "Turbojolt XL",
+      "vietnamese": "Turbojolt XL",
+      "category": "item_name",
+      "source_id": "item.food.060.name"
+    },
+    {
+      "english": "Wine",
+      "vietnamese": "Rượu vang",
+      "category": "item_name",
+      "source_id": "item.food.061.name"
+    },
+    {
+      "english": "Grape Juice",
+      "vietnamese": "Nước nho",
+      "category": "item_name",
+      "source_id": "item.food.062.name"
+    },
+    {
+      "english": "Rice Ball",
+      "vietnamese": "Cơm nắm",
+      "category": "item_name",
+      "source_id": "item.food.063.name"
+    },
+    {
+      "english": "Bread",
+      "vietnamese": "Bánh mì",
+      "category": "item_name",
+      "source_id": "item.food.064.name"
+    },
+    {
+      "english": "Oil",
+      "vietnamese": "Dầu ăn",
+      "category": "item_name",
+      "source_id": "item.food.065.name"
+    },
+    {
+      "english": "Curry Powder",
+      "vietnamese": "Bột cà ri",
+      "category": "item_name",
+      "source_id": "item.food.067.name"
+    },
+    {
+      "english": "Muffin Mix",
+      "vietnamese": "Bột làm bánh",
+      "category": "item_name",
+      "source_id": "item.food.068.name"
+    },
+    {
+      "english": "Chocolate",
+      "vietnamese": "Sô cô la",
+      "category": "item_name",
+      "source_id": "item.food.069.name"
+    },
+    {
+      "english": "Relax Tea Leaves",
+      "vietnamese": "Lá trà thư giãn",
+      "category": "item_name",
+      "source_id": "item.food.070.name"
+    },
+    {
+      "english": "SUGDW Apple",
+      "vietnamese": "Táo SUGDW",
+      "category": "item_name",
+      "source_id": "item.food.071.name"
+    },
+    {
+      "english": "HMSGB Apple",
+      "vietnamese": "Táo HMSGB",
+      "category": "item_name",
+      "source_id": "item.food.072.name"
+    },
+    {
+      "english": "AEPFE Apple",
+      "vietnamese": "Táo AEPFE",
+      "category": "item_name",
+      "source_id": "item.food.073.name"
+    },
+    {
+      "english": "Buckwheat Flour",
+      "vietnamese": "Bột kiều mạch",
+      "category": "item_name",
+      "source_id": "item.food.074.name"
+    },
+    {
+      "english": "Wild Grape Juice",
+      "vietnamese": "Nước nho dại",
+      "category": "item_name",
+      "source_id": "item.food.075.name"
+    },
+    {
+      "english": "Salad",
+      "vietnamese": "Rau trộn",
+      "category": "item_name",
+      "source_id": "item.food.076.name"
+    },
+    {
+      "english": "Curry Rice",
+      "vietnamese": "Cơm cà ri",
+      "category": "item_name",
+      "source_id": "item.food.077.name"
+    },
+    {
+      "english": "Stew",
+      "vietnamese": "Món hầm",
+      "category": "item_name",
+      "source_id": "item.food.078.name"
+    },
+    {
+      "english": "Miso Soup",
+      "vietnamese": "Canh miso",
+      "category": "item_name",
+      "source_id": "item.food.079.name"
+    },
+    {
+      "english": "Stir Fry",
+      "vietnamese": "Rau xào",
+      "category": "item_name",
+      "source_id": "item.food.080.name"
+    },
+    {
+      "english": "Fried Rice",
+      "vietnamese": "Cơm chiên",
+      "category": "item_name",
+      "source_id": "item.food.081.name"
+    },
+    {
+      "english": "Savory Pancake",
+      "vietnamese": "Bánh xèo Nhật",
+      "category": "item_name",
+      "source_id": "item.food.082.name"
+    },
+    {
+      "english": "Sandwich",
+      "vietnamese": "Bánh kẹp",
+      "category": "item_name",
+      "source_id": "item.food.083.name"
+    },
+    {
+      "english": "Fruit Juice",
+      "vietnamese": "Nước trái cây",
+      "category": "item_name",
+      "source_id": "item.food.084.name"
+    },
+    {
+      "english": "Vegetable Juice",
+      "vietnamese": "Nước rau củ",
+      "category": "item_name",
+      "source_id": "item.food.085.name"
+    },
+    {
+      "english": "Mixed Juice",
+      "vietnamese": "Nước ép hỗn hợp",
+      "category": "item_name",
+      "source_id": "item.food.086.name"
+    },
+    {
+      "english": "Fruit Latte",
+      "vietnamese": "Sữa trái cây",
+      "category": "item_name",
+      "source_id": "item.food.087.name"
+    },
+    {
+      "english": "Vegetable Latte",
+      "vietnamese": "Sữa rau củ",
+      "category": "item_name",
+      "source_id": "item.food.088.name"
+    },
+    {
+      "english": "Mixed Latte",
+      "vietnamese": "Sữa hỗn hợp",
+      "category": "item_name",
+      "source_id": "item.food.089.name"
+    },
+    {
+      "english": "Strawberry Milk",
+      "vietnamese": "Sữa dâu",
+      "category": "item_name",
+      "source_id": "item.food.090.name"
+    },
+    {
+      "english": "Strawberry Jam",
+      "vietnamese": "Mứt dâu",
+      "category": "item_name",
+      "source_id": "item.food.091.name"
+    },
+    {
+      "english": "Tomato Juice",
+      "vietnamese": "Nước cà chua",
+      "category": "item_name",
+      "source_id": "item.food.092.name"
+    },
+    {
+      "english": "Pickled Turnip",
+      "vietnamese": "Củ cải muối",
+      "category": "item_name",
+      "source_id": "item.food.093.name"
+    },
+    {
+      "english": "French Fries",
+      "vietnamese": "Khoai tây chiên",
+      "category": "item_name",
+      "source_id": "item.food.094.name"
+    },
+    {
+      "english": "Pickles",
+      "vietnamese": "Dưa muối",
+      "category": "item_name",
+      "source_id": "item.food.095.name"
+    },
+    {
+      "english": "Ketchup",
+      "vietnamese": "Tương cà",
+      "category": "item_name",
+      "source_id": "item.food.096.name"
+    },
+    {
+      "english": "Popcorn",
+      "vietnamese": "Bắp rang",
+      "category": "item_name",
+      "source_id": "item.food.097.name"
+    },
+    {
+      "english": "Corn Flakes",
+      "vietnamese": "Ngũ cốc bắp",
+      "category": "item_name",
+      "source_id": "item.food.098.name"
+    },
+    {
+      "english": "Baked Corn",
+      "vietnamese": "Bắp nướng",
+      "category": "item_name",
+      "source_id": "item.food.099.name"
+    },
+    {
+      "english": "Pineapple Juice",
+      "vietnamese": "Nước dứa",
+      "category": "item_name",
+      "source_id": "item.food.100.name"
+    },
+    {
+      "english": "Pumpkin Pudding",
+      "vietnamese": "Pudding bí ngô",
+      "category": "item_name",
+      "source_id": "item.food.101.name"
+    },
+    {
+      "english": "Pumpkin Stew",
+      "vietnamese": "Bí ngô hầm",
+      "category": "item_name",
+      "source_id": "item.food.102.name"
+    },
+    {
+      "english": "Happy Eggplant",
+      "vietnamese": "Cà tím vui vẻ",
+      "category": "item_name",
+      "source_id": "item.food.103.name"
+    },
+    {
+      "english": "Sweet Potatoes",
+      "vietnamese": "Khoai lang ngọt",
+      "category": "item_name",
+      "source_id": "item.food.104.name"
+    },
+    {
+      "english": "Baked Sweet Potato",
+      "vietnamese": "Khoai lang nướng",
+      "category": "item_name",
+      "source_id": "item.food.105.name"
+    },
+    {
+      "english": "Greens",
+      "vietnamese": "Rau luộc",
+      "category": "item_name",
+      "source_id": "item.food.106.name"
+    },
+    {
+      "english": "Scrambled Eggs",
+      "vietnamese": "Trứng khuấy",
+      "category": "item_name",
+      "source_id": "item.food.107.name"
+    },
+    {
+      "english": "Omelet",
+      "vietnamese": "Trứng cuộn",
+      "category": "item_name",
+      "source_id": "item.food.108.name"
+    },
+    {
+      "english": "Omelet Rice",
+      "vietnamese": "Cơm trứng cuộn",
+      "category": "item_name",
+      "source_id": "item.food.109.name"
+    },
+    {
+      "english": "Boiled Egg",
+      "vietnamese": "Trứng luộc",
+      "category": "item_name",
+      "source_id": "item.food.110.name"
+    },
+    {
+      "english": "Hot Milk",
+      "vietnamese": "Sữa nóng",
+      "category": "item_name",
+      "source_id": "item.food.111.name"
+    },
+    {
+      "english": "Butter",
+      "vietnamese": "Bơ",
+      "category": "item_name",
+      "source_id": "item.food.112.name"
+    },
+    {
+      "english": "Cheese Cake",
+      "vietnamese": "Bánh phô mai",
+      "category": "item_name",
+      "source_id": "item.food.113.name"
+    },
+    {
+      "english": "Cheese Fondue",
+      "vietnamese": "Phô mai nóng chảy",
+      "category": "item_name",
+      "source_id": "item.food.114.name"
+    },
+    {
+      "english": "Apple Pie",
+      "vietnamese": "Bánh táo",
+      "category": "item_name",
+      "source_id": "item.food.115.name"
+    },
+    {
+      "english": "Apple Jam",
+      "vietnamese": "Mứt táo",
+      "category": "item_name",
+      "source_id": "item.food.116.name"
+    },
+    {
+      "english": "Apple Souffl?",
+      "vietnamese": "Soufflé táo",
+      "category": "item_name",
+      "source_id": "item.food.117.name"
+    },
+    {
+      "english": "Mushroom Rice",
+      "vietnamese": "Cơm nấm",
+      "category": "item_name",
+      "source_id": "item.food.118.name"
+    },
+    {
+      "english": "Bamboo Rice",
+      "vietnamese": "Cơm măng",
+      "category": "item_name",
+      "source_id": "item.food.119.name"
+    },
+    {
+      "english": "Truffle Rice",
+      "vietnamese": "Cơm nấm cục",
+      "category": "item_name",
+      "source_id": "item.food.120.name"
+    },
+    {
+      "english": "Sushi",
+      "vietnamese": "Sushi",
+      "category": "item_name",
+      "source_id": "item.food.121.name"
+    },
+    {
+      "english": "Jam Bun",
+      "vietnamese": "Bánh mì mứt",
+      "category": "item_name",
+      "source_id": "item.food.122.name"
+    },
+    {
+      "english": "Dinner Role",
+      "vietnamese": "Bánh mì bữa tối",
+      "category": "item_name",
+      "source_id": "item.food.123.name"
+    },
+    {
+      "english": "Raisin Bread",
+      "vietnamese": "Bánh mì nho khô",
+      "category": "item_name",
+      "source_id": "item.food.124.name"
+    },
+    {
+      "english": "Grape Jam",
+      "vietnamese": "Mứt nho",
+      "category": "item_name",
+      "source_id": "item.food.125.name"
+    },
+    {
+      "english": "Curry Bread",
+      "vietnamese": "Bánh mì cà ri",
+      "category": "item_name",
+      "source_id": "item.food.126.name"
+    },
+    {
+      "english": "Sashimi",
+      "vietnamese": "Sashimi",
+      "category": "item_name",
+      "source_id": "item.food.127.name"
+    },
+    {
+      "english": "Grilled Fish",
+      "vietnamese": "Cá nướng",
+      "category": "item_name",
+      "source_id": "item.food.128.name"
+    },
+    {
+      "english": "Chirashi Sushi",
+      "vietnamese": "Sushi trộn",
+      "category": "item_name",
+      "source_id": "item.food.129.name"
+    },
+    {
+      "english": "Pizza",
+      "vietnamese": "Pizza",
+      "category": "item_name",
+      "source_id": "item.food.130.name"
+    },
+    {
+      "english": "Noodles",
+      "vietnamese": "Mì",
+      "category": "item_name",
+      "source_id": "item.food.131.name"
+    },
+    {
+      "english": "Curry Noodles",
+      "vietnamese": "Mì cà ri",
+      "category": "item_name",
+      "source_id": "item.food.132.name"
+    },
+    {
+      "english": "Tempura Noodles",
+      "vietnamese": "Mì tempura",
+      "category": "item_name",
+      "source_id": "item.food.133.name"
+    },
+    {
+      "english": "Fried Noodles",
+      "vietnamese": "Mì xào",
+      "category": "item_name",
+      "source_id": "item.food.134.name"
+    },
+    {
+      "english": "Buckwheat Noodles",
+      "vietnamese": "Mì kiều mạch",
+      "category": "item_name",
+      "source_id": "item.food.135.name"
+    },
+    {
+      "english": "Noodles w/ Tempura",
+      "vietnamese": "Mì kèm tempura",
+      "category": "item_name",
+      "source_id": "item.food.136.name"
+    },
+    {
+      "english": "Fried Noodles",
+      "vietnamese": "Mì xào",
+      "category": "item_name",
+      "source_id": "item.food.137.name"
+    },
+    {
+      "english": "Buckwheat Chips",
+      "vietnamese": "Snack kiều mạch",
+      "category": "item_name",
+      "source_id": "item.food.138.name"
+    },
+    {
+      "english": "Cookies",
+      "vietnamese": "Bánh quy",
+      "category": "item_name",
+      "source_id": "item.food.139.name"
+    },
+    {
+      "english": "Chocolate Cookies",
+      "vietnamese": "Bánh quy sô cô la",
+      "category": "item_name",
+      "source_id": "item.food.140.name"
+    },
+    {
+      "english": "Tempura",
+      "vietnamese": "Tempura",
+      "category": "item_name",
+      "source_id": "item.food.141.name"
+    },
+    {
+      "english": "Ice Cream",
+      "vietnamese": "Kem",
+      "category": "item_name",
+      "source_id": "item.food.142.name"
+    },
+    {
+      "english": "Cake",
+      "vietnamese": "Bánh kem",
+      "category": "item_name",
+      "source_id": "item.food.143.name"
+    },
+    {
+      "english": "Chocolate Cake",
+      "vietnamese": "Bánh kem sô cô la",
+      "category": "item_name",
+      "source_id": "item.food.144.name"
+    },
+    {
+      "english": "Relaxation Tea",
+      "vietnamese": "Trà thư giãn",
+      "category": "item_name",
+      "source_id": "item.food.145.name"
+    },
+    {
+      "english": "Toast",
+      "vietnamese": "Bánh mì nướng",
+      "category": "item_name",
+      "source_id": "item.food.146.name"
+    },
+    {
+      "english": "French Toast",
+      "vietnamese": "Bánh mì trứng chiên",
+      "category": "item_name",
+      "source_id": "item.food.147.name"
+    },
+    {
+      "english": "Pudding",
+      "vietnamese": "Pudding",
+      "category": "item_name",
+      "source_id": "item.food.148.name"
+    },
+    {
+      "english": "Mountain Stew",
+      "vietnamese": "Món hầm miền núi",
+      "category": "item_name",
+      "source_id": "item.food.149.name"
+    },
+    {
+      "english": "Moon Dumplings",
+      "vietnamese": "Bánh ngắm trăng",
+      "category": "item_name",
+      "source_id": "item.food.150.name"
+    },
+    {
+      "english": "Rice Cake",
+      "vietnamese": "Bánh gạo",
+      "category": "item_name",
+      "source_id": "item.food.151.name"
+    },
+    {
+      "english": "Roasted Rice Cake",
+      "vietnamese": "Bánh gạo nướng",
+      "category": "item_name",
+      "source_id": "item.food.152.name"
+    },
+    {
+      "english": "Elli Leaves",
+      "vietnamese": "Lá Elli",
+      "category": "item_name",
+      "source_id": "item.food.153.name"
+    },
+    {
+      "english": "Failed Dish",
+      "vietnamese": "Món ăn hỏng",
+      "category": "item_name",
+      "source_id": "item.food.154.name"
+    },
+    {
+      "english": "Failed Drink",
+      "vietnamese": "Đồ uống hỏng",
+      "category": "item_name",
+      "source_id": "item.food.155.name"
+    },
+    {
+      "english": "Failed Pot Dish",
+      "vietnamese": "Món hầm hỏng",
+      "category": "item_name",
+      "source_id": "item.food.156.name"
+    },
+    {
+      "english": "Failed Dessert",
+      "vietnamese": "Món tráng miệng hỏng",
+      "category": "item_name",
+      "source_id": "item.food.157.name"
+    },
+    {
+      "english": "Failed Bread",
+      "vietnamese": "Bánh mì hỏng",
+      "category": "item_name",
+      "source_id": "item.food.158.name"
+    },
+    {
+      "english": "Failed Noodles",
+      "vietnamese": "Mì hỏng",
+      "category": "item_name",
+      "source_id": "item.food.159.name"
+    },
+    {
+      "english": "Small Fish",
+      "vietnamese": "Cá nhỏ",
+      "category": "item_name",
+      "source_id": "item.food.160.name"
+    },
+    {
+      "english": "Medium Fish",
+      "vietnamese": "Cá vừa",
+      "category": "item_name",
+      "source_id": "item.food.161.name"
+    },
+    {
+      "english": "Large Fish",
+      "vietnamese": "Cá lớn",
+      "category": "item_name",
+      "source_id": "item.food.162.name"
+    },
+    {
+      "english": "Toasted Rice Ball",
+      "vietnamese": "Cơm nắm nướng",
+      "category": "item_name",
+      "source_id": "item.food.163.name"
+    },
+    {
+      "english": "Tempura Rice",
+      "vietnamese": "Cơm tempura",
+      "category": "item_name",
+      "source_id": "item.food.164.name"
+    },
+    {
+      "english": "Egg Over Rice",
+      "vietnamese": "Cơm trứng",
+      "category": "item_name",
+      "source_id": "item.food.165.name"
+    },
+    {
+      "english": "Rice Gruel",
+      "vietnamese": "Cháo",
+      "category": "item_name",
+      "source_id": "item.food.166.name"
+    },
+    {
+      "english": "Pancakes",
+      "vietnamese": "Bánh kếp",
+      "category": "item_name",
+      "source_id": "item.food.167.name"
+    },
+    {
+      "english": "Fish Sticks",
+      "vietnamese": "Chả cá",
+      "category": "item_name",
+      "source_id": "item.food.168.name"
+    },
+    {
+      "english": "Candied Potato",
+      "vietnamese": "Khoai lang tẩm đường",
+      "category": "item_name",
+      "source_id": "item.food.169.name"
+    },
+    {
+      "english": "Potato Pancakes",
+      "vietnamese": "Bánh khoai tây",
+      "category": "item_name",
+      "source_id": "item.food.170.name"
+    },
+    {
+      "english": "Moon Drop Grass",
+      "vietnamese": "Hoa Moon Drop",
+      "category": "item_name",
+      "source_id": "item.article.000.name"
+    },
+    {
+      "english": "Pink Cat Grass",
+      "vietnamese": "Hoa Pink Cat",
+      "category": "item_name",
+      "source_id": "item.article.001.name"
+    },
+    {
+      "english": "Blue Magic Grass",
+      "vietnamese": "Hoa Magic xanh",
+      "category": "item_name",
+      "source_id": "item.article.002.name"
+    },
+    {
+      "english": "Red Magic Grass",
+      "vietnamese": "Hoa Magic đỏ",
+      "category": "item_name",
+      "source_id": "item.article.003.name"
+    },
+    {
+      "english": "Toy Flower",
+      "vietnamese": "Hoa Toy Flower",
+      "category": "item_name",
+      "source_id": "item.article.004.name"
+    },
+    {
+      "english": "Wool (S)",
+      "vietnamese": "Len (S)",
+      "category": "item_name",
+      "source_id": "item.article.005.name"
+    },
+    {
+      "english": "Wool (M)",
+      "vietnamese": "Len (M)",
+      "category": "item_name",
+      "source_id": "item.article.006.name"
+    },
+    {
+      "english": "Wool (L)",
+      "vietnamese": "Len (L)",
+      "category": "item_name",
+      "source_id": "item.article.007.name"
+    },
+    {
+      "english": "Wool (G)",
+      "vietnamese": "Len (G)",
+      "category": "item_name",
+      "source_id": "item.article.008.name"
+    },
+    {
+      "english": "Wool (P)",
+      "vietnamese": "Len (P)",
+      "category": "item_name",
+      "source_id": "item.article.009.name"
+    },
+    {
+      "english": "Wool (P)",
+      "vietnamese": "Len (P)",
+      "category": "item_name",
+      "source_id": "item.article.010.name"
+    },
+    {
+      "english": "Yarn (S)",
+      "vietnamese": "Sợi len (S)",
+      "category": "item_name",
+      "source_id": "item.article.011.name"
+    },
+    {
+      "english": "Yarn (M)",
+      "vietnamese": "Sợi len (M)",
+      "category": "item_name",
+      "source_id": "item.article.012.name"
+    },
+    {
+      "english": "Yarn (L)",
+      "vietnamese": "Sợi len (L)",
+      "category": "item_name",
+      "source_id": "item.article.013.name"
+    },
+    {
+      "english": "Yarn (G)",
+      "vietnamese": "Sợi len (G)",
+      "category": "item_name",
+      "source_id": "item.article.014.name"
+    },
+    {
+      "english": "Yarn (P)",
+      "vietnamese": "Sợi len (P)",
+      "category": "item_name",
+      "source_id": "item.article.015.name"
+    },
+    {
+      "english": "Yarn (X)",
+      "vietnamese": "Sợi len (X)",
+      "category": "item_name",
+      "source_id": "item.article.016.name"
+    },
+    {
+      "english": "Junk Ore",
+      "vietnamese": "Quặng tạp",
+      "category": "item_name",
+      "source_id": "item.article.017.name"
+    },
+    {
+      "english": "Copper",
+      "vietnamese": "Đồng",
+      "category": "item_name",
+      "source_id": "item.article.018.name"
+    },
+    {
+      "english": "Silver",
+      "vietnamese": "Bạc",
+      "category": "item_name",
+      "source_id": "item.article.019.name"
+    },
+    {
+      "english": "Gold",
+      "vietnamese": "Vàng",
+      "category": "item_name",
+      "source_id": "item.article.020.name"
+    },
+    {
+      "english": "Mystrile",
+      "vietnamese": "Mystrile",
+      "category": "item_name",
+      "source_id": "item.article.021.name"
+    },
+    {
+      "english": "Orichalc",
+      "vietnamese": "Orichalc",
+      "category": "item_name",
+      "source_id": "item.article.022.name"
+    },
+    {
+      "english": "Adamantite",
+      "vietnamese": "Adamantite",
+      "category": "item_name",
+      "source_id": "item.article.023.name"
+    },
+    {
+      "english": "Moon Stone",
+      "vietnamese": "Đá mặt trăng",
+      "category": "item_name",
+      "source_id": "item.article.024.name"
+    },
+    {
+      "english": "Sand Rose",
+      "vietnamese": "Hoa hồng sa mạc",
+      "category": "item_name",
+      "source_id": "item.article.025.name"
+    },
+    {
+      "english": "Pink Diamond",
+      "vietnamese": "Kim cương hồng",
+      "category": "item_name",
+      "source_id": "item.article.026.name"
+    },
+    {
+      "english": "Alexandrite",
+      "vietnamese": "Alexandrite",
+      "category": "item_name",
+      "source_id": "item.article.027.name"
+    },
+    {
+      "english": "Mythic Stone",
+      "vietnamese": "Đá thần thoại",
+      "category": "item_name",
+      "source_id": "item.article.028.name"
+    },
+    {
+      "english": "Diamond",
+      "vietnamese": "Kim cương",
+      "category": "item_name",
+      "source_id": "item.article.029.name"
+    },
+    {
+      "english": "Emerald",
+      "vietnamese": "Ngọc lục bảo",
+      "category": "item_name",
+      "source_id": "item.article.030.name"
+    },
+    {
+      "english": "Ruby",
+      "vietnamese": "Hồng ngọc",
+      "category": "item_name",
+      "source_id": "item.article.031.name"
+    },
+    {
+      "english": "Topaz",
+      "vietnamese": "Hoàng ngọc",
+      "category": "item_name",
+      "source_id": "item.article.032.name"
+    },
+    {
+      "english": "Peridot",
+      "vietnamese": "Peridot",
+      "category": "item_name",
+      "source_id": "item.article.033.name"
+    },
+    {
+      "english": "Fluorite",
+      "vietnamese": "Fluorite",
+      "category": "item_name",
+      "source_id": "item.article.034.name"
+    },
+    {
+      "english": "Agate",
+      "vietnamese": "Mã não",
+      "category": "item_name",
+      "source_id": "item.article.035.name"
+    },
+    {
+      "english": "Amethyst",
+      "vietnamese": "Thạch anh tím",
+      "category": "item_name",
+      "source_id": "item.article.036.name"
+    },
+    {
+      "english": "Harvest Goddess Jewel",
+      "vietnamese": "Mảnh ngọc Nữ thần",
+      "category": "item_name",
+      "source_id": "item.article.037.name"
+    },
+    {
+      "english": "Kappa Jewel",
+      "vietnamese": "Mảnh ngọc Kappa",
+      "category": "item_name",
+      "source_id": "item.article.038.name"
+    },
+    {
+      "english": "Jewel of Truth",
+      "vietnamese": "Mảnh ngọc Sự thật",
+      "category": "item_name",
+      "source_id": "item.article.039.name"
+    },
+    {
+      "english": "The Spring Sun",
+      "vietnamese": "Mặt trời mùa xuân",
+      "category": "item_name",
+      "source_id": "item.article.040.name"
+    },
+    {
+      "english": "The Summer Sun",
+      "vietnamese": "Mặt trời mùa hè",
+      "category": "item_name",
+      "source_id": "item.article.041.name"
+    },
+    {
+      "english": "The Autumn Sun",
+      "vietnamese": "Mặt trời mùa thu",
+      "category": "item_name",
+      "source_id": "item.article.042.name"
+    },
+    {
+      "english": "The Winter Sun",
+      "vietnamese": "Mặt trời mùa đông",
+      "category": "item_name",
+      "source_id": "item.article.043.name"
+    },
+    {
+      "english": "Bracelet",
+      "vietnamese": "Vòng tay",
+      "category": "item_name",
+      "source_id": "item.article.044.name"
+    },
+    {
+      "english": "Necklace",
+      "vietnamese": "Dây chuyền",
+      "category": "item_name",
+      "source_id": "item.article.045.name"
+    },
+    {
+      "english": "Earrings",
+      "vietnamese": "Bông tai",
+      "category": "item_name",
+      "source_id": "item.article.046.name"
+    },
+    {
+      "english": "Broach",
+      "vietnamese": "Trâm cài",
+      "category": "item_name",
+      "source_id": "item.article.047.name"
+    },
+    {
+      "english": "Weeds",
+      "vietnamese": "Cỏ dại",
+      "category": "item_name",
+      "source_id": "item.article.048.name"
+    },
+    {
+      "english": "Stones",
+      "vietnamese": "Đá",
+      "category": "item_name",
+      "source_id": "item.article.049.name"
+    },
+    {
+      "english": "Branches",
+      "vietnamese": "Cành cây",
+      "category": "item_name",
+      "source_id": "item.article.050.name"
+    },
+    {
+      "english": "Lithograph",
+      "vietnamese": "Phiến đá khắc",
+      "category": "item_name",
+      "source_id": "item.article.051.name"
+    },
+    {
+      "english": "Message in a Bottle",
+      "vietnamese": "Thư trong chai",
+      "category": "item_name",
+      "source_id": "item.article.052.name"
+    },
+    {
+      "english": "Ball",
+      "vietnamese": "Bóng",
+      "category": "item_name",
+      "source_id": "item.article.053.name"
+    },
+    {
+      "english": "Pirate Treasure",
+      "vietnamese": "Kho báu hải tặc",
+      "category": "item_name",
+      "source_id": "item.article.054.name"
+    },
+    {
+      "english": "Fossil of Fish",
+      "vietnamese": "Hóa thạch cá",
+      "category": "item_name",
+      "source_id": "item.article.055.name"
+    },
+    {
+      "english": "Empty Can",
+      "vietnamese": "Lon rỗng",
+      "category": "item_name",
+      "source_id": "item.article.056.name"
+    },
+    {
+      "english": "Boots",
+      "vietnamese": "Ủng",
+      "category": "item_name",
+      "source_id": "item.article.057.name"
+    },
+    {
+      "english": "Fish Bones",
+      "vietnamese": "Xương cá",
+      "category": "item_name",
+      "source_id": "item.article.058.name"
+    },
+    {
+      "english": "Karen's Wine",
+      "vietnamese": "Rượu của Karen",
+      "category": "item_name",
+      "source_id": "item.article.059.name"
+    },
+    {
+      "english": "Popuri's Mud Ball",
+      "vietnamese": "Bóng bùn của Popuri",
+      "category": "item_name",
+      "source_id": "item.article.060.name"
+    },
+    {
+      "english": "Ann's Music Box",
+      "vietnamese": "Hộp nhạc của Ann",
+      "category": "item_name",
+      "source_id": "item.article.061.name"
+    },
+    {
+      "english": "Mary's Great Book",
+      "vietnamese": "Sách quý của Mary",
+      "category": "item_name",
+      "source_id": "item.article.062.name"
+    },
+    {
+      "english": "Elli's Pressed Flwr",
+      "vietnamese": "Hoa ép của Elli",
+      "category": "item_name",
+      "source_id": "item.article.063.name"
+    },
+    {
+      "english": "Album 1",
+      "vietnamese": "Album 1",
+      "category": "item_name",
+      "source_id": "item.article.064.name"
+    },
+    {
+      "english": "Album 2",
+      "vietnamese": "Album 2",
+      "category": "item_name",
+      "source_id": "item.article.065.name"
+    },
+    {
+      "english": "Album 3",
+      "vietnamese": "Album 3",
+      "category": "item_name",
+      "source_id": "item.article.066.name"
+    },
+    {
+      "english": "Album 4",
+      "vietnamese": "Album 4",
+      "category": "item_name",
+      "source_id": "item.article.067.name"
+    },
+    {
+      "english": "Album 5",
+      "vietnamese": "Album 5",
+      "category": "item_name",
+      "source_id": "item.article.068.name"
+    },
+    {
+      "english": "Album 6",
+      "vietnamese": "Album 6",
+      "category": "item_name",
+      "source_id": "item.article.069.name"
+    },
+    {
+      "english": "Album 7",
+      "vietnamese": "Album 7",
+      "category": "item_name",
+      "source_id": "item.article.070.name"
+    },
+    {
+      "english": "Album 8",
+      "vietnamese": "Album 8",
+      "category": "item_name",
+      "source_id": "item.article.071.name"
+    },
+    {
+      "english": "Album 9",
+      "vietnamese": "Album 9",
+      "category": "item_name",
+      "source_id": "item.article.072.name"
+    },
+    {
+      "english": "Album 10",
+      "vietnamese": "Album 10",
+      "category": "item_name",
+      "source_id": "item.article.073.name"
+    },
+    {
+      "english": "Album 11",
+      "vietnamese": "Album 11",
+      "category": "item_name",
+      "source_id": "item.article.074.name"
+    },
+    {
+      "english": "Album 12",
+      "vietnamese": "Album 12",
+      "category": "item_name",
+      "source_id": "item.article.075.name"
+    },
+    {
+      "english": "Album 13",
+      "vietnamese": "Album 13",
+      "category": "item_name",
+      "source_id": "item.article.076.name"
+    },
+    {
+      "english": "Album 14",
+      "vietnamese": "Album 14",
+      "category": "item_name",
+      "source_id": "item.article.077.name"
+    },
+    {
+      "english": "Album 15",
+      "vietnamese": "Album 15",
+      "category": "item_name",
+      "source_id": "item.article.078.name"
+    },
+    {
+      "english": "Band-Aid",
+      "vietnamese": "Băng cá nhân",
+      "category": "item_name",
+      "source_id": "item.article.079.name"
+    },
+    {
+      "english": "Book",
+      "vietnamese": "Sách",
+      "category": "item_name",
+      "source_id": "item.article.080.name"
+    },
+    {
+      "english": "Perfume",
+      "vietnamese": "Nước hoa",
+      "category": "item_name",
+      "source_id": "item.article.081.name"
+    },
+    {
+      "english": "Photo",
+      "vietnamese": "Ảnh",
+      "category": "item_name",
+      "source_id": "item.article.082.name"
+    },
+    {
+      "english": "Plant Encyclopedia",
+      "vietnamese": "Bách khoa thực vật",
+      "category": "item_name",
+      "source_id": "item.article.083.name"
+    },
+    {
+      "english": "Invitation",
+      "vietnamese": "Thiệp mời",
+      "category": "item_name",
+      "source_id": "item.article.084.name"
+    },
+    {
+      "english": "Dress",
+      "vietnamese": "Váy",
+      "category": "item_name",
+      "source_id": "item.article.085.name"
+    },
+    {
+      "english": "Facial Pack",
+      "vietnamese": "Mặt nạ dưỡng da",
+      "category": "item_name",
+      "source_id": "item.article.086.name"
+    },
+    {
+      "english": "Skin Lotion",
+      "vietnamese": "Sữa dưỡng da",
+      "category": "item_name",
+      "source_id": "item.article.087.name"
+    },
+    {
+      "english": "Sunblock",
+      "vietnamese": "Kem chống nắng",
+      "category": "item_name",
+      "source_id": "item.article.088.name"
+    },
+    {
+      "english": "Lumber",
+      "vietnamese": "Gỗ",
+      "category": "item_name",
+      "source_id": "item.article.089.name"
+    },
+    {
+      "english": "Golden Lumber",
+      "vietnamese": "Gỗ vàng",
+      "category": "item_name",
+      "source_id": "item.article.090.name"
+    },
+    {
+      "english": "Animal Fodder",
+      "vietnamese": "Cỏ khô chăn nuôi",
+      "category": "item_name",
+      "source_id": "item.article.091.name"
+    },
+    {
+      "english": "Chicken Feed",
+      "vietnamese": "Thức ăn cho gà",
+      "category": "item_name",
+      "source_id": "item.article.092.name"
+    },
+    {
+      "english": "Lottery",
+      "vietnamese": "Vé số",
+      "category": "item_name",
+      "source_id": "item.article.093.name"
+    },
+    {
+      "english": "Frisbee",
+      "vietnamese": "Đĩa ném",
+      "category": "item_name",
+      "source_id": "item.article.094.name"
+    }
+  ]
+}

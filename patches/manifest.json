@@ -1,0 +1,13 @@
+{
+  "format": "IPS",
+  "stage": "experimental localization demo; not a full translation",
+  "source_sha1": "a2fc3574f0a65a4fcf7682fb274b9d7eebdef963",
+  "source_size": 8388608,
+  "target_sha256": "952087635bbb9e000e0acf54cbf0dad1ef3f19006ebbf3948a6d2f27110db714",
+  "target_size": 16777216,
+  "patch_sha256": "3b938808368096c51e99b5ade762366b6b7fb055da909ee8d03799d2cfbaaa99",
+  "patch_size": 69481,
+  "translated_draft_records": 385,
+  "revision": "2026-10-22",
+  "validation": "42 pytest tests; mGBA glyph probes, new game, menus and SRAM save/cold-boot load; see docs/evidence/validation.json"
+}
