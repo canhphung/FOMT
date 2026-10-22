@@ -35,6 +35,13 @@ Target ROM và bản vá được định danh trong `validation.json` và
   nút bình thường, gồm các câu xác nhận và nhánh quay lại sửa. `new-game-setup.png`
   ghép 6 framebuffer phóng nearest-neighbor 2 lần, nhãn bước nằm ngoài ảnh game.
   Báo cáo riêng kiểm tra 4 mùa × ngày 1/30 và tên dài 12 ký tự trên cả hai mGBA.
+- `intro-opening.png`: ghép 9 framebuffer mGBA 0.10.5, phóng 2 lần với nhãn ngoài
+  vùng game; các ảnh `intro-mother/old-man/girl/letter/thomas/next-day/morning/
+  zack/shipment.png` là từng framebuffer gốc. Tên dài 12 ký tự là dữ liệu test.
+- `intro-guide-yes-no.png`, `intro-guide-topics.png`, `intro-guide-animals.png`:
+  các menu đầu game có đầy đủ nhãn tiếng Việt. `intro-first-morning-complete.png`
+  là kết thúc lời hướng dẫn Zack. Reader trace trong báo cáo ghi 129 ID hội thoại,
+  5 nhãn người nói và các ảnh menu; probe 460 dòng được ghi riêng.
 
 Ảnh đã được xem thủ công. Các phép so pixel/canary và kết quả pytest nằm trong
 `validation.json`. Probe hàm dùng trạng thái emulator cô lập và không được xem

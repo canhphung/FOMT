@@ -25,6 +25,10 @@ class Session:
         for name, (args, result) in signatures.items():
             fn = getattr(self.lib, "session_"+name)
             fn.argtypes, fn.restype = args, result
+        self.read_block = getattr(self.lib,'session_read_block',None)
+        if self.read_block is not None:
+            self.read_block.argtypes = [C.c_void_p,C.c_uint32,C.c_void_p,C.c_size_t]
+            self.read_block.restype = None
         self.handle = self.lib.session_open(str(Path(rom).resolve()).encode())
         self.frames_run = 0
         if not self.handle:
@@ -39,6 +43,10 @@ class Session:
         self.frames(settle)
 
     def read(self, address, length):
+        if self.read_block is not None:
+            data = C.create_string_buffer(length)
+            self.read_block(self.handle,address,data,length)
+            return data.raw
         return bytes(self.lib.session_read(self.handle,address+i) for i in range(length))
 
     def write(self, address, data):

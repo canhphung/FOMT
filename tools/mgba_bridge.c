@@ -50,6 +50,10 @@ void session_frames(struct Session* s, unsigned frames, unsigned keys) {
 }
 uint32_t* session_pixels(struct Session* s) { return s->pixels; }
 uint32_t session_read(struct Session* s, uint32_t address) { return s->core->busRead8(s->core, address); }
+void session_read_block(struct Session* s, uint32_t address, void* output, size_t size) {
+    uint8_t* out = output;
+    for (size_t i = 0; i < size; ++i) out[i] = s->core->busRead8(s->core, address+i);
+}
 void session_write(struct Session* s, uint32_t address, unsigned value) { s->core->busWrite8(s->core, address, value); }
 uint32_t session_reg(struct Session* s, unsigned index) { return ((struct ARMCore*)s->core->cpu)->gprs[index]; }
 size_t session_state_size(struct Session* s) { return s->core->stateSize(s->core); }

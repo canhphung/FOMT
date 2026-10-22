@@ -150,3 +150,9 @@ cache từ mask font v2, giữ nguyên số tile, palette và bộ cấp phát V
 **Sinh nhật** gồm 9 ký tự trong dải 64px của **Birthday**, dùng bước 7px khi
 raster hóa; bốn mùa vẫn bước 8px trong mỗi dải 48px. Đây là cache đồ họa riêng,
 không đổi advance của bộ render hội thoại hoặc bàn phím nhập tên.
+
+Nhãn Mẹ/Bố/Ông lão/Cô bé trong hồi tưởng có cache riêng 12 ô, chia đúng ba OBJ
+4×2 tile như renderer tên gốc. Điều này tránh việc bộ chia 4 byte cắt đôi mã
+EBxx hoặc tạo khoảng trống trong từ. Hook chỉ nhận pointer của 5 nhãn intro
+(kể cả ???); Thomas/Zack và tên khác dùng native fallback đã so đúng byte.
+Không tăng số OBJ/VRAM. Xem [INTRO_LOCALIZATION.md](INTRO_LOCALIZATION.md).

@@ -16,10 +16,35 @@
     "Thomas": {
       "self": "bác",
       "player": "cháu",
-      "scope": "new-game introduction"
+      "scope": "opening arrival and first-morning instruction"
     },
     "unclassified_speaker": {
       "policy": "do not translate until context is verified"
+    },
+    "Mother": {
+      "self": "mẹ",
+      "player": "con",
+      "scope": "childhood flashback"
+    },
+    "Father": {
+      "self": "bố",
+      "player": "con",
+      "scope": "childhood flashback"
+    },
+    "Old Man": {
+      "self": "ông",
+      "player": "cháu",
+      "scope": "childhood flashback"
+    },
+    "Girl": {
+      "self": "tớ",
+      "player": "cậu",
+      "scope": "childhood flashback"
+    },
+    "Zack": {
+      "self": "tôi",
+      "player": "cậu",
+      "scope": "first-morning shipping introduction"
     }
   },
   "proper_names": [
@@ -2319,6 +2344,78 @@
       "vietnamese": "Tên thú cưng",
       "category": "new_game_ui",
       "source_id": "ui.newgame.summary.pet"
+    },
+    {
+      "english": "Mother",
+      "vietnamese": "Mẹ",
+      "category": "intro_or_tutorial",
+      "source_id": "intro.flashback.speaker.mother"
+    },
+    {
+      "english": "Father",
+      "vietnamese": "Bố",
+      "category": "intro_or_tutorial",
+      "source_id": "intro.flashback.speaker.father"
+    },
+    {
+      "english": "Old Man",
+      "vietnamese": "Ông lão",
+      "category": "intro_or_tutorial",
+      "source_id": "intro.flashback.speaker.old_man"
+    },
+    {
+      "english": "Girl",
+      "vietnamese": "Cô bé",
+      "category": "intro_or_tutorial",
+      "source_id": "intro.flashback.speaker.girl"
+    },
+    {
+      "english": "Useful tips",
+      "vietnamese": "Mẹo hay",
+      "category": "intro_or_tutorial",
+      "source_id": "script.0737.007"
+    },
+    {
+      "english": "Shipment Box",
+      "vietnamese": "Thùng xuất hàng",
+      "category": "intro_or_tutorial",
+      "source_id": "script.0737.015"
+    },
+    {
+      "english": "Tool Box",
+      "vietnamese": "Rương dụng cụ",
+      "category": "intro_or_tutorial",
+      "source_id": "script.0737.012"
+    },
+    {
+      "english": "Yodel Farm",
+      "vietnamese": "Trại Yodel",
+      "category": "intro_or_tutorial",
+      "source_id": "script.0737.011"
+    },
+    {
+      "english": "Poultry Farm",
+      "vietnamese": "Trại gia cầm",
+      "category": "intro_or_tutorial",
+      "source_id": "script.0737.011"
+    },
+    {
+      "english": "Feed Bin",
+      "vietnamese": "Thùng thức ăn",
+      "category": "intro_or_tutorial",
+      "source_id": "script.1060.000"
+    },
+    {
+      "english": "Feed Box",
+      "vietnamese": "Máng ăn",
+      "category": "intro_or_tutorial",
+      "source_id": "script.1060.000"
+    },
+    {
+      "english": "Incubator",
+      "vietnamese": "Ổ ấp",
+      "category": "intro_or_tutorial",
+      "source_id": "script.1061.011"
     }
   ]
 }

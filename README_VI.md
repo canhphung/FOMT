@@ -6,10 +6,14 @@ Không chứa hoặc tự tải ROM thương mại. Bản vá IPS nằm trong `p
 
 ## Trạng thái hiện tại
 
-- Trích xuất 9.093 bản ghi: toàn bộ 8.368 chuỗi trong các SCR được bảng VM tham
-  chiếu, 347 tên + 347 mô tả vật phẩm, 7 nhãn menu tạm dừng và 24 mục tạo game mới.
-- 409 bản ghi dịch nháp: 346 tên vật phẩm, 21 mô tả, 7 menu, 11 chuỗi hội thoại/
-  dẫn chuyện và 24 mục tạo game mới. Tên riêng được giữ nguyên khi phù hợp.
+- Trích xuất 9.121 bản ghi: 8.368 chuỗi SCR, 347 tên + 347 mô tả vật phẩm,
+  7 nhãn menu tạm dừng, 24 mục tạo game mới và 28 mục hồi tưởng thời thơ ấu.
+- 544 bản ghi dịch nháp: 346 tên vật phẩm, 21 mô tả, 7 menu, 1 lời chào Popuri,
+  24 mục tạo game mới và 145 mục intro/hướng dẫn đầu game.
+- Đã Việt hóa phần Thomas đón người chơi, chuyến đi thời thơ ấu, ông lão/cô bé,
+  lời hẹn viết thư, chuyển ngày, lời hướng dẫn của Thomas/Zack và bốn demo
+  trồng trọt/chăn nuôi. [Ảnh intro](docs/evidence/intro-opening.png),
+  [nguồn và kiểm chứng](docs/INTRO_LOCALIZATION.md).
 - Đã Việt hóa luồng đặt tên nhân vật/nông trại/chó, chọn mùa/ngày sinh, xác nhận
   tên và xác nhận tạo game. Bàn phím giữ bộ ký tự gốc và giới hạn tên 12 ký tự.
   [Ảnh trong mGBA](docs/evidence/new-game-setup.png),
@@ -69,7 +73,7 @@ Có thể dùng `make extract/build/test ROM="$FOMT_ROM" PYTHON=.venv/bin/python
 khảo không được dùng cho quy trình này; mục tiêu matching của nó không cần
 thiết để trích xuất và patch văn bản.
 
-Để build riêng bản thử nhỏ gồm 48 chuỗi:
+Để build riêng bản thử nhỏ gồm 38 chuỗi (10 câu Thomas đã chuyển sang intro.json):
 
 ```bash
 .venv/bin/python tools/text_inserter.py "$FOMT_ROM" \

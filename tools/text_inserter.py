@@ -19,6 +19,7 @@ from vietnamese_font import (assemble_hook, build_glyphs, trampoline, FONT_REVIS
 import title_graphics
 import title_cursor
 import new_game_ui
+import intro_text
 
 
 def build(base: bytes, translations: dict) -> tuple[bytes, dict]:
@@ -60,6 +61,7 @@ def build(base: bytes, translations: dict) -> tuple[bytes, dict]:
     result = bytearray(base)
     writes = []
     allocations = []
+    relocated = {}
 
     def append(data: bytes, purpose: str) -> int:
         while len(result) % 4:
@@ -95,6 +97,7 @@ def build(base: bytes, translations: dict) -> tuple[bytes, dict]:
         src = original["source"]
         if src["kind"] == "pointer":
             at = append(payload+b"\0", identifier)
+            relocated[identifier] = at
             for slot in src["pointer_offsets"]:
                 if offset(u32(base, slot), len(base)) != int(original["rom_offset"], 16):
                     raise FormatError("pointer identity mismatch")
@@ -123,6 +126,22 @@ def build(base: bytes, translations: dict) -> tuple[bytes, dict]:
     if any(k.startswith(new_game_ui.PREFIX+'summary.') for k in selected):
         write(new_game_ui.SUMMARY_BLANK_SITE,new_game_ui.summary_blank_patch(base,selected_texts),
               "summary background: reserved blank label tile 109")
+    name_entries = []
+    for key,_,_,_ in intro_text.SPEAKERS:
+        identifier = 'intro.flashback.speaker.'+key
+        if identifier in selected:
+            cache = intro_text.name_cache(base,selected_texts[identifier])
+            at = append(cache,identifier+' 12-cell speaker cache')
+            name_entries.append((ROM_BASE+relocated[identifier],ROM_BASE+at))
+    name_report = None
+    if name_entries:
+        address = ROM_BASE+((len(result)+3)&~3)
+        code = intro_text.name_hook(address,name_entries)
+        at = append(code,'intro speaker name cache dispatch')
+        write(intro_text.NAME_SITE,trampoline(ROM_BASE+at),'speaker cache dispatch; other names use native renderer')
+        name_report = {'source_site':intro_text.NAME_SITE,'hook_offset':at,'hook_size':len(code),
+            'cache_size_per_name':intro_text.NAME_CACHE_SIZE,'entries':[{'string_address':p,'cache_address':c} for p,c in name_entries],
+            'vram_allocation_changed':False,'native_fallback':True}
     birthday_report = None
     if any(k.startswith('ui.newgame.season.') or k == 'ui.newgame.birthday.title' for k in selected):
         atlas = new_game_ui.build_atlas(base,selected_texts)
@@ -166,6 +185,7 @@ def build(base: bytes, translations: dict) -> tuple[bytes, dict]:
         "allocations": allocations, "layout": layout, "font_hook_bytes": font_hook.hex(),
         "graphics": [title_report],
         "new_game_birthday_atlas": birthday_report,
+        "intro_speaker_cache": name_report,
         "font": {"revision":FONT_REVISION,"source_mask_rows":SOURCE_ROWS,
                  "baseline_row":BASELINE,"advance_pixels":ADVANCE_PIXELS,
                  "ascii_glyphs":ASCII_COUNT,"vietnamese_glyphs":len(VI_CODES),
@@ -191,7 +211,7 @@ def atomic_write(path: Path, content: bytes):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("rom", type=Path)
-    parser.add_argument("--translations", type=Path, nargs="+", default=[Path("localization/vi/pilot.json"), Path("localization/vi/items.json"), Path("localization/vi/new_game.json")])
+    parser.add_argument("--translations", type=Path, nargs="+", default=[Path("localization/vi/pilot.json"), Path("localization/vi/items.json"), Path("localization/vi/new_game.json"), Path("localization/vi/intro.json")])
     parser.add_argument("--output", type=Path, default=Path("build/fomt-vi-demo.gba"))
     parser.add_argument("--patch", type=Path, default=Path("patches/fomt-vi-demo.ips"))
     parser.add_argument("--report", type=Path, default=Path("build/insertion-report.json"))

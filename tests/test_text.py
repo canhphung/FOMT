@@ -131,7 +131,7 @@ def real_rom():
 
 def test_all_actual_strings_round_trip(real_rom):
     catalog = extract(real_rom)
-    assert len(catalog["records"]) == 9093
+    assert len(catalog["records"]) == 9121
     for row in catalog["records"]:
         if row['source']['kind'] == 'glyph_strip':
             assert struct.pack('<8H', *map(ord,row['original_english'])) == bytes.fromhex(row['original_bytes'])
@@ -279,11 +279,59 @@ def test_wrong_font_mask_height_rejected():
 
 def test_expanded_translation_set_builds_without_overlap(real_rom):
     merged = {"rom_sha1":ROM_SHA1,"records":[]}
-    for name in ("pilot.json","items.json"):
+    for name in ("pilot.json","items.json","new_game.json","intro.json"):
         merged["records"].extend(json.loads((ROOT/"localization/vi"/name).read_text())["records"])
     _, report = build(real_rom,merged)
-    assert report["translated_records"] == 385
-    assert len({r["id"] for r in merged["records"]}) == 385
+    assert report["translated_records"] == 544
+    assert len({r["id"] for r in merged["records"]}) == 544
+
+
+@pytest.mark.parametrize('site',[0x5F78C,0x5F958,0x50B50])
+def test_intro_source_literal_or_name_prologue_mutations_rejected(real_rom,site):
+    import intro_text
+    bad = bytearray(real_rom)
+    bad[site] ^= 1
+    with pytest.raises(FormatError):intro_text.extract_records(bad)
+
+
+def test_intro_reinsert_preserves_every_script_instruction_and_unrelated_literal(real_rom):
+    import intro_text
+    trans = json.loads((ROOT/'localization/vi/intro.json').read_text())
+    assert len(trans['records']) == 145
+    out,report = build(real_rom,trans)
+    assert report['translated_records'] == 145
+    cache = report['intro_speaker_cache']
+    assert len(cache['entries']) == 5 and cache['vram_allocation_changed'] is False
+    assert cache['cache_size_per_name'] == 768
+    originals = {r['id']:r for r in extract(real_rom)['records']}
+    checked = set()
+    for row in trans['records']:
+        original = originals[row['id']]
+        src = original['source']
+        payload = encode(row['vietnamese_translation'],True)
+        if src['kind'] == 'pointer':
+            for slot in src['pointer_offsets']:
+                address = struct.unpack_from('<I',out,slot)[0]-0x08000000
+                assert address >= len(real_rom) and address%4 == 0
+                assert out[address:address+len(payload)+1] == payload+b'\0'
+            assert out[int(original['rom_offset'],16):int(original['rom_offset'],16)+len(bytes.fromhex(original['original_bytes']))] == bytes.fromhex(original['original_bytes'])
+        else:
+            address = struct.unpack_from('<I',out,src['script_pointer_offset'])[0]-0x08000000
+            rebuilt = parse_script(out,address)
+            assert rebuilt['strings'][src['string_index']]['raw'] == payload
+            if src['script_id'] not in checked:
+                old = parse_script(real_rom,src['script_offset'])
+                assert [(t,p) for t,p in old['chunks'] if t!=b'STR '] == [(t,p) for t,p in rebuilt['chunks'] if t!=b'STR ']
+                checked.add(src['script_id'])
+    assert checked == set(intro_text.SCRIPT_IDS)
+
+
+def test_intro_four_choice_limit_counts_bytes_and_cannot_be_overridden(real_rom):
+    trans = json.loads((ROOT/'localization/vi/intro.json').read_text())
+    row = next(r for r in trans['records'] if r['id']=='script.0737.007')
+    row['vietnamese_translation'] = 'Mẹo hữu ích'  # fits cells, exceeds native strlen limit
+    row['max_encoded_bytes'] = 999
+    with pytest.raises(FormatError,match='encoded-byte limit'):build(real_rom,trans)
 
 
 def test_exported_font_table_matches_build(real_rom):

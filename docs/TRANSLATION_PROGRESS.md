@@ -1,7 +1,7 @@
 # Tiến độ Việt hóa
 
-**Hiện tại:** 409/9.093 bản ghi dịch nháp, 2 prompt title đồ họa, 67 test đạt.
-Đã Việt hóa các màn tạo game mới; mục cuối ghi phiên triển khai và kiểm chứng.
+**Hiện tại:** 544/9.121 bản ghi dịch nháp, 2 prompt title đồ họa, 72 test đạt.
+Đã Việt hóa các màn tạo game mới và intro; mục cuối ghi phiên triển khai.
 Các mục cũ bên dưới giữ số liệu theo từng phiên lịch sử.
 
 ## Phiên 2026-10-22 — nền tảng và bản thử đầu tiên
@@ -279,3 +279,40 @@ Cập nhật glossary, EN/VI subset, IPS/manifest và báo cáo evidence. Giới
 lại: bàn phím chưa nhập tên Việt có dấu; phần lớn hội thoại/menu khác còn tiếng
 Anh; chưa thử GBA thật hoặc toàn bộ save/cảnh. Các bước tiếp theo là adapter
 Diary/options/shop, phân loại hội thoại và mô tả vật phẩm còn thiếu.
+
+## Phiên 2026-10-22 — intro mở đầu và hướng dẫn đầu ngày
+
+Tách `intro.json` EN/VI gồm **145 ID**: 28 mục native của hồi tưởng thời thơ ấu,
+10 câu Thomas nhận trại (chuyển từ pilot), 22 mục buổi sáng Thomas/Zack và
+85 mục hướng dẫn tùy chọn trồng trọt/nuôi gà/bò/cừu. Thêm 135 bản dịch so với
+phiên trước; hiện **544/9.121** mục catalog có bản dịch nháp, khoảng **5,96%**.
+Pilot nay còn 38 ID; bốn subset mặc định không trùng ID. Hai prompt title
+đồ họa giữ nguyên. Chưa Việt hóa toàn bộ game.
+
+Đã xác minh 28 C-string và literal slot trong scene native `0x0805F5F4`,
+phân loại 117 ID SCR có context intro/hướng dẫn. Giữ nguyên CODE/JUMP, tất cả
+placeholder/control code và các symbol ???/RAW:8149. Glossary bổ sung xưng hô
+bố/mẹ–con, ông–cháu, cô bé tớ–cậu, Zack tôi–cậu và thuật ngữ hướng dẫn.
+
+Các vấn đề đã xử lý:
+
+- Nhãn người nói chia nhóm 4 byte làm hỏng code Việt: thêm cache 12 ô cho năm
+  nhãn intro, giữ ba OBJ và native fallback cho tên khác. Không tăng VRAM.
+- Menu bốn mục chỉ nhận 12 byte/mục: “Mẹo hữu ích” bị ẩn; đổi “Mẹo hay” và
+  kiểm tra budget byte dựa trên hàm thật, không bỏ qua validator.
+- Replay cũ nhấn A cố định có thể mở TV sau intro và chặn Start/Diary: bài
+  smoke nay dừng ở WAIT của câu chuyển ngày rồi mới mở menu, không đổi game.
+
+**Kiểm chứng:** 72 pytest đạt, không skip. mGBA 0.10.5 và 0.11-dev đều đi qua
+129/129 ID hội thoại bằng input game, 199 ảnh chờ nút, đủ năm nhãn người nói,
+menu Có/Không/bốn chủ đề/chọn vật nuôi. Người chơi dùng tên dài 12 ký tự; đã
+chạy cả bốn demo. 460 dòng qua renderer CPU với canary trong probe cô lập;
+bốn ca native-name fallback khớp control ROM. Smoke toàn pipeline và tám ca
+sinh nhật vẫn qua trên cả hai core, gồm Diary save và cold-boot load SRAM,
+không log error/fatal. Build lặp lại và IPS apply phải trùng hash release.
+
+Xem [nguồn và phương pháp](INTRO_LOCALIZATION.md),
+[ảnh intro](evidence/intro-opening.png), `evidence/validation.json` và manifest.
+Đã xem các cảnh chính và menu; chưa duyệt thủ công từng ảnh, chưa thử GBA thật.
+Những phần còn lại: Diary/options/shop, hội thoại NPC/sự kiện/TV/sách, các mô
+tả vật phẩm chưa dịch và nhập tên Việt có dấu. Toàn bộ bản dịch vẫn là nháp.

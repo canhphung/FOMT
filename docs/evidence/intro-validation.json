@@ -1,0 +1,2470 @@
+{
+  "target_sha256": "2886f416b61ba7fb1b913e1d1a81d2a6d6721d637711cf596b38e4268a8a062d",
+  "revision": "opening-and-tutorial-v1",
+  "primary_emulator": {
+    "version": "0.10.5",
+    "commit": "26b7884bc25a5933960f3cdcd98bac1ae14d42e2",
+    "report": {
+      "target_sha256": "2886f416b61ba7fb1b913e1d1a81d2a6d6721d637711cf596b38e4268a8a062d",
+      "status": "passed",
+      "translated_records": 145,
+      "isolated_string_renderer_lines_with_guards": 460,
+      "native_name_fallback_cases": 4,
+      "speaker_cache_names_witnessed": [
+        "father",
+        "girl",
+        "mother",
+        "old_man",
+        "unknown"
+      ],
+      "player_name": "AAAAAAAAAAAA",
+      "normal_replay_frames": 58751,
+      "normal_dialogue_records_witnessed": [
+        "intro.flashback.dialogue.00",
+        "intro.flashback.dialogue.01",
+        "intro.flashback.dialogue.02",
+        "intro.flashback.dialogue.03",
+        "intro.flashback.dialogue.04",
+        "intro.flashback.dialogue.05",
+        "intro.flashback.dialogue.06",
+        "intro.flashback.dialogue.07",
+        "intro.flashback.dialogue.09",
+        "intro.flashback.dialogue.10",
+        "intro.flashback.dialogue.11",
+        "intro.flashback.dialogue.14",
+        "intro.flashback.dialogue.15",
+        "intro.flashback.dialogue.16",
+        "intro.flashback.dialogue.17",
+        "intro.flashback.dialogue.18",
+        "intro.flashback.dialogue.19",
+        "intro.flashback.dialogue.20",
+        "intro.flashback.dialogue.21",
+        "intro.flashback.dialogue.22",
+        "intro.flashback.dialogue.23",
+        "intro.flashback.dialogue.24",
+        "intro.flashback.dialogue.25",
+        "script.0737.000",
+        "script.0737.001",
+        "script.0737.004",
+        "script.0737.009",
+        "script.0737.010",
+        "script.0737.011",
+        "script.0737.012",
+        "script.0737.013",
+        "script.0737.014",
+        "script.0737.015",
+        "script.0737.016",
+        "script.0737.017",
+        "script.0737.018",
+        "script.0737.019",
+        "script.0737.020",
+        "script.0737.021",
+        "script.0867.000",
+        "script.0867.001",
+        "script.0867.002",
+        "script.0867.003",
+        "script.0867.004",
+        "script.0867.005",
+        "script.0867.006",
+        "script.0867.007",
+        "script.0867.008",
+        "script.0867.009",
+        "script.1060.000",
+        "script.1060.001",
+        "script.1060.002",
+        "script.1060.003",
+        "script.1060.004",
+        "script.1060.005",
+        "script.1060.006",
+        "script.1060.007",
+        "script.1060.008",
+        "script.1060.009",
+        "script.1060.010",
+        "script.1060.011",
+        "script.1060.012",
+        "script.1060.013",
+        "script.1060.014",
+        "script.1060.015",
+        "script.1060.016",
+        "script.1060.017",
+        "script.1060.018",
+        "script.1060.019",
+        "script.1060.020",
+        "script.1061.000",
+        "script.1061.001",
+        "script.1061.002",
+        "script.1061.003",
+        "script.1061.004",
+        "script.1061.005",
+        "script.1061.006",
+        "script.1061.007",
+        "script.1061.008",
+        "script.1061.009",
+        "script.1061.010",
+        "script.1061.011",
+        "script.1061.012",
+        "script.1061.013",
+        "script.1061.014",
+        "script.1061.015",
+        "script.1061.016",
+        "script.1061.017",
+        "script.1061.018",
+        "script.1062.000",
+        "script.1062.001",
+        "script.1062.002",
+        "script.1062.003",
+        "script.1062.004",
+        "script.1062.005",
+        "script.1062.006",
+        "script.1062.007",
+        "script.1062.008",
+        "script.1062.009",
+        "script.1062.010",
+        "script.1062.011",
+        "script.1062.012",
+        "script.1062.013",
+        "script.1062.014",
+        "script.1062.015",
+        "script.1062.016",
+        "script.1062.017",
+        "script.1062.018",
+        "script.1062.019",
+        "script.1062.020",
+        "script.1063.000",
+        "script.1063.001",
+        "script.1063.002",
+        "script.1063.003",
+        "script.1063.004",
+        "script.1063.005",
+        "script.1063.006",
+        "script.1063.007",
+        "script.1063.008",
+        "script.1063.009",
+        "script.1063.010",
+        "script.1063.011",
+        "script.1063.012",
+        "script.1063.013",
+        "script.1063.014",
+        "script.1063.015",
+        "script.1063.016",
+        "script.1063.017",
+        "script.1063.018"
+      ],
+      "menu_records_in_choice_screenshots": [
+        "script.0737.002",
+        "script.0737.003",
+        "script.0737.005",
+        "script.0737.006",
+        "script.0737.007",
+        "script.0737.008",
+        "script.1059.000",
+        "script.1059.001",
+        "script.1059.002",
+        "script.1059.003",
+        "script.1059.004"
+      ],
+      "not_witnessed_by_dialogue_reader": [
+        "script.0737.002",
+        "script.0737.003",
+        "script.0737.005",
+        "script.0737.006",
+        "script.0737.007",
+        "script.0737.008",
+        "script.1059.000",
+        "script.1059.001",
+        "script.1059.002",
+        "script.1059.003",
+        "script.1059.004"
+      ],
+      "choices": [
+        "first instruction: No",
+        "first instruction: Yes; four topic labels rendered",
+        {
+          "topic": "crops",
+          "new_records_witnessed": [
+            "script.1063.000",
+            "script.1063.001",
+            "script.1063.002",
+            "script.1063.003",
+            "script.1063.004",
+            "script.1063.005",
+            "script.1063.006",
+            "script.1063.007",
+            "script.1063.008",
+            "script.1063.009",
+            "script.1063.010",
+            "script.1063.011",
+            "script.1063.012",
+            "script.1063.013",
+            "script.1063.014",
+            "script.1063.015",
+            "script.1063.016",
+            "script.1063.017",
+            "script.1063.018"
+          ]
+        },
+        {
+          "topic": "chickens",
+          "new_records_witnessed": [
+            "script.1061.000",
+            "script.1061.001",
+            "script.1061.002",
+            "script.1061.003",
+            "script.1061.004",
+            "script.1061.005",
+            "script.1061.006",
+            "script.1061.007",
+            "script.1061.008",
+            "script.1061.009",
+            "script.1061.010",
+            "script.1061.011",
+            "script.1061.012",
+            "script.1061.013",
+            "script.1061.014",
+            "script.1061.015",
+            "script.1061.016",
+            "script.1061.017",
+            "script.1061.018"
+          ]
+        },
+        {
+          "topic": "cows",
+          "new_records_witnessed": [
+            "script.1060.000",
+            "script.1060.001",
+            "script.1060.002",
+            "script.1060.003",
+            "script.1060.004",
+            "script.1060.005",
+            "script.1060.006",
+            "script.1060.007",
+            "script.1060.008",
+            "script.1060.009",
+            "script.1060.010",
+            "script.1060.011",
+            "script.1060.012",
+            "script.1060.013",
+            "script.1060.014",
+            "script.1060.015",
+            "script.1060.016",
+            "script.1060.017",
+            "script.1060.018",
+            "script.1060.019",
+            "script.1060.020"
+          ]
+        },
+        {
+          "topic": "sheep",
+          "new_records_witnessed": [
+            "script.1062.000",
+            "script.1062.001",
+            "script.1062.002",
+            "script.1062.003",
+            "script.1062.004",
+            "script.1062.005",
+            "script.1062.006",
+            "script.1062.007",
+            "script.1062.008",
+            "script.1062.009",
+            "script.1062.010",
+            "script.1062.011",
+            "script.1062.012",
+            "script.1062.013",
+            "script.1062.014",
+            "script.1062.015",
+            "script.1062.016",
+            "script.1062.017",
+            "script.1062.018",
+            "script.1062.019",
+            "script.1062.020"
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "script.0867.000",
+          "phase": "opening",
+          "cursor_offset": 61,
+          "waits_consumed": 1,
+          "widget": "0x203aa64",
+          "speaker_cache_matches": [],
+          "screenshot": "000-script.0867.000.png"
+        },
+        {
+          "id": "script.0867.000",
+          "phase": "opening",
+          "cursor_offset": 111,
+          "waits_consumed": 2,
+          "widget": "0x203aa64",
+          "speaker_cache_matches": [],
+          "screenshot": "001-script.0867.000.png"
+        },
+        {
+          "id": "script.0867.001",
+          "phase": "opening",
+          "cursor_offset": 29,
+          "waits_consumed": 1,
+          "widget": "0x203aa64",
+          "speaker_cache_matches": [],
+          "screenshot": "002-script.0867.001.png"
+        },
+        {
+          "id": "script.0867.001",
+          "phase": "opening",
+          "cursor_offset": 81,
+          "waits_consumed": 2,
+          "widget": "0x203aa64",
+          "speaker_cache_matches": [],
+          "screenshot": "003-script.0867.001.png"
+        },
+        {
+          "id": "script.0867.002",
+          "phase": "opening",
+          "cursor_offset": 25,
+          "waits_consumed": 1,
+          "widget": "0x203aa64",
+          "speaker_cache_matches": [],
+          "screenshot": "004-script.0867.002.png"
+        },
+        {
+          "id": "script.0867.002",
+          "phase": "opening",
+          "cursor_offset": 115,
+          "waits_consumed": 2,
+          "widget": "0x203aa64",
+          "speaker_cache_matches": [],
+          "screenshot": "005-script.0867.002.png"
+        },
+        {
+          "id": "script.0867.002",
+          "phase": "opening",
+          "cursor_offset": 159,
+          "waits_consumed": 3,
+          "widget": "0x203aa64",
+          "speaker_cache_matches": [],
+          "screenshot": "006-script.0867.002.png"
+        },
+        {
+          "id": "script.0867.002",
+          "phase": "opening",
+          "cursor_offset": 231,
+          "waits_consumed": 4,
+          "widget": "0x203aa64",
+          "speaker_cache_matches": [],
+          "screenshot": "007-script.0867.002.png"
+        },
+        {
+          "id": "script.0867.003",
+          "phase": "opening",
+          "cursor_offset": 34,
+          "waits_consumed": 1,
+          "widget": "0x203aa64",
+          "speaker_cache_matches": [],
+          "screenshot": "008-script.0867.003.png"
+        },
+        {
+          "id": "script.0867.004",
+          "phase": "opening",
+          "cursor_offset": 61,
+          "waits_consumed": 1,
+          "widget": "0x203aa64",
+          "speaker_cache_matches": [],
+          "screenshot": "009-script.0867.004.png"
+        },
+        {
+          "id": "intro.flashback.dialogue.00",
+          "phase": "opening",
+          "cursor_offset": 51,
+          "waits_consumed": 1,
+          "widget": "0x200c458",
+          "speaker_cache_matches": [
+            "mother"
+          ],
+          "screenshot": "010-intro.flashback.dialogue.00.png"
+        },
+        {
+          "id": "intro.flashback.dialogue.01",
+          "phase": "opening",
+          "cursor_offset": 82,
+          "waits_consumed": 1,
+          "widget": "0x200c458",
+          "speaker_cache_matches": [
+            "father"
+          ],
+          "screenshot": "011-intro.flashback.dialogue.01.png"
+        },
+        {
+          "id": "intro.flashback.dialogue.02",
+          "phase": "opening",
+          "cursor_offset": 4,
+          "waits_consumed": 1,
+          "widget": "0x200c458",
+          "speaker_cache_matches": [
+            "mother"
+          ],
+          "screenshot": "012-intro.flashback.dialogue.02.png"
+        },
+        {
+          "id": "intro.flashback.dialogue.02",
+          "phase": "opening",
+          "cursor_offset": 44,
+          "waits_consumed": 2,
+          "widget": "0x200c458",
+          "speaker_cache_matches": [
+            "mother"
+          ],
+          "screenshot": "013-intro.flashback.dialogue.02.png"
+        },
+        {
+          "id": "intro.flashback.dialogue.03",
+          "phase": "opening",
+          "cursor_offset": 13,
+          "waits_consumed": 1,
+          "widget": "0x200c458",
+          "speaker_cache_matches": [
+            "father"
+          ],
+          "screenshot": "014-intro.flashback.dialogue.03.png"
+        },
+        {
+          "id": "intro.flashback.dialogue.04",
+          "phase": "opening",
+          "cursor_offset": 60,
+          "waits_consumed": 1,
+          "widget": "0x200c458",
+          "speaker_cache_matches": [
+            "old_man"
+          ],
+          "screenshot": "015-intro.flashback.dialogue.04.png"
+        },
+        {
+          "id": "intro.flashback.dialogue.04",
+          "phase": "opening",
+          "cursor_offset": 121,
+          "waits_consumed": 2,
+          "widget": "0x200c458",
+          "speaker_cache_matches": [
+            "old_man"
+          ],
+          "screenshot": "016-intro.flashback.dialogue.04.png"
+        },
+        {
+          "id": "intro.flashback.dialogue.04",
+          "phase": "opening",
+          "cursor_offset": 157,
+          "waits_consumed": 3,
+          "widget": "0x200c458",
+          "speaker_cache_matches": [
+            "old_man"
+          ],
+          "screenshot": "017-intro.flashback.dialogue.04.png"
+        },
+        {
+          "id": "intro.flashback.dialogue.05",
+          "phase": "opening",
+          "cursor_offset": 62,
+          "waits_consumed": 1,
+          "widget": "0x200c458",
+          "speaker_cache_matches": [
+            "mother"
+          ],
+          "screenshot": "018-intro.flashback.dialogue.05.png"
+        },
+        {
+          "id": "intro.flashback.dialogue.06",
+          "phase": "opening",
+          "cursor_offset": 90,
+          "waits_consumed": 1,
+          "widget": "0x200c458",
+          "speaker_cache_matches": [
+            "father"
+          ],
+          "screenshot": "019-intro.flashback.dialogue.06.png"
+        },
+        {
+          "id": "intro.flashback.dialogue.07",
+          "phase": "opening",
+          "cursor_offset": 14,
+          "waits_consumed": 1,
+          "widget": "0x200c458",
+          "speaker_cache_matches": [
+            "old_man"
+          ],
+          "screenshot": "020-intro.flashback.dialogue.07.png"
+        },
+        {
+          "id": "intro.flashback.dialogue.07",
+          "phase": "opening",
+          "cursor_offset": 94,
+          "waits_consumed": 2,
+          "widget": "0x200c458",
+          "speaker_cache_matches": [
+            "old_man"
+          ],
+          "screenshot": "021-intro.flashback.dialogue.07.png"
+        },
+        {
+          "id": "intro.flashback.dialogue.09",
+          "phase": "opening",
+          "cursor_offset": 22,
+          "waits_consumed": 1,
+          "widget": "0x200c458",
+          "speaker_cache_matches": [
+            "father"
+          ],
+          "screenshot": "022-intro.flashback.dialogue.09.png"
+        },
+        {
+          "id": "intro.flashback.dialogue.10",
+          "phase": "opening",
+          "cursor_offset": 94,
+          "waits_consumed": 1,
+          "widget": "0x200c458",
+          "speaker_cache_matches": [
+            "old_man"
+          ],
+          "screenshot": "023-intro.flashback.dialogue.10.png"
+        },
+        {
+          "id": "intro.flashback.dialogue.11",
+          "phase": "opening",
+          "cursor_offset": 23,
+          "waits_consumed": 1,
+          "widget": "0x200c458",
+          "speaker_cache_matches": [
+            "mother"
+          ],
+          "screenshot": "024-intro.flashback.dialogue.11.png"
+        },
+        {
+          "id": "intro.flashback.dialogue.11",
+          "phase": "opening",
+          "cursor_offset": 82,
+          "waits_consumed": 2,
+          "widget": "0x200c458",
+          "speaker_cache_matches": [
+            "mother"
+          ],
+          "screenshot": "025-intro.flashback.dialogue.11.png"
+        },
+        {
+          "id": "intro.flashback.dialogue.14",
+          "phase": "opening",
+          "cursor_offset": 8,
+          "waits_consumed": 1,
+          "widget": "0x200c458",
+          "speaker_cache_matches": [
+            "unknown"
+          ],
+          "screenshot": "026-intro.flashback.dialogue.14.png"
+        },
+        {
+          "id": "intro.flashback.dialogue.14",
+          "phase": "opening",
+          "cursor_offset": 17,
+          "waits_consumed": 2,
+          "widget": "0x200c458",
+          "speaker_cache_matches": [
+            "unknown"
+          ],
+          "screenshot": "027-intro.flashback.dialogue.14.png"
+        },
+        {
+          "id": "intro.flashback.dialogue.14",
+          "phase": "opening",
+          "cursor_offset": 24,
+          "waits_consumed": 3,
+          "widget": "0x200c458",
+          "speaker_cache_matches": [
+            "unknown"
+          ],
+          "screenshot": "028-intro.flashback.dialogue.14.png"
+        },
+        {
+          "id": "intro.flashback.dialogue.15",
+          "phase": "opening",
+          "cursor_offset": 4,
+          "waits_consumed": 1,
+          "widget": "0x200c458",
+          "speaker_cache_matches": [],
+          "screenshot": "029-intro.flashback.dialogue.15.png"
+        },
+        {
+          "id": "intro.flashback.dialogue.16",
+          "phase": "opening",
+          "cursor_offset": 54,
+          "waits_consumed": 1,
+          "widget": "0x200c458",
+          "speaker_cache_matches": [
+            "girl"
+          ],
+          "screenshot": "030-intro.flashback.dialogue.16.png"
+        },
+        {
+          "id": "intro.flashback.dialogue.17",
+          "phase": "opening",
+          "cursor_offset": 60,
+          "waits_consumed": 1,
+          "widget": "0x200c458",
+          "speaker_cache_matches": [
+            "girl"
+          ],
+          "screenshot": "031-intro.flashback.dialogue.17.png"
+        },
+        {
+          "id": "intro.flashback.dialogue.17",
+          "phase": "opening",
+          "cursor_offset": 93,
+          "waits_consumed": 2,
+          "widget": "0x200c458",
+          "speaker_cache_matches": [
+            "girl"
+          ],
+          "screenshot": "032-intro.flashback.dialogue.17.png"
+        },
+        {
+          "id": "intro.flashback.dialogue.18",
+          "phase": "opening",
+          "cursor_offset": 49,
+          "waits_consumed": 1,
+          "widget": "0x200c458",
+          "speaker_cache_matches": [
+            "girl"
+          ],
+          "screenshot": "033-intro.flashback.dialogue.18.png"
+        },
+        {
+          "id": "intro.flashback.dialogue.18",
+          "phase": "opening",
+          "cursor_offset": 82,
+          "waits_consumed": 2,
+          "widget": "0x200c458",
+          "speaker_cache_matches": [
+            "girl"
+          ],
+          "screenshot": "034-intro.flashback.dialogue.18.png"
+        },
+        {
+          "id": "intro.flashback.dialogue.19",
+          "phase": "opening",
+          "cursor_offset": 29,
+          "waits_consumed": 1,
+          "widget": "0x200c458",
+          "speaker_cache_matches": [
+            "old_man"
+          ],
+          "screenshot": "035-intro.flashback.dialogue.19.png"
+        },
+        {
+          "id": "intro.flashback.dialogue.19",
+          "phase": "opening",
+          "cursor_offset": 101,
+          "waits_consumed": 2,
+          "widget": "0x200c458",
+          "speaker_cache_matches": [
+            "old_man"
+          ],
+          "screenshot": "036-intro.flashback.dialogue.19.png"
+        },
+        {
+          "id": "intro.flashback.dialogue.19",
+          "phase": "opening",
+          "cursor_offset": 156,
+          "waits_consumed": 3,
+          "widget": "0x200c458",
+          "speaker_cache_matches": [
+            "old_man"
+          ],
+          "screenshot": "037-intro.flashback.dialogue.19.png"
+        },
+        {
+          "id": "intro.flashback.dialogue.20",
+          "phase": "opening",
+          "cursor_offset": 91,
+          "waits_consumed": 1,
+          "widget": "0x200c458",
+          "speaker_cache_matches": [
+            "old_man"
+          ],
+          "screenshot": "038-intro.flashback.dialogue.20.png"
+        },
+        {
+          "id": "intro.flashback.dialogue.21",
+          "phase": "opening",
+          "cursor_offset": 50,
+          "waits_consumed": 1,
+          "widget": "0x200c458",
+          "speaker_cache_matches": [
+            "old_man"
+          ],
+          "screenshot": "039-intro.flashback.dialogue.21.png"
+        },
+        {
+          "id": "intro.flashback.dialogue.22",
+          "phase": "opening",
+          "cursor_offset": 24,
+          "waits_consumed": 1,
+          "widget": "0x200c458",
+          "speaker_cache_matches": [
+            "girl"
+          ],
+          "screenshot": "040-intro.flashback.dialogue.22.png"
+        },
+        {
+          "id": "intro.flashback.dialogue.23",
+          "phase": "opening",
+          "cursor_offset": 53,
+          "waits_consumed": 1,
+          "widget": "0x200c458",
+          "speaker_cache_matches": [
+            "girl"
+          ],
+          "screenshot": "041-intro.flashback.dialogue.23.png"
+        },
+        {
+          "id": "intro.flashback.dialogue.23",
+          "phase": "opening",
+          "cursor_offset": 89,
+          "waits_consumed": 2,
+          "widget": "0x200c458",
+          "speaker_cache_matches": [
+            "girl"
+          ],
+          "screenshot": "042-intro.flashback.dialogue.23.png"
+        },
+        {
+          "id": "intro.flashback.dialogue.24",
+          "phase": "opening",
+          "cursor_offset": 92,
+          "waits_consumed": 1,
+          "widget": "0x200c458",
+          "speaker_cache_matches": [
+            "old_man"
+          ],
+          "screenshot": "043-intro.flashback.dialogue.24.png"
+        },
+        {
+          "id": "intro.flashback.dialogue.25",
+          "phase": "opening",
+          "cursor_offset": 36,
+          "waits_consumed": 1,
+          "widget": "0x200c458",
+          "speaker_cache_matches": [
+            "old_man"
+          ],
+          "screenshot": "044-intro.flashback.dialogue.25.png"
+        },
+        {
+          "id": "script.0867.005",
+          "phase": "opening",
+          "cursor_offset": 53,
+          "waits_consumed": 1,
+          "widget": "0x203ac74",
+          "speaker_cache_matches": [],
+          "screenshot": "045-script.0867.005.png"
+        },
+        {
+          "id": "script.0867.005",
+          "phase": "opening",
+          "cursor_offset": 136,
+          "waits_consumed": 2,
+          "widget": "0x203ac74",
+          "speaker_cache_matches": [],
+          "screenshot": "046-script.0867.005.png"
+        },
+        {
+          "id": "script.0867.006",
+          "phase": "opening",
+          "cursor_offset": 70,
+          "waits_consumed": 1,
+          "widget": "0x203ac74",
+          "speaker_cache_matches": [],
+          "screenshot": "047-script.0867.006.png"
+        },
+        {
+          "id": "script.0867.006",
+          "phase": "opening",
+          "cursor_offset": 94,
+          "waits_consumed": 2,
+          "widget": "0x203ac74",
+          "speaker_cache_matches": [],
+          "screenshot": "048-script.0867.006.png"
+        },
+        {
+          "id": "script.0867.007",
+          "phase": "opening",
+          "cursor_offset": 48,
+          "waits_consumed": 1,
+          "widget": "0x203ac74",
+          "speaker_cache_matches": [],
+          "screenshot": "049-script.0867.007.png"
+        },
+        {
+          "id": "script.0867.008",
+          "phase": "opening",
+          "cursor_offset": 81,
+          "waits_consumed": 1,
+          "widget": "0x203ac74",
+          "speaker_cache_matches": [],
+          "screenshot": "050-script.0867.008.png"
+        },
+        {
+          "id": "script.0867.009",
+          "phase": "opening",
+          "cursor_offset": 25,
+          "waits_consumed": 1,
+          "widget": "0x203ac74",
+          "speaker_cache_matches": [],
+          "screenshot": "051-script.0867.009.png"
+        },
+        {
+          "id": "script.0737.000",
+          "phase": "first-morning-decline",
+          "cursor_offset": 24,
+          "waits_consumed": 1,
+          "widget": "0x203ac74",
+          "speaker_cache_matches": [],
+          "screenshot": "052-script.0737.000.png"
+        },
+        {
+          "id": "script.0737.000",
+          "phase": "first-morning-decline",
+          "cursor_offset": 102,
+          "waits_consumed": 2,
+          "widget": "0x203ac74",
+          "speaker_cache_matches": [],
+          "screenshot": "053-script.0737.000.png"
+        },
+        {
+          "id": "script.0737.000",
+          "phase": "first-morning-decline",
+          "cursor_offset": 185,
+          "waits_consumed": 3,
+          "widget": "0x203ac74",
+          "speaker_cache_matches": [],
+          "screenshot": "054-script.0737.000.png"
+        },
+        {
+          "id": "script.0737.000",
+          "phase": "first-morning-decline",
+          "cursor_offset": 206,
+          "waits_consumed": 4,
+          "widget": "0x203ac74",
+          "speaker_cache_matches": [],
+          "screenshot": "055-script.0737.000.png"
+        },
+        {
+          "id": "script.0737.000",
+          "phase": "first-morning-decline",
+          "cursor_offset": 284,
+          "waits_consumed": 5,
+          "widget": "0x203ac74",
+          "speaker_cache_matches": [],
+          "screenshot": "056-script.0737.000.png"
+        },
+        {
+          "id": "script.0737.000",
+          "phase": "first-morning-decline",
+          "cursor_offset": 356,
+          "waits_consumed": 6,
+          "widget": "0x203ac74",
+          "speaker_cache_matches": [],
+          "screenshot": "057-script.0737.000.png"
+        },
+        {
+          "id": "script.0737.000",
+          "phase": "first-morning-decline",
+          "cursor_offset": 385,
+          "waits_consumed": 7,
+          "widget": "0x203ac74",
+          "speaker_cache_matches": [],
+          "screenshot": "058-script.0737.000.png"
+        },
+        {
+          "id": "script.0737.000",
+          "phase": "first-morning-decline",
+          "cursor_offset": 443,
+          "waits_consumed": 8,
+          "widget": "0x203ac74",
+          "speaker_cache_matches": [],
+          "screenshot": "059-script.0737.000.png"
+        },
+        {
+          "id": "script.0737.000",
+          "phase": "first-morning-decline",
+          "cursor_offset": 496,
+          "waits_consumed": 9,
+          "widget": "0x203ac74",
+          "speaker_cache_matches": [],
+          "screenshot": "060-script.0737.000.png"
+        },
+        {
+          "id": "script.0737.001",
+          "phase": "first-morning-decline",
+          "cursor_offset": 49,
+          "waits_consumed": 1,
+          "widget": "0x203ac74",
+          "speaker_cache_matches": [],
+          "screenshot": "061-script.0737.001.png"
+        },
+        {
+          "id": "script.0737.009",
+          "phase": "first-morning-decline",
+          "cursor_offset": 60,
+          "waits_consumed": 1,
+          "widget": "0x203ac74",
+          "speaker_cache_matches": [],
+          "screenshot": "062-script.0737.009.png"
+        },
+        {
+          "id": "script.0737.009",
+          "phase": "first-morning-decline",
+          "cursor_offset": 143,
+          "waits_consumed": 2,
+          "widget": "0x203ac74",
+          "speaker_cache_matches": [],
+          "screenshot": "063-script.0737.009.png"
+        },
+        {
+          "id": "script.0737.010",
+          "phase": "first-morning-decline",
+          "cursor_offset": 65,
+          "waits_consumed": 1,
+          "widget": "0x203ac74",
+          "speaker_cache_matches": [],
+          "screenshot": "064-script.0737.010.png"
+        },
+        {
+          "id": "script.0737.010",
+          "phase": "first-morning-decline",
+          "cursor_offset": 146,
+          "waits_consumed": 2,
+          "widget": "0x203ac74",
+          "speaker_cache_matches": [],
+          "screenshot": "065-script.0737.010.png"
+        },
+        {
+          "id": "script.0737.010",
+          "phase": "first-morning-decline",
+          "cursor_offset": 214,
+          "waits_consumed": 3,
+          "widget": "0x203ac74",
+          "speaker_cache_matches": [],
+          "screenshot": "066-script.0737.010.png"
+        },
+        {
+          "id": "script.0737.011",
+          "phase": "first-morning-decline",
+          "cursor_offset": 71,
+          "waits_consumed": 1,
+          "widget": "0x203ac74",
+          "speaker_cache_matches": [],
+          "screenshot": "067-script.0737.011.png"
+        },
+        {
+          "id": "script.0737.011",
+          "phase": "first-morning-decline",
+          "cursor_offset": 157,
+          "waits_consumed": 2,
+          "widget": "0x203ac74",
+          "speaker_cache_matches": [],
+          "screenshot": "068-script.0737.011.png"
+        },
+        {
+          "id": "script.0737.011",
+          "phase": "first-morning-decline",
+          "cursor_offset": 179,
+          "waits_consumed": 3,
+          "widget": "0x203ac74",
+          "speaker_cache_matches": [],
+          "screenshot": "069-script.0737.011.png"
+        },
+        {
+          "id": "script.0737.011",
+          "phase": "first-morning-decline",
+          "cursor_offset": 211,
+          "waits_consumed": 4,
+          "widget": "0x203ac74",
+          "speaker_cache_matches": [],
+          "screenshot": "070-script.0737.011.png"
+        },
+        {
+          "id": "script.0737.012",
+          "phase": "first-morning-decline",
+          "cursor_offset": 92,
+          "waits_consumed": 1,
+          "widget": "0x203ac74",
+          "speaker_cache_matches": [],
+          "screenshot": "071-script.0737.012.png"
+        },
+        {
+          "id": "script.0737.012",
+          "phase": "first-morning-decline",
+          "cursor_offset": 170,
+          "waits_consumed": 2,
+          "widget": "0x203ac74",
+          "speaker_cache_matches": [],
+          "screenshot": "072-script.0737.012.png"
+        },
+        {
+          "id": "script.0737.013",
+          "phase": "first-morning-decline",
+          "cursor_offset": 22,
+          "waits_consumed": 1,
+          "widget": "0x203ac74",
+          "speaker_cache_matches": [],
+          "screenshot": "073-script.0737.013.png"
+        },
+        {
+          "id": "script.0737.014",
+          "phase": "first-morning-decline",
+          "cursor_offset": 65,
+          "waits_consumed": 1,
+          "widget": "0x203ac74",
+          "speaker_cache_matches": [],
+          "screenshot": "074-script.0737.014.png"
+        },
+        {
+          "id": "script.0737.014",
+          "phase": "first-morning-decline",
+          "cursor_offset": 119,
+          "waits_consumed": 2,
+          "widget": "0x203ac74",
+          "speaker_cache_matches": [],
+          "screenshot": "075-script.0737.014.png"
+        },
+        {
+          "id": "script.0737.015",
+          "phase": "first-morning-decline",
+          "cursor_offset": 30,
+          "waits_consumed": 1,
+          "widget": "0x203ac74",
+          "speaker_cache_matches": [],
+          "screenshot": "076-script.0737.015.png"
+        },
+        {
+          "id": "script.0737.015",
+          "phase": "first-morning-decline",
+          "cursor_offset": 126,
+          "waits_consumed": 2,
+          "widget": "0x203ac74",
+          "speaker_cache_matches": [],
+          "screenshot": "077-script.0737.015.png"
+        },
+        {
+          "id": "script.0737.015",
+          "phase": "first-morning-decline",
+          "cursor_offset": 168,
+          "waits_consumed": 3,
+          "widget": "0x203ac74",
+          "speaker_cache_matches": [],
+          "screenshot": "078-script.0737.015.png"
+        },
+        {
+          "id": "script.0737.016",
+          "phase": "first-morning-decline",
+          "cursor_offset": 40,
+          "waits_consumed": 1,
+          "widget": "0x203ac74",
+          "speaker_cache_matches": [],
+          "screenshot": "079-script.0737.016.png"
+        },
+        {
+          "id": "script.0737.016",
+          "phase": "first-morning-decline",
+          "cursor_offset": 95,
+          "waits_consumed": 2,
+          "widget": "0x203ac74",
+          "speaker_cache_matches": [],
+          "screenshot": "080-script.0737.016.png"
+        },
+        {
+          "id": "script.0737.017",
+          "phase": "first-morning-decline",
+          "cursor_offset": 16,
+          "waits_consumed": 1,
+          "widget": "0x203ac74",
+          "speaker_cache_matches": [],
+          "screenshot": "081-script.0737.017.png"
+        },
+        {
+          "id": "script.0737.018",
+          "phase": "first-morning-decline",
+          "cursor_offset": 87,
+          "waits_consumed": 1,
+          "widget": "0x203ac74",
+          "speaker_cache_matches": [],
+          "screenshot": "082-script.0737.018.png"
+        },
+        {
+          "id": "script.0737.019",
+          "phase": "first-morning-decline",
+          "cursor_offset": 76,
+          "waits_consumed": 1,
+          "widget": "0x203ac74",
+          "speaker_cache_matches": [],
+          "screenshot": "083-script.0737.019.png"
+        },
+        {
+          "id": "script.0737.019",
+          "phase": "first-morning-decline",
+          "cursor_offset": 137,
+          "waits_consumed": 2,
+          "widget": "0x203ac74",
+          "speaker_cache_matches": [],
+          "screenshot": "084-script.0737.019.png"
+        },
+        {
+          "id": "script.0737.020",
+          "phase": "first-morning-decline",
+          "cursor_offset": 35,
+          "waits_consumed": 1,
+          "widget": "0x203ac74",
+          "speaker_cache_matches": [],
+          "screenshot": "085-script.0737.020.png"
+        },
+        {
+          "id": "script.0737.020",
+          "phase": "first-morning-decline",
+          "cursor_offset": 103,
+          "waits_consumed": 2,
+          "widget": "0x203ac74",
+          "speaker_cache_matches": [],
+          "screenshot": "086-script.0737.020.png"
+        },
+        {
+          "id": "script.0737.020",
+          "phase": "first-morning-decline",
+          "cursor_offset": 182,
+          "waits_consumed": 3,
+          "widget": "0x203ac74",
+          "speaker_cache_matches": [],
+          "screenshot": "087-script.0737.020.png"
+        },
+        {
+          "id": "script.0737.020",
+          "phase": "first-morning-decline",
+          "cursor_offset": 207,
+          "waits_consumed": 4,
+          "widget": "0x203ac74",
+          "speaker_cache_matches": [],
+          "screenshot": "088-script.0737.020.png"
+        },
+        {
+          "id": "script.0737.021",
+          "phase": "first-morning-decline",
+          "cursor_offset": 50,
+          "waits_consumed": 1,
+          "widget": "0x203ac74",
+          "speaker_cache_matches": [],
+          "screenshot": "089-script.0737.021.png"
+        },
+        {
+          "id": "script.0737.004",
+          "phase": "guide-accept",
+          "cursor_offset": 25,
+          "waits_consumed": 1,
+          "widget": "0x203ac74",
+          "speaker_cache_matches": [],
+          "screenshot": "090-script.0737.004.png"
+        },
+        {
+          "id": "script.1063.000",
+          "phase": "demo-crops",
+          "cursor_offset": 67,
+          "waits_consumed": 1,
+          "widget": "0x202ec30",
+          "speaker_cache_matches": [],
+          "screenshot": "091-script.1063.000.png"
+        },
+        {
+          "id": "script.1063.000",
+          "phase": "demo-crops",
+          "cursor_offset": 115,
+          "waits_consumed": 2,
+          "widget": "0x202ec30",
+          "speaker_cache_matches": [],
+          "screenshot": "092-script.1063.000.png"
+        },
+        {
+          "id": "script.1063.001",
+          "phase": "demo-crops",
+          "cursor_offset": 43,
+          "waits_consumed": 1,
+          "widget": "0x202ec30",
+          "speaker_cache_matches": [],
+          "screenshot": "093-script.1063.001.png"
+        },
+        {
+          "id": "script.1063.001",
+          "phase": "demo-crops",
+          "cursor_offset": 104,
+          "waits_consumed": 2,
+          "widget": "0x202ec30",
+          "speaker_cache_matches": [],
+          "screenshot": "094-script.1063.001.png"
+        },
+        {
+          "id": "script.1063.002",
+          "phase": "demo-crops",
+          "cursor_offset": 34,
+          "waits_consumed": 1,
+          "widget": "0x202ec30",
+          "speaker_cache_matches": [],
+          "screenshot": "095-script.1063.002.png"
+        },
+        {
+          "id": "script.1063.003",
+          "phase": "demo-crops",
+          "cursor_offset": 45,
+          "waits_consumed": 1,
+          "widget": "0x202ec30",
+          "speaker_cache_matches": [],
+          "screenshot": "096-script.1063.003.png"
+        },
+        {
+          "id": "script.1063.004",
+          "phase": "demo-crops",
+          "cursor_offset": 67,
+          "waits_consumed": 1,
+          "widget": "0x202ec30",
+          "speaker_cache_matches": [],
+          "screenshot": "097-script.1063.004.png"
+        },
+        {
+          "id": "script.1063.005",
+          "phase": "demo-crops",
+          "cursor_offset": 49,
+          "waits_consumed": 1,
+          "widget": "0x202ec30",
+          "speaker_cache_matches": [],
+          "screenshot": "098-script.1063.005.png"
+        },
+        {
+          "id": "script.1063.005",
+          "phase": "demo-crops",
+          "cursor_offset": 84,
+          "waits_consumed": 2,
+          "widget": "0x202ec30",
+          "speaker_cache_matches": [],
+          "screenshot": "099-script.1063.005.png"
+        },
+        {
+          "id": "script.1063.006",
+          "phase": "demo-crops",
+          "cursor_offset": 50,
+          "waits_consumed": 1,
+          "widget": "0x202ec30",
+          "speaker_cache_matches": [],
+          "screenshot": "100-script.1063.006.png"
+        },
+        {
+          "id": "script.1063.006",
+          "phase": "demo-crops",
+          "cursor_offset": 112,
+          "waits_consumed": 2,
+          "widget": "0x202ec30",
+          "speaker_cache_matches": [],
+          "screenshot": "101-script.1063.006.png"
+        },
+        {
+          "id": "script.1063.007",
+          "phase": "demo-crops",
+          "cursor_offset": 54,
+          "waits_consumed": 1,
+          "widget": "0x202ec30",
+          "speaker_cache_matches": [],
+          "screenshot": "102-script.1063.007.png"
+        },
+        {
+          "id": "script.1063.007",
+          "phase": "demo-crops",
+          "cursor_offset": 118,
+          "waits_consumed": 2,
+          "widget": "0x202ec30",
+          "speaker_cache_matches": [],
+          "screenshot": "103-script.1063.007.png"
+        },
+        {
+          "id": "script.1063.008",
+          "phase": "demo-crops",
+          "cursor_offset": 69,
+          "waits_consumed": 1,
+          "widget": "0x202ec30",
+          "speaker_cache_matches": [],
+          "screenshot": "104-script.1063.008.png"
+        },
+        {
+          "id": "script.1063.009",
+          "phase": "demo-crops",
+          "cursor_offset": 67,
+          "waits_consumed": 1,
+          "widget": "0x202ec30",
+          "speaker_cache_matches": [],
+          "screenshot": "105-script.1063.009.png"
+        },
+        {
+          "id": "script.1063.009",
+          "phase": "demo-crops",
+          "cursor_offset": 84,
+          "waits_consumed": 2,
+          "widget": "0x202ec30",
+          "speaker_cache_matches": [],
+          "screenshot": "106-script.1063.009.png"
+        },
+        {
+          "id": "script.1063.010",
+          "phase": "demo-crops",
+          "cursor_offset": 73,
+          "waits_consumed": 1,
+          "widget": "0x202ec30",
+          "speaker_cache_matches": [],
+          "screenshot": "107-script.1063.010.png"
+        },
+        {
+          "id": "script.1063.010",
+          "phase": "demo-crops",
+          "cursor_offset": 107,
+          "waits_consumed": 2,
+          "widget": "0x202ec30",
+          "speaker_cache_matches": [],
+          "screenshot": "108-script.1063.010.png"
+        },
+        {
+          "id": "script.1063.011",
+          "phase": "demo-crops",
+          "cursor_offset": 81,
+          "waits_consumed": 1,
+          "widget": "0x202ec30",
+          "speaker_cache_matches": [],
+          "screenshot": "109-script.1063.011.png"
+        },
+        {
+          "id": "script.1063.011",
+          "phase": "demo-crops",
+          "cursor_offset": 129,
+          "waits_consumed": 2,
+          "widget": "0x202ec30",
+          "speaker_cache_matches": [],
+          "screenshot": "110-script.1063.011.png"
+        },
+        {
+          "id": "script.1063.012",
+          "phase": "demo-crops",
+          "cursor_offset": 72,
+          "waits_consumed": 1,
+          "widget": "0x202ec30",
+          "speaker_cache_matches": [],
+          "screenshot": "111-script.1063.012.png"
+        },
+        {
+          "id": "script.1063.013",
+          "phase": "demo-crops",
+          "cursor_offset": 45,
+          "waits_consumed": 1,
+          "widget": "0x202ec30",
+          "speaker_cache_matches": [],
+          "screenshot": "112-script.1063.013.png"
+        },
+        {
+          "id": "script.1063.013",
+          "phase": "demo-crops",
+          "cursor_offset": 90,
+          "waits_consumed": 2,
+          "widget": "0x202ec30",
+          "speaker_cache_matches": [],
+          "screenshot": "113-script.1063.013.png"
+        },
+        {
+          "id": "script.1063.014",
+          "phase": "demo-crops",
+          "cursor_offset": 63,
+          "waits_consumed": 1,
+          "widget": "0x202ec30",
+          "speaker_cache_matches": [],
+          "screenshot": "114-script.1063.014.png"
+        },
+        {
+          "id": "script.1063.015",
+          "phase": "demo-crops",
+          "cursor_offset": 82,
+          "waits_consumed": 1,
+          "widget": "0x202ec30",
+          "speaker_cache_matches": [],
+          "screenshot": "115-script.1063.015.png"
+        },
+        {
+          "id": "script.1063.016",
+          "phase": "demo-crops",
+          "cursor_offset": 37,
+          "waits_consumed": 1,
+          "widget": "0x202ec30",
+          "speaker_cache_matches": [],
+          "screenshot": "116-script.1063.016.png"
+        },
+        {
+          "id": "script.1063.017",
+          "phase": "demo-crops",
+          "cursor_offset": 48,
+          "waits_consumed": 1,
+          "widget": "0x202ec30",
+          "speaker_cache_matches": [],
+          "screenshot": "117-script.1063.017.png"
+        },
+        {
+          "id": "script.1063.018",
+          "phase": "demo-crops",
+          "cursor_offset": 78,
+          "waits_consumed": 1,
+          "widget": "0x202ec30",
+          "speaker_cache_matches": [],
+          "screenshot": "118-script.1063.018.png"
+        },
+        {
+          "id": "script.1061.000",
+          "phase": "demo-chickens",
+          "cursor_offset": 55,
+          "waits_consumed": 1,
+          "widget": "0x202ee10",
+          "speaker_cache_matches": [],
+          "screenshot": "119-script.1061.000.png"
+        },
+        {
+          "id": "script.1061.000",
+          "phase": "demo-chickens",
+          "cursor_offset": 121,
+          "waits_consumed": 2,
+          "widget": "0x202ee10",
+          "speaker_cache_matches": [],
+          "screenshot": "120-script.1061.000.png"
+        },
+        {
+          "id": "script.1061.001",
+          "phase": "demo-chickens",
+          "cursor_offset": 58,
+          "waits_consumed": 1,
+          "widget": "0x202ee10",
+          "speaker_cache_matches": [],
+          "screenshot": "121-script.1061.001.png"
+        },
+        {
+          "id": "script.1061.001",
+          "phase": "demo-chickens",
+          "cursor_offset": 111,
+          "waits_consumed": 2,
+          "widget": "0x202ee10",
+          "speaker_cache_matches": [],
+          "screenshot": "122-script.1061.001.png"
+        },
+        {
+          "id": "script.1061.002",
+          "phase": "demo-chickens",
+          "cursor_offset": 86,
+          "waits_consumed": 1,
+          "widget": "0x202ee10",
+          "speaker_cache_matches": [],
+          "screenshot": "123-script.1061.002.png"
+        },
+        {
+          "id": "script.1061.003",
+          "phase": "demo-chickens",
+          "cursor_offset": 56,
+          "waits_consumed": 1,
+          "widget": "0x202ee10",
+          "speaker_cache_matches": [],
+          "screenshot": "124-script.1061.003.png"
+        },
+        {
+          "id": "script.1061.004",
+          "phase": "demo-chickens",
+          "cursor_offset": 68,
+          "waits_consumed": 1,
+          "widget": "0x202ee10",
+          "speaker_cache_matches": [],
+          "screenshot": "125-script.1061.004.png"
+        },
+        {
+          "id": "script.1061.004",
+          "phase": "demo-chickens",
+          "cursor_offset": 96,
+          "waits_consumed": 2,
+          "widget": "0x202ee10",
+          "speaker_cache_matches": [],
+          "screenshot": "126-script.1061.004.png"
+        },
+        {
+          "id": "script.1061.005",
+          "phase": "demo-chickens",
+          "cursor_offset": 46,
+          "waits_consumed": 1,
+          "widget": "0x202ee10",
+          "speaker_cache_matches": [],
+          "screenshot": "127-script.1061.005.png"
+        },
+        {
+          "id": "script.1061.006",
+          "phase": "demo-chickens",
+          "cursor_offset": 61,
+          "waits_consumed": 1,
+          "widget": "0x202ee10",
+          "speaker_cache_matches": [],
+          "screenshot": "128-script.1061.006.png"
+        },
+        {
+          "id": "script.1061.007",
+          "phase": "demo-chickens",
+          "cursor_offset": 78,
+          "waits_consumed": 1,
+          "widget": "0x202ee10",
+          "speaker_cache_matches": [],
+          "screenshot": "129-script.1061.007.png"
+        },
+        {
+          "id": "script.1061.008",
+          "phase": "demo-chickens",
+          "cursor_offset": 64,
+          "waits_consumed": 1,
+          "widget": "0x202ee10",
+          "speaker_cache_matches": [],
+          "screenshot": "130-script.1061.008.png"
+        },
+        {
+          "id": "script.1061.008",
+          "phase": "demo-chickens",
+          "cursor_offset": 122,
+          "waits_consumed": 2,
+          "widget": "0x202ee10",
+          "speaker_cache_matches": [],
+          "screenshot": "131-script.1061.008.png"
+        },
+        {
+          "id": "script.1061.009",
+          "phase": "demo-chickens",
+          "cursor_offset": 70,
+          "waits_consumed": 1,
+          "widget": "0x202ee10",
+          "speaker_cache_matches": [],
+          "screenshot": "132-script.1061.009.png"
+        },
+        {
+          "id": "script.1061.010",
+          "phase": "demo-chickens",
+          "cursor_offset": 27,
+          "waits_consumed": 1,
+          "widget": "0x202ee10",
+          "speaker_cache_matches": [],
+          "screenshot": "133-script.1061.010.png"
+        },
+        {
+          "id": "script.1061.011",
+          "phase": "demo-chickens",
+          "cursor_offset": 32,
+          "waits_consumed": 1,
+          "widget": "0x202ee10",
+          "speaker_cache_matches": [],
+          "screenshot": "134-script.1061.011.png"
+        },
+        {
+          "id": "script.1061.012",
+          "phase": "demo-chickens",
+          "cursor_offset": 69,
+          "waits_consumed": 1,
+          "widget": "0x202ee10",
+          "speaker_cache_matches": [],
+          "screenshot": "135-script.1061.012.png"
+        },
+        {
+          "id": "script.1061.013",
+          "phase": "demo-chickens",
+          "cursor_offset": 16,
+          "waits_consumed": 1,
+          "widget": "0x202ee10",
+          "speaker_cache_matches": [],
+          "screenshot": "136-script.1061.013.png"
+        },
+        {
+          "id": "script.1061.014",
+          "phase": "demo-chickens",
+          "cursor_offset": 28,
+          "waits_consumed": 1,
+          "widget": "0x202ee10",
+          "speaker_cache_matches": [],
+          "screenshot": "137-script.1061.014.png"
+        },
+        {
+          "id": "script.1061.015",
+          "phase": "demo-chickens",
+          "cursor_offset": 48,
+          "waits_consumed": 1,
+          "widget": "0x202ee10",
+          "speaker_cache_matches": [],
+          "screenshot": "138-script.1061.015.png"
+        },
+        {
+          "id": "script.1061.016",
+          "phase": "demo-chickens",
+          "cursor_offset": 47,
+          "waits_consumed": 1,
+          "widget": "0x202ee10",
+          "speaker_cache_matches": [],
+          "screenshot": "139-script.1061.016.png"
+        },
+        {
+          "id": "script.1061.017",
+          "phase": "demo-chickens",
+          "cursor_offset": 34,
+          "waits_consumed": 1,
+          "widget": "0x202ee10",
+          "speaker_cache_matches": [],
+          "screenshot": "140-script.1061.017.png"
+        },
+        {
+          "id": "script.1061.018",
+          "phase": "demo-chickens",
+          "cursor_offset": 49,
+          "waits_consumed": 1,
+          "widget": "0x202ee10",
+          "speaker_cache_matches": [],
+          "screenshot": "141-script.1061.018.png"
+        },
+        {
+          "id": "script.1061.018",
+          "phase": "demo-chickens",
+          "cursor_offset": 72,
+          "waits_consumed": 2,
+          "widget": "0x202ee10",
+          "speaker_cache_matches": [],
+          "screenshot": "142-script.1061.018.png"
+        },
+        {
+          "id": "script.1061.018",
+          "phase": "demo-chickens",
+          "cursor_offset": 126,
+          "waits_consumed": 3,
+          "widget": "0x202ee10",
+          "speaker_cache_matches": [],
+          "screenshot": "143-script.1061.018.png"
+        },
+        {
+          "id": "script.1060.000",
+          "phase": "demo-cows",
+          "cursor_offset": 53,
+          "waits_consumed": 1,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "144-script.1060.000.png"
+        },
+        {
+          "id": "script.1060.000",
+          "phase": "demo-cows",
+          "cursor_offset": 118,
+          "waits_consumed": 2,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "145-script.1060.000.png"
+        },
+        {
+          "id": "script.1060.001",
+          "phase": "demo-cows",
+          "cursor_offset": 57,
+          "waits_consumed": 1,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "146-script.1060.001.png"
+        },
+        {
+          "id": "script.1060.001",
+          "phase": "demo-cows",
+          "cursor_offset": 110,
+          "waits_consumed": 2,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "147-script.1060.001.png"
+        },
+        {
+          "id": "script.1060.002",
+          "phase": "demo-cows",
+          "cursor_offset": 86,
+          "waits_consumed": 1,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "148-script.1060.002.png"
+        },
+        {
+          "id": "script.1060.003",
+          "phase": "demo-cows",
+          "cursor_offset": 65,
+          "waits_consumed": 1,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "149-script.1060.003.png"
+        },
+        {
+          "id": "script.1060.004",
+          "phase": "demo-cows",
+          "cursor_offset": 33,
+          "waits_consumed": 1,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "150-script.1060.004.png"
+        },
+        {
+          "id": "script.1060.005",
+          "phase": "demo-cows",
+          "cursor_offset": 58,
+          "waits_consumed": 1,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "151-script.1060.005.png"
+        },
+        {
+          "id": "script.1060.006",
+          "phase": "demo-cows",
+          "cursor_offset": 51,
+          "waits_consumed": 1,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "152-script.1060.006.png"
+        },
+        {
+          "id": "script.1060.007",
+          "phase": "demo-cows",
+          "cursor_offset": 64,
+          "waits_consumed": 1,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "153-script.1060.007.png"
+        },
+        {
+          "id": "script.1060.008",
+          "phase": "demo-cows",
+          "cursor_offset": 73,
+          "waits_consumed": 1,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "154-script.1060.008.png"
+        },
+        {
+          "id": "script.1060.008",
+          "phase": "demo-cows",
+          "cursor_offset": 94,
+          "waits_consumed": 2,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "155-script.1060.008.png"
+        },
+        {
+          "id": "script.1060.009",
+          "phase": "demo-cows",
+          "cursor_offset": 64,
+          "waits_consumed": 1,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "156-script.1060.009.png"
+        },
+        {
+          "id": "script.1060.009",
+          "phase": "demo-cows",
+          "cursor_offset": 122,
+          "waits_consumed": 2,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "157-script.1060.009.png"
+        },
+        {
+          "id": "script.1060.010",
+          "phase": "demo-cows",
+          "cursor_offset": 70,
+          "waits_consumed": 1,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "158-script.1060.010.png"
+        },
+        {
+          "id": "script.1060.011",
+          "phase": "demo-cows",
+          "cursor_offset": 27,
+          "waits_consumed": 1,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "159-script.1060.011.png"
+        },
+        {
+          "id": "script.1060.012",
+          "phase": "demo-cows",
+          "cursor_offset": 75,
+          "waits_consumed": 1,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "160-script.1060.012.png"
+        },
+        {
+          "id": "script.1060.012",
+          "phase": "demo-cows",
+          "cursor_offset": 101,
+          "waits_consumed": 2,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "161-script.1060.012.png"
+        },
+        {
+          "id": "script.1060.013",
+          "phase": "demo-cows",
+          "cursor_offset": 98,
+          "waits_consumed": 1,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "162-script.1060.013.png"
+        },
+        {
+          "id": "script.1060.014",
+          "phase": "demo-cows",
+          "cursor_offset": 25,
+          "waits_consumed": 1,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "163-script.1060.014.png"
+        },
+        {
+          "id": "script.1060.015",
+          "phase": "demo-cows",
+          "cursor_offset": 80,
+          "waits_consumed": 1,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "164-script.1060.015.png"
+        },
+        {
+          "id": "script.1060.016",
+          "phase": "demo-cows",
+          "cursor_offset": 70,
+          "waits_consumed": 1,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "165-script.1060.016.png"
+        },
+        {
+          "id": "script.1060.017",
+          "phase": "demo-cows",
+          "cursor_offset": 34,
+          "waits_consumed": 1,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "166-script.1060.017.png"
+        },
+        {
+          "id": "script.1060.018",
+          "phase": "demo-cows",
+          "cursor_offset": 47,
+          "waits_consumed": 1,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "167-script.1060.018.png"
+        },
+        {
+          "id": "script.1060.019",
+          "phase": "demo-cows",
+          "cursor_offset": 67,
+          "waits_consumed": 1,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "168-script.1060.019.png"
+        },
+        {
+          "id": "script.1060.019",
+          "phase": "demo-cows",
+          "cursor_offset": 86,
+          "waits_consumed": 2,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "169-script.1060.019.png"
+        },
+        {
+          "id": "script.1060.020",
+          "phase": "demo-cows",
+          "cursor_offset": 64,
+          "waits_consumed": 1,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "170-script.1060.020.png"
+        },
+        {
+          "id": "script.1060.020",
+          "phase": "demo-cows",
+          "cursor_offset": 123,
+          "waits_consumed": 2,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "171-script.1060.020.png"
+        },
+        {
+          "id": "script.1062.000",
+          "phase": "demo-sheep",
+          "cursor_offset": 53,
+          "waits_consumed": 1,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "172-script.1062.000.png"
+        },
+        {
+          "id": "script.1062.000",
+          "phase": "demo-sheep",
+          "cursor_offset": 118,
+          "waits_consumed": 2,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "173-script.1062.000.png"
+        },
+        {
+          "id": "script.1062.001",
+          "phase": "demo-sheep",
+          "cursor_offset": 58,
+          "waits_consumed": 1,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "174-script.1062.001.png"
+        },
+        {
+          "id": "script.1062.001",
+          "phase": "demo-sheep",
+          "cursor_offset": 112,
+          "waits_consumed": 2,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "175-script.1062.001.png"
+        },
+        {
+          "id": "script.1062.002",
+          "phase": "demo-sheep",
+          "cursor_offset": 86,
+          "waits_consumed": 1,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "176-script.1062.002.png"
+        },
+        {
+          "id": "script.1062.003",
+          "phase": "demo-sheep",
+          "cursor_offset": 66,
+          "waits_consumed": 1,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "177-script.1062.003.png"
+        },
+        {
+          "id": "script.1062.004",
+          "phase": "demo-sheep",
+          "cursor_offset": 34,
+          "waits_consumed": 1,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "178-script.1062.004.png"
+        },
+        {
+          "id": "script.1062.005",
+          "phase": "demo-sheep",
+          "cursor_offset": 56,
+          "waits_consumed": 1,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "179-script.1062.005.png"
+        },
+        {
+          "id": "script.1062.006",
+          "phase": "demo-sheep",
+          "cursor_offset": 57,
+          "waits_consumed": 1,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "180-script.1062.006.png"
+        },
+        {
+          "id": "script.1062.007",
+          "phase": "demo-sheep",
+          "cursor_offset": 79,
+          "waits_consumed": 1,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "181-script.1062.007.png"
+        },
+        {
+          "id": "script.1062.008",
+          "phase": "demo-sheep",
+          "cursor_offset": 92,
+          "waits_consumed": 1,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "182-script.1062.008.png"
+        },
+        {
+          "id": "script.1062.009",
+          "phase": "demo-sheep",
+          "cursor_offset": 65,
+          "waits_consumed": 1,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "183-script.1062.009.png"
+        },
+        {
+          "id": "script.1062.009",
+          "phase": "demo-sheep",
+          "cursor_offset": 123,
+          "waits_consumed": 2,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "184-script.1062.009.png"
+        },
+        {
+          "id": "script.1062.010",
+          "phase": "demo-sheep",
+          "cursor_offset": 71,
+          "waits_consumed": 1,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "185-script.1062.010.png"
+        },
+        {
+          "id": "script.1062.011",
+          "phase": "demo-sheep",
+          "cursor_offset": 28,
+          "waits_consumed": 1,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "186-script.1062.011.png"
+        },
+        {
+          "id": "script.1062.012",
+          "phase": "demo-sheep",
+          "cursor_offset": 77,
+          "waits_consumed": 1,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "187-script.1062.012.png"
+        },
+        {
+          "id": "script.1062.012",
+          "phase": "demo-sheep",
+          "cursor_offset": 103,
+          "waits_consumed": 2,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "188-script.1062.012.png"
+        },
+        {
+          "id": "script.1062.013",
+          "phase": "demo-sheep",
+          "cursor_offset": 123,
+          "waits_consumed": 1,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "189-script.1062.013.png"
+        },
+        {
+          "id": "script.1062.014",
+          "phase": "demo-sheep",
+          "cursor_offset": 26,
+          "waits_consumed": 1,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "190-script.1062.014.png"
+        },
+        {
+          "id": "script.1062.015",
+          "phase": "demo-sheep",
+          "cursor_offset": 75,
+          "waits_consumed": 1,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "191-script.1062.015.png"
+        },
+        {
+          "id": "script.1062.016",
+          "phase": "demo-sheep",
+          "cursor_offset": 70,
+          "waits_consumed": 1,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "192-script.1062.016.png"
+        },
+        {
+          "id": "script.1062.017",
+          "phase": "demo-sheep",
+          "cursor_offset": 34,
+          "waits_consumed": 1,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "193-script.1062.017.png"
+        },
+        {
+          "id": "script.1062.018",
+          "phase": "demo-sheep",
+          "cursor_offset": 48,
+          "waits_consumed": 1,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "194-script.1062.018.png"
+        },
+        {
+          "id": "script.1062.019",
+          "phase": "demo-sheep",
+          "cursor_offset": 68,
+          "waits_consumed": 1,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "195-script.1062.019.png"
+        },
+        {
+          "id": "script.1062.019",
+          "phase": "demo-sheep",
+          "cursor_offset": 87,
+          "waits_consumed": 2,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "196-script.1062.019.png"
+        },
+        {
+          "id": "script.1062.020",
+          "phase": "demo-sheep",
+          "cursor_offset": 65,
+          "waits_consumed": 1,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "197-script.1062.020.png"
+        },
+        {
+          "id": "script.1062.020",
+          "phase": "demo-sheep",
+          "cursor_offset": 125,
+          "waits_consumed": 2,
+          "widget": "0x202ed48",
+          "speaker_cache_matches": [],
+          "screenshot": "198-script.1062.020.png"
+        }
+      ],
+      "emulator_error_count": 0,
+      "limitations": [
+        "Choice labels are captured in menu screenshots; the dialogue reader does not retain their pointers",
+        "Function-renderer probes are not a natural encounter or a real-hardware playthrough"
+      ]
+    }
+  },
+  "additional_emulator": {
+    "version": "0.11-dev",
+    "commit": "fd9dc5c2cbf234365068855851107e762fc6211b",
+    "report": {
+      "target_sha256": "2886f416b61ba7fb1b913e1d1a81d2a6d6721d637711cf596b38e4268a8a062d",
+      "status": "passed",
+      "translated_records": 145,
+      "isolated_string_renderer_lines_with_guards": 460,
+      "native_name_fallback_cases": 4,
+      "speaker_cache_names_witnessed": [
+        "father",
+        "girl",
+        "mother",
+        "old_man",
+        "unknown"
+      ],
+      "player_name": "AAAAAAAAAAAA",
+      "normal_replay_frames": 58751,
+      "normal_dialogue_records_witnessed": [
+        "intro.flashback.dialogue.00",
+        "intro.flashback.dialogue.01",
+        "intro.flashback.dialogue.02",
+        "intro.flashback.dialogue.03",
+        "intro.flashback.dialogue.04",
+        "intro.flashback.dialogue.05",
+        "intro.flashback.dialogue.06",
+        "intro.flashback.dialogue.07",
+        "intro.flashback.dialogue.09",
+        "intro.flashback.dialogue.10",
+        "intro.flashback.dialogue.11",
+        "intro.flashback.dialogue.14",
+        "intro.flashback.dialogue.15",
+        "intro.flashback.dialogue.16",
+        "intro.flashback.dialogue.17",
+        "intro.flashback.dialogue.18",
+        "intro.flashback.dialogue.19",
+        "intro.flashback.dialogue.20",
+        "intro.flashback.dialogue.21",
+        "intro.flashback.dialogue.22",
+        "intro.flashback.dialogue.23",
+        "intro.flashback.dialogue.24",
+        "intro.flashback.dialogue.25",
+        "script.0737.000",
+        "script.0737.001",
+        "script.0737.004",
+        "script.0737.009",
+        "script.0737.010",
+        "script.0737.011",
+        "script.0737.012",
+        "script.0737.013",
+        "script.0737.014",
+        "script.0737.015",
+        "script.0737.016",
+        "script.0737.017",
+        "script.0737.018",
+        "script.0737.019",
+        "script.0737.020",
+        "script.0737.021",
+        "script.0867.000",
+        "script.0867.001",
+        "script.0867.002",
+        "script.0867.003",
+        "script.0867.004",
+        "script.0867.005",
+        "script.0867.006",
+        "script.0867.007",
+        "script.0867.008",
+        "script.0867.009",
+        "script.1060.000",
+        "script.1060.001",
+        "script.1060.002",
+        "script.1060.003",
+        "script.1060.004",
+        "script.1060.005",
+        "script.1060.006",
+        "script.1060.007",
+        "script.1060.008",
+        "script.1060.009",
+        "script.1060.010",
+        "script.1060.011",
+        "script.1060.012",
+        "script.1060.013",
+        "script.1060.014",
+        "script.1060.015",
+        "script.1060.016",
+        "script.1060.017",
+        "script.1060.018",
+        "script.1060.019",
+        "script.1060.020",
+        "script.1061.000",
+        "script.1061.001",
+        "script.1061.002",
+        "script.1061.003",
+        "script.1061.004",
+        "script.1061.005",
+        "script.1061.006",
+        "script.1061.007",
+        "script.1061.008",
+        "script.1061.009",
+        "script.1061.010",
+        "script.1061.011",
+        "script.1061.012",
+        "script.1061.013",
+        "script.1061.014",
+        "script.1061.015",
+        "script.1061.016",
+        "script.1061.017",
+        "script.1061.018",
+        "script.1062.000",
+        "script.1062.001",
+        "script.1062.002",
+        "script.1062.003",
+        "script.1062.004",
+        "script.1062.005",
+        "script.1062.006",
+        "script.1062.007",
+        "script.1062.008",
+        "script.1062.009",
+        "script.1062.010",
+        "script.1062.011",
+        "script.1062.012",
+        "script.1062.013",
+        "script.1062.014",
+        "script.1062.015",
+        "script.1062.016",
+        "script.1062.017",
+        "script.1062.018",
+        "script.1062.019",
+        "script.1062.020",
+        "script.1063.000",
+        "script.1063.001",
+        "script.1063.002",
+        "script.1063.003",
+        "script.1063.004",
+        "script.1063.005",
+        "script.1063.006",
+        "script.1063.007",
+        "script.1063.008",
+        "script.1063.009",
+        "script.1063.010",
+        "script.1063.011",
+        "script.1063.012",
+        "script.1063.013",
+        "script.1063.014",
+        "script.1063.015",
+        "script.1063.016",
+        "script.1063.017",
+        "script.1063.018"
+      ],
+      "menu_records_in_choice_screenshots": [
+        "script.0737.002",
+        "script.0737.003",
+        "script.0737.005",
+        "script.0737.006",
+        "script.0737.007",
+        "script.0737.008",
+        "script.1059.000",
+        "script.1059.001",
+        "script.1059.002",
+        "script.1059.003",
+        "script.1059.004"
+      ],
+      "not_witnessed_by_dialogue_reader": [
+        "script.0737.002",
+        "script.0737.003",
+        "script.0737.005",
+        "script.0737.006",
+        "script.0737.007",
+        "script.0737.008",
+        "script.1059.000",
+        "script.1059.001",
+        "script.1059.002",
+        "script.1059.003",
+        "script.1059.004"
+      ],
+      "choices": [
+        "first instruction: No",
+        "first instruction: Yes; four topic labels rendered",
+        {
+          "topic": "crops",
+          "new_records_witnessed": [
+            "script.1063.000",
+            "script.1063.001",
+            "script.1063.002",
+            "script.1063.003",
+            "script.1063.004",
+            "script.1063.005",
+            "script.1063.006",
+            "script.1063.007",
+            "script.1063.008",
+            "script.1063.009",
+            "script.1063.010",
+            "script.1063.011",
+            "script.1063.012",
+            "script.1063.013",
+            "script.1063.014",
+            "script.1063.015",
+            "script.1063.016",
+            "script.1063.017",
+            "script.1063.018"
+          ]
+        },
+        {
+          "topic": "chickens",
+          "new_records_witnessed": [
+            "script.1061.000",
+            "script.1061.001",
+            "script.1061.002",
+            "script.1061.003",
+            "script.1061.004",
+            "script.1061.005",
+            "script.1061.006",
+            "script.1061.007",
+            "script.1061.008",
+            "script.1061.009",
+            "script.1061.010",
+            "script.1061.011",
+            "script.1061.012",
+            "script.1061.013",
+            "script.1061.014",
+            "script.1061.015",
+            "script.1061.016",
+            "script.1061.017",
+            "script.1061.018"
+          ]
+        },
+        {
+          "topic": "cows",
+          "new_records_witnessed": [
+            "script.1060.000",
+            "script.1060.001",
+            "script.1060.002",
+            "script.1060.003",
+            "script.1060.004",
+            "script.1060.005",
+            "script.1060.006",
+            "script.1060.007",
+            "script.1060.008",
+            "script.1060.009",
+            "script.1060.010",
+            "script.1060.011",
+            "script.1060.012",
+            "script.1060.013",
+            "script.1060.014",
+            "script.1060.015",
+            "script.1060.016",
+            "script.1060.017",
+            "script.1060.018",
+            "script.1060.019",
+            "script.1060.020"
+          ]
+        },
+        {
+          "topic": "sheep",
+          "new_records_witnessed": [
+            "script.1062.000",
+            "script.1062.001",
+            "script.1062.002",
+            "script.1062.003",
+            "script.1062.004",
+            "script.1062.005",
+            "script.1062.006",
+            "script.1062.007",
+            "script.1062.008",
+            "script.1062.009",
+            "script.1062.010",
+            "script.1062.011",
+            "script.1062.012",
+            "script.1062.013",
+            "script.1062.014",
+            "script.1062.015",
+            "script.1062.016",
+            "script.1062.017",
+            "script.1062.018",
+            "script.1062.019",
+            "script.1062.020"
+          ]
+        }
+      ],
+      "emulator_error_count": 0,
+      "limitations": [
+        "Choice labels are captured in menu screenshots; the dialogue reader does not retain their pointers",
+        "Function-renderer probes are not a natural encounter or a real-hardware playthrough"
+      ]
+    },
+    "page_trace_matches_primary": true,
+    "page_trace_sha256": "6ea2e1bba702c96cf66b42ed4ecb76dfad3150b3c82b85449e038e17837a1bdd"
+  },
+  "speaker_cache": {
+    "source_site": 330576,
+    "hook_offset": 8486972,
+    "hook_size": 296,
+    "cache_size_per_name": 768,
+    "entries": [
+      {
+        "string_address": 142642200,
+        "cache_address": 142700860
+      },
+      {
+        "string_address": 142642204,
+        "cache_address": 142701628
+      },
+      {
+        "string_address": 142642208,
+        "cache_address": 142702396
+      },
+      {
+        "string_address": 142642220,
+        "cache_address": 142703164
+      },
+      {
+        "string_address": 142642224,
+        "cache_address": 142703932
+      }
+    ],
+    "vram_allocation_changed": false,
+    "native_fallback": true
+  },
+  "visual_review": "Main story scenes, family labels, menus and guide samples reviewed; not every captured frame manually reviewed."
+}

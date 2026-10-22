@@ -219,10 +219,24 @@ def main():
             patched.press(1,settle=180)
         patched.press(1,settle=200)     # final new-game confirmation
         patched.screenshot(args.output_dir/"intro-start.png")
-        for i in range(150):
+        # Translation changes reveal timing. Stop at the real final intro wait;
+        # extra A presses in the house can reopen TV text and block Start/Diary.
+        from intro_smoke import widgets
+        scene = parse_script(target,u32(target,SCRIPT_TABLE+867*4)-ROM_BASE)
+        transition = scene['strings'][9]
+        transition_start = ROM_BASE+transition['address']
+        transition_end = transition_start+len(transition['raw'])
+        for i in range(200):
             patched.press(1,settle=120)
             if i in (0,1,2,3,4,5,6,8,10,12,15):
                 patched.screenshot(args.output_dir/f"intro-{i:03d}.png")
+            if any(state==5 and transition_start<=pointer<=transition_end
+                   for _,state,pointer,_ in widgets(patched)):
+                patched.screenshot(args.output_dir/'intro-next-day.png')
+                patched.press(1,settle=360)
+                break
+        else:
+            raise AssertionError('intro did not reach the next-day transition')
         patched.press(8,settle=120)
         for index in range(7):
             patched.frames(1)

@@ -106,7 +106,7 @@ Chưa lập đầy đủ ý nghĩa mọi variable ID. `{RAW:8140}` thường là
 rộng theo CP932 nhưng vẫn giữ nguyên byte thay vì thay thành dấu cách ASCII.
 Không diễn giải byte `FF` thành ký tự Private Use của Python CP932.
 
-Đã kiểm tra round trip cho 9.093 bản ghi: 9.092 C-string qua codec lossless;
+Đã kiểm tra round trip cho 9.121 bản ghi: 9.120 C-string qua codec lossless;
 riêng tiêu đề Birthday là 8 mã glyph `u16le`, được kiểm tra theo đúng định dạng.
 Importer yêu cầu token và thứ tự token giống hoàn toàn nguồn. Phần tử `RAW`
 không được xóa/đổi để làm validator qua. Văn bản thường được chuẩn hóa NFC.
@@ -169,7 +169,7 @@ qua 180 frame, cả hai trạng thái save. Có kiểm tra mũi tên gốc, Star
 nhân vật, Continue vào load menu, load SRAM sau cold boot và ảnh thực tế.
 OAM Y canvas là 110..112 thay 112..114; vị trí và chuyển động nét vẫn như cũ.
 Không tuyên bố toàn bộ framebuffer đồng nhất từng frame vì blink nền có thể
-khác pha. Hai artwork không cộng vào 409 bản ghi dịch/9.093 mục catalog.
+khác pha. Hai artwork không cộng vào 544 bản ghi dịch/9.121 mục catalog.
 
 ### Căn con trỏ theo viền chữ Việt
 
@@ -192,7 +192,7 @@ OAM/VRAM, đổi trái/phải, Start tạo game mới và Continue nạp SRAM.
 
 ## Phân loại còn thiếu
 
-9.093 là số bản ghi trong **các cấu trúc đã hỗ trợ**, không phải khẳng định đã tìm
+9.121 là số bản ghi trong **các cấu trúc đã hỗ trợ**, không phải khẳng định đã tìm
 hết mọi chữ game có thể hiển thị. Script còn chứa TV, sách, sự kiện, menu chọn,
 lời NPC và hướng dẫn; phần lớn chưa nối được đến speaker/call-site, nên giữ
 `script_string_unclassified`. Chưa dịch tự động nhóm này. Tên NPC, UI static
@@ -204,3 +204,15 @@ ngoài luồng tạo game mới, đồ họa chữ và lịch/đồng hồ cần
 Adapter [new_game_ui.py](../tools/new_game_ui.py) hỗ trợ 19 C-string có con trỏ,
 4 hàng mùa cố định và một tiêu đề bằng bảng glyph. Xem [NEW_GAME_UI.md](NEW_GAME_UI.md)
 về địa chỉ xác minh, giới hạn byte trước khi render, cache OBJ và ô nền tổng kết.
+
+## Intro và hồi tưởng
+
+[intro_text.py](../tools/intro_text.py) hỗ trợ 28 C-string có literal pointer
+trong `func_0805F5F4`, gồm 23 lời thoại và 5 nhãn người nói. Trích xuất thêm
+28 mục này; phân loại 117 mục SCR đã có thành intro/hướng dẫn có context xác minh.
+Không quét ASCII rồi coi mọi kết quả là chuỗi có thể chèn.
+
+Nhãn người nói gốc bị chia nhóm **4 byte**, không phải 4 ký tự. Hook tại
+`0x50B50` chỉ xử lý các pointer nhãn intro đã chuyển vùng, copy cache đúng ba
+buffer gốc; tên khác đi nguyên đường native. Chi tiết, giới hạn menu 12 byte
+và kiểm chứng trong [INTRO_LOCALIZATION.md](INTRO_LOCALIZATION.md).

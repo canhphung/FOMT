@@ -50,7 +50,7 @@ Không tìm kiếm rồi thay thế mọi chuỗi ASCII trùng nội dung.
 
 ## Kiểm chứng
 
-67 pytest đạt, gồm pointer identity, byte nguồn, 43 ô cache, giới hạn byte/hàng
+Bộ kiểm thử hiện có 72 pytest đạt, gồm pointer identity, byte nguồn, 43 ô cache, giới hạn byte/hàng
 cố định, ô nền và bảo toàn bảng ký tự bàn phím. `tools/new_game_smoke.py` chạy
 cùng nút trên ROM gốc và ROM Việt từ cold boot, kiểm tra 8 trường hợp
 **4 mùa × ngày 1/30**, tên khác nhau cho nhân vật/trại/chó, xóa ký tự, tên dài
