@@ -119,6 +119,8 @@ và dự phòng 12 ô cho mỗi biến chưa biết chiều dài. Ngân sách t�
 là giới hạn dịch thử bảo thủ, **chưa chứng minh mọi cửa sổ đều có đủ 20 ô**.
 Chưa có kiểm tra tự động đầy đủ chiều dọc, mọi expansion, buffer copy theo byte
 hoặc mọi biến thể cửa sổ. Dấu/chữ dùng 2 byte nhưng rộng 1 ô.
+Font v2 dùng mask 8×16, giữ outline/bearing gốc và căn ASCII/Việt cùng baseline;
+cache 4bpp 229 glyph dùng đúng staging 128 byte của engine, không đổi advance 8px.
 
 ROM đầu ra 16 MiB. Mọi allocation mới bắt đầu từ offset `0x800000`, căn 4 byte;
 không tận dụng vùng FF bên trong ROM gốc bằng suy đoán. Chỉ sửa 8 byte prologue

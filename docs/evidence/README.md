@@ -10,8 +10,12 @@ Target ROM và bản vá được định danh trong `validation.json` và
 - `diary-saved.png`: game đã ghi save qua Diary, hiển thị thông tin ngày/người chơi.
 - `diary-load-menu.png`: core mới đã nhận SRAM sau boot và hiện cùng save.
 - `game-loaded.png`: xác nhận Load trong game, trở lại nhà ngày 2.
-- `vietnamese-font.png`: atlas từ bitmap nguồn 8×12, phóng 3 lần; **không phải
+- `vietnamese-font.png`: atlas từ mask v2 8×16, phóng 3 lần; **không phải
   ảnh game**. Nhãn EBxx đối chiếu với `localization/font/encoding.json`.
+- `font-spacing-comparison.png`: output renderer chuỗi mGBA trước (v1) và sau
+  (v2), phóng 3 lần. Dòng alphabet là chuỗi chẩn đoán, không phải lời thoại gốc.
+- `font-metrics.json`: baseline/bearing/advance đo từ ROM và cmap/metrics OTF
+  người dùng gửi. Không đóng gói file OTF; build dùng outline ROM.
 
 Ảnh đã được xem thủ công. Các phép so pixel/canary và kết quả pytest nằm trong
 `validation.json`. Probe hàm dùng trạng thái emulator cô lập và không được xem

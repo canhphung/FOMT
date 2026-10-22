@@ -1,0 +1,2871 @@
+{
+  "font_revision": "native-outline-aligned-v2",
+  "source_mask_rows": 16,
+  "baseline_row": 13,
+  "advance_pixels": 8,
+  "ascii_body_offset_y": 4,
+  "ascii_ink_bounds": {
+    " ": null,
+    "!": [
+      3,
+      4,
+      3,
+      13
+    ],
+    "\"": [
+      1,
+      4,
+      5,
+      7
+    ],
+    "#": [
+      1,
+      4,
+      5,
+      13
+    ],
+    "$": [
+      1,
+      4,
+      5,
+      14
+    ],
+    "%": [
+      1,
+      4,
+      5,
+      13
+    ],
+    "&": [
+      1,
+      5,
+      5,
+      13
+    ],
+    "'": [
+      1,
+      4,
+      2,
+      7
+    ],
+    "(": [
+      3,
+      4,
+      5,
+      14
+    ],
+    ")": [
+      1,
+      4,
+      3,
+      14
+    ],
+    "*": [
+      1,
+      5,
+      5,
+      13
+    ],
+    "+": [
+      1,
+      5,
+      5,
+      13
+    ],
+    ",": [
+      1,
+      11,
+      2,
+      14
+    ],
+    "-": [
+      1,
+      9,
+      5,
+      9
+    ],
+    ".": [
+      1,
+      12,
+      2,
+      13
+    ],
+    "/": [
+      1,
+      4,
+      5,
+      14
+    ],
+    "0": [
+      1,
+      4,
+      5,
+      13
+    ],
+    "1": [
+      2,
+      4,
+      3,
+      13
+    ],
+    "2": [
+      1,
+      4,
+      5,
+      13
+    ],
+    "3": [
+      1,
+      4,
+      5,
+      13
+    ],
+    "4": [
+      1,
+      4,
+      5,
+      13
+    ],
+    "5": [
+      1,
+      4,
+      5,
+      13
+    ],
+    "6": [
+      1,
+      4,
+      5,
+      13
+    ],
+    "7": [
+      1,
+      4,
+      5,
+      13
+    ],
+    "8": [
+      1,
+      4,
+      5,
+      13
+    ],
+    "9": [
+      1,
+      4,
+      5,
+      13
+    ],
+    ":": [
+      2,
+      6,
+      3,
+      12
+    ],
+    ";": [
+      2,
+      6,
+      3,
+      13
+    ],
+    "<": [
+      1,
+      5,
+      5,
+      13
+    ],
+    "=": [
+      1,
+      7,
+      5,
+      10
+    ],
+    ">": [
+      1,
+      5,
+      5,
+      13
+    ],
+    "?": [
+      1,
+      4,
+      5,
+      13
+    ],
+    "@": [
+      1,
+      4,
+      5,
+      14
+    ],
+    "A": [
+      1,
+      4,
+      5,
+      13
+    ],
+    "B": [
+      1,
+      4,
+      5,
+      13
+    ],
+    "C": [
+      1,
+      4,
+      5,
+      13
+    ],
+    "D": [
+      1,
+      4,
+      5,
+      13
+    ],
+    "E": [
+      1,
+      4,
+      5,
+      13
+    ],
+    "F": [
+      1,
+      4,
+      5,
+      13
+    ],
+    "G": [
+      1,
+      4,
+      5,
+      13
+    ],
+    "H": [
+      1,
+      4,
+      5,
+      13
+    ],
+    "I": [
+      3,
+      4,
+      3,
+      13
+    ],
+    "J": [
+      1,
+      4,
+      5,
+      13
+    ],
+    "K": [
+      1,
+      4,
+      5,
+      13
+    ],
+    "L": [
+      1,
+      4,
+      5,
+      13
+    ],
+    "M": [
+      1,
+      4,
+      5,
+      13
+    ],
+    "N": [
+      1,
+      4,
+      5,
+      13
+    ],
+    "O": [
+      1,
+      4,
+      5,
+      13
+    ],
+    "P": [
+      1,
+      4,
+      5,
+      13
+    ],
+    "Q": [
+      1,
+      4,
+      5,
+      13
+    ],
+    "R": [
+      1,
+      4,
+      5,
+      13
+    ],
+    "S": [
+      1,
+      4,
+      5,
+      13
+    ],
+    "T": [
+      1,
+      4,
+      5,
+      13
+    ],
+    "U": [
+      1,
+      4,
+      5,
+      13
+    ],
+    "V": [
+      1,
+      4,
+      5,
+      13
+    ],
+    "W": [
+      1,
+      4,
+      5,
+      13
+    ],
+    "X": [
+      1,
+      4,
+      5,
+      13
+    ],
+    "Y": [
+      1,
+      4,
+      5,
+      13
+    ],
+    "Z": [
+      1,
+      4,
+      5,
+      13
+    ],
+    "[": [
+      3,
+      4,
+      5,
+      14
+    ],
+    "\\": [
+      1,
+      5,
+      5,
+      13
+    ],
+    "]": [
+      1,
+      4,
+      3,
+      14
+    ],
+    "^": [
+      1,
+      4,
+      4,
+      5
+    ],
+    "_": [
+      1,
+      14,
+      5,
+      14
+    ],
+    "`": [
+      4,
+      4,
+      5,
+      7
+    ],
+    "a": [
+      1,
+      7,
+      5,
+      13
+    ],
+    "b": [
+      1,
+      4,
+      5,
+      13
+    ],
+    "c": [
+      1,
+      7,
+      5,
+      13
+    ],
+    "d": [
+      1,
+      4,
+      5,
+      13
+    ],
+    "e": [
+      1,
+      7,
+      5,
+      13
+    ],
+    "f": [
+      1,
+      4,
+      5,
+      13
+    ],
+    "g": [
+      1,
+      7,
+      5,
+      14
+    ],
+    "h": [
+      1,
+      4,
+      5,
+      13
+    ],
+    "i": [
+      3,
+      5,
+      3,
+      13
+    ],
+    "j": [
+      1,
+      5,
+      4,
+      14
+    ],
+    "k": [
+      1,
+      4,
+      5,
+      13
+    ],
+    "l": [
+      2,
+      4,
+      3,
+      13
+    ],
+    "m": [
+      1,
+      7,
+      5,
+      13
+    ],
+    "n": [
+      1,
+      7,
+      5,
+      13
+    ],
+    "o": [
+      1,
+      7,
+      5,
+      13
+    ],
+    "p": [
+      1,
+      7,
+      5,
+      14
+    ],
+    "q": [
+      1,
+      7,
+      5,
+      14
+    ],
+    "r": [
+      1,
+      7,
+      4,
+      13
+    ],
+    "s": [
+      1,
+      7,
+      5,
+      13
+    ],
+    "t": [
+      1,
+      5,
+      4,
+      13
+    ],
+    "u": [
+      1,
+      7,
+      5,
+      13
+    ],
+    "v": [
+      1,
+      7,
+      5,
+      13
+    ],
+    "w": [
+      1,
+      7,
+      5,
+      13
+    ],
+    "x": [
+      1,
+      7,
+      5,
+      13
+    ],
+    "y": [
+      1,
+      7,
+      5,
+      14
+    ],
+    "z": [
+      1,
+      7,
+      5,
+      13
+    ],
+    "{": [
+      2,
+      4,
+      5,
+      14
+    ],
+    "|": [
+      3,
+      4,
+      3,
+      14
+    ],
+    "}": [
+      1,
+      4,
+      4,
+      14
+    ],
+    "~": [
+      1,
+      4,
+      5,
+      4
+    ]
+  },
+  "vietnamese": [
+    {
+      "character": "À",
+      "base": "A",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Á",
+      "base": "A",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Â",
+      "base": "A",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ã",
+      "base": "A",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "È",
+      "base": "E",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "É",
+      "base": "E",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ê",
+      "base": "E",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ì",
+      "base": "I",
+      "inherited_base_bounds": [
+        3,
+        4,
+        3,
+        13
+      ],
+      "complete_glyph_bounds": [
+        2,
+        1,
+        3,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Í",
+      "base": "I",
+      "inherited_base_bounds": [
+        3,
+        4,
+        3,
+        13
+      ],
+      "complete_glyph_bounds": [
+        3,
+        1,
+        4,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ò",
+      "base": "O",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ó",
+      "base": "O",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ô",
+      "base": "O",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Õ",
+      "base": "O",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ù",
+      "base": "U",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ú",
+      "base": "U",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ý",
+      "base": "Y",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "à",
+      "base": "a",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "á",
+      "base": "a",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "â",
+      "base": "a",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ã",
+      "base": "a",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "è",
+      "base": "e",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "é",
+      "base": "e",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ê",
+      "base": "e",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ì",
+      "base": "i",
+      "inherited_base_bounds": [
+        3,
+        5,
+        3,
+        13
+      ],
+      "complete_glyph_bounds": [
+        2,
+        4,
+        3,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "í",
+      "base": "i",
+      "inherited_base_bounds": [
+        3,
+        5,
+        3,
+        13
+      ],
+      "complete_glyph_bounds": [
+        3,
+        4,
+        4,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ò",
+      "base": "o",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ó",
+      "base": "o",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ô",
+      "base": "o",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "õ",
+      "base": "o",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ù",
+      "base": "u",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ú",
+      "base": "u",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ý",
+      "base": "y",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        14
+      ],
+      "complete_glyph_bounds": [
+        1,
+        4,
+        5,
+        14
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ă",
+      "base": "A",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ă",
+      "base": "a",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Đ",
+      "base": "D",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        0,
+        4,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "đ",
+      "base": "d",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        4,
+        6,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ĩ",
+      "base": "I",
+      "inherited_base_bounds": [
+        3,
+        4,
+        3,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        4,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ĩ",
+      "base": "i",
+      "inherited_base_bounds": [
+        3,
+        5,
+        3,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        4,
+        4,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ũ",
+      "base": "U",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ũ",
+      "base": "u",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ơ",
+      "base": "O",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        2,
+        6,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ơ",
+      "base": "o",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        5,
+        6,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ư",
+      "base": "U",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        2,
+        6,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ư",
+      "base": "u",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        5,
+        6,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ạ",
+      "base": "A",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        4,
+        5,
+        15
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ạ",
+      "base": "a",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        7,
+        5,
+        15
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ả",
+      "base": "A",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ả",
+      "base": "a",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ấ",
+      "base": "A",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        0,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ấ",
+      "base": "a",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ầ",
+      "base": "A",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        0,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ầ",
+      "base": "a",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ẩ",
+      "base": "A",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        0,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ẩ",
+      "base": "a",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ẫ",
+      "base": "A",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        0,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ẫ",
+      "base": "a",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ậ",
+      "base": "A",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        5,
+        15
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ậ",
+      "base": "a",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        4,
+        5,
+        15
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ắ",
+      "base": "A",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        0,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ắ",
+      "base": "a",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ằ",
+      "base": "A",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        0,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ằ",
+      "base": "a",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ẳ",
+      "base": "A",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        0,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ẳ",
+      "base": "a",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ẵ",
+      "base": "A",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        0,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ẵ",
+      "base": "a",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ặ",
+      "base": "A",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        5,
+        15
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ặ",
+      "base": "a",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        4,
+        5,
+        15
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ẹ",
+      "base": "E",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        4,
+        5,
+        15
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ẹ",
+      "base": "e",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        7,
+        5,
+        15
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ẻ",
+      "base": "E",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ẻ",
+      "base": "e",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ẽ",
+      "base": "E",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ẽ",
+      "base": "e",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ế",
+      "base": "E",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        0,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ế",
+      "base": "e",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ề",
+      "base": "E",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        0,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ề",
+      "base": "e",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ể",
+      "base": "E",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        0,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ể",
+      "base": "e",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ễ",
+      "base": "E",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        0,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ễ",
+      "base": "e",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ệ",
+      "base": "E",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        5,
+        15
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ệ",
+      "base": "e",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        4,
+        5,
+        15
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ỉ",
+      "base": "I",
+      "inherited_base_bounds": [
+        3,
+        4,
+        3,
+        13
+      ],
+      "complete_glyph_bounds": [
+        3,
+        1,
+        4,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ỉ",
+      "base": "i",
+      "inherited_base_bounds": [
+        3,
+        5,
+        3,
+        13
+      ],
+      "complete_glyph_bounds": [
+        3,
+        4,
+        4,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ị",
+      "base": "I",
+      "inherited_base_bounds": [
+        3,
+        4,
+        3,
+        13
+      ],
+      "complete_glyph_bounds": [
+        3,
+        4,
+        3,
+        15
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ị",
+      "base": "i",
+      "inherited_base_bounds": [
+        3,
+        5,
+        3,
+        13
+      ],
+      "complete_glyph_bounds": [
+        3,
+        5,
+        3,
+        15
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ọ",
+      "base": "O",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        4,
+        5,
+        15
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ọ",
+      "base": "o",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        7,
+        5,
+        15
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ỏ",
+      "base": "O",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ỏ",
+      "base": "o",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ố",
+      "base": "O",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        0,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ố",
+      "base": "o",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ồ",
+      "base": "O",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        0,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ồ",
+      "base": "o",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ổ",
+      "base": "O",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        0,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ổ",
+      "base": "o",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ỗ",
+      "base": "O",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        0,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ỗ",
+      "base": "o",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ộ",
+      "base": "O",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        5,
+        15
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ộ",
+      "base": "o",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        4,
+        5,
+        15
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ớ",
+      "base": "O",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        6,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ớ",
+      "base": "o",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        4,
+        6,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ờ",
+      "base": "O",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        6,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ờ",
+      "base": "o",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        4,
+        6,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ở",
+      "base": "O",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        6,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ở",
+      "base": "o",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        4,
+        6,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ỡ",
+      "base": "O",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        6,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ỡ",
+      "base": "o",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        4,
+        6,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ợ",
+      "base": "O",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        2,
+        6,
+        15
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ợ",
+      "base": "o",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        5,
+        6,
+        15
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ụ",
+      "base": "U",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        4,
+        5,
+        15
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ụ",
+      "base": "u",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        7,
+        5,
+        15
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ủ",
+      "base": "U",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ủ",
+      "base": "u",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ứ",
+      "base": "U",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        6,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ứ",
+      "base": "u",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        4,
+        6,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ừ",
+      "base": "U",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        6,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ừ",
+      "base": "u",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        4,
+        6,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ử",
+      "base": "U",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        6,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ử",
+      "base": "u",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        4,
+        6,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ữ",
+      "base": "U",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        6,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ữ",
+      "base": "u",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        4,
+        6,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ự",
+      "base": "U",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        2,
+        6,
+        15
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ự",
+      "base": "u",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        5,
+        6,
+        15
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ỳ",
+      "base": "Y",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ỳ",
+      "base": "y",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        14
+      ],
+      "complete_glyph_bounds": [
+        1,
+        4,
+        5,
+        14
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ỵ",
+      "base": "Y",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        4,
+        5,
+        15
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ỵ",
+      "base": "y",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        14
+      ],
+      "complete_glyph_bounds": [
+        1,
+        7,
+        5,
+        15
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ỷ",
+      "base": "Y",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ỷ",
+      "base": "y",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        14
+      ],
+      "complete_glyph_bounds": [
+        1,
+        4,
+        5,
+        14
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "Ỹ",
+      "base": "Y",
+      "inherited_base_bounds": [
+        1,
+        4,
+        5,
+        13
+      ],
+      "complete_glyph_bounds": [
+        1,
+        1,
+        5,
+        13
+      ],
+      "advance_pixels": 8
+    },
+    {
+      "character": "ỹ",
+      "base": "y",
+      "inherited_base_bounds": [
+        1,
+        7,
+        5,
+        14
+      ],
+      "complete_glyph_bounds": [
+        1,
+        4,
+        5,
+        14
+      ],
+      "advance_pixels": 8
+    }
+  ],
+  "user_reference_font": {
+    "sha256": "6287c385d8723ea01c1708c03e67f42c3d32776f0392bd124a6e13d03a37f5f0",
+    "family": "Harvest Moon - Friends of Mineral Town",
+    "license": "Creative Commons Attribution Non-commercial Share Alike",
+    "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "cmap_characters": 197,
+    "vietnamese_characters_present": 32,
+    "vietnamese_characters_missing": "ĂăĐđĨĩŨũƠơƯưẠạẢảẤấẦầẨẩẪẫẬậẮắẰằẲẳẴẵẶặẸẹẺẻẼẽẾếỀềỂểỄễỆệỈỉỊịỌọỎỏỐốỒồỔổỖỗỘộỚớỜờỞởỠỡỢợỤụỦủỨứỪừỬửỮữỰựỲỳỴỵỶỷỸỹ",
+    "units_per_em": 2000,
+    "ascii_advance_font_units": [
+      750
+    ],
+    "ascii_advance_at_16ppem": [
+      6.0
+    ],
+    "usage": "reference only; not embedded or required for ROM build"
+  }
+}

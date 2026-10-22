@@ -2,679 +2,683 @@
   "encoding": "FOMT-VI-EB-v1",
   "normalization": "NFC",
   "lead_byte": "EB",
+  "font_revision": "native-outline-aligned-v2",
   "glyph_advance_pixels": 8,
-  "glyph_rows": 12,
-  "glyph_storage": "1bpp MSB-left",
+  "glyph_rows": 16,
+  "baseline_row": 13,
+  "ascii_glyphs": 95,
+  "glyph_storage": "source mask: 1bpp MSB-left; ROM cache: 16x16 4bpp, 128 bytes",
+  "cache_stride_bytes": 128,
   "characters": [
     {
       "character": "À",
       "code": "EB40",
-      "bitmap_hex": "201000003844447c44444400"
+      "bitmap_hex": "00201000101010282828287c44440000"
     },
     {
       "character": "Á",
       "code": "EB41",
-      "bitmap_hex": "081000003844447c44444400"
+      "bitmap_hex": "00081000101010282828287c44440000"
     },
     {
       "character": "Â",
       "code": "EB42",
-      "bitmap_hex": "000010283844447c44444400"
+      "bitmap_hex": "00102800101010282828287c44440000"
     },
     {
       "character": "Ã",
       "code": "EB43",
-      "bitmap_hex": "285000003844447c44444400"
+      "bitmap_hex": "00285000101010282828287c44440000"
     },
     {
       "character": "È",
       "code": "EB44",
-      "bitmap_hex": "201000007c40407840407c00"
+      "bitmap_hex": "002010007c4040407c404040407c0000"
     },
     {
       "character": "É",
       "code": "EB45",
-      "bitmap_hex": "081000007c40407840407c00"
+      "bitmap_hex": "000810007c4040407c404040407c0000"
     },
     {
       "character": "Ê",
       "code": "EB46",
-      "bitmap_hex": "000010287c40407840407c00"
+      "bitmap_hex": "001028007c4040407c404040407c0000"
     },
     {
       "character": "Ì",
       "code": "EB47",
-      "bitmap_hex": "201000003810101010103800"
+      "bitmap_hex": "00201000101010101010101010100000"
     },
     {
       "character": "Í",
       "code": "EB48",
-      "bitmap_hex": "081000003810101010103800"
+      "bitmap_hex": "00081000101010101010101010100000"
     },
     {
       "character": "Ò",
       "code": "EB49",
-      "bitmap_hex": "201000007884848484847800"
+      "bitmap_hex": "00201000384444444444444444380000"
     },
     {
       "character": "Ó",
       "code": "EB4A",
-      "bitmap_hex": "081000007884848484847800"
+      "bitmap_hex": "00081000384444444444444444380000"
     },
     {
       "character": "Ô",
       "code": "EB4B",
-      "bitmap_hex": "000010287884848484847800"
+      "bitmap_hex": "00102800384444444444444444380000"
     },
     {
       "character": "Õ",
       "code": "EB4C",
-      "bitmap_hex": "285000007884848484847800"
+      "bitmap_hex": "00285000384444444444444444380000"
     },
     {
       "character": "Ù",
       "code": "EB4D",
-      "bitmap_hex": "201000004444444444443800"
+      "bitmap_hex": "00201000444444444444444444380000"
     },
     {
       "character": "Ú",
       "code": "EB4E",
-      "bitmap_hex": "081000004444444444443800"
+      "bitmap_hex": "00081000444444444444444444380000"
     },
     {
       "character": "Ý",
       "code": "EB4F",
-      "bitmap_hex": "081000004444281010101000"
+      "bitmap_hex": "00081000444444282810101010100000"
     },
     {
       "character": "à",
       "code": "EB50",
-      "bitmap_hex": "201000003844043c44443c00"
+      "bitmap_hex": "000000002010003844043c44443c0000"
     },
     {
       "character": "á",
       "code": "EB51",
-      "bitmap_hex": "081000003844043c44443c00"
+      "bitmap_hex": "000000000810003844043c44443c0000"
     },
     {
       "character": "â",
       "code": "EB52",
-      "bitmap_hex": "000010283844043c44443c00"
+      "bitmap_hex": "000000001028003844043c44443c0000"
     },
     {
       "character": "ã",
       "code": "EB53",
-      "bitmap_hex": "285000003844043c44443c00"
+      "bitmap_hex": "000000002850003844043c44443c0000"
     },
     {
       "character": "è",
       "code": "EB54",
-      "bitmap_hex": "201000003844447c40443800"
+      "bitmap_hex": "000000002010003844447c4044380000"
     },
     {
       "character": "é",
       "code": "EB55",
-      "bitmap_hex": "081000003844447c40443800"
+      "bitmap_hex": "000000000810003844447c4044380000"
     },
     {
       "character": "ê",
       "code": "EB56",
-      "bitmap_hex": "000010283844447c40443800"
+      "bitmap_hex": "000000001028003844447c4044380000"
     },
     {
       "character": "ì",
       "code": "EB57",
-      "bitmap_hex": "201000000010101010101000"
+      "bitmap_hex": "00000000201000101010101010100000"
     },
     {
       "character": "í",
       "code": "EB58",
-      "bitmap_hex": "081000000010101010101000"
+      "bitmap_hex": "00000000081000101010101010100000"
     },
     {
       "character": "ò",
       "code": "EB59",
-      "bitmap_hex": "201000003844444444443800"
+      "bitmap_hex": "00000000201000384444444444380000"
     },
     {
       "character": "ó",
       "code": "EB5A",
-      "bitmap_hex": "081000003844444444443800"
+      "bitmap_hex": "00000000081000384444444444380000"
     },
     {
       "character": "ô",
       "code": "EB5B",
-      "bitmap_hex": "000010283844444444443800"
+      "bitmap_hex": "00000000102800384444444444380000"
     },
     {
       "character": "õ",
       "code": "EB5C",
-      "bitmap_hex": "285000003844444444443800"
+      "bitmap_hex": "00000000285000384444444444380000"
     },
     {
       "character": "ù",
       "code": "EB5D",
-      "bitmap_hex": "201000004444444444443c00"
+      "bitmap_hex": "000000002010004444444444443c0000"
     },
     {
       "character": "ú",
       "code": "EB5E",
-      "bitmap_hex": "081000004444444444443c00"
+      "bitmap_hex": "000000000810004444444444443c0000"
     },
     {
       "character": "ý",
       "code": "EB5F",
-      "bitmap_hex": "081000004444443c04443800"
+      "bitmap_hex": "00000000081000444444282810106000"
     },
     {
       "character": "Ă",
       "code": "EB60",
-      "bitmap_hex": "000028103844447c44444400"
+      "bitmap_hex": "00281000101010282828287c44440000"
     },
     {
       "character": "ă",
       "code": "EB61",
-      "bitmap_hex": "000028103844043c44443c00"
+      "bitmap_hex": "000000002810003844043c44443c0000"
     },
     {
       "character": "Đ",
       "code": "EB62",
-      "bitmap_hex": "000000007844447c44447800"
+      "bitmap_hex": "000000007844444444f4444444780000"
     },
     {
       "character": "đ",
       "code": "EB63",
-      "bitmap_hex": "00000000041c3c4444443c00"
+      "bitmap_hex": "0000000004041e344c444444443c0000"
     },
     {
       "character": "Ĩ",
       "code": "EB64",
-      "bitmap_hex": "285000003810101010103800"
+      "bitmap_hex": "00285000101010101010101010100000"
     },
     {
       "character": "ĩ",
       "code": "EB65",
-      "bitmap_hex": "285000000010101010101000"
+      "bitmap_hex": "00000000285000101010101010100000"
     },
     {
       "character": "Ũ",
       "code": "EB66",
-      "bitmap_hex": "285000004444444444443800"
+      "bitmap_hex": "00285000444444444444444444380000"
     },
     {
       "character": "ũ",
       "code": "EB67",
-      "bitmap_hex": "285000004444444444443c00"
+      "bitmap_hex": "000000002850004444444444443c0000"
     },
     {
       "character": "Ơ",
       "code": "EB68",
-      "bitmap_hex": "000000027e84848484847800"
+      "bitmap_hex": "000002063c4444444444444444380000"
     },
     {
       "character": "ơ",
       "code": "EB69",
-      "bitmap_hex": "000000023e44444444443800"
+      "bitmap_hex": "000000000002063c4444444444380000"
     },
     {
       "character": "Ư",
       "code": "EB6A",
-      "bitmap_hex": "000000024644444444443800"
+      "bitmap_hex": "00000206444444444444444444380000"
     },
     {
       "character": "ư",
       "code": "EB6B",
-      "bitmap_hex": "000000024644444444443c00"
+      "bitmap_hex": "000000000002064444444444443c0000"
     },
     {
       "character": "Ạ",
       "code": "EB6C",
-      "bitmap_hex": "000000003844447c44444410"
+      "bitmap_hex": "00000000101010282828287c44440010"
     },
     {
       "character": "ạ",
       "code": "EB6D",
-      "bitmap_hex": "000000003844043c44443c10"
+      "bitmap_hex": "000000000000003844043c44443c0010"
     },
     {
       "character": "Ả",
       "code": "EB6E",
-      "bitmap_hex": "180800003844447c44444400"
+      "bitmap_hex": "00180800101010282828287c44440000"
     },
     {
       "character": "ả",
       "code": "EB6F",
-      "bitmap_hex": "180800003844043c44443c00"
+      "bitmap_hex": "000000001808003844043c44443c0000"
     },
     {
       "character": "Ấ",
       "code": "EB70",
-      "bitmap_hex": "081010283844447c44444400"
+      "bitmap_hex": "08101028101010282828287c44440000"
     },
     {
       "character": "ấ",
       "code": "EB71",
-      "bitmap_hex": "081010283844043c44443c00"
+      "bitmap_hex": "000810001028003844043c44443c0000"
     },
     {
       "character": "Ầ",
       "code": "EB72",
-      "bitmap_hex": "201010283844447c44444400"
+      "bitmap_hex": "20101028101010282828287c44440000"
     },
     {
       "character": "ầ",
       "code": "EB73",
-      "bitmap_hex": "201010283844043c44443c00"
+      "bitmap_hex": "002010001028003844043c44443c0000"
     },
     {
       "character": "Ẩ",
       "code": "EB74",
-      "bitmap_hex": "180810283844447c44444400"
+      "bitmap_hex": "18081028101010282828287c44440000"
     },
     {
       "character": "ẩ",
       "code": "EB75",
-      "bitmap_hex": "180810283844043c44443c00"
+      "bitmap_hex": "001808001028003844043c44443c0000"
     },
     {
       "character": "Ẫ",
       "code": "EB76",
-      "bitmap_hex": "285010283844447c44444400"
+      "bitmap_hex": "28501028101010282828287c44440000"
     },
     {
       "character": "ẫ",
       "code": "EB77",
-      "bitmap_hex": "285010283844043c44443c00"
+      "bitmap_hex": "002850001028003844043c44443c0000"
     },
     {
       "character": "Ậ",
       "code": "EB78",
-      "bitmap_hex": "000010283844447c44444410"
+      "bitmap_hex": "00102800101010282828287c44440010"
     },
     {
       "character": "ậ",
       "code": "EB79",
-      "bitmap_hex": "000010283844043c44443c10"
+      "bitmap_hex": "000000001028003844043c44443c0010"
     },
     {
       "character": "Ắ",
       "code": "EB7A",
-      "bitmap_hex": "081028103844447c44444400"
+      "bitmap_hex": "08102810101010282828287c44440000"
     },
     {
       "character": "ắ",
       "code": "EB7B",
-      "bitmap_hex": "081028103844043c44443c00"
+      "bitmap_hex": "000810002810003844043c44443c0000"
     },
     {
       "character": "Ằ",
       "code": "EB7C",
-      "bitmap_hex": "201028103844447c44444400"
+      "bitmap_hex": "20102810101010282828287c44440000"
     },
     {
       "character": "ằ",
       "code": "EB7D",
-      "bitmap_hex": "201028103844043c44443c00"
+      "bitmap_hex": "002010002810003844043c44443c0000"
     },
     {
       "character": "Ẳ",
       "code": "EB7E",
-      "bitmap_hex": "180828103844447c44444400"
+      "bitmap_hex": "18082810101010282828287c44440000"
     },
     {
       "character": "ẳ",
       "code": "EB7F",
-      "bitmap_hex": "180828103844043c44443c00"
+      "bitmap_hex": "001808002810003844043c44443c0000"
     },
     {
       "character": "Ẵ",
       "code": "EB80",
-      "bitmap_hex": "285028103844447c44444400"
+      "bitmap_hex": "28502810101010282828287c44440000"
     },
     {
       "character": "ẵ",
       "code": "EB81",
-      "bitmap_hex": "285028103844043c44443c00"
+      "bitmap_hex": "002850002810003844043c44443c0000"
     },
     {
       "character": "Ặ",
       "code": "EB82",
-      "bitmap_hex": "000028103844447c44444410"
+      "bitmap_hex": "00281000101010282828287c44440010"
     },
     {
       "character": "ặ",
       "code": "EB83",
-      "bitmap_hex": "000028103844043c44443c10"
+      "bitmap_hex": "000000002810003844043c44443c0010"
     },
     {
       "character": "Ẹ",
       "code": "EB84",
-      "bitmap_hex": "000000007c40407840407c10"
+      "bitmap_hex": "000000007c4040407c404040407c0010"
     },
     {
       "character": "ẹ",
       "code": "EB85",
-      "bitmap_hex": "000000003844447c40443810"
+      "bitmap_hex": "000000000000003844447c4044380010"
     },
     {
       "character": "Ẻ",
       "code": "EB86",
-      "bitmap_hex": "180800007c40407840407c00"
+      "bitmap_hex": "001808007c4040407c404040407c0000"
     },
     {
       "character": "ẻ",
       "code": "EB87",
-      "bitmap_hex": "180800003844447c40443800"
+      "bitmap_hex": "000000001808003844447c4044380000"
     },
     {
       "character": "Ẽ",
       "code": "EB88",
-      "bitmap_hex": "285000007c40407840407c00"
+      "bitmap_hex": "002850007c4040407c404040407c0000"
     },
     {
       "character": "ẽ",
       "code": "EB89",
-      "bitmap_hex": "285000003844447c40443800"
+      "bitmap_hex": "000000002850003844447c4044380000"
     },
     {
       "character": "Ế",
       "code": "EB8A",
-      "bitmap_hex": "081010287c40407840407c00"
+      "bitmap_hex": "081010287c4040407c404040407c0000"
     },
     {
       "character": "ế",
       "code": "EB8B",
-      "bitmap_hex": "081010283844447c40443800"
+      "bitmap_hex": "000810001028003844447c4044380000"
     },
     {
       "character": "Ề",
       "code": "EB8C",
-      "bitmap_hex": "201010287c40407840407c00"
+      "bitmap_hex": "201010287c4040407c404040407c0000"
     },
     {
       "character": "ề",
       "code": "EB8D",
-      "bitmap_hex": "201010283844447c40443800"
+      "bitmap_hex": "002010001028003844447c4044380000"
     },
     {
       "character": "Ể",
       "code": "EB8E",
-      "bitmap_hex": "180810287c40407840407c00"
+      "bitmap_hex": "180810287c4040407c404040407c0000"
     },
     {
       "character": "ể",
       "code": "EB8F",
-      "bitmap_hex": "180810283844447c40443800"
+      "bitmap_hex": "001808001028003844447c4044380000"
     },
     {
       "character": "Ễ",
       "code": "EB90",
-      "bitmap_hex": "285010287c40407840407c00"
+      "bitmap_hex": "285010287c4040407c404040407c0000"
     },
     {
       "character": "ễ",
       "code": "EB91",
-      "bitmap_hex": "285010283844447c40443800"
+      "bitmap_hex": "002850001028003844447c4044380000"
     },
     {
       "character": "Ệ",
       "code": "EB92",
-      "bitmap_hex": "000010287c40407840407c10"
+      "bitmap_hex": "001028007c4040407c404040407c0010"
     },
     {
       "character": "ệ",
       "code": "EB93",
-      "bitmap_hex": "000010283844447c40443810"
+      "bitmap_hex": "000000001028003844447c4044380010"
     },
     {
       "character": "Ỉ",
       "code": "EB94",
-      "bitmap_hex": "180800003810101010103800"
+      "bitmap_hex": "00180800101010101010101010100000"
     },
     {
       "character": "ỉ",
       "code": "EB95",
-      "bitmap_hex": "180800000010101010101000"
+      "bitmap_hex": "00000000180800101010101010100000"
     },
     {
       "character": "Ị",
       "code": "EB96",
-      "bitmap_hex": "000000003810101010103810"
+      "bitmap_hex": "00000000101010101010101010100010"
     },
     {
       "character": "ị",
       "code": "EB97",
-      "bitmap_hex": "000000000010101010101010"
+      "bitmap_hex": "00000000001000101010101010100010"
     },
     {
       "character": "Ọ",
       "code": "EB98",
-      "bitmap_hex": "000000007884848484847810"
+      "bitmap_hex": "00000000384444444444444444380010"
     },
     {
       "character": "ọ",
       "code": "EB99",
-      "bitmap_hex": "000000003844444444443810"
+      "bitmap_hex": "00000000000000384444444444380010"
     },
     {
       "character": "Ỏ",
       "code": "EB9A",
-      "bitmap_hex": "180800007884848484847800"
+      "bitmap_hex": "00180800384444444444444444380000"
     },
     {
       "character": "ỏ",
       "code": "EB9B",
-      "bitmap_hex": "180800003844444444443800"
+      "bitmap_hex": "00000000180800384444444444380000"
     },
     {
       "character": "Ố",
       "code": "EB9C",
-      "bitmap_hex": "081010287884848484847800"
+      "bitmap_hex": "08101028384444444444444444380000"
     },
     {
       "character": "ố",
       "code": "EB9D",
-      "bitmap_hex": "081010283844444444443800"
+      "bitmap_hex": "00081000102800384444444444380000"
     },
     {
       "character": "Ồ",
       "code": "EB9E",
-      "bitmap_hex": "201010287884848484847800"
+      "bitmap_hex": "20101028384444444444444444380000"
     },
     {
       "character": "ồ",
       "code": "EB9F",
-      "bitmap_hex": "201010283844444444443800"
+      "bitmap_hex": "00201000102800384444444444380000"
     },
     {
       "character": "Ổ",
       "code": "EBA0",
-      "bitmap_hex": "180810287884848484847800"
+      "bitmap_hex": "18081028384444444444444444380000"
     },
     {
       "character": "ổ",
       "code": "EBA1",
-      "bitmap_hex": "180810283844444444443800"
+      "bitmap_hex": "00180800102800384444444444380000"
     },
     {
       "character": "Ỗ",
       "code": "EBA2",
-      "bitmap_hex": "285010287884848484847800"
+      "bitmap_hex": "28501028384444444444444444380000"
     },
     {
       "character": "ỗ",
       "code": "EBA3",
-      "bitmap_hex": "285010283844444444443800"
+      "bitmap_hex": "00285000102800384444444444380000"
     },
     {
       "character": "Ộ",
       "code": "EBA4",
-      "bitmap_hex": "000010287884848484847810"
+      "bitmap_hex": "00102800384444444444444444380010"
     },
     {
       "character": "ộ",
       "code": "EBA5",
-      "bitmap_hex": "000010283844444444443810"
+      "bitmap_hex": "00000000102800384444444444380010"
     },
     {
       "character": "Ớ",
       "code": "EBA6",
-      "bitmap_hex": "081000027e84848484847800"
+      "bitmap_hex": "000812063c4444444444444444380000"
     },
     {
       "character": "ớ",
       "code": "EBA7",
-      "bitmap_hex": "081000023e44444444443800"
+      "bitmap_hex": "000000000812063c4444444444380000"
     },
     {
       "character": "Ờ",
       "code": "EBA8",
-      "bitmap_hex": "201000027e84848484847800"
+      "bitmap_hex": "002012063c4444444444444444380000"
     },
     {
       "character": "ờ",
       "code": "EBA9",
-      "bitmap_hex": "201000023e44444444443800"
+      "bitmap_hex": "000000002012063c4444444444380000"
     },
     {
       "character": "Ở",
       "code": "EBAA",
-      "bitmap_hex": "180800027e84848484847800"
+      "bitmap_hex": "00180a063c4444444444444444380000"
     },
     {
       "character": "ở",
       "code": "EBAB",
-      "bitmap_hex": "180800023e44444444443800"
+      "bitmap_hex": "00000000180a063c4444444444380000"
     },
     {
       "character": "Ỡ",
       "code": "EBAC",
-      "bitmap_hex": "285000027e84848484847800"
+      "bitmap_hex": "002852063c4444444444444444380000"
     },
     {
       "character": "ỡ",
       "code": "EBAD",
-      "bitmap_hex": "285000023e44444444443800"
+      "bitmap_hex": "000000002852063c4444444444380000"
     },
     {
       "character": "Ợ",
       "code": "EBAE",
-      "bitmap_hex": "000000027e84848484847810"
+      "bitmap_hex": "000002063c4444444444444444380010"
     },
     {
       "character": "ợ",
       "code": "EBAF",
-      "bitmap_hex": "000000023e44444444443810"
+      "bitmap_hex": "000000000002063c4444444444380010"
     },
     {
       "character": "Ụ",
       "code": "EBB0",
-      "bitmap_hex": "000000004444444444443810"
+      "bitmap_hex": "00000000444444444444444444380010"
     },
     {
       "character": "ụ",
       "code": "EBB1",
-      "bitmap_hex": "000000004444444444443c10"
+      "bitmap_hex": "000000000000004444444444443c0010"
     },
     {
       "character": "Ủ",
       "code": "EBB2",
-      "bitmap_hex": "180800004444444444443800"
+      "bitmap_hex": "00180800444444444444444444380000"
     },
     {
       "character": "ủ",
       "code": "EBB3",
-      "bitmap_hex": "180800004444444444443c00"
+      "bitmap_hex": "000000001808004444444444443c0000"
     },
     {
       "character": "Ứ",
       "code": "EBB4",
-      "bitmap_hex": "081000024644444444443800"
+      "bitmap_hex": "00081206444444444444444444380000"
     },
     {
       "character": "ứ",
       "code": "EBB5",
-      "bitmap_hex": "081000024644444444443c00"
+      "bitmap_hex": "000000000812064444444444443c0000"
     },
     {
       "character": "Ừ",
       "code": "EBB6",
-      "bitmap_hex": "201000024644444444443800"
+      "bitmap_hex": "00201206444444444444444444380000"
     },
     {
       "character": "ừ",
       "code": "EBB7",
-      "bitmap_hex": "201000024644444444443c00"
+      "bitmap_hex": "000000002012064444444444443c0000"
     },
     {
       "character": "Ử",
       "code": "EBB8",
-      "bitmap_hex": "180800024644444444443800"
+      "bitmap_hex": "00180a06444444444444444444380000"
     },
     {
       "character": "ử",
       "code": "EBB9",
-      "bitmap_hex": "180800024644444444443c00"
+      "bitmap_hex": "00000000180a064444444444443c0000"
     },
     {
       "character": "Ữ",
       "code": "EBBA",
-      "bitmap_hex": "285000024644444444443800"
+      "bitmap_hex": "00285206444444444444444444380000"
     },
     {
       "character": "ữ",
       "code": "EBBB",
-      "bitmap_hex": "285000024644444444443c00"
+      "bitmap_hex": "000000002852064444444444443c0000"
     },
     {
       "character": "Ự",
       "code": "EBBC",
-      "bitmap_hex": "000000024644444444443810"
+      "bitmap_hex": "00000206444444444444444444380010"
     },
     {
       "character": "ự",
       "code": "EBBD",
-      "bitmap_hex": "000000024644444444443c10"
+      "bitmap_hex": "000000000002064444444444443c0010"
     },
     {
       "character": "Ỳ",
       "code": "EBBE",
-      "bitmap_hex": "201000004444281010101000"
+      "bitmap_hex": "00201000444444282810101010100000"
     },
     {
       "character": "ỳ",
       "code": "EBBF",
-      "bitmap_hex": "201000004444443c04443800"
+      "bitmap_hex": "00000000201000444444282810106000"
     },
     {
       "character": "Ỵ",
       "code": "EBC0",
-      "bitmap_hex": "000000004444281010101010"
+      "bitmap_hex": "00000000444444282810101010100010"
     },
     {
       "character": "ỵ",
       "code": "EBC1",
-      "bitmap_hex": "000000004444443c04443810"
+      "bitmap_hex": "00000000000000444444282810106010"
     },
     {
       "character": "Ỷ",
       "code": "EBC2",
-      "bitmap_hex": "180800004444281010101000"
+      "bitmap_hex": "00180800444444282810101010100000"
     },
     {
       "character": "ỷ",
       "code": "EBC3",
-      "bitmap_hex": "180800004444443c04443800"
+      "bitmap_hex": "00000000180800444444282810106000"
     },
     {
       "character": "Ỹ",
       "code": "EBC4",
-      "bitmap_hex": "285000004444281010101000"
+      "bitmap_hex": "00285000444444282810101010100000"
     },
     {
       "character": "ỹ",
       "code": "EBC5",
-      "bitmap_hex": "285000004444443c04443800"
+      "bitmap_hex": "00000000285000444444282810106000"
     }
   ]
 }

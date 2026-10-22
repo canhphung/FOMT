@@ -1,5 +1,8 @@
 # Tiến độ Việt hóa
 
+**Hiện tại:** font v2 sửa lệch baseline/bearing, 47 test đạt; bản dịch vẫn 385 ID.
+Mục đầu lưu lịch sử bản thử v1; mục cuối ghi phiên sửa font và bằng chứng mới.
+
 ## Phiên 2026-10-22 — nền tảng và bản thử đầu tiên
 
 Đã chuyển repo từ README trống thành pipeline localization có kiểm tra ROM,
@@ -27,7 +30,7 @@ Không đếm câu giả lập trong test là văn bản game.
 tái tạo từ ROM đúng hash, nhưng không track Git. Các subset EN/VI và glossary
 có trong repo. `pilot.json` có 48 ID; `items.json` thêm 337 ID, không trùng.
 
-### Kiểm chứng đã hoàn tất
+### Kiểm chứng v1 (lịch sử)
 
 - ROM nguồn khớp SHA-1 decomp tham khảo; 190 file source được lập inventory.
 - 9.069 bản ghi round trip đúng byte; không sửa script CODE/JUMP khi rebuild.
@@ -44,7 +47,7 @@ có trong repo. `pilot.json` có 48 ID; `items.json` thêm 337 ID, không trùng
   game nhận save và load về nhà ngày 2. Payload SRAM sau boot/load giữ nguyên.
 - Không có log mức error/fatal trong lượt mGBA cuối.
 
-Chứng cứ có trong `docs/evidence/`, hash và kích thước bản vá trong
+Chứng cứ hiện tại trong `docs/evidence/` đã cập nhật sang v2; hash/kích thước ở
 `patches/manifest.json`. Báo cáo ghi chính xác hash target đã chạy test.
 `make compare` của decomp gốc chưa chạy: không cần matching build/agbcc cho
 pipeline patch trực tiếp này. Không thay đổi code gameplay để làm test qua.
@@ -91,3 +94,40 @@ pipeline patch trực tiếp này. Không thay đổi code gameplay để làm t
   cửa hàng, thùng xuất hàng, chuyển cảnh và save/load dài hạn.
 - Chỉ nâng trạng thái sang `reviewed` sau khi duyệt ngôn ngữ và ảnh đúng context;
   cập nhật bảng đếm, test và manifest sau mỗi phiên.
+
+
+## Phiên 2026-10-22 — sửa baseline/bearing font v2
+
+Người dùng phản hồi chữ có dấu không đều và gửi ZIP font OTF tham khảo. Đã đo
+bitmap thực tế và xác nhận lỗi v1: chữ thường lệch xuống 1px, chữ hoa bị co từ
+10px còn 7px, O hoa rộng/lệch ngang, d/y bị sửa outline và ị mất chấm trên.
+Độ rộng advance của engine vẫn luôn là 8px; kiểm thử v1 chưa kiểm tra hình học
+thân chữ nên không phát hiện được lỗi này.
+
+Đã thay bằng mask 8×16 dùng nguyên thân/bearing ROM gốc. ASCII và Việt dùng cùng
+baseline hàng 13, không trim/scale/căn giữa riêng từng glyph, giữ advance 8px.
+Dấu được thêm ở hàng trống; d giữ ascender, y giữ descender, ị giữ chấm trên.
+Cache 4bpp sinh trước ở ROM gồm 229 glyph × 128 byte; dispatcher copy vào đúng
+staging buffer cũ, không tăng VRAM hoặc sửa kích thước cửa sổ/bytecode gameplay.
+Font OTF có 197 ký tự, chỉ 32/134 chữ Việt, được dùng làm tham chiếu; không đóng
+gói OTF và không dùng metric 6px của OTF để đổi advance GBA 8px.
+
+Kiểm thử hiện tại: **47 pytest đạt, không skip**, gồm hồi quy baseline/bearing,
+outline hoa/thường, dấu trên/dưới i, ascender Đ/đ và cache 4bpp. mGBA xác minh
+95 ASCII theo phép dịch đồng nhất 2px từ raster ROM gốc, 134 glyph/chuỗi Việt,
+10 glyph fallback legacy/SJIS, 7 menu, 15 tên nông sản và 9 chuỗi ASCII/trộn dấu.
+Lượt replay qua mở đầu, chọn menu, ghi Diary, boot core mới và load lại SRAM
+vẫn đạt, không log error/fatal. 385 ID dịch không đổi; codec EB40–EBC5 không đổi.
+Đã chạy lại cùng bộ probe trên mGBA **0.10.5** như người dùng đang dùng và 0.11-dev.
+Adapter được sửa để đọc define CMake thực tế của từng version, tránh lệch ABI
+ở hàm xuất SRAM khi tên macro debugger khác nhau; không thay code save của game.
+
+`docs/evidence/font-spacing-comparison.png` là so sánh output renderer v1/v2
+trên chuỗi chẩn đoán; ảnh Thomas/menu/save cũng được chụp lại từ ROM v2.
+`font-metrics.json` lưu phép đo và metadata OTF, manifest trỏ đúng hash ROM/bản vá
+mới. Bản vá mới phải áp lên ROM USA gốc, không chồng lên ROM đã Việt hóa v1.
+
+Giới hạn còn lại: ô chữ vẫn cố định 8px (chưa có kerning/VWF); chưa chơi thử
+mọi UI và phần cứng GBA thật. Native glyph ngoài ASCII/Việt, lịch, đồng hồ và
+đồ họa title vẫn theo hệ gốc. Các hạng mục dịch chưa giải quyết ở trên vẫn giữ
+nguyên, không tăng số chuỗi dịch để tính việc sửa font.

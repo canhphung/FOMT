@@ -12,7 +12,7 @@ from pathlib import Path
 
 from fomt_text import VI_CHARS, VI_CODES, ROM_BASE, parse_script, u32, SCRIPT_TABLE, encode
 from mgba_session import Session
-from vietnamese_font import glyph
+from vietnamese_font import glyph, SOURCE_ROWS
 
 
 def raster(data):
@@ -26,6 +26,7 @@ def main():
     parser.add_argument("rom", type=Path)
     parser.add_argument("--base-rom", required=True, type=Path)
     parser.add_argument("--output-dir", type=Path, default=Path("build/emulator"))
+    parser.add_argument("--library", type=Path, default=Path("build/mgba_bridge.so"))
     args = parser.parse_args()
     args.output_dir.mkdir(parents=True, exist_ok=True)
     source = args.base_rom.read_bytes()
@@ -34,8 +35,8 @@ def main():
               "limitations": ["No real-hardware test", "No full-season gameplay test",
                                "Popuri not encountered in normal gameplay replay",
                                "All item screens and description layouts not playtested"]}
-    patched = Session(args.rom)
-    original = Session(args.base_rom)
+    patched = Session(args.rom,args.library)
+    original = Session(args.base_rom,args.library)
     try:
         original.frames(360)
         original_state = original.state()
@@ -48,8 +49,22 @@ def main():
             for s in (original,patched):
                 s.write(0x0203C000,b"\xAA"*160)
                 assert s.call(0x080D0D28,0x0203C010,code) == 1
-            assert original.read(0x0203C000,160) == patched.read(0x0203C000,160), f"ASCII U+{code:04X} changed"
-        report["checks"]["ascii_glyphs_unchanged"] = 95
+            old = original.read(0x0203C000,160)
+            new = patched.read(0x0203C000,160)
+            assert new[:16] == new[144:] == b"\xAA"*16
+            expected = [[0]*16 for _ in range(2)] + raster(old[16:144])[:14]
+            assert raster(new[16:144]) == expected, f"ASCII U+{code:04X}: inconsistent outline/baseline"
+        report["checks"]["ascii_native_outlines_at_common_baseline"] = 95
+        for code in (0x7F,0x80,0xA1,0xB1,0xB4,0xC3,0x8140,0x8141,0x82A0,0xEB):
+            original.restore(original_state)
+            patched.restore(state)
+            for s in (original,patched):
+                s.write(0x0203C000,b"\xAA"*160)
+            before = original.call(0x080D0D28,0x0203C010,code)
+            after = patched.call(0x080D0D28,0x0203C010,code)
+            assert before == after
+            assert original.read(0x0203C000,160) == patched.read(0x0203C000,160)
+        report["checks"]["legacy_glyph_fallback_unchanged"] = 10
         for ch in VI_CHARS:
             patched.restore(state)
             patched.write(0x0203C000,b"\xAA"*160)
@@ -58,9 +73,9 @@ def main():
             assert out[:16] == out[144:] == b"\xAA"*16, f"buffer overwrite for {ch}"
             pixels = raster(out[16:144])
             bitmap = glyph(source,ch)
-            for y in range(12):
+            for y in range(SOURCE_ROWS):
                 for x in range(8):
-                    assert bool(bitmap[y] & (128>>x)) == (pixels[y+2][x+1] == 1), f"raster mismatch {ch} {x},{y}"
+                    assert bool(bitmap[y] & (128>>x)) == (pixels[y][x+1] == 1), f"raster mismatch {ch} {x},{y}"
         report["checks"]["vietnamese_glyph_rasters_and_buffer_guards"] = len(VI_CHARS)
         patched.restore(state)
         assert patched.call(0x080D0D28,0,0xEB) == 0, "custom lead must defer to the next byte"
@@ -83,6 +98,13 @@ def main():
             # Synthetic font diagnostic, not original game dialogue.
             text = VI_CHARS[start:start+20]
             jobs.append((f"font.diagnostic.{start}",0x0203B000,text,encode(text,True)+b"\0"))
+        ascii_text = ''.join(chr(c) for c in range(32,127))
+        for start in range(0,len(ascii_text),20):
+            text = ascii_text[start:start+20]
+            jobs.append((f"ascii.diagnostic.{start}",0x0203B000,text,text.encode("ascii")+b"\0"))
+        for index,text in enumerate(["aáàảãạ aăâ eê oôơ uư", "AaÀÁÂÃĂĐđ Dd IiÍìỊị",
+                                     "Này! Chủ nông trại này", "À, chừng sáu tháng trước."]):
+            jobs.append((f"spacing.diagnostic.{index}",0x0203B000,text,encode(text,True)+b"\0"))
         for identifier,ptr,text,payload in jobs:
             patched.restore(state)
             patched.write(0x02038000,b"\xAA"*16+b"\0"*2048+b"\xAA"*16)
@@ -129,6 +151,7 @@ def main():
         report["checks"]["menu_multibyte_string_renderer_and_guards"] = 7
         report["checks"]["crop_item_pointers_and_multibyte_renderer"] = 15
         report["checks"]["full_charset_through_multibyte_string_renderer"] = 134
+        report["checks"]["ascii_and_mixed_accent_spacing_strings"] = 9
         patched.restore(state)
         # Replay ordinary controls. A=1, Start=8, Right=16.
         replay_start_frames = patched.frames_run
@@ -175,7 +198,7 @@ def main():
         assert len(savedata) == 32768 and savedata[:3] == b"GBA"
         assert sum(v != 255 for v in savedata) > 10000
         (args.output_dir/"save-test.sram").write_bytes(savedata)
-        reloaded = Session(args.rom)
+        reloaded = Session(args.rom,args.library)
         try:
             reloaded.frames(360)
             reloaded.load_sram(savedata)

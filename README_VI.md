@@ -10,7 +10,8 @@ Không chứa hoặc tự tải ROM thương mại. Bản vá IPS nằm trong `p
   chiếu, 347 tên + 347 mô tả vật phẩm, 7 nhãn menu tạm dừng.
 - 385 bản ghi dịch nháp: 346 tên vật phẩm, 21 mô tả, 7 menu, 11 chuỗi hội thoại/
   dẫn chuyện. Tên riêng được giữ nguyên khi phù hợp.
-- Font riêng 134 chữ Việt, không dùng UTF-8 trong ROM; giữ nguyên ASCII.
+- Font 134 chữ Việt; ASCII/chữ có dấu cùng baseline, giữ nét và advance 8px gốc.
+  Bản sửa v2 xử lý lỗi lệch thân chữ/spacing; xem ảnh trước–sau trong `docs/evidence`.
 - Chèn lại ở vùng ROM mở rộng, giữ nguyên bytecode sự kiện và dữ liệu gameplay.
 - Kiểm thử mGBA: boot, tạo game mới, hội thoại Thomas, 7 nhãn menu, render font,
   ghi Diary và nạp lại save sau boot. Chi tiết và giới hạn trong báo cáo tiến độ.
@@ -102,6 +103,16 @@ bash tools/build_mgba_bridge.sh /workspace/mgba
 ```
 
 Cần GCC, CMake và make; mGBA dùng BIOS thay thế tích hợp, không tải BIOS thương mại.
+Adapter đọc `C_DEFINES` từ build Unix Makefiles để khớp ABI của đúng phiên bản.
+Nếu dùng mGBA 0.10.5, build checkout tag `0.10.5` tương tự (CMake 4 cần thêm
+`-DCMAKE_POLICY_VERSION_MINIMUM=3.5`), rồi tạo adapter riêng:
+
+```bash
+bash tools/build_mgba_bridge.sh /workspace/mgba-0.10.5 build/mgba_bridge-0.10.5.so
+.venv/bin/python tools/emulator_smoke.py build/fomt-vi-demo.gba \
+  --base-rom "$FOMT_ROM" --library build/mgba_bridge-0.10.5.so
+```
+
 Ảnh, JSON kiểm thử và save thử chỉ ghi dưới `build/`. Xem ảnh thủ công sau khi chạy;
 thông báo replay hoàn tất không tự chứng minh mọi màn hình đã đúng. Không dùng
 emulator savestate để thay cho kiểm thử save trong game.

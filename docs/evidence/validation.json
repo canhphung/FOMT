@@ -1,28 +1,32 @@
 {
   "date": "2026-10-22",
+  "font_revision": "native-outline-aligned-v2",
   "base_sha1": "a2fc3574f0a65a4fcf7682fb274b9d7eebdef963",
-  "target_sha256": "952087635bbb9e000e0acf54cbf0dad1ef3f19006ebbf3948a6d2f27110db714",
-  "mgba_commit": "fd9dc5c2cbf234365068855851107e762fc6211b",
+  "target_sha256": "dc1bd5e79e57844a00e6564fbe5f90811e7ffe28108536aa55dfdbf0a0bd451e",
+  "mgba_version": "0.10.5",
+  "mgba_commit": "26b7884bc25a5933960f3cdcd98bac1ae14d42e2",
   "pytest": {
-    "passed": 42,
+    "passed": 47,
     "failed": 0,
     "skipped": 0,
     "command": "FOMT_ROM=/path/to/base.gba .venv/bin/python -m pytest -q"
   },
   "emulator": {
-    "target_sha256": "952087635bbb9e000e0acf54cbf0dad1ef3f19006ebbf3948a6d2f27110db714",
+    "target_sha256": "dc1bd5e79e57844a00e6564fbe5f90811e7ffe28108536aa55dfdbf0a0bd451e",
     "checks": {
-      "ascii_glyphs_unchanged": 95,
+      "ascii_native_outlines_at_common_baseline": 95,
+      "legacy_glyph_fallback_unchanged": 10,
       "vietnamese_glyph_rasters_and_buffer_guards": 134,
       "custom_code_width_without_drawing": 134,
       "menu_multibyte_string_renderer_and_guards": 7,
       "crop_item_pointers_and_multibyte_renderer": 15,
       "full_charset_through_multibyte_string_renderer": 134,
+      "ascii_and_mixed_accent_spacing_strings": 9,
       "normal_new_game_input_replay_frames": 20483,
       "emulator_state_round_trip": "passed",
       "in_game_sram_save_and_cold_boot_load": {
         "size": 32768,
-        "sha256": "e6008f528fa60778d770ed962b67b71584c763c7e754d0ba61bb4818bd12c9c4",
+        "sha256": "f1b6edfbe3bf5f5e5a5966f5a30a33b7dd2eddfd738f34f776e654038dec5b3d",
         "save_integrity_after_reboot": "identical",
         "screenshots": "diary-saved, diary-load-menu, game-loaded"
       },
@@ -36,14 +40,48 @@
     ],
     "status": "passed; screenshots require visual inspection"
   },
+  "additional_emulator": {
+    "version": "0.11-dev",
+    "commit": "fd9dc5c2cbf234365068855851107e762fc6211b",
+    "report": {
+      "target_sha256": "dc1bd5e79e57844a00e6564fbe5f90811e7ffe28108536aa55dfdbf0a0bd451e",
+      "checks": {
+        "ascii_native_outlines_at_common_baseline": 95,
+        "legacy_glyph_fallback_unchanged": 10,
+        "vietnamese_glyph_rasters_and_buffer_guards": 134,
+        "custom_code_width_without_drawing": 134,
+        "menu_multibyte_string_renderer_and_guards": 7,
+        "crop_item_pointers_and_multibyte_renderer": 15,
+        "full_charset_through_multibyte_string_renderer": 134,
+        "ascii_and_mixed_accent_spacing_strings": 9,
+        "normal_new_game_input_replay_frames": 20483,
+        "emulator_state_round_trip": "passed",
+        "in_game_sram_save_and_cold_boot_load": {
+          "size": 32768,
+          "sha256": "f1b6edfbe3bf5f5e5a5966f5a30a33b7dd2eddfd738f34f776e654038dec5b3d",
+          "save_integrity_after_reboot": "identical",
+          "screenshots": "diary-saved, diary-load-menu, game-loaded"
+        },
+        "emulator_error_count": 0
+      },
+      "limitations": [
+        "No real-hardware test",
+        "No full-season gameplay test",
+        "Popuri not encountered in normal gameplay replay",
+        "All item screens and description layouts not playtested"
+      ],
+      "status": "passed; screenshots require visual inspection"
+    }
+  },
   "visual_review": {
     "reviewed": true,
     "observed": [
-      "Thomas opening dialogue readable in Vietnamese",
-      "All seven pause labels readable and within screen",
-      "Three-line dialogue fits current box",
-      "Diary save lists player A, farm A, Spring day 2",
-      "Cold boot recognizes same save; load returns to farm house day 2"
+      "Original capital/lowercase outlines share the same baseline in ASCII and Vietnamese",
+      "Original horizontal body bearings preserved for O/Ô/Ơ, d/đ and i/ị",
+      "Thomas dialogue readable and three lines fit the current box",
+      "All seven pause labels remain within the display",
+      "Diacritics including bottom dots remain inside the 16px foreground cell",
+      "Diary save survives cold boot and loads into the house on day 2"
     ],
     "not_observed": [
       "Natural Popuri encounter",
@@ -51,13 +89,19 @@
       "Real GBA hardware"
     ]
   },
+  "comparison": {
+    "before_target_sha256": "952087635bbb9e000e0acf54cbf0dad1ef3f19006ebbf3948a6d2f27110db714",
+    "after_target_sha256": "dc1bd5e79e57844a00e6564fbe5f90811e7ffe28108536aa55dfdbf0a0bd451e",
+    "origin": "actual mGBA string-renderer output on labeled diagnostics; not an NPC encounter screenshot"
+  },
   "images": {
-    "diary-saved.png": "b9c3ac39cf8cea8d60ce243a798561f03fcce733e41dab5ccec3175c9418558d",
-    "diary-load-menu.png": "c5db07803be926b1a1fafca6a7296fd725363876cdbdaf0c0951e77c76e3af23",
-    "vietnamese-font.png": "7e5c3f1f8f091cd80b967805159f58ca84b4e0fc9cc8e027bc17164f155ad190",
-    "thomas-three-lines.png": "9037d31c0e38d29bb05a9afd207b6fbcf9d659a40ad4aaa1ff78471ae54de163",
-    "thomas-dialogue.png": "288e273c7fa80554a40ae8b5ca63bf40f7b8b0918706e249d634323d83314d10",
+    "diary-saved.png": "c0b2de472ac1c99dc3a8e306e7a5ddbdccaf4aefe873e82afc36d046731dac97",
+    "diary-load-menu.png": "65b38a2a342bd9dcf174541990c8a3a7489ecc769388926721d27d72de9323fe",
+    "vietnamese-font.png": "4c2850da6e0a65cfc3472514fdcea4358d7a8de3d18e7d236f84eec2e5321f44",
+    "thomas-three-lines.png": "553de20daa5affe5336c6cfa6d52b7970e1bf654751027b74231ea1f26961be6",
+    "thomas-dialogue.png": "40c1f6e15f697d499efee01f22f1494d7bbf4461d1e094b8e787f9b84c8479e8",
     "game-loaded.png": "b445eef939588509f40a49c393280d56211aacc0bf865c7af1c57e01956d2312",
-    "pause-menu.png": "8a1b9351898efa94b462fa445464c4d06724fc392b483224bf466572d6458085"
+    "pause-menu.png": "bcf49999f428c6dba733182dfe05fc9df9596233975efc67635d8daf6514661a",
+    "font-spacing-comparison.png": "a1a27a7fcfebe39fc2e4cd1710832ad01b531616772f47137413724a259c4258"
   }
 }

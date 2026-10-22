@@ -13,7 +13,8 @@ from pathlib import Path
 import ips
 from fomt_text import (FormatError, GLYPH_FUNCTION, ROM_BASE, ROM_SHA1, VI_CODES,
     check_translation, encode, extract, offset, p32, parse_script, rebuild_script, u32, verified_rom)
-from vietnamese_font import assemble_hook, build_glyphs, trampoline
+from vietnamese_font import (assemble_hook, build_glyphs, trampoline, FONT_REVISION,
+    SOURCE_ROWS, BASELINE, ADVANCE_PIXELS, ASCII_COUNT, STAGING_BYTES)
 
 
 def build(base: bytes, translations: dict) -> tuple[bytes, dict]:
@@ -71,7 +72,7 @@ def build(base: bytes, translations: dict) -> tuple[bytes, dict]:
                        "before": before.hex(), "after": data.hex()})
 
     hook_offset = append(b"\xFF"*128, "Vietnamese Thumb hook reservation")
-    glyph_offset = append(build_glyphs(base), "134 Vietnamese 8x12 glyphs, 1bpp")
+    glyph_offset = append(build_glyphs(base), "229 Latin/Vietnamese glyphs, common baseline, 16x16 4bpp staging")
     hook = assemble_hook(ROM_BASE+hook_offset, ROM_BASE+glyph_offset)
     if len(hook) > 128:
         raise FormatError("hook reservation overflow")
@@ -119,6 +120,11 @@ def build(base: bytes, translations: dict) -> tuple[bytes, dict]:
     return patched, {"rom_sha1": ROM_SHA1, "target_sha256": hashlib.sha256(patched).hexdigest(),
         "size": len(patched), "translated_records": len(selected), "writes": writes,
         "allocations": allocations, "layout": layout, "font_hook_bytes": hook.hex(),
+        "font": {"revision":FONT_REVISION,"source_mask_rows":SOURCE_ROWS,
+                 "baseline_row":BASELINE,"advance_pixels":ADVANCE_PIXELS,
+                 "ascii_glyphs":ASCII_COUNT,"vietnamese_glyphs":len(VI_CODES),
+                 "cache_stride_bytes":STAGING_BYTES,
+                 "cache_size":(ASCII_COUNT+len(VI_CODES))*STAGING_BYTES},
         "encoding": {c: b.hex() for c,b in VI_CODES.items()},
         "runtime_status": "requires emulator/hardware validation"}
 

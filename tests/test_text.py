@@ -140,7 +140,71 @@ def test_font_distinguishes_all_134_characters(real_rom):
     from vietnamese_font import glyph
     bitmaps = [glyph(real_rom,c) for c in VI_CHARS]
     assert len(set(bitmaps)) == 134  # in particular Ô/ô and Ớ/ớ must differ
-    assert all(len(b) == 12 and any(b) for b in bitmaps)
+    assert all(len(b) == 16 and any(b) for b in bitmaps)
+
+
+def test_ascii_bodies_keep_original_outlines_and_horizontal_bearings(real_rom):
+    from vietnamese_font import ascii_glyph, BODY_Y
+    for code in range(32,127):
+        index = struct.unpack_from("<h",real_rom,0x4FA7A0+code*2)[0]
+        native = real_rom[0x4F90CC+12*index:0x4F90CC+12*(index+1)]
+        mask = ascii_glyph(real_rom,chr(code))
+        assert mask[:BODY_Y] == bytes(BODY_Y)
+        assert mask[BODY_Y:] == native
+
+
+def test_vietnamese_bodies_have_native_baseline_and_bearings(real_rom):
+    import unicodedata
+    from vietnamese_font import glyph, ascii_glyph, BODY_Y
+    for ch in VI_CHARS:
+        nfd = unicodedata.normalize("NFD",ch)
+        base = {"Đ":"D","đ":"d"}.get(ch,nfd[0])
+        native = ascii_glyph(real_rom,base)
+        actual = glyph(real_rom,ch)
+        occupied = [y for y,row in enumerate(native) if row]
+        first,last = min(occupied),max(occupied)
+        if base == "i":
+            first = BODY_Y+3  # compare the stem, independently of replacement tone/dot
+        for y in range(first,last+1):
+            expected = native[y]
+            if ch == "Đ" and y == BODY_Y+5:
+                expected |= 0xF0
+            elif ch == "đ" and y == BODY_Y+2:
+                expected |= 0x1E
+            elif "\u031b" in nfd and y == first:
+                expected |= 0x04  # horn attachment, not a shifted/redrawn body
+            assert actual[y] == expected, f"{ch}: native body changed at row {y}"
+
+
+def test_i_dot_and_d_ascenders_are_not_truncated(real_rom):
+    from vietnamese_font import glyph, ascii_glyph, BODY_Y
+    assert glyph(real_rom,"ị")[BODY_Y+1] == ascii_glyph(real_rom,"i")[BODY_Y+1] != 0
+    for ch,base in [("Đ","D"),("đ","d")]:
+        for y,row in enumerate(ascii_glyph(real_rom,base)):
+            assert glyph(real_rom,ch)[y] & row == row
+
+
+def test_cached_glyphs_keep_four_tile_stride_and_foreground(real_rom):
+    from vietnamese_font import build_glyphs,ascii_glyph,glyph
+    cached = build_glyphs(real_rom)
+    masks = [ascii_glyph(real_rom,chr(c)) for c in range(32,127)]+[glyph(real_rom,c) for c in VI_CHARS]
+    assert len(cached) == 229*128
+    for i,mask in enumerate(masks):
+        data = cached[i*128:(i+1)*128]
+        foreground = set()
+        for y in range(16):
+            for x in range(16):
+                v = data[(y//8*2+x//8)*32+y%8*4+x%8//2] >> (x%2*4) & 15
+                assert v in (0,1,2)
+                if v == 1:
+                    foreground.add((x,y))
+        assert foreground == {(x+1,y) for y,row in enumerate(mask) for x in range(8) if row & (128>>x)}
+
+
+def test_wrong_font_mask_height_rejected():
+    from vietnamese_font import render_staging
+    with pytest.raises(FormatError):
+        render_staging(bytes(12))
 
 
 def test_expanded_translation_set_builds_without_overlap(real_rom):
@@ -153,8 +217,9 @@ def test_expanded_translation_set_builds_without_overlap(real_rom):
 
 
 def test_exported_font_table_matches_build(real_rom):
-    from vietnamese_font import glyph
+    from vietnamese_font import glyph, encoding_table
     export = json.loads((ROOT/"localization/font/encoding.json").read_text())
+    assert export == encoding_table(real_rom)
     assert len(export["characters"]) == 134
     for row in export["characters"]:
         assert bytes.fromhex(row["code"]) == VI_CODES[row["character"]]
