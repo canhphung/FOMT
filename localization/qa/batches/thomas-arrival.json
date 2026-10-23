@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "thomas-arrival",
+  "goal": "First scene-complete NPC review batch; existing translated arrival only",
+  "record_ids": [
+    "script.0867.000",
+    "script.0867.001",
+    "script.0867.002",
+    "script.0867.003",
+    "script.0867.004",
+    "script.0867.005",
+    "script.0867.006",
+    "script.0867.007",
+    "script.0867.008"
+  ]
+}

@@ -1,0 +1,454 @@
+{
+  "schema_version": 1,
+  "hash_policy": "SHA256 over exact UTF-8 original_english and vietnamese_translation, including control tokens; stale QA must not be reused.",
+  "records": [
+    {
+      "id": "item.tool.000.description",
+      "source_sha256": "e066f57eb2a249a915eae9d0b251356fd11b726b8de1ac18313c9b5d076fcaed",
+      "translation_sha256": "41fdeb39dcd68f9ac28de4f1de0cff069348a2acba54bf8d79d22074662f2d92",
+      "context_status": "verified",
+      "context_evidence": "Verified item tool-description pointer table; original heading and lines read from supplied USA rev 0 ROM, not wiki text.",
+      "language_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/items-batch-validation.json",
+        "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
+        "scope": "isolated native renderer, 3 lines with guards and verified ROM description pointers; not full UI layout"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "layout_review": "pending"
+    },
+    {
+      "id": "item.tool.001.description",
+      "source_sha256": "a71a298c66b18019ebafbc90541ba162a4a5cd8f5bf10c5abea42786821b8a5a",
+      "translation_sha256": "c40ea4187f487d37567a407254d78315cffa2a43de380950219e04693ae2eaeb",
+      "context_status": "verified",
+      "context_evidence": "Verified item tool-description pointer table; original heading and lines read from supplied USA rev 0 ROM, not wiki text.",
+      "language_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/items-batch-validation.json",
+        "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
+        "scope": "isolated native renderer, 3 lines with guards and verified ROM description pointers; not full UI layout"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "layout_review": "pending"
+    },
+    {
+      "id": "item.tool.002.description",
+      "source_sha256": "017347dfd86a0b162f36c5513e848de03e179acf90e63f1feb79ba473e242403",
+      "translation_sha256": "c5139bc012f929dc8601c398a9884cdb8aabd44e60de30c0953980f55827b90c",
+      "context_status": "verified",
+      "context_evidence": "Verified item tool-description pointer table; original heading and lines read from supplied USA rev 0 ROM, not wiki text.",
+      "language_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/items-batch-validation.json",
+        "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
+        "scope": "isolated native renderer, 3 lines with guards and verified ROM description pointers; not full UI layout"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "layout_review": "pending"
+    },
+    {
+      "id": "item.tool.003.description",
+      "source_sha256": "edd2683559bc6dcc544e0cec65897664834cb6bfe26022d04391d869a1ed449c",
+      "translation_sha256": "368b27d6169c227aa9ba16f9a134ed69c33dc204f0cd5eb29fe2b3236f98b9d3",
+      "context_status": "verified",
+      "context_evidence": "Verified item tool-description pointer table; original heading and lines read from supplied USA rev 0 ROM, not wiki text.",
+      "language_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/items-batch-validation.json",
+        "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
+        "scope": "isolated native renderer, 3 lines with guards and verified ROM description pointers; not full UI layout"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "layout_review": "pending"
+    },
+    {
+      "id": "item.tool.004.description",
+      "source_sha256": "2509498cfb53e167a3e3ae042b55e111b8b51467a2d3e79c0f98aad3ed908943",
+      "translation_sha256": "1ba2cf95237a7198f6efde13c3986967884d73e0705bf76491032d995be74eca",
+      "context_status": "verified",
+      "context_evidence": "Verified item tool-description pointer table; original heading and lines read from supplied USA rev 0 ROM, not wiki text.",
+      "language_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/items-batch-validation.json",
+        "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
+        "scope": "isolated native renderer, 3 lines with guards and verified ROM description pointers; not full UI layout"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "layout_review": "pending"
+    },
+    {
+      "id": "item.tool.005.description",
+      "source_sha256": "c14a48ef2f6305d7c03b8d4980b9b7dacb7bdbd65a62b6a116e4642f9849eadb",
+      "translation_sha256": "6e2bfe7a60eff402284485472de2beb64ca4889a539dafc3906bc431a60ffd01",
+      "context_status": "verified",
+      "context_evidence": "Verified item tool-description pointer table; original heading and lines read from supplied USA rev 0 ROM, not wiki text.",
+      "language_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/items-batch-validation.json",
+        "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
+        "scope": "isolated native renderer, 3 lines with guards and verified ROM description pointers; not full UI layout"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "layout_review": "pending"
+    },
+    {
+      "id": "item.tool.006.description",
+      "source_sha256": "e8a57acc47df03b9e194a9e9f40d1460e10ffddaabb5ebfa0b398605a75585a0",
+      "translation_sha256": "6e5f3cc322bac0c009411d22f6c25ce94bccaa86f1f87a2a2449fa4b762e6b20",
+      "context_status": "verified",
+      "context_evidence": "Verified item tool-description pointer table; original heading and lines read from supplied USA rev 0 ROM, not wiki text.",
+      "language_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/items-batch-validation.json",
+        "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
+        "scope": "isolated native renderer, 3 lines with guards and verified ROM description pointers; not full UI layout"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "layout_review": "pending"
+    },
+    {
+      "id": "item.tool.007.description",
+      "source_sha256": "cba02e19e31b602d887cafd3733bd0845d616d6d85ed0095efccaa748277df54",
+      "translation_sha256": "a9dcf7f3896e8c2317bf494069972758071e62f84e4b1a7b4f1b48f9e93a24e6",
+      "context_status": "verified",
+      "context_evidence": "Verified item tool-description pointer table; original heading and lines read from supplied USA rev 0 ROM, not wiki text.",
+      "language_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/items-batch-validation.json",
+        "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
+        "scope": "isolated native renderer, 3 lines with guards and verified ROM description pointers; not full UI layout"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "layout_review": "pending"
+    },
+    {
+      "id": "item.tool.008.description",
+      "source_sha256": "cced485a234899da9169c868062522b8f7956c29a6d4e35ed5720e054fcf1996",
+      "translation_sha256": "e33104bd343209c38a47d6ab70880d8651561e15af24e316af62a2b1a6d2506d",
+      "context_status": "verified",
+      "context_evidence": "Verified item tool-description pointer table; original heading and lines read from supplied USA rev 0 ROM, not wiki text.",
+      "language_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/items-batch-validation.json",
+        "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
+        "scope": "isolated native renderer, 3 lines with guards and verified ROM description pointers; not full UI layout"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "layout_review": "pending"
+    },
+    {
+      "id": "item.tool.009.description",
+      "source_sha256": "639735d6493fcde4ad1f83bac9cc2ea0ae237ba117257ec4baa5d99e6d2016b6",
+      "translation_sha256": "7a55aabcae2412043577c0fdc5bae09b5453cb637b0ea59b37549f74d9eca426",
+      "context_status": "verified",
+      "context_evidence": "Verified item tool-description pointer table; original heading and lines read from supplied USA rev 0 ROM, not wiki text.",
+      "language_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/items-batch-validation.json",
+        "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
+        "scope": "isolated native renderer, 3 lines with guards and verified ROM description pointers; not full UI layout"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "layout_review": "pending"
+    },
+    {
+      "id": "item.tool.010.description",
+      "source_sha256": "6c72fb7025fcedba5421e86a5efc3191905f93118359b2c37eafa4cebf5ed725",
+      "translation_sha256": "3287b329662cbbbf632fdaeb87a5b1ecbf38035ccd3362bc464c2cfbc24dbd77",
+      "context_status": "verified",
+      "context_evidence": "Verified item tool-description pointer table; original heading and lines read from supplied USA rev 0 ROM, not wiki text.",
+      "language_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/items-batch-validation.json",
+        "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
+        "scope": "isolated native renderer, 3 lines with guards and verified ROM description pointers; not full UI layout"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "layout_review": "pending"
+    },
+    {
+      "id": "item.tool.011.description",
+      "source_sha256": "50689f5b0ab6d6f5908f0fa3879010b6013f1483cdff77d62b66ebbcbf7e4fca",
+      "translation_sha256": "16e002541b9a1c04a5fdc086abba82c4a0bf1fc0486a56ebdc309c83522002bf",
+      "context_status": "verified",
+      "context_evidence": "Verified item tool-description pointer table; original heading and lines read from supplied USA rev 0 ROM, not wiki text.",
+      "language_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/items-batch-validation.json",
+        "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
+        "scope": "isolated native renderer, 3 lines with guards and verified ROM description pointers; not full UI layout"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "layout_review": "pending"
+    },
+    {
+      "id": "item.tool.012.description",
+      "source_sha256": "b79bb2c0ed2ed82113477e58d4c5aa4fafed7c811dd8ba68f5bb563283dacb23",
+      "translation_sha256": "8a19f5c22d386e1269fa822219b8bb18d30292af7e7e8621c30d40e6befd3408",
+      "context_status": "verified",
+      "context_evidence": "Verified item tool-description pointer table; original heading and lines read from supplied USA rev 0 ROM, not wiki text.",
+      "language_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/items-batch-validation.json",
+        "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
+        "scope": "isolated native renderer, 3 lines with guards and verified ROM description pointers; not full UI layout"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "layout_review": "pending"
+    },
+    {
+      "id": "item.tool.013.description",
+      "source_sha256": "a18ccf5ee124c9d550547f36e164c37eb4d621cc1562ec2563a775d42cc505a9",
+      "translation_sha256": "c14aeaa6bc0f77ef22042db5c2ae064c81cb2edd8185058f4c93d1e7bf33d0ca",
+      "context_status": "verified",
+      "context_evidence": "Verified item tool-description pointer table; original heading and lines read from supplied USA rev 0 ROM, not wiki text.",
+      "language_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/items-batch-validation.json",
+        "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
+        "scope": "isolated native renderer, 3 lines with guards and verified ROM description pointers; not full UI layout"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "layout_review": "pending"
+    },
+    {
+      "id": "item.tool.014.description",
+      "source_sha256": "68b945079f14fb2bb1e39b78eb71a42f69922345251dddd163b99b73d3054772",
+      "translation_sha256": "26b16456e3abf411f37ebb9f909b3e0a369310e7c21be2fbecf365c2f22db5bc",
+      "context_status": "verified",
+      "context_evidence": "Verified item tool-description pointer table; original heading and lines read from supplied USA rev 0 ROM, not wiki text.",
+      "language_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/items-batch-validation.json",
+        "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
+        "scope": "isolated native renderer, 3 lines with guards and verified ROM description pointers; not full UI layout"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "layout_review": "pending"
+    },
+    {
+      "id": "item.tool.015.description",
+      "source_sha256": "f5e0aaef3d7e6a8602ba27abcd69e41c6ad68679fce677934bdaca8baf005e8a",
+      "translation_sha256": "9564876a78f9ba2d7a237ecc5acd920394edc5114c720a8e6315f9a7e7949f18",
+      "context_status": "verified",
+      "context_evidence": "Verified item tool-description pointer table; original heading and lines read from supplied USA rev 0 ROM, not wiki text.",
+      "language_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/items-batch-validation.json",
+        "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
+        "scope": "isolated native renderer, 3 lines with guards and verified ROM description pointers; not full UI layout"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "layout_review": "pending"
+    },
+    {
+      "id": "item.food.066.name",
+      "source_sha256": "77dc2a655f8ea639869e6d7bf1b33900484efc9e186db21167302588f630a05a",
+      "context_status": "needs_context",
+      "context_evidence": "Verified item-name pointer, but the referent of the generic Flower entry remains unidentified.",
+      "blocked_reason": "Resolve what Flower denotes in game before translating."
+    },
+    {
+      "id": "script.0867.000",
+      "source_sha256": "c67b300230898985af9789e1d3669b168398dbaa3d84574bb28d8feb14b0b163",
+      "translation_sha256": "95e8d4159696b3a7d46c37afcdf3c711a1bf0abb4eab5a8e722fe3ab8e09db55",
+      "context_status": "verified",
+      "context_evidence": "Normal new-game replay: Thomas dialogue before/after native childhood flashback; script 867; index 9 is the next-day transition.",
+      "language_review": "pending",
+      "renderer_check": {
+        "status": "not_run"
+      },
+      "playtest": {
+        "status": "historical",
+        "evidence": "docs/evidence/intro-validation.json",
+        "note": "Prior intro replay only; does not certify this build or daily dialogue.",
+        "target_sha256": "2886f416b61ba7fb1b913e1d1a81d2a6d6721d637711cf596b38e4268a8a062d"
+      }
+    },
+    {
+      "id": "script.0867.001",
+      "source_sha256": "d2d2e98a8e1bcc782c94bfabb958ef30f8b6e7fa1f4d75eb20dd932ba580cc9e",
+      "translation_sha256": "dd0c48e3795f73db2839fb2e67e5d6ef22943cf8d00ec8bed505a84b85800e62",
+      "context_status": "verified",
+      "context_evidence": "Normal new-game replay: Thomas dialogue before/after native childhood flashback; script 867; index 9 is the next-day transition.",
+      "language_review": "pending",
+      "renderer_check": {
+        "status": "not_run"
+      },
+      "playtest": {
+        "status": "historical",
+        "evidence": "docs/evidence/intro-validation.json",
+        "note": "Prior intro replay only; does not certify this build or daily dialogue.",
+        "target_sha256": "2886f416b61ba7fb1b913e1d1a81d2a6d6721d637711cf596b38e4268a8a062d"
+      }
+    },
+    {
+      "id": "script.0867.002",
+      "source_sha256": "b3374aef59c02a23f50397eead91180ba7460e73597f1499330a40f96219de87",
+      "translation_sha256": "93f1050723a0c759e09174ee68439539ce807d72c23a165eff5b40984f153f8a",
+      "context_status": "verified",
+      "context_evidence": "Normal new-game replay: Thomas dialogue before/after native childhood flashback; script 867; index 9 is the next-day transition.",
+      "language_review": "pending",
+      "renderer_check": {
+        "status": "not_run"
+      },
+      "playtest": {
+        "status": "historical",
+        "evidence": "docs/evidence/intro-validation.json",
+        "note": "Prior intro replay only; does not certify this build or daily dialogue.",
+        "target_sha256": "2886f416b61ba7fb1b913e1d1a81d2a6d6721d637711cf596b38e4268a8a062d"
+      }
+    },
+    {
+      "id": "script.0867.003",
+      "source_sha256": "773e75e7e73f12c57fae6e64cfff9fac6e6d42100f3a21789d6d48104f769983",
+      "translation_sha256": "f62ca8d2110532531b650fca03c64ee4c6ad2341e20f85224bb2653538e1c9b1",
+      "context_status": "verified",
+      "context_evidence": "Normal new-game replay: Thomas dialogue before/after native childhood flashback; script 867; index 9 is the next-day transition.",
+      "language_review": "pending",
+      "renderer_check": {
+        "status": "not_run"
+      },
+      "playtest": {
+        "status": "historical",
+        "evidence": "docs/evidence/intro-validation.json",
+        "note": "Prior intro replay only; does not certify this build or daily dialogue.",
+        "target_sha256": "2886f416b61ba7fb1b913e1d1a81d2a6d6721d637711cf596b38e4268a8a062d"
+      }
+    },
+    {
+      "id": "script.0867.004",
+      "source_sha256": "46489f74c4e182d175cfdb2b5826a77f16d6f57dee52eb659bc44f003f9fa9d5",
+      "translation_sha256": "44cee62958c62c2c0c2e447b4413c26c33fa37f666799d3811b56e344258e31c",
+      "context_status": "verified",
+      "context_evidence": "Normal new-game replay: Thomas dialogue before/after native childhood flashback; script 867; index 9 is the next-day transition.",
+      "language_review": "pending",
+      "renderer_check": {
+        "status": "not_run"
+      },
+      "playtest": {
+        "status": "historical",
+        "evidence": "docs/evidence/intro-validation.json",
+        "note": "Prior intro replay only; does not certify this build or daily dialogue.",
+        "target_sha256": "2886f416b61ba7fb1b913e1d1a81d2a6d6721d637711cf596b38e4268a8a062d"
+      }
+    },
+    {
+      "id": "script.0867.005",
+      "source_sha256": "6c6f7e7576baf055c33f5a27094dafbeeeb6c473303eb1be16331ce01ee9703a",
+      "translation_sha256": "07e749831e527c83a5e791d5e7090144d2c47103a59eb5a59b7cb4a6b75ba4ac",
+      "context_status": "verified",
+      "context_evidence": "Normal new-game replay: Thomas dialogue before/after native childhood flashback; script 867; index 9 is the next-day transition.",
+      "language_review": "pending",
+      "renderer_check": {
+        "status": "not_run"
+      },
+      "playtest": {
+        "status": "historical",
+        "evidence": "docs/evidence/intro-validation.json",
+        "note": "Prior intro replay only; does not certify this build or daily dialogue.",
+        "target_sha256": "2886f416b61ba7fb1b913e1d1a81d2a6d6721d637711cf596b38e4268a8a062d"
+      }
+    },
+    {
+      "id": "script.0867.006",
+      "source_sha256": "f5c015284727815b8df7e195bb944e740e28158dbcd5c63958c84c709fd8d866",
+      "translation_sha256": "afaae750bfdc5de2bf0df25d53be63144e12c42900d2a6a40e348c7677ada046",
+      "context_status": "verified",
+      "context_evidence": "Normal new-game replay: Thomas dialogue before/after native childhood flashback; script 867; index 9 is the next-day transition.",
+      "language_review": "pending",
+      "renderer_check": {
+        "status": "not_run"
+      },
+      "playtest": {
+        "status": "historical",
+        "evidence": "docs/evidence/intro-validation.json",
+        "note": "Prior intro replay only; does not certify this build or daily dialogue.",
+        "target_sha256": "2886f416b61ba7fb1b913e1d1a81d2a6d6721d637711cf596b38e4268a8a062d"
+      }
+    },
+    {
+      "id": "script.0867.007",
+      "source_sha256": "da346dee9fd673b8ef006e11ee13aeb32d33325ae7f966fad1c66d55a9885d91",
+      "translation_sha256": "53ef31180dea981db310076337ade9dbf140cc36c6e7f50e4d13a4971f751359",
+      "context_status": "verified",
+      "context_evidence": "Normal new-game replay: Thomas dialogue before/after native childhood flashback; script 867; index 9 is the next-day transition.",
+      "language_review": "pending",
+      "renderer_check": {
+        "status": "not_run"
+      },
+      "playtest": {
+        "status": "historical",
+        "evidence": "docs/evidence/intro-validation.json",
+        "note": "Prior intro replay only; does not certify this build or daily dialogue.",
+        "target_sha256": "2886f416b61ba7fb1b913e1d1a81d2a6d6721d637711cf596b38e4268a8a062d"
+      }
+    },
+    {
+      "id": "script.0867.008",
+      "source_sha256": "a42eb284aa62553bd5e5038d00a0f1d43efa745c730f5b96e22eb4113a457432",
+      "translation_sha256": "729a2dbd2c6622bed880f2e686a945524f1288243c0d312ae66fb1924168932c",
+      "context_status": "verified",
+      "context_evidence": "Normal new-game replay: Thomas dialogue before/after native childhood flashback; script 867; index 9 is the next-day transition.",
+      "language_review": "pending",
+      "renderer_check": {
+        "status": "not_run"
+      },
+      "playtest": {
+        "status": "historical",
+        "evidence": "docs/evidence/intro-validation.json",
+        "note": "Prior intro replay only; does not certify this build or daily dialogue.",
+        "target_sha256": "2886f416b61ba7fb1b913e1d1a81d2a6d6721d637711cf596b38e4268a8a062d"
+      }
+    }
+  ]
+}

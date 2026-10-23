@@ -15,6 +15,13 @@ hash target và giới hạn ghi trong chính báo cáo, không suy từ tên �
   không phải framebuffer game. [Khoảng cách Hè](date-hud-he-spacing-tight.png)
   giải thích bố cục H–è hiện tại.
 
+## Lô mô tả dụng cụ
+
+[items-batch-validation.json](items-batch-validation.json) gắn 16 pointer, 48 dòng
+render, regression tạo game và hash ROM hiện tại. [Ảnh renderer](items-tools-renderer.png)
+là chẩn đoán, không phải cửa sổ vật phẩm trong gameplay. Chưa duyệt ngôn ngữ,
+bố cục UI hoặc lấy đủ dụng cụ qua luồng chơi thật.
+
 ## Bằng chứng theo mốc chức năng
 
 Intro, tạo game và START có báo cáo chuyên biệt và ảnh tương ứng. Chúng

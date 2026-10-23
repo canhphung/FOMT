@@ -1,0 +1,366 @@
+{
+  "date": "2026-10-23",
+  "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
+  "batch": "tools-01",
+  "translated_records_added": 16,
+  "draft_records_total": 722,
+  "item_descriptions_with_drafts": 37,
+  "item_descriptions_total": 347,
+  "pytest": {
+    "passed": 113,
+    "failed": 0,
+    "skipped": 0
+  },
+  "emulators": {
+    "0.10.5": {
+      "item_descriptions": {
+        "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
+        "status": "passed",
+        "record_ids": [
+          "item.tool.000.description",
+          "item.tool.001.description",
+          "item.tool.002.description",
+          "item.tool.003.description",
+          "item.tool.004.description",
+          "item.tool.005.description",
+          "item.tool.006.description",
+          "item.tool.007.description",
+          "item.tool.008.description",
+          "item.tool.009.description",
+          "item.tool.010.description",
+          "item.tool.011.description",
+          "item.tool.012.description",
+          "item.tool.013.description",
+          "item.tool.014.description",
+          "item.tool.015.description"
+        ],
+        "translated_records": 16,
+        "relocated_description_pointers_verified": 16,
+        "native_renderer_lines_with_buffer_guards": 48,
+        "emulator_error_count": 0,
+        "checks_scope": "isolated native renderer and actual ROM pointer payloads",
+        "natural_item_windows_tested": 0,
+        "limitations": [
+          "Upgraded/cursed/blessed tools not obtained through gameplay.",
+          "No natural item-description window encounter claimed; layout/playtest approval remains pending.",
+          "No real hardware test."
+        ]
+      },
+      "new_game_regression": {
+        "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
+        "status": "passed",
+        "cases": [
+          {
+            "season": 0,
+            "day": 1,
+            "original_and_localized_selection": {
+              "names": [
+                "A",
+                "BC",
+                "CD"
+              ],
+              "packed_birthday": 0
+            }
+          },
+          {
+            "season": 0,
+            "day": 30,
+            "original_and_localized_selection": {
+              "names": [
+                "AB",
+                "BC",
+                "CD"
+              ],
+              "packed_birthday": 116
+            }
+          },
+          {
+            "season": 1,
+            "day": 1,
+            "original_and_localized_selection": {
+              "names": [
+                "AB",
+                "BC",
+                "CD"
+              ],
+              "packed_birthday": 1
+            }
+          },
+          {
+            "season": 1,
+            "day": 30,
+            "original_and_localized_selection": {
+              "names": [
+                "AB",
+                "BC",
+                "CD"
+              ],
+              "packed_birthday": 117
+            }
+          },
+          {
+            "season": 2,
+            "day": 1,
+            "original_and_localized_selection": {
+              "names": [
+                "AB",
+                "BC",
+                "CD"
+              ],
+              "packed_birthday": 2
+            }
+          },
+          {
+            "season": 2,
+            "day": 30,
+            "original_and_localized_selection": {
+              "names": [
+                "AB",
+                "BC",
+                "CD"
+              ],
+              "packed_birthday": 118
+            }
+          },
+          {
+            "season": 3,
+            "day": 1,
+            "original_and_localized_selection": {
+              "names": [
+                "AB",
+                "BC",
+                "CD"
+              ],
+              "packed_birthday": 3
+            }
+          },
+          {
+            "season": 3,
+            "day": 30,
+            "original_and_localized_selection": {
+              "names": [
+                "AAAAAAAAAAAA",
+                "BC",
+                "CD"
+              ],
+              "packed_birthday": 119
+            }
+          }
+        ],
+        "screenshots": [
+          "new-game-player.png",
+          "new-game-player-confirm.png",
+          "new-game-season.png",
+          "new-game-day.png",
+          "new-game-birthday-confirm.png",
+          "new-game-farm.png",
+          "new-game-farm-confirm.png",
+          "new-game-pet.png",
+          "new-game-pet-confirm.png",
+          "new-game-final.png",
+          "new-game-edit-again.png"
+        ],
+        "checks": [
+          "four seasons x days 1/30 through normal controls",
+          "all 43 birthday OBJ cells uploaded intact",
+          "name input/delete, 12-character boundary, name/birthday/final cancel",
+          "final summary names/date and blank background tile",
+          "selected names/birthday match original ROM for same input"
+        ],
+        "limitations": [
+          "Keyboard retains original character set; Vietnamese name input not added",
+          "No real GBA hardware test"
+        ]
+      }
+    },
+    "dev": {
+      "item_descriptions": {
+        "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
+        "status": "passed",
+        "record_ids": [
+          "item.tool.000.description",
+          "item.tool.001.description",
+          "item.tool.002.description",
+          "item.tool.003.description",
+          "item.tool.004.description",
+          "item.tool.005.description",
+          "item.tool.006.description",
+          "item.tool.007.description",
+          "item.tool.008.description",
+          "item.tool.009.description",
+          "item.tool.010.description",
+          "item.tool.011.description",
+          "item.tool.012.description",
+          "item.tool.013.description",
+          "item.tool.014.description",
+          "item.tool.015.description"
+        ],
+        "translated_records": 16,
+        "relocated_description_pointers_verified": 16,
+        "native_renderer_lines_with_buffer_guards": 48,
+        "emulator_error_count": 0,
+        "checks_scope": "isolated native renderer and actual ROM pointer payloads",
+        "natural_item_windows_tested": 0,
+        "limitations": [
+          "Upgraded/cursed/blessed tools not obtained through gameplay.",
+          "No natural item-description window encounter claimed; layout/playtest approval remains pending.",
+          "No real hardware test."
+        ]
+      },
+      "new_game_regression": {
+        "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
+        "status": "passed",
+        "cases": [
+          {
+            "season": 0,
+            "day": 1,
+            "original_and_localized_selection": {
+              "names": [
+                "A",
+                "BC",
+                "CD"
+              ],
+              "packed_birthday": 0
+            }
+          },
+          {
+            "season": 0,
+            "day": 30,
+            "original_and_localized_selection": {
+              "names": [
+                "AB",
+                "BC",
+                "CD"
+              ],
+              "packed_birthday": 116
+            }
+          },
+          {
+            "season": 1,
+            "day": 1,
+            "original_and_localized_selection": {
+              "names": [
+                "AB",
+                "BC",
+                "CD"
+              ],
+              "packed_birthday": 1
+            }
+          },
+          {
+            "season": 1,
+            "day": 30,
+            "original_and_localized_selection": {
+              "names": [
+                "AB",
+                "BC",
+                "CD"
+              ],
+              "packed_birthday": 117
+            }
+          },
+          {
+            "season": 2,
+            "day": 1,
+            "original_and_localized_selection": {
+              "names": [
+                "AB",
+                "BC",
+                "CD"
+              ],
+              "packed_birthday": 2
+            }
+          },
+          {
+            "season": 2,
+            "day": 30,
+            "original_and_localized_selection": {
+              "names": [
+                "AB",
+                "BC",
+                "CD"
+              ],
+              "packed_birthday": 118
+            }
+          },
+          {
+            "season": 3,
+            "day": 1,
+            "original_and_localized_selection": {
+              "names": [
+                "AB",
+                "BC",
+                "CD"
+              ],
+              "packed_birthday": 3
+            }
+          },
+          {
+            "season": 3,
+            "day": 30,
+            "original_and_localized_selection": {
+              "names": [
+                "AAAAAAAAAAAA",
+                "BC",
+                "CD"
+              ],
+              "packed_birthday": 119
+            }
+          }
+        ],
+        "screenshots": [
+          "new-game-player.png",
+          "new-game-player-confirm.png",
+          "new-game-season.png",
+          "new-game-day.png",
+          "new-game-birthday-confirm.png",
+          "new-game-farm.png",
+          "new-game-farm-confirm.png",
+          "new-game-pet.png",
+          "new-game-pet-confirm.png",
+          "new-game-final.png",
+          "new-game-edit-again.png"
+        ],
+        "checks": [
+          "four seasons x days 1/30 through normal controls",
+          "all 43 birthday OBJ cells uploaded intact",
+          "name input/delete, 12-character boundary, name/birthday/final cancel",
+          "final summary names/date and blank background tile",
+          "selected names/birthday match original ROM for same input"
+        ],
+        "limitations": [
+          "Keyboard retains original character set; Vietnamese name input not added",
+          "No real GBA hardware test"
+        ]
+      }
+    }
+  },
+  "language_review": "pending",
+  "layout_review": "pending",
+  "natural_item_windows_tested": 0,
+  "natural_tool_obtainment_tested": false,
+  "wiki_reference_access": "proxy blocked HTTP 403 CONNECT; no wiki content imported",
+  "first_npc_batch": {
+    "character": "Thomas",
+    "record_ids": [
+      "script.0867.000",
+      "script.0867.001",
+      "script.0867.002",
+      "script.0867.003",
+      "script.0867.004",
+      "script.0867.005",
+      "script.0867.006",
+      "script.0867.007",
+      "script.0867.008"
+    ],
+    "scope": "existing translated arrival scene, historical replay; current language/layout QA pending"
+  },
+  "screenshots": [
+    {
+      "path": "docs/evidence/items-tools-renderer.png",
+      "sha256": "aaef18b4cdda611189894c66104b432e3668b1080907488b7812b4b48f907e23",
+      "type": "native renderer diagnostic, not gameplay screenshot"
+    }
+  ],
+  "ips_round_trip_verified": true
+}

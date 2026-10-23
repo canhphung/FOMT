@@ -2,16 +2,16 @@
   "date": "2026-10-23",
   "timezone": "Asia/Saigon",
   "revision": "vietnamese-calendar-heading-v19",
-  "target_sha256": "72798d65aa551bff491878e4fe7a73c7aafdc06309919e277839998379fb2292",
+  "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
   "pytest": {
-    "passed": 106,
+    "passed": 113,
     "failed": 0,
     "skipped": 0
   },
   "emulators": {
     "0.10.5": {
       "date_ui": {
-        "target_sha256": "72798d65aa551bff491878e4fe7a73c7aafdc06309919e277839998379fb2292",
+        "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
         "revision": "vietnamese-calendar-heading-v19",
         "limitations": [
           "Calendar fixtures change UI view fields, not elapsed gameplay years",
@@ -506,7 +506,7 @@
         "status": "passed"
       },
       "full_smoke": {
-        "target_sha256": "72798d65aa551bff491878e4fe7a73c7aafdc06309919e277839998379fb2292",
+        "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
         "checks": {
           "ascii_native_outlines_at_common_baseline": 95,
           "legacy_glyph_fallback_unchanged": 10,
@@ -577,7 +577,7 @@
     },
     "dev": {
       "date_ui": {
-        "target_sha256": "72798d65aa551bff491878e4fe7a73c7aafdc06309919e277839998379fb2292",
+        "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
         "revision": "vietnamese-calendar-heading-v19",
         "limitations": [
           "Calendar fixtures change UI view fields, not elapsed gameplay years",
@@ -1072,7 +1072,7 @@
         "status": "passed"
       },
       "full_smoke": {
-        "target_sha256": "72798d65aa551bff491878e4fe7a73c7aafdc06309919e277839998379fb2292",
+        "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
         "checks": {
           "ascii_native_outlines_at_common_baseline": 95,
           "legacy_glyph_fallback_unchanged": 10,
@@ -1143,7 +1143,7 @@
     }
   },
   "start_menu_regression": {
-    "target_sha256": "72798d65aa551bff491878e4fe7a73c7aafdc06309919e277839998379fb2292",
+    "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
     "status": "passed",
     "translated_records": 162,
     "isolated_renderer_lines_with_guards": 239,
@@ -1363,13 +1363,10 @@
     {
       "path": "docs/evidence/date-ui/hud-vi.png",
       "sha256": "3848148f549729ccd67df90004a6184bd05a988a934ba4ce3cc0d3c2f683a089"
-    },
-    {
-      "path": "docs/evidence/calendar-heading.png",
-      "sha256": "1272b9826f3c9acbd8dc04f39bd95b7ab0f3d17239951f244c5dbf35b5b095e3"
     }
   ],
   "visual_review": "Native/translated calendar, all four seasons, 1/100/200-year headings, calendar exit and nine HUD date/time cases reviewed; no OCR or claim of multi-year gameplay.",
+  "item_batch_evidence": "docs/evidence/items-batch-validation.json",
   "calendar_heading": {
     "previous_commit": "2ea8a52a2d1153ec6dc55709745f33c433d48441",
     "previous_target_sha256": "905e291b90a08428c998e0680a4190c623d8e17f6c3a408c638e93eac6d312c8",
@@ -1546,6 +1543,7 @@
       ],
       "calendar-closed.png": null
     },
-    "ips_round_trip_verified": true
+    "ips_round_trip_verified": true,
+    "reference_note": "Original v18/v19 comparison retained; current calendar/HUD screenshots are unchanged from 4387e41."
   }
 }

@@ -8,7 +8,7 @@ Không chứa hoặc tự tải ROM thương mại. Bản vá IPS nằm trong `p
 
 - Trích xuất 9.283 bản ghi: 8.368 chuỗi SCR, 347 tên + 347 mô tả vật phẩm,
   7 nhãn menu tạm dừng, 24 mục tạo game mới, 28 mục hồi tưởng thời thơ ấu và 162 mục trong các menu con START.
-- 706 bản ghi dịch nháp: 346 tên vật phẩm, 21 mô tả, 7 menu, 1 lời chào Popuri,
+- 722 bản ghi dịch nháp: 346 tên vật phẩm, 37 mô tả, 7 menu, 1 lời chào Popuri,
   24 mục tạo game mới, 145 mục intro/hướng dẫn đầu game và 162 mục menu START.
 - Lịch/HUD tiếng Việt: Năm, Xuân/Hè/Thu/Đông, CN/T2…T7 và đồng hồ 24 giờ.
   Tiêu đề lịch đã căn khoảng cách và thu nhỏ riêng số năm; HUD giữ vị trí đồng hồ,
@@ -32,10 +32,16 @@ Không chứa hoặc tự tải ROM thương mại. Bản vá IPS nằm trong `p
   Bản sửa v2 xử lý lỗi lệch thân chữ/spacing; xem ảnh trước–sau trong `docs/evidence`.
 - Chèn lại ở vùng ROM mở rộng, giữ nguyên bytecode sự kiện và dữ liệu gameplay.
 - Kiểm thử mGBA: boot, tạo game mới, hội thoại Thomas, 7 nhãn menu, render font,
-  lịch/HUD và ghi Diary, nạp lại save sau boot; 106 pytest đạt. Chi tiết và giới hạn trong báo cáo tiến độ.
+  lịch/HUD và ghi Diary, nạp lại save sau boot; 113 pytest đạt. Chi tiết và giới hạn trong báo cáo tiến độ.
 
 Chưa xác minh toàn bộ gameplay, mọi màn hình vật phẩm, TV/sách/sự kiện, phần cứng
 GBA thật hoặc nhập tên người chơi có dấu. Phần lớn hội thoại vẫn là tiếng Anh.
+
+## Dịch và QA
+
+[Quy trình làm việc](docs/LOCALIZATION_WORKFLOW.md): glossary, hồ sơ xưng hô,
+hàng đợi JSON/CSV và lô 16 mô tả dụng cụ đầu tiên. `make queue` xuất hàng đợi;
+nguồn chưa rõ ngữ cảnh giữ blocked.
 
 ## Cấu trúc và dọn workspace
 

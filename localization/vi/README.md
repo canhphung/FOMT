@@ -7,7 +7,8 @@
 | `new_game.json` | 24 |
 | `intro.json` | 145 |
 | `start_menu.json` | 162 |
-| **Tổng, không trùng ID** | **706** |
+| `item_descriptions_tools.json` | 16 |
+| **Tổng, không trùng ID** | **722** |
 
 Các file title/lịch/HUD là cấu hình đồ họa, theo dõi riêng với catalog text.
 Trạng thái `translated` không đồng nghĩa đã duyệt ngôn ngữ hoặc chơi thử
@@ -26,3 +27,5 @@ Không dùng thay thế từ hàng loạt cho hội thoại thiếu ngữ cảnh
 
 Tên riêng và thuật ngữ: xem `../glossary.json`. Chỉ dùng `reviewed` sau khi đã
 duyệt cả nghĩa, xưng hô, token và bố cục. Chưa có ID nào ở trạng thái này.
+
+Hàng đợi/ngữ cảnh/QA và quy trình lô: [LOCALIZATION_WORKFLOW.md](../../docs/LOCALIZATION_WORKFLOW.md).

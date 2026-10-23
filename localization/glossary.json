@@ -1,11 +1,15 @@
 {
   "schema_version": 1,
-  "status": "draft; terminology review required",
+  "status": "Working terminology baseline; source-linked terms; language review pending",
   "rules": [
     "Keep proper names unchanged.",
     "Preserve grades S/M/L/G/P/X exactly as displayed in the source.",
     "Item names use sentence capitalization, not English Title Case.",
-    "Do not silently fix source typos or infer undocumented variable meanings."
+    "Do not silently fix source typos or infer undocumented variable meanings.",
+    "Use Hè for Summer consistently across HUD, calendar, birthday UI and prose (lowercase hè in prose).",
+    "Character pronouns apply only to the documented scene and player age; do not extend childhood speech to adult scenes.",
+    "External wikis may clarify concepts but never replace ROM text, source IDs or control codes.",
+    "Base tool description headings Sickle/Hoe remain Liềm/Cuốc; do not add Iron merely because the separate item-name table says Iron."
   ],
   "pronouns": {
     "Popuri": {
@@ -2311,9 +2315,10 @@
     },
     {
       "english": "Summer",
-      "vietnamese": "Hạ",
+      "vietnamese": "Hè",
       "category": "new_game_ui",
-      "source_id": "ui.newgame.season.summer"
+      "source_id": "ui.newgame.season.summer",
+      "note": "Canonical season label; aligned with calendar/HUD."
     },
     {
       "english": "Fall",
@@ -2476,6 +2481,71 @@
       "vietnamese": "Đồi Mother's Hill",
       "category": "start_menu",
       "source_id": "ui.start.0fd070"
+    },
+    {
+      "english": "Sickle",
+      "vietnamese": "Liềm",
+      "category": "tool_family",
+      "source_id": "item.tool.000.description",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Hoe",
+      "vietnamese": "Cuốc",
+      "category": "tool_family",
+      "source_id": "item.tool.008.description",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Cursed",
+      "vietnamese": "nguyền rủa",
+      "category": "tool_quality",
+      "source_id": "item.tool.005.description",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Blessed",
+      "vietnamese": "phúc lành",
+      "category": "tool_quality",
+      "source_id": "item.tool.006.description",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "church",
+      "vietnamese": "nhà thờ",
+      "category": "location",
+      "source_id": "item.tool.005.description",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "weeds",
+      "vietnamese": "cỏ dại",
+      "category": "farming",
+      "source_id": "item.tool.000.description",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "crops",
+      "vietnamese": "cây trồng",
+      "category": "farming",
+      "source_id": "item.tool.000.description",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "till",
+      "vietnamese": "xới",
+      "category": "farming",
+      "source_id": "item.tool.008.description",
+      "status": "working; language review pending"
+    }
+  ],
+  "references": [
+    {
+      "url": "https://harvestmoon.fandom.com/wiki/Harvest_Moon:_Friends_of_Mineral_Town",
+      "role": "User-suggested secondary reference, not ROM text source",
+      "access_status": "blocked: environment proxy returned HTTP 403 CONNECT",
+      "facts_imported": false,
+      "attempted_at": "2026-10-23"
     }
   ]
 }

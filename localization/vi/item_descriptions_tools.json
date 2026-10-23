@@ -1,0 +1,439 @@
+{
+  "schema_version": 1,
+  "rom_sha1": "a2fc3574f0a65a4fcf7682fb274b9d7eebdef963",
+  "scope": "Batch tools-01: 16 source-verified sickle/hoe descriptions; draft, not human-reviewed",
+  "records": [
+    {
+      "id": "item.tool.000.description",
+      "rom_address": "0x080E9674",
+      "rom_offset": "0x0E9674",
+      "original_english": "Sickle{CR}{LF}Good for cutting grass or{CR}{LF}weeds. Also cuts crops!",
+      "vietnamese_translation": "Liềm{CR}{LF}Dùng cắt cỏ hoặc cỏ dại.{CR}{LF}Cũng cắt cả cây trồng!",
+      "context": "item_description",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "5369636b6c650d0a476f6f6420666f722063757474696e67206772617373206f720d0a77656564732e20416c736f20637574732063726f707321",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          961300
+        ],
+        "reference": "StanHash/fomt data/item/tool.def; tools/scripts/dump_item_tables.py"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required",
+      "context_evidence": "Verified item tool-description pointer table; original heading and lines read from supplied USA rev 0 ROM, not wiki text."
+    },
+    {
+      "id": "item.tool.001.description",
+      "rom_address": "0x080E96C0",
+      "rom_offset": "0x0E96C0",
+      "original_english": "Copper Sickle{CR}{LF}Good for cutting grass or{CR}{LF}weeds. Also cuts crops!",
+      "vietnamese_translation": "Liềm đồng{CR}{LF}Dùng cắt cỏ hoặc cỏ dại.{CR}{LF}Cũng cắt cả cây trồng!",
+      "context": "item_description",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "436f70706572205369636b6c650d0a476f6f6420666f722063757474696e67206772617373206f720d0a77656564732e20416c736f20637574732063726f707321",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          961312
+        ],
+        "reference": "StanHash/fomt data/item/tool.def; tools/scripts/dump_item_tables.py"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required",
+      "context_evidence": "Verified item tool-description pointer table; original heading and lines read from supplied USA rev 0 ROM, not wiki text."
+    },
+    {
+      "id": "item.tool.002.description",
+      "rom_address": "0x080E9714",
+      "rom_offset": "0x0E9714",
+      "original_english": "Silver Sickle{CR}{LF}Good for cutting grass or{CR}{LF}weeds. Also cuts crops!",
+      "vietnamese_translation": "Liềm bạc{CR}{LF}Dùng cắt cỏ hoặc cỏ dại.{CR}{LF}Cũng cắt cả cây trồng!",
+      "context": "item_description",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "53696c766572205369636b6c650d0a476f6f6420666f722063757474696e67206772617373206f720d0a77656564732e20416c736f20637574732063726f707321",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          961324
+        ],
+        "reference": "StanHash/fomt data/item/tool.def; tools/scripts/dump_item_tables.py"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required",
+      "context_evidence": "Verified item tool-description pointer table; original heading and lines read from supplied USA rev 0 ROM, not wiki text."
+    },
+    {
+      "id": "item.tool.003.description",
+      "rom_address": "0x080E9764",
+      "rom_offset": "0x0E9764",
+      "original_english": "Gold Sickle{CR}{LF}Good for cutting grass or{CR}{LF}weeds. Also cuts crops!",
+      "vietnamese_translation": "Liềm vàng{CR}{LF}Dùng cắt cỏ hoặc cỏ dại.{CR}{LF}Cũng cắt cả cây trồng!",
+      "context": "item_description",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "476f6c64205369636b6c650d0a476f6f6420666f722063757474696e67206772617373206f720d0a77656564732e20416c736f20637574732063726f707321",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          961336
+        ],
+        "reference": "StanHash/fomt data/item/tool.def; tools/scripts/dump_item_tables.py"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required",
+      "context_evidence": "Verified item tool-description pointer table; original heading and lines read from supplied USA rev 0 ROM, not wiki text."
+    },
+    {
+      "id": "item.tool.004.description",
+      "rom_address": "0x080E97B4",
+      "rom_offset": "0x0E97B4",
+      "original_english": "Mystrile Sickle{CR}{LF}Good for cutting grass or{CR}{LF}weeds. Also cuts crops!",
+      "vietnamese_translation": "Liềm Mystrile{CR}{LF}Dùng cắt cỏ hoặc cỏ dại.{CR}{LF}Cũng cắt cả cây trồng!",
+      "context": "item_description",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "4d79737472696c65205369636b6c650d0a476f6f6420666f722063757474696e67206772617373206f720d0a77656564732e20416c736f20637574732063726f707321",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          961348
+        ],
+        "reference": "StanHash/fomt data/item/tool.def; tools/scripts/dump_item_tables.py"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required",
+      "context_evidence": "Verified item tool-description pointer table; original heading and lines read from supplied USA rev 0 ROM, not wiki text."
+    },
+    {
+      "id": "item.tool.005.description",
+      "rom_address": "0x080E9808",
+      "rom_offset": "0x0E9808",
+      "original_english": "Cursed Sickle{CR}{LF}Once equipped, go to church{CR}{LF}to remove it.",
+      "vietnamese_translation": "Liềm nguyền rủa{CR}{LF}Đã trang bị thì phải đến{CR}{LF}nhà thờ để tháo ra.",
+      "context": "item_description",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "437572736564205369636b6c650d0a4f6e63652065717569707065642c20676f20746f206368757263680d0a746f2072656d6f76652069742e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          961360
+        ],
+        "reference": "StanHash/fomt data/item/tool.def; tools/scripts/dump_item_tables.py"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required",
+      "context_evidence": "Verified item tool-description pointer table; original heading and lines read from supplied USA rev 0 ROM, not wiki text."
+    },
+    {
+      "id": "item.tool.006.description",
+      "rom_address": "0x080E9854",
+      "rom_offset": "0x0E9854",
+      "original_english": "Blessed Sickle{CR}{LF}A Sickle whose curse has{CR}{LF}been removed!",
+      "vietnamese_translation": "Liềm phúc lành{CR}{LF}Liềm đã được{CR}{LF}giải lời nguyền!",
+      "context": "item_description",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "426c6573736564205369636b6c650d0a41205369636b6c652077686f7365206375727365206861730d0a6265656e2072656d6f76656421",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          961372
+        ],
+        "reference": "StanHash/fomt data/item/tool.def; tools/scripts/dump_item_tables.py"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required",
+      "context_evidence": "Verified item tool-description pointer table; original heading and lines read from supplied USA rev 0 ROM, not wiki text."
+    },
+    {
+      "id": "item.tool.007.description",
+      "rom_address": "0x080E989C",
+      "rom_offset": "0x0E989C",
+      "original_english": "Mythic Sickle{CR}{LF}Good for cutting grass or{CR}{LF}weeds. Also cuts crops!",
+      "vietnamese_translation": "Liềm thần thoại{CR}{LF}Dùng cắt cỏ hoặc cỏ dại.{CR}{LF}Cũng cắt cả cây trồng!",
+      "context": "item_description",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "4d7974686963205369636b6c650d0a476f6f6420666f722063757474696e67206772617373206f720d0a77656564732e20416c736f20637574732063726f707321",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          961384
+        ],
+        "reference": "StanHash/fomt data/item/tool.def; tools/scripts/dump_item_tables.py"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required",
+      "context_evidence": "Verified item tool-description pointer table; original heading and lines read from supplied USA rev 0 ROM, not wiki text."
+    },
+    {
+      "id": "item.tool.008.description",
+      "rom_address": "0x080E98EC",
+      "rom_offset": "0x0E98EC",
+      "original_english": "Hoe{CR}{LF}Till earth, sown fields,{CR}{LF}or grass right after mown.",
+      "vietnamese_translation": "Cuốc{CR}{LF}Xới đất, ô đã gieo hạt,{CR}{LF}hoặc nơi vừa cắt cỏ.",
+      "context": "item_description",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "486f650d0a54696c6c2065617274682c20736f776e206669656c64732c0d0a6f72206772617373207269676874206166746572206d6f776e2e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          961396
+        ],
+        "reference": "StanHash/fomt data/item/tool.def; tools/scripts/dump_item_tables.py"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required",
+      "context_evidence": "Verified item tool-description pointer table; original heading and lines read from supplied USA rev 0 ROM, not wiki text."
+    },
+    {
+      "id": "item.tool.009.description",
+      "rom_address": "0x080E9934",
+      "rom_offset": "0x0E9934",
+      "original_english": "Copper Hoe{CR}{LF}Till earth, sown fields,{CR}{LF}or grass right after mown.",
+      "vietnamese_translation": "Cuốc đồng{CR}{LF}Xới đất, ô đã gieo hạt,{CR}{LF}hoặc nơi vừa cắt cỏ.",
+      "context": "item_description",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "436f7070657220486f650d0a54696c6c2065617274682c20736f776e206669656c64732c0d0a6f72206772617373207269676874206166746572206d6f776e2e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          961408
+        ],
+        "reference": "StanHash/fomt data/item/tool.def; tools/scripts/dump_item_tables.py"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required",
+      "context_evidence": "Verified item tool-description pointer table; original heading and lines read from supplied USA rev 0 ROM, not wiki text."
+    },
+    {
+      "id": "item.tool.010.description",
+      "rom_address": "0x080E9984",
+      "rom_offset": "0x0E9984",
+      "original_english": "Silver Hoe{CR}{LF}Till earth, sown fields,{CR}{LF}or grass right after mown.",
+      "vietnamese_translation": "Cuốc bạc{CR}{LF}Xới đất, ô đã gieo hạt,{CR}{LF}hoặc nơi vừa cắt cỏ.",
+      "context": "item_description",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "53696c76657220486f650d0a54696c6c2065617274682c20736f776e206669656c64732c0d0a6f72206772617373207269676874206166746572206d6f776e2e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          961420
+        ],
+        "reference": "StanHash/fomt data/item/tool.def; tools/scripts/dump_item_tables.py"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required",
+      "context_evidence": "Verified item tool-description pointer table; original heading and lines read from supplied USA rev 0 ROM, not wiki text."
+    },
+    {
+      "id": "item.tool.011.description",
+      "rom_address": "0x080E99D4",
+      "rom_offset": "0x0E99D4",
+      "original_english": "Gold Hoe{CR}{LF}Till earth, sown fields,{CR}{LF}or grass right after mown.",
+      "vietnamese_translation": "Cuốc vàng{CR}{LF}Xới đất, ô đã gieo hạt,{CR}{LF}hoặc nơi vừa cắt cỏ.",
+      "context": "item_description",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "476f6c6420486f650d0a54696c6c2065617274682c20736f776e206669656c64732c0d0a6f72206772617373207269676874206166746572206d6f776e2e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          961432
+        ],
+        "reference": "StanHash/fomt data/item/tool.def; tools/scripts/dump_item_tables.py"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required",
+      "context_evidence": "Verified item tool-description pointer table; original heading and lines read from supplied USA rev 0 ROM, not wiki text."
+    },
+    {
+      "id": "item.tool.012.description",
+      "rom_address": "0x080E9A24",
+      "rom_offset": "0x0E9A24",
+      "original_english": "Mystrile Hoe{CR}{LF}Till earth, sown fields,{CR}{LF}or grass after mown.",
+      "vietnamese_translation": "Cuốc Mystrile{CR}{LF}Xới đất, ô đã gieo hạt,{CR}{LF}hoặc nơi vừa cắt cỏ.",
+      "context": "item_description",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "4d79737472696c6520486f650d0a54696c6c2065617274682c20736f776e206669656c64732c0d0a6f72206772617373206166746572206d6f776e2e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          961444
+        ],
+        "reference": "StanHash/fomt data/item/tool.def; tools/scripts/dump_item_tables.py"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required",
+      "context_evidence": "Verified item tool-description pointer table; original heading and lines read from supplied USA rev 0 ROM, not wiki text."
+    },
+    {
+      "id": "item.tool.013.description",
+      "rom_address": "0x080E9A70",
+      "rom_offset": "0x0E9A70",
+      "original_english": "Cursed Hoe{CR}{LF}Once equipped, go to church{CR}{LF}to remove it.",
+      "vietnamese_translation": "Cuốc nguyền rủa{CR}{LF}Đã trang bị thì phải đến{CR}{LF}nhà thờ để tháo ra.",
+      "context": "item_description",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "43757273656420486f650d0a4f6e63652065717569707065642c20676f20746f206368757263680d0a746f2072656d6f76652069742e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          961456
+        ],
+        "reference": "StanHash/fomt data/item/tool.def; tools/scripts/dump_item_tables.py"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required",
+      "context_evidence": "Verified item tool-description pointer table; original heading and lines read from supplied USA rev 0 ROM, not wiki text."
+    },
+    {
+      "id": "item.tool.014.description",
+      "rom_address": "0x080E9AB4",
+      "rom_offset": "0x0E9AB4",
+      "original_english": "Blessed Hoe{CR}{LF}A Hoe whose curse has{CR}{LF}been removed!",
+      "vietnamese_translation": "Cuốc phúc lành{CR}{LF}Cuốc đã được{CR}{LF}giải lời nguyền!",
+      "context": "item_description",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "426c657373656420486f650d0a4120486f652077686f7365206375727365206861730d0a6265656e2072656d6f76656421",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          961468
+        ],
+        "reference": "StanHash/fomt data/item/tool.def; tools/scripts/dump_item_tables.py"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required",
+      "context_evidence": "Verified item tool-description pointer table; original heading and lines read from supplied USA rev 0 ROM, not wiki text."
+    },
+    {
+      "id": "item.tool.015.description",
+      "rom_address": "0x080E9AF4",
+      "rom_offset": "0x0E9AF4",
+      "original_english": "Mythic Hoe{CR}{LF}Till earth, sown fields,{CR}{LF}or grass after mown.",
+      "vietnamese_translation": "Cuốc thần thoại{CR}{LF}Xới đất, ô đã gieo hạt,{CR}{LF}hoặc nơi vừa cắt cỏ.",
+      "context": "item_description",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "4d797468696320486f650d0a54696c6c2065617274682c20736f776e206669656c64732c0d0a6f72206772617373206166746572206d6f776e2e",
+      "source": {
+        "kind": "pointer",
+        "pointer_offsets": [
+          961480
+        ],
+        "reference": "StanHash/fomt data/item/tool.def; tools/scripts/dump_item_tables.py"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required",
+      "context_evidence": "Verified item tool-description pointer table; original heading and lines read from supplied USA rev 0 ROM, not wiki text."
+    }
+  ]
+}

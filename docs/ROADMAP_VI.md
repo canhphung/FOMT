@@ -4,6 +4,10 @@ Cập nhật 2026-10-23. Baseline triển khai: `f8e1af2`, ROM USA A4NE revision
 Mục tiêu: Việt hóa toàn bộ văn bản có thể tiếp cận, giữ gameplay/save gốc,
 phát hành bản vá; không decompile toàn bộ game hoặc phân phối ROM.
 
+Đã triển khai hàng đợi CLI/ngữ cảnh/QA tối thiểu và lô tools-01; hiện có 722
+nháp. Xem [quy trình](LOCALIZATION_WORKFLOW.md) và [tiến độ hiện tại](TRANSLATION_PROGRESS.md).
+Bảng dưới giữ baseline lúc lập roadmap.
+
 ## Điểm xuất phát đã kiểm đếm
 
 | Hạng mục | Hiện tại |
@@ -68,8 +72,7 @@ phải từ chối mất/đổi token, placeholder, control stream hoặc glyph 
 Không tự đánh dấu reviewed, không tự nới validator để câu dịch dài được chèn.
 
 Trạng thái QA nên theo dõi riêng với translation_status hiện có: đã xác minh
-ngữ cảnh, đã duyệt ngôn ngữ, đã kiểm bố cục, đã gặp trong game. Đây là phần
-cần bổ sung, không phải tính năng giao diện đã tồn tại.
+ngữ cảnh, đã duyệt ngôn ngữ, đã kiểm bố cục, đã gặp trong game. Phần này đã có trong hàng đợi CLI/JSON/CSV tối thiểu; giao diện web chưa triển khai.
 
 ## C. Hoàn thiện nội dung thấy thường xuyên
 

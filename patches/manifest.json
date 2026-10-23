@@ -3,13 +3,13 @@
   "stage": "experimental localization demo; not a full translation",
   "source_sha1": "a2fc3574f0a65a4fcf7682fb274b9d7eebdef963",
   "source_size": 8388608,
-  "target_sha256": "72798d65aa551bff491878e4fe7a73c7aafdc06309919e277839998379fb2292",
+  "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
   "target_size": 16777216,
-  "patch_sha256": "b12fe939f593e1083549c22a2a3b7a53a9bec358f8a76b24089e3b4a41678464",
-  "patch_size": 202532,
-  "translated_draft_records": 706,
+  "patch_sha256": "80176c6a5cb844213a488ef1e4cfb904409312b05f6a56f6ea4747344a285b1f",
+  "patch_size": 202596,
+  "translated_draft_records": 722,
   "revision": "2026-10-23",
-  "validation": "106 pytest; mGBA 0.10.5/0.11-dev: 2580 packed HUD cases, 300 setters, 9 VRAM-checked HUD views pixel-identical to v18, 64 resource allocation/free cycles, OAM 0/127/128 capacity checks, 56 calendar UI fixtures with body pixels matching native plus heading OAM/year-glyph VRAM checks and 8 natural open/close resource cycles, natural calendar open/close, START regression, title/font and SRAM cold-boot save/load; see docs/evidence/date-ui-validation.json",
+  "validation": "113 pytest; mGBA 0.10.5/0.11-dev: 2580 packed HUD cases, 300 setters, 9 VRAM-checked HUD views pixel-identical to v18, 64 resource allocation/free cycles, OAM 0/127/128 capacity checks, 56 calendar UI fixtures with body pixels matching native plus heading OAM/year-glyph VRAM checks and 8 natural open/close resource cycles, natural calendar open/close, START regression, title/font and SRAM cold-boot save/load; see docs/evidence/date-ui-validation.json",
   "font_revision": "native-outline-aligned-v2",
   "translated_graphics_assets": 3,
   "title_graphics_revision": "native-thin-double-outline-v5",
@@ -26,5 +26,8 @@
   "date_ui_clock": "24-hour HH:MM; native ten-minute ticks",
   "calendar_font_tiles_used": 180,
   "calendar_font_tiles_reserved": 256,
-  "calendar_heading_revision": "centered-native-compact-year-v1"
+  "calendar_heading_revision": "centered-native-compact-year-v1",
+  "item_description_drafts": 37,
+  "localization_batch": "tools-01",
+  "item_batch_evidence": "docs/evidence/items-batch-validation.json"
 }

@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "proper_name_policy": "Keep proper names from glossary unchanged. Mother/Father/Old Man/Girl are verified scene labels, not inferred NPC identities.",
+  "unassigned_policy": "Unknown speaker: no pronoun choice or translation until context is verified.",
+  "profiles": [
+    {
+      "character": "Popuri",
+      "self": "mình",
+      "player": "bạn",
+      "scope": "first greeting only",
+      "status": "scene-scoped working profile; language review pending",
+      "source_ids": [
+        "script.0993.000"
+      ],
+      "evidence": "docs/TEXT_SYSTEM.md",
+      "extension_policy": "Recheck speaker, player age, relationship and branch before applying outside this scope."
+    },
+    {
+      "character": "Thomas",
+      "self": "bác",
+      "player": "cháu",
+      "scope": "opening arrival and first-morning instruction",
+      "status": "scene-scoped working profile; language review pending",
+      "source_ids": [
+        "script.0867.000",
+        "script.0867.001",
+        "script.0867.002",
+        "script.0867.003",
+        "script.0867.004",
+        "script.0867.005",
+        "script.0867.006",
+        "script.0867.007",
+        "script.0867.008",
+        "script.0737.000",
+        "script.0737.001",
+        "script.0737.004",
+        "script.0737.009",
+        "script.0737.010",
+        "script.0737.011",
+        "script.0737.012",
+        "script.0737.013"
+      ],
+      "evidence": "docs/INTRO_LOCALIZATION.md",
+      "extension_policy": "Recheck speaker, player age, relationship and branch before applying outside this scope."
+    },
+    {
+      "character": "Mother",
+      "self": "mẹ",
+      "player": "con",
+      "scope": "childhood flashback",
+      "status": "scene-scoped working profile; language review pending",
+      "source_ids": [
+        "intro.flashback.speaker.mother",
+        "intro.flashback.dialogue.00",
+        "intro.flashback.dialogue.02",
+        "intro.flashback.dialogue.05",
+        "intro.flashback.dialogue.11"
+      ],
+      "evidence": "docs/INTRO_LOCALIZATION.md",
+      "extension_policy": "Recheck speaker, player age, relationship and branch before applying outside this scope."
+    },
+    {
+      "character": "Father",
+      "self": "bố",
+      "player": "con",
+      "scope": "childhood flashback",
+      "status": "scene-scoped working profile; language review pending",
+      "source_ids": [
+        "intro.flashback.speaker.father",
+        "intro.flashback.dialogue.01",
+        "intro.flashback.dialogue.03",
+        "intro.flashback.dialogue.06",
+        "intro.flashback.dialogue.09"
+      ],
+      "evidence": "docs/INTRO_LOCALIZATION.md",
+      "extension_policy": "Recheck speaker, player age, relationship and branch before applying outside this scope."
+    },
+    {
+      "character": "Old Man",
+      "self": "ông",
+      "player": "cháu",
+      "scope": "childhood flashback",
+      "status": "scene-scoped working profile; language review pending",
+      "source_ids": [
+        "intro.flashback.speaker.old_man",
+        "intro.flashback.dialogue.04",
+        "intro.flashback.dialogue.07",
+        "intro.flashback.dialogue.10",
+        "intro.flashback.dialogue.19",
+        "intro.flashback.dialogue.20",
+        "intro.flashback.dialogue.21",
+        "intro.flashback.dialogue.24",
+        "intro.flashback.dialogue.25"
+      ],
+      "evidence": "docs/INTRO_LOCALIZATION.md",
+      "extension_policy": "Recheck speaker, player age, relationship and branch before applying outside this scope."
+    },
+    {
+      "character": "Girl",
+      "self": "tớ",
+      "player": "cậu",
+      "scope": "childhood flashback",
+      "status": "scene-scoped working profile; language review pending",
+      "source_ids": [
+        "intro.flashback.speaker.girl",
+        "intro.flashback.dialogue.16",
+        "intro.flashback.dialogue.17",
+        "intro.flashback.dialogue.18",
+        "intro.flashback.dialogue.22",
+        "intro.flashback.dialogue.23"
+      ],
+      "evidence": "docs/INTRO_LOCALIZATION.md",
+      "extension_policy": "Recheck speaker, player age, relationship and branch before applying outside this scope."
+    },
+    {
+      "character": "Zack",
+      "self": "tôi",
+      "player": "cậu",
+      "scope": "first-morning shipping introduction",
+      "status": "scene-scoped working profile; language review pending",
+      "source_ids": [
+        "script.0737.014",
+        "script.0737.015",
+        "script.0737.016",
+        "script.0737.017",
+        "script.0737.018",
+        "script.0737.019",
+        "script.0737.020",
+        "script.0737.021"
+      ],
+      "evidence": "docs/INTRO_LOCALIZATION.md",
+      "extension_policy": "Recheck speaker, player age, relationship and branch before applying outside this scope."
+    }
+  ],
+  "first_dialogue_candidate": {
+    "character": "Thomas",
+    "scope": "Arrival scene, script 867 records 0-8 only",
+    "source_ids": [
+      "script.0867.000",
+      "script.0867.001",
+      "script.0867.002",
+      "script.0867.003",
+      "script.0867.004",
+      "script.0867.005",
+      "script.0867.006",
+      "script.0867.007",
+      "script.0867.008"
+    ],
+    "reason": "Speaker and sequence already witnessed in the normal intro replay; suitable first language/QA batch.",
+    "next_step": "Review the existing arrival translations; trace new daily dialogue before expanding.",
+    "not_claimed": "This does not identify or translate all Thomas daily dialogue."
+  }
+}

@@ -1,9 +1,9 @@
 PYTHON ?= python3
 ROM ?=
 
-.PHONY: help extract build test emulator
+.PHONY: help extract build test emulator queue
 help:
-	@echo 'make extract|build|test|emulator|clean ROM="/path/to/legally-supplied-USA-ROM.gba"'
+	@echo 'make extract|build|test|emulator|queue|clean ROM="/path/to/legally-supplied-USA-ROM.gba"'
 
 extract:
 	$(PYTHON) tools/text_extractor.py "$(ROM)"
@@ -21,3 +21,6 @@ emulator:
 .PHONY: clean
 clean:
 	rm -rf -- build .pytest_cache tools/__pycache__ tests/__pycache__
+
+queue:
+	$(PYTHON) tools/localization_queue.py

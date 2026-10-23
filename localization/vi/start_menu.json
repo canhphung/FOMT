@@ -770,7 +770,7 @@
       "rom_address": "0x080FB864",
       "rom_offset": "0x0FB864",
       "original_english": "Summer",
-      "vietnamese_translation": "Hạ    ",
+      "vietnamese_translation": "Hè    ",
       "context": "start_menu_statistics",
       "speaker": null,
       "control_codes": [],
@@ -2340,7 +2340,7 @@
       "rom_address": "0x080FCB5C",
       "rom_offset": "0x0FCB5C",
       "original_english": "Kai's Seaside Lodge{CR}{LF}Open only in Summer",
-      "vietnamese_translation": "Quán ven biển Kai{CR}{LF}Chỉ mở vào mùa Hạ",
+      "vietnamese_translation": "Quán ven biển Kai{CR}{LF}Chỉ mở vào mùa hè",
       "context": "start_menu_world_map",
       "speaker": null,
       "control_codes": [
@@ -2872,7 +2872,7 @@
       "rom_address": "0x080FCEE4",
       "rom_offset": "0x0FCEE4",
       "original_english": "Mineral Beach{CR}{LF}Beach House is open {CR}{LF}in Summer. Zack lives here.",
-      "vietnamese_translation": "Bãi biển Mineral{CR}{LF}Quán biển mở vào mùa Hạ.{CR}{LF}Zack sống ở đây.",
+      "vietnamese_translation": "Bãi biển Mineral{CR}{LF}Quán biển mở vào mùa hè.{CR}{LF}Zack sống ở đây.",
       "context": "start_menu_world_map",
       "speaker": null,
       "control_codes": [

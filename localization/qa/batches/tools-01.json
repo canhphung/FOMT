@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "tools-01",
+  "goal": "Verify 16 new sickle/hoe description drafts before expanding descriptions",
+  "record_ids": [
+    "item.tool.000.description",
+    "item.tool.001.description",
+    "item.tool.002.description",
+    "item.tool.003.description",
+    "item.tool.004.description",
+    "item.tool.005.description",
+    "item.tool.006.description",
+    "item.tool.007.description",
+    "item.tool.008.description",
+    "item.tool.009.description",
+    "item.tool.010.description",
+    "item.tool.011.description",
+    "item.tool.012.description",
+    "item.tool.013.description",
+    "item.tool.014.description",
+    "item.tool.015.description"
+  ]
+}

@@ -7,6 +7,7 @@
 | tests/ | Kiểm source, codec, pointer, buffer và layout | Giữ |
 | localization/en/ | Subset nguồn xác minh; catalog/discovery đầy đủ sinh cục bộ | Subset track Git; catalog đầy đủ không track |
 | localization/vi/ | Các nhóm dịch và cấu hình đồ họa | Giữ; là dữ liệu làm việc chính |
+| localization/qa/, character_profiles.json | Batch, QA theo hash và hồ sơ người nói theo cảnh | Track Git; hàng đợi xuất ra build/ |
 | localization/font/, glossary.json | Bảng mã và thuật ngữ | Giữ |
 | patches/ | IPS phát hành hiện tại và manifest | Track Git; không chứa ROM |
 | docs/ | Tài liệu hệ thống, roadmap và tiến độ hiện tại | Lịch sử chi tiết xem Git |
