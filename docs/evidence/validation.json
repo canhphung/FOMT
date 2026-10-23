@@ -2,7 +2,7 @@
   "date": "2026-10-23",
   "font_revision": "native-outline-aligned-v2",
   "base_sha1": "a2fc3574f0a65a4fcf7682fb274b9d7eebdef963",
-  "target_sha256": "1f7152a9c67a17137b32c639ccf638eeaa9d361947cfafa5de7e980edc6cc0db",
+  "target_sha256": "14347d9059280c7379240be1e476d135752ea5e4c33661934cffe0e3619d66cf",
   "mgba_version": "0.10.5",
   "mgba_commit": "26b7884bc25a5933960f3cdcd98bac1ae14d42e2",
   "pytest": {
@@ -12,7 +12,7 @@
     "command": "FOMT_ROM=/path/to/base.gba .venv/bin/python -m pytest -q"
   },
   "emulator": {
-    "target_sha256": "1f7152a9c67a17137b32c639ccf638eeaa9d361947cfafa5de7e980edc6cc0db",
+    "target_sha256": "14347d9059280c7379240be1e476d135752ea5e4c33661934cffe0e3619d66cf",
     "checks": {
       "ascii_native_outlines_at_common_baseline": 95,
       "legacy_glyph_fallback_unchanged": 10,
@@ -84,7 +84,7 @@
     "version": "0.11-dev",
     "commit": "fd9dc5c2cbf234365068855851107e762fc6211b",
     "report": {
-      "target_sha256": "1f7152a9c67a17137b32c639ccf638eeaa9d361947cfafa5de7e980edc6cc0db",
+      "target_sha256": "14347d9059280c7379240be1e476d135752ea5e4c33661934cffe0e3619d66cf",
       "checks": {
         "ascii_native_outlines_at_common_baseline": 95,
         "legacy_glyph_fallback_unchanged": 10,

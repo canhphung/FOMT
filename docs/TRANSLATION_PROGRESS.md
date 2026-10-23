@@ -550,3 +550,18 @@ HUD, 300 setter, chín fixture VRAM/weather, 56 fixture lịch; START/font/title
 và lưu/tải cold boot đạt. Đã duyệt glyph nền trắng và ảnh Hè ngày 2/30.
 [Ảnh hoàn thiện](evidence/date-hud-e-final.png); cập nhật IPS/manifest.
 706 bản ghi dịch nháp giữ nguyên; chưa kiểm GBA thật hoặc chơi xuyên mùa.
+
+
+## 2026-10-23 — Dịch dấu huyền sang bên phải è (v12)
+
+`vietnamese-date-24h-grave-right-v12` chỉ dịch hai pixel dấu huyền thêm
+4 pixel theo X, từ (0,0)/(1,1) sang (4,0)/(5,1). Giữ nguyên thân e, pixel
+đuôi, bearing/advance/baseline và vị trí mọi thành phần HUD. Điểm cuối dấu
+nằm ngoài mái chữ theo X nên không có pixel thân tiếp xúc thẳng bên dưới.
+
+100 pytest đạt; kiểm tra tọa độ dấu mới, vị trí cũ trống và pixel dưới dấu
+trống. Hai bản mGBA đều qua 2.580 trường hợp HUD, 300 setter, chín fixture
+VRAM/weather, 56 fixture lịch, START/font/title/lưu-tải cold boot. Đã duyệt
+glyph nền trắng và Hè ngày 2/30. [Ảnh](evidence/date-hud-grave-right.png).
+Cập nhật IPS/manifest; 706 bản ghi dịch nháp không đổi. Chưa kiểm GBA thật
+hoặc chơi xuyên mùa.

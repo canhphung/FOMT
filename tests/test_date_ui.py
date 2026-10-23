@@ -93,8 +93,9 @@ def test_hud_accents_centered_and_separated_from_body_and_shadow(vowel):
     body_x=[x for y in range(3,6) for x,v in enumerate(pixels[y]) if v==1]
     assert mark_x and body_x
     if vowel=='è':
-        assert pixels[0][0]==pixels[1][1]==1
-        assert pixels[1][2]==pixels[2][2]==0  # clear column before vowel roof
+        assert pixels[0][4]==pixels[1][5]==1
+        assert pixels[0][0]==pixels[1][1]==0  # previous accent position is clear
+        assert pixels[2][5]==0  # lower point stays beyond the vowel roof
     else:
         assert min(mark_x)+max(mark_x)==min(body_x)+max(body_x)
     assert any(pixels[y][x]==1 for y in range(3,6) for x in range(4))

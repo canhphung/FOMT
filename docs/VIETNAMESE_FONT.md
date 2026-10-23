@@ -177,5 +177,6 @@ mở bên phải trong suốt khi đổ bóng; không đổi baseline hoặc d�
 advance 5 pixel; nét dọc có hàng riêng dưới thanh ngang. Dấu huyền gọn một
 pixel ở y=0, y=1 trống, thân y=2–6 ở bản trước. V11 thêm pixel đuôi phải
 và kéo dấu huyền thành hai pixel chéo; bearing X=2/advance=7 riêng cho è
-giữ dấu tách khỏi thân/H. Thân e và đồng hồ giữ vị trí, H lùi trái 2 pixel. UTF-8 chỉ dùng trong nguồn, game dùng tile 4bpp raster trước.
+giữ dấu tách khỏi thân/H. Thân e và đồng hồ giữ vị trí, H lùi trái 2 pixel ở v11. V12 chỉ dịch dấu huyền
+sang phải 4 pixel thành (4,0)/(5,1), không dịch thân, H hay clock nữa. UTF-8 chỉ dùng trong nguồn, game dùng tile 4bpp raster trước.
 [DATE_UI.md](DATE_UI.md) ghi vùng đệm và các kiểm tra VRAM.
