@@ -31,7 +31,7 @@ trong localization/, chi tiết từng adapter trong các tài liệu hệ thố
 ## Kiểm chứng gần nhất
 
 - 134 pytest đạt với ROM USA rev 0 được người dùng cung cấp.
-- Bàn dịch local: 12 luồng Chromium đạt, sửa/lưu trên bản sao dữ liệu;
+- Bàn dịch local: 12 luồng Chromium đạt ở mốc npc-daily-01, sửa/lưu trên bản sao dữ liệu;
   toàn bộ 28 file JSON localization gốc giữ nguyên hash.
 - Hai build độc lập giống byte; IPS phát hành áp lại đúng ROM. Khóa 34 file
   nền tảng và 43 ảnh chuẩn, replay trên hai mGBA không lệch pixel.
@@ -180,3 +180,16 @@ Dò 864 ca theo CODE gốc của Thomas: mức thân thiết, lượt nói, gi�
 không gán bốn mùa cho NPC chưa có bằng chứng. Wiki FoMT vẫn trả HTTP 402.
 Toàn bộ bản dịch là nháp; native UI fixture không thay encounter tự nhiên.
 Xem [nguồn và độ phủ](NPC_DAILY_LOCALIZATION.md), [báo cáo](evidence/npc-daily-validation.json).
+
+## Tinh chỉnh Thomas — thomas-refinement-01
+
+Áp dụng bốn đề xuất 1017.007/014/018/023 đã được người dùng chọn: sắc thái
+giật mình, thống nhất thị trấn, giữ always và rõ nghĩa quản lý thị trấn.
+Giữ nguyên English/control stream, xưng bác/cháu và số nháp 1.144.
+Tài liệu tham khảo và bản rà soát riêng nằm trong knowledge/ được Git ignore,
+không phát hành cùng bản vá. Không đánh dấu toàn bộ Thomas đã duyệt.
+
+[Báo cáo tinh chỉnh](evidence/thomas-refinement-validation.json) có ảnh và
+kiểm năm WAIT/12 dòng riêng cho bốn câu. Gate đầy đủ kiểm lại hai build/IPS,
+134 pytest, tám suite mỗi mGBA và 43 ảnh chuẩn không đổi. Bàn dịch không
+chạy lại trong lượt chỉ thay văn bản này; bằng chứng browser cũ giữ hash/mốc cũ.

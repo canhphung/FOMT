@@ -84,7 +84,7 @@ sự kiện đó. Popuri có câu nhắc mưa và về quê mùa hè; **các câ
 chứng minh điều kiện chọn thoại là mùa tương ứng**. Cổng quan hệ với Kai,
 đám cưới, lịch, thời tiết và mùa của toàn bộ nhóm Popuri còn phải trace tiếp.
 
-## Wiki tham khảo
+## Wiki tham khảo — lượt truy cập mạng khi tạo npc-daily-01
 
 Ngày 2026-10-23 thử lại trang game FoMT, trang Thomas và `?action=raw` qua proxy
 được cấu hình, dù quyền mạng đã mở. Website trả **HTTP 402** cùng nội dung
@@ -139,3 +139,31 @@ thủ công, chưa kiểm toàn bộ dynamic name, quà tặng và encounter t�
 
 ![Thomas — lời chào](evidence/npc-daily/script.1017.020.png)
 ![Popuri — nhắc các mùa](evidence/npc-daily/script.0993.102.png)
+
+## Tinh chỉnh Thomas — thomas-refinement-01
+
+Áp dụng bốn thay đổi đã được người dùng chấp thuận, giữ bác/cháu:
+
+| ID | Điều chỉnh |
+| --- | --- |
+| 1017.007 | “Ái chà!” → “Ối!”, rõ sắc thái giật mình của Yikes. |
+| 1017.014 | “làng yên bình” → “thị trấn yên bình”, thống nhất địa danh. |
+| 1017.018 | “thường cùng nhau” → “lúc nào cũng cùng nhau”, giữ nghĩa always. |
+| 1017.023 | “rành việc làng” → “rành quản lý thị trấn”, sát running towns. |
+
+Đã có tài liệu tham khảo do người dùng cung cấp ở thư mục cục bộ được Git
+ignore; không phát hành tài liệu hoặc ZIP đó. English và token của ROM vẫn
+là nguồn chính; không thêm lời thoại, tuổi, quan hệ tình cảm hoặc điều kiện
+sự kiện từ tài liệu tham khảo. Đây là tinh chỉnh bốn nháp, không tăng số ID.
+
+[Báo cáo tinh chỉnh](evidence/thomas-refinement-validation.json) lưu hash
+ROM/IPS, kiểm token/độ rộng, năm điểm WAIT của bốn câu trên hai mGBA và ảnh
+fixture native. Lượt chụp riêng dùng cùng npc_daily_smoke.py, chỉ lọc danh
+sách bốn ID và chọn chụp ở WAIT đầu; giữ toàn bộ assert native/cache/SRAM.
+Gate đầy đủ vẫn kiểm toàn bộ 85 câu và các suite nền tảng. CODE/JUMP của hai
+script không đổi; 92 chuỗi Popuri ngoài phạm vi giữ nguyên byte.
+
+Ảnh dưới đây là fixture hộp thoại native, chưa phải encounter tự nhiên:
+
+![Thomas giật mình](evidence/thomas-refinement/script.1017.007.png)
+![Thomas quản lý thị trấn](evidence/thomas-refinement/script.1017.023.png)

@@ -10,3 +10,6 @@ localization/en/discovery.json
 local-data/
 *.sram
 *.state
+
+# Local game reference documents; never publish to GitHub.
+/knowledge/

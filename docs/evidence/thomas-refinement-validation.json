@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "revision": "thomas-refinement-01",
+  "status": "passed",
+  "created_at": "2026-10-23T13:27:10.975036+00:00",
+  "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5",
+  "patch_sha256": "f4a8ae0c5b6f2445d372cdb4bdb66f49e15f1e74c822012ed0d971b8f9e5f669",
+  "record_ids": [
+    "script.1017.007",
+    "script.1017.014",
+    "script.1017.018",
+    "script.1017.023"
+  ],
+  "record_count_unchanged": 1144,
+  "pytest": {
+    "passed": 134,
+    "failed": 0,
+    "skipped": 0
+  },
+  "release_ips_round_trip": true,
+  "repeated_builds_identical": true,
+  "script_integrity": [
+    {
+      "script_id": 1017,
+      "CODE_unchanged": true,
+      "JUMP_unchanged": true,
+      "string_count_unchanged": 34,
+      "untranslated_strings_byte_identical": 0
+    },
+    {
+      "script_id": 993,
+      "CODE_unchanged": true,
+      "JUMP_unchanged": true,
+      "string_count_unchanged": 144,
+      "untranslated_strings_byte_identical": 92
+    }
+  ],
+  "emulators": {
+    "0.10.5": {
+      "status": "passed",
+      "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5",
+      "dialogue_records": 4,
+      "thomas_branch_cases": 864,
+      "native_waits_verified": 5,
+      "guarded_renderer_lines": 12,
+      "cases": [
+        {
+          "id": "script.1017.007",
+          "speaker": "Thomas",
+          "wait_offsets_verified": [
+            31
+          ],
+          "native_widget": "0x203aa64",
+          "cleared_native_tile_caches": 21
+        },
+        {
+          "id": "script.1017.014",
+          "speaker": "Thomas",
+          "wait_offsets_verified": [
+            76
+          ],
+          "native_widget": "0x203aa64",
+          "cleared_native_tile_caches": 21
+        },
+        {
+          "id": "script.1017.018",
+          "speaker": "Thomas",
+          "wait_offsets_verified": [
+            74,
+            123
+          ],
+          "native_widget": "0x203aa64",
+          "cleared_native_tile_caches": 21
+        },
+        {
+          "id": "script.1017.023",
+          "speaker": "Thomas",
+          "wait_offsets_verified": [
+            54
+          ],
+          "native_widget": "0x203aa64",
+          "cleared_native_tile_caches": 21
+        }
+      ],
+      "screenshots": [
+        "script.1017.007.png",
+        "script.1017.014.png",
+        "script.1017.018.png",
+        "script.1017.023.png"
+      ],
+      "sram_unchanged": true,
+      "emulator_error_count": 0,
+      "limitations": [
+        "Native widget RAM fixtures; no natural NPC encounter, gift transaction or season progression claimed.",
+        "Opening portrait hidden; speaker labels follow ROM-backed context, not an encountered actor.",
+        "Language/layout manual review pending; longest dynamic variables separately reserved at 12 cells.",
+        "Popuri spouse/home dialogue indexes 1..92 remain outside this batch."
+      ]
+    },
+    "dev": {
+      "status": "passed",
+      "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5",
+      "dialogue_records": 4,
+      "thomas_branch_cases": 864,
+      "native_waits_verified": 5,
+      "guarded_renderer_lines": 12,
+      "cases": [
+        {
+          "id": "script.1017.007",
+          "speaker": "Thomas",
+          "wait_offsets_verified": [
+            31
+          ],
+          "native_widget": "0x203aa64",
+          "cleared_native_tile_caches": 21
+        },
+        {
+          "id": "script.1017.014",
+          "speaker": "Thomas",
+          "wait_offsets_verified": [
+            76
+          ],
+          "native_widget": "0x203aa64",
+          "cleared_native_tile_caches": 21
+        },
+        {
+          "id": "script.1017.018",
+          "speaker": "Thomas",
+          "wait_offsets_verified": [
+            74,
+            123
+          ],
+          "native_widget": "0x203aa64",
+          "cleared_native_tile_caches": 21
+        },
+        {
+          "id": "script.1017.023",
+          "speaker": "Thomas",
+          "wait_offsets_verified": [
+            54
+          ],
+          "native_widget": "0x203aa64",
+          "cleared_native_tile_caches": 21
+        }
+      ],
+      "screenshots": [
+        "script.1017.007.png",
+        "script.1017.014.png",
+        "script.1017.018.png",
+        "script.1017.023.png"
+      ],
+      "sram_unchanged": true,
+      "emulator_error_count": 0,
+      "limitations": [
+        "Native widget RAM fixtures; no natural NPC encounter, gift transaction or season progression claimed.",
+        "Opening portrait hidden; speaker labels follow ROM-backed context, not an encountered actor.",
+        "Language/layout manual review pending; longest dynamic variables separately reserved at 12 cells.",
+        "Popuri spouse/home dialogue indexes 1..92 remain outside this batch."
+      ]
+    }
+  },
+  "screenshots": [
+    {
+      "id": "script.1017.007",
+      "path": "docs/evidence/thomas-refinement/script.1017.007.png",
+      "sha256": "d90d43e8f26ff589feac8f762ff9de17875ed7b3975fed36e3dc8fafb8cb915c",
+      "scope": "Native dialogue layout fixture; not natural encounter."
+    },
+    {
+      "id": "script.1017.014",
+      "path": "docs/evidence/thomas-refinement/script.1017.014.png",
+      "sha256": "f17c5a72d5cd23636dcd5faf2da6d1543e4f8e8e8aa3433b240337a0c37838dd",
+      "scope": "Native dialogue layout fixture; not natural encounter."
+    },
+    {
+      "id": "script.1017.018",
+      "path": "docs/evidence/thomas-refinement/script.1017.018.png",
+      "sha256": "e59be42ae848685751487aef6a14730c4f910dac794b8683d327969ef54516e1",
+      "scope": "Native dialogue layout fixture; not natural encounter."
+    },
+    {
+      "id": "script.1017.023",
+      "path": "docs/evidence/thomas-refinement/script.1017.023.png",
+      "sha256": "a5f1008f77a2d547ed96aae413f1521ddcf7f63229e991dde718f345f76b5713",
+      "scope": "Native dialogue layout fixture; not natural encounter."
+    }
+  ],
+  "source": "Verified ROM English and four wording changes accepted by the user; local reference files are not distributed.",
+  "capture_harness": {
+    "base": "tools/npc_daily_smoke.py",
+    "base_sha256": "ed3690522943e5647f1bdbb159669c99fb1908656bae2dc1c70029cd5b3b4bfa",
+    "generated_sha256": "3aa78154ce508f1b02efcc5e25df98f301295ab39f8174ba19d1e2a577a7775d",
+    "recipe": "After the full 85-record assertion, select the four record_ids listed here; use the same list for first-WAIT captures. All other native/renderer/cache/SRAM assertions are unchanged."
+  },
+  "limitations": [
+    "Native dialogue widget fixtures, not natural encounters.",
+    "Full Thomas language/layout approval and unresolved NPC triggers remain pending.",
+    "The translation workbench browser was not rerun for this text-only change."
+  ],
+  "translation_metrics": [
+    {
+      "id": "script.1017.007",
+      "maximum_tiles": 21,
+      "dynamic_variable_reserve": false,
+      "vertical_layout": "requires_runtime_review"
+    },
+    {
+      "id": "script.1017.014",
+      "maximum_tiles": 23,
+      "dynamic_variable_reserve": false,
+      "vertical_layout": "requires_runtime_review"
+    },
+    {
+      "id": "script.1017.018",
+      "maximum_tiles": 24,
+      "dynamic_variable_reserve": false,
+      "vertical_layout": "requires_runtime_review"
+    },
+    {
+      "id": "script.1017.023",
+      "maximum_tiles": 25,
+      "dynamic_variable_reserve": false,
+      "vertical_layout": "requires_runtime_review"
+    }
+  ]
+}

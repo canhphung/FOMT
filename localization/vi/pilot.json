@@ -1861,7 +1861,7 @@
       "rom_address": "0x083E992A",
       "rom_offset": "0x3E992A",
       "original_english": "Yikes!{CR}{LF}Get it away from me!{WAIT}",
-      "vietnamese_translation": "Ái chà!{CR}{LF}Mang nó ra xa bác đi!{WAIT}",
+      "vietnamese_translation": "Ối!{CR}{LF}Mang nó ra xa bác đi!{WAIT}",
       "context": "npc_standard_gift_dialogue",
       "speaker": "Thomas",
       "control_codes": [
@@ -2195,7 +2195,7 @@
       "rom_address": "0x083E9C11",
       "rom_offset": "0x3E9C11",
       "original_english": "There's nothing more {CR}{LF}pleasing to a mayor than {CR}{LF}a peaceful village!{WAIT}",
-      "vietnamese_translation": "Với một thị trưởng,{CR}{LF}chẳng gì vui hơn{CR}{LF}thấy làng yên bình!{WAIT}",
+      "vietnamese_translation": "Với một thị trưởng,{CR}{LF}chẳng gì vui hơn{CR}{LF}thấy thị trấn yên bình!{WAIT}",
       "context": "npc_daily_dialogue",
       "speaker": "Thomas",
       "control_codes": [
@@ -2372,7 +2372,7 @@
       "rom_address": "0x083E9D17",
       "rom_offset": "0x3E9D17",
       "original_english": "Ellen and I always eat {CR}{LF}Apple Pie together on the{CR}{LF}weekends. {WAIT}{PAGE}The Apple Pie at the {CR}{LF}Inn is the best!{WAIT}",
-      "vietnamese_translation": "Cuối tuần, bác với Ellen{CR}{LF}thường cùng nhau{CR}{LF}ăn bánh táo.{WAIT}{PAGE}Bánh táo ở quán trọ{CR}{LF}là ngon nhất đấy!{WAIT}",
+      "vietnamese_translation": "Cuối tuần, bác với Ellen{CR}{LF}lúc nào cũng cùng nhau{CR}{LF}ăn bánh táo.{WAIT}{PAGE}Bánh táo ở quán trọ{CR}{LF}là ngon nhất đấy!{WAIT}",
       "context": "npc_daily_dialogue",
       "speaker": "Thomas",
       "control_codes": [
@@ -2601,7 +2601,7 @@
       "rom_address": "0x083E9E77",
       "rom_offset": "0x3E9E77",
       "original_english": "Myself...I know more about{CR}{LF}running towns than farms!{WAIT}",
-      "vietnamese_translation": "Bác thì rành việc làng{CR}{LF}hơn việc nông trại!{WAIT}",
+      "vietnamese_translation": "Bác rành quản lý thị trấn{CR}{LF}hơn là làm nông!{WAIT}",
       "context": "npc_daily_dialogue",
       "speaker": "Thomas",
       "control_codes": [

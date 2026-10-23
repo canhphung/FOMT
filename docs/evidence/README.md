@@ -13,10 +13,14 @@ và kiểm lại bằng replay hai mGBA. `platform/` chứa bảy ảnh cập nh
 mốc cũ và một ảnh hội thoại bổ sung; 35 ảnh còn lại dùng lại tại chỗ. Đối chiếu bằng
 `make platform-emulator`; ảnh chuẩn không tự cập nhật khi có lỗi.
 
+Báo cáo browser là mốc npc-daily-01. Lượt tinh chỉnh bốn câu Thomas dùng
+gate nền tảng và fixture NPC; không coi là đã chạy lại browser.
+
 ## Bản vá hiện tại
 
 - [Manifest](../../patches/manifest.json): hash nguồn/đích và IPS hiện tại.
 - [Nền tảng hiện hành](platform-validation.json): hai build/IPS, 134 pytest, tám suite mỗi backend và 43 ảnh chuẩn.
+- [Tinh chỉnh Thomas](thomas-refinement-validation.json): bốn câu, năm WAIT, ảnh fixture riêng.
 - [NPC hiện hành](npc-daily-validation.json): 85 câu, 124 WAIT, 864 dò nhánh nguồn; fixture, chưa encounter tự nhiên.
 - [Vật phẩm/UI mốc trước](items-complete-validation.json): 720 bản ghi, 613 cửa sổ mỗi backend; RAM fixture, không phải gameplay lấy đồ tự nhiên.
 - [Tổng hợp mốc trước](validation.json): font/title/save/load và liên kết lịch sử.

@@ -14141,15 +14141,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -14163,15 +14163,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -14185,15 +14185,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -14207,15 +14207,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -14229,15 +14229,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -14251,15 +14251,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -14273,15 +14273,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -14295,15 +14295,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -14317,15 +14317,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -14339,15 +14339,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -14361,15 +14361,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -14383,15 +14383,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -14405,15 +14405,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -14427,15 +14427,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -14449,15 +14449,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -14471,15 +14471,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -14493,15 +14493,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -14515,15 +14515,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -14537,15 +14537,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -14559,15 +14559,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -14581,15 +14581,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -14603,15 +14603,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -14625,15 +14625,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -14647,15 +14647,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -14669,15 +14669,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -14691,15 +14691,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -14713,15 +14713,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -14735,15 +14735,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -14757,15 +14757,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -14779,15 +14779,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -14801,15 +14801,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -14823,15 +14823,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -14845,15 +14845,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -14867,15 +14867,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -14889,15 +14889,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -14911,15 +14911,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -14933,15 +14933,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -14955,15 +14955,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -14977,15 +14977,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -14999,15 +14999,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -15021,15 +15021,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -15043,15 +15043,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -15065,15 +15065,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -15087,15 +15087,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -15109,15 +15109,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -15131,15 +15131,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -15153,15 +15153,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -15175,15 +15175,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -15197,15 +15197,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -15219,15 +15219,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -15241,15 +15241,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -15263,15 +15263,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -15285,15 +15285,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -15307,15 +15307,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -15329,15 +15329,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -15351,15 +15351,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -15373,15 +15373,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -15395,21 +15395,21 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
       "id": "script.1017.007",
       "source_sha256": "a4eb379162f66f881ef29c2dc5c158c754abd672cc9c55157021fc6cbd8c090f",
-      "translation_sha256": "69b831652bb5cf29456801f853d1e673eb24793216054ca74f6ab9bed78025c9",
+      "translation_sha256": "a45974c59eb832dd70b65d36d2d7fe858b696a17cea52ae32127feded52590a2",
       "context_status": "verified",
       "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
       "language_review": "pending",
@@ -15417,15 +15417,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -15439,15 +15439,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -15461,15 +15461,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -15483,15 +15483,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -15505,15 +15505,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -15527,15 +15527,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -15549,21 +15549,21 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
       "id": "script.1017.014",
       "source_sha256": "38ae1e9dd787eef1a254d2a6cfb38cb1ba1ddc3e0b9a57da0abc5463d70b4347",
-      "translation_sha256": "922c701224a9c16bc473caf32d85438a33cfca40b2a8dfd08015496ba72494c6",
+      "translation_sha256": "f8703ccf105f5d27ad14c3b5e6012a3eaa1fc2ef0a89699bbf60a924fc3fdeec",
       "context_status": "verified",
       "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
       "language_review": "pending",
@@ -15571,15 +15571,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -15593,15 +15593,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -15615,15 +15615,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -15637,21 +15637,21 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
       "id": "script.1017.018",
       "source_sha256": "2f071f15aa94d84a60c8a7965bd83d4766005ee411d530aa9530b1d8c883b5b4",
-      "translation_sha256": "82988a18a7d2cb62075cf4cd3ed20b1a9045d775b457631ea872fa90d948c204",
+      "translation_sha256": "693251f10de8fcd7e60546d75e7ea13d602857610728184ff6a6c45e8f57ac76",
       "context_status": "verified",
       "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
       "language_review": "pending",
@@ -15659,15 +15659,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -15681,15 +15681,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -15703,15 +15703,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -15725,15 +15725,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -15747,21 +15747,21 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
       "id": "script.1017.023",
       "source_sha256": "885215455542b1021ed1925e6ddd62b283afcfeb2dfcd0eda95c715dd0cf87f9",
-      "translation_sha256": "936977fdb06af02439ae52b48f302e0bf77e2ac74c4a5c4bfc22946e55c6f578",
+      "translation_sha256": "96cd0cd61377a09bc32a0c3b252b21d095a47740e4fa2d0c5ee8aca0fb04fb59",
       "context_status": "verified",
       "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
       "language_review": "pending",
@@ -15769,15 +15769,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -15791,15 +15791,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -15813,15 +15813,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -15835,15 +15835,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -15857,15 +15857,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -15879,15 +15879,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -15901,15 +15901,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -15923,15 +15923,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -15945,15 +15945,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -15967,15 +15967,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     },
     {
@@ -15989,15 +15989,15 @@
       "renderer_check": {
         "status": "passed",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "scope": "native widget/tile-cache RAM fixture; not natural encounter",
         "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
       }
     }
   ]

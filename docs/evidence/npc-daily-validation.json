@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "revision": "npc-daily-01",
+  "revision": "npc-daily-01-thomas-refinement-01",
   "status": "passed",
-  "created_at": "2026-10-23T12:22:20.894253+00:00",
+  "created_at": "2026-10-23T13:27:10.954683+00:00",
   "source_sha1": "a2fc3574f0a65a4fcf7682fb274b9d7eebdef963",
-  "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766",
-  "patch_sha256": "ecfcc9a2a63c81cc206558a338bf949b5fabac88d1014cb67ef9aa9379beb959",
+  "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5",
+  "patch_sha256": "f4a8ae0c5b6f2445d372cdb4bdb66f49e15f1e74c822012ed0d971b8f9e5f669",
   "pytest": {
     "passed": 134,
     "failed": 0,
@@ -1174,14 +1174,17 @@
     "status_code": 402,
     "message": "Please contact the site owner for access.",
     "article_received": false,
-    "article_used_as_translation_source": false
+    "article_used_as_translation_source": false,
+    "local_reference_used_for_context_review": true,
+    "reference_files_distributed": false,
+    "status_note": "HTTP 402 describes the earlier network attempt. The user later supplied local reference documents, which are not distributed."
   },
   "emulators": {
     "0.10.5": {
       "library_sha256": "a59b9ebbc006144a1fc4fd68ddc371e95de4abc7d36073c7eed53e482d06a15c",
       "native_dialogue": {
         "status": "passed",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766",
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5",
         "dialogue_records": 85,
         "thomas_branch_cases": 864,
         "native_waits_verified": 124,
@@ -1254,7 +1257,7 @@
             "id": "script.1017.007",
             "speaker": "Thomas",
             "wait_offsets_verified": [
-              36
+              31
             ],
             "native_widget": "0x203aa64",
             "cleared_native_tile_caches": 21
@@ -1327,7 +1330,7 @@
             "id": "script.1017.014",
             "speaker": "Thomas",
             "wait_offsets_verified": [
-              71
+              76
             ],
             "native_widget": "0x203aa64",
             "cleared_native_tile_caches": 21
@@ -1364,8 +1367,8 @@
             "id": "script.1017.018",
             "speaker": "Thomas",
             "wait_offsets_verified": [
-              67,
-              116
+              74,
+              123
             ],
             "native_widget": "0x203aa64",
             "cleared_native_tile_caches": 21
@@ -1412,7 +1415,7 @@
             "id": "script.1017.023",
             "speaker": "Thomas",
             "wait_offsets_verified": [
-              53
+              54
             ],
             "native_widget": "0x203aa64",
             "cleared_native_tile_caches": 21
@@ -2015,7 +2018,7 @@
       "library_sha256": "b044208a82af47a6ce3651cf2c289c575866a4764d6e9377c88001e60edea0c7",
       "native_dialogue": {
         "status": "passed",
-        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766",
+        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5",
         "dialogue_records": 85,
         "thomas_branch_cases": 864,
         "native_waits_verified": 124,
@@ -2088,7 +2091,7 @@
             "id": "script.1017.007",
             "speaker": "Thomas",
             "wait_offsets_verified": [
-              36
+              31
             ],
             "native_widget": "0x203aa64",
             "cleared_native_tile_caches": 21
@@ -2161,7 +2164,7 @@
             "id": "script.1017.014",
             "speaker": "Thomas",
             "wait_offsets_verified": [
-              71
+              76
             ],
             "native_widget": "0x203aa64",
             "cleared_native_tile_caches": 21
@@ -2198,8 +2201,8 @@
             "id": "script.1017.018",
             "speaker": "Thomas",
             "wait_offsets_verified": [
-              67,
-              116
+              74,
+              123
             ],
             "native_widget": "0x203aa64",
             "cleared_native_tile_caches": 21
@@ -2246,7 +2249,7 @@
             "id": "script.1017.023",
             "speaker": "Thomas",
             "wait_offsets_verified": [
-              53
+              54
             ],
             "native_widget": "0x203aa64",
             "cleared_native_tile_caches": 21
@@ -2879,5 +2882,11 @@
     "Popuri 1..92 remain untranslated; full rival/player marriage, season and schedule gates pending.",
     "UI fixture uses the initialized opening widget, with portrait hidden and native speaker label; it is not a natural NPC encounter.",
     "Language/layout approval, natural gift transactions and real hardware tests pending."
+  ],
+  "refined_record_ids": [
+    "script.1017.007",
+    "script.1017.014",
+    "script.1017.018",
+    "script.1017.023"
   ]
 }

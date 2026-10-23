@@ -3,9 +3,9 @@
   "stage": "experimental localization demo; not a full translation",
   "source_sha1": "a2fc3574f0a65a4fcf7682fb274b9d7eebdef963",
   "source_size": 8388608,
-  "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766",
+  "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5",
   "target_size": 16777216,
-  "patch_sha256": "ecfcc9a2a63c81cc206558a338bf949b5fabac88d1014cb67ef9aa9379beb959",
+  "patch_sha256": "f4a8ae0c5b6f2445d372cdb4bdb66f49e15f1e74c822012ed0d971b8f9e5f669",
   "patch_size": 269643,
   "translated_draft_records": 1144,
   "revision": "2026-10-23",
@@ -34,7 +34,14 @@
   "platform_validation": "docs/evidence/platform-validation.json",
   "native_shop_and_item_window_records": 26,
   "item_window_revision": "bounded-native-title-scan-v1",
-  "npc_daily_revision": "verified-actor-code-v1",
+  "npc_daily_revision": "verified-actor-code-v1-thomas-refinement-01",
   "npc_daily_new_drafts": 85,
-  "npc_daily_evidence": "docs/evidence/npc-daily-validation.json"
+  "npc_daily_evidence": "docs/evidence/npc-daily-validation.json",
+  "thomas_refined_records": [
+    "script.1017.007",
+    "script.1017.014",
+    "script.1017.018",
+    "script.1017.023"
+  ],
+  "thomas_refinement_evidence": "docs/evidence/thomas-refinement-validation.json"
 }
