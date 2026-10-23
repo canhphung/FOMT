@@ -533,3 +533,20 @@ Hai bản mGBA qua HUD 2.580 trường hợp, 300 setter, chín fixture VRAM/wea
 56 fixture lịch; START/font/title/lưu-tải cold boot đều đạt. Đã duyệt ảnh Hè
 ngày 2/30. [Ảnh trước/sau](evidence/date-hud-e-five-row.png); IPS/manifest
 được cập nhật, 706 bản ghi dịch nháp giữ nguyên. Chưa kiểm GBA thật/chơi xuyên mùa.
+
+
+## 2026-10-23 — Hoàn thiện một pixel đuôi e và dấu huyền dài (v11)
+
+Theo yêu cầu hoàn thiện: thêm pixel foreground vào góc phải dưới thân e,
+đổi hàng cuối 0110 → 0111, và kéo dấu huyền thành hai pixel chéo (0,0)/(1,1).
+`vietnamese-date-24h-e-finish-v11` thêm bearing X=2 và advance=7 cho è để
+chừa khoảng trống giữa dấu với thân và H; e thường giữ advance=5. Trong ô
+mùa căn phải, thân e không đổi X/Y, H lùi trái 2 pixel. Baseline, clock,
+ngày/thứ, icon, kích thước HUD và cache 40.192 byte giữ nguyên.
+
+100 pytest đạt, kiểm tra thêm pixel đuôi, hai pixel dấu, khoảng trống,
+metric bearing và các phần lòng/miệng chữ. Hai mGBA qua 2.580 trường hợp
+HUD, 300 setter, chín fixture VRAM/weather, 56 fixture lịch; START/font/title
+và lưu/tải cold boot đạt. Đã duyệt glyph nền trắng và ảnh Hè ngày 2/30.
+[Ảnh hoàn thiện](evidence/date-hud-e-final.png); cập nhật IPS/manifest.
+706 bản ghi dịch nháp giữ nguyên; chưa kiểm GBA thật hoặc chơi xuyên mùa.

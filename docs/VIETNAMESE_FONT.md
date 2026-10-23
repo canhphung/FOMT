@@ -175,5 +175,7 @@ tiết không đổi. V8 vẽ lại thân e/è, dùng `clear_pixels` giữ lòng
 mở bên phải trong suốt khi đổ bóng; không đổi baseline hoặc dấu. V9 nới e/è thành thân 5 pixel, advance 6 pixel
 ở bản thử trước. V10 thay thân e/è bằng bitmap năm hàng 0110/1001/1111/1000/0110,
 advance 5 pixel; nét dọc có hàng riêng dưới thanh ngang. Dấu huyền gọn một
-pixel ở y=0, y=1 trống, thân y=2–6 để giữ baseline và vị trí đồng hồ. UTF-8 chỉ dùng trong nguồn, game dùng tile 4bpp raster trước.
+pixel ở y=0, y=1 trống, thân y=2–6 ở bản trước. V11 thêm pixel đuôi phải
+và kéo dấu huyền thành hai pixel chéo; bearing X=2/advance=7 riêng cho è
+giữ dấu tách khỏi thân/H. Thân e và đồng hồ giữ vị trí, H lùi trái 2 pixel. UTF-8 chỉ dùng trong nguồn, game dùng tile 4bpp raster trước.
 [DATE_UI.md](DATE_UI.md) ghi vùng đệm và các kiểm tra VRAM.

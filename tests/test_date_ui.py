@@ -86,14 +86,15 @@ def test_hud_accents_centered_and_separated_from_body_and_shadow(vowel):
     # Both foreground and shadow must leave a full scanline between the mark
     # and its vowel; otherwise the enlarged HUD reads as a joined glyph.
     pixels=date_ui.tiny_pixels(vowel,8,16)
-    mark_rows=(0,) if vowel=='è' else ((0,1) if vowel!='ạ' else (8,))
+    mark_rows=(0,1) if vowel=='è' else ((0,1) if vowel!='ạ' else (8,))
     gap=1 if vowel=='è' else (2 if vowel!='ạ' else 7)
-    assert not any(pixels[gap])
+    if vowel!='è':assert not any(pixels[gap])
     mark_x=[x for y in mark_rows for x,v in enumerate(pixels[y]) if v==1]
     body_x=[x for y in range(3,6) for x,v in enumerate(pixels[y]) if v==1]
     assert mark_x and body_x
     if vowel=='è':
-        assert pixels[0][1]==1  # compact grave over the left side of the bowl
+        assert pixels[0][0]==pixels[1][1]==1
+        assert pixels[1][2]==pixels[2][2]==0  # clear column before vowel roof
     else:
         assert min(mark_x)+max(mark_x)==min(body_x)+max(body_x)
     assert any(pixels[y][x]==1 for y in range(3,6) for x in range(4))
@@ -121,9 +122,11 @@ def test_hud_metrics_reject_clipping_and_use_integer_advances():
 def test_e_counter_and_right_opening_stay_clear_of_shadow():
     for char in ('e','è'):
         pixels=date_ui.tiny_pixels(char,8)
-        assert pixels[3][1:3]==[0,0], 'Upper counter must remain transparent'
-        assert pixels[5][1:4]==[0,0,0], 'Right opening must remain transparent'
-        assert pixels[4][:4]==[1,1,1,1], 'Middle bar must remain distinct'
-        assert pixels[5][0]==1, 'Lower stem must be present below the middle bar'
-        assert date_ui.hud_glyph(char).advance==5
+        left=date_ui.hud_glyph(char).bearing_x
+        assert pixels[3][left+1:left+3]==[0,0], 'Upper counter must remain transparent'
+        assert pixels[5][left+1:left+4]==[0,0,0], 'Right opening must remain transparent'
+        assert pixels[4][left:left+4]==[1,1,1,1], 'Middle bar must remain distinct'
+        assert pixels[5][left]==1, 'Lower stem must be present below the middle bar'
+        assert pixels[6][left+3]==1, 'Tail must include the requested bottom-right pixel'
+        assert date_ui.hud_glyph(char).advance==5+left
         assert date_ui.hud_glyph(char).baseline==6
