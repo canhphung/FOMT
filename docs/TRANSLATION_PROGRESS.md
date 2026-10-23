@@ -688,3 +688,14 @@ body từ y=40; tám mở/đóng tự nhiên trả lại handle/refcount. Chín 
 khớp v18 từng pixel. START/font/title/save/load cold boot qua kiểm tra;
 IPS áp lại khớp ROM đã kiểm. Cập nhật manifest/ảnh trước-sau/báo cáo.
 Vẫn 706 bản ghi nháp; chưa kiểm GBA thật hoặc chơi xuyên mùa.
+
+## 2026-10-23 — Chốt roadmap mở rộng nội dung
+
+Kiểm đếm 706 ID nháp không trùng trong năm file VI; chưa có reviewed.
+Catalog 9.283 ID, còn 8.577 chưa dịch và 8.250 context SCR chưa phân loại.
+Lập [ROADMAP_VI.md](ROADMAP_VI.md) với các mốc nền tảng, công cụ/ngữ cảnh,
+vật phẩm/UI, NPC/sự kiện, alpha, beta/v1.0 và điều kiện QA từng mốc.
+Ưu tiên tiếp theo: glossary, hàng đợi ngữ cảnh/QA, lô mô tả vật phẩm đã
+xác minh; không dịch hàng loạt chuỗi chưa rõ chức năng. Sửa README VI
+localization đã cũ để phản ánh 706 ID. Phiên này chỉ sửa tài liệu; ROM,
+IPS và 106 kiểm thử của baseline f8e1af2 không thay đổi, không chạy lại test.

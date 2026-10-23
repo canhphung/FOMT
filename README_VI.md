@@ -43,6 +43,10 @@ Không chứa hoặc tự tải ROM thương mại. Bản vá IPS nằm trong `p
 Chưa xác minh toàn bộ gameplay, mọi màn hình vật phẩm, TV/sách/sự kiện, phần cứng
 GBA thật hoặc nhập tên người chơi có dấu. Phần lớn hội thoại vẫn là tiếng Anh.
 
+## Lộ trình
+
+[Roadmap Việt hóa](docs/ROADMAP_VI.md): mốc nội dung, công cụ, QA và điều kiện phát hành.
+
 ## ROM đầu vào
 
 Chỉ dùng bản ROM bạn có quyền sử dụng:
