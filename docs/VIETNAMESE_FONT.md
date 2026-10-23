@@ -172,5 +172,6 @@ Dấu huyền è ở y=0/1, hàng trống y=2, thân y=3–6; không có dấu n
 dòng giờ. Mùa nằm trong 24x8, đồng hồ trở về x=8..47, y=8..15 như trước v6.
 Đồng hồ giữ tile, palette và advance 8 pixel gốc; hai OBJ 32x16 và icon thời
 tiết không đổi. V8 vẽ lại thân e/è, dùng `clear_pixels` giữ lòng chữ và lỗ
-mở bên phải trong suốt khi đổ bóng; không đổi advance, baseline hoặc dấu. UTF-8 chỉ dùng trong nguồn, game dùng tile 4bpp raster trước.
+mở bên phải trong suốt khi đổ bóng; không đổi baseline hoặc dấu. V9 nới e/è thành thân 5 pixel, advance 6 pixel
+để vòng trên và nét ngang gần hình tham khảo hơn; giữ nguyên chiều cao. UTF-8 chỉ dùng trong nguồn, game dùng tile 4bpp raster trước.
 [DATE_UI.md](DATE_UI.md) ghi vùng đệm và các kiểm tra VRAM.

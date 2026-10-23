@@ -28,7 +28,7 @@ và resource lịch. Inserter chỉ ghi vào những vị trí đã xác minh; c
 resource mới và mã Thumb đều đặt sau ROM gốc ở vùng mở rộng. Build report ghi
 địa chỉ và phiên bản trong `date_ui`.
 
-## HUD — Hè và vị trí đồng hồ cũ (v8)
+## HUD — Hè và vị trí đồng hồ cũ (v9)
 
 `vietnamese-date-24h-he-v7` đưa đồng hồ từ x=24 trở lại **x=8..47, y=8..15**
 trong HUD, đúng vị trí trước v6. Đổi tên mùa trên HUD/lịch từ **Hạ → Hè**,
@@ -56,9 +56,16 @@ metadata lân cận, ngày giờ gameplay hoặc dữ liệu save.
 Bản `vietnamese-date-24h-open-e-v8` vẽ lại thân e/è 4x4: thêm khoảng rỗng
 hai pixel ở hàng thứ hai, nét ngang ba pixel ở hàng thứ ba và lỗ mở bên phải.
 `clear_pixels` trong metrics bảo vệ lòng chữ/lỗ mở khỏi bóng đổ. Dấu huyền,
-advance 5 pixel, baseline y=6, nhãn Hè và vị trí giờ đều giữ nguyên.
+advance 5 pixel ở v8, baseline y=6, nhãn Hè và vị trí giờ đều giữ nguyên.
 
-[Ảnh vẽ lại e, trái v7 — phải v8](evidence/date-hud-e.png) ·
+Bản `vietnamese-date-24h-sample-e-v9` theo hình e tham khảo: thân rộng
+5 pixel với vòng trên kín, lòng ba pixel, nét ngang bốn pixel và miệng mở
+bên phải. Advance e/è là 6 pixel (các chữ thường khác vẫn 5). Dấu huyền,
+chiều cao, baseline y=6 và tọa độ clock giữ nguyên; Hè vẫn căn mép phải
+x=23 trong ô mùa 24 pixel. Không đổi kích thước HUD hay icon.
+
+[Ảnh e theo mẫu, trái v8 — phải v9](evidence/date-hud-e-sample.png) ·
+[Ảnh vẽ lại e ở v8](evidence/date-hud-e.png) ·
 [Ảnh khôi phục đồng hồ ở v7](evidence/date-hud-he.png).
 Ảnh v2–v6 được giữ làm lịch sử. Công thức thứ, packed date, giờ 24 tiếng,
 nhịp tăng 10 phút và nháy dấu hai chấm giữ nguyên. 23:59 chỉ là fixture

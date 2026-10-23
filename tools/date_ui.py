@@ -22,7 +22,7 @@ PROFILE = json.loads((Path(__file__).resolve().parents[1]/'localization/vi/date_
 SEASONS = tuple(PROFILE['seasons'])
 WEEKDAYS = tuple(PROFILE['weekdays'])
 if len(SEASONS)!=4 or len(WEEKDAYS)!=7:raise FormatError('date UI requires four seasons and seven weekdays')
-REVISION = 'vietnamese-date-24h-open-e-v8'
+REVISION = 'vietnamese-date-24h-sample-e-v9'
 
 # Six-row capitals/digits and five-row lowercase, wider pixel bodies.
 # The eight-pixel line still reserves the top for accents and bottom for dots.
@@ -35,7 +35,7 @@ TINY = {
  'Đ':['11110','10001','11001','10001','10001','11110'],
  'u':['0000','1001','1001','1001','1001','0111'],
  'n':['0000','1110','1001','1001','1001','1001'],
- 'e':['0110','1001','1110','0111'],
+ 'e':['01110','10001','11110','01111'],
  'a':['0000','0110','0001','0111','1001','0111'],
  'o':['0000','0110','1001','1001','1001','0110'],
  'g':['0000','0111','1001','0111','0001','0110'],
@@ -68,7 +68,7 @@ WORD_GAP = 3
 CLOCK_ADVANCE = 8
 CLOCK_X = 8
 GLYPH_ADVANCES = {**dict.fromkeys('XHTCNĐ',6),
-                  **dict.fromkeys('unaoghe0123456789',5),'·':2}
+                  **dict.fromkeys('unaogh0123456789',5),'e':6,'·':2}
 
 @dataclass(frozen=True)
 class HUDGlyph:
@@ -94,7 +94,7 @@ def hud_glyph(char):
         if char not in ('â','ô','ạ','è'):raise FormatError('unsupported HUD accent '+char)
         shape=tuple({'a':['0111','1001','1001','0111'],
                      'o':['0110','1001','1001','0110'],
-                     'e':['0110','1001','1110','0111']}[base])
+                     'e':['01110','10001','11110','01111']}[base])
         if '\u0302' in nfd:
             marks=((1,0),(2,0),(0,1),(3,1));gaps=(2,)
         elif '\u0300' in nfd:
@@ -104,7 +104,7 @@ def hud_glyph(char):
             # rather than letting it spill into the restored clock.
             marks=((1,8),(2,8));gaps=(7,)
     # Preserve the counter and right opening of e against the drop shadow.
-    clear=((1,1),(2,1),(3,2)) if base=='e' else ()
+    clear=((1,1),(2,1),(3,1),(4,2)) if base=='e' else ()
     return HUDGlyph(shape,GLYPH_ADVANCES[base],HUD_BASELINE-len(shape)+1,marks,gaps,clear)
 
 

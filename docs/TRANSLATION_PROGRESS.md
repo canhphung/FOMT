@@ -499,3 +499,19 @@ chín fixture so VRAM/weather, 56 fixture lịch, START, font/title và lưu/t�
 cold boot. Đã duyệt ảnh Hè ngày 2/30 và bốn mùa. Cập nhật IPS/manifest và
 [ảnh trước/sau](evidence/date-hud-e.png). Chưa kiểm GBA thật hoặc chơi xuyên
 mùa; 706 bản ghi dịch nháp không đổi.
+
+
+## 2026-10-23 — Chỉnh e theo hình tham khảo (v9)
+
+`vietnamese-date-24h-sample-e-v9` nới e/è từ bốn lên năm cột, dùng bitmap
+01110/10001/11110/01111. Vòng trên kín có lòng ba pixel, nét ngang bốn pixel,
+miệng mở bên phải và chân cong; mặt nạ giữ bóng không lấp lòng/miệng. Advance
+riêng e/è tăng 5 → 6 pixel; ô mùa 24 pixel, dấu huyền, chiều cao/baseline,
+vị trí đồng hồ và các bitmap HUD khác không đổi. Đây là phiên bản pixel gọn
+trong dòng 8 pixel, dựa trên hình dáng e tham khảo người dùng cung cấp.
+
+100 pytest đạt. Hai bản mGBA 0.10.5/0.11-dev đều qua HUD 2.580 trường hợp,
+300 setter, chín fixture so VRAM/weather, 56 fixture lịch; START, font/title
+và lưu/tải cold boot đạt. Đã duyệt ảnh Hè ngày 2/30 và các mùa khác.
+[Ảnh so sánh](evidence/date-hud-e-sample.png). Cập nhật IPS/manifest; vẫn
+706 bản ghi dịch nháp. Chưa kiểm trên GBA thật hoặc chơi xuyên mùa.
