@@ -13,7 +13,8 @@ Không chứa hoặc tự tải ROM thương mại. Bản vá IPS nằm trong `p
 - Đã Việt hóa lịch và khung ngày giờ: **Năm 1 — Mùa Xuân**, **CN/T2…T7**,
   **Xuân 2 · T2**, **06:50** theo giờ 24 tiếng. Giữ màu cuối tuần, biểu tượng
   thời tiết/lễ hội và nhịp đồng hồ 10 phút của game. Dòng ngày cùng cỡ chữ,
-  khoảng cách giữa các phần là 3 pixel; [ảnh trước/sau](docs/evidence/date-hud-spacing.png).
+  khoảng cách giữa các phần là 3 pixel. Đã tăng cỡ chữ HUD ở bản v3;
+  [ảnh trước/sau](docs/evidence/date-hud-size.png).
   [Ảnh kiểm chứng](docs/evidence/date-ui.png), [chi tiết](docs/DATE_UI.md).
 - Đã dịch menu con START: lưu/tải và tùy chọn Nhật ký, Ba lô, mô tả bản đồ,
   thống kê/Ghi chú và sách Mẹo điều khiển. Sửa hai tiêu đề Ba lô bị cắt chữ có dấu.

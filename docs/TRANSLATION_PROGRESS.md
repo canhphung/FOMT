@@ -383,3 +383,20 @@ manifest được cập nhật; 706 bản ghi dịch nháp không đổi. Ảnh 
 
 Đã duyệt ảnh HUD trước/sau, ngày một/hai chữ số và bốn mùa. Chưa kiểm trên
 máy GBA thật hoặc chơi xuyên mùa; các giới hạn thử nghiệm trước vẫn áp dụng.
+
+
+## 2026-10-23 — Tăng cỡ chữ dòng ngày HUD
+
+Theo phản hồi chữ vẫn nhỏ, `vietnamese-date-24h-large-v3` tăng thân chữ hoa/số
+cao 5 → 6 pixel, chữ thường 4 → 5 pixel. Thân chữ hoa rộng 4 → 5 pixel,
+chữ thường/số rộng 3 → 4 pixel. Giữ ba cột trống giữa mùa/ngày/dấu chấm/thứ
+và bố cục tự co theo độ dài ngày. Đồng hồ vẫn dùng các tile số gốc.
+
+Không thêm hook, OBJ, bộ đệm hay VRAM; cache vẫn 40.192 byte. Bộ chữ lớn
+vẫn vừa các vùng mùa 24x8 và ngày/thứ 40x8, không lấn biểu tượng thời tiết.
+93 pytest đạt. Kiểm tra lại trên mGBA 0.10.5 và 0.11-dev: 2.580 trường hợp
+HUD, 300 setter, chín fixture HUD kiểm tra VRAM, 56 fixture lịch; smoke
+START/font/title và lưu/tải sau cold boot đều đạt. Đã duyệt ảnh bốn mùa,
+ngày một/hai chữ số. [Ảnh trước/sau](evidence/date-hud-size.png),
+[báo cáo](evidence/date-ui-validation.json). Cập nhật IPS/manifest; số bản ghi
+dịch nháp vẫn là 706. Chưa kiểm tra trên GBA thật hoặc chơi xuyên mùa.

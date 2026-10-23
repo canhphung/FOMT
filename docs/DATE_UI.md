@@ -32,7 +32,8 @@ resource mới và mã Thumb đều đặt sau ROM gốc ở vùng mở rộng. 
 
 Giữ nguyên hai OBJ 32x16 pixel, vị trí, palette, các cờ cập nhật, vùng đệm và
 biểu tượng thời tiết. Không thêm heap object, OBJ hay VRAM. Chữ mùa/thứ dùng
-font pixel nhỏ có dấu, thân 5 pixel cao và phần riêng cho dấu trên/dấu nặng;
+font pixel có dấu: thân chữ hoa/số cao 6 pixel, chữ thường cao 5 pixel,
+chữ hoa rộng 5 pixel và chữ thường/số rộng 4 pixel. Có phần cho dấu trên/dấu nặng;
 số ngày cũng dùng cùng font và cùng baseline. Chữ số đồng hồ giữ tile gốc.
 Nội dung vừa vùng 64x16 pixel.
 
@@ -48,7 +49,13 @@ suffix 40x8: nhãn thứ dịch ngang theo độ dài số ngày, không còn ô
 ngày 1–9. Tên mùa ngắn không tạo khoảng trống lớn trước số ngày. Mỗi setter
 ngày vẫn chép 160 byte như trước; cache tăng trong ROM, không tăng RAM/VRAM.
 
-[Ảnh HUD trước/sau sửa khoảng cách](evidence/date-hud-spacing.png).
+Bản `vietnamese-date-24h-large-v3` tăng thân chữ hoa/số từ 5 lên 6 pixel,
+chữ thường từ 4 lên 5 pixel; chiều ngang thân chữ tăng thêm 1 pixel.
+Giữ các mốc x và khoảng cách ba pixel của v2. Chữ lớn hơn vẫn vừa 64x8 ở
+dòng trên, không đổi cỡ đồng hồ, vùng đệm, cache, RAM hay VRAM.
+
+[Ảnh trước/sau tăng cỡ chữ](evidence/date-hud-size.png) ·
+[Ảnh sửa khoảng cách ở bản v2](evidence/date-hud-spacing.png).
 
 Năm trong packed date là mã chu kỳ gốc; phép tính thứ giữ nguyên công thức
 của 0803CD4C. Giờ được vẽ 00–23, có số 0 đầu. Nhịp nháy dấu hai chấm được giữ.
