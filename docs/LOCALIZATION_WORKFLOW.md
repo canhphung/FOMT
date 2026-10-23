@@ -21,9 +21,13 @@ trẻ con vào cảnh trưởng thành. Chưa áp xưng hô cho các NPC chưa r
 Wiki người dùng đề xuất:
 https://harvestmoon.fandom.com/wiki/Harvest_Moon:_Friends_of_Mineral_Town
 
-Lượt đọc 2026-10-23 bị proxy chặn HTTP 403 CONNECT; chưa đọc nội dung và
-không nhập dữ kiện từ trang này. Khi truy cập được, chỉ dùng tham khảo
-khái niệm/nhân vật của bản GBA; lời thoại, pointer, token vẫn lấy từ ROM.
+Lượt đọc đầu ngày 2026-10-23 bị proxy chặn HTTP 403 CONNECT. Sau khi
+người dùng mở quyền truy cập, thử lại cả trang wiki và MediaWiki API lúc
+08:52 UTC nhận HTTP 402 với thông báo “Please contact the site owner for
+access.” Lỗi mới không còn là CONNECT 403. Chưa nhận được nội dung bài,
+chưa đối chiếu glossary/hồ sơ nhân vật và không nhập dữ kiện từ trang này.
+Khi truy cập được, chỉ dùng tham khảo khái niệm/nhân vật của bản GBA;
+lời thoại, pointer, token vẫn lấy từ ROM.
 Không trộn wiki remake hoặc More Friends of Mineral Town với bản USA này.
 
 ## Xuất hàng đợi

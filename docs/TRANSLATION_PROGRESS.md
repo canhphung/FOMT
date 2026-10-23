@@ -93,3 +93,12 @@ phải cửa sổ vật phẩm thật. Chưa playtest đủ dụng cụ hoặc d
 ngữ; vẫn 0 reviewed. 113 pytest đạt; regression font/title/START, tạo game,
 lịch/HUD, save/load cold boot được chạy trên cùng target hash mới.
 [Quy trình](LOCALIZATION_WORKFLOW.md), [báo cáo lô](evidence/items-batch-validation.json).
+
+## Thử lại wiki sau khi mở quyền — 2026-10-23
+
+Lúc 08:52 UTC, cả trang Fandom được cung cấp và API `action=parse` trên
+cùng host trả HTTP 402: “Please contact the site owner for access.”
+Đã vượt qua lỗi proxy CONNECT 403 của lần trước nhưng chưa lấy được nội
+dung bài. Chưa thể đối chiếu glossary, nhân vật hoặc xưng hô với wiki.
+Cập nhật trạng thái nguồn tham khảo; không sửa bản dịch hoặc đánh dấu QA
+đã duyệt dựa trên nội dung chưa đọc.

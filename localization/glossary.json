@@ -2543,7 +2543,7 @@
     {
       "url": "https://harvestmoon.fandom.com/wiki/Harvest_Moon:_Friends_of_Mineral_Town",
       "role": "User-suggested secondary reference, not ROM text source",
-      "access_status": "blocked: environment proxy returned HTTP 403 CONNECT",
+      "access_status": "unavailable: retry after access enabled returned HTTP 402 from both wiki page and MediaWiki API; Please contact the site owner for access.",
       "facts_imported": false,
       "attempted_at": "2026-10-23"
     }
