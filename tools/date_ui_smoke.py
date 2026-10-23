@@ -29,10 +29,10 @@ def expected_object(base,year,season,day,hour,minute,blink):
     obj[0x84:0x184]=bytes(256);obj[0x1A8:0x2A8]=bytes(256)
     groups=date_ui.build_hud_cache(base)
     obj[0x84:0xE4]=groups['season'][season*96:(season+1)*96]
-    obj[0xE4:0x104]=groups['day'][(day-1)*64:(day-1)*64+32]
-    obj[0x1A8:0x1C8]=groups['day'][(day-1)*64+32:day*64]
     weekday=((year+6)*120+season*30+day-1)%7
-    obj[0x1C8:0x228]=groups['week'][weekday*96:(weekday+1)*96]
+    suffix=groups['day_week'][((day-1)*7+weekday)*160:((day-1)*7+weekday+1)*160]
+    obj[0xE4:0x104]=suffix[:32]
+    obj[0x1A8:0x228]=suffix[32:]
     obj[0x124:0x184]=groups['hour'][hour*96:(hour+1)*96]
     obj[0x164:0x184]=groups['blink'][blink*32:(blink+1)*32]
     obj[0x228:0x268]=groups['minute'][minute*64:(minute+1)*64]
@@ -78,9 +78,9 @@ def probes(session,base):
         for day in range(1,31):
             for weekday in range(7):
                 check(1,0,2,6,50,1)
-                want=bytearray(session.read(root,0x35C));p=cache['day'][(day-1)*64:day*64]
-                want[0xE4:0x104]=p[:32];want[0x1A8:0x1C8]=p[32:]
-                want[0x1C8:0x228]=cache['week'][weekday*96:(weekday+1)*96]
+                want=bytearray(session.read(root,0x35C))
+                p=cache['day_week'][((day-1)*7+weekday)*160:((day-1)*7+weekday+1)*160]
+                want[0xE4:0x104]=p[:32];want[0x1A8:0x228]=p[32:]
                 session.call(0x0803D0F0,handle,day,weekday)
                 assert session.read(root,0x35C)==want,(day,weekday)
         return {'packed_date_time_cases_with_guards':count,'incremental_setter_cases':4+24+60+2+210,
@@ -119,7 +119,8 @@ def run(args):
         session=sessions[1]
         game=u32(session.read(objects[1]+8,4),0)
         hud_views=[]
-        for season,day,hour,minute in ((0,2,6,50),(1,30,0,0),(2,30,12,0),(3,30,23,59)):
+        for season,day,hour,minute in ((0,2,6,50),(1,30,0,0),(2,30,12,0),(3,30,23,59),
+                                            (0,9,6,0),(0,10,6,0),(1,2,6,0),(2,2,6,0),(3,2,6,0)):
             session.restore(house_states[1])
             ram=session.read(0x02000000,0x40000)
             signature=struct.pack('<I',0x080E77D0)
@@ -146,7 +147,7 @@ def run(args):
                 assert len(tiles_found)==1,tiles_found
                 at=tiles_found[0]*32
                 assert vram[at:at+256]==session.read(root+offset,256),'HUD tiles not uploaded through native path'
-            name=f'hud-{season}-{hour:02d}{minute:02d}.png'
+            name=f'hud-{season}-{hour:02d}{minute:02d}.png' if day==30 or (season==0 and day==2) else f'hud-{season}-day{day}.png'
             session.screenshot(out/name)
             hud_views.append({'season':season,'day':day,'hour':hour,'minute':minute,'screenshot':name})
         report['hud_view_fixtures_with_vram_checks']=hud_views

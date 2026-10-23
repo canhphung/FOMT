@@ -21,7 +21,7 @@ PROFILE = json.loads((Path(__file__).resolve().parents[1]/'localization/vi/date_
 SEASONS = tuple(PROFILE['seasons'])
 WEEKDAYS = tuple(PROFILE['weekdays'])
 if len(SEASONS)!=4 or len(WEEKDAYS)!=7:raise FormatError('date UI requires four seasons and seven weekdays')
-REVISION = 'vietnamese-date-24h-v1'
+REVISION = 'vietnamese-date-24h-spacing-v2'
 
 # Four/five-pixel bodies, seven rows plus bottom dot. No UTF-8 in the ROM.
 TINY = {
@@ -37,6 +37,10 @@ TINY = {
  'o':['000','010','101','101','010'],
  'g':['000','011','101','011','001'],
  'h':['100','100','110','101','101'],
+ '0':['010','101','101','101','010'],
+ '1':['010','110','010','010','111'],
+ '8':['010','101','010','101','010'],
+ '9':['010','101','011','001','110'],
  '2':['110','001','010','100','111'],
  '3':['110','001','010','001','110'],
  '4':['101','101','111','001','001'],
@@ -61,7 +65,7 @@ def tiny_pixels(text,width):
     ink = set();cursor=0
     for char in text:
         if char==' ':cursor+=3;continue
-        if char=='·':ink.add((cursor,4));cursor+=3;continue
+        if char=='·':ink.add((cursor,4));cursor+=2;continue
         nfd=unicodedata.normalize('NFD',char);base=nfd[0];shape=TINY.get(base)
         if shape is None:raise FormatError('unknown tiny glyph '+char)
         for y,row in enumerate(shape):
@@ -88,13 +92,26 @@ def tiles(pixels):
     return bytes(out)
 
 
+def season_pixels(season):
+    """Right-align actual ink (including its shadow) in the 24px season area."""
+    pixels=tiny_pixels(season,24)
+    right=max(x for row in pixels for x,value in enumerate(row) if value)
+    shift=23-right
+    return [[0]*shift+row[:24-shift] for row in pixels]
+
+
+def day_week_pixels(day,weekday):
+    # Three blank columns after the season, and between date/marker/weekday.
+    # Render the complete suffix so one-digit dates leave no empty numeral tile.
+    return [[0]*3+row for row in tiny_pixels(f'{day} · {weekday}',37)]
+
+
 def build_hud_cache(rom):
     verify(rom)
     digit=lambda n:rom[DIGITS+n*32:DIGITS+(n+1)*32]
     groups={
-        'season':b''.join(tiles(tiny_pixels(s,24)) for s in SEASONS),
-        'day':b''.join((digit(n//10) if n>=10 else bytes(32))+digit(n%10) for n in range(1,31)),
-        'week':b''.join(tiles(tiny_pixels('· '+s,24)) for s in WEEKDAYS),
+        'season':b''.join(tiles(season_pixels(s)) for s in SEASONS),
+        'day_week':b''.join(tiles(day_week_pixels(n,w)) for n in range(1,31) for w in WEEKDAYS),
         'hour':b''.join(digit(n//10)+digit(n%10)+digit(10) for n in range(24)),
         'minute':b''.join(digit(n//10)+digit(n%10) for n in range(60)),
         'blink':bytes(32)+digit(10),
@@ -163,19 +180,18 @@ def assemble_hud(address,cache):
         movs r1, #30
     valid_high:
         subs r1, #1
-        lsls r1, r1, #6
-        ldr r2, days
-        adds r1, r1, r2
-    '''+copy(0xE4,32,'day_tens')+copy(0x1A8,32,'day_units')+f'''
+        movs r2, #7
+        muls r1, r2
         cmp r5, #6
         bls valid_week
         movs r5, #0
     valid_week:
-        movs r1, #96
-        muls r1, r5
-        ldr r2, weeks
+        adds r1, r1, r5
+        movs r2, #160
+        muls r1, r2
+        ldr r2, days
         adds r1, r1, r2
-    '''+copy(0x1C8,96,'week')+flags+f'\ndays: .word {cache["day"]}\nweeks: .word {cache["week"]}\n')
+    '''+copy(0xE4,32,'day_left')+copy(0x1A8,128,'day_right')+flags+f'\ndays: .word {cache["day_week"]}\n')
     for key,maximum,stride,destination in [('hour',23,96,0x124),('minute',59,64,0x228),('blink',1,32,0x164)]:
         clamp=('subs r1, #24' if key=='hour' else 'movs r1, #0')
         emit(key,f'''

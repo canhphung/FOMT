@@ -46,14 +46,36 @@ def test_calendar_preserves_numbers_palettes_animation_and_fits_native_reservati
         assert frame[0]+frame[1]<=9
 
 
-def test_hud_cache_retains_original_numerals_and_all_day_hour_minute_values(rom):
+def test_hud_cache_retains_original_clock_numerals_and_all_hour_minute_values(rom):
     cache=date_ui.build_hud_cache(rom)
     native=lambda n:rom[date_ui.DIGITS+32*n:date_ui.DIGITS+32*(n+1)]
     assert len(cache['season'])==4*96
-    assert len(cache['week'])==7*96
+    assert len(cache['day_week'])==30*7*160
     for hour in range(24):
         assert cache['hour'][hour*96:(hour+1)*96]==native(hour//10)+native(hour%10)+native(10)
     for minute in range(60):
         assert cache['minute'][minute*64:(minute+1)*64]==native(minute//10)+native(minute%10)
+
+
+def test_date_suffix_has_no_empty_digit_slot_and_consistent_word_gaps():
+    # Measure ink including shadow, not nominal glyph advances. All seasons end
+    # at x23; every suffix starts at x27, irrespective of day/weekday/season.
+    for season in date_ui.SEASONS:
+        pixels=date_ui.season_pixels(season)
+        assert max(x for row in pixels for x,v in enumerate(row) if v)==23
     for day in range(1,31):
-        assert cache['day'][(day-1)*64:day*64]==(native(day//10) if day>=10 else bytes(32))+native(day%10)
+        for weekday in date_ui.WEEKDAYS:
+            pixels=date_ui.day_week_pixels(day,weekday)
+            occupied=[any(row[x] for row in pixels) for x in range(40)]
+            assert occupied.index(True)==3
+            assert max(x for x,v in enumerate(occupied) if v)<40
+            # Word gaps are exactly three transparent columns. This also
+            # checks that the two-digit suffix moves its weekday naturally.
+            runs=[];run=0
+            for value in occupied[3:]:
+                if not value:run+=1
+                else:
+                    if run:runs.append(run)
+                    run=0
+            assert runs.count(3)==2,(day,weekday,runs)
+            assert all(n<=3 for n in runs)

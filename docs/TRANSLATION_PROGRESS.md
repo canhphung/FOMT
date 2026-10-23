@@ -1,6 +1,6 @@
 # Tiến độ Việt hóa
 
-**Hiện tại:** 706/9.283 bản ghi dịch nháp, 2 prompt title đồ họa, lịch/HUD tiếng Việt, 92 test đạt.
+**Hiện tại:** 706/9.283 bản ghi dịch nháp, 2 prompt title đồ họa, lịch/HUD tiếng Việt, 93 test đạt.
 Đã Việt hóa các màn tạo game mới, intro, menu con START và lịch/HUD; mục cuối ghi phiên triển khai.
 Các mục cũ bên dưới giữ số liệu theo từng phiên lịch sử.
 
@@ -359,3 +359,27 @@ Xem [DATE_UI.md](DATE_UI.md), ảnh và báo cáo có hash đích. Fixture năm/
 kiểm tra trạng thái UI, không phải chơi xuyên mùa hoặc 200 năm. Popup mô tả
 lễ hội và các đơn vị/ngày tiếng Anh ngoài hai giao diện này còn chưa dịch.
 Chưa kiểm tra trên GBA thật. Các bản dịch vẫn ở trạng thái nháp.
+
+
+## 2026-10-23 — Sửa khoảng cách dòng ngày trên HUD
+
+Nguyên nhân: bố cục cũ dành ba cột tile cố định cho mùa, hai cho số ngày,
+ba cho thứ; ngày 1–9 vẫn bỏ trống ô hàng chục. Số ngày dùng font lớn hơn
+mùa/thứ, khiến khoảng cách và cỡ chữ không đồng đều.
+
+Đổi sang `vietnamese-date-24h-spacing-v2`: số ngày dùng cùng font nhỏ với
+mùa/thứ. Căn tên mùa theo mép mực bên phải, ghép ngày/dấu chấm/thứ thành
+một suffix để ngày một chữ số không có ô trống. Các khoảng cách giữa từ
+là ba pixel trong suốt, kể cả bóng. Cache ROM tăng từ 9.184 lên 40.192 byte;
+không tăng RAM, OBJ, VRAM hay số byte chép mỗi lần cập nhật ngày.
+
+93 pytest đạt. mGBA 0.10.5 và 0.11-dev đều qua 2.580 trường hợp HUD có canh
+bộ nhớ, 300 setter, chín fixture HUD kiểm chứng OBJ VRAM (bốn mùa, ngày 2,
+9, 10, 30), 56 fixture lịch giữ nguyên nội dung từ y=40 trở xuống. Smoke
+font/title, START và lưu Diary/cold boot tải lại đều đạt. Bản vá IPS và
+manifest được cập nhật; 706 bản ghi dịch nháp không đổi. Ảnh trước/sau:
+[evidence/date-hud-spacing.png](evidence/date-hud-spacing.png); kết quả:
+[evidence/date-ui-validation.json](evidence/date-ui-validation.json).
+
+Đã duyệt ảnh HUD trước/sau, ngày một/hai chữ số và bốn mùa. Chưa kiểm trên
+máy GBA thật hoặc chơi xuyên mùa; các giới hạn thử nghiệm trước vẫn áp dụng.

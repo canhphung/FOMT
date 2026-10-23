@@ -33,12 +33,22 @@ resource mới và mã Thumb đều đặt sau ROM gốc ở vùng mở rộng. 
 Giữ nguyên hai OBJ 32x16 pixel, vị trí, palette, các cờ cập nhật, vùng đệm và
 biểu tượng thời tiết. Không thêm heap object, OBJ hay VRAM. Chữ mùa/thứ dùng
 font pixel nhỏ có dấu, thân 5 pixel cao và phần riêng cho dấu trên/dấu nặng;
-chữ số giữ tile gốc. Nội dung vừa vùng 64x16 pixel.
+số ngày cũng dùng cùng font và cùng baseline. Chữ số đồng hồ giữ tile gốc.
+Nội dung vừa vùng 64x16 pixel.
 
 Hai buffer nằm tại object+0x84 và +0x1A8, mỗi buffer 256 byte. Cờ upload là
-+0x18C và +0x2B0. Cache thành phần chiếm tổng 9.184 byte trong ROM: mùa, ngày,
-thứ, giờ, phút và hai pha nháy dấu hai chấm. Các setter chép đúng các tile
++0x18C và +0x2B0. Cache thành phần chiếm tổng 40.192 byte trong ROM: bốn mùa, 210 cặp
+ngày/thứ, giờ, phút và hai pha nháy dấu hai chấm. Các setter chép đúng các tile
 thành phần; không sửa cấu trúc ngày giờ nguồn hoặc dữ liệu save.
+
+Bản `vietnamese-date-24h-spacing-v2` căn mép phải phần mực và bóng của tên
+mùa tại x=23. Số ngày bắt đầu tại x=27; giữa mùa/ngày, ngày/dấu chấm và dấu
+chấm/thứ đều có đúng ba cột trong suốt. Ngày và thứ được vẽ chung thành một
+suffix 40x8: nhãn thứ dịch ngang theo độ dài số ngày, không còn ô hàng chục trống ở
+ngày 1–9. Tên mùa ngắn không tạo khoảng trống lớn trước số ngày. Mỗi setter
+ngày vẫn chép 160 byte như trước; cache tăng trong ROM, không tăng RAM/VRAM.
+
+[Ảnh HUD trước/sau sửa khoảng cách](evidence/date-hud-spacing.png).
 
 Năm trong packed date là mã chu kỳ gốc; phép tính thứ giữ nguyên công thức
 của 0803CD4C. Giờ được vẽ 00–23, có số 0 đầu. Nhịp nháy dấu hai chấm được giữ.
@@ -71,13 +81,15 @@ trỏ hoặc nội dung mô tả lễ hội. Các popup mô tả lễ hội chư
   --output-dir build/date-final-0.10.5
 ```
 
-92 pytest đạt. Chạy cùng kiểm tra trên mGBA 0.10.5 và 0.11-dev:
+93 pytest đạt; có kiểm tra khoảng trống bằng pixel cho toàn bộ 30 ngày × bảy thứ
+và mép phải của bốn tên mùa. Chạy cùng kiểm tra trên mGBA 0.10.5 và 0.11-dev:
 
 - 2.580 trường hợp packed date/time qua CPU thật, có canh bộ nhớ; bao phủ mọi
   ngày 1–30, bốn mùa, bảy chu kỳ thứ và toàn bộ 24x60 giá trị giờ/phút.
 - 300 lần gọi các setter riêng, giữ nguyên các thành phần lân cận và metadata.
-- Bốn fixture HUD qua đường upload thật, so byte buffer với OBJ VRAM; có ảnh
-  06:50, 00:00, 12:00, 23:59 và đủ bốn tên mùa.
+- Chín fixture HUD qua đường upload thật, so byte buffer với OBJ VRAM; có ảnh
+  06:50, 00:00, 12:00, 23:59, đủ bốn tên mùa với ngày một/hai chữ số và
+  cặp ngày 9/10 để kiểm tra thay đổi độ dài.
 - Mở lịch tự nhiên bằng A tại lịch treo tường trong nhà. 56 fixture giao diện:
   năm 1/7/8/10/99/100/200 × bốn mùa × ngày chọn 1/30. Grid, event marker và
   toàn bộ pixel từ y=40 xuống dưới khớp ROM gốc. Các fixture chỉ đổi trường
