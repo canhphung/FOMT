@@ -179,5 +179,6 @@ pixel ở y=0, y=1 trống, thân y=2–6 ở bản trước. V11 thêm pixel đ
 và kéo dấu huyền thành hai pixel chéo; bearing X=2/advance=7 riêng cho è
 giữ dấu tách khỏi thân/H. Thân e và đồng hồ giữ vị trí, H lùi trái 2 pixel ở v11. V12 chỉ dịch dấu huyền
 sang phải 4 pixel thành (4,0)/(5,1). V13 nâng pixel (5,1) lên (5,0),
-giữ pixel trên cùng, không dịch thân, H hay clock. UTF-8 chỉ dùng trong nguồn, game dùng tile 4bpp raster trước.
+giữ pixel trên cùng ở bản trước. V14 sửa thành dấu huyền chéo (3,0)/(4,1)
+có tâm x=3,5 trùng thân e (x=2..5), không dịch thân, H hay clock. UTF-8 chỉ dùng trong nguồn, game dùng tile 4bpp raster trước.
 [DATE_UI.md](DATE_UI.md) ghi vùng đệm và các kiểm tra VRAM.

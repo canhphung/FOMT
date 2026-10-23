@@ -22,7 +22,7 @@ PROFILE = json.loads((Path(__file__).resolve().parents[1]/'localization/vi/date_
 SEASONS = tuple(PROFILE['seasons'])
 WEEKDAYS = tuple(PROFILE['weekdays'])
 if len(SEASONS)!=4 or len(WEEKDAYS)!=7:raise FormatError('date UI requires four seasons and seven weekdays')
-REVISION = 'vietnamese-date-24h-accent-pixel-up-v13'
+REVISION = 'vietnamese-date-24h-centered-grave-v14'
 
 # Six-row capitals/digits and five-row lowercase, wider pixel bodies.
 # The eight-pixel line still reserves the top for accents and bottom for dots.
@@ -99,15 +99,15 @@ def hud_glyph(char):
         if '\u0302' in nfd:
             marks=((1,0),(2,0),(0,1),(3,1));gaps=(2,)
         elif '\u0300' in nfd:
-            marks=((4,0),(5,0));gaps=()
+            marks=((3,0),(4,1));gaps=()
         else:
             # Diagnostic lower-accent glyph: an 8px season canvas rejects it
             # rather than letting it spill into the restored clock.
             marks=((1,8),(2,8));gaps=(7,)
     # Preserve the counter and right opening of e against the drop shadow.
     clear=((1,1),(2,1),(1,3),(2,3),(3,3)) if base=='e' else ()
-    # Keep the established body bearing/advance; only the grave moves right.
-    # Both accent pixels occupy the top row after the requested 1px lift.
+    # Preserve body bearing/advance. The diagonal grave is centered above
+    # the 4px vowel body (x2..5), with its midpoint at x3.5.
     bearing_x=2 if char=='è' else 0
     return HUDGlyph(shape,GLYPH_ADVANCES[base]+bearing_x,
                     HUD_BASELINE-len(shape)+1,marks,gaps,clear,bearing_x)

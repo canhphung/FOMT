@@ -83,8 +83,8 @@ def test_date_suffix_has_no_empty_digit_slot_and_consistent_word_gaps():
 
 @pytest.mark.parametrize('vowel',['â','ô','ạ','è'])
 def test_hud_accents_centered_and_separated_from_body_and_shadow(vowel):
-    # Both foreground and shadow must leave a full scanline between the mark
-    # and its vowel; otherwise the enlarged HUD reads as a joined glyph.
+    # Check blank scanlines for the original marks; the user-selected grave
+    # instead has a diagonal, horizontally centered placement in the 8px row.
     pixels=date_ui.tiny_pixels(vowel,8,16)
     mark_rows=(0,1) if vowel=='è' else ((0,1) if vowel!='ạ' else (8,))
     gap=1 if vowel=='è' else (2 if vowel!='ạ' else 7)
@@ -93,10 +93,12 @@ def test_hud_accents_centered_and_separated_from_body_and_shadow(vowel):
     body_x=[x for y in range(3,6) for x,v in enumerate(pixels[y]) if v==1]
     assert mark_x and body_x
     if vowel=='è':
-        assert pixels[0][4]==pixels[0][5]==1
-        assert pixels[1][5]==0  # lower accent point moved up exactly one row
-        assert pixels[0][0]==pixels[1][1]==0  # previous accent position is clear
-        assert pixels[2][5]==0  # lower point stays beyond the vowel roof
+        assert pixels[0][3]==pixels[1][4]==1
+        assert pixels[0][4]==pixels[0][5]==0  # previous horizontal stroke is gone
+        glyph=date_ui.hud_glyph(vowel)
+        assert sum(x for x,y in glyph.marks)==2*glyph.bearing_x+len(glyph.bitmap[0])-1
+        assert glyph.marks[1][0]-glyph.marks[0][0]==1
+        assert glyph.marks[1][1]-glyph.marks[0][1]==1
     else:
         assert min(mark_x)+max(mark_x)==min(body_x)+max(body_x)
     assert any(pixels[y][x]==1 for y in range(3,6) for x in range(4))

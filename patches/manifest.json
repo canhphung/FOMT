@@ -3,9 +3,9 @@
   "stage": "experimental localization demo; not a full translation",
   "source_sha1": "a2fc3574f0a65a4fcf7682fb274b9d7eebdef963",
   "source_size": 8388608,
-  "target_sha256": "4aac1382cdb13f03a43534f8e3573f670e131bbbda209dae4ccc9e1b9cce5c8a",
+  "target_sha256": "41ecd903b914afd40aace2de4fea7d4507be1cae797a5a29be1fe646fd6eb50e",
   "target_size": 16777216,
-  "patch_sha256": "3ee66cf83dedd6954ea3836bb391463509d81a45a5acef46cacdf4f012272162",
+  "patch_sha256": "ccfb774ba5abd31fcb26ded1863133871c03f3a24265e3840dd6a80686113940",
   "patch_size": 202475,
   "translated_draft_records": 706,
   "revision": "2026-10-23",
@@ -21,7 +21,7 @@
   "intro_translated_records": 145,
   "start_menu_revision": "start-menu-v1",
   "start_menu_translated_records": 162,
-  "date_ui_revision": "vietnamese-date-24h-accent-pixel-up-v13",
+  "date_ui_revision": "vietnamese-date-24h-centered-grave-v14",
   "date_ui_calendar_labels": 12,
   "date_ui_clock": "24-hour HH:MM; native ten-minute ticks"
 }

@@ -28,7 +28,7 @@ và resource lịch. Inserter chỉ ghi vào những vị trí đã xác minh; c
 resource mới và mã Thumb đều đặt sau ROM gốc ở vùng mở rộng. Build report ghi
 địa chỉ và phiên bản trong `date_ui`.
 
-## HUD — Hè và vị trí đồng hồ cũ (v13)
+## HUD — Hè và vị trí đồng hồ cũ (v14)
 
 `vietnamese-date-24h-he-v7` đưa đồng hồ từ x=24 trở lại **x=8..47, y=8..15**
 trong HUD, đúng vị trí trước v6. Đổi tên mùa trên HUD/lịch từ **Hạ → Hè**,
@@ -90,7 +90,14 @@ Bản `vietnamese-date-24h-accent-pixel-up-v13` nâng riêng pixel dưới của
 hiện cùng hàng y=0; không nâng cả dấu qua mép canvas hoặc cắt pixel. Mọi
 bitmap thân, tọa độ chữ, advance/bearing và clock giữ nguyên.
 
-[Ảnh nâng pixel dấu, trái v12 — phải v13](evidence/date-hud-accent-up.png) ·
+Bản `vietnamese-date-24h-centered-grave-v14` khôi phục dấu huyền dạng chéo:
+(3,0)/(4,1), thay nét ngang của v13. Thân e nằm ở x=2..5; tâm dấu và thân
+đều tại x=3,5. Hai pixel chênh nhau (+1,+1), đúng hướng huyền. Giữ nguyên
+thân, đuôi, bearing/advance, baseline và clock. Dấu ở y=0/1, thân y=2–6:
+hai vùng kề hàng trong dòng 8 pixel, không có thêm hàng trắng giữa chúng.
+
+[Ảnh dấu huyền chéo ở giữa, trái v13 — phải v14](evidence/date-hud-grave-centered.png) ·
+[Ảnh nâng pixel dấu ở v13](evidence/date-hud-accent-up.png) ·
 [Ảnh dịch dấu sang phải ở v12](evidence/date-hud-grave-right.png) ·
 [Ảnh hoàn thiện đuôi và dấu ở v11](evidence/date-hud-e-final.png) ·
 [Glyph e/è nền trắng, phóng 4x từ raster](evidence/hud-e-glyph.png) ·

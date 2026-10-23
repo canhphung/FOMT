@@ -579,3 +579,19 @@ nguyên. Hai bản mGBA qua HUD 2.580 trường hợp, 300 setter, chín fixture
 VRAM/weather, 56 fixture lịch, START/font/title/lưu-tải cold boot. Đã duyệt
 preview và Hè ngày 2/30. [Ảnh](evidence/date-hud-accent-up.png). Cập nhật
 IPS/manifest; 706 bản ghi dịch nháp không đổi. Chưa kiểm GBA thật/chơi xuyên mùa.
+
+
+## 2026-10-23 — Dấu huyền chéo, căn giữa đỉnh e (v14)
+
+`vietnamese-date-24h-centered-grave-v14` sửa nét ngang của v13 thành hai
+pixel (3,0)/(4,1). Chênh lệch (+1,+1) tạo hướng chéo huyền, tâm x=3,5
+trùng tâm thân e ở x=2..5. Dấu y=0/1 và thân y=2–6 kề hàng trong dòng 8
+pixel; không thêm hàng trắng hay thay đổi thân chữ. Giữ đuôi, bearing,
+advance, baseline, vị trí cả Hè và đồng hồ; các thành phần khác giữ nguyên.
+
+100 pytest đạt, kiểm tra dấu đúng tọa độ, nét cũ mất, hướng chéo và tâm
+trùng thân; hai mGBA qua 2.580 trường hợp HUD, 300 setter, chín fixture
+VRAM/weather, 56 fixture lịch, START/font/title/lưu-tải cold boot. Đã duyệt
+preview và ảnh Hè ngày 2/30. [Ảnh](evidence/date-hud-grave-centered.png).
+Cập nhật IPS/manifest; 706 bản ghi dịch nháp không đổi, chưa kiểm GBA thật
+hoặc chơi xuyên mùa.

@@ -14,8 +14,8 @@ Không chứa hoặc tự tải ROM thương mại. Bản vá IPS nằm trong `p
   **Xuân 2 · T2**, **06:50** theo giờ 24 tiếng. Giữ màu cuối tuần, biểu tượng
   thời tiết/lễ hội và nhịp đồng hồ 10 phút của game. Dòng ngày dùng advance và baseline
   thống nhất; đồng hồ giữ tile gốc, ô 8 pixel cố định. Bản v7 đổi Hạ thành Hè trên HUD/lịch,
-  đưa đồng hồ về vị trí cũ. V13 nâng pixel dưới của dấu thêm 1 ô;
-  [ảnh trước/sau](docs/evidence/date-hud-accent-up.png).
+  đưa đồng hồ về vị trí cũ. V14 căn dấu huyền chéo vào giữa đỉnh e;
+  [ảnh trước/sau](docs/evidence/date-hud-grave-centered.png).
   [Ảnh kiểm chứng](docs/evidence/date-ui.png), [chi tiết](docs/DATE_UI.md).
 - Đã dịch menu con START: lưu/tải và tùy chọn Nhật ký, Ba lô, mô tả bản đồ,
   thống kê/Ghi chú và sách Mẹo điều khiển. Sửa hai tiêu đề Ba lô bị cắt chữ có dấu.

@@ -1,8 +1,8 @@
 {
   "date": "2026-10-23",
   "timezone": "Asia/Saigon",
-  "revision": "vietnamese-date-24h-accent-pixel-up-v13",
-  "target_sha256": "4aac1382cdb13f03a43534f8e3573f670e131bbbda209dae4ccc9e1b9cce5c8a",
+  "revision": "vietnamese-date-24h-centered-grave-v14",
+  "target_sha256": "41ecd903b914afd40aace2de4fea7d4507be1cae797a5a29be1fe646fd6eb50e",
   "pytest": {
     "passed": 100,
     "failed": 0,
@@ -11,8 +11,8 @@
   "emulators": {
     "0.10.5": {
       "date_ui": {
-        "target_sha256": "4aac1382cdb13f03a43534f8e3573f670e131bbbda209dae4ccc9e1b9cce5c8a",
-        "revision": "vietnamese-date-24h-accent-pixel-up-v13",
+        "target_sha256": "41ecd903b914afd40aace2de4fea7d4507be1cae797a5a29be1fe646fd6eb50e",
+        "revision": "vietnamese-date-24h-centered-grave-v14",
         "limitations": [
           "Calendar fixtures change UI view fields, not elapsed gameplay years",
           "HUD game time still advances at native ten-minute ticks",
@@ -463,7 +463,7 @@
         "status": "passed"
       },
       "full_smoke": {
-        "target_sha256": "4aac1382cdb13f03a43534f8e3573f670e131bbbda209dae4ccc9e1b9cce5c8a",
+        "target_sha256": "41ecd903b914afd40aace2de4fea7d4507be1cae797a5a29be1fe646fd6eb50e",
         "checks": {
           "ascii_native_outlines_at_common_baseline": 95,
           "legacy_glyph_fallback_unchanged": 10,
@@ -534,8 +534,8 @@
     },
     "dev": {
       "date_ui": {
-        "target_sha256": "4aac1382cdb13f03a43534f8e3573f670e131bbbda209dae4ccc9e1b9cce5c8a",
-        "revision": "vietnamese-date-24h-accent-pixel-up-v13",
+        "target_sha256": "41ecd903b914afd40aace2de4fea7d4507be1cae797a5a29be1fe646fd6eb50e",
+        "revision": "vietnamese-date-24h-centered-grave-v14",
         "limitations": [
           "Calendar fixtures change UI view fields, not elapsed gameplay years",
           "HUD game time still advances at native ten-minute ticks",
@@ -986,7 +986,7 @@
         "status": "passed"
       },
       "full_smoke": {
-        "target_sha256": "4aac1382cdb13f03a43534f8e3573f670e131bbbda209dae4ccc9e1b9cce5c8a",
+        "target_sha256": "41ecd903b914afd40aace2de4fea7d4507be1cae797a5a29be1fe646fd6eb50e",
         "checks": {
           "ascii_native_outlines_at_common_baseline": 95,
           "legacy_glyph_fallback_unchanged": 10,
@@ -1057,7 +1057,7 @@
     }
   },
   "start_menu_regression": {
-    "target_sha256": "4aac1382cdb13f03a43534f8e3573f670e131bbbda209dae4ccc9e1b9cce5c8a",
+    "target_sha256": "41ecd903b914afd40aace2de4fea7d4507be1cae797a5a29be1fe646fd6eb50e",
     "status": "passed",
     "translated_records": 162,
     "isolated_renderer_lines_with_guards": 239,
@@ -1248,11 +1248,11 @@
     },
     {
       "path": "docs/evidence/date-ui/hud-1-0000.png",
-      "sha256": "f60dea57fc1c05788ff020f2e40321207d077d47ea4fe38f9d696e7d9a5b7548"
+      "sha256": "6cc955ce8c25ae71f8bde04afc212d7bfd976b49ddd68ae81aacb11ff9d86aef"
     },
     {
       "path": "docs/evidence/date-ui/hud-1-day2.png",
-      "sha256": "45625d0feb9a71c778b77c37ab22f31517a6ab3386477921b4beb284d34a4d76"
+      "sha256": "d7dba28a53a42e066c83f5f09a5d167514a2dc00b9a4af2f362faf4a52ddc469"
     },
     {
       "path": "docs/evidence/date-ui/hud-2-1200.png",
@@ -1280,33 +1280,31 @@
     }
   ],
   "visual_review": "Native/translated calendar, all four seasons, 1/100/200-year headings, calendar exit and nine HUD date/time cases reviewed; no OCR or claim of multi-year gameplay.",
-  "accent_pixel_up_comparison": {
-    "path": "docs/evidence/date-hud-accent-up.png",
-    "sha256": "26447e9c2cfb5c63427d742da25963a6cb1e648807538597e542ddbe72dcf431",
-    "left": "Before: 1658e9c",
-    "right": "After: lower accent point (5,1) raised to (5,0); upper point and all body metrics preserved",
+  "centered_grave_comparison": {
+    "path": "docs/evidence/date-hud-grave-centered.png",
+    "sha256": "67e8c7e0b2bf4445fa5a5db410676e8b164c7350bdb9f75211024923ca68295b",
+    "left": "Before: 668f70f, horizontal accent",
+    "right": "After: diagonal grave centered above e; body and all metrics unchanged",
     "method": "Native emulator screenshots; nearest-neighbor crop only",
     "clock_x": 8,
     "clock_y": 8,
     "accent_pixels": [
       [
-        4,
+        3,
         0
       ],
       [
-        5,
-        0
+        4,
+        1
       ]
     ],
-    "pixel_delta": [
-      0,
-      -1
-    ],
-    "body_metrics_preserved": true
+    "accent_and_body_center_x": 3.5,
+    "body_metrics_preserved": true,
+    "note": "Accent rows 0/1 and body rows 2..6 are adjacent within the existing 8px line"
   },
   "glyph_preview": {
     "path": "docs/evidence/hud-e-glyph.png",
-    "sha256": "8f11b11b7f6fbd86a8c5329796375adfe6322dc58577651e044a468a2280696e",
+    "sha256": "6d2717426a10197edfa1296006570aea4a960a4739a147c39fa15738388d3e32",
     "source": "Actual glyph raster 4x; white background and black/gray index visualization, not emulator screenshot"
   }
 }
