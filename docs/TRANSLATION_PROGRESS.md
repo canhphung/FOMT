@@ -1,6 +1,6 @@
 # Tiến độ Việt hóa
 
-**Hiện tại:** 706/9.283 bản ghi dịch nháp, 2 prompt title đồ họa, lịch/HUD tiếng Việt, 99 test đạt.
+**Hiện tại:** 706/9.283 bản ghi dịch nháp, 2 prompt title đồ họa, lịch/HUD tiếng Việt, 100 test đạt.
 Đã Việt hóa các màn tạo game mới, intro, menu con START và lịch/HUD; mục cuối ghi phiên triển khai.
 Các mục cũ bên dưới giữ số liệu theo từng phiên lịch sử.
 
@@ -483,3 +483,19 @@ font/title và lưu/tải cold boot đều đạt. Đã duyệt ảnh bốn mùa
 chữ số và lịch mùa Hè. [Ảnh trước/sau](evidence/date-hud-he.png),
 [báo cáo](evidence/date-ui-validation.json). Cập nhật IPS/manifest; vẫn 706
 bản ghi dịch nháp. Chưa kiểm GBA thật hoặc chơi xuyên mùa.
+
+
+## 2026-10-23 — Vẽ lại e trong nhãn Hè (v8)
+
+Bản e bốn hàng cũ không có lòng chữ phía trên, nên rất khó nhận ra khi đổ
+bóng. `vietnamese-date-24h-open-e-v8` dùng bitmap 0110/1001/1110/0111,
+có lòng chữ hai pixel, nét giữa rõ và lỗ mở bên phải. Metrics có thêm mặt nạ
+`clear_pixels` để bóng không lấp lòng chữ/lỗ mở. Chỉ e/è dùng mặt nạ này;
+dấu huyền, advance 5 pixel, baseline y=6, vị trí đồng hồ và bố cục không đổi.
+
+100 pytest đạt, thêm kiểm tra lòng chữ/lỗ mở e/è trống cả bóng, nét giữa và
+metrics không đổi. mGBA 0.10.5/0.11-dev qua 2.580 trường hợp HUD, 300 setter,
+chín fixture so VRAM/weather, 56 fixture lịch, START, font/title và lưu/tải
+cold boot. Đã duyệt ảnh Hè ngày 2/30 và bốn mùa. Cập nhật IPS/manifest và
+[ảnh trước/sau](evidence/date-hud-e.png). Chưa kiểm GBA thật hoặc chơi xuyên
+mùa; 706 bản ghi dịch nháp không đổi.

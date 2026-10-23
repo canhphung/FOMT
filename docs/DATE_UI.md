@@ -28,7 +28,7 @@ và resource lịch. Inserter chỉ ghi vào những vị trí đã xác minh; c
 resource mới và mã Thumb đều đặt sau ROM gốc ở vùng mở rộng. Build report ghi
 địa chỉ và phiên bản trong `date_ui`.
 
-## HUD — Hè và vị trí đồng hồ cũ (v7)
+## HUD — Hè và vị trí đồng hồ cũ (v8)
 
 `vietnamese-date-24h-he-v7` đưa đồng hồ từ x=24 trở lại **x=8..47, y=8..15**
 trong HUD, đúng vị trí trước v6. Đổi tên mùa trên HUD/lịch từ **Hạ → Hè**,
@@ -53,7 +53,13 @@ giờ 24×96, phút 60×64, nháy 2×32. Setter mùa chỉ chép 96 byte dòng t
 hour vào +0x124, minute +0x228, colon blink +0x164 như v5. Không ghi
 metadata lân cận, ngày giờ gameplay hoặc dữ liệu save.
 
-[Ảnh trước/sau, trái v6 — phải v7](evidence/date-hud-he.png).
+Bản `vietnamese-date-24h-open-e-v8` vẽ lại thân e/è 4x4: thêm khoảng rỗng
+hai pixel ở hàng thứ hai, nét ngang ba pixel ở hàng thứ ba và lỗ mở bên phải.
+`clear_pixels` trong metrics bảo vệ lòng chữ/lỗ mở khỏi bóng đổ. Dấu huyền,
+advance 5 pixel, baseline y=6, nhãn Hè và vị trí giờ đều giữ nguyên.
+
+[Ảnh vẽ lại e, trái v7 — phải v8](evidence/date-hud-e.png) ·
+[Ảnh khôi phục đồng hồ ở v7](evidence/date-hud-he.png).
 Ảnh v2–v6 được giữ làm lịch sử. Công thức thứ, packed date, giờ 24 tiếng,
 nhịp tăng 10 phút và nháy dấu hai chấm giữ nguyên. 23:59 chỉ là fixture
 bộ vẽ, không phải thay đổi nhịp gameplay.
@@ -84,10 +90,11 @@ trỏ hoặc nội dung mô tả lễ hội. Các popup mô tả lễ hội chư
   --output-dir build/date-final-0.10.5
 ```
 
-99 pytest đạt; có kiểm tra khoảng trống bằng pixel cho toàn bộ 30 ngày × bảy thứ
+100 pytest đạt; có kiểm tra khoảng trống bằng pixel cho toàn bộ 30 ngày × bảy thứ
 và mép phải của bốn tên mùa. Kiểm tra baseline mọi chữ/số; advance cố định,
 dấu huyền của è, khoảng trống cả bóng, từ chối cắt glyph; kiểm tra tên Hè
-và tọa độ clock x=8, mọi mùa nằm gọn trong tám hàng. Chạy cùng kiểm tra trên mGBA 0.10.5 và 0.11-dev:
+và tọa độ clock x=8, mọi mùa nằm gọn trong tám hàng. Kiểm tra e/è có lòng
+chữ và lỗ mở trong suốt, nét giữa không mất và metrics không đổi. Chạy cùng kiểm tra trên mGBA 0.10.5 và 0.11-dev:
 
 - 2.580 trường hợp packed date/time qua CPU thật, có canh bộ nhớ; bao phủ mọi
   ngày 1–30, bốn mùa, bảy chu kỳ thứ và toàn bộ 24x60 giá trị giờ/phút.

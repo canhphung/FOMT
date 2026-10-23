@@ -171,5 +171,6 @@ space, font vector hoặc anti-aliasing. Đổi nhãn mùa Hạ thành Hè trên
 Dấu huyền è ở y=0/1, hàng trống y=2, thân y=3–6; không có dấu nặng tràn vào
 dòng giờ. Mùa nằm trong 24x8, đồng hồ trở về x=8..47, y=8..15 như trước v6.
 Đồng hồ giữ tile, palette và advance 8 pixel gốc; hai OBJ 32x16 và icon thời
-tiết không đổi. UTF-8 chỉ dùng trong nguồn, game dùng tile 4bpp raster trước.
+tiết không đổi. V8 vẽ lại thân e/è, dùng `clear_pixels` giữ lòng chữ và lỗ
+mở bên phải trong suốt khi đổ bóng; không đổi advance, baseline hoặc dấu. UTF-8 chỉ dùng trong nguồn, game dùng tile 4bpp raster trước.
 [DATE_UI.md](DATE_UI.md) ghi vùng đệm và các kiểm tra VRAM.

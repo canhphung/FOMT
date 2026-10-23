@@ -113,3 +113,13 @@ def test_hud_metrics_reject_clipping_and_use_integer_advances():
     assert date_ui.CLOCK_ADVANCE==8
     pixels=[[0]*40 for _ in range(8)]
     assert date_ui.draw_run('T2',pixels,3)==14
+
+
+def test_e_counter_and_right_opening_stay_clear_of_shadow():
+    for char in ('e','è'):
+        pixels=date_ui.tiny_pixels(char,8)
+        assert pixels[4][1:3]==[0,0], 'Upper counter must remain transparent'
+        assert pixels[5][3]==0, 'Right opening must remain transparent'
+        assert pixels[5][:3]==[1,1,1], 'Middle bar must remain distinct'
+        assert date_ui.hud_glyph(char).advance==5
+        assert date_ui.hud_glyph(char).baseline==6

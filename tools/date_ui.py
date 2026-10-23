@@ -22,7 +22,7 @@ PROFILE = json.loads((Path(__file__).resolve().parents[1]/'localization/vi/date_
 SEASONS = tuple(PROFILE['seasons'])
 WEEKDAYS = tuple(PROFILE['weekdays'])
 if len(SEASONS)!=4 or len(WEEKDAYS)!=7:raise FormatError('date UI requires four seasons and seven weekdays')
-REVISION = 'vietnamese-date-24h-he-v7'
+REVISION = 'vietnamese-date-24h-open-e-v8'
 
 # Six-row capitals/digits and five-row lowercase, wider pixel bodies.
 # The eight-pixel line still reserves the top for accents and bottom for dots.
@@ -35,7 +35,7 @@ TINY = {
  'Đ':['11110','10001','11001','10001','10001','11110'],
  'u':['0000','1001','1001','1001','1001','0111'],
  'n':['0000','1110','1001','1001','1001','1001'],
- 'e':['0000','0110','1001','1111','1000','0111'],
+ 'e':['0110','1001','1110','0111'],
  'a':['0000','0110','0001','0111','1001','0111'],
  'o':['0000','0110','1001','1001','1001','0110'],
  'g':['0000','0111','1001','0111','0001','0110'],
@@ -77,6 +77,7 @@ class HUDGlyph:
     bearing_y: int
     marks: tuple[tuple[int,int],...] = ()
     gap_rows: tuple[int,...] = ()
+    clear_pixels: tuple[tuple[int,int],...] = ()
 
     @property
     def baseline(self):
@@ -93,7 +94,7 @@ def hud_glyph(char):
         if char not in ('â','ô','ạ','è'):raise FormatError('unsupported HUD accent '+char)
         shape=tuple({'a':['0111','1001','1001','0111'],
                      'o':['0110','1001','1001','0110'],
-                     'e':['0110','1111','1000','0111']}[base])
+                     'e':['0110','1001','1110','0111']}[base])
         if '\u0302' in nfd:
             marks=((1,0),(2,0),(0,1),(3,1));gaps=(2,)
         elif '\u0300' in nfd:
@@ -102,7 +103,9 @@ def hud_glyph(char):
             # Diagnostic lower-accent glyph: an 8px season canvas rejects it
             # rather than letting it spill into the restored clock.
             marks=((1,8),(2,8));gaps=(7,)
-    return HUDGlyph(shape,GLYPH_ADVANCES[base],HUD_BASELINE-len(shape)+1,marks,gaps)
+    # Preserve the counter and right opening of e against the drop shadow.
+    clear=((1,1),(2,1),(3,2)) if base=='e' else ()
+    return HUDGlyph(shape,GLYPH_ADVANCES[base],HUD_BASELINE-len(shape)+1,marks,gaps,clear)
 
 
 def draw_run(text,pixels,x=0):
@@ -114,7 +117,9 @@ def draw_run(text,pixels,x=0):
             for dx,bit in enumerate(row):
                 if bit=='1':body.add((x+dx,y+glyph.bearing_y))
         ink=body|{(x+dx,y) for dx,y in glyph.marks}
+        clear={(x+dx,glyph.bearing_y+dy) for dx,dy in glyph.clear_pixels}
         shadow={(dx+1,y+1) for dx,y in body if y+1 not in glyph.gap_rows}
+        shadow-=clear
         if any(dx<0 or dx>=width or y<0 or y>=height for dx,y in ink|shadow):
             raise FormatError('HUD glyph or shadow overflows')
         for dx,y in shadow:
