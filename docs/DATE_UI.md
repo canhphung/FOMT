@@ -1,6 +1,6 @@
 # Lịch và khung ngày giờ tiếng Việt
 
-Bản vá hiển thị lịch **Năm 1 — Mùa Xuân**, các mùa **Xuân/Hạ/Thu/Đông**, hàng
+Bản vá hiển thị lịch **Năm 1 — Mùa Xuân**, các mùa **Xuân/Hè/Thu/Đông**, hàng
 thứ **CN, T2, T3, T4, T5, T6, T7**. HUD có hai dòng, ví dụ **Xuân 2 · T2** và
 **06:50**. Giờ 24 tiếng thay AM/PM; giữ nhịp tăng 10 phút vốn có của game.
 
@@ -28,55 +28,35 @@ và resource lịch. Inserter chỉ ghi vào những vị trí đã xác minh; c
 resource mới và mã Thumb đều đặt sau ROM gốc ở vùng mở rộng. Build report ghi
 địa chỉ và phiên bản trong `date_ui`.
 
-## HUD — metrics v6
+## HUD — Hè và vị trí đồng hồ cũ (v7)
 
-`vietnamese-date-24h-metrics-v6` giữ nguyên hai OBJ 32x16, tổng 64x16 pixel,
-vị trí OBJ, palette và icon thời tiết. Không thêm OBJ, heap hay VRAM. Các glyph
-đều là bitmap pixel nguyên; chỉ dùng màu trong palette gốc, không anti-aliasing,
-không font vector hay nội suy. Giữ nguyên bitmap chữ số và dấu hai chấm của
-đồng hồ. Bitmap chữ Việt đã duyệt được giữ khi có thể; sửa vị trí thân/dấu ạ
-để đúng baseline, bỏ cách nâng riêng cả nhãn Hạ của v5.
+`vietnamese-date-24h-he-v7` đưa đồng hồ từ x=24 trở lại **x=8..47, y=8..15**
+trong HUD, đúng vị trí trước v6. Đổi tên mùa trên HUD/lịch từ **Hạ → Hè**,
+không còn dấu nặng ở sát dòng giờ. Bitmap mới của è có dấu huyền tại (1,0),
+(2,1), hàng y=2 trong suốt và thân bốn hàng y=3–6. Dấu và bóng không dính nhau.
 
-`HUDGlyph` tách bitmap, advance, bearing Y, điểm dấu và hàng trống. Tất cả
-chữ/số của dòng ngày có baseline **y=6**; bearing Y được tính từ baseline và
-chiều cao bitmap. Dấu mũ ở y=0/1, y=2 trống, thân â/ô ở y=3–6. Thân ạ cũng
-ở y=3–6, y=7 trống cả mực lẫn bóng, dấu nặng ở y=8. Không cắt glyph: build
-báo lỗi nếu mực hoặc bóng ra ngoài canvas.
+Giữ advance/bearing của v6: chữ hoa 6 pixel, chữ thường/số ngày 5 pixel,
+dấu chấm giữa 2 pixel, khoảng cách thành phần 3 pixel. `draw_run()` bố trí
+các run bằng advance, không thêm space vào chuỗi. Thân chữ dòng ngày cùng
+baseline y=6; clock có baseline y=14 và advance 8 pixel theo tile gốc.
+Mùa chỉ dùng vùng 24x8 ở dòng trên; glyph nào vượt vùng đó bị từ chối thay
+vì cắt dấu hoặc tràn vào đồng hồ.
 
-| Metrics / vùng (tọa độ trong HUD) | Giá trị |
-| --- | --- |
-| Advance chữ hoa ngày/thứ | 6 pixel |
-| Advance chữ thường và số ngày | 5 pixel |
-| Advance dấu chấm giữa | 2 pixel |
-| Khoảng cách giữa thành phần | 3 pixel sau advance, không chèn space vào nội dung |
-| Mùa | x=0..23, y=0..15; căn phải mép bitmap tại x=23 |
-| Ngày / dấu chấm / thứ | x=24..63, y=0..7; số ngày bắt đầu x=27 |
-| Đồng hồ | x=24..63, y=8..15; baseline y=14 |
-| Advance đồng hồ | 8 pixel cố định cho mỗi tile gốc, kể cả dấu hai chấm |
+Giữ nguyên hai OBJ 32x16, tổng HUD 64x16, vị trí OBJ, palette, biểu tượng
+thời tiết và số tile VRAM. Bitmap đồng hồ gốc không đổi; không anti-aliasing,
+font vector hay nội suy. Mùa còn lại và suffix ngày/thứ giữ bitmap v6.
+Chỉ đổi bearing/layout đã nêu và thêm glyph è; cả lịch tháng dùng nhãn Hè.
 
-`draw_run()` đặt glyph bằng advance. Ngày, dấu chấm và thứ là ba run riêng;
-không có chuỗi đệm dạng `"30 · T2"` hoặc thêm cột trắng trước bitmap. Số
-ngày một chữ số tự kéo nhãn thứ về đúng vị trí theo tổng advance. Clock là
-năm ô 8 pixel HH:MM: số 1 có nét hẹp hơn số 0 vốn có trong game, nhưng ô
-và vị trí chữ số luôn cố định, không gây nhảy bố cục.
+Buffer vẫn ở object+0x84 và +0x1A8, mỗi buffer 256 byte; cờ upload +0x18C và
++0x2B0. Cache giảm về **40.192 byte**: mùa 4×96, ngày/thứ 210×160,
+giờ 24×96, phút 60×64, nháy 2×32. Setter mùa chỉ chép 96 byte dòng trên;
+hour vào +0x124, minute +0x228, colon blink +0x164 như v5. Không ghi
+metadata lân cận, ngày giờ gameplay hoặc dữ liệu save.
 
-Dấu nặng dùng hàng đầu vùng trái bên dưới; đồng hồ chuyển từ x=8 sang x=24
-để hai vùng không giao nhau. Không mở rộng HUD hoặc dịch icon. Không nâng
-riêng chữ Hạ nữa: mọi thân chữ dòng ngày cùng baseline, dấu dưới có một hàng
-trống và được bảo vệ khỏi đồng hồ bằng cả tọa độ X lẫn Y.
-
-Hai buffer vẫn ở object+0x84 và +0x1A8 (256 byte mỗi buffer), cờ upload
-+0x18C và +0x2B0. Cache tổng **40.576 byte**: mùa 4×192, ngày/thứ 210×160,
-giờ 24×96, phút 60×64, nháy 2×32. Mùa dùng sáu tile gồm hai hàng; setter
-chép 192 byte trong buffer đã có. Hour chép một tile vào +0x164 và hai tile
-vào +0x228; minute vào +0x268, colon blink vào +0x248. Không ghi metadata
-lân cận, ngày giờ gameplay hay dữ liệu save.
-
-[Ảnh bố cục trước/sau, trái v5 — phải v6](evidence/date-hud-metrics.png).
-Các ảnh v2–v5 là lịch sử, không phải ảnh bản hiện tại; xem tiến độ để biết
-những sửa đổi trước. Năm packed date và công thức thứ giữ nguyên từ native
-0803CD4C. Đồng hồ dùng 00–23, nhịp tăng 10 phút và nháy dấu hai chấm gốc;
-23:59 chỉ là fixture kiểm tra bộ vẽ.
+[Ảnh trước/sau, trái v6 — phải v7](evidence/date-hud-he.png).
+Ảnh v2–v6 được giữ làm lịch sử. Công thức thứ, packed date, giờ 24 tiếng,
+nhịp tăng 10 phút và nháy dấu hai chấm giữ nguyên. 23:59 chỉ là fixture
+bộ vẽ, không phải thay đổi nhịp gameplay.
 
 ## Lịch tháng
 
@@ -104,9 +84,10 @@ trỏ hoặc nội dung mô tả lễ hội. Các popup mô tả lễ hội chư
   --output-dir build/date-final-0.10.5
 ```
 
-98 pytest đạt; có kiểm tra khoảng trống bằng pixel cho toàn bộ 30 ngày × bảy thứ
+99 pytest đạt; có kiểm tra khoảng trống bằng pixel cho toàn bộ 30 ngày × bảy thứ
 và mép phải của bốn tên mùa. Kiểm tra baseline mọi chữ/số; advance cố định,
-đủ dấu nặng dưới baseline, khoảng trống cả bóng, từ chối cắt glyph. Chạy cùng kiểm tra trên mGBA 0.10.5 và 0.11-dev:
+dấu huyền của è, khoảng trống cả bóng, từ chối cắt glyph; kiểm tra tên Hè
+và tọa độ clock x=8, mọi mùa nằm gọn trong tám hàng. Chạy cùng kiểm tra trên mGBA 0.10.5 và 0.11-dev:
 
 - 2.580 trường hợp packed date/time qua CPU thật, có canh bộ nhớ; bao phủ mọi
   ngày 1–30, bốn mùa, bảy chu kỳ thứ và toàn bộ 24x60 giá trị giờ/phút.

@@ -49,7 +49,7 @@ def test_calendar_preserves_numbers_palettes_animation_and_fits_native_reservati
 def test_hud_cache_retains_original_clock_numerals_and_all_hour_minute_values(rom):
     cache=date_ui.build_hud_cache(rom)
     native=lambda n:rom[date_ui.DIGITS+32*n:date_ui.DIGITS+32*(n+1)]
-    assert len(cache['season'])==4*192
+    assert len(cache['season'])==4*96
     assert len(cache['day_week'])==30*7*160
     for hour in range(24):
         assert cache['hour'][hour*96:(hour+1)*96]==native(hour//10)+native(hour%10)+native(10)
@@ -81,7 +81,7 @@ def test_date_suffix_has_no_empty_digit_slot_and_consistent_word_gaps():
             assert all(n<=3 for n in runs)
 
 
-@pytest.mark.parametrize('vowel',['â','ô','ạ'])
+@pytest.mark.parametrize('vowel',['â','ô','ạ','è'])
 def test_hud_accents_centered_and_separated_from_body_and_shadow(vowel):
     # Both foreground and shadow must leave a full scanline between the mark
     # and its vowel; otherwise the enlarged HUD reads as a joined glyph.
@@ -96,13 +96,13 @@ def test_hud_accents_centered_and_separated_from_body_and_shadow(vowel):
     assert any(pixels[y][x]==1 for y in range(3,6) for x in range(4))
 
 
-def test_season_lower_accents_are_separate_from_clock_region():
-    pixels=date_ui.season_pixels('Hạ')
-    # Body baseline 6, clear row 7, complete bottom dot at 8, then blank.
-    assert pixels[8].count(1)==2
-    assert not any(v for row in pixels[9:] for v in row)
-    assert any(v==1 for v in pixels[6])
-    for char in 'XHĐThuânạôg0123456789CN':
+def test_summer_name_and_clock_position_are_restored_without_lower_accents():
+    assert date_ui.SEASONS[1]=='Hè'
+    assert date_ui.CLOCK_X==8
+    for season in date_ui.SEASONS:
+        pixels=date_ui.season_pixels(season)
+        assert len(pixels)==8
+    for char in 'XHĐThuânèôg0123456789CN':
         assert date_ui.hud_glyph(char).baseline==6
 
 

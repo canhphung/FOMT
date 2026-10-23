@@ -165,12 +165,11 @@ trong [START_MENU.md](START_MENU.md). Font glyph v2 không đổi.
 
 ## Font lịch và HUD ngày giờ
 
-Lịch dùng nét chữ native với advance gọn, bảng thứ CN/T2…T7. HUD v6 dùng
-`HUDGlyph` có advance/bearing/baseline riêng, glyph bitmap nguyên pixel,
-không padding bằng space, không font vector hoặc anti-aliasing. Chữ/số ngày
-có baseline y=6, dấu mũ y=0/1 và hàng trống y=2; dấu nặng y=8, hàng trống
-y=7. Vùng mùa dùng 24x16 pixel đã có; clock ở x=24..63, y=8..15, không chạm
-dấu nặng. Đồng hồ dùng nguyên tile và palette native, advance 8 pixel cố
-định; icon và hai OBJ 32x16 giữ nguyên. Thân ạ không còn bị nâng riêng.
-UTF-8 chỉ dùng trong dữ liệu nguồn; tất cả raster trước thành tile 4bpp.
-[DATE_UI.md](DATE_UI.md) ghi kích thước, palette, vùng đệm và kiểm tra VRAM.
+Lịch dùng nét native, bảng thứ CN/T2…T7. HUD v7 giữ `HUDGlyph`/`draw_run()`
+với advance và bearing riêng, baseline dòng ngày y=6; không padding bằng
+space, font vector hoặc anti-aliasing. Đổi nhãn mùa Hạ thành Hè trên HUD/lịch.
+Dấu huyền è ở y=0/1, hàng trống y=2, thân y=3–6; không có dấu nặng tràn vào
+dòng giờ. Mùa nằm trong 24x8, đồng hồ trở về x=8..47, y=8..15 như trước v6.
+Đồng hồ giữ tile, palette và advance 8 pixel gốc; hai OBJ 32x16 và icon thời
+tiết không đổi. UTF-8 chỉ dùng trong nguồn, game dùng tile 4bpp raster trước.
+[DATE_UI.md](DATE_UI.md) ghi vùng đệm và các kiểm tra VRAM.

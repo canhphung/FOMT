@@ -1,6 +1,6 @@
 # Tiến độ Việt hóa
 
-**Hiện tại:** 706/9.283 bản ghi dịch nháp, 2 prompt title đồ họa, lịch/HUD tiếng Việt, 98 test đạt.
+**Hiện tại:** 706/9.283 bản ghi dịch nháp, 2 prompt title đồ họa, lịch/HUD tiếng Việt, 99 test đạt.
 Đã Việt hóa các màn tạo game mới, intro, menu con START và lịch/HUD; mục cuối ghi phiên triển khai.
 Các mục cũ bên dưới giữ số liệu theo từng phiên lịch sử.
 
@@ -463,3 +463,23 @@ khớp từng pixel ROM gốc. Smoke font/title/START và lưu/tải cold boot �
 [Ảnh trước/sau](evidence/date-hud-metrics.png),
 [báo cáo](evidence/date-ui-validation.json). Cập nhật IPS/manifest; 706 bản
 ghi dịch nháp không đổi. Chưa kiểm trên GBA thật hoặc chơi xuyên mùa.
+
+
+## 2026-10-23 — Khôi phục vị trí giờ, đổi Hạ thành Hè
+
+Theo phản hồi v6 làm lệch đồng hồ, `vietnamese-date-24h-he-v7` khôi phục
+clock x=8..47, y=8..15 (hour +0x124, minute +0x228, blink +0x164) như v5.
+Đổi mùa thứ hai trên HUD/lịch từ Hạ sang Hè, thêm glyph è có dấu huyền
+với hàng y=2 trống và thân tại y=3–6. Giữ advance, baseline và pixel font;
+không còn dấu nặng ở sát giờ. Các màn hình dịch văn bản khác ngoài HUD/lịch
+không thuộc lần đổi nhãn này.
+
+Mùa trở lại 24x8; cache giảm 40.576 → 40.192 byte. Giữ hai OBJ, kích thước
+64x16, palette và icon thời tiết, bitmap đồng hồ gốc và nhịp gameplay.
+99 pytest đạt, gồm kiểm tra è, tên Hè, tọa độ giờ và mọi mùa nằm trong tám
+hàng. Trên mGBA 0.10.5/0.11-dev: 2.580 trường hợp HUD, 300 setter, chín
+fixture so VRAM và weather pixels native, 56 fixture lịch, smoke START,
+font/title và lưu/tải cold boot đều đạt. Đã duyệt ảnh bốn mùa/ngày một-hai
+chữ số và lịch mùa Hè. [Ảnh trước/sau](evidence/date-hud-he.png),
+[báo cáo](evidence/date-ui-validation.json). Cập nhật IPS/manifest; vẫn 706
+bản ghi dịch nháp. Chưa kiểm GBA thật hoặc chơi xuyên mùa.

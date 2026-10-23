@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": "vietnamese-date-24h-metrics-v6",
+  "revision": "vietnamese-date-24h-he-v7",
   "source_sha1": "a2fc3574f0a65a4fcf7682fb274b9d7eebdef963",
   "status": "draft; verified graphics sources; visual review in docs/evidence/date-ui",
   "sources": {
@@ -10,7 +10,7 @@
   "original_year": "Year",
   "year": "Năm",
   "original_seasons": ["Spring", "Summer", "Fall", "Winter"],
-  "seasons": ["Xuân", "Hạ", "Thu", "Đông"],
+  "seasons": ["Xuân", "Hè", "Thu", "Đông"],
   "season_heading_prefix": "— Mùa ",
   "original_weekdays": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
   "weekdays": ["CN", "T2", "T3", "T4", "T5", "T6", "T7"],

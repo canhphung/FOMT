@@ -22,7 +22,7 @@ PROFILE = json.loads((Path(__file__).resolve().parents[1]/'localization/vi/date_
 SEASONS = tuple(PROFILE['seasons'])
 WEEKDAYS = tuple(PROFILE['weekdays'])
 if len(SEASONS)!=4 or len(WEEKDAYS)!=7:raise FormatError('date UI requires four seasons and seven weekdays')
-REVISION = 'vietnamese-date-24h-metrics-v6'
+REVISION = 'vietnamese-date-24h-he-v7'
 
 # Six-row capitals/digits and five-row lowercase, wider pixel bodies.
 # The eight-pixel line still reserves the top for accents and bottom for dots.
@@ -35,6 +35,7 @@ TINY = {
  'Đ':['11110','10001','11001','10001','10001','11110'],
  'u':['0000','1001','1001','1001','1001','0111'],
  'n':['0000','1110','1001','1001','1001','1001'],
+ 'e':['0000','0110','1001','1111','1000','0111'],
  'a':['0000','0110','0001','0111','1001','0111'],
  'o':['0000','0110','1001','1001','1001','0110'],
  'g':['0000','0111','1001','0111','0001','0110'],
@@ -65,9 +66,9 @@ def verify(rom):
 HUD_BASELINE = 6
 WORD_GAP = 3
 CLOCK_ADVANCE = 8
-CLOCK_X = 24
+CLOCK_X = 8
 GLYPH_ADVANCES = {**dict.fromkeys('XHTCNĐ',6),
-                  **dict.fromkeys('unaogh0123456789',5),'·':2}
+                  **dict.fromkeys('unaoghe0123456789',5),'·':2}
 
 @dataclass(frozen=True)
 class HUDGlyph:
@@ -89,14 +90,17 @@ def hud_glyph(char):
     if base not in TINY:raise FormatError('unknown HUD glyph '+char)
     shape=tuple(TINY[base]);marks=();gaps=()
     if len(nfd)>1:
-        if char not in ('â','ô','ạ'):raise FormatError('unsupported HUD accent '+char)
+        if char not in ('â','ô','ạ','è'):raise FormatError('unsupported HUD accent '+char)
         shape=tuple({'a':['0111','1001','1001','0111'],
-                     'o':['0110','1001','1001','0110']}[base])
+                     'o':['0110','1001','1001','0110'],
+                     'e':['0110','1111','1000','0111']}[base])
         if '\u0302' in nfd:
             marks=((1,0),(2,0),(0,1),(3,1));gaps=(2,)
+        elif '\u0300' in nfd:
+            marks=((1,0),(2,1));gaps=(2,)
         else:
-            # Same body baseline as every other letter. The bottom dot uses
-            # the spare area left of HH:MM, with a blank row above it.
+            # Diagnostic lower-accent glyph: an 8px season canvas rejects it
+            # rather than letting it spill into the restored clock.
             marks=((1,8),(2,8));gaps=(7,)
     return HUDGlyph(shape,GLYPH_ADVANCES[base],HUD_BASELINE-len(shape)+1,marks,gaps)
 
@@ -137,8 +141,8 @@ def tiles(pixels):
 
 
 def season_pixels(season):
-    """24x16 region; below-baseline accents never overlap the clock at x24."""
-    pixels=tiny_pixels(season,24,16)
+    """24x8 region: every season must fit above the restored clock."""
+    pixels=tiny_pixels(season,24,8)
     right=max(x for row in pixels for x,value in enumerate(row) if value)
     shift=23-right
     return [[0]*shift+row[:24-shift] for row in pixels]
@@ -215,11 +219,11 @@ def assemble_hud(address,cache):
         bls valid
         movs r1, #0
     valid:
-        movs r2, #192
+        movs r2, #96
         muls r1, r2
         ldr r2, cache
         adds r1, r1, r2
-    '''+copy(0x84,96,'season_top')+copy(0x104,96,'season_bottom')+flags+f'\ncache: .word {cache["season"]}\n')
+    '''+copy(0x84,96,'season')+flags+f'\ncache: .word {cache["season"]}\n')
     emit('day',f'''
         push {{r4,r5,r6,r7,lr}}
         ldr r4, [r0]
@@ -249,9 +253,7 @@ def assemble_hud(address,cache):
                                            ('minute',59,64,hud_tile_offset(CLOCK_X+3*CLOCK_ADVANCE,8)),
                                            ('blink',1,32,hud_tile_offset(CLOCK_X+2*CLOCK_ADVANCE,8))]:
         clamp=('subs r1, #24' if key=='hour' else 'movs r1, #0')
-        transfer=(copy(hud_tile_offset(CLOCK_X,8),32,'hour_left')+
-                  copy(hud_tile_offset(CLOCK_X+CLOCK_ADVANCE,8),64,'hour_right')
-                  if key=='hour' else copy(destination,stride,key))
+        transfer=copy(destination,stride,key)
         emit(key,f'''
         push {{r4,r5,r6,r7,lr}}
         ldr r4, [r0]
