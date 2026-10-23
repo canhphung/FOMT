@@ -12,6 +12,7 @@ import struct
 from pathlib import Path
 import date_ui
 import hud_accent
+import calendar_layout
 from fomt_text import u32,verified_rom
 from mgba_session import Session
 
@@ -163,6 +164,12 @@ def run(args):
         objects=[calendar_object(s) for s in sessions]
         states=[s.state() for s in sessions]
         checks=[];shots=[]
+        asset=date_ui.build_calendar_asset(base);at=0
+        for stride in (4,16,8):
+            count=u32(asset,at);at+=4+count*stride
+        font=asset[at+4:at+4+calendar_layout.TILE_COUNT*32]
+        label=date_ui.calendar_pixels(base,date_ui.PROFILE['year'],32)
+        headings=[date_ui.calendar_pixels(base,date_ui.PROFILE['season_heading_prefix']+name,64) for name in date_ui.SEASONS]
         # View-only HUD fixtures, then resume the original CPU context so the
         # native upload path puts the resulting tiles into actual OBJ VRAM.
         session=sessions[1]
@@ -220,10 +227,7 @@ def run(args):
                 current=Image.open(out/name).convert('RGB')
                 diff=ImageChops.difference(previous,current)
                 changed={(x,y) for y in range(160) for x in range(240) if diff.getpixel((x,y))!=(0,0,0)}
-                if season==1:
-                    assert changed and all(144<=x<=150 and 141<=y<=147 for x,y in changed),(name,sorted(changed))
-                    assert current.crop((151,138,156,148)).tobytes()==previous.crop((151,138,156,148)).tobytes(),'e/grave moved'
-                else:assert not changed,(name,len(changed),sorted(changed)[:10])
+                assert not changed,(name,len(changed),sorted(changed)[:10])
                 delta=len(changed)
             hud_views.append({'season':season,'day':day,'hour':hour,'minute':minute,'screenshot':name,
                               'raised_accent_vram_and_palette_verified':bool(overlay),
@@ -254,8 +258,21 @@ def run(args):
                         session.write(p,laid_out)
                         session.frames(12)
                         assert session.read(p+0x1E0,4)==struct.pack("<hh",year-1,season)
+                        assert session.read(p+0x140,20)==struct.pack('<10H',*(i*(8 if index==1 else 4) for i in range(10))), 'year draw changed shared date tile cache'
                         fields.append(session.read(p+0x1B4,0x42))
                         assert session.read(game+0x10,4)==packed_before,'calendar view changed game time'
+                        if index==1:
+                            vram=session.read(0x06010000,0x8000)
+                            location=vram.find(font)
+                            assert location>=0 and location%32==0,'calendar font/year alternatives not uploaded'
+                            tile_base=location//32
+                            oam=session.read(0x07000000,1024)
+                            entries=[struct.unpack_from('<HHH',oam,i*8) for i in range(128)]
+                            a,b,c,_=calendar_layout.layout(year,date_ui.SEASONS[season],label,headings[season])
+                            expected=[(a,1,tile_base+80),(c,1,tile_base+88+season*16),(c+32,1,tile_base+96+season*16)]
+                            expected += [(b+i*10,2,tile_base+int(digit)*8+4) for i,digit in enumerate(str(year))]
+                            actual=[(bb&511,aa&255,cc&1023) for aa,bb,cc in entries if aa&255<20 and not aa&512]
+                            assert sorted(actual)==sorted(expected),('calendar header layout/OAM mismatch',year,season,actual,expected)
                         raw=session.lib.session_pixels(session.handle)
                         import ctypes
                         pixels.append(ctypes.string_at(raw,240*160*4))
@@ -268,12 +285,24 @@ def run(args):
         assert len({(out/name).read_bytes() for name in shots})>4, 'calendar fixtures did not reach the screen'
         sessions[1].restore(states[1]);sessions[1].press(2,settle=180)
         sessions[1].screenshot(out/'calendar-closed.png')
+        pool=u32(sessions[1].read(0x03000408,4),0)
+        def resources():
+            return (sessions[1].read(pool,32),sessions[1].read(pool+0x920,2),sessions[1].read(pool+0x924,4))
+        before_resources=resources()
+        for repeat in range(8):
+            sessions[1].press(1,settle=200)
+            calendar_object(sessions[1])
+            sessions[1].press(2,settle=180)
+            assert resources()==before_resources,('calendar resource leak',repeat)
+        report['natural_calendar_open_close_cycles_with_resource_checks']=8
         assert sessions[1].sram()==args.sram.read_bytes(), 'calendar changed SRAM without an in-game save'
         report['calendar_exit_and_sram_unchanged']=True
         report['natural_calendar_entry']=True
+        report['shared_day_digit_tile_cache_restored']=True
+        report['header_positions_and_year_glyphs_verified_in_oam_and_vram']=True
         report['calendar_ui_fixtures']=checks
-        report['calendar_source_tiles']=134;report['calendar_localized_tiles']=124
-        report['calendar_tile_budget']=128
+        report['calendar_source_tiles']=134;report['calendar_localized_tiles']=180
+        report['calendar_tile_budget']=256
         report['screenshots']=shots
         # Selected native/translated screenshots for review, each at native scale.
         sheet=Image.new('RGB',(720,360),'#222')

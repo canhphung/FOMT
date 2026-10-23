@@ -78,14 +78,14 @@ foreground không dính nhau. Không đổi màu, bitmap hoặc chiều cao.
 
 ## Kiểm chứng
 
-104 pytest đạt, gồm từ chối các prologue/kích thước nguồn bị thay đổi.
+106 pytest đạt, gồm từ chối các prologue/kích thước nguồn bị thay đổi.
 Trên cả mGBA 0.10.5 và 0.11-dev:
 
 - 2.580 trường hợp date/time, 300 setter có guard và kiểm tra metadata.
 - Chín fixture HUD: tile dấu được upload qua queue thật vào VRAM; OAM,
   palette, mosaic và trạng thái bật/tắt theo mùa được đối chiếu.
-- So toàn ảnh 240x160 với v17 tại cùng thời điểm: hai fixture Hè chỉ đổi
-  pixel vùng H; e/dấu và bảy fixture mùa khác không đổi pixel nào.
+- So toàn ảnh 240x160 với v18: v19 chỉ sửa lịch, chín fixture HUD giữ
+  nguyên từng pixel.
 - 64 vòng constructor/destructor: refcount manager, số handle và bitmap
   slot tài nguyên trở lại đúng giá trị trước mỗi vòng.
 - OAM count đầu 0/127/128 kết thúc 5/128/128, guard không đổi; renderer

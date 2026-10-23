@@ -1,6 +1,6 @@
 # Tiến độ Việt hóa
 
-**Hiện tại:** 706/9.283 bản ghi dịch nháp, 2 prompt title đồ họa, lịch/HUD tiếng Việt, 104 test đạt.
+**Hiện tại:** 706/9.283 bản ghi dịch nháp, 2 prompt title đồ họa, lịch/HUD tiếng Việt, 106 test đạt.
 Đã Việt hóa các màn tạo game mới, intro, menu con START và lịch/HUD; mục cuối ghi phiên triển khai.
 Các mục cũ bên dưới giữ số liệu theo từng phiên lịch sử.
 
@@ -667,3 +667,24 @@ save/load cold boot đều đạt. So toàn ảnh v17/v18: chỉ vùng H thay đ
 hai fixture Hè; e/dấu và bảy fixture khác giữ nguyên. IPS áp lại khớp ROM
 đã kiểm, manifest/ảnh/glyph preview cập nhật. Vẫn 706 bản ghi nháp; chưa
 kiểm phần cứng thật hoặc chơi xuyên mùa.
+
+## 2026-10-23 — Sửa tiêu đề lịch và số năm (v19)
+
+Căn giữa Năm {số} — Mùa {mùa} theo độ rộng mực thật; Năm/số cách 4 cột,
+số/cụm mùa cách 6, Mùa/tên mùa cách 4 cột foreground. Dấu phân cách 5x1
+mảnh, cùng màu gốc. Số năm giữ dáng số native nhưng raster riêng 9x13,
+advance 10. Số ngày trong grid, weekday, icon/con trỏ và HUD không đổi.
+
+Resource vẫn 22 frame; mỗi frame số ngày tải 4 tile gốc + 4 tile số năm
+nhỏ. Nhãn mùa mở canvas 64 pixel, thêm hai part 32x16; palette/animation
+và parts cũ giữ nguyên. Font 180 tile, reservation native 256 tile thay
+128 qua source-verified 0xA234A. Thêm 4 KiB reservation OBJ VRAM, không
+thêm RAM object. Header tạm chọn cache tile số năm rồi trả lại trước khi
+vẽ grid. Chi tiết: [CALENDAR_HEADING.md](CALENDAR_HEADING.md).
+
+106 pytest đạt: bảo toàn bitmap số ngày, source guard và 800 layout năm/mùa.
+Hai mGBA qua 56 fixture lịch, kiểm trực tiếp VRAM/OAM/tile cache và pixel
+body từ y=40; tám mở/đóng tự nhiên trả lại handle/refcount. Chín ảnh HUD
+khớp v18 từng pixel. START/font/title/save/load cold boot qua kiểm tra;
+IPS áp lại khớp ROM đã kiểm. Cập nhật manifest/ảnh trước-sau/báo cáo.
+Vẫn 706 bản ghi nháp; chưa kiểm GBA thật hoặc chơi xuyên mùa.

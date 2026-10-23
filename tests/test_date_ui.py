@@ -7,6 +7,7 @@ import pytest
 from fomt_text import FormatError,verified_rom
 import date_ui
 import hud_accent
+import calendar_layout
 
 
 @pytest.fixture(scope='module')
@@ -18,7 +19,7 @@ def rom():
 
 @pytest.mark.parametrize('site',[*date_ui.HUD_SITES.values(),date_ui.DIGITS,date_ui.CALENDAR_POINTER,
                                 date_ui.CALENDAR_ASSET,date_ui.CALENDAR_HEADER_SITE,date_ui.CALENDAR_WEEK_X_SITE,
-                                *hud_accent.SITES.values(),hud_accent.SIZE_SITE])
+                                *hud_accent.SITES.values(),hud_accent.SIZE_SITE,calendar_layout.RESERVATION_SITE])
 def test_reject_changed_source(rom,site):
     bad=bytearray(rom);bad[site]^=1
     with pytest.raises(FormatError):
@@ -38,14 +39,19 @@ def sections(asset):
 def test_calendar_preserves_numbers_palettes_animation_and_fits_native_reservation(rom):
     original=sections(rom[date_ui.CALENDAR_ASSET:date_ui.CALENDAR_ASSET+date_ui.CALENDAR_ASSET_SIZE])
     translated=sections(date_ui.build_calendar_asset(rom))
-    for index in (0,2,4,5,6):assert translated[index]==original[index]
-    assert translated[1][:10*16]==original[1][:10*16]
-    assert translated[3][:40*32]==original[3][:40*32]
-    assert len(translated[3])//32==124<=128
+    for index in (0,4,5,6):assert translated[index]==original[index]
+    assert translated[2][:len(original[2])]==original[2]
+    assert len(translated[2])==11*8
+    for digit in range(10):
+        before=struct.unpack_from('<8H',original[1],digit*16)
+        after=struct.unpack_from('<8H',translated[1],digit*16)
+        assert after[:2]+after[4:]==before[:2]+before[4:]
+        assert translated[3][after[3]*32:after[3]*32+128]==original[3][before[3]*32:before[3]*32+128]
+    assert len(translated[3])//32==180<=256
     for i in range(22):
         frame=struct.unpack_from('<8H',translated[1],i*16)
         assert (frame[3]+frame[2])*32<=len(translated[3])
-        assert frame[0]+frame[1]<=9
+        assert frame[0]+frame[1]<=11
 
 
 def test_hud_cache_retains_original_clock_numerals_and_all_hour_minute_values(rom):
@@ -143,3 +149,23 @@ def test_e_counter_and_right_opening_stay_clear_of_shadow():
         assert pixels[6][left+3]==1, 'Tail must include the requested bottom-right pixel'
         assert date_ui.hud_glyph(char).advance==5+left
         assert date_ui.hud_glyph(char).baseline==6
+
+
+def test_calendar_header_spacing_all_years_and_seasons(rom):
+    label=date_ui.calendar_pixels(rom,'Năm',32)
+    left,right=calendar_layout.visible_bounds(label)
+    for season in date_ui.SEASONS:
+        heading=date_ui.calendar_pixels(rom,'— Mùa '+season,64)
+        start,end=calendar_layout.visible_bounds(heading)
+        # The thin separator and both word boundaries survive shadowing.
+        assert all(heading[y][start+x]==11 for y in (9,) for x in range(5))
+        occupied=[any(row[x] for row in heading) for x in range(start,end+1)]
+        gaps=''.join('1' if v else '0' for v in occupied).split('1')
+        assert sum(len(gap)>=3 for gap in gaps)==2,season
+        for year in range(1,201):
+            a,b,c,_=calendar_layout.layout(year,season,label,heading)
+            number_width=len(str(year))*calendar_layout.YEAR_ADVANCE-1
+            assert b-(a+right+1)==calendar_layout.WORD_GAP
+            assert c+start-(b+number_width)==calendar_layout.GROUP_GAP
+            assert a+left>=0 and c+end<240
+            assert abs((a+left)+(c+end)-239)<=1

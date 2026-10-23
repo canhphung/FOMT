@@ -60,20 +60,23 @@ Cache cũ 40.192 byte, hai tile dấu thay phiên 64 byte trong ROM mở rộng.
 date, giờ 24 tiếng, nhịp tăng 10 phút và nháy hai chấm gốc không đổi. 23:59
 chỉ là fixture bộ vẽ.
 
-## Lịch tháng
+## Lịch tháng — tiêu đề có khoảng cách và số năm nhỏ hơn (v19)
 
-Resource gốc có 22 frame: 10 chữ số, Year, 4 mùa và 7 thứ. Parser theo
-0805E6CC đọc bảy section có stride 4/16/8/32/32/8/4 byte. Giữ nguyên frame số,
-bitmap số, palette đỏ/xám/xanh, animation và tài nguyên lễ hội tách biệt.
+`vietnamese-calendar-heading-v19` căn giữa cả dòng **Năm {số} — Mùa {mùa}**
+theo bounding box thật. Khoảng Năm/số là 4 pixel, số/cụm mùa là 6; khoảng
+trắng từ trong Mùa Xuân/Mùa Đông rộng 4 cột foreground. Dấu phân cách
+mảnh 5x1, giữ màu gốc và không lấn át chữ. Số năm giữ dáng native, raster
+riêng 9x13 với advance 10. HUD/font hội thoại không đổi.
 
-Thay 12 frame nhãn bằng chữ có dấu từ font native đã dùng trong dự án. Hàng
-thứ rút xuống một OBJ 16x16 mỗi nhãn; các mùa dùng 32x16 + 16x16, kể cả Thu.
-Dữ liệu chữ giảm từ **134 xuống 124 tile**, không tăng cấu hình cấp phát gốc.
-Hook tiêu đề đổi thứ tự thành Năm trước số năm, chừa đủ chỗ cho năm 1–200.
-Màu Chủ nhật đỏ, Thứ Bảy xanh vẫn lấy từ palette gốc.
+Resource vẫn 22 frame. Số ngày giữ nguyên bitmap, palette đỏ/xám/xanh,
+parts và cách tính. Mỗi frame số tải thêm bản số năm nhỏ qua uploader gốc;
+nhãn mùa dùng hai OBJ 32x16. Thêm hai part trong bảng, giữ các part cũ.
+180 tile nằm trong reservation native được tăng từ 128 lên 256 tile bằng
+một immediate đã xác minh ở constructor. Palette/animation/nhãn thứ gốc
+không đổi; không sửa ngày/sự kiện, con trỏ, icon hay cấu trúc save.
 
-Không sửa hàm tính lịch, thứ tự ngày, dấu sinh nhật/lễ hội, lựa chọn bằng tay
-trỏ hoặc nội dung mô tả lễ hội. Các popup mô tả lễ hội chưa thuộc phần dịch này.
+[Chi tiết source, bộ nhớ và kiểm thử](CALENDAR_HEADING.md) ·
+[Ảnh trước/sau](evidence/calendar-heading.png).
 
 ## Kiểm thử
 
@@ -86,7 +89,7 @@ trỏ hoặc nội dung mô tả lễ hội. Các popup mô tả lễ hội chư
   --output-dir build/date-final-0.10.5
 ```
 
-104 pytest đạt; có kiểm tra khoảng trống bằng pixel cho toàn bộ 30 ngày × bảy thứ
+106 pytest đạt; có kiểm tra khoảng trống bằng pixel cho toàn bộ 30 ngày × bảy thứ
 và mép phải của bốn tên mùa. Kiểm tra baseline mọi chữ/số; advance cố định,
 dấu huyền chéo ở giữa, sprite nâng dấu và kiểm tra tên Hè/tọa độ clock x=8.
 Buffer mùa vẫn tám hàng; chỉ sprite dấu mở thêm hàng phía trên. Kiểm tra e/è có lòng
@@ -98,16 +101,16 @@ chữ và lỗ mở trong suốt, nét giữa không mất và metrics không đ
 - Chín fixture HUD qua đường upload thật, so byte buffer với OBJ VRAM; có ảnh
   06:50, 00:00, 12:00, 23:59, đủ bốn tên mùa với ngày một/hai chữ số và
   cặp ngày 9/10 để kiểm tra thay đổi độ dài. Vùng icon thời tiết x=196..239,
-  y=140..159 khớp từng pixel ROM gốc trong cả chín fixture. So ảnh v17/v18:
-  hai fixture Hè chỉ đổi pixel quanh H; cả e/dấu huyền giữ nguyên. Bảy
-  fixture mùa khác không đổi pixel nào.
+  y=140..159 khớp từng pixel ROM gốc trong cả chín fixture. So ảnh v18/v19: toàn bộ chín fixture HUD giữ nguyên từng pixel.
 - Thêm 64 vòng cấp phát/thu hồi và ba trường hợp OAM 0/127/128 với guard;
   kiểm tra tile/palette/mosaic của sprite dấu qua native upload.
 - Mở lịch tự nhiên bằng A tại lịch treo tường trong nhà. 56 fixture giao diện:
   năm 1/7/8/10/99/100/200 × bốn mùa × ngày chọn 1/30. Grid, event marker và
   toàn bộ pixel từ y=40 xuống dưới khớp ROM gốc. Các fixture chỉ đổi trường
   xem của UI và chạy hàm bố cục native; không phải chơi qua 200 năm.
-- Đóng lịch trở về nhà, SRAM giữ nguyên; smoke chung chạy tạo game, font/title,
+- Tọa độ/tile của mọi OBJ tiêu đề và đủ 180 tile trong VRAM được đối chiếu;
+  cache chữ số ngày được trả lại sau khi vẽ số năm. Tám lần đóng/mở lịch
+  trả lại handle/refcount tài nguyên. SRAM giữ nguyên; smoke chung chạy tạo game, font/title,
   lưu Diary rồi cold boot tải lại. Smoke menu START cũng chạy lại.
 
 Đã duyệt ảnh trực tiếp, có hash trong báo cáo. Không có lỗi emulator. Chưa

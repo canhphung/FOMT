@@ -7,6 +7,7 @@ from __future__ import annotations
 import hashlib
 import json
 import hud_accent
+import calendar_layout
 from pathlib import Path
 from dataclasses import dataclass
 from fomt_text import FormatError, ROM_BASE
@@ -23,7 +24,7 @@ PROFILE = json.loads((Path(__file__).resolve().parents[1]/'localization/vi/date_
 SEASONS = tuple(PROFILE['seasons'])
 WEEKDAYS = tuple(PROFILE['weekdays'])
 if len(SEASONS)!=4 or len(WEEKDAYS)!=7:raise FormatError('date UI requires four seasons and seven weekdays')
-REVISION = 'vietnamese-date-24h-he-tight-v18'
+REVISION = 'vietnamese-calendar-heading-v19'
 
 # Six-row capitals/digits and five-row lowercase, wider pixel bodies.
 # The eight-pixel line still reserves the top for accents and bottom for dots.
@@ -391,13 +392,13 @@ CALENDAR_WEEK_X_SITE = 0xA34EE
 
 
 def calendar_pixels(rom,text,width):
-    """Native 10px letter bodies at compact six-pixel advance, full accents."""
+    """Native letter bitmaps, measured advances and clear word boundaries."""
     from vietnamese_font import ascii_glyph,glyph
     ink=set();cursor=0
     for char in text:
-        if char==' ':cursor+=1;continue
+        if char==' ':cursor+=calendar_layout.WORD_GAP-1;continue
         if char=='—':
-            ink.update((cursor+x,9) for x in range(3));cursor+=3;continue
+            ink.update((cursor+x,y) for x in range(5) for y in (9,));cursor+=6;continue
         mask=ascii_glyph(rom,char) if ord(char)<128 else glyph(rom,char)
         points={(x,y) for y,row in enumerate(mask) for x in range(8) if row&(128>>x)}
         left=min(x for x,y in points)
@@ -429,6 +430,7 @@ def calendar_tiles(pixels,parts):
 def build_calendar_asset(rom):
     import struct
     from fomt_text import u32
+    calendar_layout.verify(rom)
     if (u32(rom,CALENDAR_POINTER)!=ROM_BASE+CALENDAR_ASSET or
         rom[CALENDAR_HEADER_SITE:CALENDAR_HEADER_SITE+8]!=CALENDAR_HEADER_EXPECTED or
         rom[CALENDAR_WEEK_X_SITE:CALENDAR_WEEK_X_SITE+2]!=bytes.fromhex('0625')):
@@ -444,93 +446,43 @@ def build_calendar_asset(rom):
         at+=4+n*stride
     if at!=len(asset) or [n for n,d in sections] != [22,22,9,134,3,0,22]:
         raise FormatError('unexpected calendar sprite resource sections')
+    parts=sections[2][1]
+    # Reuse the verified native horizontal shape; add a second 32x16 at x32.
+    left=bytes(parts[8:16]);right=bytearray(left)
+    struct.pack_into('<H',right,2,struct.unpack_from('<H',right,2)[0]+32)
+    struct.pack_into('<H',right,4,8)
+    parts.extend(left+right);sections[2]=(11,parts)
     bitmaps=bytearray();frames=sections[1][1]
+    year_bitmaps=calendar_layout.year_digits(sections[3][1],frames,calendar_tiles)
     for index in range(22):
         old=list(struct.unpack_from('<8H',frames,index*16));tile_start=old[3];tile_count=old[2]
         if index<10:
             payload=sections[3][1][tile_start*32:(tile_start+tile_count)*32]
+            payload+=year_bitmaps[index*128:(index+1)*128]
         elif index==10:
             payload=calendar_tiles(calendar_pixels(rom,PROFILE['year'],32),(32,))
         elif index<15:
             text=PROFILE['season_heading_prefix']+SEASONS[index-11]
-            payload=calendar_tiles(calendar_pixels(rom,text,48),(32,16))
-            old[0],old[1]=2,2  # same 32x16 + 16x16 shapes as native Spring
+            payload=calendar_tiles(calendar_pixels(rom,text,64),(32,32))
+            old[0],old[1]=2,9  # appended pair of native 32x16 parts
         else:
             payload=calendar_tiles(calendar_pixels(rom,WEEKDAYS[index-15],16),(16,))
             old[0],old[1]=1,7  # native first weekday OBJ is already 16x16
         old[2],old[3]=len(payload)//32,len(bitmaps)//32
         struct.pack_into('<8H',frames,index*16,*old);bitmaps.extend(payload)
-    # 124 tiles fit the native 128-tile reservation. Digits, palettes, event
-    # graphics, animation records and all date calculations are unchanged.
-    assert len(bitmaps)==124*32
-    sections[3]=(124,bitmaps)
+    # Keep all 22 frame indices and their native object tile-cache fields.
+    # Each date frame uploads its four original tiles plus four compact year
+    # tiles. This uses the native per-frame uploader, not unused trailing data.
+    assert len(bitmaps)==calendar_layout.TILE_COUNT*32
+    sections[3]=(calendar_layout.TILE_COUNT,bitmaps)
     return b''.join(struct.pack('<I',n)+data for n,data in sections)
 
 
-def calendar_header_hook(address):
-    # The entry trampoline clobbers r3; read the year again from the verified
-    # UI field instead of relying on the incoming native year argument.
-    from keystone import Ks,KS_ARCH_ARM,KS_MODE_THUMB
-    asm='''
-        push {r4,r5,r7,lr}
-        sub sp, #8
-        mov r7, r6
-        ldr r0, year_field
-        adds r0, r7, r0
-        movs r1, #0
-        ldrsh r5, [r0,r1]
-        adds r5, #1
-        cmp r5, #200
-        ble valid_year
-        movs r5, #200
-    valid_year:
-        movs r1, #40
-        cmp r5, #10
-        blo have_x
-        movs r1, #56
-        cmp r5, #100
-        blo have_x
-        movs r1, #72
-    have_x:
-        movs r0, #3
-        str r0, [sp]
-        movs r0, #0
-        str r0, [sp,#4]
-        mov r0, r7
-        movs r2, #1
-        mov r3, r5
-        ldr r4, digits_function
-        bl call_r4
-        movs r0, #0
-        str r0, [sp]
-        mov r0, r7
-        movs r1, #40
-        movs r2, #2
-        movs r3, #10
-        ldr r4, frame_function
-        bl call_r4
-        ldr r0, season_field
-        adds r0, r7, r0
-        movs r1, #0
-        ldrsh r3, [r0,r1]
-        adds r3, #11
-        mov r0, r7
-        movs r1, #128
-        movs r2, #2
-        ldr r4, frame_function
-        bl call_r4
-        add sp, #8
-        pop {r4,r5,r7}
-        pop {r3}
-        movs r4, #0
-        ldr r3, resume
-        bx r3
-    call_r4: bx r4
-        .align 2
-    digits_function: .word 0x080A3589
-    frame_function: .word 0x080A3619
-    year_field: .word 0x1E0
-    season_field: .word 0x1E2
-    resume: .word 0x080A34EF
-    '''
-    return bytes(Ks(KS_ARCH_ARM,KS_MODE_THUMB).asm(asm,addr=address)[0])
+def calendar_header_hook(address,rom):
+    year=calendar_pixels(rom,PROFILE['year'],32)
+    layouts=[]
+    for season in SEASONS:
+        pixels=calendar_pixels(rom,PROFILE['season_heading_prefix']+season,64)
+        for year_number in (1,10,100):
+            layouts.append(calendar_layout.layout(year_number,season,year,pixels))
+    return calendar_layout.header_hook(address,layouts)

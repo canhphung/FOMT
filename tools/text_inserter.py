@@ -23,6 +23,7 @@ import intro_text
 import start_menu
 import date_ui
 import hud_accent
+import calendar_layout
 
 
 def build(base: bytes, translations: dict) -> tuple[bytes, dict]:
@@ -106,7 +107,7 @@ def build(base: bytes, translations: dict) -> tuple[bytes, dict]:
         write(0xCC414,trampoline(ROM_BASE+at),"items title width: glyph cells instead of bytes")
     calendar_at = append(date_ui.build_calendar_asset(base),"Vietnamese calendar sprite resource; digits/palettes/events preserved")
     write(date_ui.CALENDAR_POINTER,p32(ROM_BASE+calendar_at),"calendar localized font resource pointer")
-    calendar_code_at = append(date_ui.calendar_header_hook(ROM_BASE+((len(result)+3)&~3)),"calendar Năm/year label order")
+    calendar_code_at = append(date_ui.calendar_header_hook(ROM_BASE+((len(result)+3)&~3),base),"calendar Năm/year label order")
     write(date_ui.CALENDAR_HEADER_SITE,trampoline(ROM_BASE+calendar_code_at),"calendar Năm before year number")
     write(date_ui.CALENDAR_WEEK_X_SITE,bytes.fromhex("0925"),"calendar two-letter weekday centers")
     date_cache = {}
@@ -116,6 +117,7 @@ def build(base: bytes, translations: dict) -> tuple[bytes, dict]:
     append(code,"Vietnamese HUD date and 24-hour display setters")
     for name,site in date_ui.HUD_SITES.items():
         write(site,trampoline(entries[name]),"HUD "+name+": Vietnamese/24-hour display")
+    write(calendar_layout.RESERVATION_SITE,bytes.fromhex("0821"),"Calendar font reservation: 128 to 256 tiles")
     accent_tile_at=append(hud_accent.accent_tile(1)+hud_accent.accent_tile(0),"HUD accent alternatives: grave/circumflex, one active 8x8 OBJ tile")
     accent_code,accent_entries=hud_accent.assemble(ROM_BASE+((len(result)+3)&~3),ROM_BASE+accent_tile_at)
     append(accent_code,"HUD seasonal accent constructor/draw/destructor hooks")
@@ -224,7 +226,7 @@ def build(base: bytes, translations: dict) -> tuple[bytes, dict]:
         "allocations": allocations, "layout": layout, "font_hook_bytes": font_hook.hex(),
         "graphics": [title_report],
         "date_ui": {"revision":date_ui.REVISION,"calendar_resource_offset":calendar_at,
-                    "calendar_header_hook_offset":calendar_code_at,"calendar_font_tiles":124,
+                    "calendar_header_hook_offset":calendar_code_at,"calendar_font_tiles":calendar_layout.TILE_COUNT,
                     "hud_cache_addresses":date_cache,"hud_code_entries":entries,
                     "raised_grave":{"tile_offset":accent_tile_at,"entries":accent_entries,
                                     "object_size":hud_accent.OBJECT_SIZE,"extra_vram_bytes":32,

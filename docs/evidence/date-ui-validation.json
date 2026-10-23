@@ -1,18 +1,18 @@
 {
   "date": "2026-10-23",
   "timezone": "Asia/Saigon",
-  "revision": "vietnamese-date-24h-he-tight-v18",
-  "target_sha256": "905e291b90a08428c998e0680a4190c623d8e17f6c3a408c638e93eac6d312c8",
+  "revision": "vietnamese-calendar-heading-v19",
+  "target_sha256": "72798d65aa551bff491878e4fe7a73c7aafdc06309919e277839998379fb2292",
   "pytest": {
-    "passed": 104,
+    "passed": 106,
     "failed": 0,
     "skipped": 0
   },
   "emulators": {
     "0.10.5": {
       "date_ui": {
-        "target_sha256": "905e291b90a08428c998e0680a4190c623d8e17f6c3a408c638e93eac6d312c8",
-        "revision": "vietnamese-date-24h-he-tight-v18",
+        "target_sha256": "72798d65aa551bff491878e4fe7a73c7aafdc06309919e277839998379fb2292",
+        "revision": "vietnamese-calendar-heading-v19",
         "limitations": [
           "Calendar fixtures change UI view fields, not elapsed gameplay years",
           "HUD game time still advances at native ten-minute ticks",
@@ -64,7 +64,7 @@
             "minute": 0,
             "screenshot": "hud-1-0000.png",
             "raised_accent_vram_and_palette_verified": true,
-            "changed_pixels_vs_previous": 34
+            "changed_pixels_vs_previous": 0
           },
           {
             "season": 2,
@@ -109,7 +109,7 @@
             "minute": 0,
             "screenshot": "hud-1-day2.png",
             "raised_accent_vram_and_palette_verified": true,
-            "changed_pixels_vs_previous": 34
+            "changed_pixels_vs_previous": 0
           },
           {
             "season": 2,
@@ -130,8 +130,11 @@
             "changed_pixels_vs_previous": 0
           }
         ],
+        "natural_calendar_open_close_cycles_with_resource_checks": 8,
         "calendar_exit_and_sram_unchanged": true,
         "natural_calendar_entry": true,
+        "shared_day_digit_tile_cache_restored": true,
+        "header_positions_and_year_glyphs_verified_in_oam_and_vram": true,
         "calendar_ui_fixtures": [
           {
             "year": 1,
@@ -471,8 +474,8 @@
           }
         ],
         "calendar_source_tiles": 134,
-        "calendar_localized_tiles": 124,
-        "calendar_tile_budget": 128,
+        "calendar_localized_tiles": 180,
+        "calendar_tile_budget": 256,
         "screenshots": [
           "calendar-y1-0-1.png",
           "calendar-y1-0-30.png",
@@ -503,7 +506,7 @@
         "status": "passed"
       },
       "full_smoke": {
-        "target_sha256": "905e291b90a08428c998e0680a4190c623d8e17f6c3a408c638e93eac6d312c8",
+        "target_sha256": "72798d65aa551bff491878e4fe7a73c7aafdc06309919e277839998379fb2292",
         "checks": {
           "ascii_native_outlines_at_common_baseline": 95,
           "legacy_glyph_fallback_unchanged": 10,
@@ -574,8 +577,8 @@
     },
     "dev": {
       "date_ui": {
-        "target_sha256": "905e291b90a08428c998e0680a4190c623d8e17f6c3a408c638e93eac6d312c8",
-        "revision": "vietnamese-date-24h-he-tight-v18",
+        "target_sha256": "72798d65aa551bff491878e4fe7a73c7aafdc06309919e277839998379fb2292",
+        "revision": "vietnamese-calendar-heading-v19",
         "limitations": [
           "Calendar fixtures change UI view fields, not elapsed gameplay years",
           "HUD game time still advances at native ten-minute ticks",
@@ -627,7 +630,7 @@
             "minute": 0,
             "screenshot": "hud-1-0000.png",
             "raised_accent_vram_and_palette_verified": true,
-            "changed_pixels_vs_previous": 34
+            "changed_pixels_vs_previous": 0
           },
           {
             "season": 2,
@@ -672,7 +675,7 @@
             "minute": 0,
             "screenshot": "hud-1-day2.png",
             "raised_accent_vram_and_palette_verified": true,
-            "changed_pixels_vs_previous": 34
+            "changed_pixels_vs_previous": 0
           },
           {
             "season": 2,
@@ -693,8 +696,11 @@
             "changed_pixels_vs_previous": 0
           }
         ],
+        "natural_calendar_open_close_cycles_with_resource_checks": 8,
         "calendar_exit_and_sram_unchanged": true,
         "natural_calendar_entry": true,
+        "shared_day_digit_tile_cache_restored": true,
+        "header_positions_and_year_glyphs_verified_in_oam_and_vram": true,
         "calendar_ui_fixtures": [
           {
             "year": 1,
@@ -1034,8 +1040,8 @@
           }
         ],
         "calendar_source_tiles": 134,
-        "calendar_localized_tiles": 124,
-        "calendar_tile_budget": 128,
+        "calendar_localized_tiles": 180,
+        "calendar_tile_budget": 256,
         "screenshots": [
           "calendar-y1-0-1.png",
           "calendar-y1-0-30.png",
@@ -1066,7 +1072,7 @@
         "status": "passed"
       },
       "full_smoke": {
-        "target_sha256": "905e291b90a08428c998e0680a4190c623d8e17f6c3a408c638e93eac6d312c8",
+        "target_sha256": "72798d65aa551bff491878e4fe7a73c7aafdc06309919e277839998379fb2292",
         "checks": {
           "ascii_native_outlines_at_common_baseline": 95,
           "legacy_glyph_fallback_unchanged": 10,
@@ -1137,7 +1143,7 @@
     }
   },
   "start_menu_regression": {
-    "target_sha256": "905e291b90a08428c998e0680a4190c623d8e17f6c3a408c638e93eac6d312c8",
+    "target_sha256": "72798d65aa551bff491878e4fe7a73c7aafdc06309919e277839998379fb2292",
     "status": "passed",
     "translated_records": 162,
     "isolated_renderer_lines_with_guards": 239,
@@ -1212,107 +1218,107 @@
     },
     {
       "path": "docs/evidence/date-ui/calendar-vi.png",
-      "sha256": "5716596b172b95b90a1bc275c53c35b1450d06888771db5efb24ae5b4da52afd"
+      "sha256": "a69d33ee2518cb09bbef0ce71fab35973a407a25a859730149d0f1d718e8fdc6"
     },
     {
       "path": "docs/evidence/date-ui/calendar-y1-0-1.png",
-      "sha256": "51fc2d549051653ea8fbd4301c1d722c1e8c12ab31bfafa2559f89f86652f046"
+      "sha256": "c405246deb30fa7981090e09506c4d5e6980029974e809869fa157db6555856e"
     },
     {
       "path": "docs/evidence/date-ui/calendar-y1-0-30.png",
-      "sha256": "261d81f29f017b691be5c75bfc69df7b9d43a3b81a74793aac2ce8f0017582da"
+      "sha256": "ca3b2f5ba1aac091485341437992696ea97d50309f1ee53e56318561a2ae67f9"
     },
     {
       "path": "docs/evidence/date-ui/calendar-y1-1-1.png",
-      "sha256": "dee8b9b03f22dbec315ad40a1fa4f855b10b4f6878c623f5a191f4662a6c63ca"
+      "sha256": "e2a8b4fc22deaf546af1a60c8a4d742f1706b71888bb633ec601c7617cb9358d"
     },
     {
       "path": "docs/evidence/date-ui/calendar-y1-1-30.png",
-      "sha256": "a2a6993f88c3b6e86309f06b35d5db0d6c0d014fb1da64911c78bfc1a82e63fb"
+      "sha256": "33951191643b13f9629b66934c7041146df28409f3685c29e20838e0d17d6105"
     },
     {
       "path": "docs/evidence/date-ui/calendar-y1-2-1.png",
-      "sha256": "68a368fc3f20e9eb521b218501bb76fc37a17c86f69ee3dbd60abd54e9aeffb2"
+      "sha256": "5feae3e9e3e65f42b8338eb2b00bf9cc2d300e407013ffb781f9d49aa00af275"
     },
     {
       "path": "docs/evidence/date-ui/calendar-y1-2-30.png",
-      "sha256": "db6041225f34cbb81c5bc101b0419015cf5481fc37a61eb0efd70f73a5313cd7"
+      "sha256": "eb22b88a0ec9ced257add9324aad8f8907b70b202679e7b61b004b9c1550c3e0"
     },
     {
       "path": "docs/evidence/date-ui/calendar-y1-3-1.png",
-      "sha256": "ad1216f08152c18f52d8223578de428f821c67d4ed310de58dee6c5d88df2f5c"
+      "sha256": "626d950d8bc8801e98193ee16653387088642f7285cdffead32c4b9d23ac5e07"
     },
     {
       "path": "docs/evidence/date-ui/calendar-y1-3-30.png",
-      "sha256": "df80b4fe128857c7f720025e0ccc95d7d769cbf0c9c03c5818dd7f45de9a02d3"
+      "sha256": "313e0661c598ed1c45857951d649d0c9ed2f8da63a66191bf0d093ec226219d7"
     },
     {
       "path": "docs/evidence/date-ui/calendar-y100-0-1.png",
-      "sha256": "de94f7f48a412348fc224c480a70f968b33ee0fa84b88dbac12361c71b6f2a37"
+      "sha256": "a2cb391ebf49a8f4dfd9f060f7fae7facc55cf72937558fadcb8fb6ddd43d789"
     },
     {
       "path": "docs/evidence/date-ui/calendar-y100-0-30.png",
-      "sha256": "49f19f0f42f98dfb1bfa0c56fd5343e78b2db4149dfe1002f4659f6425229cc3"
+      "sha256": "f77c4bd6128e70e5bca58d64f2f0ebc19b54f0d746c7895db782eae84e1e0b74"
     },
     {
       "path": "docs/evidence/date-ui/calendar-y100-1-1.png",
-      "sha256": "a669ab3be9057b9c6c77d6836e7305b4609208fc799dc30ee6b6fc58a0aa1db6"
+      "sha256": "d1af4f86489cc8bb7cd733e9da0f66de3a0cd6b27e611f900b27cc615c922276"
     },
     {
       "path": "docs/evidence/date-ui/calendar-y100-1-30.png",
-      "sha256": "d972fbb7654df61a7438bcbea046503a1a4654f4c409d1903b6d895256f3ae7f"
+      "sha256": "2d4ecc44be4111e1a3de818e0f3e60442077411b6cbcf97b967293ab80e325af"
     },
     {
       "path": "docs/evidence/date-ui/calendar-y100-2-1.png",
-      "sha256": "e4c172e6594bf4f621ff4b898870f91d35ee078c3c6d767cd0ecafeed2f512d3"
+      "sha256": "30b0a50c348970722086706ac90420e9b7a9f8aa492e20e4062eb0013a2aede2"
     },
     {
       "path": "docs/evidence/date-ui/calendar-y100-2-30.png",
-      "sha256": "cde1bcbc4b88e47b98b441a3e303938b08049afff993a795a615ef31709512fd"
+      "sha256": "0822970a37a246e63864a9a9cbe1a9f41e38cc07717b74db80dab1eb1698be79"
     },
     {
       "path": "docs/evidence/date-ui/calendar-y100-3-1.png",
-      "sha256": "a27882688f7679fba8dfe9ce573da7bcd599f11983528892b371e39c63f9ee8e"
+      "sha256": "ec7fc155f760ef0ad7e4d0043cd23c7ad23bc708e3de1746f94d5addd684743b"
     },
     {
       "path": "docs/evidence/date-ui/calendar-y100-3-30.png",
-      "sha256": "720f513b4ccd9c6a09382bafd9777b490c57a17b1b839a8d65fdc3fa705f1c33"
+      "sha256": "8c02fff070fd20962d2b2c72079a7a028d2252ab9ceecce4e2e47c5905b78280"
     },
     {
       "path": "docs/evidence/date-ui/calendar-y200-0-1.png",
-      "sha256": "7eeaa87409559344d254160df54e09625891bce0acb8907c4821f3f27a4155d4"
+      "sha256": "badbbb0b803558097153db9014d2cd9d32acc89676d13bf49fd2ff28eb84530f"
     },
     {
       "path": "docs/evidence/date-ui/calendar-y200-0-30.png",
-      "sha256": "04e890a71ee410c8299b5208da89be9f3b031e592ef4eb2e9c9c14a44dc7a968"
+      "sha256": "688a0d1badbb634071b17d514ca695986423c41bef3177a3f613c439554f9b26"
     },
     {
       "path": "docs/evidence/date-ui/calendar-y200-1-1.png",
-      "sha256": "7a136ed63d8d7a049d0a1b5ffb49d0302d41ba189936fe6532ffb6ee6efdf090"
+      "sha256": "bc95dccd67cfcba74a68fe611762c77bbc988ef6b728a662de8d20300dfc6bc7"
     },
     {
       "path": "docs/evidence/date-ui/calendar-y200-1-30.png",
-      "sha256": "f1f190528ae411f5d20cd783818ce032e612794495fa4aa0f44b7bdd924821d3"
+      "sha256": "4897c9513aac4d16992df0ff3259cb1716484d1512c884e8aec832f22e34eed9"
     },
     {
       "path": "docs/evidence/date-ui/calendar-y200-2-1.png",
-      "sha256": "0be772c27e9fa07238dfc11c369abec40b342658d815267ccdf0aec608549ab5"
+      "sha256": "3a958ac42e1d718a6f0dcc393ac9767d44665bb6eaa34d5f6fee3d97490f60fd"
     },
     {
       "path": "docs/evidence/date-ui/calendar-y200-2-30.png",
-      "sha256": "d48664f0c7d426c1b4375988bc06bae9e24dc99a96047675285c29e4c89dd83a"
+      "sha256": "7605c6a1ce4c745f0755d4a7a50788cdd15fac04b662024bd73530090e4ac8c7"
     },
     {
       "path": "docs/evidence/date-ui/calendar-y200-3-1.png",
-      "sha256": "7ea4329d03c1825cafc0825562b332e0531d13e91836d53e0329e3119e95e0e6"
+      "sha256": "3062cbf6c3ce7f3432cb6d0a2cddd08d01bc574fe7abcc97036e4a69d43134ca"
     },
     {
       "path": "docs/evidence/date-ui/calendar-y200-3-30.png",
-      "sha256": "b4ce00087b9fa66a35160ae4a2aadd885db71ce4846e27ffe6fb200ccebd6b9b"
+      "sha256": "0223e57b6345bbcc1c2817cbb397e140a740f3980b7ba75cb89a41f4223a6b30"
     },
     {
       "path": "docs/evidence/date-ui/date-overview.png",
-      "sha256": "041ff5fa44004005974efda7db7e62716ce9d9db426e803a19451861d19238e8"
+      "sha256": "fc41ffb2d6b4bdef6b1d1f64e9f0905ee9ebbb6c44187a9f9e907e7d50389aa5"
     },
     {
       "path": "docs/evidence/date-ui/hud-0-0650.png",
@@ -1359,314 +1365,187 @@
       "sha256": "3848148f549729ccd67df90004a6184bd05a988a934ba4ce3cc0d3c2f683a089"
     },
     {
-      "path": "docs/evidence/date-hud-he-spacing-tight.png",
-      "sha256": "98e8b5df23852c277f1652973deb8eded16b5258a5f2e9c1ed546b8323c4ac4c"
-    },
-    {
-      "path": "docs/evidence/hud-e-glyph.png",
-      "sha256": "95f4e1a46504b447a01db432c34704463b084b5a471c2a18a285b75ec975a04c"
-    },
-    {
-      "path": "docs/evidence/hud-a-glyph.png",
-      "sha256": "212110eb11181bb2bd476515b0a7ffd3bbc9e56d429ca4319381c86d88fbd278"
+      "path": "docs/evidence/calendar-heading.png",
+      "sha256": "1272b9826f3c9acbd8dc04f39bd95b7ab0f3d17239951f244c5dbf35b5b095e3"
     }
   ],
   "visual_review": "Native/translated calendar, all four seasons, 1/100/200-year headings, calendar exit and nine HUD date/time cases reviewed; no OCR or claim of multi-year gameplay.",
-  "he_spacing": {
-    "previous_commit": "ebf42bcbf273e5d36d5e0af4ff588c1a2a80478f",
-    "previous_target_sha256": "3f8822de76e2213b9a7b773d6e77feb3c40f98641857103ea75d6cc6ed3a8a56",
-    "e_bearing_x": 0,
-    "e_advance": 5,
-    "H_shift_right_pixels": 1,
-    "e_and_grave_screen_pixels_unchanged": true,
-    "foreground_gap_columns": 1,
-    "shadow_to_e_gap_columns": 0,
-    "changed_pixels_vs_v17": {
-      "hud-0-0650.png": [],
-      "hud-1-0000.png": [
-        [
-          144,
-          141
-        ],
-        [
-          145,
-          141
-        ],
-        [
-          148,
-          141
-        ],
-        [
-          149,
-          141
-        ],
-        [
-          144,
-          142
-        ],
-        [
-          145,
-          142
-        ],
-        [
-          146,
-          142
-        ],
-        [
-          148,
-          142
-        ],
-        [
-          149,
-          142
-        ],
-        [
-          150,
-          142
-        ],
-        [
-          144,
-          143
-        ],
-        [
-          149,
-          143
-        ],
-        [
-          150,
-          143
-        ],
-        [
-          144,
-          144
-        ],
-        [
-          145,
-          144
-        ],
-        [
-          148,
-          144
-        ],
-        [
-          149,
-          144
-        ],
-        [
-          150,
-          144
-        ],
-        [
-          144,
-          145
-        ],
-        [
-          145,
-          145
-        ],
-        [
-          146,
-          145
-        ],
-        [
-          148,
-          145
-        ],
-        [
-          149,
-          145
-        ],
-        [
-          150,
-          145
-        ],
-        [
-          144,
-          146
-        ],
-        [
-          145,
-          146
-        ],
-        [
-          146,
-          146
-        ],
-        [
-          148,
-          146
-        ],
-        [
-          149,
-          146
-        ],
-        [
-          150,
-          146
-        ],
-        [
-          145,
-          147
-        ],
-        [
-          146,
-          147
-        ],
-        [
-          149,
-          147
-        ],
-        [
-          150,
-          147
-        ]
+  "calendar_heading": {
+    "previous_commit": "2ea8a52a2d1153ec6dc55709745f33c433d48441",
+    "previous_target_sha256": "905e291b90a08428c998e0680a4190c623d8e17f6c3a408c638e93eac6d312c8",
+    "layout_combinations_checked": 800,
+    "compact_year_raster": [
+      9,
+      13
+    ],
+    "year_advance": 10,
+    "word_gap_foreground": 4,
+    "number_to_season_gap": 6,
+    "separator_foreground": [
+      5,
+      1
+    ],
+    "font_tiles_used": 180,
+    "font_tiles_reserved": 256,
+    "additional_reserved_obj_vram_bytes": 4096,
+    "calendar_object_ram_increase": 0,
+    "native_frame_count_unchanged": 22,
+    "shared_day_digit_pixels_preserved": true,
+    "all_hud_cache_bytes_unchanged": true,
+    "calendar_screenshot_diff_bounds_vs_v18": {
+      "calendar-native.png": null,
+      "calendar-y1-1-1.png": [
+        47,
+        2,
+        170,
+        17
       ],
-      "hud-2-1200.png": [],
-      "hud-3-2359.png": [],
-      "hud-0-day9.png": [],
-      "hud-0-day10.png": [],
-      "hud-1-day2.png": [
-        [
-          144,
-          141
-        ],
-        [
-          145,
-          141
-        ],
-        [
-          148,
-          141
-        ],
-        [
-          149,
-          141
-        ],
-        [
-          144,
-          142
-        ],
-        [
-          145,
-          142
-        ],
-        [
-          146,
-          142
-        ],
-        [
-          148,
-          142
-        ],
-        [
-          149,
-          142
-        ],
-        [
-          150,
-          142
-        ],
-        [
-          144,
-          143
-        ],
-        [
-          149,
-          143
-        ],
-        [
-          150,
-          143
-        ],
-        [
-          144,
-          144
-        ],
-        [
-          145,
-          144
-        ],
-        [
-          148,
-          144
-        ],
-        [
-          149,
-          144
-        ],
-        [
-          150,
-          144
-        ],
-        [
-          144,
-          145
-        ],
-        [
-          145,
-          145
-        ],
-        [
-          146,
-          145
-        ],
-        [
-          148,
-          145
-        ],
-        [
-          149,
-          145
-        ],
-        [
-          150,
-          145
-        ],
-        [
-          144,
-          146
-        ],
-        [
-          145,
-          146
-        ],
-        [
-          146,
-          146
-        ],
-        [
-          148,
-          146
-        ],
-        [
-          149,
-          146
-        ],
-        [
-          150,
-          146
-        ],
-        [
-          145,
-          147
-        ],
-        [
-          146,
-          147
-        ],
-        [
-          149,
-          147
-        ],
-        [
-          150,
-          147
-        ]
+      "calendar-y100-3-1.png": [
+        47,
+        2,
+        150,
+        17
       ],
-      "hud-2-day2.png": [],
-      "hud-3-day2.png": []
+      "calendar-y1-0-1.png": [
+        47,
+        2,
+        176,
+        17
+      ],
+      "calendar-y100-1-30.png": [
+        47,
+        2,
+        170,
+        17
+      ],
+      "calendar-y200-3-1.png": [
+        47,
+        2,
+        150,
+        17
+      ],
+      "calendar-y100-2-1.png": [
+        47,
+        2,
+        173,
+        17
+      ],
+      "calendar-y100-0-1.png": [
+        47,
+        2,
+        176,
+        17
+      ],
+      "calendar-vi.png": [
+        47,
+        2,
+        176,
+        17
+      ],
+      "calendar-y1-0-30.png": [
+        47,
+        2,
+        176,
+        17
+      ],
+      "calendar-y1-2-30.png": [
+        47,
+        2,
+        173,
+        17
+      ],
+      "calendar-y100-2-30.png": [
+        47,
+        2,
+        173,
+        17
+      ],
+      "calendar-y200-3-30.png": [
+        47,
+        2,
+        150,
+        17
+      ],
+      "calendar-y1-1-30.png": [
+        47,
+        2,
+        170,
+        17
+      ],
+      "calendar-y200-0-1.png": [
+        47,
+        2,
+        176,
+        17
+      ],
+      "calendar-y200-0-30.png": [
+        47,
+        2,
+        176,
+        17
+      ],
+      "calendar-y1-3-30.png": [
+        47,
+        2,
+        176,
+        17
+      ],
+      "calendar-y200-1-30.png": [
+        47,
+        2,
+        170,
+        17
+      ],
+      "calendar-y100-3-30.png": [
+        47,
+        2,
+        150,
+        17
+      ],
+      "calendar-y100-1-1.png": [
+        47,
+        2,
+        170,
+        17
+      ],
+      "calendar-y200-2-1.png": [
+        47,
+        2,
+        173,
+        17
+      ],
+      "calendar-y200-1-1.png": [
+        47,
+        2,
+        170,
+        17
+      ],
+      "calendar-y1-2-1.png": [
+        47,
+        2,
+        173,
+        17
+      ],
+      "calendar-y100-0-30.png": [
+        47,
+        2,
+        176,
+        17
+      ],
+      "calendar-y200-2-30.png": [
+        47,
+        2,
+        173,
+        17
+      ],
+      "calendar-y1-3-1.png": [
+        47,
+        2,
+        176,
+        17
+      ],
+      "calendar-closed.png": null
     },
-    "non_summer_cache_and_calendar_resource_identical": true,
     "ips_round_trip_verified": true
   }
 }

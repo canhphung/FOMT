@@ -17,6 +17,8 @@ Không chứa hoặc tự tải ROM thương mại. Bản vá IPS nằm trong `p
   đưa đồng hồ về vị trí cũ. V16 vẽ lại â cao năm hàng như è, dùng hàng dấu đã mở
   để giữ khoảng trống dưới dấu mũ. V18 thu hẹp H–è thêm một pixel theo ảnh mẫu;
   [ảnh trước/sau](docs/evidence/date-hud-he-spacing-tight.png).
+  V19 căn lại tiêu đề lịch, tách Mùa/tên mùa và thu nhỏ riêng số năm;
+  [ảnh lịch trước/sau](docs/evidence/calendar-heading.png).
   [Ảnh kiểm chứng](docs/evidence/date-ui.png), [chi tiết](docs/DATE_UI.md).
 - Đã dịch menu con START: lưu/tải và tùy chọn Nhật ký, Ba lô, mô tả bản đồ,
   thống kê/Ghi chú và sách Mẹo điều khiển. Sửa hai tiêu đề Ba lô bị cắt chữ có dấu.
@@ -36,7 +38,7 @@ Không chứa hoặc tự tải ROM thương mại. Bản vá IPS nằm trong `p
   Bản sửa v2 xử lý lỗi lệch thân chữ/spacing; xem ảnh trước–sau trong `docs/evidence`.
 - Chèn lại ở vùng ROM mở rộng, giữ nguyên bytecode sự kiện và dữ liệu gameplay.
 - Kiểm thử mGBA: boot, tạo game mới, hội thoại Thomas, 7 nhãn menu, render font,
-  lịch/HUD và ghi Diary, nạp lại save sau boot; 104 pytest đạt. Chi tiết và giới hạn trong báo cáo tiến độ.
+  lịch/HUD và ghi Diary, nạp lại save sau boot; 106 pytest đạt. Chi tiết và giới hạn trong báo cáo tiến độ.
 
 Chưa xác minh toàn bộ gameplay, mọi màn hình vật phẩm, TV/sách/sự kiện, phần cứng
 GBA thật hoặc nhập tên người chơi có dấu. Phần lớn hội thoại vẫn là tiếng Anh.

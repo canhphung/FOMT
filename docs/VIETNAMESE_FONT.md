@@ -194,3 +194,8 @@ V18 đưa bearing è về 0, advance 5, để H gần thêm một pixel theo ả
 E/dấu vẫn giữ nguyên tọa độ màn hình; còn một cột giữa foreground H/e,
 bóng H chạm mép e. Không đổi bitmap, baseline, màu, clock hoặc icon.
 [Ảnh](evidence/date-hud-he-spacing-tight.png).
+
+V19 sửa riêng tiêu đề lịch: nhãn cùng font native với khoảng trắng từ
+rộng hơn; số năm là bản raster 9x13 của số lịch native, advance 10. Số
+ngày trong grid nguyên byte. Dấu phân cách 5x1 mảnh, giữ palette gốc.
+[CALENDAR_HEADING.md](CALENDAR_HEADING.md) ghi layout, VRAM và kiểm chứng.
