@@ -28,7 +28,7 @@ và resource lịch. Inserter chỉ ghi vào những vị trí đã xác minh; c
 resource mới và mã Thumb đều đặt sau ROM gốc ở vùng mở rộng. Build report ghi
 địa chỉ và phiên bản trong `date_ui`.
 
-## HUD — thân â đồng cỡ, khoảng cách H–è (v17)
+## HUD — thân â đồng cỡ, khoảng cách H–è (v18)
 
 V16 vẽ lại â trong Xuân bằng thân năm hàng
 `0110/0001/0111/1001/0111`, thay thân bốn hàng gần giống o. Thân rộng 4 pixel,
@@ -38,9 +38,10 @@ khỏi bóng đổ. X, u, n, vị trí cả từ Xuân và khoảng cách ngày/
 Dấu mũ được nâng lên y=-1/0 bằng chính resource sprite dấu của v15. Có một
 hàng trống y=1 trước thân y=2. Dấu căn giữa thân, gồm bốn điểm pixel và giữ
 màu/palette native. Hè vẫn giữ đúng dấu huyền và thân e đã duyệt ở v15.
-Thân e năm hàng 0110/1001/1111/1000/0111, V17 giảm bearing X từ 2 xuống 1 và advance từ 7 xuống 6 cho è.
-Vì nhãn mùa căn phải, e/dấu huyền giữ nguyên tọa độ, chỉ H dịch phải một
-pixel: khoảng trống giữa hai thân từ 3 còn 2 cột, giữa bóng H và e còn 1 cột.
+Thân e năm hàng 0110/1001/1111/1000/0111, V18 giảm bearing X của è xuống 0, advance 5 như các chữ thường khác.
+So với v17, H dịch phải thêm một pixel, e/dấu huyền giữ nguyên tọa độ.
+Giữa foreground H và e còn một cột; bóng H chạm mép e nhưng hai nét
+foreground vẫn tách nhau. Không đổi bitmap hoặc màu để thu hẹp khoảng cách.
 Các glyph ngày/thứ cùng baseline y=6; clock giữ tile, advance 8 pixel và
 vị trí x=8..47/y=8..15. Không có space thủ công, anti-aliasing hay font vector.
 
@@ -51,11 +52,11 @@ Object vẫn 0x380 byte; resource được cấp phát/thu hồi bằng allocato
 Cache cũ 40.192 byte, hai tile dấu thay phiên 64 byte trong ROM mở rộng.
 
 [Chi tiết hook và tài nguyên](HUD_ACCENT_OVERLAY.md) ·
-[Ảnh v16/v17](evidence/date-hud-he-spacing.png) ·
+[Ảnh v17/v18](evidence/date-hud-he-spacing-tight.png) ·
 [Ảnh v15/v16](evidence/date-hud-a-balanced.png) ·
 [Glyph a/â/è](evidence/hud-a-glyph.png).
 
-Ảnh và quyết định v2–v16 giữ trong lịch sử tiến độ. Công thức thứ, packed
+Ảnh và quyết định v2–v17 giữ trong lịch sử tiến độ. Công thức thứ, packed
 date, giờ 24 tiếng, nhịp tăng 10 phút và nháy hai chấm gốc không đổi. 23:59
 chỉ là fixture bộ vẽ.
 
@@ -97,7 +98,7 @@ chữ và lỗ mở trong suốt, nét giữa không mất và metrics không đ
 - Chín fixture HUD qua đường upload thật, so byte buffer với OBJ VRAM; có ảnh
   06:50, 00:00, 12:00, 23:59, đủ bốn tên mùa với ngày một/hai chữ số và
   cặp ngày 9/10 để kiểm tra thay đổi độ dài. Vùng icon thời tiết x=196..239,
-  y=140..159 khớp từng pixel ROM gốc trong cả chín fixture. So ảnh v16/v17:
+  y=140..159 khớp từng pixel ROM gốc trong cả chín fixture. So ảnh v17/v18:
   hai fixture Hè chỉ đổi pixel quanh H; cả e/dấu huyền giữ nguyên. Bảy
   fixture mùa khác không đổi pixel nào.
 - Thêm 64 vòng cấp phát/thu hồi và ba trường hợp OAM 0/127/128 với guard;

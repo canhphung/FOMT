@@ -189,3 +189,8 @@ nhau hơn một pixel. Nhờ căn phải nhãn mùa, e/dấu không dịch, ch�
 phải. Giữ hai cột trống giữa foreground và một cột giữa bóng H với e.
 Các mùa khác, clock/icon và tài nguyên không đổi.
 [Ảnh](evidence/date-hud-he-spacing.png).
+
+V18 đưa bearing è về 0, advance 5, để H gần thêm một pixel theo ảnh mẫu.
+E/dấu vẫn giữ nguyên tọa độ màn hình; còn một cột giữa foreground H/e,
+bóng H chạm mép e. Không đổi bitmap, baseline, màu, clock hoặc icon.
+[Ảnh](evidence/date-hud-he-spacing-tight.png).

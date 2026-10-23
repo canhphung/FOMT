@@ -1,8 +1,8 @@
 {
   "date": "2026-10-23",
   "timezone": "Asia/Saigon",
-  "revision": "vietnamese-date-24h-he-spacing-v17",
-  "target_sha256": "3f8822de76e2213b9a7b773d6e77feb3c40f98641857103ea75d6cc6ed3a8a56",
+  "revision": "vietnamese-date-24h-he-tight-v18",
+  "target_sha256": "905e291b90a08428c998e0680a4190c623d8e17f6c3a408c638e93eac6d312c8",
   "pytest": {
     "passed": 104,
     "failed": 0,
@@ -11,8 +11,8 @@
   "emulators": {
     "0.10.5": {
       "date_ui": {
-        "target_sha256": "3f8822de76e2213b9a7b773d6e77feb3c40f98641857103ea75d6cc6ed3a8a56",
-        "revision": "vietnamese-date-24h-he-spacing-v17",
+        "target_sha256": "905e291b90a08428c998e0680a4190c623d8e17f6c3a408c638e93eac6d312c8",
+        "revision": "vietnamese-date-24h-he-tight-v18",
         "limitations": [
           "Calendar fixtures change UI view fields, not elapsed gameplay years",
           "HUD game time still advances at native ten-minute ticks",
@@ -503,7 +503,7 @@
         "status": "passed"
       },
       "full_smoke": {
-        "target_sha256": "3f8822de76e2213b9a7b773d6e77feb3c40f98641857103ea75d6cc6ed3a8a56",
+        "target_sha256": "905e291b90a08428c998e0680a4190c623d8e17f6c3a408c638e93eac6d312c8",
         "checks": {
           "ascii_native_outlines_at_common_baseline": 95,
           "legacy_glyph_fallback_unchanged": 10,
@@ -574,8 +574,8 @@
     },
     "dev": {
       "date_ui": {
-        "target_sha256": "3f8822de76e2213b9a7b773d6e77feb3c40f98641857103ea75d6cc6ed3a8a56",
-        "revision": "vietnamese-date-24h-he-spacing-v17",
+        "target_sha256": "905e291b90a08428c998e0680a4190c623d8e17f6c3a408c638e93eac6d312c8",
+        "revision": "vietnamese-date-24h-he-tight-v18",
         "limitations": [
           "Calendar fixtures change UI view fields, not elapsed gameplay years",
           "HUD game time still advances at native ten-minute ticks",
@@ -1066,7 +1066,7 @@
         "status": "passed"
       },
       "full_smoke": {
-        "target_sha256": "3f8822de76e2213b9a7b773d6e77feb3c40f98641857103ea75d6cc6ed3a8a56",
+        "target_sha256": "905e291b90a08428c998e0680a4190c623d8e17f6c3a408c638e93eac6d312c8",
         "checks": {
           "ascii_native_outlines_at_common_baseline": 95,
           "legacy_glyph_fallback_unchanged": 10,
@@ -1137,7 +1137,7 @@
     }
   },
   "start_menu_regression": {
-    "target_sha256": "3f8822de76e2213b9a7b773d6e77feb3c40f98641857103ea75d6cc6ed3a8a56",
+    "target_sha256": "905e291b90a08428c998e0680a4190c623d8e17f6c3a408c638e93eac6d312c8",
     "status": "passed",
     "translated_records": 162,
     "isolated_renderer_lines_with_guards": 239,
@@ -1328,11 +1328,11 @@
     },
     {
       "path": "docs/evidence/date-ui/hud-1-0000.png",
-      "sha256": "94ff8655ea3b0de9d16abb07be627f171b7c04a583ce2208b31249262fc61758"
+      "sha256": "e0ad84bf4cbc6e78d2b86814101627a2a561ad982fefa77f43320f62e5d16e59"
     },
     {
       "path": "docs/evidence/date-ui/hud-1-day2.png",
-      "sha256": "3b57148b6cc830ff550db45563da8c57ee832a1ba6a20896ebeb05bad2bbb3c2"
+      "sha256": "00ed2a1ee163a242a2ef7c83bb5ce32a30a020ba9ee0124186a49d4100e5b63f"
     },
     {
       "path": "docs/evidence/date-ui/hud-2-1200.png",
@@ -1359,41 +1359,37 @@
       "sha256": "3848148f549729ccd67df90004a6184bd05a988a934ba4ce3cc0d3c2f683a089"
     },
     {
-      "path": "docs/evidence/date-hud-he-spacing.png",
-      "sha256": "b72ca223362106cd487ce65103040cc1e2752f8aea09bff9b29cfec31b65df9d"
+      "path": "docs/evidence/date-hud-he-spacing-tight.png",
+      "sha256": "98e8b5df23852c277f1652973deb8eded16b5258a5f2e9c1ed546b8323c4ac4c"
     },
     {
       "path": "docs/evidence/hud-e-glyph.png",
-      "sha256": "f5bd4faf13f12d31ae60876292f4beeb7d8c060d1ec8823d1356e0a1d81b3bb9"
+      "sha256": "95f4e1a46504b447a01db432c34704463b084b5a471c2a18a285b75ec975a04c"
     },
     {
       "path": "docs/evidence/hud-a-glyph.png",
-      "sha256": "d3b3c5572846af1e06dd29f1ec3779193d42016d156529d4d887e4bc0e5459cf"
+      "sha256": "212110eb11181bb2bd476515b0a7ffd3bbc9e56d429ca4319381c86d88fbd278"
     }
   ],
   "visual_review": "Native/translated calendar, all four seasons, 1/100/200-year headings, calendar exit and nine HUD date/time cases reviewed; no OCR or claim of multi-year gameplay.",
   "he_spacing": {
-    "previous_commit": "e60b9b486fff981ceac2d5eadbc42bacd9b3b155",
-    "previous_target_sha256": "885926d9bcb31f735cd25fc37688ab65f31d7db5cfc0845bac320fd05f0e53cf",
-    "e_bearing_x": 1,
-    "e_advance": 6,
+    "previous_commit": "ebf42bcbf273e5d36d5e0af4ff588c1a2a80478f",
+    "previous_target_sha256": "3f8822de76e2213b9a7b773d6e77feb3c40f98641857103ea75d6cc6ed3a8a56",
+    "e_bearing_x": 0,
+    "e_advance": 5,
     "H_shift_right_pixels": 1,
     "e_and_grave_screen_pixels_unchanged": true,
-    "foreground_gap_columns": 2,
-    "shadow_to_e_gap_columns": 1,
-    "changed_pixels_vs_v16": {
+    "foreground_gap_columns": 1,
+    "shadow_to_e_gap_columns": 0,
+    "changed_pixels_vs_v17": {
       "hud-0-0650.png": [],
       "hud-1-0000.png": [
         [
-          143,
-          141
-        ],
-        [
           144,
           141
         ],
         [
-          147,
+          145,
           141
         ],
         [
@@ -1401,8 +1397,8 @@
           141
         ],
         [
-          143,
-          142
+          149,
+          141
         ],
         [
           144,
@@ -1413,7 +1409,7 @@
           142
         ],
         [
-          147,
+          146,
           142
         ],
         [
@@ -1425,11 +1421,11 @@
           142
         ],
         [
-          143,
-          143
+          150,
+          142
         ],
         [
-          148,
+          144,
           143
         ],
         [
@@ -1437,15 +1433,15 @@
           143
         ],
         [
-          143,
-          144
+          150,
+          143
         ],
         [
           144,
           144
         ],
         [
-          147,
+          145,
           144
         ],
         [
@@ -1457,8 +1453,8 @@
           144
         ],
         [
-          143,
-          145
+          150,
+          144
         ],
         [
           144,
@@ -1469,7 +1465,7 @@
           145
         ],
         [
-          147,
+          146,
           145
         ],
         [
@@ -1481,8 +1477,8 @@
           145
         ],
         [
-          143,
-          146
+          150,
+          145
         ],
         [
           144,
@@ -1493,7 +1489,7 @@
           146
         ],
         [
-          147,
+          146,
           146
         ],
         [
@@ -1505,19 +1501,23 @@
           146
         ],
         [
-          144,
-          147
+          150,
+          146
         ],
         [
           145,
           147
         ],
         [
-          148,
+          146,
           147
         ],
         [
           149,
+          147
+        ],
+        [
+          150,
           147
         ]
       ],
@@ -1527,15 +1527,11 @@
       "hud-0-day10.png": [],
       "hud-1-day2.png": [
         [
-          143,
-          141
-        ],
-        [
           144,
           141
         ],
         [
-          147,
+          145,
           141
         ],
         [
@@ -1543,8 +1539,8 @@
           141
         ],
         [
-          143,
-          142
+          149,
+          141
         ],
         [
           144,
@@ -1555,7 +1551,7 @@
           142
         ],
         [
-          147,
+          146,
           142
         ],
         [
@@ -1567,11 +1563,11 @@
           142
         ],
         [
-          143,
-          143
+          150,
+          142
         ],
         [
-          148,
+          144,
           143
         ],
         [
@@ -1579,15 +1575,15 @@
           143
         ],
         [
-          143,
-          144
+          150,
+          143
         ],
         [
           144,
           144
         ],
         [
-          147,
+          145,
           144
         ],
         [
@@ -1599,8 +1595,8 @@
           144
         ],
         [
-          143,
-          145
+          150,
+          144
         ],
         [
           144,
@@ -1611,7 +1607,7 @@
           145
         ],
         [
-          147,
+          146,
           145
         ],
         [
@@ -1623,8 +1619,8 @@
           145
         ],
         [
-          143,
-          146
+          150,
+          145
         ],
         [
           144,
@@ -1635,7 +1631,7 @@
           146
         ],
         [
-          147,
+          146,
           146
         ],
         [
@@ -1647,19 +1643,23 @@
           146
         ],
         [
-          144,
-          147
+          150,
+          146
         ],
         [
           145,
           147
         ],
         [
-          148,
+          146,
           147
         ],
         [
           149,
+          147
+        ],
+        [
+          150,
           147
         ]
       ],

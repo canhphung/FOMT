@@ -68,6 +68,14 @@ nhưng nhãn mùa căn phải giữ nguyên e/dấu trong game. H dịch phải 
 sprite dấu, tile/VRAM, RAM, OAM hay đồng hồ. Các mùa khác giữ nguyên.
 [Ảnh trước/sau](evidence/date-hud-he-spacing.png).
 
+## V18 — gần thêm một pixel theo ảnh mẫu
+
+Bearing X của è về 0, advance về 5; dấu logic dịch cùng bearing. Nhãn căn
+phải nên e/dấu vẫn giữ nguyên tọa độ màn hình, chỉ H tiến thêm một pixel
+so với v17. Giữa foreground hai chữ còn một cột; bóng H chạm sát e nhưng
+foreground không dính nhau. Không đổi màu, bitmap hoặc chiều cao.
+[Ảnh trước/sau](evidence/date-hud-he-spacing-tight.png).
+
 ## Kiểm chứng
 
 104 pytest đạt, gồm từ chối các prologue/kích thước nguồn bị thay đổi.
@@ -76,7 +84,7 @@ Trên cả mGBA 0.10.5 và 0.11-dev:
 - 2.580 trường hợp date/time, 300 setter có guard và kiểm tra metadata.
 - Chín fixture HUD: tile dấu được upload qua queue thật vào VRAM; OAM,
   palette, mosaic và trạng thái bật/tắt theo mùa được đối chiếu.
-- So toàn ảnh 240x160 với v16 tại cùng thời điểm: hai fixture Hè chỉ đổi
+- So toàn ảnh 240x160 với v17 tại cùng thời điểm: hai fixture Hè chỉ đổi
   pixel vùng H; e/dấu và bảy fixture mùa khác không đổi pixel nào.
 - 64 vòng constructor/destructor: refcount manager, số handle và bitmap
   slot tài nguyên trở lại đúng giá trị trước mỗi vòng.

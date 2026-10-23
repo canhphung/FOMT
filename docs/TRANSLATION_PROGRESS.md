@@ -653,3 +653,17 @@ v16/v17: chỉ H thay đổi ở hai fixture Hè, e/dấu và các mùa khác gi
 Lịch, START, font/title và save/load cold boot qua kiểm tra. Cập nhật IPS,
 manifest, ảnh trước/sau; vẫn 706 bản ghi dịch nháp. Chưa kiểm GBA thật
 hoặc chơi xuyên mùa.
+
+## 2026-10-23 — H–è gần thêm một pixel theo ảnh mẫu (v18)
+
+Giảm bearing è từ 1 xuống 0 và advance 6 → 5. H dịch phải thêm một pixel
+so với v17; e/dấu giữ nguyên nhờ nhãn căn phải. Còn một cột giữa foreground
+H/e; bóng H chạm mép e nhưng hai nét foreground không dính nhau. Giữ
+bitmap, màu, baseline, clock/icon và tất cả mùa khác.
+
+104 pytest đạt. Hai mGBA qua kiểm HUD/VRAM, 2.580 date/time, 300 setter,
+64 vòng tài nguyên/OAM capacity, 56 fixture lịch; START/font/title và
+save/load cold boot đều đạt. So toàn ảnh v17/v18: chỉ vùng H thay đổi ở
+hai fixture Hè; e/dấu và bảy fixture khác giữ nguyên. IPS áp lại khớp ROM
+đã kiểm, manifest/ảnh/glyph preview cập nhật. Vẫn 706 bản ghi nháp; chưa
+kiểm phần cứng thật hoặc chơi xuyên mùa.

@@ -102,8 +102,8 @@ def test_hud_accents_centered_and_separated_from_body_and_shadow(vowel):
     body_x=[x for y in range(3,6) for x,v in enumerate(pixels[y]) if v==1]
     assert mark_x and body_x
     if vowel=='è':
-        assert pixels[0][2]==pixels[1][3]==1
-        assert pixels[0][3]==pixels[0][4]==0  # previous horizontal stroke is gone
+        assert pixels[0][1]==pixels[1][2]==1
+        assert pixels[0][2]==pixels[0][3]==0  # previous horizontal stroke is gone
         glyph=date_ui.hud_glyph(vowel)
         assert sum(x for x,y in glyph.marks)==2*glyph.bearing_x+len(glyph.bitmap[0])-1
         assert glyph.marks[1][0]-glyph.marks[0][0]==1
