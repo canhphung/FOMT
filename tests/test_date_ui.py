@@ -85,12 +85,19 @@ def test_date_suffix_has_no_empty_digit_slot_and_consistent_word_gaps():
 
 @pytest.mark.parametrize('vowel',['â','ô','ạ','è'])
 def test_hud_accents_centered_and_separated_from_body_and_shadow(vowel):
-    # Check blank scanlines for the original marks; the user-selected grave
-    # instead has a diagonal, horizontally centered placement in the 8px row.
+    # Logical marks remain in the eight-row glyph; spring/summer overlays
+    # raise them in-game. Body height and counters must survive that split.
     pixels=date_ui.tiny_pixels(vowel,8,16)
     mark_rows=(0,1) if vowel=='è' else ((0,1) if vowel!='ạ' else (8,))
     gap=1 if vowel=='è' else (2 if vowel!='ạ' else 7)
-    if vowel!='è':assert not any(pixels[gap])
+    if vowel not in ('è','â'):assert not any(pixels[gap])
+    if vowel=='â':
+        glyph=date_ui.hud_glyph(vowel)
+        assert glyph.bearing_y==date_ui.hud_glyph('è').bearing_y==2
+        assert len(glyph.bitmap)==5
+        assert pixels[3][:2]==[0,0], 'Upper opening must not fill with shadow'
+        assert pixels[5][1:3]==[0,0], 'Lower counter must remain open'
+        assert glyph.advance==date_ui.hud_glyph('a').advance==5
     mark_x=[x for y in mark_rows for x,v in enumerate(pixels[y]) if v==1]
     body_x=[x for y in range(3,6) for x,v in enumerate(pixels[y]) if v==1]
     assert mark_x and body_x

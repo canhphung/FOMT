@@ -23,7 +23,7 @@ PROFILE = json.loads((Path(__file__).resolve().parents[1]/'localization/vi/date_
 SEASONS = tuple(PROFILE['seasons'])
 WEEKDAYS = tuple(PROFILE['weekdays'])
 if len(SEASONS)!=4 or len(WEEKDAYS)!=7:raise FormatError('date UI requires four seasons and seven weekdays')
-REVISION = 'vietnamese-date-24h-raised-grave-v15'
+REVISION = 'vietnamese-date-24h-balanced-a-v16'
 
 # Six-row capitals/digits and five-row lowercase, wider pixel bodies.
 # The eight-pixel line still reserves the top for accents and bottom for dots.
@@ -37,7 +37,7 @@ TINY = {
  'u':['0000','1001','1001','1001','1001','0111'],
  'n':['0000','1110','1001','1001','1001','1001'],
  'e':['0110','1001','1111','1000','0111'],
- 'a':['0000','0110','0001','0111','1001','0111'],
+ 'a':['0110','0001','0111','1001','0111'],
  'o':['0000','0110','1001','1001','1001','0110'],
  'g':['0000','0111','1001','0111','0001','0110'],
  'h':['1000','1000','1110','1001','1001','1001'],
@@ -95,7 +95,7 @@ def hud_glyph(char):
     shape=tuple(TINY[base]);marks=();gaps=()
     if len(nfd)>1:
         if char not in ('â','ô','ạ','è'):raise FormatError('unsupported HUD accent '+char)
-        shape=tuple({'a':['0111','1001','1001','0111'],
+        shape=tuple({'a':['0110','0001','0111','1001','0111'],
                      'o':['0110','1001','1001','0110'],
                      'e':['0110','1001','1111','1000','0111']}[base])
         if '\u0302' in nfd:
@@ -106,8 +106,9 @@ def hud_glyph(char):
             # Diagnostic lower-accent glyph: an 8px season canvas rejects it
             # rather than letting it spill into the restored clock.
             marks=((1,8),(2,8));gaps=(7,)
-    # Preserve the counter and right opening of e against the drop shadow.
-    clear=((1,1),(2,1),(1,3),(2,3),(3,3)) if base=='e' else ()
+    # Preserve vowel counters/openings against the one-pixel drop shadow.
+    clear={'e':((1,1),(2,1),(1,3),(2,3),(3,3)),
+           'a':((0,1),(1,1),(1,3),(2,3))}.get(base,())
     # Preserve body bearing/advance. The diagonal grave is centered above
     # the 4px vowel body (x2..5), with its midpoint at x3.5.
     bearing_x=2 if char=='è' else 0
@@ -155,11 +156,12 @@ def tiles(pixels):
 def season_pixels(season):
     """24x8 region: every season must fit above the restored clock."""
     pixels=tiny_pixels(season,24,8)
-    if season=='Hè':
-        # The overlay carries both grave pixels one scanline above the old
-        # position; remove them from the native eight-row font buffer.
-        start=hud_glyph('H').advance
-        for x,y in hud_glyph('è').marks:pixels[y][start+x]=0
+    if season in ('Hè','Xuân'):
+        # The overlay raises the grave/circumflex by one scanline.
+        # Remove its old marks from the native eight-row font buffer.
+        prefix,vowel=('H','è') if season=='Hè' else ('Xu','â')
+        start=sum(hud_glyph(c).advance for c in prefix)
+        for x,y in hud_glyph(vowel).marks:pixels[y][start+x]=0
     right=max(x for row in pixels for x,value in enumerate(row) if value)
     shift=23-right
     return [[0]*shift+row[:24-shift] for row in pixels]
@@ -238,10 +240,14 @@ def assemble_hud(address,cache):
     valid:
         movs r2, #0
         cmp r1, #1
-        bne visibility_ready
-        movs r2, #1
+        bhi visibility_ready
+        movs r2, #2
+        subs r2, r2, r1
     visibility_ready:
         ldr r3, visibility_offset
+        strb r2, [r4,r3]
+        subs r3, #1
+        movs r2, #1
         strb r2, [r4,r3]
         movs r2, #96
         muls r1, r2

@@ -1,4 +1,4 @@
-"""A one-tile overlay for the HUD grave, one scanline above the native sprites.
+"""A one-tile seasonal accent overlay, one scanline above the native sprites.
 
 A4NE rev 0: constructor/destructor own the extra VRAM resource and upload
 command. All original object fields stay at their native offsets.
@@ -12,7 +12,7 @@ OBJECT_SIZE=0x380
 RESOURCE=0x35C
 TRANSFER=0x364
 DIRTY=0x37C
-VISIBLE=0x37D
+VISIBLE=0x37D  # 0: hidden, 1: summer grave, 2: spring circumflex
 SITES={'constructor':0x3C5B0,'draw':0x3C7C8,'destructor':0xE0D70}
 EXPECTED={'constructor':'f0b557464e464546','draw':'f0b557464e464546e0b49bb089469246',
           'destructor':'70b5061c0d1cd021'}
@@ -33,11 +33,15 @@ def draw_trampoline(address):
     return bytes(Ks(KS_ARCH_ARM,KS_MODE_THUMB).asm(source,addr=0x0803C7C8)[0])
 
 
-def accent_tile():
+def accent_tile(season=1):
     # Centered grave: the native HUD origin is (x+4,y+4); this sprite is
     # (x+20,y+3), so (4,0)/(5,1) becomes HUD-local (20,-1)/(21,0).
+    # Spring uses origin (x+16,y+3), centered over the 4px a body.
     pixels=[[0]*8 for _ in range(8)]
-    pixels[0][4]=pixels[1][5]=1
+    if season==1:pixels[0][4]=pixels[1][5]=1
+    elif season==0:
+        pixels[0][3]=pixels[0][4]=pixels[1][2]=pixels[1][5]=1
+    else:raise ValueError('only spring/summer have overlay accents')
     return bytes(pixels[y][x]|pixels[y][x+1]<<4 for y in range(8) for x in range(0,8,2))
 
 
@@ -172,6 +176,13 @@ def assemble(address,tile_address):
         mov r1, r4
         adds r1, #8
         ldr r0, tile_source
+        mov r2, r4
+        adds r2, #33
+        ldrb r2, [r2]
+        cmp r2, #2
+        bne tile_ready
+        adds r0, #32
+    tile_ready:
         str r0, [r1,#12]
         ldr r0, [sp,#4]
         lsls r0, r0, #5
@@ -213,6 +224,12 @@ def assemble(address,tile_address):
         orrs r6, r0
         strh r6, [r2]
         adds r5, #20
+        adds r4, #33
+        ldrb r0, [r4]
+        cmp r0, #2
+        bne x_ready
+        subs r5, #4
+    x_ready:
         ldr r0, x_mask
         ands r5, r0
         strh r5, [r2,#2]

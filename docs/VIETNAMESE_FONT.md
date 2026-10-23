@@ -176,3 +176,10 @@ Clock giữ tile và vị trí cũ; icon không đổi. Sprite thêm 32 byte VRA
 [HUD_ACCENT_OVERLAY.md](HUD_ACCENT_OVERLAY.md) mô tả hook và kiểm chứng;
 [DATE_UI.md](DATE_UI.md) ghi bố cục đầy đủ. UTF-8 chỉ dùng trong nguồn,
 game nhận tile 4bpp.
+
+V16 vẽ lại â trong Xuân thành thân năm hàng 0110/0001/0111/1001/0111,
+cùng chiều cao/baseline với è, advance 5 pixel giữ nguyên. Counter/lỗ mở
+được bảo vệ khỏi bóng. Dấu mũ dùng chung tile VRAM overlay của Hè, nâng
+lên y=-1/0 để hàng y=1 trống. Thêm 32 byte tile thay phiên trong ROM, không
+tăng RAM/VRAM/OAM so với v15. Các mùa khác và font hội thoại không đổi.
+[Ảnh](evidence/date-hud-a-balanced.png) · [Glyph](evidence/hud-a-glyph.png).

@@ -1,4 +1,4 @@
-# Dấu huyền HUD cao hơn một pixel
+# Sprite dấu trên HUD — Xuân/Hè
 
 V15 thực hiện thay đổi đã được người dùng đồng ý: thêm **một hàng hiển thị phía
 trên** cho dấu huyền của Hè. Thân e, H, đuôi chữ, đồng hồ và icon không dịch.
@@ -9,8 +9,8 @@ so với vùng HUD cũ. Giữa điểm dấu dưới và mái e có một hàng 
 
 Giữ hai OBJ 32x16 và buffer cũ. Bỏ hai pixel dấu khỏi bitmap mùa Hè, rồi vẽ
 một OBJ 8x8 trong suốt riêng. Tile chỉ chứa hai điểm foreground, không thêm
-bóng hay màu. Sprite dùng palette và cờ mosaic của HUD gốc. Chỉ mùa Hè hiển
-thị sprite này; các mùa khác không thêm OAM entry. Không dùng font vector,
+bóng hay màu. Sprite dùng palette và cờ mosaic của HUD gốc. V16 dùng chung sprite
+cho dấu mũ của Xuân và dấu huyền của Hè; Thu/Đông không thêm OAM entry. Không dùng font vector,
 anti-aliasing hoặc scale trong ROM.
 
 Ở vị trí HUD chuẩn (132,140), sprite mới có gốc (148,139), hai điểm tại
@@ -24,12 +24,13 @@ cũ; clock vẫn bắt đầu (140,148). Độ cao **nhìn thấy** thành 17 pi
 | --- | --- |
 | RAM object HUD | 0x35C → 0x380, thêm 36 byte ở cuối |
 | VRAM OBJ | thêm 1 tile 4bpp 8x8 = 32 byte |
-| OAM | tối đa thêm 1 entry, chỉ khi Hè và danh sách còn chỗ |
-| Cache thành phần HUD cũ | giữ 40.192 byte; thêm tile dấu 32 byte riêng trong ROM |
+| OAM | tối đa thêm 1 entry, chỉ khi Xuân/Hè và danh sách còn chỗ |
+| Cache thành phần HUD cũ | giữ 40.192 byte; hai tile dấu thay phiên, 64 byte riêng trong ROM |
 | Save/gameplay | không đổi định dạng, nhịp giờ hay dữ liệu |
 
 Các trường cũ giữ nguyên offset. Phần nối thêm gồm resource handle tại
-+0x35C, lệnh upload tại +0x364, cờ upload +0x37C, cờ hiển thị +0x37D.
++0x35C, lệnh upload tại +0x364, cờ upload +0x37C, mã dấu +0x37D (0: ẩn, 1: huyền, 2: mũ).
+Setter mùa đánh dấu upload lại để đổi tile khi chuyển Xuân/Hè.
 Constructor dùng allocator VRAM native (order 0, một tile), destructor hủy
 lệnh truyền đang chờ, trả tile và giảm refcount bằng API native. Không dùng
 địa chỉ RAM hoặc VRAM trống đoán trước.
@@ -50,6 +51,15 @@ năm tham số, gồm r3/OAM và tham số queue ở stack. OAM count 128 đư�
 trọng; khi đầy, không ghi qua cuối bảng. Nguồn: StanHash/fomt b8471ae,
 `asm/code_0803A8A4.s`, `asm/code_linkonce.s`, `asm/hardware.s`.
 
+## V16 — chữ â đồng cỡ
+
+Thân â năm hàng 0110/0001/0111/1001/0111, rộng 4 pixel như e, baseline y=6,
+advance 5. Dấu mũ gốc được bỏ khỏi buffer mùa và nâng bằng sprite tại
+(144,139), bốn điểm (147,139)/(148,139)/(146,140)/(149,140). Thân từ y=142
+đến y=146, nên y=141 trống. Các phần X/u/n, ngày/thứ, clock/icon không dịch.
+Resource VRAM và RAM của v15 được tái sử dụng; chỉ thêm tile thay phiên
+32 byte trong ROM. V16 vẫn giữ nguyên pixel của toàn bộ Hè so với v15.
+
 ## Kiểm chứng
 
 104 pytest đạt, gồm từ chối các prologue/kích thước nguồn bị thay đổi.
@@ -58,8 +68,8 @@ Trên cả mGBA 0.10.5 và 0.11-dev:
 - 2.580 trường hợp date/time, 300 setter có guard và kiểm tra metadata.
 - Chín fixture HUD: tile dấu được upload qua queue thật vào VRAM; OAM,
   palette, mosaic và trạng thái bật/tắt theo mùa được đối chiếu.
-- So toàn ảnh 240x160 với v14 tại cùng thời điểm: hai fixture Hè chỉ đổi
-  đúng bốn tọa độ pixel kể trên; bảy fixture còn lại không đổi pixel nào.
+- So toàn ảnh 240x160 với v15 tại cùng thời điểm: ba fixture Xuân chỉ đổi
+  16 pixel trong vùng â/dấu mũ; sáu fixture còn lại không đổi pixel nào.
 - 64 vòng constructor/destructor: refcount manager, số handle và bitmap
   slot tài nguyên trở lại đúng giá trị trước mỗi vòng.
 - OAM count đầu 0/127/128 kết thúc 5/128/128, guard không đổi; renderer
@@ -67,8 +77,8 @@ Trên cả mGBA 0.10.5 và 0.11-dev:
 - 56 fixture lịch, mở/đóng lịch tự nhiên, smoke font/title/START và lưu
   Diary rồi cold boot tải lại. Dữ liệu SRAM giữ đúng như kiểm tra trước.
 
-[Ảnh trước/sau](evidence/date-hud-grave-raised.png) ·
-[Glyph chín hàng, phóng 4x](evidence/hud-e-glyph.png) ·
+[Ảnh trước/sau v16](evidence/date-hud-a-balanced.png) ·
+[Glyph a/â/è chín hàng, phóng 4x](evidence/hud-a-glyph.png) ·
 [Báo cáo](evidence/date-ui-validation.json).
 
 Đây là kiểm tra emulator và các fixture giao diện, không phải chơi xuyên mùa

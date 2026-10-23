@@ -1,8 +1,8 @@
 {
   "date": "2026-10-23",
   "timezone": "Asia/Saigon",
-  "revision": "vietnamese-date-24h-raised-grave-v15",
-  "target_sha256": "728f4a6e04f491dcd3d634347fa3342c26450cda0e7f393561843a21596f496e",
+  "revision": "vietnamese-date-24h-balanced-a-v16",
+  "target_sha256": "885926d9bcb31f735cd25fc37688ab65f31d7db5cfc0845bac320fd05f0e53cf",
   "pytest": {
     "passed": 104,
     "failed": 0,
@@ -11,8 +11,8 @@
   "emulators": {
     "0.10.5": {
       "date_ui": {
-        "target_sha256": "728f4a6e04f491dcd3d634347fa3342c26450cda0e7f393561843a21596f496e",
-        "revision": "vietnamese-date-24h-raised-grave-v15",
+        "target_sha256": "885926d9bcb31f735cd25fc37688ab65f31d7db5cfc0845bac320fd05f0e53cf",
+        "revision": "vietnamese-date-24h-balanced-a-v16",
         "limitations": [
           "Calendar fixtures change UI view fields, not elapsed gameplay years",
           "HUD game time still advances at native ten-minute ticks",
@@ -54,8 +54,8 @@
             "hour": 6,
             "minute": 50,
             "screenshot": "hud-0-0650.png",
-            "raised_accent_vram_and_palette_verified": false,
-            "changed_pixels_vs_previous": 0
+            "raised_accent_vram_and_palette_verified": true,
+            "changed_pixels_vs_previous": 16
           },
           {
             "season": 1,
@@ -64,7 +64,7 @@
             "minute": 0,
             "screenshot": "hud-1-0000.png",
             "raised_accent_vram_and_palette_verified": true,
-            "changed_pixels_vs_previous": 4
+            "changed_pixels_vs_previous": 0
           },
           {
             "season": 2,
@@ -90,8 +90,8 @@
             "hour": 6,
             "minute": 0,
             "screenshot": "hud-0-day9.png",
-            "raised_accent_vram_and_palette_verified": false,
-            "changed_pixels_vs_previous": 0
+            "raised_accent_vram_and_palette_verified": true,
+            "changed_pixels_vs_previous": 16
           },
           {
             "season": 0,
@@ -99,8 +99,8 @@
             "hour": 6,
             "minute": 0,
             "screenshot": "hud-0-day10.png",
-            "raised_accent_vram_and_palette_verified": false,
-            "changed_pixels_vs_previous": 0
+            "raised_accent_vram_and_palette_verified": true,
+            "changed_pixels_vs_previous": 16
           },
           {
             "season": 1,
@@ -109,7 +109,7 @@
             "minute": 0,
             "screenshot": "hud-1-day2.png",
             "raised_accent_vram_and_palette_verified": true,
-            "changed_pixels_vs_previous": 4
+            "changed_pixels_vs_previous": 0
           },
           {
             "season": 2,
@@ -503,7 +503,7 @@
         "status": "passed"
       },
       "full_smoke": {
-        "target_sha256": "728f4a6e04f491dcd3d634347fa3342c26450cda0e7f393561843a21596f496e",
+        "target_sha256": "885926d9bcb31f735cd25fc37688ab65f31d7db5cfc0845bac320fd05f0e53cf",
         "checks": {
           "ascii_native_outlines_at_common_baseline": 95,
           "legacy_glyph_fallback_unchanged": 10,
@@ -574,8 +574,8 @@
     },
     "dev": {
       "date_ui": {
-        "target_sha256": "728f4a6e04f491dcd3d634347fa3342c26450cda0e7f393561843a21596f496e",
-        "revision": "vietnamese-date-24h-raised-grave-v15",
+        "target_sha256": "885926d9bcb31f735cd25fc37688ab65f31d7db5cfc0845bac320fd05f0e53cf",
+        "revision": "vietnamese-date-24h-balanced-a-v16",
         "limitations": [
           "Calendar fixtures change UI view fields, not elapsed gameplay years",
           "HUD game time still advances at native ten-minute ticks",
@@ -617,8 +617,8 @@
             "hour": 6,
             "minute": 50,
             "screenshot": "hud-0-0650.png",
-            "raised_accent_vram_and_palette_verified": false,
-            "changed_pixels_vs_previous": 0
+            "raised_accent_vram_and_palette_verified": true,
+            "changed_pixels_vs_previous": 16
           },
           {
             "season": 1,
@@ -627,7 +627,7 @@
             "minute": 0,
             "screenshot": "hud-1-0000.png",
             "raised_accent_vram_and_palette_verified": true,
-            "changed_pixels_vs_previous": 4
+            "changed_pixels_vs_previous": 0
           },
           {
             "season": 2,
@@ -653,8 +653,8 @@
             "hour": 6,
             "minute": 0,
             "screenshot": "hud-0-day9.png",
-            "raised_accent_vram_and_palette_verified": false,
-            "changed_pixels_vs_previous": 0
+            "raised_accent_vram_and_palette_verified": true,
+            "changed_pixels_vs_previous": 16
           },
           {
             "season": 0,
@@ -662,8 +662,8 @@
             "hour": 6,
             "minute": 0,
             "screenshot": "hud-0-day10.png",
-            "raised_accent_vram_and_palette_verified": false,
-            "changed_pixels_vs_previous": 0
+            "raised_accent_vram_and_palette_verified": true,
+            "changed_pixels_vs_previous": 16
           },
           {
             "season": 1,
@@ -672,7 +672,7 @@
             "minute": 0,
             "screenshot": "hud-1-day2.png",
             "raised_accent_vram_and_palette_verified": true,
-            "changed_pixels_vs_previous": 4
+            "changed_pixels_vs_previous": 0
           },
           {
             "season": 2,
@@ -1066,7 +1066,7 @@
         "status": "passed"
       },
       "full_smoke": {
-        "target_sha256": "728f4a6e04f491dcd3d634347fa3342c26450cda0e7f393561843a21596f496e",
+        "target_sha256": "885926d9bcb31f735cd25fc37688ab65f31d7db5cfc0845bac320fd05f0e53cf",
         "checks": {
           "ascii_native_outlines_at_common_baseline": 95,
           "legacy_glyph_fallback_unchanged": 10,
@@ -1137,7 +1137,7 @@
     }
   },
   "start_menu_regression": {
-    "target_sha256": "728f4a6e04f491dcd3d634347fa3342c26450cda0e7f393561843a21596f496e",
+    "target_sha256": "885926d9bcb31f735cd25fc37688ab65f31d7db5cfc0845bac320fd05f0e53cf",
     "status": "passed",
     "translated_records": 162,
     "isolated_renderer_lines_with_guards": 239,
@@ -1204,7 +1204,7 @@
   "screenshots": [
     {
       "path": "docs/evidence/date-ui/calendar-closed.png",
-      "sha256": "b8dd96aba07c2f7e65a9595a5eb23a4b1550ce1821eb9a8862ea4a1aad9af1e6"
+      "sha256": "ed45e7d56c4ee1177ce8a96cec94cd8fc153ffc8b0be07459a6a40c13d5116de"
     },
     {
       "path": "docs/evidence/date-ui/calendar-native.png",
@@ -1312,19 +1312,19 @@
     },
     {
       "path": "docs/evidence/date-ui/date-overview.png",
-      "sha256": "4269db675e7ed6b8e42461513de17311955d5775c36ee89c0e2681523761eb28"
+      "sha256": "041ff5fa44004005974efda7db7e62716ce9d9db426e803a19451861d19238e8"
     },
     {
       "path": "docs/evidence/date-ui/hud-0-0650.png",
-      "sha256": "8cf4de192e2f5f88c213251ea85620d2334e9b44ea89c79283c3bc502d526d1b"
+      "sha256": "b42b40e5fd9452488a17e6fbebdd96b1240b50ae00bd62792be9b01e2c4925e7"
     },
     {
       "path": "docs/evidence/date-ui/hud-0-day10.png",
-      "sha256": "2a14077f8e1a0d58114f138ccfbc3bbc7f210fbeed258379c87f0573b040fa8b"
+      "sha256": "f932c7ad1da886c5d62e073fb049ab48ffbacb929ee757bd2967edca852d15a8"
     },
     {
       "path": "docs/evidence/date-ui/hud-0-day9.png",
-      "sha256": "d49a30991b97a04ef8ddad2df538dc3a3d16e30bf179bc5b90d9ce1f53a11231"
+      "sha256": "f4a9c2d51b754232454875e8f33068ecb1fe60033c9f0d54dd428fc61cddec0e"
     },
     {
       "path": "docs/evidence/date-ui/hud-1-0000.png",
@@ -1356,47 +1356,246 @@
     },
     {
       "path": "docs/evidence/date-ui/hud-vi.png",
-      "sha256": "d05491c63e0f9ef9a449f6ca45622636b92bcb6dfc2bb35e6fd4726b99b00732"
+      "sha256": "3848148f549729ccd67df90004a6184bd05a988a934ba4ce3cc0d3c2f683a089"
     },
     {
-      "path": "docs/evidence/date-hud-grave-raised.png",
-      "sha256": "5587c7190218a888313a4d7999255f9458a5bbe930b113ffa37b68ff66a1367a"
+      "path": "docs/evidence/date-hud-a-balanced.png",
+      "sha256": "2f074922fee140af448f5b2a3175208f1327557563e2ea17d81897c71a6b9b8d"
     },
     {
-      "path": "docs/evidence/hud-e-glyph.png",
-      "sha256": "1f383d2aab7fdd35396a65aab7e420ad6c3402f15baf5d9d620fa40e16e6518c"
+      "path": "docs/evidence/hud-a-glyph.png",
+      "sha256": "9610dcf0df7f13bf10568610f1900f6eb189ff6b4fef754116e56bbfbe8ccfb0"
     }
   ],
   "visual_review": "Native/translated calendar, all four seasons, 1/100/200-year headings, calendar exit and nine HUD date/time cases reviewed; no OCR or claim of multi-year gameplay.",
-  "raised_grave": {
-    "extra_object_ram_bytes": 36,
-    "extra_obj_vram_bytes": 32,
-    "extra_oam_entries_max": 1,
-    "visible_hud_height_pixels": 17,
-    "native_hud_buffers_and_coordinates_unchanged": true,
-    "native_clock_and_other_season_cache_bytes_identical_to_v14": true,
-    "calendar_resource_bytes_identical_to_v14": true,
-    "ips_round_trip_verified": true,
-    "previous_commit": "9dc8710312706714ca2e8a3a352789e45be9fbf3",
-    "previous_target_sha256": "41ecd903b914afd40aace2de4fea7d4507be1cae797a5a29be1fe646fd6eb50e",
-    "summer_changed_pixel_positions": [
-      [
-        152,
-        139
-      ],
-      [
-        152,
-        140
-      ],
-      [
-        153,
-        140
-      ],
-      [
-        153,
-        141
-      ]
+  "balanced_a": {
+    "body_width": 4,
+    "body_height": 5,
+    "body_rows": [
+      "0110",
+      "0001",
+      "0111",
+      "1001",
+      "0111"
     ],
-    "other_season_changed_pixels": 0
+    "baseline": 6,
+    "advance": 5,
+    "accent_local_rows": [
+      -1,
+      0
+    ],
+    "blank_row_below_accent": 1,
+    "new_ram_vram_oam_vs_v15": 0,
+    "rom_tile_alternatives_bytes": 64,
+    "previous_commit": "c7a768a05dae7670afff03396c7d41f8a8fa9d70",
+    "previous_target_sha256": "728f4a6e04f491dcd3d634347fa3342c26450cda0e7f393561843a21596f496e",
+    "changed_pixels_vs_v15": {
+      "hud-0-0650.png": [
+        [
+          147,
+          139
+        ],
+        [
+          148,
+          139
+        ],
+        [
+          146,
+          140
+        ],
+        [
+          147,
+          140
+        ],
+        [
+          148,
+          140
+        ],
+        [
+          149,
+          140
+        ],
+        [
+          146,
+          141
+        ],
+        [
+          149,
+          141
+        ],
+        [
+          147,
+          142
+        ],
+        [
+          148,
+          142
+        ],
+        [
+          147,
+          143
+        ],
+        [
+          148,
+          143
+        ],
+        [
+          146,
+          144
+        ],
+        [
+          147,
+          144
+        ],
+        [
+          148,
+          144
+        ],
+        [
+          147,
+          145
+        ]
+      ],
+      "hud-1-0000.png": [],
+      "hud-2-1200.png": [],
+      "hud-3-2359.png": [],
+      "hud-0-day9.png": [
+        [
+          147,
+          139
+        ],
+        [
+          148,
+          139
+        ],
+        [
+          146,
+          140
+        ],
+        [
+          147,
+          140
+        ],
+        [
+          148,
+          140
+        ],
+        [
+          149,
+          140
+        ],
+        [
+          146,
+          141
+        ],
+        [
+          149,
+          141
+        ],
+        [
+          147,
+          142
+        ],
+        [
+          148,
+          142
+        ],
+        [
+          147,
+          143
+        ],
+        [
+          148,
+          143
+        ],
+        [
+          146,
+          144
+        ],
+        [
+          147,
+          144
+        ],
+        [
+          148,
+          144
+        ],
+        [
+          147,
+          145
+        ]
+      ],
+      "hud-0-day10.png": [
+        [
+          147,
+          139
+        ],
+        [
+          148,
+          139
+        ],
+        [
+          146,
+          140
+        ],
+        [
+          147,
+          140
+        ],
+        [
+          148,
+          140
+        ],
+        [
+          149,
+          140
+        ],
+        [
+          146,
+          141
+        ],
+        [
+          149,
+          141
+        ],
+        [
+          147,
+          142
+        ],
+        [
+          148,
+          142
+        ],
+        [
+          147,
+          143
+        ],
+        [
+          148,
+          143
+        ],
+        [
+          146,
+          144
+        ],
+        [
+          147,
+          144
+        ],
+        [
+          148,
+          144
+        ],
+        [
+          147,
+          145
+        ]
+      ],
+      "hud-1-day2.png": [],
+      "hud-2-day2.png": [],
+      "hud-3-day2.png": []
+    },
+    "non_spring_cache_and_calendar_resource_identical": true,
+    "ips_round_trip_verified": true
   }
 }

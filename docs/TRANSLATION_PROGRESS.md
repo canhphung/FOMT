@@ -620,3 +620,21 @@ chỉ đổi đúng bốn pixel, bảy fixture mùa khác không đổi pixel so
 ảnh có khoảng trống giữa dấu và mái e. Cập nhật IPS/manifest, glyph preview
 9 hàng và [ảnh trước/sau](evidence/date-hud-grave-raised.png). 706 bản ghi
 dịch nháp không đổi; chưa kiểm GBA thật hoặc chơi xuyên mùa.
+
+## 2026-10-23 — Vẽ lại â đồng cỡ với è (v16)
+
+Theo yêu cầu cân đối chữ a, thay thân â bốn hàng giống o trong Xuân bằng
+bitmap a năm hàng 0110/0001/0111/1001/0111. Thân y=2..6 như è, rộng 4,
+advance 5 giữ nguyên; vùng rỗng không bị bóng lấp. Dấu mũ nâng lên y=-1/0
+bằng chính resource overlay v15, có khoảng trống y=1. X/u/n, cả từ Xuân,
+ngày/thứ, clock/icon không dịch. Hè/Thu/Đông giữ nguyên từng pixel.
+
+Dùng chung một tile VRAM 32 byte và một OAM entry cho dấu Xuân/Hè, giữ
+object 0x380 byte. Mã dấu chọn bitmap, setter mùa đánh dấu upload lại;
+chỉ thêm tile thay phiên 32 byte trong ROM. Không sửa gameplay/save.
+104 pytest đạt; hai mGBA qua 2.580 date/time, 300 setter, chín fixture
+HUD/VRAM/palette/mosaic, 64 tạo/hủy, OAM 0/127/128 và 56 fixture lịch.
+Ba ảnh Xuân chỉ đổi 16 pixel quanh â/dấu mũ, sáu ảnh mùa khác không đổi.
+START và font/title/save/load cold boot đạt. IPS áp lại tạo đúng ROM đã
+kiểm; cập nhật manifest, ảnh trước/sau và glyph a/â/è. Vẫn 706 bản ghi
+nháp; chưa kiểm trên GBA thật hoặc chơi xuyên mùa.

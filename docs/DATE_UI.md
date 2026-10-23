@@ -28,31 +28,33 @@ và resource lịch. Inserter chỉ ghi vào những vị trí đã xác minh; c
 resource mới và mã Thumb đều đặt sau ROM gốc ở vùng mở rộng. Build report ghi
 địa chỉ và phiên bản trong `date_ui`.
 
-## HUD — dấu huyền cao hơn một pixel (v15)
+## HUD — thân â đồng cỡ với è (v16)
 
-`vietnamese-date-24h-raised-grave-v15` giữ dấu huyền chéo ở giữa đỉnh e,
-nâng cả dấu một pixel bằng một OBJ 8x8 riêng. Đây là hàng hiển thị thêm
-phía trên đã được người dùng chấp thuận. Thân chữ, H, đuôi e, đồng hồ ở
-x=8..47/y=8..15 và icon giữ nguyên. Dấu chuyển từ y=0/1 thành y=-1/0 so với
-HUD cũ; một hàng trống tách điểm dưới của dấu khỏi mái e tại y=2.
+`vietnamese-date-24h-balanced-a-v16` vẽ lại â trong Xuân bằng thân năm hàng
+`0110/0001/0111/1001/0111`, thay thân bốn hàng gần giống o. Thân rộng 4 pixel,
+từ y=2 đến y=6 như è; advance vẫn 5 pixel. Lòng chữ và lỗ mở được bảo vệ
+khỏi bóng đổ. X, u, n, vị trí cả từ Xuân và khoảng cách ngày/thứ giữ nguyên.
 
-Thân e vẫn năm hàng 0110/1001/1111/1000/0111, bearing X=2/advance=7 cho è,
-advance=5 cho e. Các glyph ngày/thứ cùng baseline y=6; clock giữ tile và
-advance 8 pixel native. Khoảng cách dùng glyph advance và khoảng cách run
-3 pixel, không chèn space. Không có anti-aliasing hoặc font vector.
+Dấu mũ được nâng lên y=-1/0 bằng chính resource sprite dấu của v15. Có một
+hàng trống y=1 trước thân y=2. Dấu căn giữa thân, gồm bốn điểm pixel và giữ
+màu/palette native. Hè vẫn giữ đúng dấu huyền và thân e đã duyệt ở v15.
+Thân e năm hàng 0110/1001/1111/1000/0111, bearing X=2/advance=7 cho è.
+Các glyph ngày/thứ cùng baseline y=6; clock giữ tile, advance 8 pixel và
+vị trí x=8..47/y=8..15. Không có space thủ công, anti-aliasing hay font vector.
 
-Hai OBJ/buffer HUD cũ và palette giữ nguyên. Sprite dấu thêm 1 tile VRAM
-32 byte và tối đa 1 OAM entry; object HUD nối thêm 36 byte RAM, được cấp
-phát/thu hồi bằng allocator native. Không sửa save hoặc gameplay. Cache cũ
-40.192 byte; tile dấu riêng 32 byte trong ROM mở rộng.
+Hai OBJ/buffer HUD cũ và icon giữ nguyên. Spring/summer chia sẻ một tile
+VRAM 32 byte, tối đa một OAM entry; không tăng thêm RAM/VRAM so với v15.
+Mã mùa chọn tile dấu và đánh dấu cần upload lại, cả khi chuyển Xuân ↔ Hè.
+Object vẫn 0x380 byte; resource được cấp phát/thu hồi bằng allocator native.
+Cache cũ 40.192 byte, hai tile dấu thay phiên 64 byte trong ROM mở rộng.
 
-[Chi tiết hook, tài nguyên và kiểm tra](HUD_ACCENT_OVERLAY.md) ·
-[Ảnh v14/v15](evidence/date-hud-grave-raised.png) ·
-[Glyph nền trắng](evidence/hud-e-glyph.png).
+[Chi tiết hook và tài nguyên](HUD_ACCENT_OVERLAY.md) ·
+[Ảnh v15/v16](evidence/date-hud-a-balanced.png) ·
+[Glyph a/â/è](evidence/hud-a-glyph.png).
 
-Ảnh v2–v14 được giữ trong lịch sử tiến độ. Công thức thứ, packed date, giờ
-24 tiếng, nhịp tăng 10 phút và nháy dấu hai chấm gốc không đổi. 23:59 chỉ
-là fixture bộ vẽ.
+Ảnh và quyết định v2–v15 giữ trong lịch sử tiến độ. Công thức thứ, packed
+date, giờ 24 tiếng, nhịp tăng 10 phút và nháy hai chấm gốc không đổi. 23:59
+chỉ là fixture bộ vẽ.
 
 ## Lịch tháng
 
@@ -92,8 +94,9 @@ chữ và lỗ mở trong suốt, nét giữa không mất và metrics không đ
 - Chín fixture HUD qua đường upload thật, so byte buffer với OBJ VRAM; có ảnh
   06:50, 00:00, 12:00, 23:59, đủ bốn tên mùa với ngày một/hai chữ số và
   cặp ngày 9/10 để kiểm tra thay đổi độ dài. Vùng icon thời tiết x=196..239,
-  y=140..159 khớp từng pixel ROM gốc trong cả chín fixture. So ảnh v14/v15:
-  Hè chỉ thay bốn pixel dấu; bảy fixture khác không đổi pixel nào.
+  y=140..159 khớp từng pixel ROM gốc trong cả chín fixture. So ảnh v15/v16:
+  mỗi fixture Xuân chỉ đổi 16 pixel trong vùng â/dấu mũ; sáu fixture mùa
+  khác không đổi pixel nào, gồm cả Hè đã duyệt.
 - Thêm 64 vòng cấp phát/thu hồi và ba trường hợp OAM 0/127/128 với guard;
   kiểm tra tile/palette/mosaic của sprite dấu qua native upload.
 - Mở lịch tự nhiên bằng A tại lịch treo tường trong nhà. 56 fixture giao diện:

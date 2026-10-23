@@ -38,7 +38,8 @@ def expected_object(base,year,season,day,hour,minute,blink):
     obj[0x164:0x184]=groups['blink'][blink*32:(blink+1)*32]
     obj[0x228:0x268]=groups['minute'][minute*64:(minute+1)*64]
     obj[0x18C]=obj[0x2B0]=1
-    obj[hud_accent.VISIBLE]=int(season==1)
+    obj[hud_accent.VISIBLE]=2-season if season<2 else 0
+    obj[hud_accent.DIRTY]=1
     return bytes(obj)
 
 
@@ -73,7 +74,8 @@ def probes(session,base):
                 before=session.read(root,hud_accent.OBJECT_SIZE);want=bytearray(before)
                 if key=='season':
                     want[0x84:0xE4]=cache[key][value*96:(value+1)*96]
-                    want[hud_accent.VISIBLE]=int(value==1)
+                    want[hud_accent.VISIBLE]=2-value if value<2 else 0
+                    want[hud_accent.DIRTY]=1
                 elif key=='hour':
                     want[0x124:0x184]=cache[key][value*96:(value+1)*96]
                 elif key=='minute':want[0x228:0x268]=cache[key][value*64:(value+1)*64]
@@ -99,7 +101,7 @@ def accent_lifecycle_and_oam_checks(session,root):
     capacities=[]
     try:
         assert session.read(root+hud_accent.DIRTY,1)==b'\0'
-        assert session.read(root+hud_accent.VISIBLE,1)==b'\1'
+        assert session.read(root+hud_accent.VISIBLE,1)in (b'\1',b'\2')
         for count in (0,127,128):
             session.restore(state)
             session.write(handle,struct.pack('<I',root))
@@ -200,12 +202,12 @@ def run(args):
             overlay=[]
             for i in range(128):
                 aa,bb,cc=struct.unpack_from('<HHH',oam,i*8)
-                if aa&255==139 and bb&511==148 and not (aa&0xC000 or bb&0xC000):
+                if aa&255==139 and bb&511==(144 if season==0 else 148) and not (aa&0xC000 or bb&0xC000):
                     overlay.append((aa,bb,cc))
-            assert len(overlay)==int(season==1),(season,overlay)
+            assert len(overlay)==int(season<2),(season,overlay)
             if overlay:
                 aa,bb,cc=overlay[0];at=(cc&1023)*32
-                assert vram[at:at+32]==hud_accent.accent_tile()
+                assert vram[at:at+32]==hud_accent.accent_tile(season)
                 assert cc>>12==font_palette, 'accent must use the parent HUD palette'
                 assert aa&0x1000, 'accent must inherit native mosaic flag'
             name=f'hud-{season}-{hour:02d}{minute:02d}.png' if day==30 or (season==0 and day==2) else f'hud-{season}-day{day}.png'
@@ -218,8 +220,10 @@ def run(args):
                 current=Image.open(out/name).convert('RGB')
                 diff=ImageChops.difference(previous,current)
                 changed={(x,y) for y in range(160) for x in range(240) if diff.getpixel((x,y))!=(0,0,0)}
-                expected={(152,139),(152,140),(153,140),(153,141)} if season==1 else set()
-                assert changed==expected,(name,len(changed),sorted(changed)[:10])
+                if season==0:
+                    assert changed and all(146<=x<=150 and 139<=y<=145 for x,y in changed),(name,sorted(changed))
+                    assert all(current.getpixel((x,y))==previous.getpixel((147,140)) for x,y in ((147,139),(148,139),(146,140),(149,140)))
+                else:assert not changed,(name,len(changed),sorted(changed)[:10])
                 delta=len(changed)
             hud_views.append({'season':season,'day':day,'hour':hour,'minute':minute,'screenshot':name,
                               'raised_accent_vram_and_palette_verified':bool(overlay),

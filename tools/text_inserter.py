@@ -116,9 +116,9 @@ def build(base: bytes, translations: dict) -> tuple[bytes, dict]:
     append(code,"Vietnamese HUD date and 24-hour display setters")
     for name,site in date_ui.HUD_SITES.items():
         write(site,trampoline(entries[name]),"HUD "+name+": Vietnamese/24-hour display")
-    accent_tile_at=append(hud_accent.accent_tile(),"HUD raised grave: one 8x8 OBJ tile")
+    accent_tile_at=append(hud_accent.accent_tile(1)+hud_accent.accent_tile(0),"HUD accent alternatives: grave/circumflex, one active 8x8 OBJ tile")
     accent_code,accent_entries=hud_accent.assemble(ROM_BASE+((len(result)+3)&~3),ROM_BASE+accent_tile_at)
-    append(accent_code,"HUD raised grave constructor/draw/destructor hooks")
+    append(accent_code,"HUD seasonal accent constructor/draw/destructor hooks")
     write(hud_accent.SIZE_SITE,bytes.fromhex("e020"),"HUD object tail: 0x35C to 0x380 bytes")
     for name,site in hud_accent.SITES.items():
         write(site,hud_accent.draw_trampoline(accent_entries[name]) if name=="draw" else trampoline(accent_entries[name]),"HUD accent lifecycle: "+name)
@@ -228,7 +228,8 @@ def build(base: bytes, translations: dict) -> tuple[bytes, dict]:
                     "hud_cache_addresses":date_cache,"hud_code_entries":entries,
                     "raised_grave":{"tile_offset":accent_tile_at,"entries":accent_entries,
                                     "object_size":hud_accent.OBJECT_SIZE,"extra_vram_bytes":32,
-                                    "extra_oam_entries":1,"visible_extra_top_rows":1},
+                                    "extra_oam_entries":1,"visible_extra_top_rows":1,"overlay_seasons":["Xuân","Hè"],
+                                    "rom_tile_alternatives_bytes":64},
                     "game_time_or_save_format_changed":False},
         "new_game_birthday_atlas": birthday_report,
         "intro_speaker_cache": name_report,
