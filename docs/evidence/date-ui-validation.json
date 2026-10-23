@@ -1,18 +1,18 @@
 {
   "date": "2026-10-23",
   "timezone": "Asia/Saigon",
-  "revision": "vietnamese-date-24h-summer-raised-v5",
-  "target_sha256": "09f76efae75e9c936f03d5598ce31c858ca7c8b80e7e4a8fc7caac58aa4a44ce",
+  "revision": "vietnamese-date-24h-metrics-v6",
+  "target_sha256": "f3e36b563c276c75c215555631666ff181cdb55c3ae0f8385405945fe70ecd96",
   "pytest": {
-    "passed": 97,
+    "passed": 98,
     "failed": 0,
     "skipped": 0
   },
   "emulators": {
     "0.10.5": {
       "date_ui": {
-        "target_sha256": "09f76efae75e9c936f03d5598ce31c858ca7c8b80e7e4a8fc7caac58aa4a44ce",
-        "revision": "vietnamese-date-24h-summer-raised-v5",
+        "target_sha256": "f3e36b563c276c75c215555631666ff181cdb55c3ae0f8385405945fe70ecd96",
+        "revision": "vietnamese-date-24h-metrics-v6",
         "limitations": [
           "Calendar fixtures change UI view fields, not elapsed gameplay years",
           "HUD game time still advances at native ten-minute ticks",
@@ -24,6 +24,7 @@
           "packed_date_time_unchanged": true,
           "metadata_and_guard_bytes_unchanged": true
         },
+        "weather_pixels_match_native": true,
         "hud_view_fixtures_with_vram_checks": [
           {
             "season": 0,
@@ -462,7 +463,7 @@
         "status": "passed"
       },
       "full_smoke": {
-        "target_sha256": "09f76efae75e9c936f03d5598ce31c858ca7c8b80e7e4a8fc7caac58aa4a44ce",
+        "target_sha256": "f3e36b563c276c75c215555631666ff181cdb55c3ae0f8385405945fe70ecd96",
         "checks": {
           "ascii_native_outlines_at_common_baseline": 95,
           "legacy_glyph_fallback_unchanged": 10,
@@ -533,8 +534,8 @@
     },
     "dev": {
       "date_ui": {
-        "target_sha256": "09f76efae75e9c936f03d5598ce31c858ca7c8b80e7e4a8fc7caac58aa4a44ce",
-        "revision": "vietnamese-date-24h-summer-raised-v5",
+        "target_sha256": "f3e36b563c276c75c215555631666ff181cdb55c3ae0f8385405945fe70ecd96",
+        "revision": "vietnamese-date-24h-metrics-v6",
         "limitations": [
           "Calendar fixtures change UI view fields, not elapsed gameplay years",
           "HUD game time still advances at native ten-minute ticks",
@@ -546,6 +547,7 @@
           "packed_date_time_unchanged": true,
           "metadata_and_guard_bytes_unchanged": true
         },
+        "weather_pixels_match_native": true,
         "hud_view_fixtures_with_vram_checks": [
           {
             "season": 0,
@@ -984,7 +986,7 @@
         "status": "passed"
       },
       "full_smoke": {
-        "target_sha256": "09f76efae75e9c936f03d5598ce31c858ca7c8b80e7e4a8fc7caac58aa4a44ce",
+        "target_sha256": "f3e36b563c276c75c215555631666ff181cdb55c3ae0f8385405945fe70ecd96",
         "checks": {
           "ascii_native_outlines_at_common_baseline": 95,
           "legacy_glyph_fallback_unchanged": 10,
@@ -1055,7 +1057,7 @@
     }
   },
   "start_menu_regression": {
-    "target_sha256": "09f76efae75e9c936f03d5598ce31c858ca7c8b80e7e4a8fc7caac58aa4a44ce",
+    "target_sha256": "f3e36b563c276c75c215555631666ff181cdb55c3ae0f8385405945fe70ecd96",
     "status": "passed",
     "translated_records": 162,
     "isolated_renderer_lines_with_guards": 239,
@@ -1122,7 +1124,7 @@
   "screenshots": [
     {
       "path": "docs/evidence/date-ui/calendar-closed.png",
-      "sha256": "b8dd96aba07c2f7e65a9595a5eb23a4b1550ce1821eb9a8862ea4a1aad9af1e6"
+      "sha256": "0393ae30d34fe5ec4e3c2df10f4d01dcee29f2886c28d529873d8075893cad21"
     },
     {
       "path": "docs/evidence/date-ui/calendar-native.png",
@@ -1230,43 +1232,43 @@
     },
     {
       "path": "docs/evidence/date-ui/date-overview.png",
-      "sha256": "9d383f1f8c02e76fa10e33112d01835e226f954a3adcc06518a9f8d8cc762ab1"
+      "sha256": "6024761fd714a06c20a0600fb41fd837ac66f5b66a4abbb22fc663fb04d5ac2b"
     },
     {
       "path": "docs/evidence/date-ui/hud-0-0650.png",
-      "sha256": "8cf4de192e2f5f88c213251ea85620d2334e9b44ea89c79283c3bc502d526d1b"
+      "sha256": "9d2bab66e9a1eb170d039ec393e0a58c3c95b3d757256d4fe6b145cdf6f61549"
     },
     {
       "path": "docs/evidence/date-ui/hud-0-day10.png",
-      "sha256": "2a14077f8e1a0d58114f138ccfbc3bbc7f210fbeed258379c87f0573b040fa8b"
+      "sha256": "55e0d9a2ad05869f01cd7f928c8dfd8e6486e3201aa6523eb9444ecc8f06c637"
     },
     {
       "path": "docs/evidence/date-ui/hud-0-day9.png",
-      "sha256": "d49a30991b97a04ef8ddad2df538dc3a3d16e30bf179bc5b90d9ce1f53a11231"
+      "sha256": "56ce30d7ffe775775dc7c215de74c8c0bf3908ece8b9a6e05c99ce544c04531b"
     },
     {
       "path": "docs/evidence/date-ui/hud-1-0000.png",
-      "sha256": "c94441d3558f286d9ff9e02d35353dad6a19abe3db570c1550ce5c329f65aead"
+      "sha256": "15007d639eac0bdab88f7775c90df4a987a05d1c32c3b98bcb414d70b9d19d3f"
     },
     {
       "path": "docs/evidence/date-ui/hud-1-day2.png",
-      "sha256": "bdc42ece8a55a6c57b6fc02cf47078bd26efbfd30e900234c5902cdb4b4f078f"
+      "sha256": "b040dd5d3eae6b505e9d2c5def212cb8adc38fe8491844e9e0f38efe6453c2d6"
     },
     {
       "path": "docs/evidence/date-ui/hud-2-1200.png",
-      "sha256": "918a57018d251210e70e13625e3b2f960268b0e26b7eddad32ff5edd4c1ec033"
+      "sha256": "b91e24ea8a13eb528ee1fe8715abccdfeceee40c5d0c373b33f7172ed426d260"
     },
     {
       "path": "docs/evidence/date-ui/hud-2-day2.png",
-      "sha256": "64fd0b03822ed0c6233ed09ee9ec34d05e0701c834f08aa44bfaa063f95499d6"
+      "sha256": "a827e5bb139e3f28eebd449d98db7d7b41811a072c477ab3bb37d530c1eb95af"
     },
     {
       "path": "docs/evidence/date-ui/hud-3-2359.png",
-      "sha256": "a9cc056977b37b99d00636de5cd3044f343ea06bd9da9cba8b02b84683cefffa"
+      "sha256": "f490661efa6a8094527fdda88c778745b27704334afa127c8d86b7e3ecdd5d3f"
     },
     {
       "path": "docs/evidence/date-ui/hud-3-day2.png",
-      "sha256": "8ddc60194b674f1cade42129d3debf1a2e02d1a80c84a1904f2caae4d4b53840"
+      "sha256": "d6f9169f1936257bc5b19fe8fe8b0856a60c095675189e153230534f1154845a"
     },
     {
       "path": "docs/evidence/date-ui/hud-native.png",
@@ -1274,35 +1276,59 @@
     },
     {
       "path": "docs/evidence/date-ui/hud-vi.png",
-      "sha256": "d05491c63e0f9ef9a449f6ca45622636b92bcb6dfc2bb35e6fd4726b99b00732"
+      "sha256": "76a367bbcdd5d361db6f1b308b5a4d886d65199cfeb6b6717d210f2278b62488"
     }
   ],
   "visual_review": "Native/translated calendar, all four seasons, 1/100/200-year headings, calendar exit and nine HUD date/time cases reviewed; no OCR or claim of multi-year gameplay.",
-  "summer_position_comparison": {
-    "path": "docs/evidence/date-hud-summer-raised.png",
-    "sha256": "26fd7a3b702764f7e11cf5b52a6ca6610a0ecd8ca194796c385a58bb3c12bd5c",
-    "left": "Before: 69ad3e0; Hạ day 2 and day 30",
+  "metrics_comparison": {
+    "path": "docs/evidence/date-hud-metrics.png",
+    "sha256": "3228e5421f3a2e0e14fc1637244d1e73d11cacfe0f8a2f03c9bb154b1de30e0b",
+    "left": "Before: 045d0a4; four seasons",
     "right": "After: current target; matching season/day/time fixtures",
     "method": "Native emulator screenshots; nearest-neighbor crop only",
     "before_screenshots": [
       {
-        "name": "hud-1-day2.png",
-        "source_commit": "69ad3e0",
-        "sha256": "1e1c5d467a47218efb89209c1a05003550ef7d1d3b56e8119729803b962eeb22"
+        "name": "hud-0-0650.png",
+        "source_commit": "045d0a4",
+        "sha256": "8cf4de192e2f5f88c213251ea85620d2334e9b44ea89c79283c3bc502d526d1b"
       },
       {
-        "name": "hud-1-0000.png",
-        "source_commit": "69ad3e0",
-        "sha256": "cc823c2871e94490b51a550898137e24707f2f2c8f4728270f4d086a34508b76"
+        "name": "hud-1-day2.png",
+        "source_commit": "045d0a4",
+        "sha256": "bdc42ece8a55a6c57b6fc02cf47078bd26efbfd30e900234c5902cdb4b4f078f"
+      },
+      {
+        "name": "hud-2-day2.png",
+        "source_commit": "045d0a4",
+        "sha256": "64fd0b03822ed0c6233ed09ee9ec34d05e0701c834f08aa44bfaa063f95499d6"
+      },
+      {
+        "name": "hud-3-day2.png",
+        "source_commit": "045d0a4",
+        "sha256": "8ddc60194b674f1cade42129d3debf1a2e02d1a80c84a1904f2caae4d4b53840"
       }
     ],
-    "summer_label_vertical_shift_pixels": -1,
-    "last_scanline_transparent": true,
-    "dot_pixels_preserved": 2
+    "date_baseline": 6,
+    "clock_baseline": 14,
+    "clock_x": 24,
+    "clock_cell_width": 8,
+    "word_gap_pixels": 3,
+    "preserved_from_v5": [
+      "day/week suffix bitmap",
+      "hour/minute/colon bitmap",
+      "Xuân/Thu/Đông bitmap",
+      "calendar resource"
+    ],
+    "weather_pixels_match_native": true,
+    "native_hud_dimensions": [
+      64,
+      16
+    ]
   },
   "historical_comparisons": [
-    "docs/evidence/date-hud-spacing.png (v1/v2)",
-    "docs/evidence/date-hud-size.png (v2/v3)",
-    "docs/evidence/date-hud-accents.png (v3/v4)"
+    "date-hud-spacing.png (v1/v2)",
+    "date-hud-size.png (v2/v3)",
+    "date-hud-accents.png (v3/v4)",
+    "date-hud-summer-raised.png (v4/v5)"
   ]
 }

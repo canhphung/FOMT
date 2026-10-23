@@ -1,6 +1,6 @@
 # Tiến độ Việt hóa
 
-**Hiện tại:** 706/9.283 bản ghi dịch nháp, 2 prompt title đồ họa, lịch/HUD tiếng Việt, 97 test đạt.
+**Hiện tại:** 706/9.283 bản ghi dịch nháp, 2 prompt title đồ họa, lịch/HUD tiếng Việt, 98 test đạt.
 Đã Việt hóa các màn tạo game mới, intro, menu con START và lịch/HUD; mục cuối ghi phiên triển khai.
 Các mục cũ bên dưới giữ số liệu theo từng phiên lịch sử.
 
@@ -438,3 +438,28 @@ còn đủ và chữ H hiển thị ở hàng đầu. Trên mGBA 0.10.5 và 0.11
 Hạ ngày 2/30, cả bốn mùa; [ảnh trước/sau](evidence/date-hud-summer-raised.png),
 [báo cáo](evidence/date-ui-validation.json). Cập nhật IPS/manifest, 706 bản ghi
 dịch nháp không đổi. Chưa kiểm trên GBA thật hoặc chơi xuyên mùa.
+
+
+## 2026-10-23 — Chuẩn hóa metrics và baseline HUD v6
+
+Thay cách ghép chuỗi có space/cột đệm bằng `HUDGlyph` và `draw_run()`, dùng
+advance riêng (hoa 6, thường/số ngày 5, dấu chấm 2 pixel). Các run ngày,
+dấu chấm, thứ được đặt theo tổng advance và khoảng cách thành phần 3 pixel.
+Chữ/số ngày đều có baseline y=6, không còn nâng riêng cả nhãn Hạ. Thân ạ
+ở y=3–6, hàng y=7 trống và dấu nặng y=8; vùng mùa 24x16 chiếm phần trái
+đã có, clock chuyển sang x=24..63, y=8..15 để tránh giao nhau. Giữ đủ dấu
+mũ tại y=0/1 và hàng trống y=2. Build từ chối mực/bóng bị cắt.
+
+Giữ bitmap đồng hồ và advance 8 pixel gốc, palette, hai OBJ 32x16, icon,
+VRAM và kích thước 64x16. Không anti-aliasing hay font vector. Cache mùa
+thêm một hàng tile trong ROM, tổng cache 40.576 byte; không cấp thêm RAM.
+Bitmap các mùa không có dấu nặng, suffix và đồng hồ đối chiếu được với v5;
+ạ chỉ đổi bearing/dấu để cùng baseline.
+
+98 pytest đạt. mGBA 0.10.5/0.11-dev đều qua 2.580 trường hợp HUD với canh
+bộ nhớ, 300 setter, chín fixture so OBJ VRAM, 56 fixture lịch; vùng thời tiết
+khớp từng pixel ROM gốc. Smoke font/title/START và lưu/tải cold boot đạt.
+Đã duyệt bốn mùa và ngày một/hai chữ số, đồng hồ 00:00/06:50/12:00/23:59.
+[Ảnh trước/sau](evidence/date-hud-metrics.png),
+[báo cáo](evidence/date-ui-validation.json). Cập nhật IPS/manifest; 706 bản
+ghi dịch nháp không đổi. Chưa kiểm trên GBA thật hoặc chơi xuyên mùa.

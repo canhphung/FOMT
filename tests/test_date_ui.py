@@ -49,7 +49,7 @@ def test_calendar_preserves_numbers_palettes_animation_and_fits_native_reservati
 def test_hud_cache_retains_original_clock_numerals_and_all_hour_minute_values(rom):
     cache=date_ui.build_hud_cache(rom)
     native=lambda n:rom[date_ui.DIGITS+32*n:date_ui.DIGITS+32*(n+1)]
-    assert len(cache['season'])==4*96
+    assert len(cache['season'])==4*192
     assert len(cache['day_week'])==30*7*160
     for hour in range(24):
         assert cache['hour'][hour*96:(hour+1)*96]==native(hour//10)+native(hour%10)+native(10)
@@ -85,9 +85,9 @@ def test_date_suffix_has_no_empty_digit_slot_and_consistent_word_gaps():
 def test_hud_accents_centered_and_separated_from_body_and_shadow(vowel):
     # Both foreground and shadow must leave a full scanline between the mark
     # and its vowel; otherwise the enlarged HUD reads as a joined glyph.
-    pixels=date_ui.tiny_pixels(vowel,8)
-    mark_rows=(0,1) if vowel!='ạ' else (7,)
-    gap=2 if vowel!='ạ' else 6
+    pixels=date_ui.tiny_pixels(vowel,8,16)
+    mark_rows=(0,1) if vowel!='ạ' else (8,)
+    gap=2 if vowel!='ạ' else 7
     assert not any(pixels[gap])
     mark_x=[x for y in mark_rows for x,v in enumerate(pixels[y]) if v==1]
     body_x=[x for y in range(3,6) for x,v in enumerate(pixels[y]) if v==1]
@@ -96,8 +96,20 @@ def test_hud_accents_centered_and_separated_from_body_and_shadow(vowel):
     assert any(pixels[y][x]==1 for y in range(3,6) for x in range(4))
 
 
-def test_summer_label_has_blank_row_between_bottom_dot_and_clock():
+def test_season_lower_accents_are_separate_from_clock_region():
     pixels=date_ui.season_pixels('Hạ')
-    assert not any(pixels[7]), 'Summer label must leave a clear row above HH:MM'
-    assert pixels[6].count(1)==2, 'Both pixels of the bottom dot must survive'
-    assert any(v==1 for v in pixels[0]), 'Raised capital must remain visible'
+    # Body baseline 6, clear row 7, complete bottom dot at 8, then blank.
+    assert pixels[8].count(1)==2
+    assert not any(v for row in pixels[9:] for v in row)
+    assert any(v==1 for v in pixels[6])
+    for char in 'XHĐThuânạôg0123456789CN':
+        assert date_ui.hud_glyph(char).baseline==6
+
+
+def test_hud_metrics_reject_clipping_and_use_integer_advances():
+    with pytest.raises(FormatError):date_ui.tiny_pixels('ạ',8,8)
+    with pytest.raises(FormatError):date_ui.tiny_pixels('XX',8)
+    for char in '0123456789':assert date_ui.hud_glyph(char).advance==5
+    assert date_ui.CLOCK_ADVANCE==8
+    pixels=[[0]*40 for _ in range(8)]
+    assert date_ui.draw_run('T2',pixels,3)==14

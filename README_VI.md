@@ -12,10 +12,9 @@ Không chứa hoặc tự tải ROM thương mại. Bản vá IPS nằm trong `p
   24 mục tạo game mới, 145 mục intro/hướng dẫn đầu game và 162 mục menu START.
 - Đã Việt hóa lịch và khung ngày giờ: **Năm 1 — Mùa Xuân**, **CN/T2…T7**,
   **Xuân 2 · T2**, **06:50** theo giờ 24 tiếng. Giữ màu cuối tuần, biểu tượng
-  thời tiết/lễ hội và nhịp đồng hồ 10 phút của game. Dòng ngày cùng cỡ chữ,
-  khoảng cách giữa các phần là 3 pixel. Đã tăng cỡ chữ HUD và
-  sửa dấu và nâng chữ Hạ lên 1 pixel để tách khỏi giờ ở bản v5;
-  [ảnh trước/sau](docs/evidence/date-hud-summer-raised.png).
+  thời tiết/lễ hội và nhịp đồng hồ 10 phút của game. Dòng ngày dùng advance và baseline
+  thống nhất; đồng hồ giữ tile gốc, ô 8 pixel cố định. Bố cục v6 dành vùng riêng
+  cho dấu nặng; [ảnh trước/sau](docs/evidence/date-hud-metrics.png).
   [Ảnh kiểm chứng](docs/evidence/date-ui.png), [chi tiết](docs/DATE_UI.md).
 - Đã dịch menu con START: lưu/tải và tùy chọn Nhật ký, Ba lô, mô tả bản đồ,
   thống kê/Ghi chú và sách Mẹo điều khiển. Sửa hai tiêu đề Ba lô bị cắt chữ có dấu.
@@ -35,7 +34,7 @@ Không chứa hoặc tự tải ROM thương mại. Bản vá IPS nằm trong `p
   Bản sửa v2 xử lý lỗi lệch thân chữ/spacing; xem ảnh trước–sau trong `docs/evidence`.
 - Chèn lại ở vùng ROM mở rộng, giữ nguyên bytecode sự kiện và dữ liệu gameplay.
 - Kiểm thử mGBA: boot, tạo game mới, hội thoại Thomas, 7 nhãn menu, render font,
-  lịch/HUD và ghi Diary, nạp lại save sau boot; 97 pytest đạt. Chi tiết và giới hạn trong báo cáo tiến độ.
+  lịch/HUD và ghi Diary, nạp lại save sau boot; 98 pytest đạt. Chi tiết và giới hạn trong báo cáo tiến độ.
 
 Chưa xác minh toàn bộ gameplay, mọi màn hình vật phẩm, TV/sách/sự kiện, phần cứng
 GBA thật hoặc nhập tên người chơi có dấu. Phần lớn hội thoại vẫn là tiếng Anh.

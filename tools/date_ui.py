@@ -7,6 +7,7 @@ from __future__ import annotations
 import hashlib
 import json
 from pathlib import Path
+from dataclasses import dataclass
 from fomt_text import FormatError, ROM_BASE
 
 HUD_SITES = {'initial':0x3CD4C,'season':0x3D080,'day':0x3D0F0,
@@ -21,7 +22,7 @@ PROFILE = json.loads((Path(__file__).resolve().parents[1]/'localization/vi/date_
 SEASONS = tuple(PROFILE['seasons'])
 WEEKDAYS = tuple(PROFILE['weekdays'])
 if len(SEASONS)!=4 or len(WEEKDAYS)!=7:raise FormatError('date UI requires four seasons and seven weekdays')
-REVISION = 'vietnamese-date-24h-summer-raised-v5'
+REVISION = 'vietnamese-date-24h-metrics-v6'
 
 # Six-row capitals/digits and five-row lowercase, wider pixel bodies.
 # The eight-pixel line still reserves the top for accents and bottom for dots.
@@ -61,68 +62,94 @@ def verify(rom):
         if rom[at:at+8].hex()!=HUD_EXPECTED[key]:raise FormatError('HUD instruction mismatch: '+key)
 
 
-def tiny_pixels(text,width):
+HUD_BASELINE = 6
+WORD_GAP = 3
+CLOCK_ADVANCE = 8
+CLOCK_X = 24
+GLYPH_ADVANCES = {**dict.fromkeys('XHTCNĐ',6),
+                  **dict.fromkeys('unaogh0123456789',5),'·':2}
+
+@dataclass(frozen=True)
+class HUDGlyph:
+    bitmap: tuple[str,...]
+    advance: int
+    bearing_y: int
+    marks: tuple[tuple[int,int],...] = ()
+    gap_rows: tuple[int,...] = ()
+
+    @property
+    def baseline(self):
+        return self.bearing_y+len(self.bitmap)-1
+
+
+def hud_glyph(char):
     import unicodedata
-    body=set();marks=set();gaps=set();cursor=0
+    nfd=unicodedata.normalize('NFD',char);base=nfd[0]
+    if char=='·':return HUDGlyph(('1',),2,4)
+    if base not in TINY:raise FormatError('unknown HUD glyph '+char)
+    shape=tuple(TINY[base]);marks=();gaps=()
+    if len(nfd)>1:
+        if char not in ('â','ô','ạ'):raise FormatError('unsupported HUD accent '+char)
+        shape=tuple({'a':['0111','1001','1001','0111'],
+                     'o':['0110','1001','1001','0110']}[base])
+        if '\u0302' in nfd:
+            marks=((1,0),(2,0),(0,1),(3,1));gaps=(2,)
+        else:
+            # Same body baseline as every other letter. The bottom dot uses
+            # the spare area left of HH:MM, with a blank row above it.
+            marks=((1,8),(2,8));gaps=(7,)
+    return HUDGlyph(shape,GLYPH_ADVANCES[base],HUD_BASELINE-len(shape)+1,marks,gaps)
+
+
+def draw_run(text,pixels,x=0):
+    """Integer metrics only: advance positions the next glyph, never pad text."""
+    height=len(pixels);width=len(pixels[0])
     for char in text:
-        if char==' ':cursor+=3;continue
-        if char=='·':body.add((cursor,4));cursor+=2;continue
-        nfd=unicodedata.normalize('NFD',char);base=nfd[0];shape=TINY.get(base)
-        if shape is None:raise FormatError('unknown tiny glyph '+char)
-        above='\u0302' in nfd;below='\u0323' in nfd
-        top=1
-        if above or below:
-            # Marked vowels need a real blank scanline within the 8px row.
-            # Preserve the wider v3 bodies and large capitals/other letters.
-            shape={'a':['0111','1001','1001','0111'],
-                   'o':['0110','1001','1001','0110']}[base]
-            top=3 if above else 2
-        for y,row in enumerate(shape):
-            for x,bit in enumerate(row):
-                if bit=='1':body.add((cursor+x,y+top))
-        if above:
-            # A 4px symmetric roof is centered on the 4px vowel; v3's 3px
-            # roof was anchored left. Marks have no descending shadow.
-            marks.update(((cursor+1,0),(cursor+2,0),(cursor,1),(cursor+3,1)))
-            gaps.update((cursor+x,2) for x in range(5))
-        if below:
-            marks.update(((cursor+1,7),(cursor+2,7)))
-            gaps.update((cursor+x,6) for x in range(5))
-        cursor+=len(shape[0])+1
-    ink=body|marks
-    if any(x>=width or y>=8 for x,y in ink):raise FormatError('tiny HUD text overflows')
-    pixels=[[0]*width for _ in range(8)]
-    for x,y in body:
-        if x+1<width and y+1<8 and (x+1,y+1) not in gaps:
-            pixels[y+1][x+1]=2
-    for x,y in ink:pixels[y][x]=1
+        glyph=hud_glyph(char);body=set()
+        for y,row in enumerate(glyph.bitmap):
+            for dx,bit in enumerate(row):
+                if bit=='1':body.add((x+dx,y+glyph.bearing_y))
+        ink=body|{(x+dx,y) for dx,y in glyph.marks}
+        shadow={(dx+1,y+1) for dx,y in body if y+1 not in glyph.gap_rows}
+        if any(dx<0 or dx>=width or y<0 or y>=height for dx,y in ink|shadow):
+            raise FormatError('HUD glyph or shadow overflows')
+        for dx,y in shadow:
+            if not pixels[y][dx]:pixels[y][dx]=2
+        for dx,y in ink:pixels[y][dx]=1
+        x+=glyph.advance
+    return x
+
+
+def tiny_pixels(text,width,height=8):
+    pixels=[[0]*width for _ in range(height)]
+    draw_run(text,pixels)
     return pixels
 
 
 def tiles(pixels):
-    out=bytearray();width=len(pixels[0])
-    for tx in range(0,width,8):
-        for y in range(8):
-            for x in range(0,8,2):out.append(pixels[y][tx+x]|pixels[y][tx+x+1]<<4)
+    out=bytearray();width=len(pixels[0]);height=len(pixels)
+    if width%8 or height%8:raise FormatError('HUD tile dimensions must align to 8px')
+    for ty in range(0,height,8):
+        for tx in range(0,width,8):
+            for y in range(ty,ty+8):
+                for x in range(0,8,2):out.append(pixels[y][tx+x]|pixels[y][tx+x+1]<<4)
     return bytes(out)
 
 
 def season_pixels(season):
-    """Right-align actual ink (including its shadow) in the 24px season area."""
-    pixels=tiny_pixels(season,24)
-    if season=='Hạ':
-        # Summer has no upper accent: its empty top scanline lets the whole
-        # word move up 1px, leaving a blank row between the dot and the clock.
-        pixels=pixels[1:]+[[0]*24]
+    """24x16 region; below-baseline accents never overlap the clock at x24."""
+    pixels=tiny_pixels(season,24,16)
     right=max(x for row in pixels for x,value in enumerate(row) if value)
     shift=23-right
     return [[0]*shift+row[:24-shift] for row in pixels]
 
 
 def day_week_pixels(day,weekday):
-    # Three blank columns after the season, and between date/marker/weekday.
-    # Render the complete suffix so one-digit dates leave no empty numeral tile.
-    return [[0]*3+row for row in tiny_pixels(f'{day} · {weekday}',37)]
+    pixels=[[0]*40 for _ in range(8)]
+    cursor=draw_run(str(day),pixels,WORD_GAP)
+    cursor=draw_run('·',pixels,cursor+WORD_GAP)
+    draw_run(weekday,pixels,cursor+WORD_GAP)
+    return pixels
 
 
 def build_hud_cache(rom):
@@ -136,6 +163,13 @@ def build_hud_cache(rom):
         'blink':bytes(32)+digit(10),
     }
     return groups
+
+
+def hud_tile_offset(x,y):
+    """Map local 8px tile coordinates into the two existing 32x16 buffers."""
+    if x%8 or y%8 or not (0<=x<64 and 0<=y<16):
+        raise FormatError('invalid HUD tile position')
+    return (0x84 if x<32 else 0x1A8)+(y//8)*128+(x%32//8)*32
 
 
 def assemble_hud(address,cache):
@@ -181,11 +215,11 @@ def assemble_hud(address,cache):
         bls valid
         movs r1, #0
     valid:
-        movs r2, #96
+        movs r2, #192
         muls r1, r2
         ldr r2, cache
         adds r1, r1, r2
-    '''+copy(0x84,96,'season')+flags+f'\ncache: .word {cache["season"]}\n')
+    '''+copy(0x84,96,'season_top')+copy(0x104,96,'season_bottom')+flags+f'\ncache: .word {cache["season"]}\n')
     emit('day',f'''
         push {{r4,r5,r6,r7,lr}}
         ldr r4, [r0]
@@ -211,8 +245,13 @@ def assemble_hud(address,cache):
         ldr r2, days
         adds r1, r1, r2
     '''+copy(0xE4,32,'day_left')+copy(0x1A8,128,'day_right')+flags+f'\ndays: .word {cache["day_week"]}\n')
-    for key,maximum,stride,destination in [('hour',23,96,0x124),('minute',59,64,0x228),('blink',1,32,0x164)]:
+    for key,maximum,stride,destination in [('hour',23,96,hud_tile_offset(CLOCK_X,8)),
+                                           ('minute',59,64,hud_tile_offset(CLOCK_X+3*CLOCK_ADVANCE,8)),
+                                           ('blink',1,32,hud_tile_offset(CLOCK_X+2*CLOCK_ADVANCE,8))]:
         clamp=('subs r1, #24' if key=='hour' else 'movs r1, #0')
+        transfer=(copy(hud_tile_offset(CLOCK_X,8),32,'hour_left')+
+                  copy(hud_tile_offset(CLOCK_X+CLOCK_ADVANCE,8),64,'hour_right')
+                  if key=='hour' else copy(destination,stride,key))
         emit(key,f'''
         push {{r4,r5,r6,r7,lr}}
         ldr r4, [r0]
@@ -224,7 +263,7 @@ def assemble_hud(address,cache):
         muls r1, r2
         ldr r2, cache
         adds r1, r1, r2
-        '''+copy(destination,stride,key)+flags+f'\ncache: .word {cache[key]}\n')
+        '''+transfer+flags+f'\ncache: .word {cache[key]}\n')
     emit('initial',f'''
         push {{r4,r5,r6,r7,lr}}
         mov r4, r0

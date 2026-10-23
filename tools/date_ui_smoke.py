@@ -28,14 +28,18 @@ def expected_object(base,year,season,day,hour,minute,blink):
     obj=bytearray(b'\xA5'*0x35C)
     obj[0x84:0x184]=bytes(256);obj[0x1A8:0x2A8]=bytes(256)
     groups=date_ui.build_hud_cache(base)
-    obj[0x84:0xE4]=groups['season'][season*96:(season+1)*96]
+    season_bits=groups['season'][season*192:(season+1)*192]
+    obj[0x84:0xE4]=season_bits[:96]
+    obj[0x104:0x164]=season_bits[96:]
     weekday=((year+6)*120+season*30+day-1)%7
     suffix=groups['day_week'][((day-1)*7+weekday)*160:((day-1)*7+weekday+1)*160]
     obj[0xE4:0x104]=suffix[:32]
     obj[0x1A8:0x228]=suffix[32:]
-    obj[0x124:0x184]=groups['hour'][hour*96:(hour+1)*96]
-    obj[0x164:0x184]=groups['blink'][blink*32:(blink+1)*32]
-    obj[0x228:0x268]=groups['minute'][minute*64:(minute+1)*64]
+    hour_bits=groups['hour'][hour*96:(hour+1)*96]
+    obj[0x164:0x184]=hour_bits[:32]
+    obj[0x228:0x268]=hour_bits[32:]
+    obj[0x248:0x268]=groups['blink'][blink*32:(blink+1)*32]
+    obj[0x268:0x2A8]=groups['minute'][minute*64:(minute+1)*64]
     obj[0x18C]=obj[0x2B0]=1
     return bytes(obj)
 
@@ -69,10 +73,14 @@ def probes(session,base):
             for value in values:
                 check(1,0,2,6,50,1)
                 before=session.read(root,0x35C);want=bytearray(before)
-                if key=='season':want[0x84:0xE4]=cache[key][value*96:(value+1)*96]
-                elif key=='hour':want[0x124:0x184]=cache[key][value*96:(value+1)*96]
-                elif key=='minute':want[0x228:0x268]=cache[key][value*64:(value+1)*64]
-                else:want[0x164:0x184]=cache[key][value*32:(value+1)*32]
+                if key=='season':
+                    p=cache[key][value*192:(value+1)*192]
+                    want[0x84:0xE4]=p[:96];want[0x104:0x164]=p[96:]
+                elif key=='hour':
+                    p=cache[key][value*96:(value+1)*96]
+                    want[0x164:0x184]=p[:32];want[0x228:0x268]=p[32:]
+                elif key=='minute':want[0x268:0x2A8]=cache[key][value*64:(value+1)*64]
+                else:want[0x248:0x268]=cache[key][value*32:(value+1)*32]
                 session.call(0x08000000+date_ui.HUD_SITES[key],handle,value)
                 assert session.read(root,0x35C)==want,(key,value)
         for day in range(1,31):
@@ -111,6 +119,9 @@ def run(args):
             session.frames(24,16);session.frames(60,64);session.frames(30)
             session.press(1,settle=200)
             session.screenshot(out/('calendar-'+('native' if index==0 else 'vi')+'.png'))
+        native_weather=Image.open(out/'hud-native.png').crop((196,140,240,160)).tobytes()
+        assert Image.open(out/'hud-vi.png').crop((196,140,240,160)).tobytes()==native_weather
+        report['weather_pixels_match_native']=True
         objects=[calendar_object(s) for s in sessions]
         states=[s.state() for s in sessions]
         checks=[];shots=[]
@@ -149,6 +160,7 @@ def run(args):
                 assert vram[at:at+256]==session.read(root+offset,256),'HUD tiles not uploaded through native path'
             name=f'hud-{season}-{hour:02d}{minute:02d}.png' if day==30 or (season==0 and day==2) else f'hud-{season}-day{day}.png'
             session.screenshot(out/name)
+            assert Image.open(out/name).crop((196,140,240,160)).tobytes()==native_weather
             hud_views.append({'season':season,'day':day,'hour':hour,'minute':minute,'screenshot':name})
         report['hud_view_fixtures_with_vram_checks']=hud_views
         for year in (1,7,8,10,99,100,200):

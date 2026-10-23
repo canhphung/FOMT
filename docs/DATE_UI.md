@@ -28,55 +28,55 @@ và resource lịch. Inserter chỉ ghi vào những vị trí đã xác minh; c
 resource mới và mã Thumb đều đặt sau ROM gốc ở vùng mở rộng. Build report ghi
 địa chỉ và phiên bản trong `date_ui`.
 
-## HUD
+## HUD — metrics v6
 
-Giữ nguyên hai OBJ 32x16 pixel, vị trí, palette, các cờ cập nhật, vùng đệm và
-biểu tượng thời tiết. Không thêm heap object, OBJ hay VRAM. Chữ mùa/thứ dùng
-font pixel có dấu: thân chữ hoa/số cao 6 pixel, chữ thường cao tối đa 5 pixel,
-chữ hoa rộng 5 pixel và chữ thường/số rộng 4 pixel. Có phần cho dấu trên/dấu nặng;
-nguyên âm có dấu dùng thân gọn 4 pixel để dành khoảng trống cho dấu.
-Số ngày dùng cùng font; dấu nặng có thân nâng một hàng để dấu không dính. Chữ số đồng hồ giữ tile gốc.
-Nội dung vừa vùng 64x16 pixel.
+`vietnamese-date-24h-metrics-v6` giữ nguyên hai OBJ 32x16, tổng 64x16 pixel,
+vị trí OBJ, palette và icon thời tiết. Không thêm OBJ, heap hay VRAM. Các glyph
+đều là bitmap pixel nguyên; chỉ dùng màu trong palette gốc, không anti-aliasing,
+không font vector hay nội suy. Giữ nguyên bitmap chữ số và dấu hai chấm của
+đồng hồ. Bitmap chữ Việt đã duyệt được giữ khi có thể; sửa vị trí thân/dấu ạ
+để đúng baseline, bỏ cách nâng riêng cả nhãn Hạ của v5.
 
-Hai buffer nằm tại object+0x84 và +0x1A8, mỗi buffer 256 byte. Cờ upload là
-+0x18C và +0x2B0. Cache thành phần chiếm tổng 40.192 byte trong ROM: bốn mùa, 210 cặp
-ngày/thứ, giờ, phút và hai pha nháy dấu hai chấm. Các setter chép đúng các tile
-thành phần; không sửa cấu trúc ngày giờ nguồn hoặc dữ liệu save.
+`HUDGlyph` tách bitmap, advance, bearing Y, điểm dấu và hàng trống. Tất cả
+chữ/số của dòng ngày có baseline **y=6**; bearing Y được tính từ baseline và
+chiều cao bitmap. Dấu mũ ở y=0/1, y=2 trống, thân â/ô ở y=3–6. Thân ạ cũng
+ở y=3–6, y=7 trống cả mực lẫn bóng, dấu nặng ở y=8. Không cắt glyph: build
+báo lỗi nếu mực hoặc bóng ra ngoài canvas.
 
-Bản `vietnamese-date-24h-spacing-v2` căn mép phải phần mực và bóng của tên
-mùa tại x=23. Số ngày bắt đầu tại x=27; giữa mùa/ngày, ngày/dấu chấm và dấu
-chấm/thứ đều có đúng ba cột trong suốt. Ngày và thứ được vẽ chung thành một
-suffix 40x8: nhãn thứ dịch ngang theo độ dài số ngày, không còn ô hàng chục trống ở
-ngày 1–9. Tên mùa ngắn không tạo khoảng trống lớn trước số ngày. Mỗi setter
-ngày vẫn chép 160 byte như trước; cache tăng trong ROM, không tăng RAM/VRAM.
+| Metrics / vùng (tọa độ trong HUD) | Giá trị |
+| --- | --- |
+| Advance chữ hoa ngày/thứ | 6 pixel |
+| Advance chữ thường và số ngày | 5 pixel |
+| Advance dấu chấm giữa | 2 pixel |
+| Khoảng cách giữa thành phần | 3 pixel sau advance, không chèn space vào nội dung |
+| Mùa | x=0..23, y=0..15; căn phải mép bitmap tại x=23 |
+| Ngày / dấu chấm / thứ | x=24..63, y=0..7; số ngày bắt đầu x=27 |
+| Đồng hồ | x=24..63, y=8..15; baseline y=14 |
+| Advance đồng hồ | 8 pixel cố định cho mỗi tile gốc, kể cả dấu hai chấm |
 
-Bản `vietnamese-date-24h-large-v3` tăng thân chữ hoa/số từ 5 lên 6 pixel,
-chữ thường từ 4 lên 5 pixel; chiều ngang thân chữ tăng thêm 1 pixel.
-Giữ các mốc x và khoảng cách ba pixel của v2. Chữ lớn hơn vẫn vừa 64x8 ở
-dòng trên, không đổi cỡ đồng hồ, vùng đệm, cache, RAM hay VRAM.
+`draw_run()` đặt glyph bằng advance. Ngày, dấu chấm và thứ là ba run riêng;
+không có chuỗi đệm dạng `"30 · T2"` hoặc thêm cột trắng trước bitmap. Số
+ngày một chữ số tự kéo nhãn thứ về đúng vị trí theo tổng advance. Clock là
+năm ô 8 pixel HH:MM: số 1 có nét hẹp hơn số 0 vốn có trong game, nhưng ô
+và vị trí chữ số luôn cố định, không gây nhảy bố cục.
 
-Bản `vietnamese-date-24h-accents-v4` sửa lỗi dấu ở v3: dấu mũ rộng 4 pixel,
-cân giữa thân nguyên âm rộng 4 pixel; đỉnh tại x=1/2 và chân tại x=0/3.
-Dấu mũ ở y=0/1, y=2 trống hoàn toàn (cả bóng), thân â/ô ở y=3–6.
-Với ạ, thân ở y=2–5, y=6 trống hoàn toàn, dấu nặng cân giữa ở y=7.
-Không vẽ bóng dưới dấu hoặc vào hàng phân cách. Giữ chiều ngang chữ lớn,
-cỡ chữ hoa/số, khoảng cách 3 pixel và cùng dung lượng cache của v3.
+Dấu nặng dùng hàng đầu vùng trái bên dưới; đồng hồ chuyển từ x=8 sang x=24
+để hai vùng không giao nhau. Không mở rộng HUD hoặc dịch icon. Không nâng
+riêng chữ Hạ nữa: mọi thân chữ dòng ngày cùng baseline, dấu dưới có một hàng
+trống và được bảo vệ khỏi đồng hồ bằng cả tọa độ X lẫn Y.
 
-Bản `vietnamese-date-24h-summer-raised-v5` nâng riêng cả nhãn **Hạ** lên
-một pixel trong raster 24x8, tận dụng hàng đầu vốn trống. Dấu nặng chuyển
-từ y=7 lên y=6; toàn hàng y=7 trong suốt trước đồng hồ ở dòng dưới. Thân ạ
-ở y=1–4, hàng y=5 vẫn trống để tách thân khỏi dấu. Các mùa có dấu mũ
-không dịch lên để giữ nguyên dấu tại y=0; cỡ chữ và tọa độ OBJ không đổi.
+Hai buffer vẫn ở object+0x84 và +0x1A8 (256 byte mỗi buffer), cờ upload
++0x18C và +0x2B0. Cache tổng **40.576 byte**: mùa 4×192, ngày/thứ 210×160,
+giờ 24×96, phút 60×64, nháy 2×32. Mùa dùng sáu tile gồm hai hàng; setter
+chép 192 byte trong buffer đã có. Hour chép một tile vào +0x164 và hai tile
+vào +0x228; minute vào +0x268, colon blink vào +0x248. Không ghi metadata
+lân cận, ngày giờ gameplay hay dữ liệu save.
 
-[Ảnh nâng Hạ: bên trái v4, bên phải v5](evidence/date-hud-summer-raised.png) ·
-[Ảnh sửa dấu: bên trái v3, bên phải v4](evidence/date-hud-accents.png) ·
-[Ảnh tăng cỡ chữ ở v3](evidence/date-hud-size.png) ·
-[Ảnh sửa khoảng cách ở bản v2](evidence/date-hud-spacing.png).
-
-Năm trong packed date là mã chu kỳ gốc; phép tính thứ giữ nguyên công thức
-của 0803CD4C. Giờ được vẽ 00–23, có số 0 đầu. Nhịp nháy dấu hai chấm được giữ.
-Các giá trị 00:00, 12:00 và 23:59 có kiểm tra riêng; 23:59 là giá trị thử bộ vẽ,
-không phải tuyên bố đồng hồ trong gameplay đổi sang tăng từng phút.
+[Ảnh bố cục trước/sau, trái v5 — phải v6](evidence/date-hud-metrics.png).
+Các ảnh v2–v5 là lịch sử, không phải ảnh bản hiện tại; xem tiến độ để biết
+những sửa đổi trước. Năm packed date và công thức thứ giữ nguyên từ native
+0803CD4C. Đồng hồ dùng 00–23, nhịp tăng 10 phút và nháy dấu hai chấm gốc;
+23:59 chỉ là fixture kiểm tra bộ vẽ.
 
 ## Lịch tháng
 
@@ -104,17 +104,17 @@ trỏ hoặc nội dung mô tả lễ hội. Các popup mô tả lễ hội chư
   --output-dir build/date-final-0.10.5
 ```
 
-97 pytest đạt; có kiểm tra khoảng trống bằng pixel cho toàn bộ 30 ngày × bảy thứ
-và mép phải của bốn tên mùa. Ba kiểm tra thêm cho â/ô/ạ xác minh dấu cân giữa
-và hàng phân cách không chứa mực hoặc bóng. Kiểm tra nhãn Hạ hoàn chỉnh xác
-minh hàng cuối trống, dấu nặng còn đủ hai pixel và chữ H không bị cắt. Chạy cùng kiểm tra trên mGBA 0.10.5 và 0.11-dev:
+98 pytest đạt; có kiểm tra khoảng trống bằng pixel cho toàn bộ 30 ngày × bảy thứ
+và mép phải của bốn tên mùa. Kiểm tra baseline mọi chữ/số; advance cố định,
+đủ dấu nặng dưới baseline, khoảng trống cả bóng, từ chối cắt glyph. Chạy cùng kiểm tra trên mGBA 0.10.5 và 0.11-dev:
 
 - 2.580 trường hợp packed date/time qua CPU thật, có canh bộ nhớ; bao phủ mọi
   ngày 1–30, bốn mùa, bảy chu kỳ thứ và toàn bộ 24x60 giá trị giờ/phút.
 - 300 lần gọi các setter riêng, giữ nguyên các thành phần lân cận và metadata.
 - Chín fixture HUD qua đường upload thật, so byte buffer với OBJ VRAM; có ảnh
   06:50, 00:00, 12:00, 23:59, đủ bốn tên mùa với ngày một/hai chữ số và
-  cặp ngày 9/10 để kiểm tra thay đổi độ dài.
+  cặp ngày 9/10 để kiểm tra thay đổi độ dài. Vùng icon thời tiết x=196..239,
+  y=140..159 khớp từng pixel ROM gốc trong cả chín fixture.
 - Mở lịch tự nhiên bằng A tại lịch treo tường trong nhà. 56 fixture giao diện:
   năm 1/7/8/10/99/100/200 × bốn mùa × ngày chọn 1/30. Grid, event marker và
   toàn bộ pixel từ y=40 xuống dưới khớp ROM gốc. Các fixture chỉ đổi trường
