@@ -60,21 +60,12 @@ advance 5. Dấu mũ gốc được bỏ khỏi buffer mùa và nâng bằng spr
 Resource VRAM và RAM của v15 được tái sử dụng; chỉ thêm tile thay phiên
 32 byte trong ROM. V16 vẫn giữ nguyên pixel của toàn bộ Hè so với v15.
 
-## V17 — thu hẹp H–è
+## Khoảng cách H–è hiện tại
 
-Bearing X của è từ 2 xuống 1, advance 7 → 6. Dấu logic dịch theo bearing,
-nhưng nhãn mùa căn phải giữ nguyên e/dấu trong game. H dịch phải một pixel,
-để hai cột trống giữa foreground (một cột giữa bóng H và e). Không đổi
-sprite dấu, tile/VRAM, RAM, OAM hay đồng hồ. Các mùa khác giữ nguyên.
-[Ảnh trước/sau](evidence/date-hud-he-spacing.png).
-
-## V18 — gần thêm một pixel theo ảnh mẫu
-
-Bearing X của è về 0, advance về 5; dấu logic dịch cùng bearing. Nhãn căn
-phải nên e/dấu vẫn giữ nguyên tọa độ màn hình, chỉ H tiến thêm một pixel
-so với v17. Giữa foreground hai chữ còn một cột; bóng H chạm sát e nhưng
-foreground không dính nhau. Không đổi màu, bitmap hoặc chiều cao.
-[Ảnh trước/sau](evidence/date-hud-he-spacing-tight.png).
+Bearing X của è là 0, advance 5. Nhãn mùa căn phải nên e/dấu giữ nguyên
+tọa độ, H gần hơn so với những bản thử cũ. Giữa foreground hai chữ còn
+một cột; bóng H chạm sát e. Không đổi màu, bitmap hoặc chiều cao.
+[Ảnh khoảng cách](evidence/date-hud-he-spacing-tight.png).
 
 ## Kiểm chứng
 
@@ -93,7 +84,6 @@ Trên cả mGBA 0.10.5 và 0.11-dev:
 - 56 fixture lịch, mở/đóng lịch tự nhiên, smoke font/title/START và lưu
   Diary rồi cold boot tải lại. Dữ liệu SRAM giữ đúng như kiểm tra trước.
 
-[Ảnh trước/sau v16](evidence/date-hud-a-balanced.png) ·
 [Glyph a/â/è chín hàng, phóng 4x](evidence/hud-a-glyph.png) ·
 [Báo cáo](evidence/date-ui-validation.json).
 

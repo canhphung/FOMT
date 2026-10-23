@@ -7,3 +7,6 @@ __pycache__/
 build/
 localization/en/catalog.json
 localization/en/discovery.json
+local-data/
+*.sram
+*.state

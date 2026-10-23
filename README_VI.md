@@ -10,16 +10,10 @@ Không chứa hoặc tự tải ROM thương mại. Bản vá IPS nằm trong `p
   7 nhãn menu tạm dừng, 24 mục tạo game mới, 28 mục hồi tưởng thời thơ ấu và 162 mục trong các menu con START.
 - 706 bản ghi dịch nháp: 346 tên vật phẩm, 21 mô tả, 7 menu, 1 lời chào Popuri,
   24 mục tạo game mới, 145 mục intro/hướng dẫn đầu game và 162 mục menu START.
-- Đã Việt hóa lịch và khung ngày giờ: **Năm 1 — Mùa Xuân**, **CN/T2…T7**,
-  **Xuân 2 · T2**, **06:50** theo giờ 24 tiếng. Giữ màu cuối tuần, biểu tượng
-  thời tiết/lễ hội và nhịp đồng hồ 10 phút của game. Dòng ngày dùng advance và baseline
-  thống nhất; đồng hồ giữ tile gốc, ô 8 pixel cố định. Bản v7 đổi Hạ thành Hè trên HUD/lịch,
-  đưa đồng hồ về vị trí cũ. V16 vẽ lại â cao năm hàng như è, dùng hàng dấu đã mở
-  để giữ khoảng trống dưới dấu mũ. V18 thu hẹp H–è thêm một pixel theo ảnh mẫu;
-  [ảnh trước/sau](docs/evidence/date-hud-he-spacing-tight.png).
-  V19 căn lại tiêu đề lịch, tách Mùa/tên mùa và thu nhỏ riêng số năm;
-  [ảnh lịch trước/sau](docs/evidence/calendar-heading.png).
-  [Ảnh kiểm chứng](docs/evidence/date-ui.png), [chi tiết](docs/DATE_UI.md).
+- Lịch/HUD tiếng Việt: Năm, Xuân/Hè/Thu/Đông, CN/T2…T7 và đồng hồ 24 giờ.
+  Tiêu đề lịch đã căn khoảng cách và thu nhỏ riêng số năm; HUD giữ vị trí đồng hồ,
+  icon và màu gốc. [Ảnh hiện tại](docs/evidence/date-ui.png),
+  [chi tiết](docs/DATE_UI.md), [ảnh tiêu đề trước/sau](docs/evidence/calendar-heading.png).
 - Đã dịch menu con START: lưu/tải và tùy chọn Nhật ký, Ba lô, mô tả bản đồ,
   thống kê/Ghi chú và sách Mẹo điều khiển. Sửa hai tiêu đề Ba lô bị cắt chữ có dấu.
   [Ảnh trong game](docs/evidence/start-menu.png), [phạm vi và kiểm thử](docs/START_MENU.md).
@@ -42,6 +36,13 @@ Không chứa hoặc tự tải ROM thương mại. Bản vá IPS nằm trong `p
 
 Chưa xác minh toàn bộ gameplay, mọi màn hình vật phẩm, TV/sách/sự kiện, phần cứng
 GBA thật hoặc nhập tên người chơi có dấu. Phần lớn hội thoại vẫn là tiếng Anh.
+
+## Cấu trúc và dọn workspace
+
+[Xem cấu trúc project](docs/PROJECT_STRUCTURE.md). `build/` chứa đầu ra tái tạo được;
+`local-data/` giữ font tham khảo và save thử cục bộ, không đưa lên Git.
+Chạy `make clean` để xóa đầu ra build/cache; lệnh này giữ nguồn, bản dịch, bản vá
+phát hành, môi trường `.venv/` và dữ liệu trong `local-data/`.
 
 ## Lộ trình
 

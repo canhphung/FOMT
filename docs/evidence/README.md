@@ -1,48 +1,39 @@
-# Chứng cứ kiểm thử
+# Bằng chứng kiểm thử
 
-Target ROM và bản vá được định danh trong `validation.json` và
-`../../patches/manifest.json`. Không có ROM hoặc save người dùng trong thư mục này.
+ROM/save đầu vào không được track ở đây. Mỗi báo cáo phải được đọc cùng
+hash target và giới hạn ghi trong chính báo cáo, không suy từ tên ảnh.
 
-- `thomas-dialogue.png`, `thomas-three-lines.png`: ảnh framebuffer mGBA khi chơi
-  mới bằng nút bình thường, không thay câu thoại bằng RAM injection.
-- `pause-menu.png`: ghép 7 ảnh framebuffer khi chọn từng nhãn bằng nút Right.
-  Các dòng `pause menu N` nằm ngoài framebuffer, chỉ là nhãn báo cáo.
-- `diary-saved.png`: game đã ghi save qua Diary, hiển thị thông tin ngày/người chơi.
-- `diary-load-menu.png`: core mới đã nhận SRAM sau boot và hiện cùng save.
-- `game-loaded.png`: xác nhận Load trong game, trở lại nhà ngày 2.
-- `v1-save-loaded-in-v2.png`: boot ROM v2 bằng mGBA 0.10.5, import SRAM của bản
-  v1 rồi Load trong game. Đây là một mẫu save, không phải kiểm thử mọi save cũ.
-- `vietnamese-font.png`: atlas từ mask v2 8×16, phóng 3 lần; **không phải
-  ảnh game**. Nhãn EBxx đối chiếu với `localization/font/encoding.json`.
-- `font-spacing-comparison.png`: output renderer chuỗi mGBA trước (v1) và sau
-  (v2), phóng 3 lần. Dòng alphabet là chuỗi chẩn đoán, không phải lời thoại gốc.
-- `font-metrics.json`: baseline/bearing/advance đo từ ROM và cmap/metrics OTF
-  người dùng gửi. Không đóng gói file OTF; build dùng outline ROM.
-- `title-start.png`: framebuffer mGBA 0.10.5, cold boot và nhấn Start để tới
-  title; prompt đồ họa đã đổi thành **Bắt đầu**. Không ghép chữ lên ảnh.
-- `title-continue.png`: cold boot với SRAM đã ghi bằng Diary trong bài smoke;
-  hiện cả **Bắt đầu / Tiếp tục**, đầy đủ viền đen → trắng → xanh ngọc.
-- `title-font-comparison.png`: title có save trước/sau, phóng nguyên pixel 3
-  lần ở phiên dịch Continue; nhãn Before/After ngoài framebuffer. Ảnh lịch sử
-  trước phiên căn cursor, dùng để đối chiếu font/viền.
-- `title-cursor-start.png`, `title-cursor-continue.png`: chuyển Left/Right khi
-  có save; cursor đã bám mép chữ Việt ở cả hai lựa chọn.
-- `title-cursor-comparison.png`: hai framebuffer trước/sau căn cursor Continue,
-  phóng 3 lần; font/màu/vị trí chữ giữ nguyên.
-- `title-font-sample.png`: artwork của cả hai prompt trên nền tối, phóng 3 lần;
-  mẫu tile, không phải framebuffer game.
-- `new-game-*.png`: framebuffer mGBA 0.10.5 khi đi qua từng bước tạo game bằng
-  nút bình thường, gồm các câu xác nhận và nhánh quay lại sửa. `new-game-setup.png`
-  ghép 6 framebuffer phóng nearest-neighbor 2 lần, nhãn bước nằm ngoài ảnh game.
-  Báo cáo riêng kiểm tra 4 mùa × ngày 1/30 và tên dài 12 ký tự trên cả hai mGBA.
-- `intro-opening.png`: ghép 9 framebuffer mGBA 0.10.5, phóng 2 lần với nhãn ngoài
-  vùng game; các ảnh `intro-mother/old-man/girl/letter/thomas/next-day/morning/
-  zack/shipment.png` là từng framebuffer gốc. Tên dài 12 ký tự là dữ liệu test.
-- `intro-guide-yes-no.png`, `intro-guide-topics.png`, `intro-guide-animals.png`:
-  các menu đầu game có đầy đủ nhãn tiếng Việt. `intro-first-morning-complete.png`
-  là kết thúc lời hướng dẫn Zack. Reader trace trong báo cáo ghi 129 ID hội thoại,
-  5 nhãn người nói và các ảnh menu; probe 460 dòng được ghi riêng.
+## Bản vá hiện tại
 
-Ảnh đã được xem thủ công. Các phép so pixel/canary và kết quả pytest nằm trong
-`validation.json`. Probe hàm dùng trạng thái emulator cô lập và không được xem
-là bằng chứng đã gặp NPC tự nhiên. Lời chào Popuri chưa được kiểm tra bằng encounter.
+- [Manifest](../../patches/manifest.json): hash nguồn/đích và IPS hiện tại.
+- [Tổng hợp](validation.json): font/title/save/load và liên kết kiểm chứng.
+- [Lịch/HUD và regression](date-ui-validation.json): hai mGBA, pytest,
+  VRAM/OAM/tài nguyên, lịch và regression START trên target hiện tại.
+- [Tổng quan lịch/HUD](date-ui.png), [tiêu đề trước/sau](calendar-heading.png).
+  Ảnh từng fixture nằm trong date-ui/; không lưu bản sao overview trong thư mục con.
+- [Glyph a/â/è](hud-a-glyph.png), [e/è](hud-e-glyph.png): raster phóng 4x,
+  không phải framebuffer game. [Khoảng cách Hè](date-hud-he-spacing-tight.png)
+  giải thích bố cục H–è hiện tại.
+
+## Bằng chứng theo mốc chức năng
+
+Intro, tạo game và START có báo cáo chuyên biệt và ảnh tương ứng. Chúng
+mang hash của mốc lúc tính năng được triển khai; regression bản hiện tại
+nằm trong date-ui-validation.json. Không coi tất cả ảnh lịch sử là ảnh của
+cùng một binary mới nhất.
+
+- [Tạo game](new-game-setup.png), new-game-*.png: các bước và nhánh xác nhận.
+- [Intro](intro-opening.png), intro-*.png: replay mở đầu và hướng dẫn.
+- [START](start-menu.png), start-menu/: các trang và xác nhận; chỉ một overview.
+- title-*.png, diary-*.png, game-loaded.png: title/cursor và save/load theo mốc.
+- vietnamese-font.png và font-metrics.json: atlas/metrics, không phải cảnh game.
+  font-spacing-comparison.png và v1-save-loaded-in-v2.png là bằng chứng lịch sử
+  cho sửa font/tương thích một save, không bảo đảm mọi save cũ.
+
+Ảnh game lấy từ framebuffer mGBA. Ảnh ghép/phóng dùng nearest-neighbor,
+nhãn báo cáo nằm ngoài framebuffer. Chuỗi chẩn đoán font không phải thoại game.
+Probe hàm cô lập không được xem là encounter NPC tự nhiên; Popuri vẫn chưa
+có encounter tự nhiên trong bằng chứng hiện có.
+
+Các ảnh thử HUD lỗi thời đã bỏ khỏi cây hiện tại; có thể truy hồi bằng Git.
+Giữ ảnh cần giải thích thiết kế hiện hành và ảnh fixture được báo cáo tham chiếu.

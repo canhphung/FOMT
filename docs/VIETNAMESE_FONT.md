@@ -163,39 +163,24 @@ Bản menu START xử lý thêm giới hạn byte trong buffer tiêu đề Ba l�
 từng byte của tiêu đề sách, giữ kích thước tile/OBJ gốc. Chi tiết và địa chỉ
 trong [START_MENU.md](START_MENU.md). Font glyph v2 không đổi.
 
-## Font lịch và HUD ngày giờ
+## Font lịch và HUD ngày giờ hiện tại
 
-Lịch dùng nét native, thứ CN/T2…T7. HUD dùng bitmap pixel và glyph advance,
-baseline y=6, không padding space/anti-aliasing/font vector. Mùa thứ hai là
-Hè. Thân e năm hàng 0110/1001/1111/1000/0111, có lòng, nét ngang, nét dọc
-và đuôi. V15 nâng dấu huyền chéo một pixel lên y=-1/0 bằng OBJ 8x8 riêng;
-thân vẫn y=2–6 nên có hàng trống y=1. Dấu căn giữa thân, màu/palette theo
-HUD gốc; chỉ dấu mở thêm một hàng phía trên theo chấp thuận của người dùng.
-Clock giữ tile và vị trí cũ; icon không đổi. Sprite thêm 32 byte VRAM,
-1 entry OAM và 36 byte RAM object, có cấp phát/thu hồi native.
-[HUD_ACCENT_OVERLAY.md](HUD_ACCENT_OVERLAY.md) mô tả hook và kiểm chứng;
-[DATE_UI.md](DATE_UI.md) ghi bố cục đầy đủ. UTF-8 chỉ dùng trong nguồn,
-game nhận tile 4bpp.
+HUD dùng bitmap pixel, advance theo glyph và baseline y=6. Thân a/â và e/è
+rộng 4, cao 5 pixel. È có bearing X=0/advance=5 như chữ thường khác;
+nhãn mùa căn phải. H–è còn một cột giữa foreground, bóng H chạm mép e.
 
-V16 vẽ lại â trong Xuân thành thân năm hàng 0110/0001/0111/1001/0111,
-cùng chiều cao/baseline với è, advance 5 pixel giữ nguyên. Counter/lỗ mở
-được bảo vệ khỏi bóng. Dấu mũ dùng chung tile VRAM overlay của Hè, nâng
-lên y=-1/0 để hàng y=1 trống. Thêm 32 byte tile thay phiên trong ROM, không
-tăng RAM/VRAM/OAM so với v15. Các mùa khác và font hội thoại không đổi.
-[Ảnh](evidence/date-hud-a-balanced.png) · [Glyph](evidence/hud-a-glyph.png).
+Dấu mũ của Xuân và dấu huyền của Hè dùng chung một tile overlay 8x8,
+y=-1/0; hàng y=1 trống trước thân y=2..6. Chỉ thêm một OAM entry khi cần,
+32 byte VRAM và 36 byte RAM so với HUD gốc. Clock giữ tile/vị trí cũ,
+icon không đổi. Nguồn UTF-8 được build thành tile 4bpp, không có font vector
+hoặc anti-aliasing trong ROM.
 
-V17 giảm bearing X của è từ 2 xuống 1, advance từ 7 xuống 6 để H–è gần
-nhau hơn một pixel. Nhờ căn phải nhãn mùa, e/dấu không dịch, chỉ H dịch
-phải. Giữ hai cột trống giữa foreground và một cột giữa bóng H với e.
-Các mùa khác, clock/icon và tài nguyên không đổi.
-[Ảnh](evidence/date-hud-he-spacing.png).
+Lịch dùng chữ native, spacing theo metric; số năm là bản raster 9x13 của
+số lịch gốc, advance 10. Số ngày trong grid giữ nguyên byte. Texture lịch
+180 tile, reservation native 256 tile; dấu phân cách 5x1 mảnh giữ palette.
 
-V18 đưa bearing è về 0, advance 5, để H gần thêm một pixel theo ảnh mẫu.
-E/dấu vẫn giữ nguyên tọa độ màn hình; còn một cột giữa foreground H/e,
-bóng H chạm mép e. Không đổi bitmap, baseline, màu, clock hoặc icon.
-[Ảnh](evidence/date-hud-he-spacing-tight.png).
-
-V19 sửa riêng tiêu đề lịch: nhãn cùng font native với khoảng trắng từ
-rộng hơn; số năm là bản raster 9x13 của số lịch native, advance 10. Số
-ngày trong grid nguyên byte. Dấu phân cách 5x1 mảnh, giữ palette gốc.
-[CALENDAR_HEADING.md](CALENDAR_HEADING.md) ghi layout, VRAM và kiểm chứng.
+[HUD_ACCENT_OVERLAY.md](HUD_ACCENT_OVERLAY.md) ·
+[CALENDAR_HEADING.md](CALENDAR_HEADING.md) · [DATE_UI.md](DATE_UI.md).
+[Glyph a/â/è](evidence/hud-a-glyph.png) ·
+[Khoảng cách Hè](evidence/date-hud-he-spacing-tight.png).
+Các bản thử font cũ được giữ trong lịch sử Git thay vì cây hiện tại.

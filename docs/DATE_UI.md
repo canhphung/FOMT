@@ -53,7 +53,6 @@ Cache cũ 40.192 byte, hai tile dấu thay phiên 64 byte trong ROM mở rộng.
 
 [Chi tiết hook và tài nguyên](HUD_ACCENT_OVERLAY.md) ·
 [Ảnh v17/v18](evidence/date-hud-he-spacing-tight.png) ·
-[Ảnh v15/v16](evidence/date-hud-a-balanced.png) ·
 [Glyph a/â/è](evidence/hud-a-glyph.png).
 
 Ảnh và quyết định v2–v17 giữ trong lịch sử tiến độ. Công thức thứ, packed

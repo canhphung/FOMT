@@ -50,9 +50,10 @@ trampoline 8 byte vốn yêu cầu địa chỉ chia hết cho 4. Không thêm O
 ## Kiểm thử
 
 ```bash
-# Sau khi build theo README và chạy emulator_smoke.py để tạo SRAM trong game:
+# Sau khi build theo README và chạy emulator_smoke.py:
+# dùng --output-dir build/demo-emulator để tạo SRAM bằng thao tác lưu trong game.
 .venv/bin/python tools/start_menu_smoke.py build/fomt-vi-demo.gba \
-  --sram build/start-full-final-0.10.5/save-test.sram \
+  --sram build/demo-emulator/save-test.sram \
   --library build/mgba_bridge-0.10.5.so \
   --output-dir build/start-final-0.10.5
 ```
