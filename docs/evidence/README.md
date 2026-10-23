@@ -3,6 +3,11 @@
 ROM/save đầu vào không được track ở đây. Mỗi báo cáo phải được đọc cùng
 hash target và giới hạn ghi trong chính báo cáo, không suy từ tên ảnh.
 
+[Bộ chuẩn platform-v1](../PLATFORM_BASELINE.md) chọn 43 framebuffer có hash
+và kiểm lại bằng replay hai mGBA. `platform/` chứa bảy ảnh cập nhật so với
+mốc cũ và một ảnh hội thoại bổ sung; 35 ảnh còn lại dùng lại tại chỗ. Đối chiếu bằng
+`make platform-emulator`; ảnh chuẩn không tự cập nhật khi có lỗi.
+
 ## Bản vá hiện tại
 
 - [Manifest](../../patches/manifest.json): hash nguồn/đích và IPS hiện tại.

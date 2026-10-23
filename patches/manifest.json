@@ -29,5 +29,7 @@
   "calendar_heading_revision": "centered-native-compact-year-v1",
   "item_description_drafts": 37,
   "localization_batch": "tools-01",
-  "item_batch_evidence": "docs/evidence/items-batch-validation.json"
+  "item_batch_evidence": "docs/evidence/items-batch-validation.json",
+  "platform_baseline": "localization/platform_baseline.json",
+  "platform_validation": "docs/evidence/platform-validation.json"
 }

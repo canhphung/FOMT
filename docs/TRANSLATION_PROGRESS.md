@@ -1,6 +1,6 @@
 # Tiến độ Việt hóa hiện tại
 
-Cập nhật 2026-10-23. Baseline mã/build: `f8e1af2`; roadmap: `7420c5c`.
+Cập nhật 2026-10-23. Bộ chuẩn kỹ thuật: `platform-v1`; roadmap ban đầu: `7420c5c`.
 Bản vá thử nghiệm, chưa phải Việt hóa 100%.
 
 ## Nội dung
@@ -27,7 +27,9 @@ trong localization/, chi tiết từng adapter trong các tài liệu hệ thố
 
 ## Kiểm chứng gần nhất
 
-- 113 pytest đạt với ROM USA rev 0 được người dùng cung cấp.
+- 117 pytest đạt với ROM USA rev 0 được người dùng cung cấp.
+- Hai build độc lập giống byte; IPS phát hành áp lại đúng ROM. Khóa 28 file
+  nền tảng và 43 ảnh chuẩn, replay trên hai mGBA không lệch pixel.
 - mGBA 0.10.5/0.11-dev: boot/title/font, tạo game, START và Diary save/load
   qua cold boot; báo cáo gắn đúng hash target hiện tại.
 - 2.580 tổ hợp packed date/time, 300 setter, chín fixture HUD có kiểm VRAM.
@@ -35,7 +37,8 @@ trong localization/, chi tiết từng adapter trong các tài liệu hệ thố
   y=40 khớp bản gốc. Tám chu kỳ mở/đóng trả lại tài nguyên; SRAM không đổi.
 - Kiểm round trip IPS và hash bản build. Số ngày trong lịch và HUD giữ nguyên.
 
-[Báo cáo hiện tại](evidence/date-ui-validation.json),
+[Bộ chuẩn nền tảng](PLATFORM_BASELINE.md),
+[báo cáo nền tảng](evidence/platform-validation.json), [lịch/HUD](evidence/date-ui-validation.json),
 [tổng hợp](evidence/validation.json), [manifest bản vá](../patches/manifest.json).
 Báo cáo intro/tạo game/START chuyên biệt mang hash của các mốc trước; giữ
 làm bằng chứng phạm vi từng mốc, không coi là chạy lại toàn bộ trên target mới.
@@ -102,3 +105,27 @@ cùng host trả HTTP 402: “Please contact the site owner for access.”
 dung bài. Chưa thể đối chiếu glossary, nhân vật hoặc xưng hô với wiki.
 Cập nhật trạng thái nguồn tham khảo; không sửa bản dịch hoặc đánh dấu QA
 đã duyệt dựa trên nội dung chưa đọc.
+
+## Ổn định nền tảng platform-v1 — 2026-10-23
+
+Chốt ba hệ font hiện hành, không sửa bitmap/palette/tọa độ hoặc bản dịch.
+Manifest mới khóa 28 file nguồn và 43 framebuffer 240×160. Bảy ảnh khác
+mốc lịch sử (gồm Hạ → Hè) được cập nhật cho bộ chuẩn, thêm một ảnh hội
+thoại Thomas. 35 ảnh đã khớp dùng lại tại chỗ; ảnh mốc cũ giữ làm lịch sử.
+
+Thêm `platform_check.py`, `make platform-check` và `make platform-emulator`:
+pytest → hai build độc lập → kiểm manifest/IPS round trip → năm suite trên
+mỗi backend → so RGBA với 43 ảnh chuẩn. Lỗi nguồn hoặc pixel làm lệnh thất
+bại; không tự cập nhật chuẩn. Có ảnh diff và báo cáo trạng thái lần chạy mới.
+Bốn test mới kiểm thay đổi pixel/alpha, kích thước, khóa nguồn/ảnh và việc
+lần chạy lỗi không giữ báo cáo xanh cũ. Tổng 117 pytest đạt, không skip.
+
+Hai build giữ nguyên hash ROM/IPS phát hành. Cả 0.10.5 và 0.11-dev chạy đủ
+font/title/intro/save-load, tạo game, START, lịch/HUD và renderer dụng cụ;
+43/43 ảnh mỗi backend khớp chuẩn, 0 pixel khác. Bằng chứng gắn hash ROM và
+manifest bộ chuẩn trong [platform-validation.json](evidence/platform-validation.json).
+
+Duyệt thẩm mỹ toàn gallery vẫn pending; 722 bản dịch giữ trạng thái nháp,
+0 reviewed. Chưa kiểm GBA thật, chơi xuyên mùa, mọi cửa sổ vật phẩm hoặc
+encounter Popuri. Không suy số năm gameplay từ fixture lịch. Các công việc
+này vẫn mở trong QA; xem [quy ước và ảnh chuẩn](PLATFORM_BASELINE.md).

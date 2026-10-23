@@ -1,9 +1,9 @@
 PYTHON ?= python3
 ROM ?=
 
-.PHONY: help extract build test emulator queue
+.PHONY: help extract build test emulator queue platform-check platform-emulator
 help:
-	@echo 'make extract|build|test|emulator|queue|clean ROM="/path/to/legally-supplied-USA-ROM.gba"'
+	@echo 'make extract|build|test|emulator|queue|platform-check|platform-emulator|clean ROM="/path/to/legally-supplied-USA-ROM.gba"'
 
 extract:
 	$(PYTHON) tools/text_extractor.py "$(ROM)"
@@ -24,3 +24,10 @@ clean:
 
 queue:
 	$(PYTHON) tools/localization_queue.py
+
+# These checks write only build/platform-check; they never refresh golden images.
+platform-check:
+	$(PYTHON) tools/platform_check.py --base-rom "$(ROM)"
+
+platform-emulator:
+	$(PYTHON) tools/platform_check.py --base-rom "$(ROM)" --emulators 0.10.5 dev

@@ -9,6 +9,7 @@
 | localization/vi/ | Các nhóm dịch và cấu hình đồ họa | Giữ; là dữ liệu làm việc chính |
 | localization/qa/, character_profiles.json | Batch, QA theo hash và hồ sơ người nói theo cảnh | Track Git; hàng đợi xuất ra build/ |
 | localization/font/, glossary.json | Bảng mã và thuật ngữ | Giữ |
+| localization/platform_baseline.json | Khóa nguồn font/bố cục/pipeline và 43 ảnh chuẩn | Track Git; chỉ sửa sau khi duyệt thay đổi |
 | patches/ | IPS phát hành hiện tại và manifest | Track Git; không chứa ROM |
 | docs/ | Tài liệu hệ thống, roadmap và tiến độ hiện tại | Lịch sử chi tiết xem Git |
 | docs/evidence/ | Báo cáo, ảnh kiểm chứng hiện tại và các mốc chức năng | Không giữ mọi ảnh debug/thử font |
@@ -34,6 +35,10 @@ của fixture ngày 2 từ smoke hiện tại. Đây là dữ liệu cục bộ,
 cần phân phối trong bản vá.
 
 ## Kiểm chứng
+
+[platform-v1](PLATFORM_BASELINE.md) và [báo cáo](evidence/platform-validation.json)
+chốt nền tảng; `make platform-emulator` tái tạo dưới build/platform-check/.
+Ảnh chuẩn mới chỉ lưu khi khác ảnh mốc cũ; không lưu bản sao những ảnh đã khớp.
 
 Nguồn hiện tại của bản vá: patches/manifest.json và
 [date-ui-validation.json](evidence/date-ui-validation.json). Báo cáo tổng hợp

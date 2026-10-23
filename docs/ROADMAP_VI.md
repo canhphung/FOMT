@@ -6,6 +6,9 @@ phát hành bản vá; không decompile toàn bộ game hoặc phân phối ROM.
 
 Đã triển khai hàng đợi CLI/ngữ cảnh/QA tối thiểu và lô tools-01; hiện có 722
 nháp. Xem [quy trình](LOCALIZATION_WORKFLOW.md) và [tiến độ hiện tại](TRANSLATION_PROGRESS.md).
+Bộ chuẩn kỹ thuật [platform-v1](PLATFORM_BASELINE.md) đã khóa font/bố cục,
+thêm một lệnh kiểm hai build/IPS và replay 43 ảnh trên hai mGBA; 117 pytest đạt.
+Duyệt thẩm mỹ toàn gallery và QA nội dung vẫn được theo dõi riêng.
 Bảng dưới giữ baseline lúc lập roadmap.
 
 ## Điểm xuất phát đã kiểm đếm

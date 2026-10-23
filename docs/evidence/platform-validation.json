@@ -1,0 +1,1374 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "baseline_sha256": "6003e1b5427ea4ced8fe38ebb830f53d24990fb58a43e77e77c929b6e4404b2f",
+  "source_sha1": "a2fc3574f0a65a4fcf7682fb274b9d7eebdef963",
+  "visual_review": "technical regression reference; user approval of the complete gallery pending; translation QA unchanged",
+  "limitations": [
+    "No real GBA hardware test or full-season playthrough.",
+    "Natural windows for all tool descriptions and Popuri encounter remain untested.",
+    "Golden replays cover listed scenes only; they do not approve all translations.",
+    "Calendar year fixtures are UI probes, not proof of elapsed gameplay years.",
+    "Emulator library hashes are recorded per run; reference source commits describe the tested checkouts."
+  ],
+  "emulators": {
+    "0.10.5": {
+      "library_sha256": "a59b9ebbc006144a1fc4fd68ddc371e95de4abc7d36073c7eed53e482d06a15c",
+      "suites": {
+        "full": {
+          "report": "build/platform-check/0.10.5/full/report.json",
+          "sha256": "72cae2dc7bd4f803a6f26024d2ea8a1e6606ba880f7a6095d2747ead79e7d472",
+          "result": {
+            "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
+            "checks": {
+              "ascii_native_outlines_at_common_baseline": 95,
+              "legacy_glyph_fallback_unchanged": 10,
+              "vietnamese_glyph_rasters_and_buffer_guards": 134,
+              "custom_code_width_without_drawing": 134,
+              "menu_multibyte_string_renderer_and_guards": 7,
+              "crop_item_pointers_and_multibyte_renderer": 15,
+              "full_charset_through_multibyte_string_renderer": 134,
+              "ascii_and_mixed_accent_spacing_strings": 9,
+              "no_save_title_cursor": {
+                "label": "title.start",
+                "x": 67,
+                "y": 114,
+                "visible_border_x": 82,
+                "gap_pixels": 0
+              },
+              "title_sprite_vram_matches_artwork": "28 tiles, 56x32 canvas, Bắt đầu",
+              "title_animation_matches_original_frames": 180,
+              "title_prompt_y_positions": [
+                110,
+                111,
+                112
+              ],
+              "title_initial_frame_pixels_outside_prompt_unchanged": "passed",
+              "normal_new_game_input_replay_frames": 13463,
+              "emulator_state_round_trip": "passed",
+              "saved_title_cursor_switch_left_right": [
+                {
+                  "label": "title.continue",
+                  "x": 134,
+                  "y": 114,
+                  "visible_border_x": 149,
+                  "gap_pixels": 0
+                },
+                {
+                  "label": "title.start",
+                  "x": 11,
+                  "y": 114,
+                  "visible_border_x": 26,
+                  "gap_pixels": 0
+                },
+                {
+                  "label": "title.continue",
+                  "x": 133,
+                  "y": 114,
+                  "visible_border_x": 149,
+                  "gap_pixels": 1
+                }
+              ],
+              "continue_sprite_vram_and_saved_title_animation": "40 tiles, 80x32; original arrow; 180 frames passed",
+              "saved_title_pixels_outside_prompts_unchanged": "passed",
+              "in_game_sram_save_and_cold_boot_load": {
+                "size": 32768,
+                "sha256": "010d245cc521b3d21b5eecfe1ee31ce5ab432f22cf1ed990defda9325451258b",
+                "save_integrity_after_reboot": "identical",
+                "screenshots": "diary-saved, diary-load-menu, game-loaded"
+              },
+              "emulator_error_count": 0
+            },
+            "limitations": [
+              "No real-hardware test",
+              "No full-season gameplay test",
+              "Popuri not encountered in normal gameplay replay",
+              "All item screens and description layouts not playtested"
+            ],
+            "status": "passed; screenshots require visual inspection"
+          }
+        },
+        "new-game": {
+          "report": "build/platform-check/0.10.5/new-game/report.json",
+          "sha256": "a658447fed791230290c31cfeda029c46ee2ad959980888c7fd11185874c4eb5",
+          "result": {
+            "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
+            "status": "passed",
+            "cases": [
+              {
+                "season": 0,
+                "day": 1,
+                "original_and_localized_selection": {
+                  "names": [
+                    "A",
+                    "BC",
+                    "CD"
+                  ],
+                  "packed_birthday": 0
+                }
+              },
+              {
+                "season": 0,
+                "day": 30,
+                "original_and_localized_selection": {
+                  "names": [
+                    "AB",
+                    "BC",
+                    "CD"
+                  ],
+                  "packed_birthday": 116
+                }
+              },
+              {
+                "season": 1,
+                "day": 1,
+                "original_and_localized_selection": {
+                  "names": [
+                    "AB",
+                    "BC",
+                    "CD"
+                  ],
+                  "packed_birthday": 1
+                }
+              },
+              {
+                "season": 1,
+                "day": 30,
+                "original_and_localized_selection": {
+                  "names": [
+                    "AB",
+                    "BC",
+                    "CD"
+                  ],
+                  "packed_birthday": 117
+                }
+              },
+              {
+                "season": 2,
+                "day": 1,
+                "original_and_localized_selection": {
+                  "names": [
+                    "AB",
+                    "BC",
+                    "CD"
+                  ],
+                  "packed_birthday": 2
+                }
+              },
+              {
+                "season": 2,
+                "day": 30,
+                "original_and_localized_selection": {
+                  "names": [
+                    "AB",
+                    "BC",
+                    "CD"
+                  ],
+                  "packed_birthday": 118
+                }
+              },
+              {
+                "season": 3,
+                "day": 1,
+                "original_and_localized_selection": {
+                  "names": [
+                    "AB",
+                    "BC",
+                    "CD"
+                  ],
+                  "packed_birthday": 3
+                }
+              },
+              {
+                "season": 3,
+                "day": 30,
+                "original_and_localized_selection": {
+                  "names": [
+                    "AAAAAAAAAAAA",
+                    "BC",
+                    "CD"
+                  ],
+                  "packed_birthday": 119
+                }
+              }
+            ],
+            "checks": [
+              "four seasons x days 1/30 through normal controls",
+              "all 43 birthday OBJ cells uploaded intact",
+              "name input/delete, 12-character boundary, name/birthday/final cancel",
+              "final summary names/date and blank background tile",
+              "selected names/birthday match original ROM for same input"
+            ],
+            "limitations": [
+              "Keyboard retains original character set; Vietnamese name input not added",
+              "No real GBA hardware test"
+            ]
+          }
+        },
+        "start": {
+          "report": "build/platform-check/0.10.5/start/report.json",
+          "sha256": "44bb2e006821f366656a48ef8ee4cce5ba7ae4d5542b895dd3d2bed6cff56bd5",
+          "result": {
+            "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
+            "status": "passed",
+            "translated_records": 162,
+            "isolated_renderer_lines_with_guards": 239,
+            "relocated_pointer_fields_verified": 197,
+            "bag_title_buffers": [
+              {
+                "id": "ui.start.1000b4",
+                "encoded_bytes": 9,
+                "cells": 7,
+                "title_buffer_bytes": 12,
+                "next_field_backpack_size": 2
+              },
+              {
+                "id": "ui.start.1000bc",
+                "encoded_bytes": 10,
+                "cells": 8,
+                "title_buffer_bytes": 12,
+                "next_field_backpack_size": 2
+              }
+            ],
+            "book_title_cache_vram_offset": 2048,
+            "emulator_error_count": 0,
+            "limitations": [
+              "Screenshots require visual inspection; no OCR assertion",
+              "Empty animal/fish lists in this SRAM fixture; those labels have isolated renderer checks only",
+              "Map descriptions all pointer-verified and line-probed; all hotspots not manually replayed",
+              "Some day-unit graphics outside the localized HUD remain original",
+              "No real-hardware or full-season test"
+            ]
+          }
+        },
+        "date": {
+          "report": "build/platform-check/0.10.5/date/report.json",
+          "sha256": "fc5a2cc49b30137d5f7ffd7b7957a95b2baae34f4deb4e111b225a820f741776",
+          "result": {
+            "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
+            "revision": "vietnamese-calendar-heading-v19",
+            "limitations": [
+              "Calendar fixtures change UI view fields, not elapsed gameplay years",
+              "HUD game time still advances at native ten-minute ticks",
+              "No real hardware or full-season playthrough"
+            ],
+            "isolated_hud": {
+              "packed_date_time_cases_with_guards": 2580,
+              "incremental_setter_cases": 300,
+              "packed_date_time_unchanged": true,
+              "metadata_and_guard_bytes_unchanged": true
+            },
+            "weather_pixels_match_native": true,
+            "accent_lifecycle": {
+              "constructor_destructor_cycles": 64,
+              "resource_references_handles_and_slot_bitmap_restored": true,
+              "oam_capacity_cases": [
+                {
+                  "initial": 0,
+                  "final": 5,
+                  "guards_unchanged": true
+                },
+                {
+                  "initial": 127,
+                  "final": 128,
+                  "guards_unchanged": true
+                },
+                {
+                  "initial": 128,
+                  "final": 128,
+                  "guards_unchanged": true
+                }
+              ],
+              "fifth_argument_forwarding_and_r3_oam_pointer_preserved": true
+            },
+            "natural_calendar_open_close_cycles_with_resource_checks": 8,
+            "calendar_exit_and_sram_unchanged": true,
+            "natural_calendar_entry": true,
+            "shared_day_digit_tile_cache_restored": true,
+            "header_positions_and_year_glyphs_verified_in_oam_and_vram": true,
+            "calendar_source_tiles": 134,
+            "calendar_localized_tiles": 180,
+            "calendar_tile_budget": 256,
+            "emulator_error_count": 0,
+            "status": "passed",
+            "hud_view_fixture_count": 9,
+            "calendar_ui_fixture_count": 56
+          }
+        },
+        "items": {
+          "report": "build/platform-check/0.10.5/items/report.json",
+          "sha256": "8ea63434fbe83edae1e26b0cdcf36cbc2d7dbd956659d7661fd226ae81076d2e",
+          "result": {
+            "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
+            "status": "passed",
+            "record_ids": [
+              "item.tool.000.description",
+              "item.tool.001.description",
+              "item.tool.002.description",
+              "item.tool.003.description",
+              "item.tool.004.description",
+              "item.tool.005.description",
+              "item.tool.006.description",
+              "item.tool.007.description",
+              "item.tool.008.description",
+              "item.tool.009.description",
+              "item.tool.010.description",
+              "item.tool.011.description",
+              "item.tool.012.description",
+              "item.tool.013.description",
+              "item.tool.014.description",
+              "item.tool.015.description"
+            ],
+            "translated_records": 16,
+            "relocated_description_pointers_verified": 16,
+            "native_renderer_lines_with_buffer_guards": 48,
+            "emulator_error_count": 0,
+            "checks_scope": "isolated native renderer and actual ROM pointer payloads",
+            "natural_item_windows_tested": 0,
+            "limitations": [
+              "Upgraded/cursed/blessed tools not obtained through gameplay.",
+              "No natural item-description window encounter claimed; layout/playtest approval remains pending.",
+              "No real hardware test."
+            ]
+          }
+        }
+      },
+      "images": [
+        {
+          "reference": "docs/evidence/title-start.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/title-continue.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/title-cursor-start.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/title-cursor-continue.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/platform/full/intro-003.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/intro-next-day.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/platform/full/diary-saved.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/platform/full/diary-load-menu.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/platform/full/game-loaded.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/platform/new-game/new-game-birthday-confirm.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/platform/new-game/new-game-day.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/new-game-edit-again.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/new-game-farm-confirm.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/new-game-farm.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/new-game-final.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/new-game-pet-confirm.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/new-game-pet.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/new-game-player-confirm.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/new-game-player.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/platform/new-game/new-game-season.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/start-menu/start-diary.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/start-menu/start-rucksack.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/platform/start/start-world-map.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/start-menu/start-farm-map.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/start-menu/start-earnings.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/start-menu/start-memo.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/start-menu/start-tutorial.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/date-ui/hud-0-0650.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/date-ui/hud-0-day9.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/date-ui/hud-0-day10.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/date-ui/hud-1-0000.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/date-ui/hud-1-day2.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/date-ui/hud-2-1200.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/date-ui/hud-2-day2.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/date-ui/hud-3-2359.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/date-ui/hud-3-day2.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/date-ui/calendar-y1-0-1.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/date-ui/calendar-y1-1-30.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/date-ui/calendar-y1-2-30.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/date-ui/calendar-y1-3-30.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/date-ui/calendar-y100-0-1.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/date-ui/calendar-y200-3-30.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/date-ui/calendar-closed.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        }
+      ],
+      "golden_scene_count": 43,
+      "changed_pixels_total": 0
+    },
+    "dev": {
+      "library_sha256": "b044208a82af47a6ce3651cf2c289c575866a4764d6e9377c88001e60edea0c7",
+      "suites": {
+        "full": {
+          "report": "build/platform-check/dev/full/report.json",
+          "sha256": "72cae2dc7bd4f803a6f26024d2ea8a1e6606ba880f7a6095d2747ead79e7d472",
+          "result": {
+            "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
+            "checks": {
+              "ascii_native_outlines_at_common_baseline": 95,
+              "legacy_glyph_fallback_unchanged": 10,
+              "vietnamese_glyph_rasters_and_buffer_guards": 134,
+              "custom_code_width_without_drawing": 134,
+              "menu_multibyte_string_renderer_and_guards": 7,
+              "crop_item_pointers_and_multibyte_renderer": 15,
+              "full_charset_through_multibyte_string_renderer": 134,
+              "ascii_and_mixed_accent_spacing_strings": 9,
+              "no_save_title_cursor": {
+                "label": "title.start",
+                "x": 67,
+                "y": 114,
+                "visible_border_x": 82,
+                "gap_pixels": 0
+              },
+              "title_sprite_vram_matches_artwork": "28 tiles, 56x32 canvas, Bắt đầu",
+              "title_animation_matches_original_frames": 180,
+              "title_prompt_y_positions": [
+                110,
+                111,
+                112
+              ],
+              "title_initial_frame_pixels_outside_prompt_unchanged": "passed",
+              "normal_new_game_input_replay_frames": 13463,
+              "emulator_state_round_trip": "passed",
+              "saved_title_cursor_switch_left_right": [
+                {
+                  "label": "title.continue",
+                  "x": 134,
+                  "y": 114,
+                  "visible_border_x": 149,
+                  "gap_pixels": 0
+                },
+                {
+                  "label": "title.start",
+                  "x": 11,
+                  "y": 114,
+                  "visible_border_x": 26,
+                  "gap_pixels": 0
+                },
+                {
+                  "label": "title.continue",
+                  "x": 133,
+                  "y": 114,
+                  "visible_border_x": 149,
+                  "gap_pixels": 1
+                }
+              ],
+              "continue_sprite_vram_and_saved_title_animation": "40 tiles, 80x32; original arrow; 180 frames passed",
+              "saved_title_pixels_outside_prompts_unchanged": "passed",
+              "in_game_sram_save_and_cold_boot_load": {
+                "size": 32768,
+                "sha256": "010d245cc521b3d21b5eecfe1ee31ce5ab432f22cf1ed990defda9325451258b",
+                "save_integrity_after_reboot": "identical",
+                "screenshots": "diary-saved, diary-load-menu, game-loaded"
+              },
+              "emulator_error_count": 0
+            },
+            "limitations": [
+              "No real-hardware test",
+              "No full-season gameplay test",
+              "Popuri not encountered in normal gameplay replay",
+              "All item screens and description layouts not playtested"
+            ],
+            "status": "passed; screenshots require visual inspection"
+          }
+        },
+        "new-game": {
+          "report": "build/platform-check/dev/new-game/report.json",
+          "sha256": "a658447fed791230290c31cfeda029c46ee2ad959980888c7fd11185874c4eb5",
+          "result": {
+            "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
+            "status": "passed",
+            "cases": [
+              {
+                "season": 0,
+                "day": 1,
+                "original_and_localized_selection": {
+                  "names": [
+                    "A",
+                    "BC",
+                    "CD"
+                  ],
+                  "packed_birthday": 0
+                }
+              },
+              {
+                "season": 0,
+                "day": 30,
+                "original_and_localized_selection": {
+                  "names": [
+                    "AB",
+                    "BC",
+                    "CD"
+                  ],
+                  "packed_birthday": 116
+                }
+              },
+              {
+                "season": 1,
+                "day": 1,
+                "original_and_localized_selection": {
+                  "names": [
+                    "AB",
+                    "BC",
+                    "CD"
+                  ],
+                  "packed_birthday": 1
+                }
+              },
+              {
+                "season": 1,
+                "day": 30,
+                "original_and_localized_selection": {
+                  "names": [
+                    "AB",
+                    "BC",
+                    "CD"
+                  ],
+                  "packed_birthday": 117
+                }
+              },
+              {
+                "season": 2,
+                "day": 1,
+                "original_and_localized_selection": {
+                  "names": [
+                    "AB",
+                    "BC",
+                    "CD"
+                  ],
+                  "packed_birthday": 2
+                }
+              },
+              {
+                "season": 2,
+                "day": 30,
+                "original_and_localized_selection": {
+                  "names": [
+                    "AB",
+                    "BC",
+                    "CD"
+                  ],
+                  "packed_birthday": 118
+                }
+              },
+              {
+                "season": 3,
+                "day": 1,
+                "original_and_localized_selection": {
+                  "names": [
+                    "AB",
+                    "BC",
+                    "CD"
+                  ],
+                  "packed_birthday": 3
+                }
+              },
+              {
+                "season": 3,
+                "day": 30,
+                "original_and_localized_selection": {
+                  "names": [
+                    "AAAAAAAAAAAA",
+                    "BC",
+                    "CD"
+                  ],
+                  "packed_birthday": 119
+                }
+              }
+            ],
+            "checks": [
+              "four seasons x days 1/30 through normal controls",
+              "all 43 birthday OBJ cells uploaded intact",
+              "name input/delete, 12-character boundary, name/birthday/final cancel",
+              "final summary names/date and blank background tile",
+              "selected names/birthday match original ROM for same input"
+            ],
+            "limitations": [
+              "Keyboard retains original character set; Vietnamese name input not added",
+              "No real GBA hardware test"
+            ]
+          }
+        },
+        "start": {
+          "report": "build/platform-check/dev/start/report.json",
+          "sha256": "44bb2e006821f366656a48ef8ee4cce5ba7ae4d5542b895dd3d2bed6cff56bd5",
+          "result": {
+            "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
+            "status": "passed",
+            "translated_records": 162,
+            "isolated_renderer_lines_with_guards": 239,
+            "relocated_pointer_fields_verified": 197,
+            "bag_title_buffers": [
+              {
+                "id": "ui.start.1000b4",
+                "encoded_bytes": 9,
+                "cells": 7,
+                "title_buffer_bytes": 12,
+                "next_field_backpack_size": 2
+              },
+              {
+                "id": "ui.start.1000bc",
+                "encoded_bytes": 10,
+                "cells": 8,
+                "title_buffer_bytes": 12,
+                "next_field_backpack_size": 2
+              }
+            ],
+            "book_title_cache_vram_offset": 2048,
+            "emulator_error_count": 0,
+            "limitations": [
+              "Screenshots require visual inspection; no OCR assertion",
+              "Empty animal/fish lists in this SRAM fixture; those labels have isolated renderer checks only",
+              "Map descriptions all pointer-verified and line-probed; all hotspots not manually replayed",
+              "Some day-unit graphics outside the localized HUD remain original",
+              "No real-hardware or full-season test"
+            ]
+          }
+        },
+        "date": {
+          "report": "build/platform-check/dev/date/report.json",
+          "sha256": "fc5a2cc49b30137d5f7ffd7b7957a95b2baae34f4deb4e111b225a820f741776",
+          "result": {
+            "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
+            "revision": "vietnamese-calendar-heading-v19",
+            "limitations": [
+              "Calendar fixtures change UI view fields, not elapsed gameplay years",
+              "HUD game time still advances at native ten-minute ticks",
+              "No real hardware or full-season playthrough"
+            ],
+            "isolated_hud": {
+              "packed_date_time_cases_with_guards": 2580,
+              "incremental_setter_cases": 300,
+              "packed_date_time_unchanged": true,
+              "metadata_and_guard_bytes_unchanged": true
+            },
+            "weather_pixels_match_native": true,
+            "accent_lifecycle": {
+              "constructor_destructor_cycles": 64,
+              "resource_references_handles_and_slot_bitmap_restored": true,
+              "oam_capacity_cases": [
+                {
+                  "initial": 0,
+                  "final": 5,
+                  "guards_unchanged": true
+                },
+                {
+                  "initial": 127,
+                  "final": 128,
+                  "guards_unchanged": true
+                },
+                {
+                  "initial": 128,
+                  "final": 128,
+                  "guards_unchanged": true
+                }
+              ],
+              "fifth_argument_forwarding_and_r3_oam_pointer_preserved": true
+            },
+            "natural_calendar_open_close_cycles_with_resource_checks": 8,
+            "calendar_exit_and_sram_unchanged": true,
+            "natural_calendar_entry": true,
+            "shared_day_digit_tile_cache_restored": true,
+            "header_positions_and_year_glyphs_verified_in_oam_and_vram": true,
+            "calendar_source_tiles": 134,
+            "calendar_localized_tiles": 180,
+            "calendar_tile_budget": 256,
+            "emulator_error_count": 0,
+            "status": "passed",
+            "hud_view_fixture_count": 9,
+            "calendar_ui_fixture_count": 56
+          }
+        },
+        "items": {
+          "report": "build/platform-check/dev/items/report.json",
+          "sha256": "8ea63434fbe83edae1e26b0cdcf36cbc2d7dbd956659d7661fd226ae81076d2e",
+          "result": {
+            "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
+            "status": "passed",
+            "record_ids": [
+              "item.tool.000.description",
+              "item.tool.001.description",
+              "item.tool.002.description",
+              "item.tool.003.description",
+              "item.tool.004.description",
+              "item.tool.005.description",
+              "item.tool.006.description",
+              "item.tool.007.description",
+              "item.tool.008.description",
+              "item.tool.009.description",
+              "item.tool.010.description",
+              "item.tool.011.description",
+              "item.tool.012.description",
+              "item.tool.013.description",
+              "item.tool.014.description",
+              "item.tool.015.description"
+            ],
+            "translated_records": 16,
+            "relocated_description_pointers_verified": 16,
+            "native_renderer_lines_with_buffer_guards": 48,
+            "emulator_error_count": 0,
+            "checks_scope": "isolated native renderer and actual ROM pointer payloads",
+            "natural_item_windows_tested": 0,
+            "limitations": [
+              "Upgraded/cursed/blessed tools not obtained through gameplay.",
+              "No natural item-description window encounter claimed; layout/playtest approval remains pending.",
+              "No real hardware test."
+            ]
+          }
+        }
+      },
+      "images": [
+        {
+          "reference": "docs/evidence/title-start.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/title-continue.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/title-cursor-start.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/title-cursor-continue.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/platform/full/intro-003.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/intro-next-day.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/platform/full/diary-saved.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/platform/full/diary-load-menu.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/platform/full/game-loaded.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/platform/new-game/new-game-birthday-confirm.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/platform/new-game/new-game-day.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/new-game-edit-again.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/new-game-farm-confirm.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/new-game-farm.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/new-game-final.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/new-game-pet-confirm.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/new-game-pet.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/new-game-player-confirm.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/new-game-player.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/platform/new-game/new-game-season.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/start-menu/start-diary.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/start-menu/start-rucksack.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/platform/start/start-world-map.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/start-menu/start-farm-map.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/start-menu/start-earnings.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/start-menu/start-memo.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/start-menu/start-tutorial.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/date-ui/hud-0-0650.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/date-ui/hud-0-day9.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/date-ui/hud-0-day10.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/date-ui/hud-1-0000.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/date-ui/hud-1-day2.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/date-ui/hud-2-1200.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/date-ui/hud-2-day2.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/date-ui/hud-3-2359.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/date-ui/hud-3-day2.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/date-ui/calendar-y1-0-1.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/date-ui/calendar-y1-1-30.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/date-ui/calendar-y1-2-30.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/date-ui/calendar-y1-3-30.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/date-ui/calendar-y100-0-1.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/date-ui/calendar-y200-3-30.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        },
+        {
+          "reference": "docs/evidence/date-ui/calendar-closed.png",
+          "changed_pixels": 0,
+          "size": [
+            240,
+            160
+          ]
+        }
+      ],
+      "golden_scene_count": 43,
+      "changed_pixels_total": 0
+    }
+  },
+  "pytest_log": "build/platform-check/logs/pytest.log",
+  "pytest": {
+    "passed": 117,
+    "failed": 0,
+    "skipped": 0
+  },
+  "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
+  "patch_sha256": "80176c6a5cb844213a488ef1e4cfb904409312b05f6a56f6ea4747344a285b1f",
+  "repeated_builds_identical": true,
+  "release_ips_round_trip": true,
+  "locked_files_checked": 28,
+  "golden_references_checked": 43,
+  "emulator_replay_run": true,
+  "recorded_at": "2026-10-23T09:23:29.293298+00:00",
+  "baseline_path": "localization/platform_baseline.json",
+  "baseline_revision": "platform-v1",
+  "original_report_sha256": "792e31e50e570fc98b9ed13b7cecea374521286630911935cb623985a436b2f4",
+  "report_paths_note": "Detailed reports/logs under build/ are local reproducible outputs; results embedded here preserve the verification scope after clean."
+}

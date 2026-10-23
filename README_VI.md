@@ -32,7 +32,7 @@ Không chứa hoặc tự tải ROM thương mại. Bản vá IPS nằm trong `p
   Bản sửa v2 xử lý lỗi lệch thân chữ/spacing; xem ảnh trước–sau trong `docs/evidence`.
 - Chèn lại ở vùng ROM mở rộng, giữ nguyên bytecode sự kiện và dữ liệu gameplay.
 - Kiểm thử mGBA: boot, tạo game mới, hội thoại Thomas, 7 nhãn menu, render font,
-  lịch/HUD và ghi Diary, nạp lại save sau boot; 113 pytest đạt. Chi tiết và giới hạn trong báo cáo tiến độ.
+  lịch/HUD và ghi Diary, nạp lại save sau boot; 117 pytest đạt. Chi tiết và giới hạn trong báo cáo tiến độ.
 
 Chưa xác minh toàn bộ gameplay, mọi màn hình vật phẩm, TV/sách/sự kiện, phần cứng
 GBA thật hoặc nhập tên người chơi có dấu. Phần lớn hội thoại vẫn là tiếng Anh.
@@ -51,6 +51,10 @@ Chạy `make clean` để xóa đầu ra build/cache; lệnh này giữ nguồn,
 phát hành, môi trường `.venv/` và dữ liệu trong `local-data/`.
 
 ## Lộ trình
+
+[Bộ chuẩn nền tảng](docs/PLATFORM_BASELINE.md) chốt font, bố cục và 43 ảnh
+framebuffer. `make platform-check` kiểm hai build/IPS và pytest;
+`make platform-emulator` bổ sung replay và so pixel trên hai mGBA.
 
 [Roadmap Việt hóa](docs/ROADMAP_VI.md): mốc nội dung, công cụ, QA và điều kiện phát hành.
 

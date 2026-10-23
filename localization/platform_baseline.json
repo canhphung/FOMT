@@ -1,0 +1,495 @@
+{
+  "schema_version": 1,
+  "revision": "platform-v1",
+  "created_at": "2026-10-23",
+  "reference_target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
+  "policy": "Reference target is provenance, not a ban on translating more records. Source locks and golden UI scenes require explicit review when changed. No automatic baseline updates.",
+  "visual_review": "technical regression reference; user approval of the complete gallery pending; translation QA unchanged",
+  "contracts": {
+    "dialogue": {
+      "revision": "native-outline-aligned-v2",
+      "mask": [
+        8,
+        16
+      ],
+      "baseline_y": 13,
+      "advance": 8,
+      "vietnamese_glyphs": 134,
+      "ascii_glyphs": 95,
+      "encoding": "FOMT-VI-EB-v1; EB40-EBC5, not UTF-8"
+    },
+    "title": {
+      "revision": "native-thin-double-outline-v5",
+      "cursor_revision": "visible-left-edge-v1",
+      "outlines_outside_in": [
+        "black",
+        "white"
+      ],
+      "fill": "#00DE73",
+      "canvases": {
+        "start": [
+          56,
+          32
+        ],
+        "continue": [
+          80,
+          32
+        ]
+      }
+    },
+    "date": {
+      "revision": "vietnamese-calendar-heading-v19",
+      "hud_baseline_y": 6,
+      "clock_advance": 8,
+      "clock_x": 8,
+      "calendar_year_advance": 10,
+      "calendar_word_gap": 4,
+      "calendar_group_gap": 6,
+      "calendar_tiles": 180,
+      "calendar_tile_budget": 256,
+      "hud_extra_oam": 1,
+      "hud_extra_vram_bytes": 32,
+      "hud_extra_ram_bytes": 36
+    },
+    "rendering": "native pixel art; no antialiasing; weather icons and HUD size unchanged"
+  },
+  "locked_files": [
+    {
+      "path": "Makefile",
+      "sha256": "0d4e3c27906d62545f7d97ad8ce0ebb4669df1cebe0c044e8dac54f86200b754"
+    },
+    {
+      "path": "requirements-dev.txt",
+      "sha256": "4ee4a80c8deb67f0b26c34e538d620b650748830f5e54b4b5d55f488fb0523a3"
+    },
+    {
+      "path": "localization/font/encoding.json",
+      "sha256": "34a80489874247c581a959fde77ff8e4d504206896298864048c7382421c2756"
+    },
+    {
+      "path": "localization/vi/date_ui.json",
+      "sha256": "55ac5a1caaeca60d84bd32e43fd97a9c992897b9701fbcbd35c65e70ba7dae26"
+    },
+    {
+      "path": "tools/vietnamese_font.py",
+      "sha256": "d9f4761b617f26a84eb50963affb7821be87dbd628ad51885118b5bf5fedb84d"
+    },
+    {
+      "path": "tools/title_graphics.py",
+      "sha256": "0d8344cbee4750b3b262f28b1cf0e842535a9d58f8b097ba1cf0b6a4b21a4e47"
+    },
+    {
+      "path": "tools/title_cursor.py",
+      "sha256": "3f2aea855c24649652256191122e0c324c3aa4903a031038bf8d93e77ef50ce0"
+    },
+    {
+      "path": "tools/date_ui.py",
+      "sha256": "0b12c1b1be60e140c3a785b52edf4e3dfc4ca46dd1467027d9bc561cd4331853"
+    },
+    {
+      "path": "tools/hud_accent.py",
+      "sha256": "8d5244adb073766995a1524684e941f734f1c2f41b23c6cecd7e3fc698fd8117"
+    },
+    {
+      "path": "tools/calendar_layout.py",
+      "sha256": "bdf358eeedfb12b6c162a54d403aa2c5904518c2eb597a95b7972875479975fb"
+    },
+    {
+      "path": "tools/new_game_ui.py",
+      "sha256": "82c3eb5fe57df3cc270f951d74737940e6735d721b39004f78564e4527614440"
+    },
+    {
+      "path": "tools/intro_text.py",
+      "sha256": "b426c009b7b2c14d35b38749b37c968ac6c9399759603ef1e8f1d9ea67007454"
+    },
+    {
+      "path": "tools/start_menu.py",
+      "sha256": "7f9c4f29e9410bc633f552b4ebc50117e82122ab3984a34af94651835d9a6a7b"
+    },
+    {
+      "path": "tools/fomt_text.py",
+      "sha256": "3d7faf70a0b969f0a571276f80fbcf6857bd2012a58dc38519b234f71368afd8"
+    },
+    {
+      "path": "tools/text_extractor.py",
+      "sha256": "2dc08da4618c803a95e8a96d34bd93801c67767382dc7a1c8aa1cd0a872dd77b"
+    },
+    {
+      "path": "tools/text_inserter.py",
+      "sha256": "16937106b2505fdec175505191b81a0e21373a02eaf4958dd3bb38169047bea6"
+    },
+    {
+      "path": "tools/ips.py",
+      "sha256": "4613159f83693ea71a6995f6be8a8bf94102b5b76338e2311fd7ba1315fbe9db"
+    },
+    {
+      "path": "tools/apply_ips.py",
+      "sha256": "ecee131bbdda77223845734d1479c2aebd25414d44e3b72fe2744194b05f8a24"
+    },
+    {
+      "path": "tools/mgba_session.py",
+      "sha256": "ef305726528d1e645cd8c0e26dd903a70656945adb818783c69a4ae674fe0a7f"
+    },
+    {
+      "path": "tools/emulator_smoke.py",
+      "sha256": "88a979f7a1560049826dedc0ddfb8bbffa8f726bff59115dc8aad70b966b9cd3"
+    },
+    {
+      "path": "tools/new_game_smoke.py",
+      "sha256": "0a83eac8d577faf953f654daa74af2603db56dbef563090ec31646d3f6d9d4e8"
+    },
+    {
+      "path": "tools/start_menu_smoke.py",
+      "sha256": "78ce3906a2a5942fa647ff82f19661eebbf690f1deb79ef7d69f0fb7c9f5854a"
+    },
+    {
+      "path": "tools/date_ui_smoke.py",
+      "sha256": "bd27fbda857edc09983f5cba09391e9baff2be44f047759d8d7f27ff820f1680"
+    },
+    {
+      "path": "tools/item_batch_smoke.py",
+      "sha256": "d24e9db90e5de02991ed8c6b3b9e7c8e8fddf40afe49d0a47cab6ed57fb14bb0"
+    },
+    {
+      "path": "tools/intro_smoke.py",
+      "sha256": "3a1391878f0db61ae513d8f6a57bbee89d2fdfcad18b53db323ab253d78c9fc9"
+    },
+    {
+      "path": "tools/platform_check.py",
+      "sha256": "55c60e2587c0134624e0a3e90d094b97ec7087999585d8590c9446c19e2d160c"
+    },
+    {
+      "path": "tools/mgba_bridge.c",
+      "sha256": "25683ed16b8a18051073ec93ed8257ab94322f225570bddc6012598e7fd41b32"
+    },
+    {
+      "path": "tools/build_mgba_bridge.sh",
+      "sha256": "eb2ded3fa7357b810666fb969224a9791303f06cceb324d15cfbc8e456a6bc7e"
+    }
+  ],
+  "save_fixture": {
+    "path": "local-data/fixtures/day2.sram",
+    "sha256": "010d245cc521b3d21b5eecfe1ee31ce5ab432f22cf1ed990defda9325451258b",
+    "distribution": "local only; generated by normal in-game save, cold boot for replay"
+  },
+  "emulators": {
+    "0.10.5": {
+      "library": "build/mgba_bridge-0.10.5.so",
+      "reference_source_commit": "26b7884bc25a5933960f3cdcd98bac1ae14d42e2"
+    },
+    "dev": {
+      "library": "build/mgba_bridge.so",
+      "reference_source_commit": "fd9dc5c2cbf234365068855851107e762fc6211b"
+    }
+  },
+  "images": [
+    {
+      "suite": "full",
+      "capture": "title-start.png",
+      "reference": "docs/evidence/title-start.png",
+      "sha256": "fdb3d717a1748d1742dd53ea011bc4b758e2ebe642d88a3cc4c186a8a7d62db2",
+      "kind": "native mGBA framebuffer; exact RGBA comparison"
+    },
+    {
+      "suite": "full",
+      "capture": "title-continue.png",
+      "reference": "docs/evidence/title-continue.png",
+      "sha256": "e4dc99c1df5d2b841bf31007a2cab03a6618fae97e766d2d244c469bc5a375ee",
+      "kind": "native mGBA framebuffer; exact RGBA comparison"
+    },
+    {
+      "suite": "full",
+      "capture": "title-cursor-start.png",
+      "reference": "docs/evidence/title-cursor-start.png",
+      "sha256": "68147c1c3d44e8e66380a76b1bdc05688490d8dd55664ce2c91c65ce2afdc316",
+      "kind": "native mGBA framebuffer; exact RGBA comparison"
+    },
+    {
+      "suite": "full",
+      "capture": "title-cursor-continue.png",
+      "reference": "docs/evidence/title-cursor-continue.png",
+      "sha256": "953a1b36bebbe32c8a21a0b29cee21a3f0743fccf208446b063c34d12d9419b6",
+      "kind": "native mGBA framebuffer; exact RGBA comparison"
+    },
+    {
+      "suite": "full",
+      "capture": "intro-003.png",
+      "reference": "docs/evidence/platform/full/intro-003.png",
+      "sha256": "2761d4919597aa9f1f429408cae149a492baf6a94035ffff3f8e2a6f581fc6ec",
+      "kind": "native mGBA framebuffer; exact RGBA comparison"
+    },
+    {
+      "suite": "full",
+      "capture": "intro-next-day.png",
+      "reference": "docs/evidence/intro-next-day.png",
+      "sha256": "41538cafb93d0200de96fa153cd99f37deb2b0254076f9467903f115ec88f688",
+      "kind": "native mGBA framebuffer; exact RGBA comparison"
+    },
+    {
+      "suite": "full",
+      "capture": "diary-saved.png",
+      "reference": "docs/evidence/platform/full/diary-saved.png",
+      "sha256": "35f4a48ad7d58b95531758f5f0edbc2db61a5a752f05a082ee000fd5a56eff30",
+      "kind": "native mGBA framebuffer; exact RGBA comparison"
+    },
+    {
+      "suite": "full",
+      "capture": "diary-load-menu.png",
+      "reference": "docs/evidence/platform/full/diary-load-menu.png",
+      "sha256": "c652a287bfe82f80b60fea945eaa69511423980b368714b6eb8fc78ad4ef5f31",
+      "kind": "native mGBA framebuffer; exact RGBA comparison"
+    },
+    {
+      "suite": "full",
+      "capture": "game-loaded.png",
+      "reference": "docs/evidence/platform/full/game-loaded.png",
+      "sha256": "3848148f549729ccd67df90004a6184bd05a988a934ba4ce3cc0d3c2f683a089",
+      "kind": "native mGBA framebuffer; exact RGBA comparison"
+    },
+    {
+      "suite": "new-game",
+      "capture": "new-game-birthday-confirm.png",
+      "reference": "docs/evidence/platform/new-game/new-game-birthday-confirm.png",
+      "sha256": "fe067d909f37cc755bb7a566178ca151e903f73490d0fa88cacfcf3cd1c292d3",
+      "kind": "native mGBA framebuffer; exact RGBA comparison"
+    },
+    {
+      "suite": "new-game",
+      "capture": "new-game-day.png",
+      "reference": "docs/evidence/platform/new-game/new-game-day.png",
+      "sha256": "2c983cb879f36b0cf45c9ba63dbb7d438e0780bbacb604023ce90b4a4c79075e",
+      "kind": "native mGBA framebuffer; exact RGBA comparison"
+    },
+    {
+      "suite": "new-game",
+      "capture": "new-game-edit-again.png",
+      "reference": "docs/evidence/new-game-edit-again.png",
+      "sha256": "a9d304b7fb838cd0b8783200cc078eb9099e554ecb9946d6aebf019958049629",
+      "kind": "native mGBA framebuffer; exact RGBA comparison"
+    },
+    {
+      "suite": "new-game",
+      "capture": "new-game-farm-confirm.png",
+      "reference": "docs/evidence/new-game-farm-confirm.png",
+      "sha256": "8ce03289329671d45c82897df20dfc6870a199ecf81a2cecc5dcdfa2bfe69e5a",
+      "kind": "native mGBA framebuffer; exact RGBA comparison"
+    },
+    {
+      "suite": "new-game",
+      "capture": "new-game-farm.png",
+      "reference": "docs/evidence/new-game-farm.png",
+      "sha256": "9aca52262a7afb061cdb9e260a6a7a4a324479206709fc8a6000dfed3848144c",
+      "kind": "native mGBA framebuffer; exact RGBA comparison"
+    },
+    {
+      "suite": "new-game",
+      "capture": "new-game-final.png",
+      "reference": "docs/evidence/new-game-final.png",
+      "sha256": "af8f57f67b0c3958bbd2228f202f7f865b0b5bbc3f59054c9ba86722ac03770e",
+      "kind": "native mGBA framebuffer; exact RGBA comparison"
+    },
+    {
+      "suite": "new-game",
+      "capture": "new-game-pet-confirm.png",
+      "reference": "docs/evidence/new-game-pet-confirm.png",
+      "sha256": "1747bde6cbbb88dc13b63749a42add9a8219c918e000c093162b38e21a4446fe",
+      "kind": "native mGBA framebuffer; exact RGBA comparison"
+    },
+    {
+      "suite": "new-game",
+      "capture": "new-game-pet.png",
+      "reference": "docs/evidence/new-game-pet.png",
+      "sha256": "c1e7245051f5bc7488ab581ff94bb57844b2d3f04e573038c53212adf3a82ef3",
+      "kind": "native mGBA framebuffer; exact RGBA comparison"
+    },
+    {
+      "suite": "new-game",
+      "capture": "new-game-player-confirm.png",
+      "reference": "docs/evidence/new-game-player-confirm.png",
+      "sha256": "49a68b112759f64b1f32b13a1db6efb0933b3b494125af523ca18f0a7fce39fe",
+      "kind": "native mGBA framebuffer; exact RGBA comparison"
+    },
+    {
+      "suite": "new-game",
+      "capture": "new-game-player.png",
+      "reference": "docs/evidence/new-game-player.png",
+      "sha256": "9582b05053a2f5b43574fb6d5533962963515532261b06f5d6386edcd248f78c",
+      "kind": "native mGBA framebuffer; exact RGBA comparison"
+    },
+    {
+      "suite": "new-game",
+      "capture": "new-game-season.png",
+      "reference": "docs/evidence/platform/new-game/new-game-season.png",
+      "sha256": "5628b4e05ff485f7060a8d72c4dc631ad9729bae6b41fdb74846295efb53ddbb",
+      "kind": "native mGBA framebuffer; exact RGBA comparison"
+    },
+    {
+      "suite": "start",
+      "capture": "start-diary.png",
+      "reference": "docs/evidence/start-menu/start-diary.png",
+      "sha256": "022cb866cc5b54f6eaa531a03a2cde96bf92b52449fa0da39a3fa8a901ff82b2",
+      "kind": "native mGBA framebuffer; exact RGBA comparison"
+    },
+    {
+      "suite": "start",
+      "capture": "start-rucksack.png",
+      "reference": "docs/evidence/start-menu/start-rucksack.png",
+      "sha256": "eed5ce6a82013999e7cd7f6e2500fd64ea01da2c23bd165adf873b3b5a374a36",
+      "kind": "native mGBA framebuffer; exact RGBA comparison"
+    },
+    {
+      "suite": "start",
+      "capture": "start-world-map.png",
+      "reference": "docs/evidence/platform/start/start-world-map.png",
+      "sha256": "dc607b77534a766c08dc90c61164102dc27ccdfd617e54810673704e890c9d25",
+      "kind": "native mGBA framebuffer; exact RGBA comparison"
+    },
+    {
+      "suite": "start",
+      "capture": "start-farm-map.png",
+      "reference": "docs/evidence/start-menu/start-farm-map.png",
+      "sha256": "607040e19988afff9fd4729168a7ff187db603a0f74157b2179297b4af6aa785",
+      "kind": "native mGBA framebuffer; exact RGBA comparison"
+    },
+    {
+      "suite": "start",
+      "capture": "start-earnings.png",
+      "reference": "docs/evidence/start-menu/start-earnings.png",
+      "sha256": "37462367125f71163c7f1f8c8bf2754be5b17d1d6a3d6d25c35edd95be6a935e",
+      "kind": "native mGBA framebuffer; exact RGBA comparison"
+    },
+    {
+      "suite": "start",
+      "capture": "start-memo.png",
+      "reference": "docs/evidence/start-menu/start-memo.png",
+      "sha256": "7fadbae52cc67d9cbbb038f7c722169e157f28a58c0d1a62eafb305cd3c1fdcc",
+      "kind": "native mGBA framebuffer; exact RGBA comparison"
+    },
+    {
+      "suite": "start",
+      "capture": "start-tutorial.png",
+      "reference": "docs/evidence/start-menu/start-tutorial.png",
+      "sha256": "71cbdf6bf4bc310750f5f5918adecef555d0b90f386269cd58de8595db0314ff",
+      "kind": "native mGBA framebuffer; exact RGBA comparison"
+    },
+    {
+      "suite": "date",
+      "capture": "hud-0-0650.png",
+      "reference": "docs/evidence/date-ui/hud-0-0650.png",
+      "sha256": "b42b40e5fd9452488a17e6fbebdd96b1240b50ae00bd62792be9b01e2c4925e7",
+      "kind": "native mGBA framebuffer; exact RGBA comparison"
+    },
+    {
+      "suite": "date",
+      "capture": "hud-0-day9.png",
+      "reference": "docs/evidence/date-ui/hud-0-day9.png",
+      "sha256": "f4a9c2d51b754232454875e8f33068ecb1fe60033c9f0d54dd428fc61cddec0e",
+      "kind": "native mGBA framebuffer; exact RGBA comparison"
+    },
+    {
+      "suite": "date",
+      "capture": "hud-0-day10.png",
+      "reference": "docs/evidence/date-ui/hud-0-day10.png",
+      "sha256": "f932c7ad1da886c5d62e073fb049ab48ffbacb929ee757bd2967edca852d15a8",
+      "kind": "native mGBA framebuffer; exact RGBA comparison"
+    },
+    {
+      "suite": "date",
+      "capture": "hud-1-0000.png",
+      "reference": "docs/evidence/date-ui/hud-1-0000.png",
+      "sha256": "e0ad84bf4cbc6e78d2b86814101627a2a561ad982fefa77f43320f62e5d16e59",
+      "kind": "native mGBA framebuffer; exact RGBA comparison"
+    },
+    {
+      "suite": "date",
+      "capture": "hud-1-day2.png",
+      "reference": "docs/evidence/date-ui/hud-1-day2.png",
+      "sha256": "00ed2a1ee163a242a2ef7c83bb5ce32a30a020ba9ee0124186a49d4100e5b63f",
+      "kind": "native mGBA framebuffer; exact RGBA comparison"
+    },
+    {
+      "suite": "date",
+      "capture": "hud-2-1200.png",
+      "reference": "docs/evidence/date-ui/hud-2-1200.png",
+      "sha256": "918a57018d251210e70e13625e3b2f960268b0e26b7eddad32ff5edd4c1ec033",
+      "kind": "native mGBA framebuffer; exact RGBA comparison"
+    },
+    {
+      "suite": "date",
+      "capture": "hud-2-day2.png",
+      "reference": "docs/evidence/date-ui/hud-2-day2.png",
+      "sha256": "64fd0b03822ed0c6233ed09ee9ec34d05e0701c834f08aa44bfaa063f95499d6",
+      "kind": "native mGBA framebuffer; exact RGBA comparison"
+    },
+    {
+      "suite": "date",
+      "capture": "hud-3-2359.png",
+      "reference": "docs/evidence/date-ui/hud-3-2359.png",
+      "sha256": "a9cc056977b37b99d00636de5cd3044f343ea06bd9da9cba8b02b84683cefffa",
+      "kind": "native mGBA framebuffer; exact RGBA comparison"
+    },
+    {
+      "suite": "date",
+      "capture": "hud-3-day2.png",
+      "reference": "docs/evidence/date-ui/hud-3-day2.png",
+      "sha256": "8ddc60194b674f1cade42129d3debf1a2e02d1a80c84a1904f2caae4d4b53840",
+      "kind": "native mGBA framebuffer; exact RGBA comparison"
+    },
+    {
+      "suite": "date",
+      "capture": "calendar-y1-0-1.png",
+      "reference": "docs/evidence/date-ui/calendar-y1-0-1.png",
+      "sha256": "c405246deb30fa7981090e09506c4d5e6980029974e809869fa157db6555856e",
+      "kind": "native mGBA framebuffer; exact RGBA comparison"
+    },
+    {
+      "suite": "date",
+      "capture": "calendar-y1-1-30.png",
+      "reference": "docs/evidence/date-ui/calendar-y1-1-30.png",
+      "sha256": "33951191643b13f9629b66934c7041146df28409f3685c29e20838e0d17d6105",
+      "kind": "native mGBA framebuffer; exact RGBA comparison"
+    },
+    {
+      "suite": "date",
+      "capture": "calendar-y1-2-30.png",
+      "reference": "docs/evidence/date-ui/calendar-y1-2-30.png",
+      "sha256": "eb22b88a0ec9ced257add9324aad8f8907b70b202679e7b61b004b9c1550c3e0",
+      "kind": "native mGBA framebuffer; exact RGBA comparison"
+    },
+    {
+      "suite": "date",
+      "capture": "calendar-y1-3-30.png",
+      "reference": "docs/evidence/date-ui/calendar-y1-3-30.png",
+      "sha256": "313e0661c598ed1c45857951d649d0c9ed2f8da63a66191bf0d093ec226219d7",
+      "kind": "native mGBA framebuffer; exact RGBA comparison"
+    },
+    {
+      "suite": "date",
+      "capture": "calendar-y100-0-1.png",
+      "reference": "docs/evidence/date-ui/calendar-y100-0-1.png",
+      "sha256": "a2cb391ebf49a8f4dfd9f060f7fae7facc55cf72937558fadcb8fb6ddd43d789",
+      "kind": "native mGBA framebuffer; exact RGBA comparison"
+    },
+    {
+      "suite": "date",
+      "capture": "calendar-y200-3-30.png",
+      "reference": "docs/evidence/date-ui/calendar-y200-3-30.png",
+      "sha256": "0223e57b6345bbcc1c2817cbb397e140a740f3980b7ba75cb89a41f4223a6b30",
+      "kind": "native mGBA framebuffer; exact RGBA comparison"
+    },
+    {
+      "suite": "date",
+      "capture": "calendar-closed.png",
+      "reference": "docs/evidence/date-ui/calendar-closed.png",
+      "sha256": "ed45e7d56c4ee1177ce8a96cec94cd8fc153ffc8b0be07459a6a40c13d5116de",
+      "kind": "native mGBA framebuffer; exact RGBA comparison"
+    }
+  ],
+  "limitations": [
+    "No real GBA hardware test or full-season playthrough.",
+    "Natural windows for all tool descriptions and Popuri encounter remain untested.",
+    "Golden replays cover listed scenes only; they do not approve all translations.",
+    "Calendar year fixtures are UI probes, not proof of elapsed gameplay years.",
+    "Emulator library hashes are recorded per run; reference source commits describe the tested checkouts."
+  ]
+}
