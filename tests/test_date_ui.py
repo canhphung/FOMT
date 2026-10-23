@@ -6,6 +6,7 @@ from pathlib import Path
 import pytest
 from fomt_text import FormatError,verified_rom
 import date_ui
+import hud_accent
 
 
 @pytest.fixture(scope='module')
@@ -16,7 +17,8 @@ def rom():
 
 
 @pytest.mark.parametrize('site',[*date_ui.HUD_SITES.values(),date_ui.DIGITS,date_ui.CALENDAR_POINTER,
-                                date_ui.CALENDAR_ASSET,date_ui.CALENDAR_HEADER_SITE,date_ui.CALENDAR_WEEK_X_SITE])
+                                date_ui.CALENDAR_ASSET,date_ui.CALENDAR_HEADER_SITE,date_ui.CALENDAR_WEEK_X_SITE,
+                                *hud_accent.SITES.values(),hud_accent.SIZE_SITE])
 def test_reject_changed_source(rom,site):
     bad=bytearray(rom);bad[site]^=1
     with pytest.raises(FormatError):

@@ -6,6 +6,7 @@ Only display functions are redirected; the game's packed date/time is read-only.
 from __future__ import annotations
 import hashlib
 import json
+import hud_accent
 from pathlib import Path
 from dataclasses import dataclass
 from fomt_text import FormatError, ROM_BASE
@@ -22,7 +23,7 @@ PROFILE = json.loads((Path(__file__).resolve().parents[1]/'localization/vi/date_
 SEASONS = tuple(PROFILE['seasons'])
 WEEKDAYS = tuple(PROFILE['weekdays'])
 if len(SEASONS)!=4 or len(WEEKDAYS)!=7:raise FormatError('date UI requires four seasons and seven weekdays')
-REVISION = 'vietnamese-date-24h-centered-grave-v14'
+REVISION = 'vietnamese-date-24h-raised-grave-v15'
 
 # Six-row capitals/digits and five-row lowercase, wider pixel bodies.
 # The eight-pixel line still reserves the top for accents and bottom for dots.
@@ -57,6 +58,7 @@ DIGITS_SHA256 = 'ad1d30345396b72746582a6140ac4dd5911332400733e33634b49d4039bedfe
 CALENDAR_SHA256 = '3c47dd074560851632fbf494299b6fd99557d62111d576a42f2dff8a1d1078c8'
 
 def verify(rom):
+    hud_accent.verify(rom)
     if hashlib.sha256(rom[DIGITS:DIGITS+11*32]).hexdigest()!=DIGITS_SHA256:
         raise FormatError('HUD native numeral tiles mismatch')
     for key,at in HUD_SITES.items():
@@ -153,6 +155,11 @@ def tiles(pixels):
 def season_pixels(season):
     """24x8 region: every season must fit above the restored clock."""
     pixels=tiny_pixels(season,24,8)
+    if season=='Hè':
+        # The overlay carries both grave pixels one scanline above the old
+        # position; remove them from the native eight-row font buffer.
+        start=hud_glyph('H').advance
+        for x,y in hud_glyph('è').marks:pixels[y][start+x]=0
     right=max(x for row in pixels for x,value in enumerate(row) if value)
     shift=23-right
     return [[0]*shift+row[:24-shift] for row in pixels]
@@ -229,11 +236,18 @@ def assemble_hud(address,cache):
         bls valid
         movs r1, #0
     valid:
+        movs r2, #0
+        cmp r1, #1
+        bne visibility_ready
+        movs r2, #1
+    visibility_ready:
+        ldr r3, visibility_offset
+        strb r2, [r4,r3]
         movs r2, #96
         muls r1, r2
         ldr r2, cache
         adds r1, r1, r2
-    '''+copy(0x84,96,'season')+flags+f'\ncache: .word {cache["season"]}\n')
+    '''+copy(0x84,96,'season')+flags+f'\ncache: .word {cache["season"]}\nvisibility_offset: .word {hud_accent.VISIBLE}\n')
     emit('day',f'''
         push {{r4,r5,r6,r7,lr}}
         ldr r4, [r0]

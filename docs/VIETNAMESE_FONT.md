@@ -165,20 +165,14 @@ trong [START_MENU.md](START_MENU.md). Font glyph v2 không đổi.
 
 ## Font lịch và HUD ngày giờ
 
-Lịch dùng nét native, bảng thứ CN/T2…T7. HUD v7 giữ `HUDGlyph`/`draw_run()`
-với advance và bearing riêng, baseline dòng ngày y=6; không padding bằng
-space, font vector hoặc anti-aliasing. Đổi nhãn mùa Hạ thành Hè trên HUD/lịch.
-Dấu huyền è ở y=0/1, hàng trống y=2, thân y=3–6; không có dấu nặng tràn vào
-dòng giờ. Mùa nằm trong 24x8, đồng hồ trở về x=8..47, y=8..15 như trước v6.
-Đồng hồ giữ tile, palette và advance 8 pixel gốc; hai OBJ 32x16 và icon thời
-tiết không đổi. V8 vẽ lại thân e/è, dùng `clear_pixels` giữ lòng chữ và lỗ
-mở bên phải trong suốt khi đổ bóng; không đổi baseline hoặc dấu. V9 nới e/è thành thân 5 pixel, advance 6 pixel
-ở bản thử trước. V10 thay thân e/è bằng bitmap năm hàng 0110/1001/1111/1000/0110,
-advance 5 pixel; nét dọc có hàng riêng dưới thanh ngang. Dấu huyền gọn một
-pixel ở y=0, y=1 trống, thân y=2–6 ở bản trước. V11 thêm pixel đuôi phải
-và kéo dấu huyền thành hai pixel chéo; bearing X=2/advance=7 riêng cho è
-giữ dấu tách khỏi thân/H. Thân e và đồng hồ giữ vị trí, H lùi trái 2 pixel ở v11. V12 chỉ dịch dấu huyền
-sang phải 4 pixel thành (4,0)/(5,1). V13 nâng pixel (5,1) lên (5,0),
-giữ pixel trên cùng ở bản trước. V14 sửa thành dấu huyền chéo (3,0)/(4,1)
-có tâm x=3,5 trùng thân e (x=2..5), không dịch thân, H hay clock. UTF-8 chỉ dùng trong nguồn, game dùng tile 4bpp raster trước.
-[DATE_UI.md](DATE_UI.md) ghi vùng đệm và các kiểm tra VRAM.
+Lịch dùng nét native, thứ CN/T2…T7. HUD dùng bitmap pixel và glyph advance,
+baseline y=6, không padding space/anti-aliasing/font vector. Mùa thứ hai là
+Hè. Thân e năm hàng 0110/1001/1111/1000/0111, có lòng, nét ngang, nét dọc
+và đuôi. V15 nâng dấu huyền chéo một pixel lên y=-1/0 bằng OBJ 8x8 riêng;
+thân vẫn y=2–6 nên có hàng trống y=1. Dấu căn giữa thân, màu/palette theo
+HUD gốc; chỉ dấu mở thêm một hàng phía trên theo chấp thuận của người dùng.
+Clock giữ tile và vị trí cũ; icon không đổi. Sprite thêm 32 byte VRAM,
+1 entry OAM và 36 byte RAM object, có cấp phát/thu hồi native.
+[HUD_ACCENT_OVERLAY.md](HUD_ACCENT_OVERLAY.md) mô tả hook và kiểm chứng;
+[DATE_UI.md](DATE_UI.md) ghi bố cục đầy đủ. UTF-8 chỉ dùng trong nguồn,
+game nhận tile 4bpp.

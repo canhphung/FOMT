@@ -1,6 +1,6 @@
 # Tiến độ Việt hóa
 
-**Hiện tại:** 706/9.283 bản ghi dịch nháp, 2 prompt title đồ họa, lịch/HUD tiếng Việt, 100 test đạt.
+**Hiện tại:** 706/9.283 bản ghi dịch nháp, 2 prompt title đồ họa, lịch/HUD tiếng Việt, 104 test đạt.
 Đã Việt hóa các màn tạo game mới, intro, menu con START và lịch/HUD; mục cuối ghi phiên triển khai.
 Các mục cũ bên dưới giữ số liệu theo từng phiên lịch sử.
 
@@ -595,3 +595,28 @@ VRAM/weather, 56 fixture lịch, START/font/title/lưu-tải cold boot. Đã duy
 preview và ảnh Hè ngày 2/30. [Ảnh](evidence/date-hud-grave-centered.png).
 Cập nhật IPS/manifest; 706 bản ghi dịch nháp không đổi, chưa kiểm GBA thật
 hoặc chơi xuyên mùa.
+
+
+## 2026-10-23 — Mở thêm một hàng cho cả dấu huyền (v15)
+
+Người dùng đồng ý mở thêm hàng trên để nâng cả dấu, giữ thân e và clock.
+`vietnamese-date-24h-raised-grave-v15` bỏ dấu khỏi bitmap mùa Hè và vẽ bằng
+OBJ 8x8 riêng tại gốc (148,139), hai điểm (152,139)/(153,140). Thân e,
+H, baseline/advance, đuôi và đồng hồ/icon giữ nguyên. Hai OBJ 32x16 cũ và
+buffer không đổi. Chỉ phần dấu làm phạm vi nhìn thấy cao thêm một hàng.
+
+Thêm 32 byte VRAM/1 OAM và 36 byte RAM cuối object (0x35C → 0x380), có
+constructor/destructor và lệnh truyền native. Wrapper draw bảo toàn r3 và
+tham số queue thứ năm; kiểm tra OAM đầy và dùng veneer BX vì ROM mở rộng
+ngoài tầm BL. Không sửa trạng thái gameplay/save. Nguồn hook/prologue được
+xác minh; không dùng vùng RAM/VRAM trống đoán trước. Chi tiết:
+[HUD_ACCENT_OVERLAY.md](HUD_ACCENT_OVERLAY.md).
+
+104 pytest đạt. Hai mGBA qua 2.580 trường hợp HUD, 300 setter có guard;
+64 vòng tạo/hủy trả đúng refcount/handle/slot; OAM 0/127/128 → 5/128/128
+không vượt guard. Chín fixture xác minh VRAM/palette/mosaic: hai fixture Hè
+chỉ đổi đúng bốn pixel, bảy fixture mùa khác không đổi pixel so với v14.
+56 fixture lịch, START/font/title và lưu/tải cold boot đều đạt. Đã duyệt
+ảnh có khoảng trống giữa dấu và mái e. Cập nhật IPS/manifest, glyph preview
+9 hàng và [ảnh trước/sau](evidence/date-hud-grave-raised.png). 706 bản ghi
+dịch nháp không đổi; chưa kiểm GBA thật hoặc chơi xuyên mùa.

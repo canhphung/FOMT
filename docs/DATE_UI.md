@@ -28,86 +28,31 @@ và resource lịch. Inserter chỉ ghi vào những vị trí đã xác minh; c
 resource mới và mã Thumb đều đặt sau ROM gốc ở vùng mở rộng. Build report ghi
 địa chỉ và phiên bản trong `date_ui`.
 
-## HUD — Hè và vị trí đồng hồ cũ (v14)
+## HUD — dấu huyền cao hơn một pixel (v15)
 
-`vietnamese-date-24h-he-v7` đưa đồng hồ từ x=24 trở lại **x=8..47, y=8..15**
-trong HUD, đúng vị trí trước v6. Đổi tên mùa trên HUD/lịch từ **Hạ → Hè**,
-không còn dấu nặng ở sát dòng giờ. Bitmap mới của è có dấu huyền tại (1,0),
-(2,1), hàng y=2 trong suốt và thân bốn hàng y=3–6. Dấu và bóng không dính nhau.
+`vietnamese-date-24h-raised-grave-v15` giữ dấu huyền chéo ở giữa đỉnh e,
+nâng cả dấu một pixel bằng một OBJ 8x8 riêng. Đây là hàng hiển thị thêm
+phía trên đã được người dùng chấp thuận. Thân chữ, H, đuôi e, đồng hồ ở
+x=8..47/y=8..15 và icon giữ nguyên. Dấu chuyển từ y=0/1 thành y=-1/0 so với
+HUD cũ; một hàng trống tách điểm dưới của dấu khỏi mái e tại y=2.
 
-Giữ advance/bearing của v6: chữ hoa 6 pixel, chữ thường/số ngày 5 pixel,
-dấu chấm giữa 2 pixel, khoảng cách thành phần 3 pixel. `draw_run()` bố trí
-các run bằng advance, không thêm space vào chuỗi. Thân chữ dòng ngày cùng
-baseline y=6; clock có baseline y=14 và advance 8 pixel theo tile gốc.
-Mùa chỉ dùng vùng 24x8 ở dòng trên; glyph nào vượt vùng đó bị từ chối thay
-vì cắt dấu hoặc tràn vào đồng hồ.
+Thân e vẫn năm hàng 0110/1001/1111/1000/0111, bearing X=2/advance=7 cho è,
+advance=5 cho e. Các glyph ngày/thứ cùng baseline y=6; clock giữ tile và
+advance 8 pixel native. Khoảng cách dùng glyph advance và khoảng cách run
+3 pixel, không chèn space. Không có anti-aliasing hoặc font vector.
 
-Giữ nguyên hai OBJ 32x16, tổng HUD 64x16, vị trí OBJ, palette, biểu tượng
-thời tiết và số tile VRAM. Bitmap đồng hồ gốc không đổi; không anti-aliasing,
-font vector hay nội suy. Mùa còn lại và suffix ngày/thứ giữ bitmap v6.
-Chỉ đổi bearing/layout đã nêu và thêm glyph è; cả lịch tháng dùng nhãn Hè.
+Hai OBJ/buffer HUD cũ và palette giữ nguyên. Sprite dấu thêm 1 tile VRAM
+32 byte và tối đa 1 OAM entry; object HUD nối thêm 36 byte RAM, được cấp
+phát/thu hồi bằng allocator native. Không sửa save hoặc gameplay. Cache cũ
+40.192 byte; tile dấu riêng 32 byte trong ROM mở rộng.
 
-Buffer vẫn ở object+0x84 và +0x1A8, mỗi buffer 256 byte; cờ upload +0x18C và
-+0x2B0. Cache giảm về **40.192 byte**: mùa 4×96, ngày/thứ 210×160,
-giờ 24×96, phút 60×64, nháy 2×32. Setter mùa chỉ chép 96 byte dòng trên;
-hour vào +0x124, minute +0x228, colon blink +0x164 như v5. Không ghi
-metadata lân cận, ngày giờ gameplay hoặc dữ liệu save.
+[Chi tiết hook, tài nguyên và kiểm tra](HUD_ACCENT_OVERLAY.md) ·
+[Ảnh v14/v15](evidence/date-hud-grave-raised.png) ·
+[Glyph nền trắng](evidence/hud-e-glyph.png).
 
-Bản `vietnamese-date-24h-open-e-v8` vẽ lại thân e/è 4x4: thêm khoảng rỗng
-hai pixel ở hàng thứ hai, nét ngang ba pixel ở hàng thứ ba và lỗ mở bên phải.
-`clear_pixels` trong metrics bảo vệ lòng chữ/lỗ mở khỏi bóng đổ. Dấu huyền,
-advance 5 pixel ở v8, baseline y=6, nhãn Hè và vị trí giờ đều giữ nguyên.
-
-Bản `vietnamese-date-24h-sample-e-v9` theo hình e tham khảo: thân rộng
-5 pixel với vòng trên kín, lòng ba pixel, nét ngang bốn pixel và miệng mở
-bên phải. Advance e/è là 6 pixel (các chữ thường khác vẫn 5). Dấu huyền,
-chiều cao, baseline y=6 và tọa độ clock giữ nguyên; Hè vẫn căn mép phải
-x=23 trong ô mùa 24 pixel. Không đổi kích thước HUD hay icon.
-
-Bản `vietnamese-date-24h-five-row-e-v10` sửa cách ép e vào bốn hàng ở v8/v9.
-Thân e/è dùng **năm hàng** `0110/1001/1111/1000/0110`: vòng trên kín, thanh
-ngang đủ bốn pixel, hàng nét dọc riêng phía dưới và chân cong. Không còn
-bỏ hàng nét dọc rồi kéo rộng chữ. Advance trở lại 5 pixel, baseline y=6.
-Trong dòng HUD 8 pixel, è có dấu huyền gọn một pixel ở (1,0), y=1 trống,
-thân y=2–6; đây là điều chỉnh dấu có chủ ý để giữ khoảng trống và vị trí giờ.
-Ảnh tham khảo định hướng cấu trúc chữ; không tuyên bố bản bốn hàng cũ là
-bản sao chính xác của mẫu.
-
-Bản `vietnamese-date-24h-e-finish-v11` thêm đúng một pixel foreground ở
-đuôi phải dưới thân e, bitmap cuối thành `0110/1001/1111/1000/0111`.
-Dấu huyền dài hai pixel chéo tại (0,0)/(1,1). È có bearing X=2, advance=7
-để dấu còn một cột trống trước vòng chữ, không dính thân hoặc H; e thường
-vẫn advance=5. Căn phải ô mùa khiến H dịch trái hai pixel để nhường chỗ,
-còn thân e, baseline, đồng hồ và các phần HUD khác giữ vị trí như v10.
-
-Bản `vietnamese-date-24h-grave-right-v12` chỉ dịch hai pixel dấu huyền sang
-phải 4 pixel: (0,0)/(1,1) → (4,0)/(5,1) trong glyph è. Thân chữ, pixel đuôi,
-bearing, advance và baseline giữ nguyên. Điểm dấu cuối ở bên phải mái chữ;
-không có pixel thân ngay dưới điểm đó. Ô mùa và đồng hồ không dịch.
-
-Bản `vietnamese-date-24h-accent-pixel-up-v13` nâng riêng pixel dưới của dấu
-ở (5,1) lên (5,0). Pixel (4,0) đã ở mép trên được giữ lại, nên hai pixel
-hiện cùng hàng y=0; không nâng cả dấu qua mép canvas hoặc cắt pixel. Mọi
-bitmap thân, tọa độ chữ, advance/bearing và clock giữ nguyên.
-
-Bản `vietnamese-date-24h-centered-grave-v14` khôi phục dấu huyền dạng chéo:
-(3,0)/(4,1), thay nét ngang của v13. Thân e nằm ở x=2..5; tâm dấu và thân
-đều tại x=3,5. Hai pixel chênh nhau (+1,+1), đúng hướng huyền. Giữ nguyên
-thân, đuôi, bearing/advance, baseline và clock. Dấu ở y=0/1, thân y=2–6:
-hai vùng kề hàng trong dòng 8 pixel, không có thêm hàng trắng giữa chúng.
-
-[Ảnh dấu huyền chéo ở giữa, trái v13 — phải v14](evidence/date-hud-grave-centered.png) ·
-[Ảnh nâng pixel dấu ở v13](evidence/date-hud-accent-up.png) ·
-[Ảnh dịch dấu sang phải ở v12](evidence/date-hud-grave-right.png) ·
-[Ảnh hoàn thiện đuôi và dấu ở v11](evidence/date-hud-e-final.png) ·
-[Glyph e/è nền trắng, phóng 4x từ raster](evidence/hud-e-glyph.png) ·
-[Ảnh sửa cấu trúc e, trái v9 — phải v10](evidence/date-hud-e-five-row.png) ·
-[Ảnh e ở v9](evidence/date-hud-e-sample.png) ·
-[Ảnh vẽ lại e ở v8](evidence/date-hud-e.png) ·
-[Ảnh khôi phục đồng hồ ở v7](evidence/date-hud-he.png).
-Ảnh v2–v6 được giữ làm lịch sử. Công thức thứ, packed date, giờ 24 tiếng,
-nhịp tăng 10 phút và nháy dấu hai chấm giữ nguyên. 23:59 chỉ là fixture
-bộ vẽ, không phải thay đổi nhịp gameplay.
+Ảnh v2–v14 được giữ trong lịch sử tiến độ. Công thức thứ, packed date, giờ
+24 tiếng, nhịp tăng 10 phút và nháy dấu hai chấm gốc không đổi. 23:59 chỉ
+là fixture bộ vẽ.
 
 ## Lịch tháng
 
@@ -135,10 +80,10 @@ trỏ hoặc nội dung mô tả lễ hội. Các popup mô tả lễ hội chư
   --output-dir build/date-final-0.10.5
 ```
 
-100 pytest đạt; có kiểm tra khoảng trống bằng pixel cho toàn bộ 30 ngày × bảy thứ
+104 pytest đạt; có kiểm tra khoảng trống bằng pixel cho toàn bộ 30 ngày × bảy thứ
 và mép phải của bốn tên mùa. Kiểm tra baseline mọi chữ/số; advance cố định,
-dấu huyền của è, khoảng trống cả bóng, từ chối cắt glyph; kiểm tra tên Hè
-và tọa độ clock x=8, mọi mùa nằm gọn trong tám hàng. Kiểm tra e/è có lòng
+dấu huyền chéo ở giữa, sprite nâng dấu và kiểm tra tên Hè/tọa độ clock x=8.
+Buffer mùa vẫn tám hàng; chỉ sprite dấu mở thêm hàng phía trên. Kiểm tra e/è có lòng
 chữ và lỗ mở trong suốt, nét giữa không mất và metrics không đổi. Chạy cùng kiểm tra trên mGBA 0.10.5 và 0.11-dev:
 
 - 2.580 trường hợp packed date/time qua CPU thật, có canh bộ nhớ; bao phủ mọi
@@ -147,7 +92,10 @@ chữ và lỗ mở trong suốt, nét giữa không mất và metrics không đ
 - Chín fixture HUD qua đường upload thật, so byte buffer với OBJ VRAM; có ảnh
   06:50, 00:00, 12:00, 23:59, đủ bốn tên mùa với ngày một/hai chữ số và
   cặp ngày 9/10 để kiểm tra thay đổi độ dài. Vùng icon thời tiết x=196..239,
-  y=140..159 khớp từng pixel ROM gốc trong cả chín fixture.
+  y=140..159 khớp từng pixel ROM gốc trong cả chín fixture. So ảnh v14/v15:
+  Hè chỉ thay bốn pixel dấu; bảy fixture khác không đổi pixel nào.
+- Thêm 64 vòng cấp phát/thu hồi và ba trường hợp OAM 0/127/128 với guard;
+  kiểm tra tile/palette/mosaic của sprite dấu qua native upload.
 - Mở lịch tự nhiên bằng A tại lịch treo tường trong nhà. 56 fixture giao diện:
   năm 1/7/8/10/99/100/200 × bốn mùa × ngày chọn 1/30. Grid, event marker và
   toàn bộ pixel từ y=40 xuống dưới khớp ROM gốc. Các fixture chỉ đổi trường
