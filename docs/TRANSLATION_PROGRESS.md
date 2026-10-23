@@ -565,3 +565,17 @@ VRAM/weather, 56 fixture lịch, START/font/title/lưu-tải cold boot. Đã duy
 glyph nền trắng và Hè ngày 2/30. [Ảnh](evidence/date-hud-grave-right.png).
 Cập nhật IPS/manifest; 706 bản ghi dịch nháp không đổi. Chưa kiểm GBA thật
 hoặc chơi xuyên mùa.
+
+
+## 2026-10-23 — Nâng pixel dưới của dấu lên một hàng (v13)
+
+`vietnamese-date-24h-accent-pixel-up-v13` nâng riêng điểm (5,1) lên (5,0),
+giữ điểm (4,0) ở mép canvas. Hai pixel hiện nằm ngang trên cùng; không nâng
+cả dấu ra khỏi canvas. Thân e, vị trí mọi thành phần, glyph metrics và clock
+đều giữ nguyên. Đã ghi rõ cách hiểu này trong cập nhật đầu phiên.
+
+100 pytest đạt, kiểm tra điểm mới có mực, điểm cũ trống, thân/metrics giữ
+nguyên. Hai bản mGBA qua HUD 2.580 trường hợp, 300 setter, chín fixture
+VRAM/weather, 56 fixture lịch, START/font/title/lưu-tải cold boot. Đã duyệt
+preview và Hè ngày 2/30. [Ảnh](evidence/date-hud-accent-up.png). Cập nhật
+IPS/manifest; 706 bản ghi dịch nháp không đổi. Chưa kiểm GBA thật/chơi xuyên mùa.
