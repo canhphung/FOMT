@@ -3,6 +3,11 @@
 Baseline phiên 2026-10-23: glossary 389 thuật ngữ; bảy hồ sơ người nói có
 phạm vi; lô tools-01 gồm 16 mô tả liềm/cuốc. Mọi bản dịch vẫn là nháp.
 
+[Bàn dịch Anh–Việt](TRANSLATION_WORKBENCH.md) bổ sung giao diện local cho
+hàng đợi này: tìm/lọc, tra glossary/xưng hô, sửa bản dịch và kiểm token/độ dài.
+Chạy `.venv/bin/python tools/translation_workbench.py`; lưu nháp ghi vào sáu
+file VI hiện có, có backup và kiểm xung đột, không tự sửa registry QA.
+
 ## Thuật ngữ và xưng hô
 
 `localization/glossary.json` giữ tên riêng, cấp S/M/L/G/P/X và thuật ngữ.

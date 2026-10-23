@@ -6,6 +6,8 @@ phát hành bản vá; không decompile toàn bộ game hoặc phân phối ROM.
 
 Đã triển khai hàng đợi CLI/ngữ cảnh/QA tối thiểu và lô tools-01; hiện có 722
 nháp. Xem [quy trình](LOCALIZATION_WORKFLOW.md) và [tiến độ hiện tại](TRANSLATION_PROGRESS.md).
+Đã có [bàn dịch local](TRANSLATION_WORKBENCH.md): bảng Anh–Việt, tìm/lọc,
+glossary/xưng hô, kiểm token/độ dài và lưu nháp có backup/xung đột; 126 pytest đạt.
 Bộ chuẩn kỹ thuật [platform-v1](PLATFORM_BASELINE.md) đã khóa font/bố cục,
 thêm một lệnh kiểm hai build/IPS và replay 43 ảnh trên hai mGBA; 117 pytest đạt.
 Duyệt thẩm mỹ toàn gallery và QA nội dung vẫn được theo dõi riêng.
@@ -75,11 +77,13 @@ phải từ chối mất/đổi token, placeholder, control stream hoặc glyph 
 Không tự đánh dấu reviewed, không tự nới validator để câu dịch dài được chèn.
 
 Trạng thái QA nên theo dõi riêng với translation_status hiện có: đã xác minh
-ngữ cảnh, đã duyệt ngôn ngữ, đã kiểm bố cục, đã gặp trong game. Phần này đã có trong hàng đợi CLI/JSON/CSV tối thiểu; giao diện web chưa triển khai.
+ngữ cảnh, đã duyệt ngôn ngữ, đã kiểm bố cục, đã gặp trong game. Phần này đã có
+trong hàng đợi CLI/JSON/CSV và được hiển thị trong bàn dịch local. Bàn dịch chưa
+có trình sửa registry QA hoặc tự xác minh chuỗi chưa phân loại.
 
 ## C. Hoàn thiện nội dung thấy thường xuyên
 
-Ưu tiên 326 mô tả vật phẩm còn thiếu vì đã có nguồn xác minh và tái sử dụng
+Ưu tiên 310 mô tả vật phẩm còn thiếu vì đã có nguồn xác minh và tái sử dụng
 được 346 tên hiện tại. Xác minh nhãn còn lại (tài liệu trước ghi Flower)
 trước khi quyết định dịch. Duyệt cả tên đã có nháp, không chỉ điền ô trống.
 

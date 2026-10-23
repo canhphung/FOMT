@@ -27,7 +27,9 @@ trong localization/, chi tiết từng adapter trong các tài liệu hệ thố
 
 ## Kiểm chứng gần nhất
 
-- 117 pytest đạt với ROM USA rev 0 được người dùng cung cấp.
+- 126 pytest đạt với ROM USA rev 0 được người dùng cung cấp.
+- Bàn dịch local: 11 luồng Chromium đạt, sửa/lưu trên bản sao dữ liệu;
+  toàn bộ 22 file JSON localization gốc giữ nguyên hash.
 - Hai build độc lập giống byte; IPS phát hành áp lại đúng ROM. Khóa 28 file
   nền tảng và 43 ảnh chuẩn, replay trên hai mGBA không lệch pixel.
 - mGBA 0.10.5/0.11-dev: boot/title/font, tạo game, START và Diary save/load
@@ -129,3 +131,28 @@ Duyệt thẩm mỹ toàn gallery vẫn pending; 722 bản dịch giữ trạng 
 0 reviewed. Chưa kiểm GBA thật, chơi xuyên mùa, mọi cửa sổ vật phẩm hoặc
 encounter Popuri. Không suy số năm gameplay từ fixture lịch. Các công việc
 này vẫn mở trong QA; xem [quy ước và ảnh chuẩn](PLATFORM_BASELINE.md).
+
+## Bàn dịch Anh–Việt — 2026-10-23
+
+Thêm server Python và giao diện local: bảng Anh–Việt phân trang, tìm không
+phân biệt dấu/hoa-thường, lọc hàng đợi/ngữ cảnh/người nói/lô, tra glossary và
+bảy hồ sơ theo đúng source ID. Hiển thị địa chỉ, bằng chứng ngữ cảnh và QA.
+
+Bản dịch được kiểm bằng encoder/check_translation hiện có ngay khi nhập:
+token đủ và đúng thứ tự, glyph hỗ trợ, độ rộng, giới hạn byte, tên riêng.
+Chặn lưu rỗng/lỗi hoặc ngữ cảnh chưa xác minh; Flower vẫn chỉ đọc. Lưu vào
+file VI đang sở hữu, bản ghi vật phẩm mới vào items.json; khóa ghi, kiểm
+revision, backup và thay file nguyên tử. Không sửa source/pointer/QA; bản
+sửa là translated, QA hash cũ chuyển stale. CSV xuất theo bộ lọc, chưa import.
+
+Chín test mới về validator, tìm/lọc, provenance, backup, stale QA, xung đột,
+ghi đồng thời hai ID, CSV và HTTP đạt. Tổng 126 pytest đạt, không skip;
+platform-check build hai lần và áp IPS đúng target cũ. Không sửa 28 file nền
+tảng đã khóa, font hoặc bố cục; không cần chạy lại mGBA cho binary không đổi.
+
+Chromium chạy 11 luồng thật trên bản sao dữ liệu, kiểm cả viewport 390px;
+0 exception, 22 JSON nguồn giữ hash. Ảnh công cụ và lỗi token cố ý nằm ở
+[workbench-validation.json](evidence/workbench-validation.json), không phải
+ảnh game. Dữ liệu thật vẫn 722 nháp, 0 reviewed; hàng đợi 310 cần dịch,
+722 QA, 8.251 blocked. Chưa có editor glossary/hồ sơ/registry QA, import CSV
+hoặc tự build/playtest trong giao diện. [Hướng dẫn](TRANSLATION_WORKBENCH.md).

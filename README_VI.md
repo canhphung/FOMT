@@ -32,12 +32,17 @@ Không chứa hoặc tự tải ROM thương mại. Bản vá IPS nằm trong `p
   Bản sửa v2 xử lý lỗi lệch thân chữ/spacing; xem ảnh trước–sau trong `docs/evidence`.
 - Chèn lại ở vùng ROM mở rộng, giữ nguyên bytecode sự kiện và dữ liệu gameplay.
 - Kiểm thử mGBA: boot, tạo game mới, hội thoại Thomas, 7 nhãn menu, render font,
-  lịch/HUD và ghi Diary, nạp lại save sau boot; 117 pytest đạt. Chi tiết và giới hạn trong báo cáo tiến độ.
+  lịch/HUD và ghi Diary, nạp lại save sau boot; 126 pytest đạt. Chi tiết và giới hạn trong báo cáo tiến độ.
 
 Chưa xác minh toàn bộ gameplay, mọi màn hình vật phẩm, TV/sách/sự kiện, phần cứng
 GBA thật hoặc nhập tên người chơi có dấu. Phần lớn hội thoại vẫn là tiếng Anh.
 
 ## Dịch và QA
+
+[Bàn dịch Anh–Việt](docs/TRANSLATION_WORKBENCH.md): chạy
+`.venv/bin/python tools/translation_workbench.py`, rồi mở đường dẫn terminal
+in ra. Có tìm kiếm, lọc lô/ngữ cảnh/người nói, glossary, kiểm token/độ dài và
+lưu nháp có backup trực tiếp vào file dịch.
 
 [Quy trình làm việc](docs/LOCALIZATION_WORKFLOW.md): glossary, hồ sơ xưng hô,
 hàng đợi JSON/CSV và lô 16 mô tả dụng cụ đầu tiên. `make queue` xuất hàng đợi;

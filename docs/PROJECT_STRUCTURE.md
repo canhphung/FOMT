@@ -4,6 +4,7 @@
 | --- | --- | --- |
 | README_VI.md | Hướng dẫn sử dụng/build/kiểm thử | Giữ ngắn, trỏ tới tài liệu chuyên đề |
 | tools/ | Extractor, inserter, font/graphics adapter, emulator checks | Giữ source được dùng; không chứa output |
+| tools/translation_workbench.py, tools/workbench/ | Server local và giao diện Anh–Việt | Dùng dữ liệu dịch hiện có; không cần npm |
 | tests/ | Kiểm source, codec, pointer, buffer và layout | Giữ |
 | localization/en/ | Subset nguồn xác minh; catalog/discovery đầy đủ sinh cục bộ | Subset track Git; catalog đầy đủ không track |
 | localization/vi/ | Các nhóm dịch và cấu hình đồ họa | Giữ; là dữ liệu làm việc chính |
@@ -15,6 +16,7 @@
 | docs/evidence/ | Báo cáo, ảnh kiểm chứng hiện tại và các mốc chức năng | Không giữ mọi ảnh debug/thử font |
 | build/ | ROM build, báo cáo chi tiết, output smoke và adapter .so | Có thể tái tạo; không track Git |
 | local-data/ | Font tham khảo và save fixture cục bộ được bảo toàn | Không track Git, không xóa bằng make clean |
+| local-data/workbench/ | Khóa ghi và backup file bản dịch trước mỗi sửa đổi | Không track Git; giữ khi clean |
 | .venv/ | Dependency Python của workspace | Không track Git; giữ khi clean |
 
 ## Dọn dẹp

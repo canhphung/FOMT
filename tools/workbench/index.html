@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>FOMT · Bàn dịch Anh–Việt</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <header>
+    <div><p class="eyebrow">FRIENDS OF MINERAL TOWN</p><h1>Bàn dịch <span>Anh → Việt</span></h1></div>
+    <div class="header-actions"><span id="connection" class="pill">Đang kết nối…</span><button id="export">Xuất CSV</button></div>
+  </header>
+  <section class="stats" aria-label="Tiến độ"><div><strong id="total">—</strong><span>Bản ghi nguồn</span></div><div><strong id="drafts">—</strong><span>Đã có bản nháp</span></div><div><strong id="to-translate">—</strong><span>Sẵn sàng dịch</span></div><div><strong id="blocked">—</strong><span>Cần ngữ cảnh / sửa lỗi</span></div></section>
+  <main>
+    <section class="catalog" aria-label="Bảng Anh–Việt">
+      <div class="filters">
+        <label class="search-label">Tìm trong Anh, Việt, ID hoặc nguồn<input id="search" type="search" placeholder="Ví dụ: sickle, liềm, Thomas…" autocomplete="off"></label>
+        <div class="filter-row">
+          <label>Hàng đợi<select id="bucket"><option value="translate">Cần dịch</option><option value="qa">Chờ QA</option><option value="blocked">Đang chặn</option><option value="done">Hoàn tất</option><option value="">Tất cả</option></select></label>
+          <label>Ngữ cảnh<select id="context"><option value="">Tất cả ngữ cảnh</option></select></label>
+          <label>Người nói<select id="speaker"><option value="">Tất cả người nói</option></select></label>
+          <label>Lô dịch<select id="batch"><option value="">Tất cả lô</option></select></label>
+        </div>
+        <label class="checkbox"><input id="issues" type="checkbox"> Chỉ bản ghi có lỗi token / độ dài / mã hóa</label>
+      </div>
+      <div class="table-scroll"><table><thead><tr><th scope="col">Nguồn tiếng Anh</th><th scope="col">Bản dịch tiếng Việt</th><th scope="col">Trạng thái</th></tr></thead><tbody id="rows"></tbody></table><p id="empty" hidden>Không có bản ghi khớp bộ lọc.</p></div>
+      <footer class="pagination"><span id="results">Đang tải…</span><div><button id="prev" aria-label="Trang trước">←</button><span id="page">1</span><button id="next" aria-label="Trang sau">→</button></div></footer>
+    </section>
+    <aside class="detail" aria-label="Biên tập và tài liệu">
+      <nav class="tabs" aria-label="Công cụ"><button class="active" data-tab="editor" aria-selected="true">Bản dịch</button><button data-tab="glossary" aria-selected="false">Glossary</button><button data-tab="profiles" aria-selected="false">Xưng hô</button></nav>
+      <section id="editor-tab" class="tab-panel">
+        <p id="choose">Chọn một bản ghi trong bảng để bắt đầu.</p>
+        <div id="editor" hidden>
+          <div class="record-title"><div><p class="eyebrow">BẢN GHI NGUỒN</p><h2 id="record-id"></h2></div><button id="reload" title="Tải lại bản ghi từ file">Tải lại</button></div>
+          <div id="record-meta" class="meta"></div>
+          <p id="context-evidence" class="evidence"></p>
+          <div id="scoped-profile" class="notice subtle"></div>
+          <div class="section-label">Tiếng Anh <span>Chỉ đọc</span></div><div id="english" class="source-text"></div>
+          <label class="section-label" for="vietnamese">Tiếng Việt <span id="dirty">Chưa chỉnh sửa</span></label>
+          <textarea id="vietnamese" rows="6" spellcheck="false" placeholder="Nhập bản dịch và giữ nguyên control code…"></textarea>
+          <div id="token-buttons" class="token-buttons" aria-label="Chèn control code nguồn"></div>
+          <div id="metrics" class="metrics"></div>
+          <div id="validation" role="status" aria-live="polite"></div>
+          <details id="token-detail"><summary>Đối chiếu control code theo thứ tự</summary><p>Nguồn: <code id="expected-tokens"></code></p><p>Bản dịch: <code id="actual-tokens"></code></p></details>
+          <div class="save-row"><button id="save" class="primary" disabled>Lưu bản nháp</button><span>Ctrl / ⌘ + Enter</span></div>
+          <p id="save-status" role="status" aria-live="polite"></p>
+          <div class="section-label">Thuật ngữ trong câu</div><div id="suggestions"></div>
+          <details><summary>Nguồn và trạng thái QA</summary><pre id="provenance"></pre></details>
+          <p class="footnote">Độ dài là phép kiểm theo pipeline; biến được dự phòng 12 ô. Lưu nháp chưa thay thế kiểm bố cục trong emulator hoặc duyệt bản dịch.</p>
+        </div>
+      </section>
+      <section id="glossary-tab" class="tab-panel" hidden>
+        <h2>Thuật ngữ thống nhất</h2><p class="muted">Tra thuật ngữ và tên riêng; tham khảo đúng ngữ cảnh trước khi dùng.</p>
+        <label>Tìm thuật ngữ<input id="glossary-search" type="search" placeholder="Anh hoặc Việt, có hoặc không dấu…"></label>
+        <p id="glossary-count" class="muted"></p><div id="glossary-results"></div>
+        <details><summary>Quy tắc glossary</summary><ul id="glossary-rules"></ul></details>
+      </section>
+      <section id="profiles-tab" class="tab-panel" hidden><h2>Xưng hô theo cảnh</h2><p class="muted">Hồ sơ chỉ áp dụng cho những ID nguồn được liệt kê. Không tự suy người nói hoặc mở rộng sang cảnh khác.</p><div id="profile-list"></div></section>
+    </aside>
+  </main>
+  <div id="toast" role="alert" hidden></div>
+  <noscript>Cần bật JavaScript để sử dụng bảng dịch cục bộ.</noscript>
+</body>
+</html>

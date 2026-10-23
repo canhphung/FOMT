@@ -3,6 +3,11 @@
 ROM/save đầu vào không được track ở đây. Mỗi báo cáo phải được đọc cùng
 hash target và giới hạn ghi trong chính báo cáo, không suy từ tên ảnh.
 
+[Bàn dịch](workbench-validation.json): 11 luồng Chromium trên bản sao catalog,
+126 pytest và build/IPS giữ hash. [Giao diện](workbench.png),
+[lỗi token](workbench-token-error.png) là ảnh công cụ, không phải ảnh game.
+Kiểm browser không sửa dữ liệu dịch thật và không thay kiểm emulator.
+
 [Bộ chuẩn platform-v1](../PLATFORM_BASELINE.md) chọn 43 framebuffer có hash
 và kiểm lại bằng replay hai mGBA. `platform/` chứa bảy ảnh cập nhật so với
 mốc cũ và một ảnh hội thoại bổ sung; 35 ảnh còn lại dùng lại tại chỗ. Đối chiếu bằng
