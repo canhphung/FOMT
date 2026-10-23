@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "batch": "npc-daily-01",
+  "policy": "Counts cover standard NPC scripts, not all event/festival dialogue. Exact trigger gates must be verified separately from speaker attribution.",
+  "npcs": [
+    {
+      "character": "Thomas",
+      "script_id": 1017,
+      "standard_script_strings": 34,
+      "translated_in_batch": 34,
+      "pronouns": [
+        "bác",
+        "cháu"
+      ],
+      "gift_reactions": 12,
+      "other_dialogue": 22,
+      "ordinary_branch_cases": 864,
+      "ordinary_branch_string_coverage": 20,
+      "natural_encounter": "not_run",
+      "seasons": "No four-season ordinary-talk split established in this script; winter event dispatch is outside this translated batch.",
+      "map_ids_probed": [
+        5,
+        6,
+        14,
+        15,
+        21,
+        30
+      ]
+    },
+    {
+      "character": "Popuri",
+      "script_id": 993,
+      "standard_script_strings": 144,
+      "translated_total": 52,
+      "translated_in_batch": 51,
+      "existing_first_greeting": 1,
+      "pronouns": [
+        "mình",
+        "bạn"
+      ],
+      "scope": "indexes 93..143 and previous first greeting 0",
+      "untranslated_indexes": "1..92",
+      "season_weather": "Rain and summer/return-visit references present; full seasonal and rival/player-marriage trigger gates pending.",
+      "natural_encounter": "not_run"
+    }
+  ],
+  "evidence": "docs/NPC_DAILY_LOCALIZATION.md"
+}

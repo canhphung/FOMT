@@ -1,0 +1,2883 @@
+{
+  "schema_version": 1,
+  "revision": "npc-daily-01",
+  "status": "passed",
+  "created_at": "2026-10-23T12:22:20.894253+00:00",
+  "source_sha1": "a2fc3574f0a65a4fcf7682fb274b9d7eebdef963",
+  "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766",
+  "patch_sha256": "ecfcc9a2a63c81cc206558a338bf949b5fabac88d1014cb67ef9aa9379beb959",
+  "pytest": {
+    "passed": 134,
+    "failed": 0,
+    "skipped": 0
+  },
+  "catalog_records": 9309,
+  "translation_drafts": 1144,
+  "new_drafts": 85,
+  "npc_coverage": {
+    "schema_version": 1,
+    "batch": "npc-daily-01",
+    "policy": "Counts cover standard NPC scripts, not all event/festival dialogue. Exact trigger gates must be verified separately from speaker attribution.",
+    "npcs": [
+      {
+        "character": "Thomas",
+        "script_id": 1017,
+        "standard_script_strings": 34,
+        "translated_in_batch": 34,
+        "pronouns": [
+          "bác",
+          "cháu"
+        ],
+        "gift_reactions": 12,
+        "other_dialogue": 22,
+        "ordinary_branch_cases": 864,
+        "ordinary_branch_string_coverage": 20,
+        "natural_encounter": "not_run",
+        "seasons": "No four-season ordinary-talk split established in this script; winter event dispatch is outside this translated batch.",
+        "map_ids_probed": [
+          5,
+          6,
+          14,
+          15,
+          21,
+          30
+        ]
+      },
+      {
+        "character": "Popuri",
+        "script_id": 993,
+        "standard_script_strings": 144,
+        "translated_total": 52,
+        "translated_in_batch": 51,
+        "existing_first_greeting": 1,
+        "pronouns": [
+          "mình",
+          "bạn"
+        ],
+        "scope": "indexes 93..143 and previous first greeting 0",
+        "untranslated_indexes": "1..92",
+        "season_weather": "Rain and summer/return-visit references present; full seasonal and rival/player-marriage trigger gates pending.",
+        "natural_encounter": "not_run"
+      }
+    ],
+    "evidence": "docs/NPC_DAILY_LOCALIZATION.md"
+  },
+  "glossary_terms": 405,
+  "queue": {
+    "translate": 0,
+    "qa": 1144,
+    "blocked": 8165,
+    "done": 0
+  },
+  "witnesses": [
+    {
+      "id": "script.1017.000",
+      "speaker": "Thomas",
+      "script_id": 1017,
+      "constructor_literal": "0x80361b8",
+      "show_text_code_offsets": [
+        "0x3cc"
+      ],
+      "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+      "scope": "all 34 strings of Thomas standard NPC script",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.1017.001",
+      "speaker": "Thomas",
+      "script_id": 1017,
+      "constructor_literal": "0x80361b8",
+      "show_text_code_offsets": [
+        "0x3e9"
+      ],
+      "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+      "scope": "all 34 strings of Thomas standard NPC script",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.1017.002",
+      "speaker": "Thomas",
+      "script_id": 1017,
+      "constructor_literal": "0x80361b8",
+      "show_text_code_offsets": [
+        "0x3fc"
+      ],
+      "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+      "scope": "all 34 strings of Thomas standard NPC script",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.1017.003",
+      "speaker": "Thomas",
+      "script_id": 1017,
+      "constructor_literal": "0x80361b8",
+      "show_text_code_offsets": [
+        "0x40f"
+      ],
+      "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+      "scope": "all 34 strings of Thomas standard NPC script",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.1017.004",
+      "speaker": "Thomas",
+      "script_id": 1017,
+      "constructor_literal": "0x80361b8",
+      "show_text_code_offsets": [
+        "0x422"
+      ],
+      "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+      "scope": "all 34 strings of Thomas standard NPC script",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.1017.005",
+      "speaker": "Thomas",
+      "script_id": 1017,
+      "constructor_literal": "0x80361b8",
+      "show_text_code_offsets": [
+        "0x435"
+      ],
+      "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+      "scope": "all 34 strings of Thomas standard NPC script",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.1017.006",
+      "speaker": "Thomas",
+      "script_id": 1017,
+      "constructor_literal": "0x80361b8",
+      "show_text_code_offsets": [
+        "0x448"
+      ],
+      "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+      "scope": "all 34 strings of Thomas standard NPC script",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.1017.007",
+      "speaker": "Thomas",
+      "script_id": 1017,
+      "constructor_literal": "0x80361b8",
+      "show_text_code_offsets": [
+        "0x45b"
+      ],
+      "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+      "scope": "all 34 strings of Thomas standard NPC script",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.1017.008",
+      "speaker": "Thomas",
+      "script_id": 1017,
+      "constructor_literal": "0x80361b8",
+      "show_text_code_offsets": [
+        "0x46e"
+      ],
+      "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+      "scope": "all 34 strings of Thomas standard NPC script",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.1017.009",
+      "speaker": "Thomas",
+      "script_id": 1017,
+      "constructor_literal": "0x80361b8",
+      "show_text_code_offsets": [
+        "0x481"
+      ],
+      "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+      "scope": "all 34 strings of Thomas standard NPC script",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.1017.010",
+      "speaker": "Thomas",
+      "script_id": 1017,
+      "constructor_literal": "0x80361b8",
+      "show_text_code_offsets": [
+        "0x494"
+      ],
+      "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+      "scope": "all 34 strings of Thomas standard NPC script",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.1017.011",
+      "speaker": "Thomas",
+      "script_id": 1017,
+      "constructor_literal": "0x80361b8",
+      "show_text_code_offsets": [
+        "0x6fd"
+      ],
+      "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+      "scope": "all 34 strings of Thomas standard NPC script",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.1017.012",
+      "speaker": "Thomas",
+      "script_id": 1017,
+      "constructor_literal": "0x80361b8",
+      "show_text_code_offsets": [
+        "0x73d"
+      ],
+      "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+      "scope": "all 34 strings of Thomas standard NPC script",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.1017.013",
+      "speaker": "Thomas",
+      "script_id": 1017,
+      "constructor_literal": "0x80361b8",
+      "show_text_code_offsets": [
+        "0x791"
+      ],
+      "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+      "scope": "all 34 strings of Thomas standard NPC script",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.1017.014",
+      "speaker": "Thomas",
+      "script_id": 1017,
+      "constructor_literal": "0x80361b8",
+      "show_text_code_offsets": [
+        "0x7d4"
+      ],
+      "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+      "scope": "all 34 strings of Thomas standard NPC script",
+      "condition_status": "map/friendship/time/weather probes available"
+    },
+    {
+      "id": "script.1017.015",
+      "speaker": "Thomas",
+      "script_id": 1017,
+      "constructor_literal": "0x80361b8",
+      "show_text_code_offsets": [
+        "0x83a"
+      ],
+      "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+      "scope": "all 34 strings of Thomas standard NPC script",
+      "condition_status": "map/friendship/time/weather probes available"
+    },
+    {
+      "id": "script.1017.016",
+      "speaker": "Thomas",
+      "script_id": 1017,
+      "constructor_literal": "0x80361b8",
+      "show_text_code_offsets": [
+        "0x848"
+      ],
+      "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+      "scope": "all 34 strings of Thomas standard NPC script",
+      "condition_status": "map/friendship/time/weather probes available"
+    },
+    {
+      "id": "script.1017.017",
+      "speaker": "Thomas",
+      "script_id": 1017,
+      "constructor_literal": "0x80361b8",
+      "show_text_code_offsets": [
+        "0x85b"
+      ],
+      "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+      "scope": "all 34 strings of Thomas standard NPC script",
+      "condition_status": "map/friendship/time/weather probes available"
+    },
+    {
+      "id": "script.1017.018",
+      "speaker": "Thomas",
+      "script_id": 1017,
+      "constructor_literal": "0x80361b8",
+      "show_text_code_offsets": [
+        "0x8a4"
+      ],
+      "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+      "scope": "all 34 strings of Thomas standard NPC script",
+      "condition_status": "map/friendship/time/weather probes available"
+    },
+    {
+      "id": "script.1017.019",
+      "speaker": "Thomas",
+      "script_id": 1017,
+      "constructor_literal": "0x80361b8",
+      "show_text_code_offsets": [
+        "0x8b7"
+      ],
+      "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+      "scope": "all 34 strings of Thomas standard NPC script",
+      "condition_status": "map/friendship/time/weather probes available"
+    },
+    {
+      "id": "script.1017.020",
+      "speaker": "Thomas",
+      "script_id": 1017,
+      "constructor_literal": "0x80361b8",
+      "show_text_code_offsets": [
+        "0x904"
+      ],
+      "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+      "scope": "all 34 strings of Thomas standard NPC script",
+      "condition_status": "map/friendship/time/weather probes available"
+    },
+    {
+      "id": "script.1017.021",
+      "speaker": "Thomas",
+      "script_id": 1017,
+      "constructor_literal": "0x80361b8",
+      "show_text_code_offsets": [
+        "0x917"
+      ],
+      "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+      "scope": "all 34 strings of Thomas standard NPC script",
+      "condition_status": "map/friendship/time/weather probes available"
+    },
+    {
+      "id": "script.1017.022",
+      "speaker": "Thomas",
+      "script_id": 1017,
+      "constructor_literal": "0x80361b8",
+      "show_text_code_offsets": [
+        "0x97e"
+      ],
+      "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+      "scope": "all 34 strings of Thomas standard NPC script",
+      "condition_status": "map/friendship/time/weather probes available"
+    },
+    {
+      "id": "script.1017.023",
+      "speaker": "Thomas",
+      "script_id": 1017,
+      "constructor_literal": "0x80361b8",
+      "show_text_code_offsets": [
+        "0x991"
+      ],
+      "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+      "scope": "all 34 strings of Thomas standard NPC script",
+      "condition_status": "map/friendship/time/weather probes available"
+    },
+    {
+      "id": "script.1017.024",
+      "speaker": "Thomas",
+      "script_id": 1017,
+      "constructor_literal": "0x80361b8",
+      "show_text_code_offsets": [
+        "0x9c1"
+      ],
+      "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+      "scope": "all 34 strings of Thomas standard NPC script",
+      "condition_status": "map/friendship/time/weather probes available"
+    },
+    {
+      "id": "script.1017.025",
+      "speaker": "Thomas",
+      "script_id": 1017,
+      "constructor_literal": "0x80361b8",
+      "show_text_code_offsets": [
+        "0x9d4"
+      ],
+      "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+      "scope": "all 34 strings of Thomas standard NPC script",
+      "condition_status": "map/friendship/time/weather probes available"
+    },
+    {
+      "id": "script.1017.026",
+      "speaker": "Thomas",
+      "script_id": 1017,
+      "constructor_literal": "0x80361b8",
+      "show_text_code_offsets": [
+        "0xa21"
+      ],
+      "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+      "scope": "all 34 strings of Thomas standard NPC script",
+      "condition_status": "map/friendship/time/weather probes available"
+    },
+    {
+      "id": "script.1017.027",
+      "speaker": "Thomas",
+      "script_id": 1017,
+      "constructor_literal": "0x80361b8",
+      "show_text_code_offsets": [
+        "0xa34"
+      ],
+      "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+      "scope": "all 34 strings of Thomas standard NPC script",
+      "condition_status": "map/friendship/time/weather probes available"
+    },
+    {
+      "id": "script.1017.028",
+      "speaker": "Thomas",
+      "script_id": 1017,
+      "constructor_literal": "0x80361b8",
+      "show_text_code_offsets": [
+        "0xa64"
+      ],
+      "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+      "scope": "all 34 strings of Thomas standard NPC script",
+      "condition_status": "map/friendship/time/weather probes available"
+    },
+    {
+      "id": "script.1017.029",
+      "speaker": "Thomas",
+      "script_id": 1017,
+      "constructor_literal": "0x80361b8",
+      "show_text_code_offsets": [
+        "0xa77"
+      ],
+      "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+      "scope": "all 34 strings of Thomas standard NPC script",
+      "condition_status": "map/friendship/time/weather probes available"
+    },
+    {
+      "id": "script.1017.030",
+      "speaker": "Thomas",
+      "script_id": 1017,
+      "constructor_literal": "0x80361b8",
+      "show_text_code_offsets": [
+        "0xac4"
+      ],
+      "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+      "scope": "all 34 strings of Thomas standard NPC script",
+      "condition_status": "map/friendship/time/weather probes available"
+    },
+    {
+      "id": "script.1017.031",
+      "speaker": "Thomas",
+      "script_id": 1017,
+      "constructor_literal": "0x80361b8",
+      "show_text_code_offsets": [
+        "0xad7"
+      ],
+      "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+      "scope": "all 34 strings of Thomas standard NPC script",
+      "condition_status": "map/friendship/time/weather probes available"
+    },
+    {
+      "id": "script.1017.032",
+      "speaker": "Thomas",
+      "script_id": 1017,
+      "constructor_literal": "0x80361b8",
+      "show_text_code_offsets": [
+        "0xb07"
+      ],
+      "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+      "scope": "all 34 strings of Thomas standard NPC script",
+      "condition_status": "map/friendship/time/weather probes available"
+    },
+    {
+      "id": "script.1017.033",
+      "speaker": "Thomas",
+      "script_id": 1017,
+      "constructor_literal": "0x80361b8",
+      "show_text_code_offsets": [
+        "0xb1a"
+      ],
+      "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+      "scope": "all 34 strings of Thomas standard NPC script",
+      "condition_status": "map/friendship/time/weather probes available"
+    },
+    {
+      "id": "script.0993.093",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x38d9"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.0993.094",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x38ec"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.0993.095",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x3939"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.0993.096",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x394c"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.0993.097",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x39b2"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.0993.098",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x39c5"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.0993.099",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x3a2b"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.0993.100",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x3a3e"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.0993.101",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x3aa4"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.0993.102",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x3ab7"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.0993.103",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x3b1d"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.0993.104",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x3b30"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.0993.105",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x3b97"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.0993.106",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x3baa"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.0993.107",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x3c19"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.0993.108",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x3c2c"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.0993.109",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x3c7a"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.0993.110",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x3c8d"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.0993.111",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x3d75"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.0993.112",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x3d88"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.0993.113",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x3def"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.0993.114",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x3e02"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.0993.115",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x3e50"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.0993.116",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x3e63"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.0993.117",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x3ed0"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.0993.118",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x3eea"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.0993.119",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x3ef8"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.0993.120",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x3f66"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.0993.121",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x3f80"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.0993.122",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x3fef"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.0993.123",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x4009"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.0993.124",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x4078"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.0993.125",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x4092"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.0993.126",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x4103"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.0993.127",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x411d"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.0993.128",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x4191"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.0993.129",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x41ac"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.0993.130",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x4220"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.0993.131",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x423b"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.0993.132",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x4293"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.0993.133",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x42ae"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.0993.134",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x439b"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.0993.135",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x446b"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.0993.136",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x4558"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.0993.137",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x4628"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.0993.138",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x4715"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.0993.139",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x47e5"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.0993.140",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x484c"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.0993.141",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x4860"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.0993.142",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x494d"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    },
+    {
+      "id": "script.0993.143",
+      "speaker": "Popuri",
+      "script_id": 993,
+      "constructor_literal": "0x8035bfc",
+      "show_text_code_offsets": [
+        "0x4a1d"
+      ],
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+      "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+    }
+  ],
+  "script_integrity": [
+    {
+      "script_id": 1017,
+      "CODE_unchanged": true,
+      "JUMP_unchanged": true,
+      "string_count_unchanged": 34,
+      "untranslated_strings_byte_identical": 0
+    },
+    {
+      "script_id": 993,
+      "CODE_unchanged": true,
+      "JUMP_unchanged": true,
+      "string_count_unchanged": 144,
+      "untranslated_strings_byte_identical": 92
+    }
+  ],
+  "branch_probes": {
+    "count": 864,
+    "scope": "Read-only Python interpretation of original Thomas CODE; native query semantics checked against decomp assembly. Not natural gameplay or ARM VM execution.",
+    "source_report_sha256": "656bd3c4cb4a792b75c741bc57aea4a88e19eb6fe6e5d73cabcaaed4218774a2",
+    "covered_record_ids": [
+      "script.1017.014",
+      "script.1017.015",
+      "script.1017.016",
+      "script.1017.017",
+      "script.1017.018",
+      "script.1017.019",
+      "script.1017.020",
+      "script.1017.021",
+      "script.1017.022",
+      "script.1017.023",
+      "script.1017.024",
+      "script.1017.025",
+      "script.1017.026",
+      "script.1017.027",
+      "script.1017.028",
+      "script.1017.029",
+      "script.1017.030",
+      "script.1017.031",
+      "script.1017.032",
+      "script.1017.033"
+    ],
+    "friendship_boundaries": [
+      0,
+      100,
+      101,
+      200,
+      201,
+      255
+    ],
+    "map_ids": [
+      5,
+      6,
+      14,
+      15,
+      21,
+      30
+    ],
+    "weather_raw": [
+      0,
+      1
+    ],
+    "hours": [
+      9,
+      10,
+      12,
+      13,
+      15,
+      16
+    ],
+    "repeat_states": [
+      false,
+      true
+    ]
+  },
+  "wiki": {
+    "game_url": "https://harvestmoon.fandom.com/wiki/Harvest_Moon:_Friends_of_Mineral_Town",
+    "response_body_sha256": "35e642f0e1bd426b9d8b0ee0284aefe801873dc13c18819fbeeaf2bf47136664",
+    "url": "https://harvestmoon.fandom.com/wiki/Thomas_(FoMT)",
+    "raw_url": "https://harvestmoon.fandom.com/wiki/Thomas_(FoMT)?action=raw",
+    "status_code": 402,
+    "message": "Please contact the site owner for access.",
+    "article_received": false,
+    "article_used_as_translation_source": false
+  },
+  "emulators": {
+    "0.10.5": {
+      "library_sha256": "a59b9ebbc006144a1fc4fd68ddc371e95de4abc7d36073c7eed53e482d06a15c",
+      "native_dialogue": {
+        "status": "passed",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766",
+        "dialogue_records": 85,
+        "thomas_branch_cases": 864,
+        "native_waits_verified": 124,
+        "guarded_renderer_lines": 266,
+        "cases": [
+          {
+            "id": "script.1017.000",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              77
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.001",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              74
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.002",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              57
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.003",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              53
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.004",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              24
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.005",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              54
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.006",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              63
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.007",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              36
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.008",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              78,
+              101
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.009",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              22,
+              101,
+              122,
+              145
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.010",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              63,
+              96
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.011",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              73
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.012",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              52,
+              122,
+              151
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.013",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              60,
+              108,
+              169,
+              199
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.014",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              71
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.015",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              58
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.016",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              51
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.017",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              41,
+              90
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.018",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              67,
+              116
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.019",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              37
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.020",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              25,
+              73
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.021",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              51,
+              99
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.022",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              58
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.023",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              53
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.024",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              71
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.025",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              70,
+              104
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.026",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              59
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.027",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              54
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.028",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              60
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.029",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              80
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.030",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              60
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.031",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              63,
+              128
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.032",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              30,
+              66
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.033",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              77,
+              103,
+              156
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.093",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              65
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.094",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              74
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.095",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              63
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.096",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              42,
+              86
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.097",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              34
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.098",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              80
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.099",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              40
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.100",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              82
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.101",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              38
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.102",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              61,
+              85,
+              153,
+              177
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.103",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              33
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.104",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              69
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.105",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              62
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.106",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              80,
+              111
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.107",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              46,
+              97
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.108",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              67,
+              84,
+              111
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.109",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              60,
+              86
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.110",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              65,
+              89
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.111",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              31
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.112",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              42
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.113",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              40
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.114",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              56,
+              109
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.115",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              33
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.116",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              56
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.117",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              44
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.118",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              31,
+              94
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.119",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              46,
+              97
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.120",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              15
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.121",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              18
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.122",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              54
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.123",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              27
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.124",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              59
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.125",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              65
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.126",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              32
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.127",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              53
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.128",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              69
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.129",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              40
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.130",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              36
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.131",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              43,
+              70
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.132",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              56
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.133",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              69,
+              104
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.134",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              48
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.135",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              36
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.136",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              46,
+              127
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.137",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              51,
+              101
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.138",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              65
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.139",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              38,
+              86
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.140",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              69
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.141",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              58,
+              83
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.142",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              66
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.143",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              41,
+              96
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          }
+        ],
+        "screenshots": [
+          "script.1017.020.png",
+          "script.1017.030.png",
+          "script.0993.095.png",
+          "script.0993.102.png",
+          "script.0993.130.png"
+        ],
+        "sram_unchanged": true,
+        "emulator_error_count": 0,
+        "limitations": [
+          "Native widget RAM fixtures; no natural NPC encounter, gift transaction or season progression claimed.",
+          "Opening portrait hidden; speaker labels follow ROM-backed context, not an encountered actor.",
+          "Language/layout manual review pending; longest dynamic variables separately reserved at 12 cells.",
+          "Popuri spouse/home dialogue indexes 1..92 remain outside this batch."
+        ]
+      },
+      "golden_scenes": 43,
+      "changed_golden_pixels": 0
+    },
+    "dev": {
+      "library_sha256": "b044208a82af47a6ce3651cf2c289c575866a4764d6e9377c88001e60edea0c7",
+      "native_dialogue": {
+        "status": "passed",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766",
+        "dialogue_records": 85,
+        "thomas_branch_cases": 864,
+        "native_waits_verified": 124,
+        "guarded_renderer_lines": 266,
+        "cases": [
+          {
+            "id": "script.1017.000",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              77
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.001",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              74
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.002",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              57
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.003",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              53
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.004",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              24
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.005",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              54
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.006",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              63
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.007",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              36
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.008",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              78,
+              101
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.009",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              22,
+              101,
+              122,
+              145
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.010",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              63,
+              96
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.011",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              73
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.012",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              52,
+              122,
+              151
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.013",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              60,
+              108,
+              169,
+              199
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.014",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              71
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.015",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              58
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.016",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              51
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.017",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              41,
+              90
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.018",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              67,
+              116
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.019",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              37
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.020",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              25,
+              73
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.021",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              51,
+              99
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.022",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              58
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.023",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              53
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.024",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              71
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.025",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              70,
+              104
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.026",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              59
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.027",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              54
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.028",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              60
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.029",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              80
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.030",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              60
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.031",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              63,
+              128
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.032",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              30,
+              66
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.1017.033",
+            "speaker": "Thomas",
+            "wait_offsets_verified": [
+              77,
+              103,
+              156
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.093",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              65
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.094",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              74
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.095",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              63
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.096",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              42,
+              86
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.097",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              34
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.098",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              80
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.099",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              40
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.100",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              82
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.101",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              38
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.102",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              61,
+              85,
+              153,
+              177
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.103",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              33
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.104",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              69
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.105",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              62
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.106",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              80,
+              111
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.107",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              46,
+              97
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.108",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              67,
+              84,
+              111
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.109",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              60,
+              86
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.110",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              65,
+              89
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.111",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              31
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.112",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              42
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.113",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              40
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.114",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              56,
+              109
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.115",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              33
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.116",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              56
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.117",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              44
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.118",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              31,
+              94
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.119",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              46,
+              97
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.120",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              15
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.121",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              18
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.122",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              54
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.123",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              27
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.124",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              59
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.125",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              65
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.126",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              32
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.127",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              53
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.128",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              69
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.129",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              40
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.130",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              36
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.131",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              43,
+              70
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.132",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              56
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.133",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              69,
+              104
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.134",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              48
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.135",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              36
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.136",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              46,
+              127
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.137",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              51,
+              101
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.138",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              65
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.139",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              38,
+              86
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.140",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              69
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.141",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              58,
+              83
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.142",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              66
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          },
+          {
+            "id": "script.0993.143",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              41,
+              96
+            ],
+            "native_widget": "0x203aa64",
+            "cleared_native_tile_caches": 21
+          }
+        ],
+        "screenshots": [
+          "script.1017.020.png",
+          "script.1017.030.png",
+          "script.0993.095.png",
+          "script.0993.102.png",
+          "script.0993.130.png"
+        ],
+        "sram_unchanged": true,
+        "emulator_error_count": 0,
+        "limitations": [
+          "Native widget RAM fixtures; no natural NPC encounter, gift transaction or season progression claimed.",
+          "Opening portrait hidden; speaker labels follow ROM-backed context, not an encountered actor.",
+          "Language/layout manual review pending; longest dynamic variables separately reserved at 12 cells.",
+          "Popuri spouse/home dialogue indexes 1..92 remain outside this batch."
+        ]
+      },
+      "golden_scenes": 43,
+      "changed_golden_pixels": 0
+    }
+  },
+  "screenshots": [
+    {
+      "path": "docs/evidence/npc-daily/script.1017.020.png",
+      "sha256": "3cf4084d8a546b79f0e52b01526d94adf16a08a1fa0799b671dab86716cb9327",
+      "scope": "native text layout fixture, opening portrait hidden; not a natural encounter"
+    },
+    {
+      "path": "docs/evidence/npc-daily/script.1017.030.png",
+      "sha256": "9b47642eeb81a18cf3d67ffc95b93861a3c86aba9507c1cac7c97cbad392bba0",
+      "scope": "native text layout fixture, opening portrait hidden; not a natural encounter"
+    },
+    {
+      "path": "docs/evidence/npc-daily/script.0993.095.png",
+      "sha256": "48a26cfb9d77814249e62d3ad2cad25ae407912d759fa95897d64e411ff4e137",
+      "scope": "native text layout fixture, opening portrait hidden; not a natural encounter"
+    },
+    {
+      "path": "docs/evidence/npc-daily/script.0993.102.png",
+      "sha256": "692c4d8d232174c85301fa29c99b97fc9fecfa908d6d2df5bb0ff46ea3186e20",
+      "scope": "native text layout fixture, opening portrait hidden; not a natural encounter"
+    },
+    {
+      "path": "docs/evidence/npc-daily/script.0993.130.png",
+      "sha256": "8088a686aa52e946906cda662f3be13f2416dae878d9cad9a30bdc50fd47c944",
+      "scope": "native text layout fixture, opening portrait hidden; not a natural encounter"
+    }
+  ],
+  "limitations": [
+    "This completes the first 85-record NPC batch, not all NPC localization.",
+    "Thomas script 1017 fully drafted; other event/festival scripts are separate.",
+    "Popuri 1..92 remain untranslated; full rival/player marriage, season and schedule gates pending.",
+    "UI fixture uses the initialized opening widget, with portrait hidden and native speaker label; it is not a natural NPC encounter.",
+    "Language/layout approval, natural gift transactions and real hardware tests pending."
+  ]
+}

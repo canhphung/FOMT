@@ -1,17 +1,20 @@
-# Nền tảng Việt hóa — platform-v2-items
+# Nền tảng Việt hóa — platform-v3-npc
 
 Bộ chuẩn kỹ thuật ngày 2026-10-23 chốt font, bố cục và quy trình build đang có.
 Không thay nét, màu, vị trí hoặc kích thước HUD trong phiên này. Đây vẫn là
 bản Việt hóa thử nghiệm; bộ chuẩn không thay việc duyệt ngôn ngữ và chơi thử.
 
-[Manifest bộ chuẩn](../localization/platform_baseline.json) khóa 32 file nguồn
+[Manifest bộ chuẩn](../localization/platform_baseline.json) khóa 34 file nguồn
 và 43 ảnh framebuffer 240×160. Hash ROM tham chiếu là
-`db554669f39c9bb57f9688a76939bf4066aa2e59a70b12a2354378fbba78fb08`.
+`ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766`.
 Ảnh chuẩn kỹ thuật đã được kiểm bằng replay; việc người dùng duyệt toàn bộ
 gallery về mặt thẩm mỹ vẫn pending. Không tự nâng các bản dịch lên reviewed.
 
 Revision v2 thêm nguồn shop đã xác minh, giới hạn byte và sửa scanner NUL
 cho Fishing Rod; 43 ảnh chuẩn giữ nguyên. Xem [chi tiết](ITEM_LOCALIZATION.md).
+
+Revision v3 thêm phân loại NPC có guard, kiểm nhánh CODE và fixture hộp
+thoại; vẫn giữ nguyên 43 ảnh chuẩn. Xem [NPC](NPC_DAILY_LOCALIZATION.md).
 
 ## Những thông số được giữ ổn định
 
@@ -47,8 +50,8 @@ make platform-emulator ROM="$FOMT_ROM" PYTHON=.venv/bin/python
 pytest với ROM USA hợp lệ, build hai lần độc lập, so byte ROM/IPS, đối chiếu
 manifest phát hành và áp lại IPS để kiểm ROM đích. Không sửa bản vá phát hành.
 
-`platform-emulator` làm các bước trên rồi chạy bảy suite trên **cả** 0.10.5 và
-0.11-dev: font/title/intro/save-load, tạo game, START, lịch/HUD, mô tả dụng cụ, audit toàn bộ vật phẩm và ma trận cửa sổ Ba lô.
+`platform-emulator` làm các bước trên rồi chạy tám suite trên **cả** 0.10.5 và
+0.11-dev: font/title/intro/save-load, tạo game, START, lịch/HUD, mô tả dụng cụ, audit toàn bộ vật phẩm và ma trận cửa sổ Ba lô và hội thoại NPC.
 Mỗi báo cáo phải mang đúng hash ROM vừa build. Cuối mỗi backend, so toàn bộ
 43 ảnh với chuẩn theo RGBA, không theo cách nén PNG, không cho phép sai pixel.
 Ảnh diff đánh dấu tím cả lỗi màu lẫn lỗi alpha. Đây là kiểm tra cảnh cố định,

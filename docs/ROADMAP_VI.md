@@ -4,13 +4,13 @@ Cập nhật 2026-10-23. Baseline triển khai: `f8e1af2`, ROM USA A4NE revision
 Mục tiêu: Việt hóa toàn bộ văn bản có thể tiếp cận, giữ gameplay/save gốc,
 phát hành bản vá; không decompile toàn bộ game hoặc phân phối ROM.
 
-Đã triển khai hàng đợi CLI/ngữ cảnh/QA tối thiểu và lô tools-01; hiện có 1.059
+Đã triển khai hàng đợi CLI/ngữ cảnh/QA tối thiểu và lô tools-01; hiện có 1.144
 nháp, đủ 347 tên và 347 mô tả vật phẩm cùng 26 chuỗi UI native. Xem [quy trình](LOCALIZATION_WORKFLOW.md) và [tiến độ hiện tại](TRANSLATION_PROGRESS.md).
 Đã có [bàn dịch local](TRANSLATION_WORKBENCH.md): bảng Anh–Việt, tìm/lọc,
 glossary/xưng hô, kiểm token/độ dài và lưu nháp có backup/xung đột.
-Bộ chuẩn kỹ thuật [platform-v2-items](PLATFORM_BASELINE.md) khóa 32 file, giữ
+Bộ chuẩn kỹ thuật [platform-v3-npc](PLATFORM_BASELINE.md) khóa 34 file, giữ
 font/bố cục và 43 ảnh chuẩn; một lệnh kiểm hai build/IPS và hai mGBA. Hiện có
-129 pytest và ma trận 613 cửa sổ vật phẩm mỗi backend.
+134 pytest và ma trận 613 cửa sổ vật phẩm mỗi backend.
 Duyệt thẩm mỹ toàn gallery và QA nội dung vẫn được theo dõi riêng.
 Bảng dưới giữ baseline lúc lập roadmap.
 
@@ -95,6 +95,10 @@ là phạm vi cần kiểm kê, không phải khẳng định đã tìm được
 Dùng cùng thuật ngữ cho tên hàng, menu, mô tả và lời thoại nhắc đến hàng đó.
 
 ## D–E. Hội thoại theo nhân vật và sự kiện
+
+Lô [npc-daily-01](NPC_DAILY_LOCALIZATION.md) đã có 34 câu Thomas và 51 câu
+Popuri, xưng hô gắn source ID và call-site xác minh. Cổng quan hệ/mùa Popuri
+và encounter tự nhiên vẫn pending; chưa coi đây là hoàn thành toàn bộ NPC.
 
 Mỗi lô theo một NPC hoặc một luồng sự kiện có ngữ cảnh đầy đủ. Với NPC,
 đi từ lời chào/gặp lần đầu đến câu thường ngày, rồi các biến thể mùa,

@@ -71,7 +71,7 @@ các ca cuộn; không xóa control code để làm test qua. Mọi dòng, kể 
 cuộn, còn được kiểm độc lập bằng renderer có guard. Đây chưa phải duyệt bố
 cục thủ công hay chứng minh thấy mọi dòng cùng một lúc.
 
-Báo cáo hiện hành: [items-complete-validation.json](evidence/items-complete-validation.json).
+Báo cáo lô vật phẩm (hash mốc trước; kiểm lại trên target NPC trong platform-validation.json): [items-complete-validation.json](evidence/items-complete-validation.json).
 Bộ chuẩn cũ 43 ảnh vẫn phải khớp pixel trên hai mGBA. Chưa kiểm giao dịch
 mua/bán tự nhiên cho mọi nhánh, toàn bộ cửa hàng/NPC hoặc GBA thật. Duyệt nghĩa,
 xưng hô, chất lượng bố cục và chơi thử tự nhiên vẫn nằm trong hàng đợi QA.

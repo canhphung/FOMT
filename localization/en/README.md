@@ -11,3 +11,7 @@ Git; it exists locally after extraction. No ROM is included or downloaded.
 Addresses, original bytes, pointer/offset locations and source references are
 generated from the exact supported ROM, never supplied by a translator. The
 inserter re-extracts these fields independently instead of trusting JSON offsets.
+
+`npc_daily.json` preserves 85 verified standard-dialogue sources for Thomas and
+Popuri, including guarded actor/ShowText provenance. Trigger coverage and
+untranslated spouse/home records are tracked in `../npc_coverage.json`.

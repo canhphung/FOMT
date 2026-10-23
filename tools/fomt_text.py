@@ -294,6 +294,8 @@ def extract(data: bytes) -> dict:
     records.extend(start_records(data))
     from shop_text import extract_records as shop_records
     records.extend(shop_records(data))
+    from npc_context import annotate_records as npc_records
+    npc_records(data, records)
     from item_window import annotate_records as item_window_budgets
     item_window_budgets(records)
     return {"schema_version": 1, "rom": {"sha1": ROM_SHA1,

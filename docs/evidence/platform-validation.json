@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "status": "passed",
-  "baseline_sha256": "ac90d6101f8a1a376117f5c435064e20bb5b9a0410fd2f29be083710cc8ecda2",
+  "baseline_sha256": "e26a40135b08f1ac51d2de032d05c79806aeafdf5391c21d68b1bf13d756e529",
   "source_sha1": "a2fc3574f0a65a4fcf7682fb274b9d7eebdef963",
   "visual_review": "technical regression reference; user approval of the complete gallery pending; translation QA unchanged",
   "limitations": [
@@ -17,9 +17,9 @@
       "suites": {
         "full": {
           "report": "build/platform-check/0.10.5/full/report.json",
-          "sha256": "578e0a1706d1cee15c945c25ffc9035dfb87965e4a3b9e1561f080bf23ce66e8",
+          "sha256": "7887ecbcacf9edd070b7a66baf205d74cb921c09ae6ee9905b9faf27345f594b",
           "result": {
-            "target_sha256": "db554669f39c9bb57f9688a76939bf4066aa2e59a70b12a2354378fbba78fb08",
+            "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766",
             "checks": {
               "ascii_native_outlines_at_common_baseline": 95,
               "legacy_glyph_fallback_unchanged": 10,
@@ -90,9 +90,9 @@
         },
         "new-game": {
           "report": "build/platform-check/0.10.5/new-game/report.json",
-          "sha256": "bf47ebffdfd6c7d6e42acd5fd8cfe9592d0f19fc4690b275549a0d850b401687",
+          "sha256": "85ac1dc00f3c0a0fcd2c3e576c6e2d2102f79d66fba35c7d6dbd398d88ebe961",
           "result": {
-            "target_sha256": "db554669f39c9bb57f9688a76939bf4066aa2e59a70b12a2354378fbba78fb08",
+            "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766",
             "status": "passed",
             "checks": [
               "four seasons x days 1/30 through normal controls",
@@ -104,14 +104,15 @@
             "limitations": [
               "Keyboard retains original character set; Vietnamese name input not added",
               "No real GBA hardware test"
-            ]
+            ],
+            "case_count": 8
           }
         },
         "start": {
           "report": "build/platform-check/0.10.5/start/report.json",
-          "sha256": "b516bce83ce8f56f785001cf238195d8200131165fa853fe3cc926e9f5cc3840",
+          "sha256": "70b4262396cecf835871e7a4d2860931de630d0dd1907398ae4d51137f36088b",
           "result": {
-            "target_sha256": "db554669f39c9bb57f9688a76939bf4066aa2e59a70b12a2354378fbba78fb08",
+            "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766",
             "status": "passed",
             "translated_records": 162,
             "isolated_renderer_lines_with_guards": 239,
@@ -145,9 +146,9 @@
         },
         "date": {
           "report": "build/platform-check/0.10.5/date/report.json",
-          "sha256": "ccaa7e8d5a2d3818494e345e51b12764939423aeb36708dc81834a1eae0997cd",
+          "sha256": "7a846eeade1876c1a17acf8bf7ab2fce30de3e70312488da742dcae855a45826",
           "result": {
-            "target_sha256": "db554669f39c9bb57f9688a76939bf4066aa2e59a70b12a2354378fbba78fb08",
+            "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766",
             "revision": "vietnamese-calendar-heading-v19",
             "limitations": [
               "Calendar fixtures change UI view fields, not elapsed gameplay years",
@@ -618,9 +619,9 @@
         },
         "items": {
           "report": "build/platform-check/0.10.5/items/report.json",
-          "sha256": "e3243a41a47932b601c66205a27853499b4e698f4ad95d41b529bdd0f8ab0a89",
+          "sha256": "31e0a35c760a97d6f222b5b47f7164c4d15b0df99ac92541cf2c52dffad26040",
           "result": {
-            "target_sha256": "db554669f39c9bb57f9688a76939bf4066aa2e59a70b12a2354378fbba78fb08",
+            "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766",
             "status": "passed",
             "record_ids": [
               "item.tool.000.description",
@@ -655,9 +656,9 @@
         },
         "item-audit": {
           "report": "build/platform-check/0.10.5/item-audit/report.json",
-          "sha256": "a7ed448752884416c75b4e8d10764759c3566a176b374d1c5334d3ffec3ad135",
+          "sha256": "8f938c850f71fc3f23724f7554f5b3403c0e91a073449ec842123db7a7f1bcbf",
           "result": {
-            "target_sha256": "db554669f39c9bb57f9688a76939bf4066aa2e59a70b12a2354378fbba78fb08",
+            "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766",
             "item_names": 347,
             "item_descriptions": 347,
             "native_shop_and_item_literals": 26,
@@ -859,10 +860,10 @@
         },
         "item-ui": {
           "report": "build/platform-check/0.10.5/item-ui/report.json",
-          "sha256": "27def93a4750eea871ac91b43ab984959c09b1561b8b1278010fe6f6c4ddf370",
+          "sha256": "5ff2c5c02958a5bb9a26468c8069f08a8ef446a4dc9b7f323d167cab5bd4d163",
           "result": {
             "status": "passed",
-            "target_sha256": "db554669f39c9bb57f9688a76939bf4066aa2e59a70b12a2354378fbba78fb08",
+            "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766",
             "item_info_windows": 347,
             "native_scroll_cases": 1,
             "wrapped_name_windows": 266,
@@ -875,12 +876,28 @@
               "Unwrapped tool name pointers have renderer checks; tools have no gift-wrap view.",
               "No real GBA hardware test."
             ],
-            "case_count": 613,
-            "display_kinds": {
-              "description": 346,
-              "pedometer": 1,
-              "wrapped_name": 266
-            }
+            "case_count": 613
+          }
+        },
+        "npc-daily": {
+          "report": "build/platform-check/0.10.5/npc-daily/report.json",
+          "sha256": "cd860af1fe8a3c700cb749158ba1094f703511942bbac02db596812a57832b2b",
+          "result": {
+            "status": "passed",
+            "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766",
+            "dialogue_records": 85,
+            "thomas_branch_cases": 864,
+            "native_waits_verified": 124,
+            "guarded_renderer_lines": 266,
+            "sram_unchanged": true,
+            "emulator_error_count": 0,
+            "limitations": [
+              "Native widget RAM fixtures; no natural NPC encounter, gift transaction or season progression claimed.",
+              "Opening portrait hidden; speaker labels follow ROM-backed context, not an encountered actor.",
+              "Language/layout manual review pending; longest dynamic variables separately reserved at 12 cells.",
+              "Popuri spouse/home dialogue indexes 1..92 remain outside this batch."
+            ],
+            "case_count": 85
           }
         }
       },
@@ -1236,9 +1253,9 @@
       "suites": {
         "full": {
           "report": "build/platform-check/dev/full/report.json",
-          "sha256": "578e0a1706d1cee15c945c25ffc9035dfb87965e4a3b9e1561f080bf23ce66e8",
+          "sha256": "7887ecbcacf9edd070b7a66baf205d74cb921c09ae6ee9905b9faf27345f594b",
           "result": {
-            "target_sha256": "db554669f39c9bb57f9688a76939bf4066aa2e59a70b12a2354378fbba78fb08",
+            "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766",
             "checks": {
               "ascii_native_outlines_at_common_baseline": 95,
               "legacy_glyph_fallback_unchanged": 10,
@@ -1309,9 +1326,9 @@
         },
         "new-game": {
           "report": "build/platform-check/dev/new-game/report.json",
-          "sha256": "bf47ebffdfd6c7d6e42acd5fd8cfe9592d0f19fc4690b275549a0d850b401687",
+          "sha256": "85ac1dc00f3c0a0fcd2c3e576c6e2d2102f79d66fba35c7d6dbd398d88ebe961",
           "result": {
-            "target_sha256": "db554669f39c9bb57f9688a76939bf4066aa2e59a70b12a2354378fbba78fb08",
+            "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766",
             "status": "passed",
             "checks": [
               "four seasons x days 1/30 through normal controls",
@@ -1323,14 +1340,15 @@
             "limitations": [
               "Keyboard retains original character set; Vietnamese name input not added",
               "No real GBA hardware test"
-            ]
+            ],
+            "case_count": 8
           }
         },
         "start": {
           "report": "build/platform-check/dev/start/report.json",
-          "sha256": "b516bce83ce8f56f785001cf238195d8200131165fa853fe3cc926e9f5cc3840",
+          "sha256": "70b4262396cecf835871e7a4d2860931de630d0dd1907398ae4d51137f36088b",
           "result": {
-            "target_sha256": "db554669f39c9bb57f9688a76939bf4066aa2e59a70b12a2354378fbba78fb08",
+            "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766",
             "status": "passed",
             "translated_records": 162,
             "isolated_renderer_lines_with_guards": 239,
@@ -1364,9 +1382,9 @@
         },
         "date": {
           "report": "build/platform-check/dev/date/report.json",
-          "sha256": "ccaa7e8d5a2d3818494e345e51b12764939423aeb36708dc81834a1eae0997cd",
+          "sha256": "7a846eeade1876c1a17acf8bf7ab2fce30de3e70312488da742dcae855a45826",
           "result": {
-            "target_sha256": "db554669f39c9bb57f9688a76939bf4066aa2e59a70b12a2354378fbba78fb08",
+            "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766",
             "revision": "vietnamese-calendar-heading-v19",
             "limitations": [
               "Calendar fixtures change UI view fields, not elapsed gameplay years",
@@ -1837,9 +1855,9 @@
         },
         "items": {
           "report": "build/platform-check/dev/items/report.json",
-          "sha256": "e3243a41a47932b601c66205a27853499b4e698f4ad95d41b529bdd0f8ab0a89",
+          "sha256": "31e0a35c760a97d6f222b5b47f7164c4d15b0df99ac92541cf2c52dffad26040",
           "result": {
-            "target_sha256": "db554669f39c9bb57f9688a76939bf4066aa2e59a70b12a2354378fbba78fb08",
+            "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766",
             "status": "passed",
             "record_ids": [
               "item.tool.000.description",
@@ -1874,9 +1892,9 @@
         },
         "item-audit": {
           "report": "build/platform-check/dev/item-audit/report.json",
-          "sha256": "a7ed448752884416c75b4e8d10764759c3566a176b374d1c5334d3ffec3ad135",
+          "sha256": "8f938c850f71fc3f23724f7554f5b3403c0e91a073449ec842123db7a7f1bcbf",
           "result": {
-            "target_sha256": "db554669f39c9bb57f9688a76939bf4066aa2e59a70b12a2354378fbba78fb08",
+            "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766",
             "item_names": 347,
             "item_descriptions": 347,
             "native_shop_and_item_literals": 26,
@@ -2078,10 +2096,10 @@
         },
         "item-ui": {
           "report": "build/platform-check/dev/item-ui/report.json",
-          "sha256": "27def93a4750eea871ac91b43ab984959c09b1561b8b1278010fe6f6c4ddf370",
+          "sha256": "5ff2c5c02958a5bb9a26468c8069f08a8ef446a4dc9b7f323d167cab5bd4d163",
           "result": {
             "status": "passed",
-            "target_sha256": "db554669f39c9bb57f9688a76939bf4066aa2e59a70b12a2354378fbba78fb08",
+            "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766",
             "item_info_windows": 347,
             "native_scroll_cases": 1,
             "wrapped_name_windows": 266,
@@ -2094,12 +2112,28 @@
               "Unwrapped tool name pointers have renderer checks; tools have no gift-wrap view.",
               "No real GBA hardware test."
             ],
-            "case_count": 613,
-            "display_kinds": {
-              "description": 346,
-              "pedometer": 1,
-              "wrapped_name": 266
-            }
+            "case_count": 613
+          }
+        },
+        "npc-daily": {
+          "report": "build/platform-check/dev/npc-daily/report.json",
+          "sha256": "cd860af1fe8a3c700cb749158ba1094f703511942bbac02db596812a57832b2b",
+          "result": {
+            "status": "passed",
+            "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766",
+            "dialogue_records": 85,
+            "thomas_branch_cases": 864,
+            "native_waits_verified": 124,
+            "guarded_renderer_lines": 266,
+            "sram_unchanged": true,
+            "emulator_error_count": 0,
+            "limitations": [
+              "Native widget RAM fixtures; no natural NPC encounter, gift transaction or season progression claimed.",
+              "Opening portrait hidden; speaker labels follow ROM-backed context, not an encountered actor.",
+              "Language/layout manual review pending; longest dynamic variables separately reserved at 12 cells.",
+              "Popuri spouse/home dialogue indexes 1..92 remain outside this batch."
+            ],
+            "case_count": 85
           }
         }
       },
@@ -2453,15 +2487,15 @@
   },
   "pytest_log": "build/platform-check/logs/pytest.log",
   "pytest": {
-    "passed": 129,
+    "passed": 134,
     "failed": 0,
     "skipped": 0
   },
-  "target_sha256": "db554669f39c9bb57f9688a76939bf4066aa2e59a70b12a2354378fbba78fb08",
-  "patch_sha256": "7daa48200e64b8be175535df409c48d8bca955ccfc0c8d31c649d12074cd1e18",
+  "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766",
+  "patch_sha256": "ecfcc9a2a63c81cc206558a338bf949b5fabac88d1014cb67ef9aa9379beb959",
   "repeated_builds_identical": true,
   "release_ips_round_trip": true,
-  "locked_files_checked": 32,
+  "locked_files_checked": 34,
   "golden_references_checked": 43,
   "emulator_replay_run": true
 }

@@ -1,8 +1,8 @@
 {
-  "revision": "translation-workbench-v1-items",
+  "revision": "translation-workbench-v1-npc",
   "browser": {
     "status": "passed",
-    "timestamp": "2026-10-23T11:34:19.421Z",
+    "timestamp": "2026-10-23T12:17:27.329Z",
     "checks": [
       "Real catalog loaded and table paginated in Chromium.",
       "Removing a CR token reports an error and blocks Save.",
@@ -20,11 +20,11 @@
     "screenshots": [
       {
         "path": "docs/evidence/workbench.png",
-        "sha256": "193d85c62bea90e931a0109dcb6f24af734f42693cc503c4bc743b26773fe945"
+        "sha256": "31861a601d721a867844036d9b04c4c062a76675264e094421a59a3f478f39fe"
       },
       {
         "path": "docs/evidence/workbench-token-error.png",
-        "sha256": "38730390afebee147d25418943b499fa8070226a7b652ee3a005fc0cb6f66b70"
+        "sha256": "e2927132b7e3457d86c9facbc07e9dd3e04bcf01bf504843d64a60e59e611a74"
       }
     ],
     "browser": {
@@ -34,8 +34,8 @@
       "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
       "jsVersion": "15.4.80.11"
     },
-    "source_json_files_unchanged": 24,
-    "source_snapshot_sha256": "fd7c268152056ebcb4f94d92ba0b8ad1234141580425d7ca9ddc96441ac82ab0",
+    "source_json_files_unchanged": 28,
+    "source_snapshot_sha256": "d815b9e7a506a4366ca64316e22442194e22f28675e0734c2134ae4a328d3725",
     "scope": "Chromium UI and HTTP writes in a disposable copy of the actual extracted catalog; original translations unchanged.",
     "limitations": [
       "No emulator or ROM build invoked by this browser test.",
@@ -45,7 +45,7 @@
   "pipeline_regression": {
     "schema_version": 1,
     "status": "passed",
-    "baseline_sha256": "ac90d6101f8a1a376117f5c435064e20bb5b9a0410fd2f29be083710cc8ecda2",
+    "baseline_sha256": "e26a40135b08f1ac51d2de032d05c79806aeafdf5391c21d68b1bf13d756e529",
     "source_sha1": "a2fc3574f0a65a4fcf7682fb274b9d7eebdef963",
     "visual_review": "technical regression reference; user approval of the complete gallery pending; translation QA unchanged",
     "limitations": [
@@ -57,15 +57,15 @@
     ],
     "pytest_log": "build/platform-check/logs/pytest.log",
     "pytest": {
-      "passed": 129,
+      "passed": 134,
       "failed": 0,
       "skipped": 0
     },
-    "target_sha256": "db554669f39c9bb57f9688a76939bf4066aa2e59a70b12a2354378fbba78fb08",
-    "patch_sha256": "7daa48200e64b8be175535df409c48d8bca955ccfc0c8d31c649d12074cd1e18",
+    "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766",
+    "patch_sha256": "ecfcc9a2a63c81cc206558a338bf949b5fabac88d1014cb67ef9aa9379beb959",
     "repeated_builds_identical": true,
     "release_ips_round_trip": true,
-    "locked_files_checked": 32,
+    "locked_files_checked": 34,
     "golden_references_checked": 43,
     "emulator_replay_run": true
   },
@@ -95,5 +95,5 @@
       "sha256": "4a78badecaf67e897bba54ca53d5a4bd346c253fa95ce60185cdbcda68efa3f3"
     }
   ],
-  "scope_note": "Browser writes disposable catalog copies only. Verified Flour alias editable; unclassified strings read-only. Original localization JSON unchanged by browser tests. Native replays are recorded in platform-validation.json."
+  "scope_note": "Browser writes disposable copies only; source localization untouched. Updated NPC profiles source-ID scoped. Native regressions in platform-validation.json."
 }

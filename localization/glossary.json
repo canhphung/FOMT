@@ -10,7 +10,8 @@
     "Character pronouns apply only to the documented scene and player age; do not extend childhood speech to adult scenes.",
     "External wikis may clarify concepts but never replace ROM text, source IDs or control codes.",
     "Base tool description headings Sickle/Hoe remain Liềm/Cuốc; do not add Iron merely because the separate item-name table says Iron.",
-    "Flour is food ID 0x42, misspelled Flower in the item table; identity verified by the matching ordered grocery list in script.1043.108. Explicit source defects are documented in docs/ITEM_LOCALIZATION.md."
+    "Flour is food ID 0x42, misspelled Flower in the item table; identity verified by the matching ordered grocery list in script.1043.108. Explicit source defects are documented in docs/ITEM_LOCALIZATION.md.",
+    "Daily NPC pronouns are source-ID scoped: Thomas bác/cháu in script 1017; Popuri mình/bạn in 993.093-143 only. Do not extend to player-spouse dialogue without checking relationship branches."
   ],
   "pronouns": {
     "Popuri": {
@@ -2629,6 +2630,41 @@
       "vietnamese": "ô còn lại",
       "category": "native_item_window",
       "source_id": "ui.items.1179fc",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Square",
+      "vietnamese": "quảng trường",
+      "category": "location",
+      "source_id": "script.1017.017",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Inn",
+      "vietnamese": "quán trọ",
+      "category": "location",
+      "source_id": "script.1017.018",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Mineral Beach",
+      "vietnamese": "bãi biển Mineral",
+      "category": "location",
+      "source_id": "script.0993.140",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Beach House",
+      "vietnamese": "quán ven biển",
+      "category": "location",
+      "source_id": "script.0993.143",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Forget-me-not Valley",
+      "vietnamese": "Forget-me-not Valley",
+      "category": "location",
+      "source_id": "script.1017.012",
       "status": "working; language review pending"
     }
   ],

@@ -14129,6 +14129,1876 @@
       "playtest": {
         "status": "not_run"
       }
+    },
+    {
+      "id": "script.0993.093",
+      "source_sha256": "a4f7ea3ee068e5eb34d0637ee9593990aa26fb416e63dd17ce7bb284d33ca0f2",
+      "translation_sha256": "fdb730cf2489b529881b90933846e6291973dee0e6d2c179b9804248864fc9e8",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.0993.094",
+      "source_sha256": "d744ea43f06aa207641d040747835405f3bb00e70ec74b4cafbbb346eb8202f4",
+      "translation_sha256": "950084e35b967cd450c629864d29dc3e1dfd25f992cd847ce3e6eb7d0fe2754f",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.0993.095",
+      "source_sha256": "27ecd336e82a9ccdfa7577caed4b772cc75fb6f1dc2b82d018ddd486d11da9aa",
+      "translation_sha256": "61d45906697156cdd55c47aa5866340eeb3a36b450f307f3369cd73fb0629b92",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.0993.096",
+      "source_sha256": "8a17d7a8cb0f3affee482c14bc859d68cc54566e15593aac6b45f33cf2db5d33",
+      "translation_sha256": "43489c3f4a8af18d5ee8161f24df598714d19128970b28bf579fa478570dc5fe",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.0993.097",
+      "source_sha256": "74a6d04654b9fdf9392fd7797cc1713487c22cbd01417a6af4fe3e074b349d58",
+      "translation_sha256": "fa5f07fb8b255839dda2dad8f337045a6d25234edf1da627d0991db29cc0a3a7",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.0993.098",
+      "source_sha256": "d849af5b1ca39a6e0a03a252b175715a6331d22874661e4ee581fbc6d360dbaf",
+      "translation_sha256": "19cbb7c365412838d99fdc7e870e15ea5b8611406403fc7e2c16185c2bad631c",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.0993.099",
+      "source_sha256": "4b2aa89bb554d2ee552ecd283b54cd344a4d8b072e58d78b1ed02aaad522b01e",
+      "translation_sha256": "3111d805096c89ca12f6f90d7a4daaa46c6f31a0d041a606e9707ade1e5dafbc",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.0993.100",
+      "source_sha256": "fbae28281e7e6a0188761cc3f64e109b0b596e48999384c2c1511a6bd90085d5",
+      "translation_sha256": "8787e8a6eba20480a43c63373ac0545b8bdc1ea68603ff829470a01c21522638",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.0993.101",
+      "source_sha256": "3a500ff0c49469ece99d8548c5ca400fd71702cab62e08b2204ae5fec987db72",
+      "translation_sha256": "d9e81604e05b07b43989a9034d13994d50e1f3d85a4dc84ad7900699489c7349",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.0993.102",
+      "source_sha256": "1bdeb912814d7da9cb70ffb188b34e8743ab0bdf3859e4dc2bbb73dab0f0149f",
+      "translation_sha256": "f5eb022c3bdc33a168bb6ef052b8e61651756a8df6a39aa671533a85ab90ebf0",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.0993.103",
+      "source_sha256": "8e36c81fa3222f1173a787b775e31ee37f644c090bebd232586b1b4f9fc833b8",
+      "translation_sha256": "d0dd710a3aaaac5a032710738ab3f0e0a30039146ec451573f0c2a3668ce2c80",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.0993.104",
+      "source_sha256": "f8d5a5567667ef4df278b2182f50ed58937c54e7e3520c4c21bff0472eaa4fe7",
+      "translation_sha256": "08ca10a63d909894dfddbb89fcd65f770ef34b9ec18900ec75a29cca1fa13711",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.0993.105",
+      "source_sha256": "26cf5be9df9ca55eec375a2888eadc3a448e10d93e2a82107245ae1bb7e8f84e",
+      "translation_sha256": "8bce3fe09002c115ceec394ff023d740c78d939db2341a2b302601510e73baf1",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.0993.106",
+      "source_sha256": "5786ebb568400f766a8967a5b01dd987b3b67164a6c65f4c13c19c9b446bc932",
+      "translation_sha256": "c8c2dde0e90958e817499aa2ce05c034da364a9cf58832ecf89104981f889ed1",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.0993.107",
+      "source_sha256": "6e6afba49c472beb7d6cdec808ec1e8f7eeb823ee176f07ce2008b07671c364c",
+      "translation_sha256": "b7affaabd0ad4ec4eefd9522bcae989f41e4e4bcb443d72032d5687e1f52988f",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.0993.108",
+      "source_sha256": "302277e7adb0e48f495a5a2fbcd32a9d9d50313b4c022650e671dddbcf060c65",
+      "translation_sha256": "ea271a91b04befbc30c663c99752b4f84222ec4284d711bd2f07b568449988fa",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.0993.109",
+      "source_sha256": "486150f07f1c19a675d84ddf87ec49a6249f7cefaff20487bd38f0580a31197d",
+      "translation_sha256": "8a3539d60f20120aa58a0f8c924b519aa25d0f2bc60e758311293097d899248f",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.0993.110",
+      "source_sha256": "d419c701bc41d0ab88eb86dae6ef5b5ac007f205561d0f77d2f0a07cd7c43974",
+      "translation_sha256": "1eb0d815c699d6510807c0aaa20f25d59fc073c151b540da2714db17fc9aa8b1",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.0993.111",
+      "source_sha256": "422814c04bf63ba195bbee0511f5cd3e7f560d1b2a56ddc7c4d74c4d21ac1f53",
+      "translation_sha256": "353fb75fe4575b2e422f79d60136a5ab185861fa7bc7d386caa8eebe39b0aaef",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.0993.112",
+      "source_sha256": "6983cfde0dc9f6ab48a7a39a8bee5ccf8abaa5e343c5cd94f740b896bd6611fe",
+      "translation_sha256": "dd7b243377acb09498adb70eed06baf0000b8dc68818a7afbdfa81b48c964181",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.0993.113",
+      "source_sha256": "0828e28176cb1fda877b983d3fe3f809d703b49fefb5e092755a7e0004b2526b",
+      "translation_sha256": "50c4e0d59249c1674a067e179bd00286f519ab190440e6c71963407f698b4480",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.0993.114",
+      "source_sha256": "5acd1c2c6e4350440d395dceab906a900ea2ffe33a1ca666e25bdab2e4f94997",
+      "translation_sha256": "2c85a1c04d455205a21cfc736b9066fe9446bec3d77931794220a5d853401e96",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.0993.115",
+      "source_sha256": "f53a1bd0ed3bde670fef5d6b587915ecba3285b93a6c7f871b7a517f7be9fb8b",
+      "translation_sha256": "f0e9ba55d4fbadff141c2b396cf4b6525a07e4804b036d10361aa6497c68f936",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.0993.116",
+      "source_sha256": "0d2d1090041697c5eb2d2b1c4e596843a21075799d9421fd14599f06e9de3c54",
+      "translation_sha256": "b4a91d9296df91afc309a369f0aac1b8490073f6a72e72f2ff06ef6bda8ee63c",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.0993.117",
+      "source_sha256": "71931f133bc59325ae56e3716163da5310ad25cbf3a25dc9a03a6f67d3a2e1c7",
+      "translation_sha256": "144cca37a7fbb73a4e5aa61d1a4043de3adf98ea4e22bc4d421885b68de2c544",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.0993.118",
+      "source_sha256": "83c74f783d5c310eb18973f535945f3819817a25776ff46d49b4e724ca28cb12",
+      "translation_sha256": "2423910bd9961a3abad6052356de4c4a48ac27b75509df016344be115a6f5e30",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.0993.119",
+      "source_sha256": "486337fc92c6de81a632f6eabf224a9ec6ea30b4426c0163049378b5175c132d",
+      "translation_sha256": "cc168bc3cb60e3d89871a5ea0823346a33d99f04db7cf0af26220ab2f5242dc4",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.0993.120",
+      "source_sha256": "4601c2052819c798ed48f50eb7475c6bc45e74ada56a10575cb30638ae0d3178",
+      "translation_sha256": "920aea218bf2ef8ea009acb3e5215490b087bb746ac533dceca895d1d26fdf56",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.0993.121",
+      "source_sha256": "142514fa4295df985909d1d1615293a776db6d67326c6e01f3b98642070f3758",
+      "translation_sha256": "d832d3b26119246fd667b98353a6411c006e3050fa2ec859225e8f6126ebd26d",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.0993.122",
+      "source_sha256": "ca16664ac9c4a3531e4131776c850499d6a35ffb95075dc19193861d49b7f1f2",
+      "translation_sha256": "94742ee648804d47a1c2bc9150e7ba5424addc8f9b8c117dfe4708557f8a6c67",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.0993.123",
+      "source_sha256": "a963cd61077e98d7c2f9e3e674d71b749333bed686616dd88aedc30af9601a55",
+      "translation_sha256": "80a8cb93a659ed1141b2805970b77803ae2ac7301c77b1f02614903af94a627b",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.0993.124",
+      "source_sha256": "b45587bacac4078c0eed96c483d996f43eff09256e1bdb8f146f9eec42e080bc",
+      "translation_sha256": "81d36884b354584e2eaf8d9a551e610be7baf58475e847b521bd3dcc79c71b63",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.0993.125",
+      "source_sha256": "bcbd53eb8cc5c02300b68b88f9381a3fafdc5a18a1314a2dd452423c747e09e9",
+      "translation_sha256": "3e8a56ad662ce46372b3be4ec0beaf299cd019acde0959567fc4297e6a556247",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.0993.126",
+      "source_sha256": "5fcccce71e5aa74dd32878cf219df2067d398e3bb176e74af2ee5bcac1addb7b",
+      "translation_sha256": "ec2054e8b196e0f5f86cab1e71641a6833b936beb3c9abd008cb6c54efd67940",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.0993.127",
+      "source_sha256": "cc509daf8d259ffae8bc58e87087d9abf16b5bb5607dab04e9c70305fec58f1b",
+      "translation_sha256": "c0f035bb2090c596f8b5226a38bae4d302ac3bfaa436e8de23a5b11ca81afa37",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.0993.128",
+      "source_sha256": "3d17e5a281cb0231e2e2765c0e96b845e620faf77b9f29b0b1ed5cee08f4a519",
+      "translation_sha256": "a07023c31c816e4abaa7de936b09c8dcd8168811d5ad3595720b181eea257eec",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.0993.129",
+      "source_sha256": "d0dc2cc0336701c9d141de530e49316d9a9a9ab39de6b994deb8b0e81318e125",
+      "translation_sha256": "10add2f7ecc93a4d813b42cd19e028c8613c6e1b77c508859eea2eeedf455686",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.0993.130",
+      "source_sha256": "c0fdb50be8ed42b278f4cdcd2b898e81f746fc792e5284a9109f25dec54700cb",
+      "translation_sha256": "e064800183c26fe81b15a51afb9eb4975b1541b2374d04b0fd45e48db7a10aeb",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.0993.131",
+      "source_sha256": "a4051e3315da3168122e7c90d066af11068cea6879514ada08bca2cc57a5bb97",
+      "translation_sha256": "986b2057d115a053d0ea7fe7ac68cc5c91da651a7ab0876691323f3ff6a76d64",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.0993.132",
+      "source_sha256": "f2152429864a857477ffe4653ec03bb9f03a13a2a3b854f8d522c9e7b3324c80",
+      "translation_sha256": "83f7542cd0bb23311de831e37a59a3166ab6f5619c3670c1081f7107aea7e608",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.0993.133",
+      "source_sha256": "5217aa829d59d35473b9948ab83c7319923155939a1d85ddf4ba55bffe9fbf33",
+      "translation_sha256": "1ee2643617428b9c28a86fb249190cce6858ee4089703972dd292a87d6472198",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.0993.134",
+      "source_sha256": "a6fe9a3a35dce9d90aac1540c86466e9ce7186b794ce58adb9dc456e2a1def37",
+      "translation_sha256": "43230bf60bbcd17c502bb4be8b6dad6ebc878d54d3d6b7c5c758c734f60269a7",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.0993.135",
+      "source_sha256": "e145fbfb1615efb92966dc675028bb5d4a6ed2ff88b453c5eb70973efb42e895",
+      "translation_sha256": "886412600dc1b3fbcf1a8fbc535c4ce4092473d9c6a5c19f7c4637c02f4d1e0c",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.0993.136",
+      "source_sha256": "e508d84141b0c8af72aa5f322602a45151b2cf1b87f7b598e826ef4f1da3b870",
+      "translation_sha256": "da58ce486a3b024aa16db89adbdc318737482b73d45495453623425ac9362e57",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.0993.137",
+      "source_sha256": "0a49444bde511b449d8e1d5fd612e906581f114b2854068b1e8f3a274dc2e441",
+      "translation_sha256": "67cab20e445f4fda6f0996701144a0f66fd1bf8c90966203988b24bfeceaaf2f",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.0993.138",
+      "source_sha256": "e867445c16b1972f5ae6fe7342007e85936cb1a6662bb4883f9a899cbf9d7071",
+      "translation_sha256": "fb6a361a06f5359ac8187d7f14cb9ba675425778ae2d1e781950fe4503d61d61",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.0993.139",
+      "source_sha256": "8cd50d6d4273d539c4760a2d2e5ee62a46c341f2d0d5f11c12d06461649cce67",
+      "translation_sha256": "0a99a6b65177d7fe07148308bdc566928d80ceb72d29b5fa26a02325b7718d58",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.0993.140",
+      "source_sha256": "e1b41e26fd1f11a8491cf8c08062115352d3e7d96ecd7efc19245fd301046b8e",
+      "translation_sha256": "0690df45bd3115181c83ee34b2d3e306b75a82dec0309e536a9c7ab257d47686",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.0993.141",
+      "source_sha256": "6dd21df453c278c938d703a2d6903550f232c9a4577976331e110593e9bd87c2",
+      "translation_sha256": "376ff9fe1c32d849a0f1921b7e1b76143fbe449408463e5c1e3be879728fe72d",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.0993.142",
+      "source_sha256": "6977ba6ba0b4e41923acf9af68a7d0462fc50a862179f2e313e8190aa0aed828",
+      "translation_sha256": "aded3a889529fd0e18d8392872ef505bc3273e0911e9d678282cfaa38fff3562",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.0993.143",
+      "source_sha256": "d70f45e7a6750a4e7dab3ad19a4961de827568781282e0f60b38ee8fcef15619",
+      "translation_sha256": "abcb45aefba8f328f12488e9592a95389560b8af2e644436789123de99934778",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.1017.000",
+      "source_sha256": "c05ce7a21eb4454d5ce09a743f0b388b99d660898892bf01e8e2acd249c1aed4",
+      "translation_sha256": "343c5a41cfdeebbd762cea9838e7852f985755b380ea7281c12198f3677e53a9",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.1017.001",
+      "source_sha256": "9681d7d8fa712a73a0a550cb886e4bab4f8f283b1991e317aa44a8b3174b37d6",
+      "translation_sha256": "6d307b77142db049112bd115c75e62d410f9f20e9d315b75cad461e3092f9d94",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.1017.002",
+      "source_sha256": "558d5b387b3ff5476d64e5bcfb4a5adeeb6b956fd6a751ec695c00dc8f7f5689",
+      "translation_sha256": "6c5e561aa5d4cfb3a1383aba906eb962ff0bd339815f93baafda98818c207ba7",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.1017.003",
+      "source_sha256": "1f6a9fb1dc4ced22201d6d28affcdbed7918e92bdb749f11c9b152c8e2a606ce",
+      "translation_sha256": "70e0e1477818cc0c2e3b30a5d0a5b505ab8fc91cd509538a4300a0622445a6fa",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.1017.004",
+      "source_sha256": "6fe7f70f71f9814a660f2004cd243820cb731c8978c95b76d1dd0a30633ab8db",
+      "translation_sha256": "2e7b67e0b97594c62094685c55fcf4b7133a4e7b3805b1c46e0bea01ad83009e",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.1017.005",
+      "source_sha256": "0ddd0960b018f430ca6744b8eca08ac2e13ae9da942d02e562c2e9bf86824332",
+      "translation_sha256": "5d930dff70239150c5d4adee0a8a613b62f314da054bd751932b526bb0e6f004",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.1017.006",
+      "source_sha256": "4b9bf864540c831061edfbb529b284aa48a94dbdcde54b27b17c0286e4d643d5",
+      "translation_sha256": "8637e8b803ffa07b7ada79d6c38ce51c49f0862ede8273dbfa5e8ae03f058de3",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.1017.007",
+      "source_sha256": "a4eb379162f66f881ef29c2dc5c158c754abd672cc9c55157021fc6cbd8c090f",
+      "translation_sha256": "69b831652bb5cf29456801f853d1e673eb24793216054ca74f6ab9bed78025c9",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.1017.008",
+      "source_sha256": "d2f3161d3d5e4b023cb77096a975cba6224ae745fcefb4d92ff1a09e8c9121f9",
+      "translation_sha256": "9bf0c2f05a3066027fd7c30617234e10b2dce23c77fb996d55ddbbca67fcec24",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.1017.009",
+      "source_sha256": "a8dac8e176cb8894bd1a968b5cfbdf91689553d770108132a8a7a0157e20c125",
+      "translation_sha256": "9004904008111ee6f82e6270589377840b4ae80b8b424a309bde877c599f7829",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.1017.010",
+      "source_sha256": "071abeb1d867ffe166844a36afa80af9a4c8199b4e572ad675449165d3f03af5",
+      "translation_sha256": "ac0cff6b4dbaff68129710a9243bdfe18257021d528f4639c0c52e91dca72790",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.1017.011",
+      "source_sha256": "685e15de9c1d3ad8e7a5008125f43465078866f2c7a349997e121cd5d117f0d2",
+      "translation_sha256": "0aa5753d58887c2766233b910ee45a926219e130559affad177b3491489839d1",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.1017.012",
+      "source_sha256": "21ecc9e7abf6b2a98cb7e255f9c0f68b71174b39993768f4d2a441e7924206e8",
+      "translation_sha256": "5b998f7a0427ca69056b78b412274ab083f327786ca3ed7baf45ac50b8f5d989",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.1017.013",
+      "source_sha256": "96d039e50bc7b5a20301089a2199d84ab3d36847c9f3d23722df6794c0dec397",
+      "translation_sha256": "aa48242db86665992eada62dfe1b7be70e95adeeab227ac7a9290c06ad88fb7b",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.1017.014",
+      "source_sha256": "38ae1e9dd787eef1a254d2a6cfb38cb1ba1ddc3e0b9a57da0abc5463d70b4347",
+      "translation_sha256": "922c701224a9c16bc473caf32d85438a33cfca40b2a8dfd08015496ba72494c6",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.1017.015",
+      "source_sha256": "dd063d382e0ae97f6305753a55434c93bd98177b419fe17856388f9ec3be4979",
+      "translation_sha256": "6303b2e1a747086573f2d43760a339b1cc962e0b560e1fc1487ce1dd3fa1be6f",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.1017.016",
+      "source_sha256": "6c0c171ec8ca58831914c8985e10eaeb89932405782dbcda5c5113dca42789c2",
+      "translation_sha256": "2cd5b06d5a02a4583fcd1de2608bf5828a9d04780c210313104fc1a47f0020de",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.1017.017",
+      "source_sha256": "cac6f7ae8d3203a38fab6bd7b4f27c890ecbd7ef262a4a4ec716505d8e40935c",
+      "translation_sha256": "e32a00fcb803d0fab4d4058d392a97205a4ae174c0f9dabb9927913d2d1e2aa5",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.1017.018",
+      "source_sha256": "2f071f15aa94d84a60c8a7965bd83d4766005ee411d530aa9530b1d8c883b5b4",
+      "translation_sha256": "82988a18a7d2cb62075cf4cd3ed20b1a9045d775b457631ea872fa90d948c204",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.1017.019",
+      "source_sha256": "e0edaf170e77859515525b098864095b3e6c78b4cb3397e14d6ce3a143c1d198",
+      "translation_sha256": "b18f8309d2984b8c98e9f8cfd42ec7af80bc616e1a60585159740d7ae066d6fd",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.1017.020",
+      "source_sha256": "89e37320a1b3f5213b939d0a9dda53f91842844d86314325714f51a4b61ae236",
+      "translation_sha256": "ecda408582b9a75e24328bb5b150e02a99f31c8a357ce7d00d3e6ebd03f3cd7e",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.1017.021",
+      "source_sha256": "213c5aceac013517011406195f81bd9e3c42c724633876321e2ba57053a31387",
+      "translation_sha256": "1d7d54c4c7e7f0480b5c960902b06e8594ea9a35c8d5407e300c53cba2b80530",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.1017.022",
+      "source_sha256": "9dec127c9e8a8aac1dad8bf6dd149375b4cae60af2ad5b05c01fb10e9fb56e1b",
+      "translation_sha256": "d4ec154f094c748eff07f45e3ac39fa558d1b458c7e42fc1e25726dc3f78a5ab",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.1017.023",
+      "source_sha256": "885215455542b1021ed1925e6ddd62b283afcfeb2dfcd0eda95c715dd0cf87f9",
+      "translation_sha256": "936977fdb06af02439ae52b48f302e0bf77e2ac74c4a5c4bfc22946e55c6f578",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.1017.024",
+      "source_sha256": "09832a8c345ece3b58c62bfa7f0475e296c92be25cf8ee28e33c5156cd5f976f",
+      "translation_sha256": "db0663e130b4e7289011d87e08ca87fc553b25832e7a983d842320d597b12d40",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.1017.025",
+      "source_sha256": "38ebc3203b8b710cde4ec27e984067f74fcfec1492a74423bf1300cb19ea81e4",
+      "translation_sha256": "450e0ac29359fd6d1cc8de5b9b4fd9266e8e06e800eff1a2c673f1bc231cb742",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.1017.026",
+      "source_sha256": "798073e977546f243c991c8c86c7cb7f61369508fcb112d25e60586de7dfa29c",
+      "translation_sha256": "f2ea373f7cdfc8f109d8680b4f372121a85af126352c4fbcbbbe5c3180860ddc",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.1017.027",
+      "source_sha256": "3f54453f029545ad67965ff57fd332efe540475e42f932a3ce83347c8dcfc734",
+      "translation_sha256": "7f99ee058c1472ff640b0b95209f164808de4e008949f6f6f883415fb518b07a",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.1017.028",
+      "source_sha256": "4c6e9a357f5e8a0bf40f6fc12609e3dac0c24421f669ec8320364a3fc2f6d6e3",
+      "translation_sha256": "2b2322c77c7ef978cba6e014e7a1e8e3bfd119669c30ac277df28fea88025b3c",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.1017.029",
+      "source_sha256": "ffe4c9510fa0d246be6a3f75bcf52754514bbee14e3f3359e4ec34fd652902e1",
+      "translation_sha256": "2422894e644da2298c93bb60708badf6db226229aeb762256cb13fa001bdbb5f",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.1017.030",
+      "source_sha256": "df9d23dfa1bda4552c37166aa2dd554ecec77cbe8fcb9bc4e37ba2d17d4abe5f",
+      "translation_sha256": "f501872e32d5a6122a2b44ac13bcdc879cc3e89eb9760c74bbd855885b9cca7a",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.1017.031",
+      "source_sha256": "d48c20d1b1c1462785f070a35eb251c00e837250ea508ed1026ea4aa00bf0ae5",
+      "translation_sha256": "4c15c23698d11f8b6961a7c236a4c64947bda0a2309b46375bbf87b96271eca1",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.1017.032",
+      "source_sha256": "aa60099fca91052a9a4b958c5698a96abb3a0d4fd1a3392875942b4f085abf31",
+      "translation_sha256": "f9eccdbf746ea888d8dd9473980c16a3b8f3a355c4d33b6c730c9cfeb7eef5ad",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
+    },
+    {
+      "id": "script.1017.033",
+      "source_sha256": "49eb3d3fd80065ff36e5e623741962b49837f379ef4d9ed3e71040ca5728bc33",
+      "translation_sha256": "0dff7c18312ccb3b91b45e6b05f49d271eb6d2e3c748ee662add34c3ab73eb49",
+      "context_status": "verified",
+      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native initialized dialogue widget and external tile-cache RAM fixture; not natural encounter",
+        "evidence": "docs/evidence/npc-daily-validation.json",
+        "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766"
+      }
     }
   ]
 }

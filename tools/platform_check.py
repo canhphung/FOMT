@@ -133,7 +133,7 @@ def run(base_path, backends):
         for suite, script in [('full', 'emulator_smoke'), ('new-game', 'new_game_smoke'),
                               ('start', 'start_menu_smoke'), ('date', 'date_ui_smoke'),
                               ('items', 'item_batch_smoke'), ('item-audit', 'item_audit'),
-                              ('item-ui', 'item_ui_smoke')]:
+                              ('item-ui', 'item_ui_smoke'), ('npc-daily', 'npc_daily_smoke')]:
             dest = OUT / backend / suite
             args = [sys.executable, f'tools/{script}.py', str(rom), '--library', str(library)]
             if suite != 'start':

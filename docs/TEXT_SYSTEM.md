@@ -228,3 +228,10 @@ tiêu đề Ba lô và cache tiêu đề sách. CLI build mặc định nạp `s
 Đây là đồ họa tile, không bổ sung các nhãn này vào catalog ASCII/SCR.
 `tools/date_ui.py` xác minh và dựng resource lịch, cache HUD cùng sáu setter
 chỉ thay cách vẽ. Xem [DATE_UI.md](DATE_UI.md) cho cấu trúc và kiểm chứng.
+
+## Hội thoại thường ngày có bằng chứng
+
+`npc_context.py` kiểm literal constructor, hash CODE và call-site native
+ShowText cho 34 chuỗi Thomas và 51 chuỗi Popuri; chỉ phân loại đúng 85 ID.
+Dò nhánh Thomas theo CODE không phải gameplay simulation; trigger còn thiếu
+được ghi riêng. Xem [NPC_DAILY_LOCALIZATION.md](NPC_DAILY_LOCALIZATION.md).

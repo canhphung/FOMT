@@ -1,5 +1,10 @@
 # Quy trình dịch theo ngữ cảnh và hàng đợi QA
 
+Cập nhật npc-daily-01: [NPC](NPC_DAILY_LOCALIZATION.md) có 85 nháp mới,
+glossary 405 thuật ngữ. [Vật phẩm](ITEM_LOCALIZATION.md) đã đủ 347 mô tả;
+Flower đã xác minh là Bột mì. Các số ở phần baseline/lô đầu dưới đây là
+lịch sử; trạng thái hiện tại ở [tiến độ](TRANSLATION_PROGRESS.md).
+
 Baseline phiên 2026-10-23: glossary 389 thuật ngữ; bảy hồ sơ người nói có
 phạm vi; lô tools-01 gồm 16 mô tả liềm/cuốc. Mọi bản dịch vẫn là nháp.
 
@@ -76,8 +81,8 @@ ngôn ngữ/bố cục cần người duyệt; renderer/playtest passed cần đ
 chứng và hash ROM. Render probe không tự nâng playtest hoặc layout_review.
 Không chỉnh trực tiếp metadata để bỏ qua một lỗi thực tế.
 
-Mục item.food.066.name (Flower) vẫn blocked: biết đây là tên vật phẩm nhưng
-chưa xác định nó chỉ loại hoa nào. Chuỗi SCR chưa rõ người nói/chức năng
+Mục item.food.066.name (Flower) đã được xác minh là Bột mì bằng sách và
+bảng hàng trong ROM; xem ITEM_LOCALIZATION.md. Chuỗi SCR chưa rõ người nói/chức năng
 không tự vào hàng đợi dịch chỉ vì có thể đọc tiếng Anh.
 
 ## Lô vật phẩm đầu tiên
@@ -103,7 +108,7 @@ Có 37/347 mô tả có nháp, còn 310. Nhóm tiếp theo nên là rìu/búa/b�
 sau khi duyệt nghĩa và bố cục lô đầu; dùng hàng đợi để chọn ID thay vì chép
 hàng loạt nội dung chưa rõ ngữ cảnh. Không đánh dấu toàn bộ 347 đã kiểm UI.
 
-## NPC đầu tiên: Thomas
+## Lô NPC khởi đầu: Thomas (lịch sử)
 
 Chọn script 867, ID script.0867.000–008: cảnh đón người chơi trước/sau hồi
 tưởng. Người nói và thứ tự đã được xác minh qua replay intro trước đây;

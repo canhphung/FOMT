@@ -1,0 +1,3725 @@
+{
+  "schema_version": 1,
+  "rom": {
+    "sha1": "a2fc3574f0a65a4fcf7682fb274b9d7eebdef963",
+    "sha256": "ca6cebe7211b6f2693af210709f76222204bf9f7621dec08b30ca268117460dd",
+    "size": 8388608,
+    "game_code": "A4NE",
+    "revision": 0
+  },
+  "records": [
+    {
+      "id": "script.0993.093",
+      "rom_address": "0x083A099E",
+      "rom_offset": "0x3A099E",
+      "original_english": "Hi, {VAR:21}.{CR}{LF}The Poultry Farm is closed{CR}{LF}today. Sorry.{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{VAR:21}",
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "48692c20ff212e0d0a54686520506f756c747279204661726d20697320636c6f7365640d0a746f6461792e20536f7272792e05",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 93,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3797980,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.093",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x38d9"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.094",
+      "rom_address": "0x083A09D2",
+      "rom_offset": "0x3A09D2",
+      "original_english": "Me? No, my mom never{CR}{LF}even lets me touch the{CR}{LF}store money!{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "4d653f204e6f2c206d79206d6f6d206e657665720d0a6576656e206c657473206d6520746f756368207468650d0a73746f7265206d6f6e65792105",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 94,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3797984,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.094",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x38ec"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.095",
+      "rom_address": "0x083A0A0E",
+      "rom_offset": "0x3A0A0E",
+      "original_english": "Rain...?{CR}{LF}It doesn't rain this much{CR}{LF}where I live...{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "5261696e2e2e2e3f0d0a497420646f65736e2774207261696e2074686973206d7563680d0a77686572652049206c6976652e2e2e05",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 95,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3797988,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.095",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x3939"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.096",
+      "rom_address": "0x083A0A44",
+      "rom_offset": "0x3A0A44",
+      "original_english": "Nothing to do but{CR}{LF}relax, I suppose.{WAIT}{PAGE}Kai must be off today, {CR}{LF}too...{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "4e6f7468696e6720746f20646f206275740d0a72656c61782c204920737570706f73652e050c4b6169206d757374206265206f666620746f6461792c200d0a746f6f2e2e2e05",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 96,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3797992,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.096",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x394c"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.097",
+      "rom_address": "0x083A0A8B",
+      "rom_offset": "0x3A0A8B",
+      "original_english": "Ah, {VAR:21}.{CR}{LF}How are you today?{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{VAR:21}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "41682c20ff212e0d0a486f772061726520796f7520746f6461793f05",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 97,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3797996,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.097",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x39b2"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.098",
+      "rom_address": "0x083A0AA8",
+      "rom_offset": "0x3A0AA8",
+      "original_english": "I only get to come in the{CR}{LF}Summer, so I miss the {CR}{LF}people here!{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "49206f6e6c792067657420746f20636f6d6520696e207468650d0a53756d6d65722c20736f2049206d69737320746865200d0a70656f706c6520686572652105",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 98,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3798000,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.098",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x39c5"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.099",
+      "rom_address": "0x083A0AE9",
+      "rom_offset": "0x3A0AE9",
+      "original_english": "You look like you're {CR}{LF}busy as ever, {VAR:21}.{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{VAR:21}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "596f75206c6f6f6b206c696b6520796f75277265200d0a6275737920617320657665722c20ff212e05",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 99,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3798004,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.099",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x3a2b"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.100",
+      "rom_address": "0x083A0B13",
+      "rom_offset": "0x3A0B13",
+      "original_english": "It's like it's always {CR}{LF}Summer where I live with{CR}{LF}Kai. Do I look tan to you?{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "49742773206c696b65206974277320616c77617973200d0a53756d6d65722077686572652049206c69766520776974680d0a4b61692e20446f2049206c6f6f6b2074616e20746f20796f753f05",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 100,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3798008,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.100",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x3a3e"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.101",
+      "rom_address": "0x083A0B61",
+      "rom_offset": "0x3A0B61",
+      "original_english": "Howdy, {VAR:21}!{CR}{LF}How are you faring?{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{VAR:21}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "486f7764792c20ff21210d0a486f772061726520796f7520666172696e673f05",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 101,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3798012,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.101",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x3aa4"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.102",
+      "rom_address": "0x083A0B82",
+      "rom_offset": "0x3A0B82",
+      "original_english": "Sometimes I want to come{CR}{LF}back here in the Spring{CR}{LF}or the Fall...{WAIT}{CR}{LF}Even Winter!{WAIT}{PAGE}If I leave Kai alone, {CR}{LF}though, pretty soon the {CR}{LF}other girls will be all{WAIT}{CR}{LF}over him!{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "536f6d6574696d657320492077616e7420746f20636f6d650d0a6261636b206865726520696e2074686520537072696e670d0a6f72207468652046616c6c2e2e2e050d0a4576656e2057696e74657221050c49662049206c65617665204b616920616c6f6e652c200d0a74686f7567682c2070726574747920736f6f6e20746865200d0a6f74686572206769726c732077696c6c20626520616c6c050d0a6f7665722068696d2105",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 102,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3798016,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.102",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x3ab7"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.103",
+      "rom_address": "0x083A0C2B",
+      "rom_offset": "0x3A0C2B",
+      "original_english": "How is your farm,{CR}{LF}{VAR:21}?{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{VAR:21}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "486f7720697320796f7572206661726d2c0d0aff213f05",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 103,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3798020,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.103",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x3b1d"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.104",
+      "rom_address": "0x083A0C43",
+      "rom_offset": "0x3A0C43",
+      "original_english": "I wish I were still {CR}{LF}surrounded by animals like{CR}{LF}you are, {VAR:21}.{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{VAR:21}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "49207769736820492077657265207374696c6c200d0a737572726f756e64656420627920616e696d616c73206c696b650d0a796f75206172652c20ff212e05",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 104,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3798024,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.104",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x3b30"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.105",
+      "rom_address": "0x083A0C83",
+      "rom_offset": "0x3A0C83",
+      "original_english": "Hi, {VAR:21}.{CR}{LF}I hear you're doing a good{CR}{LF}job on your farm.{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{VAR:21}",
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "48692c20ff212e0d0a49206865617220796f7527726520646f696e67206120676f6f640d0a6a6f62206f6e20796f7572206661726d2e05",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 105,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3798028,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.105",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x3b97"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.106",
+      "rom_address": "0x083A0CBB",
+      "rom_offset": "0x3A0CBB",
+      "original_english": "I used to always{CR}{LF}want to leave this town...{CR}{LF}But now I appreciate it{WAIT}{CR}{LF}more.{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "49207573656420746f20616c776179730d0a77616e7420746f206c65617665207468697320746f776e2e2e2e0d0a427574206e6f7720492061707072656369617465206974050d0a6d6f72652e05",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 106,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3798032,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.106",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x3baa"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.107",
+      "rom_address": "0x083A0D0A",
+      "rom_offset": "0x3A0D0A",
+      "original_english": "You seem more grown up{CR}{LF}every year, {VAR:21}.{WAIT}{PAGE}I guess that's natural,{CR}{LF}though...{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{VAR:21}",
+        "{WAIT}",
+        "{PAGE}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "596f75207365656d206d6f72652067726f776e2075700d0a657665727920796561722c20ff212e050c4920677565737320746861742773206e61747572616c2c0d0a74686f7567682e2e2e05",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 107,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3798036,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.107",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x3c19"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.108",
+      "rom_address": "0x083A0D57",
+      "rom_offset": "0x3A0D57",
+      "original_english": "I try to make Kai {CR}{LF}stay with us at the house,{CR}{LF}but he insists on staying{WAIT}{CR}{LF}at the inn!{WAIT}{PAGE}I wonder why...?{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "492074727920746f206d616b65204b6169200d0a7374617920776974682075732061742074686520686f7573652c0d0a62757420686520696e7369737473206f6e2073746179696e67050d0a61742074686520696e6e21050c4920776f6e646572207768792e2e2e3f05",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 108,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3798040,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.108",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x3c2c"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.109",
+      "rom_address": "0x083A0DC2",
+      "rom_offset": "0x3A0DC2",
+      "original_english": "Hi, {VAR:21}.{CR}{LF}I wish I could come here{CR}{LF}for more than just {WAIT}{CR}{LF}Summers, sometimes!{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{VAR:21}",
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "48692c20ff212e0d0a492077697368204920636f756c6420636f6d6520686572650d0a666f72206d6f7265207468616e206a75737420050d0a53756d6d6572732c20736f6d6574696d65732105",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 109,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3798044,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.109",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x3c7a"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.110",
+      "rom_address": "0x083A0E10",
+      "rom_offset": "0x3A0E10",
+      "original_english": "I always hope my dad will{CR}{LF}be back this time when I {CR}{LF}come back, but he {WAIT}{CR}{LF}never is...{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "4920616c7761797320686f7065206d79206461642077696c6c0d0a6265206261636b20746869732074696d65207768656e2049200d0a636f6d65206261636b2c2062757420686520050d0a6e657665722069732e2e2e05",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 110,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3798048,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.110",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x3c8d"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.111",
+      "rom_address": "0x083A0E68",
+      "rom_offset": "0x3A0E68",
+      "original_english": "Hi, {VAR:21}.{CR}{LF}How are you doing?{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{VAR:21}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "48692c20ff212e0d0a486f772061726520796f7520646f696e673f05",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 111,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3798052,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.111",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x3d75"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.112",
+      "rom_address": "0x083A0E85",
+      "rom_offset": "0x3A0E85",
+      "original_english": "Say hello to your wife {CR}{LF}for me.{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "5361792068656c6c6f20746f20796f75722077696665200d0a666f72206d652e05",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 112,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3798056,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.112",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x3d88"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.113",
+      "rom_address": "0x083A0EA7",
+      "rom_offset": "0x3A0EA7",
+      "original_english": "Still toiling away at {CR}{LF}the farm, {VAR:21}?{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{VAR:21}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "5374696c6c20746f696c696e672061776179206174200d0a746865206661726d2c20ff213f05",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 113,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3798060,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.113",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x3def"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.114",
+      "rom_address": "0x083A0ECE",
+      "rom_offset": "0x3A0ECE",
+      "original_english": "What are you doing here?{CR}{LF}You are married now.{WAIT}{PAGE}Why don't you go back {CR}{LF}home to your cute wife?{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "576861742061726520796f7520646f696e6720686572653f0d0a596f7520617265206d617272696564206e6f772e050c57687920646f6e277420796f7520676f206261636b200d0a686f6d6520746f20796f7572206375746520776966653f05",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 114,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3798064,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.114",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x3e02"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.115",
+      "rom_address": "0x083A0F2F",
+      "rom_offset": "0x3A0F2F",
+      "original_english": "How is farm life treating{CR}{LF}you, {VAR:21}?{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{VAR:21}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "486f77206973206661726d206c696665207472656174696e670d0a796f752c20ff213f05",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 115,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3798068,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.115",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x3e50"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.116",
+      "rom_address": "0x083A0F54",
+      "rom_offset": "0x3A0F54",
+      "original_english": "You treat your wife so{CR}{LF}well! I'm jealous...{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "596f7520747265617420796f7572207769666520736f0d0a77656c6c212049276d206a65616c6f75732e2e2e05",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 116,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3798072,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.116",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x3e63"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.117",
+      "rom_address": "0x083A0F82",
+      "rom_offset": "0x3A0F82",
+      "original_english": "Hee-hee...{CR}{LF}We're getting married...!{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "4865652d6865652e2e2e0d0a57652772652067657474696e67206d6172726965642e2e2e2105",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 117,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3798076,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.117",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x3ed0"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.118",
+      "rom_address": "0x083A0FA9",
+      "rom_offset": "0x3A0FA9",
+      "original_english": "I just wish Dad would{CR}{LF}come back...{WAIT}{PAGE}How can he miss his own{CR}{LF}daughter's wedding!{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "49206a75737420776973682044616420776f756c640d0a636f6d65206261636b2e2e2e050c486f772063616e206865206d69737320686973206f776e0d0a646175676874657227732077656464696e672105",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 118,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3798080,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.118",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x3eea"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.119",
+      "rom_address": "0x083A0FFC",
+      "rom_offset": "0x3A0FFC",
+      "original_english": "You've never met my father,{CR}{LF}have you, {VAR:21}?{WAIT}{PAGE}I wonder what he would {CR}{LF}think of you...?{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{VAR:21}",
+        "{WAIT}",
+        "{PAGE}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "596f75277665206e65766572206d6574206d79206661746865722c0d0a6861766520796f752c20ff213f050c4920776f6e646572207768617420686520776f756c64200d0a7468696e6b206f6620796f752e2e2e3f05",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 119,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3798084,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.119",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x3ef8"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.120",
+      "rom_address": "0x083A1053",
+      "rom_offset": "0x3A1053",
+      "original_english": "...Hello!{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "2e2e2e48656c6c6f2105",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 120,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3798088,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.120",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x3f66"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.121",
+      "rom_address": "0x083A105E",
+      "rom_offset": "0x3A105E",
+      "original_english": "Did you need something?{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "44696420796f75206e65656420736f6d657468696e673f05",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 121,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3798092,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.121",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x3f80"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.122",
+      "rom_address": "0x083A1077",
+      "rom_offset": "0x3A1077",
+      "original_english": "Are you having fun{CR}{LF}on your farm?{CR}{LF}I'm so bored...{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "41726520796f7520686176696e672066756e0d0a6f6e20796f7572206661726d3f0d0a49276d20736f20626f7265642e2e2e05",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 122,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3798096,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.122",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x3fef"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.123",
+      "rom_address": "0x083A10AB",
+      "rom_offset": "0x3A10AB",
+      "original_english": "Don't tell anyone, though!{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "446f6e27742074656c6c20616e796f6e652c2074686f7567682105",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 123,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3798100,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.123",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x4009"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.124",
+      "rom_address": "0x083A10C7",
+      "rom_offset": "0x3A10C7",
+      "original_english": "You're much nicer{CR}{LF}than my brother, {CR}{LF}you know that?{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "596f75277265206d756368206e696365720d0a7468616e206d792062726f746865722c200d0a796f75206b6e6f7720746861743f05",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 124,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3798104,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.124",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x4078"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.125",
+      "rom_address": "0x083A10FD",
+      "rom_offset": "0x3A10FD",
+      "original_english": "My brother is so attached{CR}{LF}to me! {CR}{LF}Can you believe it?{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "4d792062726f7468657220697320736f2061747461636865640d0a746f206d6521200d0a43616e20796f752062656c696576652069743f05",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 125,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3798108,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.125",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x4092"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.126",
+      "rom_address": "0x083A1136",
+      "rom_offset": "0x3A1136",
+      "original_english": "What is it like where{CR}{LF}you live, {VAR:21}?{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{VAR:21}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "57686174206973206974206c696b652077686572650d0a796f75206c6976652c20ff213f05",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 126,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3798112,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.126",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x4103"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.127",
+      "rom_address": "0x083A115C",
+      "rom_offset": "0x3A115C",
+      "original_english": "I want to visit{CR}{LF}lots of different places!{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "492077616e7420746f2076697369740d0a6c6f7473206f6620646966666572656e7420706c616365732105",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 127,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3798116,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.127",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x411d"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.128",
+      "rom_address": "0x083A1188",
+      "rom_offset": "0x3A1188",
+      "original_english": "I'm so impressed you're{CR}{LF}managing your farm {CR}{LF}all by yourself!{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "49276d20736f20696d7072657373656420796f752772650d0a6d616e6167696e6720796f7572206661726d200d0a616c6c20627920796f757273656c662105",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 128,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3798120,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.128",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x4191"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.129",
+      "rom_address": "0x083A11C8",
+      "rom_offset": "0x3A11C8",
+      "original_english": "My brother likes you,{CR}{LF}and so do I!{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "4d792062726f74686572206c696b657320796f752c0d0a616e6420736f20646f20492105",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 129,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3798124,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.129",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x41ac"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.130",
+      "rom_address": "0x083A11ED",
+      "rom_offset": "0x3A11ED",
+      "original_english": "What do you think{CR}{LF}of me...?{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "5768617420646f20796f75207468696e6b0d0a6f66206d652e2e2e3f05",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 130,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3798128,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.130",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x4220"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.131",
+      "rom_address": "0x083A120B",
+      "rom_offset": "0x3A120B",
+      "original_english": "Everyone thinks I'm {CR}{LF}still a kid...{WAIT}{PAGE}Do you think so, too?{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "45766572796f6e65207468696e6b732049276d200d0a7374696c6c2061206b69642e2e2e050c446f20796f75207468696e6b20736f2c20746f6f3f05",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 131,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3798132,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.131",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x423b"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.132",
+      "rom_address": "0x083A1248",
+      "rom_offset": "0x3A1248",
+      "original_english": "You had better treat{CR}{LF}me like an adult, {CR}{LF}{VAR:21}!{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{VAR:21}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "596f7520686164206265747465722074726561740d0a6d65206c696b6520616e206164756c742c200d0aff212105",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 132,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3798136,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.132",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x4293"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.133",
+      "rom_address": "0x083A1277",
+      "rom_offset": "0x3A1277",
+      "original_english": "I used to like only {CR}{LF}handsome men, but now I {CR}{LF}think I like quite men, {WAIT}{CR}{LF}like you...{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "49207573656420746f206c696b65206f6e6c79200d0a68616e64736f6d65206d656e2c20627574206e6f772049200d0a7468696e6b2049206c696b65207175697465206d656e2c20050d0a6c696b6520796f752e2e2e05",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 133,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3798140,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.133",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x42ae"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.134",
+      "rom_address": "0x083A12CF",
+      "rom_offset": "0x3A12CF",
+      "original_english": "I always relax more in{CR}{LF}my own room...{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "4920616c776179732072656c6178206d6f726520696e0d0a6d79206f776e20726f6f6d2e2e2e05",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 134,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3798144,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.134",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x439b"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.135",
+      "rom_address": "0x083A12F7",
+      "rom_offset": "0x3A12F7",
+      "original_english": "I'm getting sleepy...{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "49276d2067657474696e6720736c656570792e2e2e05",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 135,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3798148,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.135",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x446b"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.136",
+      "rom_address": "0x083A130E",
+      "rom_offset": "0x3A130E",
+      "original_english": "What do you think {CR}{LF}Churches are for?{WAIT}{PAGE}Whenever I ask Carter, he{CR}{LF}won't give me a straight {CR}{LF}answer!{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "5768617420646f20796f75207468696e6b200d0a43687572636865732061726520666f723f050c5768656e6576657220492061736b204361727465722c2068650d0a776f6e27742067697665206d652061207374726169676874200d0a616e737765722105",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 136,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3798152,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.136",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x4558"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.137",
+      "rom_address": "0x083A1374",
+      "rom_offset": "0x3A1374",
+      "original_english": "This church was built when{CR}{LF}I was just a kid.{WAIT}{PAGE}My brother used to take{CR}{LF}me here all the time. {WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "546869732063687572636820776173206275696c74207768656e0d0a4920776173206a7573742061206b69642e050c4d792062726f74686572207573656420746f2074616b650d0a6d65206865726520616c6c207468652074696d652e2005",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 137,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3798156,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.137",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x4628"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.138",
+      "rom_address": "0x083A13D4",
+      "rom_offset": "0x3A13D4",
+      "original_english": "My Mom minds the store,{CR}{LF}and my brother looks after{CR}{LF}the Chickens. {WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "4d79204d6f6d206d696e6473207468652073746f72652c0d0a616e64206d792062726f74686572206c6f6f6b732061667465720d0a74686520436869636b656e732e2005",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 138,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3798160,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.138",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x4715"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.139",
+      "rom_address": "0x083A1419",
+      "rom_offset": "0x3A1419",
+      "original_english": "My father trusts my brother{CR}{LF}so much!{WAIT}{PAGE}He wouldn't teach ME {CR}{LF}anything, though.{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "4d792066617468657220747275737473206d792062726f746865720d0a736f206d75636821050c486520776f756c646e2774207465616368204d45200d0a616e797468696e672c2074686f7567682e05",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 139,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3798164,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.139",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x47e5"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.140",
+      "rom_address": "0x083A146A",
+      "rom_offset": "0x3A146A",
+      "original_english": "I love the ocean. {CR}{LF}Mineral Beach is the best {CR}{LF}place of all!{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "49206c6f766520746865206f6365616e2e200d0a4d696e6572616c204265616368206973207468652062657374200d0a706c616365206f6620616c6c2105",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 140,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3798168,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.140",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x484c"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.141",
+      "rom_address": "0x083A14A9",
+      "rom_offset": "0x3A14A9",
+      "original_english": "Kai's father owns {CR}{LF}restaurants in lots {CR}{LF}of towns.{WAIT}{PAGE}I had no idea!{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "4b6169277320666174686572206f776e73200d0a72657374617572616e747320696e206c6f7473200d0a6f6620746f776e732e050c4920686164206e6f20696465612105",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 141,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3798172,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.141",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x4860"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.142",
+      "rom_address": "0x083A14EE",
+      "rom_offset": "0x3A14EE",
+      "original_english": "I love Summer!{CR}{LF}The beach during Summer{CR}{LF}is my favorite!{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "49206c6f76652053756d6d6572210d0a54686520626561636820647572696e672053756d6d65720d0a6973206d79206661766f726974652105",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 142,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3798176,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.142",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x494d"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0993.143",
+      "rom_address": "0x083A1528",
+      "rom_offset": "0x3A1528",
+      "original_english": "Have you ever eaten at the {CR}{LF}Beach House?{WAIT}{PAGE}They have things there you{CR}{LF}can't find in town.{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "4861766520796f75206576657220656174656e20617420746865200d0a426561636820486f7573653f050c546865792068617665207468696e677320746865726520796f750d0a63616e27742066696e6420696e20746f776e2e05",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 143,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3798180,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.0993.143",
+          "speaker": "Popuri",
+          "script_id": 993,
+          "constructor_literal": "0x8035bfc",
+          "show_text_code_offsets": [
+            "0x4a1d"
+          ],
+          "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+          "scope": "adult daily dialogue 93..143; spouse/home 1..92 excluded; full trigger gates pending",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.1017.000",
+      "rom_address": "0x083E97CC",
+      "rom_offset": "0x3E97CC",
+      "original_english": "Oh, I'd forgotten!{CR}{LF}Thanks for the great {CR}{LF}birthday present!{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_standard_gift_dialogue",
+      "speaker": "Thomas",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "4f682c2049276420666f72676f7474656e210d0a5468616e6b7320666f7220746865206772656174200d0a62697274686461792070726573656e742105",
+      "source": {
+        "kind": "script",
+        "script_id": 1017,
+        "string_index": 0,
+        "script_offset": 4096464,
+        "script_pointer_offset": 1022392,
+        "relative_offset_slot": 4101956,
+        "pool_offset": 4102092,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.1017.000",
+          "speaker": "Thomas",
+          "script_id": 1017,
+          "constructor_literal": "0x80361b8",
+          "show_text_code_offsets": [
+            "0x3cc"
+          ],
+          "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+          "scope": "all 34 strings of Thomas standard NPC script",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.1017.001",
+      "rom_address": "0x083E980A",
+      "rom_offset": "0x3E980A",
+      "original_english": "What a fantastic gift!{CR}{LF}How did you know I love{CR}{LF}these so much? Thanks!{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_standard_gift_dialogue",
+      "speaker": "Thomas",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "5768617420612066616e7461737469632067696674210d0a486f772064696420796f75206b6e6f772049206c6f76650d0a746865736520736f206d7563683f205468616e6b732105",
+      "source": {
+        "kind": "script",
+        "script_id": 1017,
+        "string_index": 1,
+        "script_offset": 4096464,
+        "script_pointer_offset": 1022392,
+        "relative_offset_slot": 4101960,
+        "pool_offset": 4102092,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.1017.001",
+          "speaker": "Thomas",
+          "script_id": 1017,
+          "constructor_literal": "0x80361b8",
+          "show_text_code_offsets": [
+            "0x3e9"
+          ],
+          "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+          "scope": "all 34 strings of Thomas standard NPC script",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.1017.002",
+      "rom_address": "0x083E9853",
+      "rom_offset": "0x3E9853",
+      "original_english": "This is for me? {CR}{LF}Gee, thanks...I love these!{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_standard_gift_dialogue",
+      "speaker": "Thomas",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "5468697320697320666f72206d653f200d0a4765652c207468616e6b732e2e2e49206c6f76652074686573652105",
+      "source": {
+        "kind": "script",
+        "script_id": 1017,
+        "string_index": 2,
+        "script_offset": 4096464,
+        "script_pointer_offset": 1022392,
+        "relative_offset_slot": 4101964,
+        "pool_offset": 4102092,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.1017.002",
+          "speaker": "Thomas",
+          "script_id": 1017,
+          "constructor_literal": "0x80361b8",
+          "show_text_code_offsets": [
+            "0x3fc"
+          ],
+          "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+          "scope": "all 34 strings of Thomas standard NPC script",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.1017.003",
+      "rom_address": "0x083E9882",
+      "rom_offset": "0x3E9882",
+      "original_english": "Wow, thanks...{CR}{LF}I'll remember this!{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_standard_gift_dialogue",
+      "speaker": "Thomas",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "576f772c207468616e6b732e2e2e0d0a49276c6c2072656d656d62657220746869732105",
+      "source": {
+        "kind": "script",
+        "script_id": 1017,
+        "string_index": 3,
+        "script_offset": 4096464,
+        "script_pointer_offset": 1022392,
+        "relative_offset_slot": 4101968,
+        "pool_offset": 4102092,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.1017.003",
+          "speaker": "Thomas",
+          "script_id": 1017,
+          "constructor_literal": "0x80361b8",
+          "show_text_code_offsets": [
+            "0x40f"
+          ],
+          "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+          "scope": "all 34 strings of Thomas standard NPC script",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.1017.004",
+      "rom_address": "0x083E98A7",
+      "rom_offset": "0x3E98A7",
+      "original_english": "Err...Thanks...{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_standard_gift_dialogue",
+      "speaker": "Thomas",
+      "control_codes": [
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "4572722e2e2e5468616e6b732e2e2e05",
+      "source": {
+        "kind": "script",
+        "script_id": 1017,
+        "string_index": 4,
+        "script_offset": 4096464,
+        "script_pointer_offset": 1022392,
+        "relative_offset_slot": 4101972,
+        "pool_offset": 4102092,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.1017.004",
+          "speaker": "Thomas",
+          "script_id": 1017,
+          "constructor_literal": "0x80361b8",
+          "show_text_code_offsets": [
+            "0x422"
+          ],
+          "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+          "scope": "all 34 strings of Thomas standard NPC script",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.1017.005",
+      "rom_address": "0x083E98B8",
+      "rom_offset": "0x3E98B8",
+      "original_english": "Are you trying to goad{CR}{LF}me into losing my temper, {CR}{LF}{VAR:21}?{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_standard_gift_dialogue",
+      "speaker": "Thomas",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{VAR:21}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "41726520796f7520747279696e6720746f20676f61640d0a6d6520696e746f206c6f73696e67206d792074656d7065722c200d0aff213f05",
+      "source": {
+        "kind": "script",
+        "script_id": 1017,
+        "string_index": 5,
+        "script_offset": 4096464,
+        "script_pointer_offset": 1022392,
+        "relative_offset_slot": 4101976,
+        "pool_offset": 4102092,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.1017.005",
+          "speaker": "Thomas",
+          "script_id": 1017,
+          "constructor_literal": "0x80361b8",
+          "show_text_code_offsets": [
+            "0x435"
+          ],
+          "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+          "scope": "all 34 strings of Thomas standard NPC script",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.1017.006",
+      "rom_address": "0x083E98F1",
+      "rom_offset": "0x3E98F1",
+      "original_english": "I guess you're used to {CR}{LF}bugs, if you work on {CR}{LF}a farm!{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_standard_gift_dialogue",
+      "speaker": "Thomas",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "4920677565737320796f75277265207573656420746f200d0a627567732c20696620796f7520776f726b206f6e200d0a61206661726d2105",
+      "source": {
+        "kind": "script",
+        "script_id": 1017,
+        "string_index": 6,
+        "script_offset": 4096464,
+        "script_pointer_offset": 1022392,
+        "relative_offset_slot": 4101980,
+        "pool_offset": 4102092,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.1017.006",
+          "speaker": "Thomas",
+          "script_id": 1017,
+          "constructor_literal": "0x80361b8",
+          "show_text_code_offsets": [
+            "0x448"
+          ],
+          "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+          "scope": "all 34 strings of Thomas standard NPC script",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.1017.007",
+      "rom_address": "0x083E992A",
+      "rom_offset": "0x3E992A",
+      "original_english": "Yikes!{CR}{LF}Get it away from me!{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_standard_gift_dialogue",
+      "speaker": "Thomas",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "59696b6573210d0a47657420697420617761792066726f6d206d652105",
+      "source": {
+        "kind": "script",
+        "script_id": 1017,
+        "string_index": 7,
+        "script_offset": 4096464,
+        "script_pointer_offset": 1022392,
+        "relative_offset_slot": 4101984,
+        "pool_offset": 4102092,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.1017.007",
+          "speaker": "Thomas",
+          "script_id": 1017,
+          "constructor_literal": "0x80361b8",
+          "show_text_code_offsets": [
+            "0x45b"
+          ],
+          "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+          "scope": "all 34 strings of Thomas standard NPC script",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.1017.008",
+      "rom_address": "0x083E9948",
+      "rom_offset": "0x3E9948",
+      "original_english": "Now this is a great one...!{CR}{LF}Thanks! I think I'll give {CR}{LF}it to Harris' wife when{WAIT}{CR}{LF}he gets married!{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_standard_gift_dialogue",
+      "speaker": "Thomas",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "4e6f7720746869732069732061206772656174206f6e652e2e2e210d0a5468616e6b73212049207468696e6b2049276c6c2067697665200d0a697420746f20486172726973272077696665207768656e050d0a68652067657473206d6172726965642105",
+      "source": {
+        "kind": "script",
+        "script_id": 1017,
+        "string_index": 8,
+        "script_offset": 4096464,
+        "script_pointer_offset": 1022392,
+        "relative_offset_slot": 4101988,
+        "pool_offset": 4102092,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.1017.008",
+          "speaker": "Thomas",
+          "script_id": 1017,
+          "constructor_literal": "0x80361b8",
+          "show_text_code_offsets": [
+            "0x46e"
+          ],
+          "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+          "scope": "all 34 strings of Thomas standard NPC script",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.1017.009",
+      "rom_address": "0x083E99AD",
+      "rom_offset": "0x3E99AD",
+      "original_english": "Well this is very fancy!{WAIT}{PAGE}Oh...You mean it's for me?{CR}{LF}I can't exactly use it,{CR}{LF}but I'll give it to {WAIT}{CR}{LF}Harris' wife when he gets{WAIT}{CR}{LF}married.{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_standard_gift_dialogue",
+      "speaker": "Thomas",
+      "control_codes": [
+        "{WAIT}",
+        "{PAGE}",
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "57656c6c207468697320697320766572792066616e637921050c4f682e2e2e596f75206d65616e206974277320666f72206d653f0d0a492063616e27742065786163746c79207573652069742c0d0a6275742049276c6c206769766520697420746f20050d0a486172726973272077696665207768656e2068652067657473050d0a6d6172726965642e05",
+      "source": {
+        "kind": "script",
+        "script_id": 1017,
+        "string_index": 9,
+        "script_offset": 4096464,
+        "script_pointer_offset": 1022392,
+        "relative_offset_slot": 4101992,
+        "pool_offset": 4102092,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.1017.009",
+          "speaker": "Thomas",
+          "script_id": 1017,
+          "constructor_literal": "0x80361b8",
+          "show_text_code_offsets": [
+            "0x481"
+          ],
+          "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+          "scope": "all 34 strings of Thomas standard NPC script",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.1017.010",
+      "rom_address": "0x083E9A39",
+      "rom_offset": "0x3E9A39",
+      "original_english": "I bet the animals get{CR}{LF}scared when you put this on!{WAIT}{PAGE}Oh, it's for me? Thanks!{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_standard_gift_dialogue",
+      "speaker": "Thomas",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "49206265742074686520616e696d616c73206765740d0a736361726564207768656e20796f75207075742074686973206f6e21050c4f682c206974277320666f72206d653f205468616e6b732105",
+      "source": {
+        "kind": "script",
+        "script_id": 1017,
+        "string_index": 10,
+        "script_offset": 4096464,
+        "script_pointer_offset": 1022392,
+        "relative_offset_slot": 4101996,
+        "pool_offset": 4102092,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.1017.010",
+          "speaker": "Thomas",
+          "script_id": 1017,
+          "constructor_literal": "0x80361b8",
+          "show_text_code_offsets": [
+            "0x494"
+          ],
+          "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+          "scope": "all 34 strings of Thomas standard NPC script",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.1017.011",
+      "rom_address": "0x083E9A88",
+      "rom_offset": "0x3E9A88",
+      "original_english": "Congratulations!{CR}{LF}Who's the lucky girl, {CR}{LF}if I may ask?{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_standard_gift_dialogue",
+      "speaker": "Thomas",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "436f6e67726174756c6174696f6e73210d0a57686f277320746865206c75636b79206769726c2c200d0a69662049206d61792061736b3f05",
+      "source": {
+        "kind": "script",
+        "script_id": 1017,
+        "string_index": 11,
+        "script_offset": 4096464,
+        "script_pointer_offset": 1022392,
+        "relative_offset_slot": 4102000,
+        "pool_offset": 4102092,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.1017.011",
+          "speaker": "Thomas",
+          "script_id": 1017,
+          "constructor_literal": "0x80361b8",
+          "show_text_code_offsets": [
+            "0x6fd"
+          ],
+          "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+          "scope": "all 34 strings of Thomas standard NPC script",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.1017.012",
+      "rom_address": "0x083E9AC1",
+      "rom_offset": "0x3E9AC1",
+      "original_english": "Have you heard of the{CR}{LF}Forget-me-not Valley?{WAIT}{PAGE}I hear there's someone {CR}{LF}there named {VAR:2C}{CR}{LF}who is very popular. {WAIT}{PAGE}I'd like to meet him...{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Thomas",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{CR}",
+        "{LF}",
+        "{VAR:2C}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "4861766520796f75206865617264206f66207468650d0a466f726765742d6d652d6e6f742056616c6c65793f050c492068656172207468657265277320736f6d656f6e65200d0a7468657265206e616d656420ff2c0d0a77686f206973207665727920706f70756c61722e20050c492764206c696b6520746f206d6565742068696d2e2e2e05",
+      "source": {
+        "kind": "script",
+        "script_id": 1017,
+        "string_index": 12,
+        "script_offset": 4096464,
+        "script_pointer_offset": 1022392,
+        "relative_offset_slot": 4102004,
+        "pool_offset": 4102092,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.1017.012",
+          "speaker": "Thomas",
+          "script_id": 1017,
+          "constructor_literal": "0x80361b8",
+          "show_text_code_offsets": [
+            "0x73d"
+          ],
+          "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+          "scope": "all 34 strings of Thomas standard NPC script",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.1017.013",
+      "rom_address": "0x083E9B48",
+      "rom_offset": "0x3E9B48",
+      "original_english": "A long time ago, someone{CR}{LF}named Kano used to stay at{CR}{LF}my house. {WAIT}{PAGE}He used to love taking {CR}{LF}pictures of Mineral Town.{WAIT}{PAGE}One day, though, he just {CR}{LF}left a letter and vanished.{WAIT}{PAGE}I wonder where he is now?{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Thomas",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "41206c6f6e672074696d652061676f2c20736f6d656f6e650d0a6e616d6564204b616e6f207573656420746f20737461792061740d0a6d7920686f7573652e20050c4865207573656420746f206c6f76652074616b696e67200d0a7069637475726573206f66204d696e6572616c20546f776e2e050c4f6e65206461792c2074686f7567682c206865206a757374200d0a6c6566742061206c657474657220616e642076616e69736865642e050c4920776f6e646572207768657265206865206973206e6f773f05",
+      "source": {
+        "kind": "script",
+        "script_id": 1017,
+        "string_index": 13,
+        "script_offset": 4096464,
+        "script_pointer_offset": 1022392,
+        "relative_offset_slot": 4102008,
+        "pool_offset": 4102092,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.1017.013",
+          "speaker": "Thomas",
+          "script_id": 1017,
+          "constructor_literal": "0x80361b8",
+          "show_text_code_offsets": [
+            "0x791"
+          ],
+          "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+          "scope": "all 34 strings of Thomas standard NPC script",
+          "condition_status": "speaker and dialogue call verified; full trigger path not yet replayed"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.1017.014",
+      "rom_address": "0x083E9C11",
+      "rom_offset": "0x3E9C11",
+      "original_english": "There's nothing more {CR}{LF}pleasing to a mayor than {CR}{LF}a peaceful village!{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Thomas",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "54686572652773206e6f7468696e67206d6f7265200d0a706c656173696e6720746f2061206d61796f72207468616e200d0a6120706561636566756c2076696c6c6167652105",
+      "source": {
+        "kind": "script",
+        "script_id": 1017,
+        "string_index": 14,
+        "script_offset": 4096464,
+        "script_pointer_offset": 1022392,
+        "relative_offset_slot": 4102012,
+        "pool_offset": 4102092,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.1017.014",
+          "speaker": "Thomas",
+          "script_id": 1017,
+          "constructor_literal": "0x80361b8",
+          "show_text_code_offsets": [
+            "0x7d4"
+          ],
+          "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+          "scope": "all 34 strings of Thomas standard NPC script",
+          "condition_status": "map/friendship/time/weather probes available"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.1017.015",
+      "rom_address": "0x083E9C58",
+      "rom_offset": "0x3E9C58",
+      "original_english": "You should at least {CR}{LF}rest on the weekends, {CR}{LF}{VAR:21}!{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Thomas",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{VAR:21}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "596f752073686f756c64206174206c65617374200d0a72657374206f6e20746865207765656b656e64732c200d0aff212105",
+      "source": {
+        "kind": "script",
+        "script_id": 1017,
+        "string_index": 15,
+        "script_offset": 4096464,
+        "script_pointer_offset": 1022392,
+        "relative_offset_slot": 4102016,
+        "pool_offset": 4102092,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.1017.015",
+          "speaker": "Thomas",
+          "script_id": 1017,
+          "constructor_literal": "0x80361b8",
+          "show_text_code_offsets": [
+            "0x83a"
+          ],
+          "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+          "scope": "all 34 strings of Thomas standard NPC script",
+          "condition_status": "map/friendship/time/weather probes available"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.1017.016",
+      "rom_address": "0x083E9C8B",
+      "rom_offset": "0x3E9C8B",
+      "original_english": "I bet that's not going{CR}{LF}to happen though, is it?{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Thomas",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "492062657420746861742773206e6f7420676f696e670d0a746f2068617070656e2074686f7567682c2069732069743f05",
+      "source": {
+        "kind": "script",
+        "script_id": 1017,
+        "string_index": 16,
+        "script_offset": 4096464,
+        "script_pointer_offset": 1022392,
+        "relative_offset_slot": 4102020,
+        "pool_offset": 4102092,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.1017.016",
+          "speaker": "Thomas",
+          "script_id": 1017,
+          "constructor_literal": "0x80361b8",
+          "show_text_code_offsets": [
+            "0x848"
+          ],
+          "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+          "scope": "all 34 strings of Thomas standard NPC script",
+          "condition_status": "map/friendship/time/weather probes available"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.1017.017",
+      "rom_address": "0x083E9CBD",
+      "rom_offset": "0x3E9CBD",
+      "original_english": "Hmmm...Looks like it's not{CR}{LF}going to stop. {WAIT}{PAGE}And I was going to go to {CR}{LF}the Square, too!{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Thomas",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "486d6d6d2e2e2e4c6f6f6b73206c696b652069742773206e6f740d0a676f696e6720746f2073746f702e20050c416e6420492077617320676f696e6720746f20676f20746f200d0a746865205371756172652c20746f6f2105",
+      "source": {
+        "kind": "script",
+        "script_id": 1017,
+        "string_index": 17,
+        "script_offset": 4096464,
+        "script_pointer_offset": 1022392,
+        "relative_offset_slot": 4102024,
+        "pool_offset": 4102092,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.1017.017",
+          "speaker": "Thomas",
+          "script_id": 1017,
+          "constructor_literal": "0x80361b8",
+          "show_text_code_offsets": [
+            "0x85b"
+          ],
+          "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+          "scope": "all 34 strings of Thomas standard NPC script",
+          "condition_status": "map/friendship/time/weather probes available"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.1017.018",
+      "rom_address": "0x083E9D17",
+      "rom_offset": "0x3E9D17",
+      "original_english": "Ellen and I always eat {CR}{LF}Apple Pie together on the{CR}{LF}weekends. {WAIT}{PAGE}The Apple Pie at the {CR}{LF}Inn is the best!{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Thomas",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "456c6c656e20616e64204920616c7761797320656174200d0a4170706c652050696520746f676574686572206f6e207468650d0a7765656b656e64732e20050c546865204170706c652050696520617420746865200d0a496e6e2069732074686520626573742105",
+      "source": {
+        "kind": "script",
+        "script_id": 1017,
+        "string_index": 18,
+        "script_offset": 4096464,
+        "script_pointer_offset": 1022392,
+        "relative_offset_slot": 4102028,
+        "pool_offset": 4102092,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.1017.018",
+          "speaker": "Thomas",
+          "script_id": 1017,
+          "constructor_literal": "0x80361b8",
+          "show_text_code_offsets": [
+            "0x8a4"
+          ],
+          "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+          "scope": "all 34 strings of Thomas standard NPC script",
+          "condition_status": "map/friendship/time/weather probes available"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.1017.019",
+      "rom_address": "0x083E9D80",
+      "rom_offset": "0x3E9D80",
+      "original_english": "Hi, {VAR:21}. {CR}{LF}I'm off to go shopping!{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Thomas",
+      "control_codes": [
+        "{VAR:21}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "48692c20ff212e200d0a49276d206f666620746f20676f2073686f7070696e672105",
+      "source": {
+        "kind": "script",
+        "script_id": 1017,
+        "string_index": 19,
+        "script_offset": 4096464,
+        "script_pointer_offset": 1022392,
+        "relative_offset_slot": 4102032,
+        "pool_offset": 4102092,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.1017.019",
+          "speaker": "Thomas",
+          "script_id": 1017,
+          "constructor_literal": "0x80361b8",
+          "show_text_code_offsets": [
+            "0x8b7"
+          ],
+          "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+          "scope": "all 34 strings of Thomas standard NPC script",
+          "condition_status": "map/friendship/time/weather probes available"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.1017.020",
+      "rom_address": "0x083E9DA3",
+      "rom_offset": "0x3E9DA3",
+      "original_english": "Well, if it isn't {CR}{LF}{VAR:21}. {WAIT}{PAGE}How are you enjoying {CR}{LF}life on the farm?{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Thomas",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{VAR:21}",
+        "{WAIT}",
+        "{PAGE}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "57656c6c2c2069662069742069736e2774200d0aff212e20050c486f772061726520796f7520656e6a6f79696e67200d0a6c696665206f6e20746865206661726d3f05",
+      "source": {
+        "kind": "script",
+        "script_id": 1017,
+        "string_index": 20,
+        "script_offset": 4096464,
+        "script_pointer_offset": 1022392,
+        "relative_offset_slot": 4102036,
+        "pool_offset": 4102092,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.1017.020",
+          "speaker": "Thomas",
+          "script_id": 1017,
+          "constructor_literal": "0x80361b8",
+          "show_text_code_offsets": [
+            "0x904"
+          ],
+          "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+          "scope": "all 34 strings of Thomas standard NPC script",
+          "condition_status": "map/friendship/time/weather probes available"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.1017.021",
+      "rom_address": "0x083E9DE7",
+      "rom_offset": "0x3E9DE7",
+      "original_english": "I'm sure it will take some{CR}{LF}getting used to.{WAIT}{PAGE}A farm is a complicated {CR}{LF}place, after all!{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Thomas",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "49276d20737572652069742077696c6c2074616b6520736f6d650d0a67657474696e67207573656420746f2e050c41206661726d206973206120636f6d706c696361746564200d0a706c6163652c20616674657220616c6c2105",
+      "source": {
+        "kind": "script",
+        "script_id": 1017,
+        "string_index": 21,
+        "script_offset": 4096464,
+        "script_pointer_offset": 1022392,
+        "relative_offset_slot": 4102040,
+        "pool_offset": 4102092,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.1017.021",
+          "speaker": "Thomas",
+          "script_id": 1017,
+          "constructor_literal": "0x80361b8",
+          "show_text_code_offsets": [
+            "0x917"
+          ],
+          "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+          "scope": "all 34 strings of Thomas standard NPC script",
+          "condition_status": "map/friendship/time/weather probes available"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.1017.022",
+      "rom_address": "0x083E9E42",
+      "rom_offset": "0x3E9E42",
+      "original_english": "Hi, {VAR:21}!{CR}{LF}Have you gotten the hang{CR}{LF}of farming, yet?{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Thomas",
+      "control_codes": [
+        "{VAR:21}",
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "48692c20ff21210d0a4861766520796f7520676f7474656e207468652068616e670d0a6f66206661726d696e672c207965743f05",
+      "source": {
+        "kind": "script",
+        "script_id": 1017,
+        "string_index": 22,
+        "script_offset": 4096464,
+        "script_pointer_offset": 1022392,
+        "relative_offset_slot": 4102044,
+        "pool_offset": 4102092,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.1017.022",
+          "speaker": "Thomas",
+          "script_id": 1017,
+          "constructor_literal": "0x80361b8",
+          "show_text_code_offsets": [
+            "0x97e"
+          ],
+          "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+          "scope": "all 34 strings of Thomas standard NPC script",
+          "condition_status": "map/friendship/time/weather probes available"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.1017.023",
+      "rom_address": "0x083E9E77",
+      "rom_offset": "0x3E9E77",
+      "original_english": "Myself...I know more about{CR}{LF}running towns than farms!{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Thomas",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "4d7973656c662e2e2e49206b6e6f77206d6f72652061626f75740d0a72756e6e696e6720746f776e73207468616e206661726d732105",
+      "source": {
+        "kind": "script",
+        "script_id": 1017,
+        "string_index": 23,
+        "script_offset": 4096464,
+        "script_pointer_offset": 1022392,
+        "relative_offset_slot": 4102048,
+        "pool_offset": 4102092,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.1017.023",
+          "speaker": "Thomas",
+          "script_id": 1017,
+          "constructor_literal": "0x80361b8",
+          "show_text_code_offsets": [
+            "0x991"
+          ],
+          "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+          "scope": "all 34 strings of Thomas standard NPC script",
+          "condition_status": "map/friendship/time/weather probes available"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.1017.024",
+      "rom_address": "0x083E9EAE",
+      "rom_offset": "0x3E9EAE",
+      "original_english": "Hi, {VAR:21}!{CR}{LF}I hear you've been doing{CR}{LF}mighty well at the farm!{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Thomas",
+      "control_codes": [
+        "{VAR:21}",
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "48692c20ff21210d0a49206865617220796f75277665206265656e20646f696e670d0a6d69676874792077656c6c20617420746865206661726d2105",
+      "source": {
+        "kind": "script",
+        "script_id": 1017,
+        "string_index": 24,
+        "script_offset": 4096464,
+        "script_pointer_offset": 1022392,
+        "relative_offset_slot": 4102052,
+        "pool_offset": 4102092,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.1017.024",
+          "speaker": "Thomas",
+          "script_id": 1017,
+          "constructor_literal": "0x80361b8",
+          "show_text_code_offsets": [
+            "0x9c1"
+          ],
+          "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+          "scope": "all 34 strings of Thomas standard NPC script",
+          "condition_status": "map/friendship/time/weather probes available"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.1017.025",
+      "rom_address": "0x083E9EEB",
+      "rom_offset": "0x3E9EEB",
+      "original_english": "People like me depend on{CR}{LF}people like you to grow our{CR}{LF}food, {WAIT}{CR}{LF}so you have my gratitude!{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Thomas",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "50656f706c65206c696b65206d6520646570656e64206f6e0d0a70656f706c65206c696b6520796f7520746f2067726f77206f75720d0a666f6f642c20050d0a736f20796f752068617665206d79206772617469747564652105",
+      "source": {
+        "kind": "script",
+        "script_id": 1017,
+        "string_index": 25,
+        "script_offset": 4096464,
+        "script_pointer_offset": 1022392,
+        "relative_offset_slot": 4102056,
+        "pool_offset": 4102092,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.1017.025",
+          "speaker": "Thomas",
+          "script_id": 1017,
+          "constructor_literal": "0x80361b8",
+          "show_text_code_offsets": [
+            "0x9d4"
+          ],
+          "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+          "scope": "all 34 strings of Thomas standard NPC script",
+          "condition_status": "map/friendship/time/weather probes available"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.1017.026",
+      "rom_address": "0x083E9F46",
+      "rom_offset": "0x3E9F46",
+      "original_english": "Hey there, {VAR:21}. {CR}{LF}Did you come here for a {CR}{LF}rest, too?{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Thomas",
+      "control_codes": [
+        "{VAR:21}",
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "4865792074686572652c20ff212e200d0a44696420796f7520636f6d65206865726520666f722061200d0a726573742c20746f6f3f05",
+      "source": {
+        "kind": "script",
+        "script_id": 1017,
+        "string_index": 26,
+        "script_offset": 4096464,
+        "script_pointer_offset": 1022392,
+        "relative_offset_slot": 4102060,
+        "pool_offset": 4102092,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.1017.026",
+          "speaker": "Thomas",
+          "script_id": 1017,
+          "constructor_literal": "0x80361b8",
+          "show_text_code_offsets": [
+            "0xa21"
+          ],
+          "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+          "scope": "all 34 strings of Thomas standard NPC script",
+          "condition_status": "map/friendship/time/weather probes available"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.1017.027",
+      "rom_address": "0x083E9F7D",
+      "rom_offset": "0x3E9F7D",
+      "original_english": "I bet the animals are happy{CR}{LF}on days like today, eh?{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Thomas",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "49206265742074686520616e696d616c73206172652068617070790d0a6f6e2064617973206c696b6520746f6461792c2065683f05",
+      "source": {
+        "kind": "script",
+        "script_id": 1017,
+        "string_index": 27,
+        "script_offset": 4096464,
+        "script_pointer_offset": 1022392,
+        "relative_offset_slot": 4102064,
+        "pool_offset": 4102092,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.1017.027",
+          "speaker": "Thomas",
+          "script_id": 1017,
+          "constructor_literal": "0x80361b8",
+          "show_text_code_offsets": [
+            "0xa34"
+          ],
+          "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+          "scope": "all 34 strings of Thomas standard NPC script",
+          "condition_status": "map/friendship/time/weather probes available"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.1017.028",
+      "rom_address": "0x083E9FB3",
+      "rom_offset": "0x3E9FB3",
+      "original_english": "Hello, {VAR:21}. {CR}{LF}Have you come to like {CR}{LF}our town yet?{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Thomas",
+      "control_codes": [
+        "{VAR:21}",
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "48656c6c6f2c20ff212e200d0a4861766520796f7520636f6d6520746f206c696b65200d0a6f757220746f776e207965743f05",
+      "source": {
+        "kind": "script",
+        "script_id": 1017,
+        "string_index": 28,
+        "script_offset": 4096464,
+        "script_pointer_offset": 1022392,
+        "relative_offset_slot": 4102068,
+        "pool_offset": 4102092,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.1017.028",
+          "speaker": "Thomas",
+          "script_id": 1017,
+          "constructor_literal": "0x80361b8",
+          "show_text_code_offsets": [
+            "0xa64"
+          ],
+          "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+          "scope": "all 34 strings of Thomas standard NPC script",
+          "condition_status": "map/friendship/time/weather probes available"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.1017.029",
+      "rom_address": "0x083E9FE7",
+      "rom_offset": "0x3E9FE7",
+      "original_english": "Just come to me if you{CR}{LF}ever get into any trouble.{CR}{LF}I give great advice.{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Thomas",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "4a75737420636f6d6520746f206d6520696620796f750d0a657665722067657420696e746f20616e792074726f75626c652e0d0a492067697665206772656174206164766963652e05",
+      "source": {
+        "kind": "script",
+        "script_id": 1017,
+        "string_index": 29,
+        "script_offset": 4096464,
+        "script_pointer_offset": 1022392,
+        "relative_offset_slot": 4102072,
+        "pool_offset": 4102092,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.1017.029",
+          "speaker": "Thomas",
+          "script_id": 1017,
+          "constructor_literal": "0x80361b8",
+          "show_text_code_offsets": [
+            "0xa77"
+          ],
+          "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+          "scope": "all 34 strings of Thomas standard NPC script",
+          "condition_status": "map/friendship/time/weather probes available"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.1017.030",
+      "rom_address": "0x083EA031",
+      "rom_offset": "0x3EA031",
+      "original_english": "Do you think this {CR}{LF}rain will continue...?{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Thomas",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "446f20796f75207468696e6b2074686973200d0a7261696e2077696c6c20636f6e74696e75652e2e2e3f05",
+      "source": {
+        "kind": "script",
+        "script_id": 1017,
+        "string_index": 30,
+        "script_offset": 4096464,
+        "script_pointer_offset": 1022392,
+        "relative_offset_slot": 4102076,
+        "pool_offset": 4102092,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.1017.030",
+          "speaker": "Thomas",
+          "script_id": 1017,
+          "constructor_literal": "0x80361b8",
+          "show_text_code_offsets": [
+            "0xac4"
+          ],
+          "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+          "scope": "all 34 strings of Thomas standard NPC script",
+          "condition_status": "map/friendship/time/weather probes available"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.1017.031",
+      "rom_address": "0x083EA05D",
+      "rom_offset": "0x3EA05D",
+      "original_english": "I was going to the Square, {CR}{LF}so I wish it were sunny...{WAIT}{PAGE}Is there something new up {CR}{LF}on the bulletin board?{CR}{LF}I forget.{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Thomas",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "492077617320676f696e6720746f20746865205371756172652c200d0a736f2049207769736820697420776572652073756e6e792e2e2e050c497320746865726520736f6d657468696e67206e6577207570200d0a6f6e207468652062756c6c6574696e20626f6172643f0d0a4920666f726765742e05",
+      "source": {
+        "kind": "script",
+        "script_id": 1017,
+        "string_index": 31,
+        "script_offset": 4096464,
+        "script_pointer_offset": 1022392,
+        "relative_offset_slot": 4102080,
+        "pool_offset": 4102092,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.1017.031",
+          "speaker": "Thomas",
+          "script_id": 1017,
+          "constructor_literal": "0x80361b8",
+          "show_text_code_offsets": [
+            "0xad7"
+          ],
+          "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+          "scope": "all 34 strings of Thomas standard NPC script",
+          "condition_status": "map/friendship/time/weather probes available"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.1017.032",
+      "rom_address": "0x083EA0D5",
+      "rom_offset": "0x3EA0D5",
+      "original_english": "Too bad about this rain...{WAIT}{PAGE}And it's my day off, too!{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Thomas",
+      "control_codes": [
+        "{WAIT}",
+        "{PAGE}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "546f6f206261642061626f75742074686973207261696e2e2e2e050c416e642069742773206d7920646179206f66662c20746f6f2105",
+      "source": {
+        "kind": "script",
+        "script_id": 1017,
+        "string_index": 32,
+        "script_offset": 4096464,
+        "script_pointer_offset": 1022392,
+        "relative_offset_slot": 4102084,
+        "pool_offset": 4102092,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.1017.032",
+          "speaker": "Thomas",
+          "script_id": 1017,
+          "constructor_literal": "0x80361b8",
+          "show_text_code_offsets": [
+            "0xb07"
+          ],
+          "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+          "scope": "all 34 strings of Thomas standard NPC script",
+          "condition_status": "map/friendship/time/weather probes available"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.1017.033",
+      "rom_address": "0x083EA10C",
+      "rom_offset": "0x3EA10C",
+      "original_english": "Harris always comes by the {CR}{LF}Inn at this hour, so I like{CR}{LF}to wait for him here on {WAIT}{CR}{LF}rainy days.{WAIT}{PAGE}Just to make sure everything{CR}{LF}is OK, you understand.{WAIT}",
+      "vietnamese_translation": "",
+      "context": "npc_daily_dialogue",
+      "speaker": "Thomas",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "48617272697320616c7761797320636f6d657320627920746865200d0a496e6e206174207468697320686f75722c20736f2049206c696b650d0a746f207761697420666f722068696d2068657265206f6e20050d0a7261696e7920646179732e050c4a75737420746f206d616b6520737572652065766572797468696e670d0a6973204f4b2c20796f7520756e6465727374616e642e05",
+      "source": {
+        "kind": "script",
+        "script_id": 1017,
+        "string_index": 33,
+        "script_offset": 4096464,
+        "script_pointer_offset": 1022392,
+        "relative_offset_slot": 4102088,
+        "pool_offset": 4102092,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "npc_context": {
+          "id": "script.1017.033",
+          "speaker": "Thomas",
+          "script_id": 1017,
+          "constructor_literal": "0x80361b8",
+          "show_text_code_offsets": [
+            "0xb1a"
+          ],
+          "code_sha256": "3b54ec6e358611a1dbc059c085e7dfe3abb48e94d75d20129b9644b73d1ac3ba",
+          "scope": "all 34 strings of Thomas standard NPC script",
+          "condition_status": "map/friendship/time/weather probes available"
+        },
+        "context_reference": "npc_context.py; docs/NPC_DAILY_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    }
+  ]
+}
