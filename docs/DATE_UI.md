@@ -62,6 +62,13 @@ Với ạ, thân ở y=2–5, y=6 trống hoàn toàn, dấu nặng cân giữa 
 Không vẽ bóng dưới dấu hoặc vào hàng phân cách. Giữ chiều ngang chữ lớn,
 cỡ chữ hoa/số, khoảng cách 3 pixel và cùng dung lượng cache của v3.
 
+Bản `vietnamese-date-24h-summer-raised-v5` nâng riêng cả nhãn **Hạ** lên
+một pixel trong raster 24x8, tận dụng hàng đầu vốn trống. Dấu nặng chuyển
+từ y=7 lên y=6; toàn hàng y=7 trong suốt trước đồng hồ ở dòng dưới. Thân ạ
+ở y=1–4, hàng y=5 vẫn trống để tách thân khỏi dấu. Các mùa có dấu mũ
+không dịch lên để giữ nguyên dấu tại y=0; cỡ chữ và tọa độ OBJ không đổi.
+
+[Ảnh nâng Hạ: bên trái v4, bên phải v5](evidence/date-hud-summer-raised.png) ·
 [Ảnh sửa dấu: bên trái v3, bên phải v4](evidence/date-hud-accents.png) ·
 [Ảnh tăng cỡ chữ ở v3](evidence/date-hud-size.png) ·
 [Ảnh sửa khoảng cách ở bản v2](evidence/date-hud-spacing.png).
@@ -97,9 +104,10 @@ trỏ hoặc nội dung mô tả lễ hội. Các popup mô tả lễ hội chư
   --output-dir build/date-final-0.10.5
 ```
 
-96 pytest đạt; có kiểm tra khoảng trống bằng pixel cho toàn bộ 30 ngày × bảy thứ
+97 pytest đạt; có kiểm tra khoảng trống bằng pixel cho toàn bộ 30 ngày × bảy thứ
 và mép phải của bốn tên mùa. Ba kiểm tra thêm cho â/ô/ạ xác minh dấu cân giữa
-và hàng phân cách không chứa mực hoặc bóng. Chạy cùng kiểm tra trên mGBA 0.10.5 và 0.11-dev:
+và hàng phân cách không chứa mực hoặc bóng. Kiểm tra nhãn Hạ hoàn chỉnh xác
+minh hàng cuối trống, dấu nặng còn đủ hai pixel và chữ H không bị cắt. Chạy cùng kiểm tra trên mGBA 0.10.5 và 0.11-dev:
 
 - 2.580 trường hợp packed date/time qua CPU thật, có canh bộ nhớ; bao phủ mọi
   ngày 1–30, bốn mùa, bảy chu kỳ thứ và toàn bộ 24x60 giá trị giờ/phút.

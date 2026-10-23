@@ -1,6 +1,6 @@
 # Tiến độ Việt hóa
 
-**Hiện tại:** 706/9.283 bản ghi dịch nháp, 2 prompt title đồ họa, lịch/HUD tiếng Việt, 96 test đạt.
+**Hiện tại:** 706/9.283 bản ghi dịch nháp, 2 prompt title đồ họa, lịch/HUD tiếng Việt, 97 test đạt.
 Đã Việt hóa các màn tạo game mới, intro, menu con START và lịch/HUD; mục cuối ghi phiên triển khai.
 Các mục cũ bên dưới giữ số liệu theo từng phiên lịch sử.
 
@@ -421,3 +421,20 @@ font/title/START/lưu/tải đều đạt. Đã duyệt ảnh trước/sau Xuân
 bốn mùa. Cập nhật IPS, manifest và [chứng cứ](evidence/date-ui-validation.json).
 [Ảnh trước/sau dấu](evidence/date-hud-accents.png): bên trái v3, bên phải v4.
 Vẫn chưa kiểm trên GBA thật hoặc chơi xuyên mùa; 706 bản ghi dịch nháp không đổi.
+
+
+## 2026-10-23 — Nâng nhãn Hạ để dấu nặng không chạm giờ
+
+Dấu nặng đã tách khỏi thân ở v4 nhưng còn nằm tại hàng cuối dòng ngày,
+ngay trên đồng hồ. `vietnamese-date-24h-summer-raised-v5` nâng cả chữ Hạ
+lên một pixel trong raster, đưa dấu nặng từ y=7 lên y=6 và để y=7 trống.
+Hàng đầu Hạ vốn trống nên không mất pixel. Giữ nguyên các mùa có dấu mũ
+để không cắt dấu tại y=0; cỡ chữ, khoảng cách, đồng hồ và tọa độ OBJ không đổi.
+
+97 pytest đạt, thêm kiểm tra nhãn Hạ hoàn chỉnh: hàng cuối trống, dấu nặng
+còn đủ và chữ H hiển thị ở hàng đầu. Trên mGBA 0.10.5 và 0.11-dev đều qua
+2.580 trường hợp HUD, 300 setter, chín fixture HUD kiểm tra OBJ VRAM,
+56 fixture lịch, smoke font/title/START và lưu/tải cold boot. Đã duyệt ảnh
+Hạ ngày 2/30, cả bốn mùa; [ảnh trước/sau](evidence/date-hud-summer-raised.png),
+[báo cáo](evidence/date-ui-validation.json). Cập nhật IPS/manifest, 706 bản ghi
+dịch nháp không đổi. Chưa kiểm trên GBA thật hoặc chơi xuyên mùa.

@@ -170,6 +170,7 @@ dùng font có vùng riêng cho dấu; mùa/ngày/thứ cùng cỡ chữ và cá
 ba pixel. Bản HUD v3 tăng thân chữ hoa/số lên 6 pixel cao, chữ thường 5 pixel
 cao, chiều ngang thân chữ tăng 1 pixel. Bản v4 sửa dấu mũ/dấu nặng bị dính
 ở v3: nguyên âm có dấu dùng thân 4 pixel cao, dấu cân giữa và có một hàng
-trong suốt tách khỏi thân, kể cả bóng. Giữ cỡ chữ hoa/số lớn. Đồng hồ giữ tile số gốc và nháy dấu hai chấm.
+trong suốt tách khỏi thân, kể cả bóng. Giữ cỡ chữ hoa/số lớn. Bản v5 nâng cả nhãn Hạ lên 1 pixel, chừa một hàng
+trống giữa dấu nặng và đồng hồ; các dấu mũ vẫn giữ nguyên vị trí. Đồng hồ giữ tile số gốc và nháy dấu hai chấm.
 Cả hai raster trước thành 4bpp, không dùng UTF-8 trực tiếp trong game.
 [DATE_UI.md](DATE_UI.md) ghi kích thước, palette, vùng đệm và kiểm tra VRAM.

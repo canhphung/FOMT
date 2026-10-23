@@ -21,7 +21,7 @@ PROFILE = json.loads((Path(__file__).resolve().parents[1]/'localization/vi/date_
 SEASONS = tuple(PROFILE['seasons'])
 WEEKDAYS = tuple(PROFILE['weekdays'])
 if len(SEASONS)!=4 or len(WEEKDAYS)!=7:raise FormatError('date UI requires four seasons and seven weekdays')
-REVISION = 'vietnamese-date-24h-accents-v4'
+REVISION = 'vietnamese-date-24h-summer-raised-v5'
 
 # Six-row capitals/digits and five-row lowercase, wider pixel bodies.
 # The eight-pixel line still reserves the top for accents and bottom for dots.
@@ -110,6 +110,10 @@ def tiles(pixels):
 def season_pixels(season):
     """Right-align actual ink (including its shadow) in the 24px season area."""
     pixels=tiny_pixels(season,24)
+    if season=='Hạ':
+        # Summer has no upper accent: its empty top scanline lets the whole
+        # word move up 1px, leaving a blank row between the dot and the clock.
+        pixels=pixels[1:]+[[0]*24]
     right=max(x for row in pixels for x,value in enumerate(row) if value)
     shift=23-right
     return [[0]*shift+row[:24-shift] for row in pixels]

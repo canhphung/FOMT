@@ -1,18 +1,18 @@
 {
   "date": "2026-10-23",
   "timezone": "Asia/Saigon",
-  "revision": "vietnamese-date-24h-accents-v4",
-  "target_sha256": "4d4c739c56a7bbda672866865964b3571418fa8feeca042c3ff649a73865cb66",
+  "revision": "vietnamese-date-24h-summer-raised-v5",
+  "target_sha256": "09f76efae75e9c936f03d5598ce31c858ca7c8b80e7e4a8fc7caac58aa4a44ce",
   "pytest": {
-    "passed": 96,
+    "passed": 97,
     "failed": 0,
     "skipped": 0
   },
   "emulators": {
     "0.10.5": {
       "date_ui": {
-        "target_sha256": "4d4c739c56a7bbda672866865964b3571418fa8feeca042c3ff649a73865cb66",
-        "revision": "vietnamese-date-24h-accents-v4",
+        "target_sha256": "09f76efae75e9c936f03d5598ce31c858ca7c8b80e7e4a8fc7caac58aa4a44ce",
+        "revision": "vietnamese-date-24h-summer-raised-v5",
         "limitations": [
           "Calendar fixtures change UI view fields, not elapsed gameplay years",
           "HUD game time still advances at native ten-minute ticks",
@@ -462,7 +462,7 @@
         "status": "passed"
       },
       "full_smoke": {
-        "target_sha256": "4d4c739c56a7bbda672866865964b3571418fa8feeca042c3ff649a73865cb66",
+        "target_sha256": "09f76efae75e9c936f03d5598ce31c858ca7c8b80e7e4a8fc7caac58aa4a44ce",
         "checks": {
           "ascii_native_outlines_at_common_baseline": 95,
           "legacy_glyph_fallback_unchanged": 10,
@@ -533,8 +533,8 @@
     },
     "dev": {
       "date_ui": {
-        "target_sha256": "4d4c739c56a7bbda672866865964b3571418fa8feeca042c3ff649a73865cb66",
-        "revision": "vietnamese-date-24h-accents-v4",
+        "target_sha256": "09f76efae75e9c936f03d5598ce31c858ca7c8b80e7e4a8fc7caac58aa4a44ce",
+        "revision": "vietnamese-date-24h-summer-raised-v5",
         "limitations": [
           "Calendar fixtures change UI view fields, not elapsed gameplay years",
           "HUD game time still advances at native ten-minute ticks",
@@ -984,7 +984,7 @@
         "status": "passed"
       },
       "full_smoke": {
-        "target_sha256": "4d4c739c56a7bbda672866865964b3571418fa8feeca042c3ff649a73865cb66",
+        "target_sha256": "09f76efae75e9c936f03d5598ce31c858ca7c8b80e7e4a8fc7caac58aa4a44ce",
         "checks": {
           "ascii_native_outlines_at_common_baseline": 95,
           "legacy_glyph_fallback_unchanged": 10,
@@ -1055,7 +1055,7 @@
     }
   },
   "start_menu_regression": {
-    "target_sha256": "4d4c739c56a7bbda672866865964b3571418fa8feeca042c3ff649a73865cb66",
+    "target_sha256": "09f76efae75e9c936f03d5598ce31c858ca7c8b80e7e4a8fc7caac58aa4a44ce",
     "status": "passed",
     "translated_records": 162,
     "isolated_renderer_lines_with_guards": 239,
@@ -1246,11 +1246,11 @@
     },
     {
       "path": "docs/evidence/date-ui/hud-1-0000.png",
-      "sha256": "cc823c2871e94490b51a550898137e24707f2f2c8f4728270f4d086a34508b76"
+      "sha256": "c94441d3558f286d9ff9e02d35353dad6a19abe3db570c1550ce5c329f65aead"
     },
     {
       "path": "docs/evidence/date-ui/hud-1-day2.png",
-      "sha256": "1e1c5d467a47218efb89209c1a05003550ef7d1d3b56e8119729803b962eeb22"
+      "sha256": "bdc42ece8a55a6c57b6fc02cf47078bd26efbfd30e900234c5902cdb4b4f078f"
     },
     {
       "path": "docs/evidence/date-ui/hud-2-1200.png",
@@ -1278,38 +1278,31 @@
     }
   ],
   "visual_review": "Native/translated calendar, all four seasons, 1/100/200-year headings, calendar exit and nine HUD date/time cases reviewed; no OCR or claim of multi-year gameplay.",
-  "accent_comparison": {
-    "path": "docs/evidence/date-hud-accents.png",
-    "sha256": "e56477f4438324d00da14827bf647afb1daeaae762afd283e2af656b1d1bdc45",
-    "left": "Before: 8ade237; rows Xuân, Hạ, Đông",
+  "summer_position_comparison": {
+    "path": "docs/evidence/date-hud-summer-raised.png",
+    "sha256": "26fd7a3b702764f7e11cf5b52a6ca6610a0ecd8ca194796c385a58bb3c12bd5c",
+    "left": "Before: 69ad3e0; Hạ day 2 and day 30",
     "right": "After: current target; matching season/day/time fixtures",
     "method": "Native emulator screenshots; nearest-neighbor crop only",
     "before_screenshots": [
       {
-        "name": "hud-0-0650.png",
-        "source_commit": "8ade237",
-        "sha256": "d0deda9d3520e5d0195f47792e47f358c3b362e6b0e3ddb48b9fc46bb199d933"
-      },
-      {
         "name": "hud-1-day2.png",
-        "source_commit": "8ade237",
-        "sha256": "232f2c0e14acc879f47a1d0b0db292c4638b16c575962f61c07dd95cad79978e"
+        "source_commit": "69ad3e0",
+        "sha256": "1e1c5d467a47218efb89209c1a05003550ef7d1d3b56e8119729803b962eeb22"
       },
       {
-        "name": "hud-3-day2.png",
-        "source_commit": "8ade237",
-        "sha256": "3fe3d35a78b5079ae2a85453aee64e3c14b16904fb3cb1626a5e449465560f4f"
+        "name": "hud-1-0000.png",
+        "source_commit": "69ad3e0",
+        "sha256": "cc823c2871e94490b51a550898137e24707f2f2c8f4728270f4d086a34508b76"
       }
     ],
-    "accent_regression_tests": [
-      "â: centered roof, transparent row 2",
-      "ô: centered roof, transparent row 2",
-      "ạ: centered dot, transparent row 6"
-    ],
-    "gap_includes_shadow": true
+    "summer_label_vertical_shift_pixels": -1,
+    "last_scanline_transparent": true,
+    "dot_pixels_preserved": 2
   },
   "historical_comparisons": [
     "docs/evidence/date-hud-spacing.png (v1/v2)",
-    "docs/evidence/date-hud-size.png (v2/v3)"
+    "docs/evidence/date-hud-size.png (v2/v3)",
+    "docs/evidence/date-hud-accents.png (v3/v4)"
   ]
 }

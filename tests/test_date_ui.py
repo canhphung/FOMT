@@ -94,3 +94,10 @@ def test_hud_accents_centered_and_separated_from_body_and_shadow(vowel):
     assert mark_x and body_x
     assert min(mark_x)+max(mark_x)==min(body_x)+max(body_x)
     assert any(pixels[y][x]==1 for y in range(3,6) for x in range(4))
+
+
+def test_summer_label_has_blank_row_between_bottom_dot_and_clock():
+    pixels=date_ui.season_pixels('Hạ')
+    assert not any(pixels[7]), 'Summer label must leave a clear row above HH:MM'
+    assert pixels[6].count(1)==2, 'Both pixels of the bottom dot must survive'
+    assert any(v==1 for v in pixels[0]), 'Raised capital must remain visible'
