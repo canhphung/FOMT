@@ -222,3 +222,9 @@ và kiểm chứng trong [INTRO_LOCALIZATION.md](INTRO_LOCALIZATION.md).
 Adapter `tools/start_menu.py` thêm 162 chuỗi native và dòng sách mẹo đã xác minh.
 Xem [START_MENU.md](START_MENU.md) cho bảng con trỏ, ngân sách ô/byte, hai hook
 tiêu đề Ba lô và cache tiêu đề sách. CLI build mặc định nạp `start_menu.json`.
+
+## Lịch và khung ngày giờ
+
+Đây là đồ họa tile, không bổ sung các nhãn này vào catalog ASCII/SCR.
+`tools/date_ui.py` xác minh và dựng resource lịch, cache HUD cùng sáu setter
+chỉ thay cách vẽ. Xem [DATE_UI.md](DATE_UI.md) cho cấu trúc và kiểm chứng.

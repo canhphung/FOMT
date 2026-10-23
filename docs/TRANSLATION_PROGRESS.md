@@ -1,7 +1,7 @@
 # Tiến độ Việt hóa
 
-**Hiện tại:** 706/9.283 bản ghi dịch nháp, 2 prompt title đồ họa, 79 test đạt.
-Đã Việt hóa các màn tạo game mới, intro và menu con START; mục cuối ghi phiên triển khai.
+**Hiện tại:** 706/9.283 bản ghi dịch nháp, 2 prompt title đồ họa, lịch/HUD tiếng Việt, 92 test đạt.
+Đã Việt hóa các màn tạo game mới, intro, menu con START và lịch/HUD; mục cuối ghi phiên triển khai.
 Các mục cũ bên dưới giữ số liệu theo từng phiên lịch sử.
 
 ## Phiên 2026-10-22 — nền tảng và bản thử đầu tiên
@@ -336,3 +336,26 @@ Xem [START_MENU.md](START_MENU.md), ảnh và báo cáo có hash ROM đích.
 Chưa dịch chữ đồ họa SP/Mon/AM và đơn vị ngày D. Chưa có save chứa đầy đủ cá/
 vật nuôi để replay mọi danh sách, chưa duyệt mọi hotspot bản đồ hoặc chơi xuyên
 mùa/máy thật. Không đánh dấu reviewed; không tuyên bố Việt hóa 100% game.
+
+
+## Phiên 2026-10-23 — lịch và khung ngày giờ
+
+Đã triển khai phần đồ họa đã thống nhất: Năm 1 — Mùa Xuân; CN/T2…T7;
+Xuân 2 · T2; HH:MM 24 tiếng. Dữ liệu 706/9.283 bản ghi không đổi vì các nhãn
+này nằm trong tile đồ họa, không phải chuỗi ASCII mới trích xuất. Profile mới
+`localization/vi/date_ui.json` ghi 12 nhãn lịch và cách hiển thị HUD.
+
+Xác minh resource 22 frame ở 0x74F34C, bảng tile HUD 0x75A440 và sáu hàm cập
+nhật. Thay 12 frame chữ, giữ nguyên chữ số/palette/biểu tượng; giảm 134 xuống
+124 tile. HUD dùng lại hai OBJ/vùng đệm 64x16 pixel và giữ nháy dấu hai chấm.
+Không sửa bộ đếm thời gian, bước 10 phút, cách lưu hoặc hàm tính ngày/thứ.
+
+92 pytest đạt. Trên mGBA 0.10.5 và 0.11-dev: 2.580 trường hợp packed date/time
+có canh bộ nhớ, 300 setter riêng, bốn fixture HUD so byte với VRAM, mở/đóng lịch
+bình thường và 56 fixture lịch. Phần grid/biểu tượng/pixel thân lịch khớp ROM
+gốc. Lưu Diary và cold boot tải lại đạt; smoke START chạy lại đạt.
+
+Xem [DATE_UI.md](DATE_UI.md), ảnh và báo cáo có hash đích. Fixture năm/mùa là
+kiểm tra trạng thái UI, không phải chơi xuyên mùa hoặc 200 năm. Popup mô tả
+lễ hội và các đơn vị/ngày tiếng Anh ngoài hai giao diện này còn chưa dịch.
+Chưa kiểm tra trên GBA thật. Các bản dịch vẫn ở trạng thái nháp.

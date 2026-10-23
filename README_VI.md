@@ -7,9 +7,13 @@ Không chứa hoặc tự tải ROM thương mại. Bản vá IPS nằm trong `p
 ## Trạng thái hiện tại
 
 - Trích xuất 9.283 bản ghi: 8.368 chuỗi SCR, 347 tên + 347 mô tả vật phẩm,
-  7 nhãn menu tạm dừng, 24 mục tạo game mới 28 mục hồi tưởng thời thơ ấu và 162 mục trong các menu con START.
+  7 nhãn menu tạm dừng, 24 mục tạo game mới, 28 mục hồi tưởng thời thơ ấu và 162 mục trong các menu con START.
 - 706 bản ghi dịch nháp: 346 tên vật phẩm, 21 mô tả, 7 menu, 1 lời chào Popuri,
   24 mục tạo game mới, 145 mục intro/hướng dẫn đầu game và 162 mục menu START.
+- Đã Việt hóa lịch và khung ngày giờ: **Năm 1 — Mùa Xuân**, **CN/T2…T7**,
+  **Xuân 2 · T2**, **06:50** theo giờ 24 tiếng. Giữ màu cuối tuần, biểu tượng
+  thời tiết/lễ hội và nhịp đồng hồ 10 phút của game.
+  [Ảnh kiểm chứng](docs/evidence/date-ui.png), [chi tiết](docs/DATE_UI.md).
 - Đã dịch menu con START: lưu/tải và tùy chọn Nhật ký, Ba lô, mô tả bản đồ,
   thống kê/Ghi chú và sách Mẹo điều khiển. Sửa hai tiêu đề Ba lô bị cắt chữ có dấu.
   [Ảnh trong game](docs/evidence/start-menu.png), [phạm vi và kiểm thử](docs/START_MENU.md).
@@ -28,7 +32,7 @@ Không chứa hoặc tự tải ROM thương mại. Bản vá IPS nằm trong `p
   Bản sửa v2 xử lý lỗi lệch thân chữ/spacing; xem ảnh trước–sau trong `docs/evidence`.
 - Chèn lại ở vùng ROM mở rộng, giữ nguyên bytecode sự kiện và dữ liệu gameplay.
 - Kiểm thử mGBA: boot, tạo game mới, hội thoại Thomas, 7 nhãn menu, render font,
-  ghi Diary và nạp lại save sau boot. Chi tiết và giới hạn trong báo cáo tiến độ.
+  lịch/HUD và ghi Diary, nạp lại save sau boot; 92 pytest đạt. Chi tiết và giới hạn trong báo cáo tiến độ.
 
 Chưa xác minh toàn bộ gameplay, mọi màn hình vật phẩm, TV/sách/sự kiện, phần cứng
 GBA thật hoặc nhập tên người chơi có dấu. Phần lớn hội thoại vẫn là tiếng Anh.

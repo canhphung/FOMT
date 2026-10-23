@@ -1,0 +1,1191 @@
+{
+  "date": "2026-10-23",
+  "timezone": "Asia/Saigon",
+  "revision": "vietnamese-date-24h-v1",
+  "target_sha256": "8a17911c449b0320b34a0e0dcb098c96d695818ac705b98a0cda6b034635747f",
+  "pytest": {
+    "passed": 92,
+    "failed": 0,
+    "skipped": 0
+  },
+  "emulators": {
+    "0.10.5": {
+      "date_ui": {
+        "target_sha256": "8a17911c449b0320b34a0e0dcb098c96d695818ac705b98a0cda6b034635747f",
+        "revision": "vietnamese-date-24h-v1",
+        "limitations": [
+          "Calendar fixtures change UI view fields, not elapsed gameplay years",
+          "HUD game time still advances at native ten-minute ticks",
+          "No real hardware or full-season playthrough"
+        ],
+        "isolated_hud": {
+          "packed_date_time_cases_with_guards": 2580,
+          "incremental_setter_cases": 300,
+          "packed_date_time_unchanged": true,
+          "metadata_and_guard_bytes_unchanged": true
+        },
+        "hud_view_fixtures_with_vram_checks": [
+          {
+            "season": 0,
+            "day": 2,
+            "hour": 6,
+            "minute": 50,
+            "screenshot": "hud-0-0650.png"
+          },
+          {
+            "season": 1,
+            "day": 30,
+            "hour": 0,
+            "minute": 0,
+            "screenshot": "hud-1-0000.png"
+          },
+          {
+            "season": 2,
+            "day": 30,
+            "hour": 12,
+            "minute": 0,
+            "screenshot": "hud-2-1200.png"
+          },
+          {
+            "season": 3,
+            "day": 30,
+            "hour": 23,
+            "minute": 59,
+            "screenshot": "hud-3-2359.png"
+          }
+        ],
+        "calendar_exit_and_sram_unchanged": true,
+        "natural_calendar_entry": true,
+        "calendar_ui_fixtures": [
+          {
+            "year": 1,
+            "season": 0,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 1,
+            "season": 0,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 1,
+            "season": 1,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 1,
+            "season": 1,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 1,
+            "season": 2,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 1,
+            "season": 2,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 1,
+            "season": 3,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 1,
+            "season": 3,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 7,
+            "season": 0,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 7,
+            "season": 0,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 7,
+            "season": 1,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 7,
+            "season": 1,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 7,
+            "season": 2,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 7,
+            "season": 2,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 7,
+            "season": 3,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 7,
+            "season": 3,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 8,
+            "season": 0,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 8,
+            "season": 0,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 8,
+            "season": 1,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 8,
+            "season": 1,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 8,
+            "season": 2,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 8,
+            "season": 2,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 8,
+            "season": 3,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 8,
+            "season": 3,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 10,
+            "season": 0,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 10,
+            "season": 0,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 10,
+            "season": 1,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 10,
+            "season": 1,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 10,
+            "season": 2,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 10,
+            "season": 2,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 10,
+            "season": 3,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 10,
+            "season": 3,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 99,
+            "season": 0,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 99,
+            "season": 0,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 99,
+            "season": 1,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 99,
+            "season": 1,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 99,
+            "season": 2,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 99,
+            "season": 2,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 99,
+            "season": 3,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 99,
+            "season": 3,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 100,
+            "season": 0,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 100,
+            "season": 0,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 100,
+            "season": 1,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 100,
+            "season": 1,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 100,
+            "season": 2,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 100,
+            "season": 2,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 100,
+            "season": 3,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 100,
+            "season": 3,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 200,
+            "season": 0,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 200,
+            "season": 0,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 200,
+            "season": 1,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 200,
+            "season": 1,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 200,
+            "season": 2,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 200,
+            "season": 2,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 200,
+            "season": 3,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 200,
+            "season": 3,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          }
+        ],
+        "calendar_source_tiles": 134,
+        "calendar_localized_tiles": 124,
+        "calendar_tile_budget": 128,
+        "screenshots": [
+          "calendar-y1-0-1.png",
+          "calendar-y1-0-30.png",
+          "calendar-y1-1-1.png",
+          "calendar-y1-1-30.png",
+          "calendar-y1-2-1.png",
+          "calendar-y1-2-30.png",
+          "calendar-y1-3-1.png",
+          "calendar-y1-3-30.png",
+          "calendar-y100-0-1.png",
+          "calendar-y100-0-30.png",
+          "calendar-y100-1-1.png",
+          "calendar-y100-1-30.png",
+          "calendar-y100-2-1.png",
+          "calendar-y100-2-30.png",
+          "calendar-y100-3-1.png",
+          "calendar-y100-3-30.png",
+          "calendar-y200-0-1.png",
+          "calendar-y200-0-30.png",
+          "calendar-y200-1-1.png",
+          "calendar-y200-1-30.png",
+          "calendar-y200-2-1.png",
+          "calendar-y200-2-30.png",
+          "calendar-y200-3-1.png",
+          "calendar-y200-3-30.png"
+        ],
+        "emulator_error_count": 0,
+        "status": "passed"
+      },
+      "full_smoke": {
+        "target_sha256": "8a17911c449b0320b34a0e0dcb098c96d695818ac705b98a0cda6b034635747f",
+        "checks": {
+          "ascii_native_outlines_at_common_baseline": 95,
+          "legacy_glyph_fallback_unchanged": 10,
+          "vietnamese_glyph_rasters_and_buffer_guards": 134,
+          "custom_code_width_without_drawing": 134,
+          "menu_multibyte_string_renderer_and_guards": 7,
+          "crop_item_pointers_and_multibyte_renderer": 15,
+          "full_charset_through_multibyte_string_renderer": 134,
+          "ascii_and_mixed_accent_spacing_strings": 9,
+          "no_save_title_cursor": {
+            "label": "title.start",
+            "x": 67,
+            "y": 114,
+            "visible_border_x": 82,
+            "gap_pixels": 0
+          },
+          "title_sprite_vram_matches_artwork": "28 tiles, 56x32 canvas, Bắt đầu",
+          "title_animation_matches_original_frames": 180,
+          "title_prompt_y_positions": [
+            110,
+            111,
+            112
+          ],
+          "title_initial_frame_pixels_outside_prompt_unchanged": "passed",
+          "normal_new_game_input_replay_frames": 13463,
+          "emulator_state_round_trip": "passed",
+          "saved_title_cursor_switch_left_right": [
+            {
+              "label": "title.continue",
+              "x": 134,
+              "y": 114,
+              "visible_border_x": 149,
+              "gap_pixels": 0
+            },
+            {
+              "label": "title.start",
+              "x": 11,
+              "y": 114,
+              "visible_border_x": 26,
+              "gap_pixels": 0
+            },
+            {
+              "label": "title.continue",
+              "x": 133,
+              "y": 114,
+              "visible_border_x": 149,
+              "gap_pixels": 1
+            }
+          ],
+          "continue_sprite_vram_and_saved_title_animation": "40 tiles, 80x32; original arrow; 180 frames passed",
+          "saved_title_pixels_outside_prompts_unchanged": "passed",
+          "in_game_sram_save_and_cold_boot_load": {
+            "size": 32768,
+            "sha256": "010d245cc521b3d21b5eecfe1ee31ce5ab432f22cf1ed990defda9325451258b",
+            "save_integrity_after_reboot": "identical",
+            "screenshots": "diary-saved, diary-load-menu, game-loaded"
+          },
+          "emulator_error_count": 0
+        },
+        "limitations": [
+          "No real-hardware test",
+          "No full-season gameplay test",
+          "Popuri not encountered in normal gameplay replay",
+          "All item screens and description layouts not playtested"
+        ],
+        "status": "passed; screenshots require visual inspection"
+      }
+    },
+    "dev": {
+      "date_ui": {
+        "target_sha256": "8a17911c449b0320b34a0e0dcb098c96d695818ac705b98a0cda6b034635747f",
+        "revision": "vietnamese-date-24h-v1",
+        "limitations": [
+          "Calendar fixtures change UI view fields, not elapsed gameplay years",
+          "HUD game time still advances at native ten-minute ticks",
+          "No real hardware or full-season playthrough"
+        ],
+        "isolated_hud": {
+          "packed_date_time_cases_with_guards": 2580,
+          "incremental_setter_cases": 300,
+          "packed_date_time_unchanged": true,
+          "metadata_and_guard_bytes_unchanged": true
+        },
+        "hud_view_fixtures_with_vram_checks": [
+          {
+            "season": 0,
+            "day": 2,
+            "hour": 6,
+            "minute": 50,
+            "screenshot": "hud-0-0650.png"
+          },
+          {
+            "season": 1,
+            "day": 30,
+            "hour": 0,
+            "minute": 0,
+            "screenshot": "hud-1-0000.png"
+          },
+          {
+            "season": 2,
+            "day": 30,
+            "hour": 12,
+            "minute": 0,
+            "screenshot": "hud-2-1200.png"
+          },
+          {
+            "season": 3,
+            "day": 30,
+            "hour": 23,
+            "minute": 59,
+            "screenshot": "hud-3-2359.png"
+          }
+        ],
+        "calendar_exit_and_sram_unchanged": true,
+        "natural_calendar_entry": true,
+        "calendar_ui_fixtures": [
+          {
+            "year": 1,
+            "season": 0,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 1,
+            "season": 0,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 1,
+            "season": 1,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 1,
+            "season": 1,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 1,
+            "season": 2,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 1,
+            "season": 2,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 1,
+            "season": 3,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 1,
+            "season": 3,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 7,
+            "season": 0,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 7,
+            "season": 0,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 7,
+            "season": 1,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 7,
+            "season": 1,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 7,
+            "season": 2,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 7,
+            "season": 2,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 7,
+            "season": 3,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 7,
+            "season": 3,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 8,
+            "season": 0,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 8,
+            "season": 0,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 8,
+            "season": 1,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 8,
+            "season": 1,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 8,
+            "season": 2,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 8,
+            "season": 2,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 8,
+            "season": 3,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 8,
+            "season": 3,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 10,
+            "season": 0,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 10,
+            "season": 0,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 10,
+            "season": 1,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 10,
+            "season": 1,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 10,
+            "season": 2,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 10,
+            "season": 2,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 10,
+            "season": 3,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 10,
+            "season": 3,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 99,
+            "season": 0,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 99,
+            "season": 0,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 99,
+            "season": 1,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 99,
+            "season": 1,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 99,
+            "season": 2,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 99,
+            "season": 2,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 99,
+            "season": 3,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 99,
+            "season": 3,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 100,
+            "season": 0,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 100,
+            "season": 0,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 100,
+            "season": 1,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 100,
+            "season": 1,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 100,
+            "season": 2,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 100,
+            "season": 2,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 100,
+            "season": 3,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 100,
+            "season": 3,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 200,
+            "season": 0,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 200,
+            "season": 0,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 200,
+            "season": 1,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 200,
+            "season": 1,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 200,
+            "season": 2,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 200,
+            "season": 2,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 200,
+            "season": 3,
+            "selected_day": 1,
+            "grid_events_and_body_pixels_match_native": true
+          },
+          {
+            "year": 200,
+            "season": 3,
+            "selected_day": 30,
+            "grid_events_and_body_pixels_match_native": true
+          }
+        ],
+        "calendar_source_tiles": 134,
+        "calendar_localized_tiles": 124,
+        "calendar_tile_budget": 128,
+        "screenshots": [
+          "calendar-y1-0-1.png",
+          "calendar-y1-0-30.png",
+          "calendar-y1-1-1.png",
+          "calendar-y1-1-30.png",
+          "calendar-y1-2-1.png",
+          "calendar-y1-2-30.png",
+          "calendar-y1-3-1.png",
+          "calendar-y1-3-30.png",
+          "calendar-y100-0-1.png",
+          "calendar-y100-0-30.png",
+          "calendar-y100-1-1.png",
+          "calendar-y100-1-30.png",
+          "calendar-y100-2-1.png",
+          "calendar-y100-2-30.png",
+          "calendar-y100-3-1.png",
+          "calendar-y100-3-30.png",
+          "calendar-y200-0-1.png",
+          "calendar-y200-0-30.png",
+          "calendar-y200-1-1.png",
+          "calendar-y200-1-30.png",
+          "calendar-y200-2-1.png",
+          "calendar-y200-2-30.png",
+          "calendar-y200-3-1.png",
+          "calendar-y200-3-30.png"
+        ],
+        "emulator_error_count": 0,
+        "status": "passed"
+      },
+      "full_smoke": {
+        "target_sha256": "8a17911c449b0320b34a0e0dcb098c96d695818ac705b98a0cda6b034635747f",
+        "checks": {
+          "ascii_native_outlines_at_common_baseline": 95,
+          "legacy_glyph_fallback_unchanged": 10,
+          "vietnamese_glyph_rasters_and_buffer_guards": 134,
+          "custom_code_width_without_drawing": 134,
+          "menu_multibyte_string_renderer_and_guards": 7,
+          "crop_item_pointers_and_multibyte_renderer": 15,
+          "full_charset_through_multibyte_string_renderer": 134,
+          "ascii_and_mixed_accent_spacing_strings": 9,
+          "no_save_title_cursor": {
+            "label": "title.start",
+            "x": 67,
+            "y": 114,
+            "visible_border_x": 82,
+            "gap_pixels": 0
+          },
+          "title_sprite_vram_matches_artwork": "28 tiles, 56x32 canvas, Bắt đầu",
+          "title_animation_matches_original_frames": 180,
+          "title_prompt_y_positions": [
+            110,
+            111,
+            112
+          ],
+          "title_initial_frame_pixels_outside_prompt_unchanged": "passed",
+          "normal_new_game_input_replay_frames": 13463,
+          "emulator_state_round_trip": "passed",
+          "saved_title_cursor_switch_left_right": [
+            {
+              "label": "title.continue",
+              "x": 134,
+              "y": 114,
+              "visible_border_x": 149,
+              "gap_pixels": 0
+            },
+            {
+              "label": "title.start",
+              "x": 11,
+              "y": 114,
+              "visible_border_x": 26,
+              "gap_pixels": 0
+            },
+            {
+              "label": "title.continue",
+              "x": 133,
+              "y": 114,
+              "visible_border_x": 149,
+              "gap_pixels": 1
+            }
+          ],
+          "continue_sprite_vram_and_saved_title_animation": "40 tiles, 80x32; original arrow; 180 frames passed",
+          "saved_title_pixels_outside_prompts_unchanged": "passed",
+          "in_game_sram_save_and_cold_boot_load": {
+            "size": 32768,
+            "sha256": "010d245cc521b3d21b5eecfe1ee31ce5ab432f22cf1ed990defda9325451258b",
+            "save_integrity_after_reboot": "identical",
+            "screenshots": "diary-saved, diary-load-menu, game-loaded"
+          },
+          "emulator_error_count": 0
+        },
+        "limitations": [
+          "No real-hardware test",
+          "No full-season gameplay test",
+          "Popuri not encountered in normal gameplay replay",
+          "All item screens and description layouts not playtested"
+        ],
+        "status": "passed; screenshots require visual inspection"
+      }
+    }
+  },
+  "start_menu_regression": {
+    "target_sha256": "8a17911c449b0320b34a0e0dcb098c96d695818ac705b98a0cda6b034635747f",
+    "status": "passed",
+    "translated_records": 162,
+    "isolated_renderer_lines_with_guards": 239,
+    "relocated_pointer_fields_verified": 197,
+    "bag_title_buffers": [
+      {
+        "id": "ui.start.1000b4",
+        "encoded_bytes": 9,
+        "cells": 7,
+        "title_buffer_bytes": 12,
+        "next_field_backpack_size": 2
+      },
+      {
+        "id": "ui.start.1000bc",
+        "encoded_bytes": 10,
+        "cells": 8,
+        "title_buffer_bytes": 12,
+        "next_field_backpack_size": 2
+      }
+    ],
+    "book_title_cache_vram_offset": 2048,
+    "screenshots": [
+      "start-diary.png",
+      "start-rucksack.png",
+      "start-world-map.png",
+      "start-farm-map.png",
+      "start-earnings.png",
+      "start-memo.png",
+      "start-tutorial.png",
+      "diary-row-0.png",
+      "diary-row-1.png",
+      "diary-row-2.png",
+      "diary-row-3.png",
+      "diary-row-4.png",
+      "diary-row-5.png",
+      "diary-save-slot.png",
+      "diary-save-confirm.png",
+      "diary-load-slot.png",
+      "diary-load-confirm.png",
+      "earnings-page-0.png",
+      "earnings-page-1.png",
+      "earnings-page-2.png",
+      "earnings-page-3.png",
+      "memo-page-0.png",
+      "memo-page-1.png",
+      "memo-page-2.png",
+      "tutorial-useful-tips.png",
+      "tutorial-useful-tips-1.png",
+      "tutorial-useful-tips-2.png",
+      "tutorial-useful-tips-3.png",
+      "tutorial-useful-tips-4.png",
+      "tutorial-crops.png",
+      "tutorial-animals.png"
+    ],
+    "emulator_error_count": 0,
+    "limitations": [
+      "Screenshots require visual inspection; no OCR assertion",
+      "Empty animal/fish lists in this SRAM fixture; those labels have isolated renderer checks only",
+      "Map descriptions all pointer-verified and line-probed; all hotspots not manually replayed",
+      "Some day-unit graphics outside the localized HUD remain original",
+      "No real-hardware or full-season test"
+    ]
+  },
+  "screenshots": [
+    {
+      "path": "docs/evidence/date-ui/calendar-closed.png",
+      "sha256": "8b3aafbbcaba3be54e577a71bce843a4193d7aed8670d1e7f2365a6b023230b0"
+    },
+    {
+      "path": "docs/evidence/date-ui/calendar-native.png",
+      "sha256": "970050cf8bbd35b502e9284444e220a5d56d7b94a514b873e5d460485af2001e"
+    },
+    {
+      "path": "docs/evidence/date-ui/calendar-vi.png",
+      "sha256": "5716596b172b95b90a1bc275c53c35b1450d06888771db5efb24ae5b4da52afd"
+    },
+    {
+      "path": "docs/evidence/date-ui/calendar-y1-0-1.png",
+      "sha256": "51fc2d549051653ea8fbd4301c1d722c1e8c12ab31bfafa2559f89f86652f046"
+    },
+    {
+      "path": "docs/evidence/date-ui/calendar-y1-0-30.png",
+      "sha256": "261d81f29f017b691be5c75bfc69df7b9d43a3b81a74793aac2ce8f0017582da"
+    },
+    {
+      "path": "docs/evidence/date-ui/calendar-y1-1-1.png",
+      "sha256": "1c62e25a08145572e09ca8d903c9b08e954523981a663368e011e9b68083bd5d"
+    },
+    {
+      "path": "docs/evidence/date-ui/calendar-y1-1-30.png",
+      "sha256": "2769654a6b5ca03f4a49f8e39de16a66fc5d239e143da77e91bc78a178cd1e8e"
+    },
+    {
+      "path": "docs/evidence/date-ui/calendar-y1-2-1.png",
+      "sha256": "68a368fc3f20e9eb521b218501bb76fc37a17c86f69ee3dbd60abd54e9aeffb2"
+    },
+    {
+      "path": "docs/evidence/date-ui/calendar-y1-2-30.png",
+      "sha256": "db6041225f34cbb81c5bc101b0419015cf5481fc37a61eb0efd70f73a5313cd7"
+    },
+    {
+      "path": "docs/evidence/date-ui/calendar-y1-3-1.png",
+      "sha256": "ad1216f08152c18f52d8223578de428f821c67d4ed310de58dee6c5d88df2f5c"
+    },
+    {
+      "path": "docs/evidence/date-ui/calendar-y1-3-30.png",
+      "sha256": "df80b4fe128857c7f720025e0ccc95d7d769cbf0c9c03c5818dd7f45de9a02d3"
+    },
+    {
+      "path": "docs/evidence/date-ui/calendar-y100-0-1.png",
+      "sha256": "de94f7f48a412348fc224c480a70f968b33ee0fa84b88dbac12361c71b6f2a37"
+    },
+    {
+      "path": "docs/evidence/date-ui/calendar-y100-0-30.png",
+      "sha256": "49f19f0f42f98dfb1bfa0c56fd5343e78b2db4149dfe1002f4659f6425229cc3"
+    },
+    {
+      "path": "docs/evidence/date-ui/calendar-y100-1-1.png",
+      "sha256": "de2f8ca55f6477f769fac7a7dbe7f875281218d8798e3a2038c38e272ea4b5df"
+    },
+    {
+      "path": "docs/evidence/date-ui/calendar-y100-1-30.png",
+      "sha256": "992e5c44aeb1a73ce90e4626db223ed1f8d11da440f5eb673209d98fd44b7305"
+    },
+    {
+      "path": "docs/evidence/date-ui/calendar-y100-2-1.png",
+      "sha256": "e4c172e6594bf4f621ff4b898870f91d35ee078c3c6d767cd0ecafeed2f512d3"
+    },
+    {
+      "path": "docs/evidence/date-ui/calendar-y100-2-30.png",
+      "sha256": "cde1bcbc4b88e47b98b441a3e303938b08049afff993a795a615ef31709512fd"
+    },
+    {
+      "path": "docs/evidence/date-ui/calendar-y100-3-1.png",
+      "sha256": "a27882688f7679fba8dfe9ce573da7bcd599f11983528892b371e39c63f9ee8e"
+    },
+    {
+      "path": "docs/evidence/date-ui/calendar-y100-3-30.png",
+      "sha256": "720f513b4ccd9c6a09382bafd9777b490c57a17b1b839a8d65fdc3fa705f1c33"
+    },
+    {
+      "path": "docs/evidence/date-ui/calendar-y200-0-1.png",
+      "sha256": "7eeaa87409559344d254160df54e09625891bce0acb8907c4821f3f27a4155d4"
+    },
+    {
+      "path": "docs/evidence/date-ui/calendar-y200-0-30.png",
+      "sha256": "04e890a71ee410c8299b5208da89be9f3b031e592ef4eb2e9c9c14a44dc7a968"
+    },
+    {
+      "path": "docs/evidence/date-ui/calendar-y200-1-1.png",
+      "sha256": "ab081a515510cde5811f86031a259a902c614d37abe5944f72c41753f9a32f08"
+    },
+    {
+      "path": "docs/evidence/date-ui/calendar-y200-1-30.png",
+      "sha256": "e7b449ea3dca89231805afed08e534e8d0c5ff0f98600b048d40a5565beba0d1"
+    },
+    {
+      "path": "docs/evidence/date-ui/calendar-y200-2-1.png",
+      "sha256": "0be772c27e9fa07238dfc11c369abec40b342658d815267ccdf0aec608549ab5"
+    },
+    {
+      "path": "docs/evidence/date-ui/calendar-y200-2-30.png",
+      "sha256": "d48664f0c7d426c1b4375988bc06bae9e24dc99a96047675285c29e4c89dd83a"
+    },
+    {
+      "path": "docs/evidence/date-ui/calendar-y200-3-1.png",
+      "sha256": "7ea4329d03c1825cafc0825562b332e0531d13e91836d53e0329e3119e95e0e6"
+    },
+    {
+      "path": "docs/evidence/date-ui/calendar-y200-3-30.png",
+      "sha256": "b4ce00087b9fa66a35160ae4a2aadd885db71ce4846e27ffe6fb200ccebd6b9b"
+    },
+    {
+      "path": "docs/evidence/date-ui/date-overview.png",
+      "sha256": "8d53033b3608cff53257adc7c6eb9baf0625ceae1bb644991d576d079e9258a6"
+    },
+    {
+      "path": "docs/evidence/date-ui/hud-0-0650.png",
+      "sha256": "e392667224780c463bce6e260ae306956393fcc8b436d46949fd02625aa96786"
+    },
+    {
+      "path": "docs/evidence/date-ui/hud-1-0000.png",
+      "sha256": "0aa365825984ffe69d057b57109c24e2aa56500b66014b8006b0d2cd784806b3"
+    },
+    {
+      "path": "docs/evidence/date-ui/hud-2-1200.png",
+      "sha256": "13838bf37de16a8bad51a472910c7e60d3df304b0a8ab055b87092e106dad019"
+    },
+    {
+      "path": "docs/evidence/date-ui/hud-3-2359.png",
+      "sha256": "8fd13aaaeeed9fca186a4321bc4e41ec99cc2e5fedf16d579bde951a5c532d79"
+    },
+    {
+      "path": "docs/evidence/date-ui/hud-native.png",
+      "sha256": "b445eef939588509f40a49c393280d56211aacc0bf865c7af1c57e01956d2312"
+    },
+    {
+      "path": "docs/evidence/date-ui/hud-vi.png",
+      "sha256": "418016459284c9750f242cea9ec9deac454e3079988f1fd7f965829ffea1830c"
+    }
+  ],
+  "visual_review": "Native/translated calendar, all four seasons, 1/100/200-year headings, calendar exit and four HUD time cases reviewed; no OCR or claim of multi-year gameplay."
+}

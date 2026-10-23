@@ -21,6 +21,7 @@ import title_cursor
 import new_game_ui
 import intro_text
 import start_menu
+import date_ui
 
 
 def build(base: bytes, translations: dict) -> tuple[bytes, dict]:
@@ -102,6 +103,18 @@ def build(base: bytes, translations: dict) -> tuple[bytes, dict]:
         write(0xCC1F8,bytes.fromhex("0b2c"),"items title cap: 11 bytes within char[12]")
         write(0xCC1FC,bytes.fromhex("0b24"),"items title cap: 11 bytes within char[12]")
         write(0xCC414,trampoline(ROM_BASE+at),"items title width: glyph cells instead of bytes")
+    calendar_at = append(date_ui.build_calendar_asset(base),"Vietnamese calendar sprite resource; digits/palettes/events preserved")
+    write(date_ui.CALENDAR_POINTER,p32(ROM_BASE+calendar_at),"calendar localized font resource pointer")
+    calendar_code_at = append(date_ui.calendar_header_hook(ROM_BASE+((len(result)+3)&~3)),"calendar Năm/year label order")
+    write(date_ui.CALENDAR_HEADER_SITE,trampoline(ROM_BASE+calendar_code_at),"calendar Năm before year number")
+    write(date_ui.CALENDAR_WEEK_X_SITE,bytes.fromhex("0925"),"calendar two-letter weekday centers")
+    date_cache = {}
+    for name,payload in date_ui.build_hud_cache(base).items():
+        date_cache[name] = ROM_BASE+append(payload,"Vietnamese HUD "+name+" tile cache")
+    code,entries = date_ui.assemble_hud(ROM_BASE+((len(result)+3)&~3),date_cache)
+    append(code,"Vietnamese HUD date and 24-hour display setters")
+    for name,site in date_ui.HUD_SITES.items():
+        write(site,trampoline(entries[name]),"HUD "+name+": Vietnamese/24-hour display")
     scripts = defaultdict(dict)
     for identifier, payload in selected.items():
         original = originals[identifier]
@@ -203,6 +216,10 @@ def build(base: bytes, translations: dict) -> tuple[bytes, dict]:
         "size": len(patched), "translated_records": len(selected), "writes": writes,
         "allocations": allocations, "layout": layout, "font_hook_bytes": font_hook.hex(),
         "graphics": [title_report],
+        "date_ui": {"revision":date_ui.REVISION,"calendar_resource_offset":calendar_at,
+                    "calendar_header_hook_offset":calendar_code_at,"calendar_font_tiles":124,
+                    "hud_cache_addresses":date_cache,"hud_code_entries":entries,
+                    "game_time_or_save_format_changed":False},
         "new_game_birthday_atlas": birthday_report,
         "intro_speaker_cache": name_report,
         "font": {"revision":FONT_REVISION,"source_mask_rows":SOURCE_ROWS,

@@ -120,7 +120,7 @@ def run(args):
                 'limitations':['Screenshots require visual inspection; no OCR assertion',
                                'Empty animal/fish lists in this SRAM fixture; those labels have isolated renderer checks only',
                                'Map descriptions all pointer-verified and line-probed; all hotspots not manually replayed',
-                               'HUD date abbreviations SP/Mon/AM and day-unit graphics remain original',
+                               'Some day-unit graphics outside the localized HUD remain original',
                                'No real-hardware or full-season test']}
     finally:session.close()
 

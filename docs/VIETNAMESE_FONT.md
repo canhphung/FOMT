@@ -162,3 +162,10 @@ Không tăng số OBJ/VRAM. Xem [INTRO_LOCALIZATION.md](INTRO_LOCALIZATION.md).
 Bản menu START xử lý thêm giới hạn byte trong buffer tiêu đề Ba lô và bộ vẽ
 từng byte của tiêu đề sách, giữ kích thước tile/OBJ gốc. Chi tiết và địa chỉ
 trong [START_MENU.md](START_MENU.md). Font glyph v2 không đổi.
+
+## Font lịch và HUD ngày giờ
+
+Lịch dùng nét chữ native với advance gọn, bảng thứ CN/T2…T7. HUD 64x16 pixel
+dùng font nhỏ có vùng riêng cho dấu, giữ tile số gốc và nháy dấu hai chấm.
+Cả hai raster trước thành 4bpp, không dùng UTF-8 trực tiếp trong game.
+[DATE_UI.md](DATE_UI.md) ghi kích thước, palette, vùng đệm và kiểm tra VRAM.

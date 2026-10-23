@@ -68,7 +68,8 @@ Xem [ảnh tổng quan](evidence/start-menu.png) và
 [báo cáo](evidence/start-menu-validation.json). Duyệt ảnh trực tiếp; smoke không
 OCR và không tự chứng minh mọi bố cục đều đúng trong mọi trạng thái save.
 
-Còn lại: chữ đồ họa ngày/giờ SP/Mon/AM và đơn vị D giữ nguyên; save thử chưa có
+Phần SP/Mon/AM trong HUD đã được Việt hóa ở phiên sau: [DATE_UI.md](DATE_UI.md).
+Đơn vị D ngoài HUD vẫn giữ nguyên; save thử chưa có
 vật nuôi/cá nên chưa đi qua tự nhiên mọi danh sách hoặc mọi điểm bản đồ. Những
 nhãn đó đã qua kiểm tra con trỏ và probe bộ vẽ. Các tên riêng như Staid/Nappy/
 Bold giữ nguyên. Chưa kiểm thử trên máy GBA thật hoặc chơi xuyên mùa.
