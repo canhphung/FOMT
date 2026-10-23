@@ -86,14 +86,14 @@ def test_hud_accents_centered_and_separated_from_body_and_shadow(vowel):
     # Both foreground and shadow must leave a full scanline between the mark
     # and its vowel; otherwise the enlarged HUD reads as a joined glyph.
     pixels=date_ui.tiny_pixels(vowel,8,16)
-    mark_rows=(0,1) if vowel!='ạ' else (8,)
-    gap=2 if vowel!='ạ' else 7
+    mark_rows=(0,) if vowel=='è' else ((0,1) if vowel!='ạ' else (8,))
+    gap=1 if vowel=='è' else (2 if vowel!='ạ' else 7)
     assert not any(pixels[gap])
     mark_x=[x for y in mark_rows for x,v in enumerate(pixels[y]) if v==1]
     body_x=[x for y in range(3,6) for x,v in enumerate(pixels[y]) if v==1]
     assert mark_x and body_x
     if vowel=='è':
-        assert pixels[1][2]==1  # grave ends over the center of the 5px bowl
+        assert pixels[0][1]==1  # compact grave over the left side of the bowl
     else:
         assert min(mark_x)+max(mark_x)==min(body_x)+max(body_x)
     assert any(pixels[y][x]==1 for y in range(3,6) for x in range(4))
@@ -121,8 +121,9 @@ def test_hud_metrics_reject_clipping_and_use_integer_advances():
 def test_e_counter_and_right_opening_stay_clear_of_shadow():
     for char in ('e','è'):
         pixels=date_ui.tiny_pixels(char,8)
-        assert pixels[4][1:4]==[0,0,0], 'Upper counter must remain transparent'
-        assert pixels[5][4]==0, 'Right opening must remain transparent'
-        assert pixels[5][:4]==[1,1,1,1], 'Middle bar must remain distinct'
-        assert date_ui.hud_glyph(char).advance==6
+        assert pixels[3][1:3]==[0,0], 'Upper counter must remain transparent'
+        assert pixels[5][1:4]==[0,0,0], 'Right opening must remain transparent'
+        assert pixels[4][:4]==[1,1,1,1], 'Middle bar must remain distinct'
+        assert pixels[5][0]==1, 'Lower stem must be present below the middle bar'
+        assert date_ui.hud_glyph(char).advance==5
         assert date_ui.hud_glyph(char).baseline==6

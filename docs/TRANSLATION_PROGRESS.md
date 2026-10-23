@@ -515,3 +515,21 @@ trong dòng 8 pixel, dựa trên hình dáng e tham khảo người dùng cung c
 và lưu/tải cold boot đạt. Đã duyệt ảnh Hè ngày 2/30 và các mùa khác.
 [Ảnh so sánh](evidence/date-hud-e-sample.png). Cập nhật IPS/manifest; vẫn
 706 bản ghi dịch nháp. Chưa kiểm trên GBA thật hoặc chơi xuyên mùa.
+
+
+## 2026-10-23 — Sửa cấu trúc e, không ép còn bốn hàng (v10)
+
+Phản hồi cho thấy v9 không giống mẫu. Nguyên nhân là ép thân e từ cấu trúc
+năm hàng xuống bốn hàng rồi nới chiều ngang, làm mất hàng nét dọc riêng
+bên dưới thanh ngang. `vietnamese-date-24h-five-row-e-v10` dùng bitmap
+0110/1001/1111/1000/0110, đủ vòng trên/thanh ngang/nét dọc/chân cong.
+Mặt nạ giữ lòng chữ và miệng mở không bị bóng lấp. Advance trở lại 5 pixel.
+
+Thân y=2–6, baseline 6; dấu huyền rút gọn một pixel ở (1,0) và y=1 để trống
+để nằm trong dòng 8 pixel. Đây là thay đổi dấu có chủ ý, không tuyên bố sao
+chép pixel của ảnh tham khảo. Đồng hồ, HUD, các mùa khác và lịch không đổi.
+100 pytest đạt; kiểm tra e/è có cả lòng, thanh ngang, nét dọc và vùng mở.
+Hai bản mGBA qua HUD 2.580 trường hợp, 300 setter, chín fixture VRAM/weather,
+56 fixture lịch; START/font/title/lưu-tải cold boot đều đạt. Đã duyệt ảnh Hè
+ngày 2/30. [Ảnh trước/sau](evidence/date-hud-e-five-row.png); IPS/manifest
+được cập nhật, 706 bản ghi dịch nháp giữ nguyên. Chưa kiểm GBA thật/chơi xuyên mùa.

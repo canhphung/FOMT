@@ -1,8 +1,8 @@
 {
   "date": "2026-10-23",
   "timezone": "Asia/Saigon",
-  "revision": "vietnamese-date-24h-sample-e-v9",
-  "target_sha256": "5083cb11426131cac0e7fd556fa76c260fba8d0311c78318cf822d47118c91a2",
+  "revision": "vietnamese-date-24h-five-row-e-v10",
+  "target_sha256": "a7ea7f2e7d54906b868a5b8f00cc55690c2ca6daebc6198239dd906effa042de",
   "pytest": {
     "passed": 100,
     "failed": 0,
@@ -11,8 +11,8 @@
   "emulators": {
     "0.10.5": {
       "date_ui": {
-        "target_sha256": "5083cb11426131cac0e7fd556fa76c260fba8d0311c78318cf822d47118c91a2",
-        "revision": "vietnamese-date-24h-sample-e-v9",
+        "target_sha256": "a7ea7f2e7d54906b868a5b8f00cc55690c2ca6daebc6198239dd906effa042de",
+        "revision": "vietnamese-date-24h-five-row-e-v10",
         "limitations": [
           "Calendar fixtures change UI view fields, not elapsed gameplay years",
           "HUD game time still advances at native ten-minute ticks",
@@ -463,7 +463,7 @@
         "status": "passed"
       },
       "full_smoke": {
-        "target_sha256": "5083cb11426131cac0e7fd556fa76c260fba8d0311c78318cf822d47118c91a2",
+        "target_sha256": "a7ea7f2e7d54906b868a5b8f00cc55690c2ca6daebc6198239dd906effa042de",
         "checks": {
           "ascii_native_outlines_at_common_baseline": 95,
           "legacy_glyph_fallback_unchanged": 10,
@@ -534,8 +534,8 @@
     },
     "dev": {
       "date_ui": {
-        "target_sha256": "5083cb11426131cac0e7fd556fa76c260fba8d0311c78318cf822d47118c91a2",
-        "revision": "vietnamese-date-24h-sample-e-v9",
+        "target_sha256": "a7ea7f2e7d54906b868a5b8f00cc55690c2ca6daebc6198239dd906effa042de",
+        "revision": "vietnamese-date-24h-five-row-e-v10",
         "limitations": [
           "Calendar fixtures change UI view fields, not elapsed gameplay years",
           "HUD game time still advances at native ten-minute ticks",
@@ -986,7 +986,7 @@
         "status": "passed"
       },
       "full_smoke": {
-        "target_sha256": "5083cb11426131cac0e7fd556fa76c260fba8d0311c78318cf822d47118c91a2",
+        "target_sha256": "a7ea7f2e7d54906b868a5b8f00cc55690c2ca6daebc6198239dd906effa042de",
         "checks": {
           "ascii_native_outlines_at_common_baseline": 95,
           "legacy_glyph_fallback_unchanged": 10,
@@ -1057,7 +1057,7 @@
     }
   },
   "start_menu_regression": {
-    "target_sha256": "5083cb11426131cac0e7fd556fa76c260fba8d0311c78318cf822d47118c91a2",
+    "target_sha256": "a7ea7f2e7d54906b868a5b8f00cc55690c2ca6daebc6198239dd906effa042de",
     "status": "passed",
     "translated_records": 162,
     "isolated_renderer_lines_with_guards": 239,
@@ -1248,11 +1248,11 @@
     },
     {
       "path": "docs/evidence/date-ui/hud-1-0000.png",
-      "sha256": "cdf591e7e2865f990ac6ef56745db67b2e8a5e82f3d525ccd9bc586aa69256af"
+      "sha256": "930e8e43a80d08ee03b783720fdbb7201f5a9a6425b8547102da05d5716b1117"
     },
     {
       "path": "docs/evidence/date-ui/hud-1-day2.png",
-      "sha256": "5b4ea55ca4fe829a997627559eee6b207aa7a2cbfe1c7f1e0683d49c3ff00220"
+      "sha256": "a96a81d57a8fedb52bb0305c58b3e7f27b977437de87eacfbb97ecc0ea390b88"
     },
     {
       "path": "docs/evidence/date-ui/hud-2-1200.png",
@@ -1280,46 +1280,53 @@
     }
   ],
   "visual_review": "Native/translated calendar, all four seasons, 1/100/200-year headings, calendar exit and nine HUD date/time cases reviewed; no OCR or claim of multi-year gameplay.",
-  "e_sample_comparison": {
-    "path": "docs/evidence/date-hud-e-sample.png",
-    "sha256": "268d4e4d1e8c69cb429df77aa19c636088de01d04aef806e3b60743e4ef7b5f6",
-    "left": "Before: faa3d75; four-column e",
-    "right": "After: current target; five-column e based on the user reference",
+  "five_row_e_comparison": {
+    "path": "docs/evidence/date-hud-e-five-row.png",
+    "sha256": "67253841d8e0fc9a9187256252e65e015e87102a010ed4503baa53be82a0b0f8",
+    "left": "Before: 21a5ee1, four-row e missing the lower stem row",
+    "right": "After: current target; five-row e, compact one-pixel grave, same HUD and clock placement",
     "method": "Native emulator screenshots; nearest-neighbor crop only",
     "before_screenshots": [
       {
         "name": "hud-1-day2.png",
-        "source_commit": "faa3d75",
-        "sha256": "dc9f918c09a372294cbde25a088c38e5e03892c5503370b96117ec1839b9fbf8"
+        "source_commit": "21a5ee1",
+        "sha256": "5b4ea55ca4fe829a997627559eee6b207aa7a2cbfe1c7f1e0683d49c3ff00220"
       },
       {
         "name": "hud-1-0000.png",
-        "source_commit": "faa3d75",
-        "sha256": "18f9dd4427a2b3bd959441b694cba37d8726f33c5b77c5b389e2e72a2e13a000"
+        "source_commit": "21a5ee1",
+        "sha256": "cdf591e7e2865f990ac6ef56745db67b2e8a5e82f3d525ccd9bc586aa69256af"
       }
     ],
     "clock_x": 8,
     "clock_y": 8,
-    "e_advance": 6,
+    "e_advance": 5,
     "date_baseline": 6,
     "e_bitmap": [
-      "01110",
-      "10001",
-      "11110",
-      "01111"
+      "0110",
+      "1001",
+      "1111",
+      "1000",
+      "0110"
     ],
-    "preserved_from_v8": [
-      "Xuân/Thu/Đông",
+    "grave_pixels": [
+      [
+        1,
+        0
+      ]
+    ],
+    "not_claiming_pixel_identical_reference": true,
+    "preserved": [
+      "other seasons",
       "date/week suffix",
       "clock tiles and position",
       "calendar resource",
-      "HUD/icon size and position",
-      "grave accent and date baseline"
+      "HUD/icon size and position"
     ]
   },
-  "historical_comparisons": [
-    "date-hud-he.png (v6/v7)",
-    "date-hud-e.png (v7/v8)",
-    "date-hud-metrics.png (v5/v6)"
-  ]
+  "glyph_preview": {
+    "path": "docs/evidence/hud-e-glyph.png",
+    "sha256": "c575540c3d7ccb3b42de82639c0563990ce869142092ccb161c942f29165ce1d",
+    "source": "Actual e/è HUD glyph raster, nearest-neighbor 4x, white preview background and black/gray index visualization; not an emulator screenshot"
+  }
 }
