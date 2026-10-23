@@ -168,6 +168,8 @@ trong [START_MENU.md](START_MENU.md). Font glyph v2 không đổi.
 Lịch dùng nét chữ native với advance gọn, bảng thứ CN/T2…T7. HUD 64x16 pixel
 dùng font có vùng riêng cho dấu; mùa/ngày/thứ cùng cỡ chữ và cách nhau
 ba pixel. Bản HUD v3 tăng thân chữ hoa/số lên 6 pixel cao, chữ thường 5 pixel
-cao, chiều ngang thân chữ tăng 1 pixel. Đồng hồ giữ tile số gốc và nháy dấu hai chấm.
+cao, chiều ngang thân chữ tăng 1 pixel. Bản v4 sửa dấu mũ/dấu nặng bị dính
+ở v3: nguyên âm có dấu dùng thân 4 pixel cao, dấu cân giữa và có một hàng
+trong suốt tách khỏi thân, kể cả bóng. Giữ cỡ chữ hoa/số lớn. Đồng hồ giữ tile số gốc và nháy dấu hai chấm.
 Cả hai raster trước thành 4bpp, không dùng UTF-8 trực tiếp trong game.
 [DATE_UI.md](DATE_UI.md) ghi kích thước, palette, vùng đệm và kiểm tra VRAM.

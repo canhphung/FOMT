@@ -1,6 +1,6 @@
 # Tiến độ Việt hóa
 
-**Hiện tại:** 706/9.283 bản ghi dịch nháp, 2 prompt title đồ họa, lịch/HUD tiếng Việt, 93 test đạt.
+**Hiện tại:** 706/9.283 bản ghi dịch nháp, 2 prompt title đồ họa, lịch/HUD tiếng Việt, 96 test đạt.
 Đã Việt hóa các màn tạo game mới, intro, menu con START và lịch/HUD; mục cuối ghi phiên triển khai.
 Các mục cũ bên dưới giữ số liệu theo từng phiên lịch sử.
 
@@ -400,3 +400,24 @@ START/font/title và lưu/tải sau cold boot đều đạt. Đã duyệt ảnh 
 ngày một/hai chữ số. [Ảnh trước/sau](evidence/date-hud-size.png),
 [báo cáo](evidence/date-ui-validation.json). Cập nhật IPS/manifest; số bản ghi
 dịch nháp vẫn là 706. Chưa kiểm tra trên GBA thật hoặc chơi xuyên mùa.
+
+
+## 2026-10-23 — Sửa dấu mũ/dấu nặng của font HUD lớn
+
+Bản v3 bị lỗi: dấu mũ ba pixel vẫn neo trái khi thân nguyên âm rộng lên bốn
+pixel; thân năm hàng đụng chân dấu, bóng dấu tiếp tục lấp khoảng trống. Dấu
+nặng cũng chạm đáy thân. Đây là lỗi raster, không phải encoding hay bộ tính ngày.
+
+`vietnamese-date-24h-accents-v4` căn dấu mũ bốn pixel cân giữa thân bốn pixel;
+nguyên âm có dấu dùng thân bốn hàng. Với â/ô: dấu y=0/1, hàng trống y=2,
+thân y=3–6. Với ạ: thân y=2–5, hàng trống y=6, dấu nặng y=7. Không đổ bóng
+vào hàng trống hoặc bên dưới dấu. Giữ thân chữ lớn của các ký tự còn lại,
+chiều ngang chữ, khoảng cách ba pixel và cache 40.192 byte; không tăng VRAM.
+
+96 pytest đạt, gồm ba kiểm tra hồi quy riêng cho â/ô/ạ để đo độ cân giữa
+và hàng trống kể cả bóng. Trên mGBA 0.10.5 và 0.11-dev: 2.580 trường hợp
+HUD, 300 setter, chín fixture HUD qua OBJ VRAM, 56 fixture lịch và smoke
+font/title/START/lưu/tải đều đạt. Đã duyệt ảnh trước/sau Xuân, Hạ, Đông và
+bốn mùa. Cập nhật IPS, manifest và [chứng cứ](evidence/date-ui-validation.json).
+[Ảnh trước/sau dấu](evidence/date-hud-accents.png): bên trái v3, bên phải v4.
+Vẫn chưa kiểm trên GBA thật hoặc chơi xuyên mùa; 706 bản ghi dịch nháp không đổi.

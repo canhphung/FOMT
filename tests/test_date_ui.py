@@ -79,3 +79,18 @@ def test_date_suffix_has_no_empty_digit_slot_and_consistent_word_gaps():
                     run=0
             assert runs.count(3)==2,(day,weekday,runs)
             assert all(n<=3 for n in runs)
+
+
+@pytest.mark.parametrize('vowel',['â','ô','ạ'])
+def test_hud_accents_centered_and_separated_from_body_and_shadow(vowel):
+    # Both foreground and shadow must leave a full scanline between the mark
+    # and its vowel; otherwise the enlarged HUD reads as a joined glyph.
+    pixels=date_ui.tiny_pixels(vowel,8)
+    mark_rows=(0,1) if vowel!='ạ' else (7,)
+    gap=2 if vowel!='ạ' else 6
+    assert not any(pixels[gap])
+    mark_x=[x for y in mark_rows for x,v in enumerate(pixels[y]) if v==1]
+    body_x=[x for y in range(3,6) for x,v in enumerate(pixels[y]) if v==1]
+    assert mark_x and body_x
+    assert min(mark_x)+max(mark_x)==min(body_x)+max(body_x)
+    assert any(pixels[y][x]==1 for y in range(3,6) for x in range(4))

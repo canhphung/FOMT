@@ -21,7 +21,7 @@ PROFILE = json.loads((Path(__file__).resolve().parents[1]/'localization/vi/date_
 SEASONS = tuple(PROFILE['seasons'])
 WEEKDAYS = tuple(PROFILE['weekdays'])
 if len(SEASONS)!=4 or len(WEEKDAYS)!=7:raise FormatError('date UI requires four seasons and seven weekdays')
-REVISION = 'vietnamese-date-24h-large-v3'
+REVISION = 'vietnamese-date-24h-accents-v4'
 
 # Six-row capitals/digits and five-row lowercase, wider pixel bodies.
 # The eight-pixel line still reserves the top for accents and bottom for dots.
@@ -63,24 +63,38 @@ def verify(rom):
 
 def tiny_pixels(text,width):
     import unicodedata
-    ink = set();cursor=0
+    body=set();marks=set();gaps=set();cursor=0
     for char in text:
         if char==' ':cursor+=3;continue
-        if char=='·':ink.add((cursor,4));cursor+=2;continue
+        if char=='·':body.add((cursor,4));cursor+=2;continue
         nfd=unicodedata.normalize('NFD',char);base=nfd[0];shape=TINY.get(base)
         if shape is None:raise FormatError('unknown tiny glyph '+char)
+        above='\u0302' in nfd;below='\u0323' in nfd
+        top=1
+        if above or below:
+            # Marked vowels need a real blank scanline within the 8px row.
+            # Preserve the wider v3 bodies and large capitals/other letters.
+            shape={'a':['0111','1001','1001','0111'],
+                   'o':['0110','1001','1001','0110']}[base]
+            top=3 if above else 2
         for y,row in enumerate(shape):
             for x,bit in enumerate(row):
-                if bit=='1':ink.add((cursor+x,y+1))
-        if '\u0302' in nfd:ink.update(((cursor,1),(cursor+1,0),(cursor+2,1)))
-        if '\u0323' in nfd:ink.add((cursor+1,7))
+                if bit=='1':body.add((cursor+x,y+top))
+        if above:
+            # A 4px symmetric roof is centered on the 4px vowel; v3's 3px
+            # roof was anchored left. Marks have no descending shadow.
+            marks.update(((cursor+1,0),(cursor+2,0),(cursor,1),(cursor+3,1)))
+            gaps.update((cursor+x,2) for x in range(5))
+        if below:
+            marks.update(((cursor+1,7),(cursor+2,7)))
+            gaps.update((cursor+x,6) for x in range(5))
         cursor+=len(shape[0])+1
+    ink=body|marks
     if any(x>=width or y>=8 for x,y in ink):raise FormatError('tiny HUD text overflows')
-    # Same foreground/shadow indices as original HUD glyphs; avoid a shadow
-    # below the bottom dot and beyond the original eight-pixel row.
     pixels=[[0]*width for _ in range(8)]
-    for x,y in ink:
-        if x+1<width and y+1<8:pixels[y+1][x+1]=2
+    for x,y in body:
+        if x+1<width and y+1<8 and (x+1,y+1) not in gaps:
+            pixels[y+1][x+1]=2
     for x,y in ink:pixels[y][x]=1
     return pixels
 

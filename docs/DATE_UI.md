@@ -32,9 +32,10 @@ resource mới và mã Thumb đều đặt sau ROM gốc ở vùng mở rộng. 
 
 Giữ nguyên hai OBJ 32x16 pixel, vị trí, palette, các cờ cập nhật, vùng đệm và
 biểu tượng thời tiết. Không thêm heap object, OBJ hay VRAM. Chữ mùa/thứ dùng
-font pixel có dấu: thân chữ hoa/số cao 6 pixel, chữ thường cao 5 pixel,
+font pixel có dấu: thân chữ hoa/số cao 6 pixel, chữ thường cao tối đa 5 pixel,
 chữ hoa rộng 5 pixel và chữ thường/số rộng 4 pixel. Có phần cho dấu trên/dấu nặng;
-số ngày cũng dùng cùng font và cùng baseline. Chữ số đồng hồ giữ tile gốc.
+nguyên âm có dấu dùng thân gọn 4 pixel để dành khoảng trống cho dấu.
+Số ngày dùng cùng font; dấu nặng có thân nâng một hàng để dấu không dính. Chữ số đồng hồ giữ tile gốc.
 Nội dung vừa vùng 64x16 pixel.
 
 Hai buffer nằm tại object+0x84 và +0x1A8, mỗi buffer 256 byte. Cờ upload là
@@ -54,7 +55,15 @@ chữ thường từ 4 lên 5 pixel; chiều ngang thân chữ tăng thêm 1 pix
 Giữ các mốc x và khoảng cách ba pixel của v2. Chữ lớn hơn vẫn vừa 64x8 ở
 dòng trên, không đổi cỡ đồng hồ, vùng đệm, cache, RAM hay VRAM.
 
-[Ảnh trước/sau tăng cỡ chữ](evidence/date-hud-size.png) ·
+Bản `vietnamese-date-24h-accents-v4` sửa lỗi dấu ở v3: dấu mũ rộng 4 pixel,
+cân giữa thân nguyên âm rộng 4 pixel; đỉnh tại x=1/2 và chân tại x=0/3.
+Dấu mũ ở y=0/1, y=2 trống hoàn toàn (cả bóng), thân â/ô ở y=3–6.
+Với ạ, thân ở y=2–5, y=6 trống hoàn toàn, dấu nặng cân giữa ở y=7.
+Không vẽ bóng dưới dấu hoặc vào hàng phân cách. Giữ chiều ngang chữ lớn,
+cỡ chữ hoa/số, khoảng cách 3 pixel và cùng dung lượng cache của v3.
+
+[Ảnh sửa dấu: bên trái v3, bên phải v4](evidence/date-hud-accents.png) ·
+[Ảnh tăng cỡ chữ ở v3](evidence/date-hud-size.png) ·
 [Ảnh sửa khoảng cách ở bản v2](evidence/date-hud-spacing.png).
 
 Năm trong packed date là mã chu kỳ gốc; phép tính thứ giữ nguyên công thức
@@ -88,8 +97,9 @@ trỏ hoặc nội dung mô tả lễ hội. Các popup mô tả lễ hội chư
   --output-dir build/date-final-0.10.5
 ```
 
-93 pytest đạt; có kiểm tra khoảng trống bằng pixel cho toàn bộ 30 ngày × bảy thứ
-và mép phải của bốn tên mùa. Chạy cùng kiểm tra trên mGBA 0.10.5 và 0.11-dev:
+96 pytest đạt; có kiểm tra khoảng trống bằng pixel cho toàn bộ 30 ngày × bảy thứ
+và mép phải của bốn tên mùa. Ba kiểm tra thêm cho â/ô/ạ xác minh dấu cân giữa
+và hàng phân cách không chứa mực hoặc bóng. Chạy cùng kiểm tra trên mGBA 0.10.5 và 0.11-dev:
 
 - 2.580 trường hợp packed date/time qua CPU thật, có canh bộ nhớ; bao phủ mọi
   ngày 1–30, bốn mùa, bảy chu kỳ thứ và toàn bộ 24x60 giá trị giờ/phút.
