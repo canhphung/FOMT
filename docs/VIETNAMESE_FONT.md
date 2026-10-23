@@ -183,3 +183,9 @@ cùng chiều cao/baseline với è, advance 5 pixel giữ nguyên. Counter/lỗ
 lên y=-1/0 để hàng y=1 trống. Thêm 32 byte tile thay phiên trong ROM, không
 tăng RAM/VRAM/OAM so với v15. Các mùa khác và font hội thoại không đổi.
 [Ảnh](evidence/date-hud-a-balanced.png) · [Glyph](evidence/hud-a-glyph.png).
+
+V17 giảm bearing X của è từ 2 xuống 1, advance từ 7 xuống 6 để H–è gần
+nhau hơn một pixel. Nhờ căn phải nhãn mùa, e/dấu không dịch, chỉ H dịch
+phải. Giữ hai cột trống giữa foreground và một cột giữa bóng H với e.
+Các mùa khác, clock/icon và tài nguyên không đổi.
+[Ảnh](evidence/date-hud-he-spacing.png).

@@ -15,7 +15,8 @@ Không chứa hoặc tự tải ROM thương mại. Bản vá IPS nằm trong `p
   thời tiết/lễ hội và nhịp đồng hồ 10 phút của game. Dòng ngày dùng advance và baseline
   thống nhất; đồng hồ giữ tile gốc, ô 8 pixel cố định. Bản v7 đổi Hạ thành Hè trên HUD/lịch,
   đưa đồng hồ về vị trí cũ. V16 vẽ lại â cao năm hàng như è, dùng hàng dấu đã mở
-  để giữ khoảng trống dưới dấu mũ; [ảnh trước/sau](docs/evidence/date-hud-a-balanced.png).
+  để giữ khoảng trống dưới dấu mũ. V17 thu hẹp H–è một pixel;
+  [ảnh trước/sau](docs/evidence/date-hud-he-spacing.png).
   [Ảnh kiểm chứng](docs/evidence/date-ui.png), [chi tiết](docs/DATE_UI.md).
 - Đã dịch menu con START: lưu/tải và tùy chọn Nhật ký, Ba lô, mô tả bản đồ,
   thống kê/Ghi chú và sách Mẹo điều khiển. Sửa hai tiêu đề Ba lô bị cắt chữ có dấu.

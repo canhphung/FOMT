@@ -60,6 +60,14 @@ advance 5. Dấu mũ gốc được bỏ khỏi buffer mùa và nâng bằng spr
 Resource VRAM và RAM của v15 được tái sử dụng; chỉ thêm tile thay phiên
 32 byte trong ROM. V16 vẫn giữ nguyên pixel của toàn bộ Hè so với v15.
 
+## V17 — thu hẹp H–è
+
+Bearing X của è từ 2 xuống 1, advance 7 → 6. Dấu logic dịch theo bearing,
+nhưng nhãn mùa căn phải giữ nguyên e/dấu trong game. H dịch phải một pixel,
+để hai cột trống giữa foreground (một cột giữa bóng H và e). Không đổi
+sprite dấu, tile/VRAM, RAM, OAM hay đồng hồ. Các mùa khác giữ nguyên.
+[Ảnh trước/sau](evidence/date-hud-he-spacing.png).
+
 ## Kiểm chứng
 
 104 pytest đạt, gồm từ chối các prologue/kích thước nguồn bị thay đổi.
@@ -68,8 +76,8 @@ Trên cả mGBA 0.10.5 và 0.11-dev:
 - 2.580 trường hợp date/time, 300 setter có guard và kiểm tra metadata.
 - Chín fixture HUD: tile dấu được upload qua queue thật vào VRAM; OAM,
   palette, mosaic và trạng thái bật/tắt theo mùa được đối chiếu.
-- So toàn ảnh 240x160 với v15 tại cùng thời điểm: ba fixture Xuân chỉ đổi
-  16 pixel trong vùng â/dấu mũ; sáu fixture còn lại không đổi pixel nào.
+- So toàn ảnh 240x160 với v16 tại cùng thời điểm: hai fixture Hè chỉ đổi
+  pixel vùng H; e/dấu và bảy fixture mùa khác không đổi pixel nào.
 - 64 vòng constructor/destructor: refcount manager, số handle và bitmap
   slot tài nguyên trở lại đúng giá trị trước mỗi vòng.
 - OAM count đầu 0/127/128 kết thúc 5/128/128, guard không đổi; renderer

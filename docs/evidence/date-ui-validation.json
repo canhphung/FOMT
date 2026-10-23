@@ -1,8 +1,8 @@
 {
   "date": "2026-10-23",
   "timezone": "Asia/Saigon",
-  "revision": "vietnamese-date-24h-balanced-a-v16",
-  "target_sha256": "885926d9bcb31f735cd25fc37688ab65f31d7db5cfc0845bac320fd05f0e53cf",
+  "revision": "vietnamese-date-24h-he-spacing-v17",
+  "target_sha256": "3f8822de76e2213b9a7b773d6e77feb3c40f98641857103ea75d6cc6ed3a8a56",
   "pytest": {
     "passed": 104,
     "failed": 0,
@@ -11,8 +11,8 @@
   "emulators": {
     "0.10.5": {
       "date_ui": {
-        "target_sha256": "885926d9bcb31f735cd25fc37688ab65f31d7db5cfc0845bac320fd05f0e53cf",
-        "revision": "vietnamese-date-24h-balanced-a-v16",
+        "target_sha256": "3f8822de76e2213b9a7b773d6e77feb3c40f98641857103ea75d6cc6ed3a8a56",
+        "revision": "vietnamese-date-24h-he-spacing-v17",
         "limitations": [
           "Calendar fixtures change UI view fields, not elapsed gameplay years",
           "HUD game time still advances at native ten-minute ticks",
@@ -55,7 +55,7 @@
             "minute": 50,
             "screenshot": "hud-0-0650.png",
             "raised_accent_vram_and_palette_verified": true,
-            "changed_pixels_vs_previous": 16
+            "changed_pixels_vs_previous": 0
           },
           {
             "season": 1,
@@ -64,7 +64,7 @@
             "minute": 0,
             "screenshot": "hud-1-0000.png",
             "raised_accent_vram_and_palette_verified": true,
-            "changed_pixels_vs_previous": 0
+            "changed_pixels_vs_previous": 34
           },
           {
             "season": 2,
@@ -91,7 +91,7 @@
             "minute": 0,
             "screenshot": "hud-0-day9.png",
             "raised_accent_vram_and_palette_verified": true,
-            "changed_pixels_vs_previous": 16
+            "changed_pixels_vs_previous": 0
           },
           {
             "season": 0,
@@ -100,7 +100,7 @@
             "minute": 0,
             "screenshot": "hud-0-day10.png",
             "raised_accent_vram_and_palette_verified": true,
-            "changed_pixels_vs_previous": 16
+            "changed_pixels_vs_previous": 0
           },
           {
             "season": 1,
@@ -109,7 +109,7 @@
             "minute": 0,
             "screenshot": "hud-1-day2.png",
             "raised_accent_vram_and_palette_verified": true,
-            "changed_pixels_vs_previous": 0
+            "changed_pixels_vs_previous": 34
           },
           {
             "season": 2,
@@ -503,7 +503,7 @@
         "status": "passed"
       },
       "full_smoke": {
-        "target_sha256": "885926d9bcb31f735cd25fc37688ab65f31d7db5cfc0845bac320fd05f0e53cf",
+        "target_sha256": "3f8822de76e2213b9a7b773d6e77feb3c40f98641857103ea75d6cc6ed3a8a56",
         "checks": {
           "ascii_native_outlines_at_common_baseline": 95,
           "legacy_glyph_fallback_unchanged": 10,
@@ -574,8 +574,8 @@
     },
     "dev": {
       "date_ui": {
-        "target_sha256": "885926d9bcb31f735cd25fc37688ab65f31d7db5cfc0845bac320fd05f0e53cf",
-        "revision": "vietnamese-date-24h-balanced-a-v16",
+        "target_sha256": "3f8822de76e2213b9a7b773d6e77feb3c40f98641857103ea75d6cc6ed3a8a56",
+        "revision": "vietnamese-date-24h-he-spacing-v17",
         "limitations": [
           "Calendar fixtures change UI view fields, not elapsed gameplay years",
           "HUD game time still advances at native ten-minute ticks",
@@ -618,7 +618,7 @@
             "minute": 50,
             "screenshot": "hud-0-0650.png",
             "raised_accent_vram_and_palette_verified": true,
-            "changed_pixels_vs_previous": 16
+            "changed_pixels_vs_previous": 0
           },
           {
             "season": 1,
@@ -627,7 +627,7 @@
             "minute": 0,
             "screenshot": "hud-1-0000.png",
             "raised_accent_vram_and_palette_verified": true,
-            "changed_pixels_vs_previous": 0
+            "changed_pixels_vs_previous": 34
           },
           {
             "season": 2,
@@ -654,7 +654,7 @@
             "minute": 0,
             "screenshot": "hud-0-day9.png",
             "raised_accent_vram_and_palette_verified": true,
-            "changed_pixels_vs_previous": 16
+            "changed_pixels_vs_previous": 0
           },
           {
             "season": 0,
@@ -663,7 +663,7 @@
             "minute": 0,
             "screenshot": "hud-0-day10.png",
             "raised_accent_vram_and_palette_verified": true,
-            "changed_pixels_vs_previous": 16
+            "changed_pixels_vs_previous": 0
           },
           {
             "season": 1,
@@ -672,7 +672,7 @@
             "minute": 0,
             "screenshot": "hud-1-day2.png",
             "raised_accent_vram_and_palette_verified": true,
-            "changed_pixels_vs_previous": 0
+            "changed_pixels_vs_previous": 34
           },
           {
             "season": 2,
@@ -1066,7 +1066,7 @@
         "status": "passed"
       },
       "full_smoke": {
-        "target_sha256": "885926d9bcb31f735cd25fc37688ab65f31d7db5cfc0845bac320fd05f0e53cf",
+        "target_sha256": "3f8822de76e2213b9a7b773d6e77feb3c40f98641857103ea75d6cc6ed3a8a56",
         "checks": {
           "ascii_native_outlines_at_common_baseline": 95,
           "legacy_glyph_fallback_unchanged": 10,
@@ -1137,7 +1137,7 @@
     }
   },
   "start_menu_regression": {
-    "target_sha256": "885926d9bcb31f735cd25fc37688ab65f31d7db5cfc0845bac320fd05f0e53cf",
+    "target_sha256": "3f8822de76e2213b9a7b773d6e77feb3c40f98641857103ea75d6cc6ed3a8a56",
     "status": "passed",
     "translated_records": 162,
     "isolated_renderer_lines_with_guards": 239,
@@ -1328,11 +1328,11 @@
     },
     {
       "path": "docs/evidence/date-ui/hud-1-0000.png",
-      "sha256": "b805816d7421f1145d531baa209fa4250c921a01e06d31430317820960affa1c"
+      "sha256": "94ff8655ea3b0de9d16abb07be627f171b7c04a583ce2208b31249262fc61758"
     },
     {
       "path": "docs/evidence/date-ui/hud-1-day2.png",
-      "sha256": "e068262d95ece2e9fe7a23ec68b8c6baa1494a894b85d615102ba7c101b50b09"
+      "sha256": "3b57148b6cc830ff550db45563da8c57ee832a1ba6a20896ebeb05bad2bbb3c2"
     },
     {
       "path": "docs/evidence/date-ui/hud-2-1200.png",
@@ -1359,69 +1359,58 @@
       "sha256": "3848148f549729ccd67df90004a6184bd05a988a934ba4ce3cc0d3c2f683a089"
     },
     {
-      "path": "docs/evidence/date-hud-a-balanced.png",
-      "sha256": "2f074922fee140af448f5b2a3175208f1327557563e2ea17d81897c71a6b9b8d"
+      "path": "docs/evidence/date-hud-he-spacing.png",
+      "sha256": "b72ca223362106cd487ce65103040cc1e2752f8aea09bff9b29cfec31b65df9d"
+    },
+    {
+      "path": "docs/evidence/hud-e-glyph.png",
+      "sha256": "f5bd4faf13f12d31ae60876292f4beeb7d8c060d1ec8823d1356e0a1d81b3bb9"
     },
     {
       "path": "docs/evidence/hud-a-glyph.png",
-      "sha256": "9610dcf0df7f13bf10568610f1900f6eb189ff6b4fef754116e56bbfbe8ccfb0"
+      "sha256": "d3b3c5572846af1e06dd29f1ec3779193d42016d156529d4d887e4bc0e5459cf"
     }
   ],
   "visual_review": "Native/translated calendar, all four seasons, 1/100/200-year headings, calendar exit and nine HUD date/time cases reviewed; no OCR or claim of multi-year gameplay.",
-  "balanced_a": {
-    "body_width": 4,
-    "body_height": 5,
-    "body_rows": [
-      "0110",
-      "0001",
-      "0111",
-      "1001",
-      "0111"
-    ],
-    "baseline": 6,
-    "advance": 5,
-    "accent_local_rows": [
-      -1,
-      0
-    ],
-    "blank_row_below_accent": 1,
-    "new_ram_vram_oam_vs_v15": 0,
-    "rom_tile_alternatives_bytes": 64,
-    "previous_commit": "c7a768a05dae7670afff03396c7d41f8a8fa9d70",
-    "previous_target_sha256": "728f4a6e04f491dcd3d634347fa3342c26450cda0e7f393561843a21596f496e",
-    "changed_pixels_vs_v15": {
-      "hud-0-0650.png": [
+  "he_spacing": {
+    "previous_commit": "e60b9b486fff981ceac2d5eadbc42bacd9b3b155",
+    "previous_target_sha256": "885926d9bcb31f735cd25fc37688ab65f31d7db5cfc0845bac320fd05f0e53cf",
+    "e_bearing_x": 1,
+    "e_advance": 6,
+    "H_shift_right_pixels": 1,
+    "e_and_grave_screen_pixels_unchanged": true,
+    "foreground_gap_columns": 2,
+    "shadow_to_e_gap_columns": 1,
+    "changed_pixels_vs_v16": {
+      "hud-0-0650.png": [],
+      "hud-1-0000.png": [
         [
-          147,
-          139
-        ],
-        [
-          148,
-          139
-        ],
-        [
-          146,
-          140
-        ],
-        [
-          147,
-          140
-        ],
-        [
-          148,
-          140
-        ],
-        [
-          149,
-          140
-        ],
-        [
-          146,
+          143,
           141
         ],
         [
-          149,
+          144,
           141
+        ],
+        [
+          147,
+          141
+        ],
+        [
+          148,
+          141
+        ],
+        [
+          143,
+          142
+        ],
+        [
+          144,
+          142
+        ],
+        [
+          145,
+          142
         ],
         [
           147,
@@ -1432,7 +1421,11 @@
           142
         ],
         [
-          147,
+          149,
+          142
+        ],
+        [
+          143,
           143
         ],
         [
@@ -1440,7 +1433,15 @@
           143
         ],
         [
-          146,
+          149,
+          143
+        ],
+        [
+          143,
+          144
+        ],
+        [
+          144,
           144
         ],
         [
@@ -1450,47 +1451,108 @@
         [
           148,
           144
+        ],
+        [
+          149,
+          144
+        ],
+        [
+          143,
+          145
+        ],
+        [
+          144,
+          145
+        ],
+        [
+          145,
+          145
         ],
         [
           147,
           145
+        ],
+        [
+          148,
+          145
+        ],
+        [
+          149,
+          145
+        ],
+        [
+          143,
+          146
+        ],
+        [
+          144,
+          146
+        ],
+        [
+          145,
+          146
+        ],
+        [
+          147,
+          146
+        ],
+        [
+          148,
+          146
+        ],
+        [
+          149,
+          146
+        ],
+        [
+          144,
+          147
+        ],
+        [
+          145,
+          147
+        ],
+        [
+          148,
+          147
+        ],
+        [
+          149,
+          147
         ]
       ],
-      "hud-1-0000.png": [],
       "hud-2-1200.png": [],
       "hud-3-2359.png": [],
-      "hud-0-day9.png": [
+      "hud-0-day9.png": [],
+      "hud-0-day10.png": [],
+      "hud-1-day2.png": [
         [
-          147,
-          139
-        ],
-        [
-          148,
-          139
-        ],
-        [
-          146,
-          140
-        ],
-        [
-          147,
-          140
-        ],
-        [
-          148,
-          140
-        ],
-        [
-          149,
-          140
-        ],
-        [
-          146,
+          143,
           141
         ],
         [
-          149,
+          144,
           141
+        ],
+        [
+          147,
+          141
+        ],
+        [
+          148,
+          141
+        ],
+        [
+          143,
+          142
+        ],
+        [
+          144,
+          142
+        ],
+        [
+          145,
+          142
         ],
         [
           147,
@@ -1501,7 +1563,11 @@
           142
         ],
         [
-          147,
+          149,
+          142
+        ],
+        [
+          143,
           143
         ],
         [
@@ -1509,7 +1575,15 @@
           143
         ],
         [
-          146,
+          149,
+          143
+        ],
+        [
+          143,
+          144
+        ],
+        [
+          144,
           144
         ],
         [
@@ -1519,83 +1593,80 @@
         [
           148,
           144
+        ],
+        [
+          149,
+          144
+        ],
+        [
+          143,
+          145
+        ],
+        [
+          144,
+          145
+        ],
+        [
+          145,
+          145
         ],
         [
           147,
           145
-        ]
-      ],
-      "hud-0-day10.png": [
-        [
-          147,
-          139
         ],
         [
           148,
-          139
-        ],
-        [
-          146,
-          140
-        ],
-        [
-          147,
-          140
-        ],
-        [
-          148,
-          140
-        ],
-        [
-          149,
-          140
-        ],
-        [
-          146,
-          141
-        ],
-        [
-          149,
-          141
-        ],
-        [
-          147,
-          142
-        ],
-        [
-          148,
-          142
-        ],
-        [
-          147,
-          143
-        ],
-        [
-          148,
-          143
-        ],
-        [
-          146,
-          144
-        ],
-        [
-          147,
-          144
-        ],
-        [
-          148,
-          144
-        ],
-        [
-          147,
           145
+        ],
+        [
+          149,
+          145
+        ],
+        [
+          143,
+          146
+        ],
+        [
+          144,
+          146
+        ],
+        [
+          145,
+          146
+        ],
+        [
+          147,
+          146
+        ],
+        [
+          148,
+          146
+        ],
+        [
+          149,
+          146
+        ],
+        [
+          144,
+          147
+        ],
+        [
+          145,
+          147
+        ],
+        [
+          148,
+          147
+        ],
+        [
+          149,
+          147
         ]
       ],
-      "hud-1-day2.png": [],
       "hud-2-day2.png": [],
       "hud-3-day2.png": []
     },
-    "non_spring_cache_and_calendar_resource_identical": true,
+    "non_summer_cache_and_calendar_resource_identical": true,
     "ips_round_trip_verified": true
   }
 }

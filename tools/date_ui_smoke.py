@@ -220,9 +220,9 @@ def run(args):
                 current=Image.open(out/name).convert('RGB')
                 diff=ImageChops.difference(previous,current)
                 changed={(x,y) for y in range(160) for x in range(240) if diff.getpixel((x,y))!=(0,0,0)}
-                if season==0:
-                    assert changed and all(146<=x<=150 and 139<=y<=145 for x,y in changed),(name,sorted(changed))
-                    assert all(current.getpixel((x,y))==previous.getpixel((147,140)) for x,y in ((147,139),(148,139),(146,140),(149,140)))
+                if season==1:
+                    assert changed and all(143<=x<=149 and 141<=y<=147 for x,y in changed),(name,sorted(changed))
+                    assert current.crop((150,138,156,148)).tobytes()==previous.crop((150,138,156,148)).tobytes(),'e/grave moved'
                 else:assert not changed,(name,len(changed),sorted(changed)[:10])
                 delta=len(changed)
             hud_views.append({'season':season,'day':day,'hour':hour,'minute':minute,'screenshot':name,

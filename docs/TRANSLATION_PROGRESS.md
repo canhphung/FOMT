@@ -638,3 +638,18 @@ Ba ảnh Xuân chỉ đổi 16 pixel quanh â/dấu mũ, sáu ảnh mùa khác k
 START và font/title/save/load cold boot đạt. IPS áp lại tạo đúng ROM đã
 kiểm; cập nhật manifest, ảnh trước/sau và glyph a/â/è. Vẫn 706 bản ghi
 nháp; chưa kiểm trên GBA thật hoặc chơi xuyên mùa.
+
+## 2026-10-23 — Thu hẹp khoảng cách H–è (v17)
+
+Theo phản hồi H–è hơi xa, giảm bearing è từ 2 xuống 1, advance 7 → 6.
+Dấu logic đi theo bearing, nhãn mùa căn phải nên e/dấu huyền trong game
+không dịch, H dịch phải đúng một pixel. Khoảng trống giữa thân còn hai
+cột, giữa bóng H và e còn một cột. Giữ baseline, bitmap, clock/icon, mùa
+khác và sprite/resource overlay. Không thêm space thủ công.
+
+104 pytest đạt; kiểm mGBA 0.10.5/0.11-dev với chín fixture HUD, VRAM,
+2.580 date/time, 300 setter, 64 vòng resource và OAM capacity. So toàn ảnh
+v16/v17: chỉ H thay đổi ở hai fixture Hè, e/dấu và các mùa khác giữ nguyên.
+Lịch, START, font/title và save/load cold boot qua kiểm tra. Cập nhật IPS,
+manifest, ảnh trước/sau; vẫn 706 bản ghi dịch nháp. Chưa kiểm GBA thật
+hoặc chơi xuyên mùa.
