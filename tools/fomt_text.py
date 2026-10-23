@@ -292,6 +292,10 @@ def extract(data: bytes) -> dict:
     records.extend(intro_records(data))
     from start_menu import extract_records as start_records
     records.extend(start_records(data))
+    from shop_text import extract_records as shop_records
+    records.extend(shop_records(data))
+    from item_window import annotate_records as item_window_budgets
+    item_window_budgets(records)
     return {"schema_version": 1, "rom": {"sha1": ROM_SHA1,
             "sha256": hashlib.sha256(data).hexdigest(), "size": len(data),
             "game_code": data[0xAC:0xB0].decode("ascii"), "revision": data[0xBC]},

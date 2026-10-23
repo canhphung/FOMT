@@ -158,6 +158,7 @@ async function glossary() {
 async function refreshMeta(initial = true) {
   const data = await api('/api/meta'); $('total').textContent = number(data.total); $('drafts').textContent = number(data.drafts); $('to-translate').textContent = number(data.summary.translate); $('blocked').textContent = number(data.summary.blocked);
   if (initial) {
+    if (!data.summary.translate) $('bucket').value = data.summary.qa ? 'qa' : data.summary.blocked ? 'blocked' : 'done';
     fillSelect('context', data.contexts); fillSelect('speaker', data.speakers); fillSelect('batch', data.batches.map(b => ({value: b.id, label: b.id + ' (' + b.count + ')'})));
     $('profile-list').replaceChildren(...data.profiles.map(profileCard)); $('glossary-rules').replaceChildren(...data.glossary_rules.map(rule => el('li', rule)));
     $('connection').textContent = 'Dữ liệu cục bộ';

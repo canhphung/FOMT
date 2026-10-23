@@ -9,7 +9,8 @@
     "Use Hè for Summer consistently across HUD, calendar, birthday UI and prose (lowercase hè in prose).",
     "Character pronouns apply only to the documented scene and player age; do not extend childhood speech to adult scenes.",
     "External wikis may clarify concepts but never replace ROM text, source IDs or control codes.",
-    "Base tool description headings Sickle/Hoe remain Liềm/Cuốc; do not add Iron merely because the separate item-name table says Iron."
+    "Base tool description headings Sickle/Hoe remain Liềm/Cuốc; do not add Iron merely because the separate item-name table says Iron.",
+    "Flour is food ID 0x42, misspelled Flower in the item table; identity verified by the matching ordered grocery list in script.1043.108. Explicit source defects are documented in docs/ITEM_LOCALIZATION.md."
   ],
   "pronouns": {
     "Popuri": {
@@ -195,6 +196,21 @@
     {
       "english": "Turbojolt",
       "vietnamese": "Turbojolt"
+    },
+    {
+      "english": "Super Ultra Great Delicious Wonderful Apple",
+      "vietnamese": "Super Ultra Great Delicious Wonderful Apple",
+      "scope": "expanded Won apple names in item descriptions; retain initials"
+    },
+    {
+      "english": "Hyper-Miracle Sweet-Gorgeous-Beautiful",
+      "vietnamese": "Hyper-Miracle Sweet-Gorgeous-Beautiful",
+      "scope": "expanded Won apple names in item descriptions; retain initials"
+    },
+    {
+      "english": "Angelic-Eternal-Pure-Fresh-Elegant",
+      "vietnamese": "Angelic-Eternal-Pure-Fresh-Elegant",
+      "scope": "expanded Won apple names in item descriptions; retain initials"
     }
   ],
   "terms": [
@@ -1523,7 +1539,7 @@
     },
     {
       "english": "Noodles w/ Tempura",
-      "vietnamese": "Mì kèm tempura",
+      "vietnamese": "Mì kiều mạch tempura",
       "category": "item_name",
       "source_id": "item.food.136.name"
     },
@@ -2291,7 +2307,7 @@
     },
     {
       "english": "Lottery",
-      "vietnamese": "Vé số",
+      "vietnamese": "Vé oẳn tù tì",
       "category": "item_name",
       "source_id": "item.article.093.name"
     },
@@ -2536,6 +2552,83 @@
       "vietnamese": "xới",
       "category": "farming",
       "source_id": "item.tool.008.description",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Flour",
+      "vietnamese": "Bột mì",
+      "category": "item_description",
+      "source_id": "item.food.066.name",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Stamina",
+      "vietnamese": "thể lực",
+      "category": "item_description",
+      "source_id": "item.tool.078.description",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Fatigue",
+      "vietnamese": "mệt mỏi",
+      "category": "item_description",
+      "source_id": "item.tool.079.description",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Yarn Maker",
+      "vietnamese": "máy kéo sợi",
+      "category": "item_description",
+      "source_id": "item.article.011.description",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Cheese Maker",
+      "vietnamese": "máy làm phô mai",
+      "category": "item_description",
+      "source_id": "item.food.034.description",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Mayonnaise Maker",
+      "vietnamese": "máy làm mayonnaise",
+      "category": "item_description",
+      "source_id": "item.food.022.description",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Harvest Sprites",
+      "vietnamese": "các chú lùn",
+      "category": "item_description",
+      "source_id": "item.food.070.description",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "ship",
+      "vietnamese": "bán",
+      "category": "item_description",
+      "source_id": "item.food.015.description",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Energy",
+      "vietnamese": "thể lực",
+      "category": "native_item_window",
+      "source_id": "ui.items.1179bc",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "steps",
+      "vietnamese": "bước",
+      "category": "native_item_window",
+      "source_id": "ui.items.1179f0",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "squares left",
+      "vietnamese": "ô còn lại",
+      "category": "native_item_window",
+      "source_id": "ui.items.1179fc",
       "status": "working; language review pending"
     }
   ],

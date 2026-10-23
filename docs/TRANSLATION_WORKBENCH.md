@@ -64,14 +64,14 @@ không bị cắt hoặc hộp thoại thực tế không tràn; vẫn cần ren
 
 ## Glossary và hồ sơ người nói
 
-Tab **Glossary** tìm trong 389 thuật ngữ hiện có và bảng tên riêng; hiển thị
+Tab **Glossary** tìm trong 400 thuật ngữ hiện có và bảng tên riêng; hiển thị
 category, trạng thái và source ID khi có. Quy tắc chung lấy trực tiếp từ
 `localization/glossary.json`. Tab **Xưng hô** hiển thị bảy hồ sơ, phạm vi và
 danh sách ID. Đây là phần tra cứu; chỉnh glossary/hồ sơ vẫn qua JSON và review.
 
 Hồ sơ Thomas bác/cháu không tự áp lên mọi câu có nhãn Thomas. Editor chỉ gợi
-ý hồ sơ khi ID có trong `source_ids`. Chuỗi chưa rõ ngữ cảnh và mục Flower
-đang chặn chỉ được xem/xuất CSV; không có nút tự xác nhận ngữ cảnh hoặc QA.
+ý hồ sơ khi ID có trong `source_ids`. Flower đã được xác minh, có thể sửa bản dịch Bột mì. Chuỗi chưa rõ ngữ cảnh
+chỉ được xem/xuất CSV; không có nút tự xác nhận ngữ cảnh hoặc QA.
 
 ## Lưu file và xử lý xung đột
 
@@ -109,5 +109,5 @@ make platform-check ROM="$FOMT_ROM" PYTHON=.venv/bin/python
 Browser smoke tự tạo bản sao dữ liệu trong thư mục tạm, thử sửa/lưu/xung đột
 và xóa bản sao khi xong; không chỉnh bản dịch gốc. Ảnh/báo cáo nằm trong
 `build/workbench-browser/`. Nó kiểm cả giao diện 1440px, bố cục 390px, lỗi
-token/độ dài/ký tự, backup, QA stale, glossary, hồ sơ, chặn Flower và CSV.
+token/độ dài/ký tự, backup, QA stale, glossary, hồ sơ, mở khóa Flower có chứng cứ, chặn chuỗi chưa phân loại và CSV.
 Đây là kiểm editor, không phải kiểm emulator. [Báo cáo phiên này](evidence/workbench-validation.json).

@@ -132,12 +132,13 @@ def run(base_path, backends):
         result = {'library_sha256': digest(library.read_bytes()), 'suites': {}, 'images': []}
         for suite, script in [('full', 'emulator_smoke'), ('new-game', 'new_game_smoke'),
                               ('start', 'start_menu_smoke'), ('date', 'date_ui_smoke'),
-                              ('items', 'item_batch_smoke')]:
+                              ('items', 'item_batch_smoke'), ('item-audit', 'item_audit'),
+                              ('item-ui', 'item_ui_smoke')]:
             dest = OUT / backend / suite
             args = [sys.executable, f'tools/{script}.py', str(rom), '--library', str(library)]
             if suite != 'start':
                 args += ['--base-rom', str(base_path)]
-            if suite in ('start', 'date'):
+            if suite in ('start', 'date', 'item-ui'):
                 args += ['--sram', str(fixture)]
             if suite == 'items':
                 args += ['--output', str(dest / 'report.json')]

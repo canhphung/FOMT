@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "status": "passed",
-  "baseline_sha256": "6003e1b5427ea4ced8fe38ebb830f53d24990fb58a43e77e77c929b6e4404b2f",
+  "baseline_sha256": "ac90d6101f8a1a376117f5c435064e20bb5b9a0410fd2f29be083710cc8ecda2",
   "source_sha1": "a2fc3574f0a65a4fcf7682fb274b9d7eebdef963",
   "visual_review": "technical regression reference; user approval of the complete gallery pending; translation QA unchanged",
   "limitations": [
@@ -17,9 +17,9 @@
       "suites": {
         "full": {
           "report": "build/platform-check/0.10.5/full/report.json",
-          "sha256": "72cae2dc7bd4f803a6f26024d2ea8a1e6606ba880f7a6095d2747ead79e7d472",
+          "sha256": "578e0a1706d1cee15c945c25ffc9035dfb87965e4a3b9e1561f080bf23ce66e8",
           "result": {
-            "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
+            "target_sha256": "db554669f39c9bb57f9688a76939bf4066aa2e59a70b12a2354378fbba78fb08",
             "checks": {
               "ascii_native_outlines_at_common_baseline": 95,
               "legacy_glyph_fallback_unchanged": 10,
@@ -90,108 +90,10 @@
         },
         "new-game": {
           "report": "build/platform-check/0.10.5/new-game/report.json",
-          "sha256": "a658447fed791230290c31cfeda029c46ee2ad959980888c7fd11185874c4eb5",
+          "sha256": "bf47ebffdfd6c7d6e42acd5fd8cfe9592d0f19fc4690b275549a0d850b401687",
           "result": {
-            "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
+            "target_sha256": "db554669f39c9bb57f9688a76939bf4066aa2e59a70b12a2354378fbba78fb08",
             "status": "passed",
-            "cases": [
-              {
-                "season": 0,
-                "day": 1,
-                "original_and_localized_selection": {
-                  "names": [
-                    "A",
-                    "BC",
-                    "CD"
-                  ],
-                  "packed_birthday": 0
-                }
-              },
-              {
-                "season": 0,
-                "day": 30,
-                "original_and_localized_selection": {
-                  "names": [
-                    "AB",
-                    "BC",
-                    "CD"
-                  ],
-                  "packed_birthday": 116
-                }
-              },
-              {
-                "season": 1,
-                "day": 1,
-                "original_and_localized_selection": {
-                  "names": [
-                    "AB",
-                    "BC",
-                    "CD"
-                  ],
-                  "packed_birthday": 1
-                }
-              },
-              {
-                "season": 1,
-                "day": 30,
-                "original_and_localized_selection": {
-                  "names": [
-                    "AB",
-                    "BC",
-                    "CD"
-                  ],
-                  "packed_birthday": 117
-                }
-              },
-              {
-                "season": 2,
-                "day": 1,
-                "original_and_localized_selection": {
-                  "names": [
-                    "AB",
-                    "BC",
-                    "CD"
-                  ],
-                  "packed_birthday": 2
-                }
-              },
-              {
-                "season": 2,
-                "day": 30,
-                "original_and_localized_selection": {
-                  "names": [
-                    "AB",
-                    "BC",
-                    "CD"
-                  ],
-                  "packed_birthday": 118
-                }
-              },
-              {
-                "season": 3,
-                "day": 1,
-                "original_and_localized_selection": {
-                  "names": [
-                    "AB",
-                    "BC",
-                    "CD"
-                  ],
-                  "packed_birthday": 3
-                }
-              },
-              {
-                "season": 3,
-                "day": 30,
-                "original_and_localized_selection": {
-                  "names": [
-                    "AAAAAAAAAAAA",
-                    "BC",
-                    "CD"
-                  ],
-                  "packed_birthday": 119
-                }
-              }
-            ],
             "checks": [
               "four seasons x days 1/30 through normal controls",
               "all 43 birthday OBJ cells uploaded intact",
@@ -207,9 +109,9 @@
         },
         "start": {
           "report": "build/platform-check/0.10.5/start/report.json",
-          "sha256": "44bb2e006821f366656a48ef8ee4cce5ba7ae4d5542b895dd3d2bed6cff56bd5",
+          "sha256": "b516bce83ce8f56f785001cf238195d8200131165fa853fe3cc926e9f5cc3840",
           "result": {
-            "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
+            "target_sha256": "db554669f39c9bb57f9688a76939bf4066aa2e59a70b12a2354378fbba78fb08",
             "status": "passed",
             "translated_records": 162,
             "isolated_renderer_lines_with_guards": 239,
@@ -243,9 +145,9 @@
         },
         "date": {
           "report": "build/platform-check/0.10.5/date/report.json",
-          "sha256": "fc5a2cc49b30137d5f7ffd7b7957a95b2baae34f4deb4e111b225a820f741776",
+          "sha256": "ccaa7e8d5a2d3818494e345e51b12764939423aeb36708dc81834a1eae0997cd",
           "result": {
-            "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
+            "target_sha256": "db554669f39c9bb57f9688a76939bf4066aa2e59a70b12a2354378fbba78fb08",
             "revision": "vietnamese-calendar-heading-v19",
             "limitations": [
               "Calendar fixtures change UI view fields, not elapsed gameplay years",
@@ -281,25 +183,444 @@
               ],
               "fifth_argument_forwarding_and_r3_oam_pointer_preserved": true
             },
+            "hud_view_fixtures_with_vram_checks": [
+              {
+                "season": 0,
+                "day": 2,
+                "hour": 6,
+                "minute": 50,
+                "screenshot": "hud-0-0650.png",
+                "raised_accent_vram_and_palette_verified": true,
+                "changed_pixels_vs_previous": null
+              },
+              {
+                "season": 1,
+                "day": 30,
+                "hour": 0,
+                "minute": 0,
+                "screenshot": "hud-1-0000.png",
+                "raised_accent_vram_and_palette_verified": true,
+                "changed_pixels_vs_previous": null
+              },
+              {
+                "season": 2,
+                "day": 30,
+                "hour": 12,
+                "minute": 0,
+                "screenshot": "hud-2-1200.png",
+                "raised_accent_vram_and_palette_verified": false,
+                "changed_pixels_vs_previous": null
+              },
+              {
+                "season": 3,
+                "day": 30,
+                "hour": 23,
+                "minute": 59,
+                "screenshot": "hud-3-2359.png",
+                "raised_accent_vram_and_palette_verified": false,
+                "changed_pixels_vs_previous": null
+              },
+              {
+                "season": 0,
+                "day": 9,
+                "hour": 6,
+                "minute": 0,
+                "screenshot": "hud-0-day9.png",
+                "raised_accent_vram_and_palette_verified": true,
+                "changed_pixels_vs_previous": null
+              },
+              {
+                "season": 0,
+                "day": 10,
+                "hour": 6,
+                "minute": 0,
+                "screenshot": "hud-0-day10.png",
+                "raised_accent_vram_and_palette_verified": true,
+                "changed_pixels_vs_previous": null
+              },
+              {
+                "season": 1,
+                "day": 2,
+                "hour": 6,
+                "minute": 0,
+                "screenshot": "hud-1-day2.png",
+                "raised_accent_vram_and_palette_verified": true,
+                "changed_pixels_vs_previous": null
+              },
+              {
+                "season": 2,
+                "day": 2,
+                "hour": 6,
+                "minute": 0,
+                "screenshot": "hud-2-day2.png",
+                "raised_accent_vram_and_palette_verified": false,
+                "changed_pixels_vs_previous": null
+              },
+              {
+                "season": 3,
+                "day": 2,
+                "hour": 6,
+                "minute": 0,
+                "screenshot": "hud-3-day2.png",
+                "raised_accent_vram_and_palette_verified": false,
+                "changed_pixels_vs_previous": null
+              }
+            ],
             "natural_calendar_open_close_cycles_with_resource_checks": 8,
             "calendar_exit_and_sram_unchanged": true,
             "natural_calendar_entry": true,
             "shared_day_digit_tile_cache_restored": true,
             "header_positions_and_year_glyphs_verified_in_oam_and_vram": true,
+            "calendar_ui_fixtures": [
+              {
+                "year": 1,
+                "season": 0,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 1,
+                "season": 0,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 1,
+                "season": 1,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 1,
+                "season": 1,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 1,
+                "season": 2,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 1,
+                "season": 2,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 1,
+                "season": 3,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 1,
+                "season": 3,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 7,
+                "season": 0,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 7,
+                "season": 0,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 7,
+                "season": 1,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 7,
+                "season": 1,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 7,
+                "season": 2,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 7,
+                "season": 2,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 7,
+                "season": 3,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 7,
+                "season": 3,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 8,
+                "season": 0,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 8,
+                "season": 0,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 8,
+                "season": 1,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 8,
+                "season": 1,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 8,
+                "season": 2,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 8,
+                "season": 2,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 8,
+                "season": 3,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 8,
+                "season": 3,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 10,
+                "season": 0,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 10,
+                "season": 0,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 10,
+                "season": 1,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 10,
+                "season": 1,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 10,
+                "season": 2,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 10,
+                "season": 2,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 10,
+                "season": 3,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 10,
+                "season": 3,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 99,
+                "season": 0,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 99,
+                "season": 0,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 99,
+                "season": 1,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 99,
+                "season": 1,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 99,
+                "season": 2,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 99,
+                "season": 2,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 99,
+                "season": 3,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 99,
+                "season": 3,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 100,
+                "season": 0,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 100,
+                "season": 0,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 100,
+                "season": 1,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 100,
+                "season": 1,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 100,
+                "season": 2,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 100,
+                "season": 2,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 100,
+                "season": 3,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 100,
+                "season": 3,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 200,
+                "season": 0,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 200,
+                "season": 0,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 200,
+                "season": 1,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 200,
+                "season": 1,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 200,
+                "season": 2,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 200,
+                "season": 2,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 200,
+                "season": 3,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 200,
+                "season": 3,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              }
+            ],
             "calendar_source_tiles": 134,
             "calendar_localized_tiles": 180,
             "calendar_tile_budget": 256,
             "emulator_error_count": 0,
-            "status": "passed",
-            "hud_view_fixture_count": 9,
-            "calendar_ui_fixture_count": 56
+            "status": "passed"
           }
         },
         "items": {
           "report": "build/platform-check/0.10.5/items/report.json",
-          "sha256": "8ea63434fbe83edae1e26b0cdcf36cbc2d7dbd956659d7661fd226ae81076d2e",
+          "sha256": "e3243a41a47932b601c66205a27853499b4e698f4ad95d41b529bdd0f8ab0a89",
           "result": {
-            "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
+            "target_sha256": "db554669f39c9bb57f9688a76939bf4066aa2e59a70b12a2354378fbba78fb08",
             "status": "passed",
             "record_ids": [
               "item.tool.000.description",
@@ -330,6 +651,236 @@
               "No natural item-description window encounter claimed; layout/playtest approval remains pending.",
               "No real hardware test."
             ]
+          }
+        },
+        "item-audit": {
+          "report": "build/platform-check/0.10.5/item-audit/report.json",
+          "sha256": "a7ed448752884416c75b4e8d10764759c3566a176b374d1c5334d3ffec3ad135",
+          "result": {
+            "target_sha256": "db554669f39c9bb57f9688a76939bf4066aa2e59a70b12a2354378fbba78fb08",
+            "item_names": 347,
+            "item_descriptions": 347,
+            "native_shop_and_item_literals": 26,
+            "pointer_fields_verified": 724,
+            "item_records_nontext_fields_unchanged": 347,
+            "shops": [
+              {
+                "kind": "seeds",
+                "rom_address": "0x80fddd8",
+                "bytes_unchanged": 104,
+                "goods": [
+                  {
+                    "id": "item.tool.050.name",
+                    "original_english": "Turnip Seeds",
+                    "vietnamese": "Hạt giống củ cải",
+                    "price_G": 120
+                  },
+                  {
+                    "id": "item.tool.051.name",
+                    "original_english": "Potato Seeds",
+                    "vietnamese": "Hạt giống khoai tây",
+                    "price_G": 150
+                  },
+                  {
+                    "id": "item.tool.052.name",
+                    "original_english": "Cucumber Seeds",
+                    "vietnamese": "Hạt giống dưa leo",
+                    "price_G": 200
+                  },
+                  {
+                    "id": "item.tool.053.name",
+                    "original_english": "Strawberry Seeds",
+                    "vietnamese": "Hạt giống dâu tây",
+                    "price_G": 150
+                  },
+                  {
+                    "id": "item.tool.055.name",
+                    "original_english": "Tomato Seeds",
+                    "vietnamese": "Hạt giống cà chua",
+                    "price_G": 200
+                  },
+                  {
+                    "id": "item.tool.056.name",
+                    "original_english": "Corn Seeds",
+                    "vietnamese": "Hạt giống bắp",
+                    "price_G": 300
+                  },
+                  {
+                    "id": "item.tool.057.name",
+                    "original_english": "Onion Seeds",
+                    "vietnamese": "Hạt giống hành tây",
+                    "price_G": 150
+                  },
+                  {
+                    "id": "item.tool.058.name",
+                    "original_english": "Pumpkin Seeds",
+                    "vietnamese": "Hạt giống bí ngô",
+                    "price_G": 500
+                  },
+                  {
+                    "id": "item.tool.060.name",
+                    "original_english": "Eggplant Seeds",
+                    "vietnamese": "Hạt giống cà tím",
+                    "price_G": 120
+                  },
+                  {
+                    "id": "item.tool.061.name",
+                    "original_english": "Carrot Seeds",
+                    "vietnamese": "Hạt giống cà rốt",
+                    "price_G": 300
+                  },
+                  {
+                    "id": "item.tool.062.name",
+                    "original_english": "Sweet Potato Seeds",
+                    "vietnamese": "Hạt giống khoai lang",
+                    "price_G": 300
+                  },
+                  {
+                    "id": "item.tool.063.name",
+                    "original_english": "Spinach Seeds",
+                    "vietnamese": "Hạt giống cải bó xôi",
+                    "price_G": 200
+                  },
+                  {
+                    "id": "item.tool.065.name",
+                    "original_english": "Grass Seeds",
+                    "vietnamese": "Hạt giống cỏ",
+                    "price_G": 500
+                  }
+                ]
+              },
+              {
+                "kind": "groceries",
+                "rom_address": "0x80fdfa4",
+                "bytes_unchanged": 64,
+                "goods": [
+                  {
+                    "id": "item.food.063.name",
+                    "original_english": "Rice Ball",
+                    "vietnamese": "Cơm nắm",
+                    "price_G": 100
+                  },
+                  {
+                    "id": "item.food.064.name",
+                    "original_english": "Bread",
+                    "vietnamese": "Bánh mì",
+                    "price_G": 100
+                  },
+                  {
+                    "id": "item.food.065.name",
+                    "original_english": "Oil",
+                    "vietnamese": "Dầu ăn",
+                    "price_G": 50
+                  },
+                  {
+                    "id": "item.food.066.name",
+                    "original_english": "Flower",
+                    "vietnamese": "Bột mì",
+                    "price_G": 50
+                  },
+                  {
+                    "id": "item.food.067.name",
+                    "original_english": "Curry Powder",
+                    "vietnamese": "Bột cà ri",
+                    "price_G": 50
+                  },
+                  {
+                    "id": "item.food.068.name",
+                    "original_english": "Muffin Mix",
+                    "vietnamese": "Bột làm bánh",
+                    "price_G": 100
+                  },
+                  {
+                    "id": "item.food.069.name",
+                    "original_english": "Chocolate",
+                    "vietnamese": "Sô cô la",
+                    "price_G": 100
+                  }
+                ]
+              },
+              {
+                "kind": "clinic",
+                "rom_address": "0x80fe050",
+                "bytes_unchanged": 32,
+                "goods": [
+                  {
+                    "id": "item.food.057.name",
+                    "original_english": "Bodigizer",
+                    "vietnamese": "Bodigizer",
+                    "price_G": 500
+                  },
+                  {
+                    "id": "item.food.058.name",
+                    "original_english": "Bodigizer XL",
+                    "vietnamese": "Bodigizer XL",
+                    "price_G": 1000
+                  },
+                  {
+                    "id": "item.food.059.name",
+                    "original_english": "Turbojolt",
+                    "vietnamese": "Turbojolt",
+                    "price_G": 1000
+                  },
+                  {
+                    "id": "item.food.060.name",
+                    "original_english": "Turbojolt XL",
+                    "vietnamese": "Turbojolt XL",
+                    "price_G": 2000
+                  }
+                ]
+              }
+            ],
+            "flour_identity": {
+              "id": "item.food.066.name",
+              "food_id_hex": "0x42",
+              "icon_id": 163,
+              "original_spelling_retained": "Flower",
+              "translation": "Bột mì",
+              "independent_guide_source_id": "script.1043.108",
+              "guide_grocery_order": [
+                "Rice Balls",
+                "Bread",
+                "Oil",
+                "Flour",
+                "Curry Powder",
+                "Muffin Mix",
+                "Chocolate"
+              ],
+              "matched_grocery_position": 4
+            },
+            "renderer_lines_with_buffer_guards": 1351,
+            "emulator_error_count": 0,
+            "status": "passed",
+            "limitations": [
+              "Shop stock/price tables and literal/render paths verified; no normal purchase/sale playthrough claimed.",
+              "Language review pending; UI fixtures are reported separately."
+            ]
+          }
+        },
+        "item-ui": {
+          "report": "build/platform-check/0.10.5/item-ui/report.json",
+          "sha256": "27def93a4750eea871ac91b43ab984959c09b1561b8b1278010fe6f6c4ddf370",
+          "result": {
+            "status": "passed",
+            "target_sha256": "db554669f39c9bb57f9688a76939bf4066aa2e59a70b12a2354378fbba78fb08",
+            "item_info_windows": 347,
+            "native_scroll_cases": 1,
+            "wrapped_name_windows": 266,
+            "sram_unchanged": true,
+            "emulator_error_count": 0,
+            "fixture_setup": "temporary documented RAM item fields; normal UI input afterward",
+            "limitations": [
+              "Rare/unused items not obtained through gameplay.",
+              "Foreground pixels checked, not a language approval or complete shop purchase playthrough.",
+              "Unwrapped tool name pointers have renderer checks; tools have no gift-wrap view.",
+              "No real GBA hardware test."
+            ],
+            "case_count": 613,
+            "display_kinds": {
+              "description": 346,
+              "pedometer": 1,
+              "wrapped_name": 266
+            }
           }
         }
       },
@@ -678,18 +1229,16 @@
             160
           ]
         }
-      ],
-      "golden_scene_count": 43,
-      "changed_pixels_total": 0
+      ]
     },
     "dev": {
       "library_sha256": "b044208a82af47a6ce3651cf2c289c575866a4764d6e9377c88001e60edea0c7",
       "suites": {
         "full": {
           "report": "build/platform-check/dev/full/report.json",
-          "sha256": "72cae2dc7bd4f803a6f26024d2ea8a1e6606ba880f7a6095d2747ead79e7d472",
+          "sha256": "578e0a1706d1cee15c945c25ffc9035dfb87965e4a3b9e1561f080bf23ce66e8",
           "result": {
-            "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
+            "target_sha256": "db554669f39c9bb57f9688a76939bf4066aa2e59a70b12a2354378fbba78fb08",
             "checks": {
               "ascii_native_outlines_at_common_baseline": 95,
               "legacy_glyph_fallback_unchanged": 10,
@@ -760,108 +1309,10 @@
         },
         "new-game": {
           "report": "build/platform-check/dev/new-game/report.json",
-          "sha256": "a658447fed791230290c31cfeda029c46ee2ad959980888c7fd11185874c4eb5",
+          "sha256": "bf47ebffdfd6c7d6e42acd5fd8cfe9592d0f19fc4690b275549a0d850b401687",
           "result": {
-            "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
+            "target_sha256": "db554669f39c9bb57f9688a76939bf4066aa2e59a70b12a2354378fbba78fb08",
             "status": "passed",
-            "cases": [
-              {
-                "season": 0,
-                "day": 1,
-                "original_and_localized_selection": {
-                  "names": [
-                    "A",
-                    "BC",
-                    "CD"
-                  ],
-                  "packed_birthday": 0
-                }
-              },
-              {
-                "season": 0,
-                "day": 30,
-                "original_and_localized_selection": {
-                  "names": [
-                    "AB",
-                    "BC",
-                    "CD"
-                  ],
-                  "packed_birthday": 116
-                }
-              },
-              {
-                "season": 1,
-                "day": 1,
-                "original_and_localized_selection": {
-                  "names": [
-                    "AB",
-                    "BC",
-                    "CD"
-                  ],
-                  "packed_birthday": 1
-                }
-              },
-              {
-                "season": 1,
-                "day": 30,
-                "original_and_localized_selection": {
-                  "names": [
-                    "AB",
-                    "BC",
-                    "CD"
-                  ],
-                  "packed_birthday": 117
-                }
-              },
-              {
-                "season": 2,
-                "day": 1,
-                "original_and_localized_selection": {
-                  "names": [
-                    "AB",
-                    "BC",
-                    "CD"
-                  ],
-                  "packed_birthday": 2
-                }
-              },
-              {
-                "season": 2,
-                "day": 30,
-                "original_and_localized_selection": {
-                  "names": [
-                    "AB",
-                    "BC",
-                    "CD"
-                  ],
-                  "packed_birthday": 118
-                }
-              },
-              {
-                "season": 3,
-                "day": 1,
-                "original_and_localized_selection": {
-                  "names": [
-                    "AB",
-                    "BC",
-                    "CD"
-                  ],
-                  "packed_birthday": 3
-                }
-              },
-              {
-                "season": 3,
-                "day": 30,
-                "original_and_localized_selection": {
-                  "names": [
-                    "AAAAAAAAAAAA",
-                    "BC",
-                    "CD"
-                  ],
-                  "packed_birthday": 119
-                }
-              }
-            ],
             "checks": [
               "four seasons x days 1/30 through normal controls",
               "all 43 birthday OBJ cells uploaded intact",
@@ -877,9 +1328,9 @@
         },
         "start": {
           "report": "build/platform-check/dev/start/report.json",
-          "sha256": "44bb2e006821f366656a48ef8ee4cce5ba7ae4d5542b895dd3d2bed6cff56bd5",
+          "sha256": "b516bce83ce8f56f785001cf238195d8200131165fa853fe3cc926e9f5cc3840",
           "result": {
-            "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
+            "target_sha256": "db554669f39c9bb57f9688a76939bf4066aa2e59a70b12a2354378fbba78fb08",
             "status": "passed",
             "translated_records": 162,
             "isolated_renderer_lines_with_guards": 239,
@@ -913,9 +1364,9 @@
         },
         "date": {
           "report": "build/platform-check/dev/date/report.json",
-          "sha256": "fc5a2cc49b30137d5f7ffd7b7957a95b2baae34f4deb4e111b225a820f741776",
+          "sha256": "ccaa7e8d5a2d3818494e345e51b12764939423aeb36708dc81834a1eae0997cd",
           "result": {
-            "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
+            "target_sha256": "db554669f39c9bb57f9688a76939bf4066aa2e59a70b12a2354378fbba78fb08",
             "revision": "vietnamese-calendar-heading-v19",
             "limitations": [
               "Calendar fixtures change UI view fields, not elapsed gameplay years",
@@ -951,25 +1402,444 @@
               ],
               "fifth_argument_forwarding_and_r3_oam_pointer_preserved": true
             },
+            "hud_view_fixtures_with_vram_checks": [
+              {
+                "season": 0,
+                "day": 2,
+                "hour": 6,
+                "minute": 50,
+                "screenshot": "hud-0-0650.png",
+                "raised_accent_vram_and_palette_verified": true,
+                "changed_pixels_vs_previous": null
+              },
+              {
+                "season": 1,
+                "day": 30,
+                "hour": 0,
+                "minute": 0,
+                "screenshot": "hud-1-0000.png",
+                "raised_accent_vram_and_palette_verified": true,
+                "changed_pixels_vs_previous": null
+              },
+              {
+                "season": 2,
+                "day": 30,
+                "hour": 12,
+                "minute": 0,
+                "screenshot": "hud-2-1200.png",
+                "raised_accent_vram_and_palette_verified": false,
+                "changed_pixels_vs_previous": null
+              },
+              {
+                "season": 3,
+                "day": 30,
+                "hour": 23,
+                "minute": 59,
+                "screenshot": "hud-3-2359.png",
+                "raised_accent_vram_and_palette_verified": false,
+                "changed_pixels_vs_previous": null
+              },
+              {
+                "season": 0,
+                "day": 9,
+                "hour": 6,
+                "minute": 0,
+                "screenshot": "hud-0-day9.png",
+                "raised_accent_vram_and_palette_verified": true,
+                "changed_pixels_vs_previous": null
+              },
+              {
+                "season": 0,
+                "day": 10,
+                "hour": 6,
+                "minute": 0,
+                "screenshot": "hud-0-day10.png",
+                "raised_accent_vram_and_palette_verified": true,
+                "changed_pixels_vs_previous": null
+              },
+              {
+                "season": 1,
+                "day": 2,
+                "hour": 6,
+                "minute": 0,
+                "screenshot": "hud-1-day2.png",
+                "raised_accent_vram_and_palette_verified": true,
+                "changed_pixels_vs_previous": null
+              },
+              {
+                "season": 2,
+                "day": 2,
+                "hour": 6,
+                "minute": 0,
+                "screenshot": "hud-2-day2.png",
+                "raised_accent_vram_and_palette_verified": false,
+                "changed_pixels_vs_previous": null
+              },
+              {
+                "season": 3,
+                "day": 2,
+                "hour": 6,
+                "minute": 0,
+                "screenshot": "hud-3-day2.png",
+                "raised_accent_vram_and_palette_verified": false,
+                "changed_pixels_vs_previous": null
+              }
+            ],
             "natural_calendar_open_close_cycles_with_resource_checks": 8,
             "calendar_exit_and_sram_unchanged": true,
             "natural_calendar_entry": true,
             "shared_day_digit_tile_cache_restored": true,
             "header_positions_and_year_glyphs_verified_in_oam_and_vram": true,
+            "calendar_ui_fixtures": [
+              {
+                "year": 1,
+                "season": 0,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 1,
+                "season": 0,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 1,
+                "season": 1,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 1,
+                "season": 1,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 1,
+                "season": 2,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 1,
+                "season": 2,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 1,
+                "season": 3,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 1,
+                "season": 3,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 7,
+                "season": 0,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 7,
+                "season": 0,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 7,
+                "season": 1,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 7,
+                "season": 1,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 7,
+                "season": 2,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 7,
+                "season": 2,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 7,
+                "season": 3,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 7,
+                "season": 3,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 8,
+                "season": 0,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 8,
+                "season": 0,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 8,
+                "season": 1,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 8,
+                "season": 1,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 8,
+                "season": 2,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 8,
+                "season": 2,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 8,
+                "season": 3,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 8,
+                "season": 3,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 10,
+                "season": 0,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 10,
+                "season": 0,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 10,
+                "season": 1,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 10,
+                "season": 1,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 10,
+                "season": 2,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 10,
+                "season": 2,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 10,
+                "season": 3,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 10,
+                "season": 3,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 99,
+                "season": 0,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 99,
+                "season": 0,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 99,
+                "season": 1,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 99,
+                "season": 1,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 99,
+                "season": 2,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 99,
+                "season": 2,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 99,
+                "season": 3,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 99,
+                "season": 3,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 100,
+                "season": 0,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 100,
+                "season": 0,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 100,
+                "season": 1,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 100,
+                "season": 1,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 100,
+                "season": 2,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 100,
+                "season": 2,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 100,
+                "season": 3,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 100,
+                "season": 3,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 200,
+                "season": 0,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 200,
+                "season": 0,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 200,
+                "season": 1,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 200,
+                "season": 1,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 200,
+                "season": 2,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 200,
+                "season": 2,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 200,
+                "season": 3,
+                "selected_day": 1,
+                "grid_events_and_body_pixels_match_native": true
+              },
+              {
+                "year": 200,
+                "season": 3,
+                "selected_day": 30,
+                "grid_events_and_body_pixels_match_native": true
+              }
+            ],
             "calendar_source_tiles": 134,
             "calendar_localized_tiles": 180,
             "calendar_tile_budget": 256,
             "emulator_error_count": 0,
-            "status": "passed",
-            "hud_view_fixture_count": 9,
-            "calendar_ui_fixture_count": 56
+            "status": "passed"
           }
         },
         "items": {
           "report": "build/platform-check/dev/items/report.json",
-          "sha256": "8ea63434fbe83edae1e26b0cdcf36cbc2d7dbd956659d7661fd226ae81076d2e",
+          "sha256": "e3243a41a47932b601c66205a27853499b4e698f4ad95d41b529bdd0f8ab0a89",
           "result": {
-            "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
+            "target_sha256": "db554669f39c9bb57f9688a76939bf4066aa2e59a70b12a2354378fbba78fb08",
             "status": "passed",
             "record_ids": [
               "item.tool.000.description",
@@ -1000,6 +1870,236 @@
               "No natural item-description window encounter claimed; layout/playtest approval remains pending.",
               "No real hardware test."
             ]
+          }
+        },
+        "item-audit": {
+          "report": "build/platform-check/dev/item-audit/report.json",
+          "sha256": "a7ed448752884416c75b4e8d10764759c3566a176b374d1c5334d3ffec3ad135",
+          "result": {
+            "target_sha256": "db554669f39c9bb57f9688a76939bf4066aa2e59a70b12a2354378fbba78fb08",
+            "item_names": 347,
+            "item_descriptions": 347,
+            "native_shop_and_item_literals": 26,
+            "pointer_fields_verified": 724,
+            "item_records_nontext_fields_unchanged": 347,
+            "shops": [
+              {
+                "kind": "seeds",
+                "rom_address": "0x80fddd8",
+                "bytes_unchanged": 104,
+                "goods": [
+                  {
+                    "id": "item.tool.050.name",
+                    "original_english": "Turnip Seeds",
+                    "vietnamese": "Hạt giống củ cải",
+                    "price_G": 120
+                  },
+                  {
+                    "id": "item.tool.051.name",
+                    "original_english": "Potato Seeds",
+                    "vietnamese": "Hạt giống khoai tây",
+                    "price_G": 150
+                  },
+                  {
+                    "id": "item.tool.052.name",
+                    "original_english": "Cucumber Seeds",
+                    "vietnamese": "Hạt giống dưa leo",
+                    "price_G": 200
+                  },
+                  {
+                    "id": "item.tool.053.name",
+                    "original_english": "Strawberry Seeds",
+                    "vietnamese": "Hạt giống dâu tây",
+                    "price_G": 150
+                  },
+                  {
+                    "id": "item.tool.055.name",
+                    "original_english": "Tomato Seeds",
+                    "vietnamese": "Hạt giống cà chua",
+                    "price_G": 200
+                  },
+                  {
+                    "id": "item.tool.056.name",
+                    "original_english": "Corn Seeds",
+                    "vietnamese": "Hạt giống bắp",
+                    "price_G": 300
+                  },
+                  {
+                    "id": "item.tool.057.name",
+                    "original_english": "Onion Seeds",
+                    "vietnamese": "Hạt giống hành tây",
+                    "price_G": 150
+                  },
+                  {
+                    "id": "item.tool.058.name",
+                    "original_english": "Pumpkin Seeds",
+                    "vietnamese": "Hạt giống bí ngô",
+                    "price_G": 500
+                  },
+                  {
+                    "id": "item.tool.060.name",
+                    "original_english": "Eggplant Seeds",
+                    "vietnamese": "Hạt giống cà tím",
+                    "price_G": 120
+                  },
+                  {
+                    "id": "item.tool.061.name",
+                    "original_english": "Carrot Seeds",
+                    "vietnamese": "Hạt giống cà rốt",
+                    "price_G": 300
+                  },
+                  {
+                    "id": "item.tool.062.name",
+                    "original_english": "Sweet Potato Seeds",
+                    "vietnamese": "Hạt giống khoai lang",
+                    "price_G": 300
+                  },
+                  {
+                    "id": "item.tool.063.name",
+                    "original_english": "Spinach Seeds",
+                    "vietnamese": "Hạt giống cải bó xôi",
+                    "price_G": 200
+                  },
+                  {
+                    "id": "item.tool.065.name",
+                    "original_english": "Grass Seeds",
+                    "vietnamese": "Hạt giống cỏ",
+                    "price_G": 500
+                  }
+                ]
+              },
+              {
+                "kind": "groceries",
+                "rom_address": "0x80fdfa4",
+                "bytes_unchanged": 64,
+                "goods": [
+                  {
+                    "id": "item.food.063.name",
+                    "original_english": "Rice Ball",
+                    "vietnamese": "Cơm nắm",
+                    "price_G": 100
+                  },
+                  {
+                    "id": "item.food.064.name",
+                    "original_english": "Bread",
+                    "vietnamese": "Bánh mì",
+                    "price_G": 100
+                  },
+                  {
+                    "id": "item.food.065.name",
+                    "original_english": "Oil",
+                    "vietnamese": "Dầu ăn",
+                    "price_G": 50
+                  },
+                  {
+                    "id": "item.food.066.name",
+                    "original_english": "Flower",
+                    "vietnamese": "Bột mì",
+                    "price_G": 50
+                  },
+                  {
+                    "id": "item.food.067.name",
+                    "original_english": "Curry Powder",
+                    "vietnamese": "Bột cà ri",
+                    "price_G": 50
+                  },
+                  {
+                    "id": "item.food.068.name",
+                    "original_english": "Muffin Mix",
+                    "vietnamese": "Bột làm bánh",
+                    "price_G": 100
+                  },
+                  {
+                    "id": "item.food.069.name",
+                    "original_english": "Chocolate",
+                    "vietnamese": "Sô cô la",
+                    "price_G": 100
+                  }
+                ]
+              },
+              {
+                "kind": "clinic",
+                "rom_address": "0x80fe050",
+                "bytes_unchanged": 32,
+                "goods": [
+                  {
+                    "id": "item.food.057.name",
+                    "original_english": "Bodigizer",
+                    "vietnamese": "Bodigizer",
+                    "price_G": 500
+                  },
+                  {
+                    "id": "item.food.058.name",
+                    "original_english": "Bodigizer XL",
+                    "vietnamese": "Bodigizer XL",
+                    "price_G": 1000
+                  },
+                  {
+                    "id": "item.food.059.name",
+                    "original_english": "Turbojolt",
+                    "vietnamese": "Turbojolt",
+                    "price_G": 1000
+                  },
+                  {
+                    "id": "item.food.060.name",
+                    "original_english": "Turbojolt XL",
+                    "vietnamese": "Turbojolt XL",
+                    "price_G": 2000
+                  }
+                ]
+              }
+            ],
+            "flour_identity": {
+              "id": "item.food.066.name",
+              "food_id_hex": "0x42",
+              "icon_id": 163,
+              "original_spelling_retained": "Flower",
+              "translation": "Bột mì",
+              "independent_guide_source_id": "script.1043.108",
+              "guide_grocery_order": [
+                "Rice Balls",
+                "Bread",
+                "Oil",
+                "Flour",
+                "Curry Powder",
+                "Muffin Mix",
+                "Chocolate"
+              ],
+              "matched_grocery_position": 4
+            },
+            "renderer_lines_with_buffer_guards": 1351,
+            "emulator_error_count": 0,
+            "status": "passed",
+            "limitations": [
+              "Shop stock/price tables and literal/render paths verified; no normal purchase/sale playthrough claimed.",
+              "Language review pending; UI fixtures are reported separately."
+            ]
+          }
+        },
+        "item-ui": {
+          "report": "build/platform-check/dev/item-ui/report.json",
+          "sha256": "27def93a4750eea871ac91b43ab984959c09b1561b8b1278010fe6f6c4ddf370",
+          "result": {
+            "status": "passed",
+            "target_sha256": "db554669f39c9bb57f9688a76939bf4066aa2e59a70b12a2354378fbba78fb08",
+            "item_info_windows": 347,
+            "native_scroll_cases": 1,
+            "wrapped_name_windows": 266,
+            "sram_unchanged": true,
+            "emulator_error_count": 0,
+            "fixture_setup": "temporary documented RAM item fields; normal UI input afterward",
+            "limitations": [
+              "Rare/unused items not obtained through gameplay.",
+              "Foreground pixels checked, not a language approval or complete shop purchase playthrough.",
+              "Unwrapped tool name pointers have renderer checks; tools have no gift-wrap view.",
+              "No real GBA hardware test."
+            ],
+            "case_count": 613,
+            "display_kinds": {
+              "description": 346,
+              "pedometer": 1,
+              "wrapped_name": 266
+            }
           }
         }
       },
@@ -1348,27 +2448,20 @@
             160
           ]
         }
-      ],
-      "golden_scene_count": 43,
-      "changed_pixels_total": 0
+      ]
     }
   },
   "pytest_log": "build/platform-check/logs/pytest.log",
   "pytest": {
-    "passed": 117,
+    "passed": 129,
     "failed": 0,
     "skipped": 0
   },
-  "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
-  "patch_sha256": "80176c6a5cb844213a488ef1e4cfb904409312b05f6a56f6ea4747344a285b1f",
+  "target_sha256": "db554669f39c9bb57f9688a76939bf4066aa2e59a70b12a2354378fbba78fb08",
+  "patch_sha256": "7daa48200e64b8be175535df409c48d8bca955ccfc0c8d31c649d12074cd1e18",
   "repeated_builds_identical": true,
   "release_ips_round_trip": true,
-  "locked_files_checked": 28,
+  "locked_files_checked": 32,
   "golden_references_checked": 43,
-  "emulator_replay_run": true,
-  "recorded_at": "2026-10-23T09:23:29.293298+00:00",
-  "baseline_path": "localization/platform_baseline.json",
-  "baseline_revision": "platform-v1",
-  "original_report_sha256": "792e31e50e570fc98b9ed13b7cecea374521286630911935cb623985a436b2f4",
-  "report_paths_note": "Detailed reports/logs under build/ are local reproducible outputs; results embedded here preserve the verification scope after clean."
+  "emulator_replay_run": true
 }

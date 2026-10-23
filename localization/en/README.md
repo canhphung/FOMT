@@ -1,10 +1,10 @@
 # English sources
 
 `pilot.json` and `items.json` preserve the verified English records corresponding
-to the Vietnamese draft files. They are subsets, not the whole game.
+to the Vietnamese draft files. They are subsets, not the whole game. `shop_items.json` preserves the 26 verified native shop/item-window literals added in items-complete.
 
 Run `python3 tools/text_extractor.py /path/to/base.gba` from the repository root
-to regenerate `catalog.json`: 9,069 records, including every string in the
+to regenerate `catalog.json`: 9,309 records, including every string in the
 1,328 referenced SCR containers. The complete generated catalog is ignored by
 Git; it exists locally after extraction. No ROM is included or downloaded.
 

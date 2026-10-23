@@ -41,7 +41,7 @@ sang food/article, không phải một bản sao độc lập của tất cả t
 
 Tổng trích xuất nhóm này: 347 tên + 347 mô tả. Không sửa lỗi gốc ngoài phạm vi:
 ví dụ hai nhãn len đều hiện `Wool (P)`; bản dịch giữ nhãn P theo văn bản nguồn.
-Nhãn `Flower` của food 66 còn mơ hồ và chưa dịch, không tự sửa thành Flour.
+Nhãn `Flower` của food 66 đã xác minh là bột mì bằng bảng tạp hóa và sách trong ROM; English nguồn được giữ nguyên. Xem [vật phẩm/UI](ITEM_LOCALIZATION.md), gồm 26 literal mới, ngân sách byte và bản sửa scanner NUL.
 
 ## Menu tạm dừng
 

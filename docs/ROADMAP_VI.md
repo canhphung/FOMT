@@ -4,12 +4,13 @@ Cập nhật 2026-10-23. Baseline triển khai: `f8e1af2`, ROM USA A4NE revision
 Mục tiêu: Việt hóa toàn bộ văn bản có thể tiếp cận, giữ gameplay/save gốc,
 phát hành bản vá; không decompile toàn bộ game hoặc phân phối ROM.
 
-Đã triển khai hàng đợi CLI/ngữ cảnh/QA tối thiểu và lô tools-01; hiện có 722
-nháp. Xem [quy trình](LOCALIZATION_WORKFLOW.md) và [tiến độ hiện tại](TRANSLATION_PROGRESS.md).
+Đã triển khai hàng đợi CLI/ngữ cảnh/QA tối thiểu và lô tools-01; hiện có 1.059
+nháp, đủ 347 tên và 347 mô tả vật phẩm cùng 26 chuỗi UI native. Xem [quy trình](LOCALIZATION_WORKFLOW.md) và [tiến độ hiện tại](TRANSLATION_PROGRESS.md).
 Đã có [bàn dịch local](TRANSLATION_WORKBENCH.md): bảng Anh–Việt, tìm/lọc,
-glossary/xưng hô, kiểm token/độ dài và lưu nháp có backup/xung đột; 126 pytest đạt.
-Bộ chuẩn kỹ thuật [platform-v1](PLATFORM_BASELINE.md) đã khóa font/bố cục,
-thêm một lệnh kiểm hai build/IPS và replay 43 ảnh trên hai mGBA; 117 pytest đạt.
+glossary/xưng hô, kiểm token/độ dài và lưu nháp có backup/xung đột.
+Bộ chuẩn kỹ thuật [platform-v2-items](PLATFORM_BASELINE.md) khóa 32 file, giữ
+font/bố cục và 43 ảnh chuẩn; một lệnh kiểm hai build/IPS và hai mGBA. Hiện có
+129 pytest và ma trận 613 cửa sổ vật phẩm mỗi backend.
 Duyệt thẩm mỹ toàn gallery và QA nội dung vẫn được theo dõi riêng.
 Bảng dưới giữ baseline lúc lập roadmap.
 
@@ -83,9 +84,10 @@ có trình sửa registry QA hoặc tự xác minh chuỗi chưa phân loại.
 
 ## C. Hoàn thiện nội dung thấy thường xuyên
 
-Ưu tiên 310 mô tả vật phẩm còn thiếu vì đã có nguồn xác minh và tái sử dụng
-được 346 tên hiện tại. Xác minh nhãn còn lại (tài liệu trước ghi Flower)
-trước khi quyết định dịch. Duyệt cả tên đã có nháp, không chỉ điền ô trống.
+Lô [items-complete](ITEM_LOCALIZATION.md) đã thêm 310 mô tả, xác minh Flower
+là Bột mì và bổ sung 26 chuỗi UI native. Đủ 347 tên/347 mô tả ở mức nháp.
+Tiếp tục duyệt nghĩa/bố cục và kiểm giao dịch mua/bán tự nhiên; không coi kiểm
+pointer và RAM fixture là hoàn thành QA cửa hàng.
 
 Rà cửa hàng, mua/bán, nâng cấp, bệnh viện/dịch vụ, cửa sổ vật phẩm và popup
 lịch để xác định phần nào có text/graphics adapter còn thiếu. Danh sách này

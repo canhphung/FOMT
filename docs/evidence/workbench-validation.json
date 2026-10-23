@@ -1,8 +1,8 @@
 {
-  "revision": "translation-workbench-v1",
+  "revision": "translation-workbench-v1-items",
   "browser": {
     "status": "passed",
-    "timestamp": "2026-10-23T10:23:39.317Z",
+    "timestamp": "2026-10-23T11:34:19.421Z",
     "checks": [
       "Real catalog loaded and table paginated in Chromium.",
       "Removing a CR token reports an error and blocks Save.",
@@ -12,18 +12,19 @@
       "An external edit causes HTTP 409; the textarea keeps the unsaved draft.",
       "Accent-insensitive glossary lookup finds Sickle → Liềm.",
       "Speaker profiles expose scene scope and exact source IDs.",
-      "The unresolved Flower record remains read-only.",
+      "The verified Flour alias is editable and displays Bột mì.",
+      "An unclassified script record remains read-only.",
       "CSV export follows active filters and preserves UTF-8.",
       "390 px viewport has no horizontal document overflow."
     ],
     "screenshots": [
       {
         "path": "docs/evidence/workbench.png",
-        "sha256": "4c64915bde1962740d62c2962778231e026ffce991a68c719f51ca54b8e55251"
+        "sha256": "193d85c62bea90e931a0109dcb6f24af734f42693cc503c4bc743b26773fe945"
       },
       {
         "path": "docs/evidence/workbench-token-error.png",
-        "sha256": "7d9f525ed0d7dd29d0f34fafa4b9c04716a5dca1f8cc1536e3a55cfa1dedb6a0"
+        "sha256": "38730390afebee147d25418943b499fa8070226a7b652ee3a005fc0cb6f66b70"
       }
     ],
     "browser": {
@@ -33,8 +34,8 @@
       "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
       "jsVersion": "15.4.80.11"
     },
-    "source_json_files_unchanged": 22,
-    "source_snapshot_sha256": "caea85937160545313ffa17c3d295e657fcd252c8b8762dbe437cd46b5665a8e",
+    "source_json_files_unchanged": 24,
+    "source_snapshot_sha256": "fd7c268152056ebcb4f94d92ba0b8ad1234141580425d7ca9ddc96441ac82ab0",
     "scope": "Chromium UI and HTTP writes in a disposable copy of the actual extracted catalog; original translations unchanged.",
     "limitations": [
       "No emulator or ROM build invoked by this browser test.",
@@ -44,7 +45,7 @@
   "pipeline_regression": {
     "schema_version": 1,
     "status": "passed",
-    "baseline_sha256": "6003e1b5427ea4ced8fe38ebb830f53d24990fb58a43e77e77c929b6e4404b2f",
+    "baseline_sha256": "ac90d6101f8a1a376117f5c435064e20bb5b9a0410fd2f29be083710cc8ecda2",
     "source_sha1": "a2fc3574f0a65a4fcf7682fb274b9d7eebdef963",
     "visual_review": "technical regression reference; user approval of the complete gallery pending; translation QA unchanged",
     "limitations": [
@@ -54,20 +55,19 @@
       "Calendar year fixtures are UI probes, not proof of elapsed gameplay years.",
       "Emulator library hashes are recorded per run; reference source commits describe the tested checkouts."
     ],
-    "emulators": {},
     "pytest_log": "build/platform-check/logs/pytest.log",
     "pytest": {
-      "passed": 126,
+      "passed": 129,
       "failed": 0,
       "skipped": 0
     },
-    "target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
-    "patch_sha256": "80176c6a5cb844213a488ef1e4cfb904409312b05f6a56f6ea4747344a285b1f",
+    "target_sha256": "db554669f39c9bb57f9688a76939bf4066aa2e59a70b12a2354378fbba78fb08",
+    "patch_sha256": "7daa48200e64b8be175535df409c48d8bca955ccfc0c8d31c649d12074cd1e18",
     "repeated_builds_identical": true,
     "release_ips_round_trip": true,
-    "locked_files_checked": 28,
+    "locked_files_checked": 32,
     "golden_references_checked": 43,
-    "emulator_replay_run": false
+    "emulator_replay_run": true
   },
   "source_files": [
     {
@@ -76,7 +76,7 @@
     },
     {
       "path": "tools/workbench/app.js",
-      "sha256": "2b59c1689903f498e2dabdcad07c37626e7d56c4a62fceff384c768141812d84"
+      "sha256": "7a496477cde288e27bfe4b14b67a573bd4da3cee400dfef65052bc596e25f768"
     },
     {
       "path": "tools/workbench/index.html",
@@ -88,12 +88,12 @@
     },
     {
       "path": "tools/workbench_browser_smoke.mjs",
-      "sha256": "a7574c28c001ae4f21251fbf93ccb09d9a5ee4d19fcd901ea4d04ba4d723e09e"
+      "sha256": "febb08e57fc0c74723ed38959dbbb243bacef59fd0416dee17148af11363fe8b"
     },
     {
       "path": "tests/test_translation_workbench.py",
       "sha256": "4a78badecaf67e897bba54ca53d5a4bd346c253fa95ce60185cdbcda68efa3f3"
     }
   ],
-  "scope_note": "Editor save tests use disposable copies only. Original ROM/IPS and 722 translation drafts unchanged. Native mGBA replays were not repeated because all 28 platform locks and ROM bytes are unchanged; previous same-target evidence remains docs/evidence/platform-validation.json."
+  "scope_note": "Browser writes disposable catalog copies only. Verified Flour alias editable; unclassified strings read-only. Original localization JSON unchanged by browser tests. Native replays are recorded in platform-validation.json."
 }

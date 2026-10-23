@@ -1,0 +1,509 @@
+{
+  "schema_version": 1,
+  "revision": "items-complete-v1",
+  "status": "passed",
+  "target_sha256": "db554669f39c9bb57f9688a76939bf4066aa2e59a70b12a2354378fbba78fb08",
+  "source_sha1": "a2fc3574f0a65a4fcf7682fb274b9d7eebdef963",
+  "pytest": {
+    "passed": 129,
+    "failed": 0,
+    "skipped": 0
+  },
+  "release_ips_round_trip": true,
+  "repeated_builds_identical": true,
+  "catalog_records": 9309,
+  "draft_records": 1059,
+  "item_names": 347,
+  "item_descriptions": 347,
+  "new_description_drafts": 310,
+  "native_shop_literals": 17,
+  "native_item_window_literals": 9,
+  "glossary_terms": 400,
+  "queue": {
+    "translate": 0,
+    "qa": 1059,
+    "blocked": 8250,
+    "done": 0
+  },
+  "emulators": {
+    "0.10.5": {
+      "library_sha256": "a59b9ebbc006144a1fc4fd68ddc371e95de4abc7d36073c7eed53e482d06a15c",
+      "audit": {
+        "target_sha256": "db554669f39c9bb57f9688a76939bf4066aa2e59a70b12a2354378fbba78fb08",
+        "item_names": 347,
+        "item_descriptions": 347,
+        "native_shop_and_item_literals": 26,
+        "pointer_fields_verified": 724,
+        "item_records_nontext_fields_unchanged": 347,
+        "shops": [
+          {
+            "kind": "seeds",
+            "rom_address": "0x80fddd8",
+            "bytes_unchanged": 104,
+            "goods": [
+              {
+                "id": "item.tool.050.name",
+                "original_english": "Turnip Seeds",
+                "vietnamese": "Hạt giống củ cải",
+                "price_G": 120
+              },
+              {
+                "id": "item.tool.051.name",
+                "original_english": "Potato Seeds",
+                "vietnamese": "Hạt giống khoai tây",
+                "price_G": 150
+              },
+              {
+                "id": "item.tool.052.name",
+                "original_english": "Cucumber Seeds",
+                "vietnamese": "Hạt giống dưa leo",
+                "price_G": 200
+              },
+              {
+                "id": "item.tool.053.name",
+                "original_english": "Strawberry Seeds",
+                "vietnamese": "Hạt giống dâu tây",
+                "price_G": 150
+              },
+              {
+                "id": "item.tool.055.name",
+                "original_english": "Tomato Seeds",
+                "vietnamese": "Hạt giống cà chua",
+                "price_G": 200
+              },
+              {
+                "id": "item.tool.056.name",
+                "original_english": "Corn Seeds",
+                "vietnamese": "Hạt giống bắp",
+                "price_G": 300
+              },
+              {
+                "id": "item.tool.057.name",
+                "original_english": "Onion Seeds",
+                "vietnamese": "Hạt giống hành tây",
+                "price_G": 150
+              },
+              {
+                "id": "item.tool.058.name",
+                "original_english": "Pumpkin Seeds",
+                "vietnamese": "Hạt giống bí ngô",
+                "price_G": 500
+              },
+              {
+                "id": "item.tool.060.name",
+                "original_english": "Eggplant Seeds",
+                "vietnamese": "Hạt giống cà tím",
+                "price_G": 120
+              },
+              {
+                "id": "item.tool.061.name",
+                "original_english": "Carrot Seeds",
+                "vietnamese": "Hạt giống cà rốt",
+                "price_G": 300
+              },
+              {
+                "id": "item.tool.062.name",
+                "original_english": "Sweet Potato Seeds",
+                "vietnamese": "Hạt giống khoai lang",
+                "price_G": 300
+              },
+              {
+                "id": "item.tool.063.name",
+                "original_english": "Spinach Seeds",
+                "vietnamese": "Hạt giống cải bó xôi",
+                "price_G": 200
+              },
+              {
+                "id": "item.tool.065.name",
+                "original_english": "Grass Seeds",
+                "vietnamese": "Hạt giống cỏ",
+                "price_G": 500
+              }
+            ]
+          },
+          {
+            "kind": "groceries",
+            "rom_address": "0x80fdfa4",
+            "bytes_unchanged": 64,
+            "goods": [
+              {
+                "id": "item.food.063.name",
+                "original_english": "Rice Ball",
+                "vietnamese": "Cơm nắm",
+                "price_G": 100
+              },
+              {
+                "id": "item.food.064.name",
+                "original_english": "Bread",
+                "vietnamese": "Bánh mì",
+                "price_G": 100
+              },
+              {
+                "id": "item.food.065.name",
+                "original_english": "Oil",
+                "vietnamese": "Dầu ăn",
+                "price_G": 50
+              },
+              {
+                "id": "item.food.066.name",
+                "original_english": "Flower",
+                "vietnamese": "Bột mì",
+                "price_G": 50
+              },
+              {
+                "id": "item.food.067.name",
+                "original_english": "Curry Powder",
+                "vietnamese": "Bột cà ri",
+                "price_G": 50
+              },
+              {
+                "id": "item.food.068.name",
+                "original_english": "Muffin Mix",
+                "vietnamese": "Bột làm bánh",
+                "price_G": 100
+              },
+              {
+                "id": "item.food.069.name",
+                "original_english": "Chocolate",
+                "vietnamese": "Sô cô la",
+                "price_G": 100
+              }
+            ]
+          },
+          {
+            "kind": "clinic",
+            "rom_address": "0x80fe050",
+            "bytes_unchanged": 32,
+            "goods": [
+              {
+                "id": "item.food.057.name",
+                "original_english": "Bodigizer",
+                "vietnamese": "Bodigizer",
+                "price_G": 500
+              },
+              {
+                "id": "item.food.058.name",
+                "original_english": "Bodigizer XL",
+                "vietnamese": "Bodigizer XL",
+                "price_G": 1000
+              },
+              {
+                "id": "item.food.059.name",
+                "original_english": "Turbojolt",
+                "vietnamese": "Turbojolt",
+                "price_G": 1000
+              },
+              {
+                "id": "item.food.060.name",
+                "original_english": "Turbojolt XL",
+                "vietnamese": "Turbojolt XL",
+                "price_G": 2000
+              }
+            ]
+          }
+        ],
+        "flour_identity": {
+          "id": "item.food.066.name",
+          "food_id_hex": "0x42",
+          "icon_id": 163,
+          "original_spelling_retained": "Flower",
+          "translation": "Bột mì",
+          "independent_guide_source_id": "script.1043.108",
+          "guide_grocery_order": [
+            "Rice Balls",
+            "Bread",
+            "Oil",
+            "Flour",
+            "Curry Powder",
+            "Muffin Mix",
+            "Chocolate"
+          ],
+          "matched_grocery_position": 4
+        },
+        "renderer_lines_with_buffer_guards": 1351,
+        "emulator_error_count": 0,
+        "status": "passed",
+        "limitations": [
+          "Shop stock/price tables and literal/render paths verified; no normal purchase/sale playthrough claimed.",
+          "Language review pending; UI fixtures are reported separately."
+        ]
+      },
+      "item_ui": {
+        "status": "passed",
+        "target_sha256": "db554669f39c9bb57f9688a76939bf4066aa2e59a70b12a2354378fbba78fb08",
+        "item_info_windows": 347,
+        "native_scroll_cases": 1,
+        "wrapped_name_windows": 266,
+        "sram_unchanged": true,
+        "emulator_error_count": 0,
+        "fixture_setup": "temporary documented RAM item fields; normal UI input afterward",
+        "limitations": [
+          "Rare/unused items not obtained through gameplay.",
+          "Foreground pixels checked, not a language approval or complete shop purchase playthrough.",
+          "Unwrapped tool name pointers have renderer checks; tools have no gift-wrap view.",
+          "No real GBA hardware test."
+        ],
+        "case_count": 613,
+        "display_kinds": {
+          "description": 346,
+          "pedometer": 1,
+          "wrapped_name": 266
+        }
+      },
+      "golden_scenes": 43,
+      "changed_golden_pixels": 0
+    },
+    "dev": {
+      "library_sha256": "b044208a82af47a6ce3651cf2c289c575866a4764d6e9377c88001e60edea0c7",
+      "audit": {
+        "target_sha256": "db554669f39c9bb57f9688a76939bf4066aa2e59a70b12a2354378fbba78fb08",
+        "item_names": 347,
+        "item_descriptions": 347,
+        "native_shop_and_item_literals": 26,
+        "pointer_fields_verified": 724,
+        "item_records_nontext_fields_unchanged": 347,
+        "shops": [
+          {
+            "kind": "seeds",
+            "rom_address": "0x80fddd8",
+            "bytes_unchanged": 104,
+            "goods": [
+              {
+                "id": "item.tool.050.name",
+                "original_english": "Turnip Seeds",
+                "vietnamese": "Hạt giống củ cải",
+                "price_G": 120
+              },
+              {
+                "id": "item.tool.051.name",
+                "original_english": "Potato Seeds",
+                "vietnamese": "Hạt giống khoai tây",
+                "price_G": 150
+              },
+              {
+                "id": "item.tool.052.name",
+                "original_english": "Cucumber Seeds",
+                "vietnamese": "Hạt giống dưa leo",
+                "price_G": 200
+              },
+              {
+                "id": "item.tool.053.name",
+                "original_english": "Strawberry Seeds",
+                "vietnamese": "Hạt giống dâu tây",
+                "price_G": 150
+              },
+              {
+                "id": "item.tool.055.name",
+                "original_english": "Tomato Seeds",
+                "vietnamese": "Hạt giống cà chua",
+                "price_G": 200
+              },
+              {
+                "id": "item.tool.056.name",
+                "original_english": "Corn Seeds",
+                "vietnamese": "Hạt giống bắp",
+                "price_G": 300
+              },
+              {
+                "id": "item.tool.057.name",
+                "original_english": "Onion Seeds",
+                "vietnamese": "Hạt giống hành tây",
+                "price_G": 150
+              },
+              {
+                "id": "item.tool.058.name",
+                "original_english": "Pumpkin Seeds",
+                "vietnamese": "Hạt giống bí ngô",
+                "price_G": 500
+              },
+              {
+                "id": "item.tool.060.name",
+                "original_english": "Eggplant Seeds",
+                "vietnamese": "Hạt giống cà tím",
+                "price_G": 120
+              },
+              {
+                "id": "item.tool.061.name",
+                "original_english": "Carrot Seeds",
+                "vietnamese": "Hạt giống cà rốt",
+                "price_G": 300
+              },
+              {
+                "id": "item.tool.062.name",
+                "original_english": "Sweet Potato Seeds",
+                "vietnamese": "Hạt giống khoai lang",
+                "price_G": 300
+              },
+              {
+                "id": "item.tool.063.name",
+                "original_english": "Spinach Seeds",
+                "vietnamese": "Hạt giống cải bó xôi",
+                "price_G": 200
+              },
+              {
+                "id": "item.tool.065.name",
+                "original_english": "Grass Seeds",
+                "vietnamese": "Hạt giống cỏ",
+                "price_G": 500
+              }
+            ]
+          },
+          {
+            "kind": "groceries",
+            "rom_address": "0x80fdfa4",
+            "bytes_unchanged": 64,
+            "goods": [
+              {
+                "id": "item.food.063.name",
+                "original_english": "Rice Ball",
+                "vietnamese": "Cơm nắm",
+                "price_G": 100
+              },
+              {
+                "id": "item.food.064.name",
+                "original_english": "Bread",
+                "vietnamese": "Bánh mì",
+                "price_G": 100
+              },
+              {
+                "id": "item.food.065.name",
+                "original_english": "Oil",
+                "vietnamese": "Dầu ăn",
+                "price_G": 50
+              },
+              {
+                "id": "item.food.066.name",
+                "original_english": "Flower",
+                "vietnamese": "Bột mì",
+                "price_G": 50
+              },
+              {
+                "id": "item.food.067.name",
+                "original_english": "Curry Powder",
+                "vietnamese": "Bột cà ri",
+                "price_G": 50
+              },
+              {
+                "id": "item.food.068.name",
+                "original_english": "Muffin Mix",
+                "vietnamese": "Bột làm bánh",
+                "price_G": 100
+              },
+              {
+                "id": "item.food.069.name",
+                "original_english": "Chocolate",
+                "vietnamese": "Sô cô la",
+                "price_G": 100
+              }
+            ]
+          },
+          {
+            "kind": "clinic",
+            "rom_address": "0x80fe050",
+            "bytes_unchanged": 32,
+            "goods": [
+              {
+                "id": "item.food.057.name",
+                "original_english": "Bodigizer",
+                "vietnamese": "Bodigizer",
+                "price_G": 500
+              },
+              {
+                "id": "item.food.058.name",
+                "original_english": "Bodigizer XL",
+                "vietnamese": "Bodigizer XL",
+                "price_G": 1000
+              },
+              {
+                "id": "item.food.059.name",
+                "original_english": "Turbojolt",
+                "vietnamese": "Turbojolt",
+                "price_G": 1000
+              },
+              {
+                "id": "item.food.060.name",
+                "original_english": "Turbojolt XL",
+                "vietnamese": "Turbojolt XL",
+                "price_G": 2000
+              }
+            ]
+          }
+        ],
+        "flour_identity": {
+          "id": "item.food.066.name",
+          "food_id_hex": "0x42",
+          "icon_id": 163,
+          "original_spelling_retained": "Flower",
+          "translation": "Bột mì",
+          "independent_guide_source_id": "script.1043.108",
+          "guide_grocery_order": [
+            "Rice Balls",
+            "Bread",
+            "Oil",
+            "Flour",
+            "Curry Powder",
+            "Muffin Mix",
+            "Chocolate"
+          ],
+          "matched_grocery_position": 4
+        },
+        "renderer_lines_with_buffer_guards": 1351,
+        "emulator_error_count": 0,
+        "status": "passed",
+        "limitations": [
+          "Shop stock/price tables and literal/render paths verified; no normal purchase/sale playthrough claimed.",
+          "Language review pending; UI fixtures are reported separately."
+        ]
+      },
+      "item_ui": {
+        "status": "passed",
+        "target_sha256": "db554669f39c9bb57f9688a76939bf4066aa2e59a70b12a2354378fbba78fb08",
+        "item_info_windows": 347,
+        "native_scroll_cases": 1,
+        "wrapped_name_windows": 266,
+        "sram_unchanged": true,
+        "emulator_error_count": 0,
+        "fixture_setup": "temporary documented RAM item fields; normal UI input afterward",
+        "limitations": [
+          "Rare/unused items not obtained through gameplay.",
+          "Foreground pixels checked, not a language approval or complete shop purchase playthrough.",
+          "Unwrapped tool name pointers have renderer checks; tools have no gift-wrap view.",
+          "No real GBA hardware test."
+        ],
+        "case_count": 613,
+        "display_kinds": {
+          "description": 346,
+          "pedometer": 1,
+          "wrapped_name": 266
+        }
+      },
+      "golden_scenes": 43,
+      "changed_golden_pixels": 0
+    }
+  },
+  "screenshots": [
+    {
+      "path": "docs/evidence/items/flour.png",
+      "sha256": "b2593da67cd97b73271445a78be66cc387eaf75b6c7ebd2e3600592ab32143f8"
+    },
+    {
+      "path": "docs/evidence/items/flour-wrapped.png",
+      "sha256": "1b3876cfdf1cea2171cae5338265f5795d42207094a1e7cfb4e12998f2ff3f89"
+    },
+    {
+      "path": "docs/evidence/items/fishing-rod.png",
+      "sha256": "b0a706137d82c45ab746fbdf586e65afc45d20748ab71a34ec039dcd1c3eebeb"
+    },
+    {
+      "path": "docs/evidence/items/rice-cake.png",
+      "sha256": "96e28a06465f03f849530e69a4cb9a1eb275f1014e441e1ab960fab425d8a949"
+    }
+  ],
+  "limitations": [
+    "No language/layout approval; all translations remain drafts.",
+    "Inventory is a temporary RAM fixture followed by normal native menu input, not natural obtainment of rare items.",
+    "347 info views include the native pedometer counter; the Gem of Truth stat branch is not activated by this fixture. One source trailing LF scrolls the title out of the three-line viewport. All lines also pass independent guarded rendering.",
+    "24 shop stock/price entries and 17 shop literals audited; no complete natural purchase/sale path coverage.",
+    "No real GBA hardware or full-season playthrough."
+  ]
+}

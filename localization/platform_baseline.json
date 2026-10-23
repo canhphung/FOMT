@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "revision": "platform-v1",
+  "revision": "platform-v2-items",
   "created_at": "2026-10-23",
-  "reference_target_sha256": "f9bf1abe4e3a32da8bc20899bae8dc543d07d3d2536be2fdf5458ba61383f472",
-  "policy": "Reference target is provenance, not a ban on translating more records. Source locks and golden UI scenes require explicit review when changed. No automatic baseline updates.",
+  "reference_target_sha256": "db554669f39c9bb57f9688a76939bf4066aa2e59a70b12a2354378fbba78fb08",
+  "policy": "Reference target is provenance, not a ban on translating more records. Source locks and golden UI scenes require explicit review when changed. No automatic baseline updates. Revision v2 adds verified shop extraction, tool byte budgets and a NUL title-scan fix. Font/layout images are unchanged; replay required.",
   "visual_review": "technical regression reference; user approval of the complete gallery pending; translation QA unchanged",
   "contracts": {
     "dialogue": {
@@ -108,7 +108,7 @@
     },
     {
       "path": "tools/fomt_text.py",
-      "sha256": "3d7faf70a0b969f0a571276f80fbcf6857bd2012a58dc38519b234f71368afd8"
+      "sha256": "0b31a2d1c5a21c7361f399e4ad6fc2db8b451346a24163b4aab6b950479048c5"
     },
     {
       "path": "tools/text_extractor.py",
@@ -116,7 +116,7 @@
     },
     {
       "path": "tools/text_inserter.py",
-      "sha256": "16937106b2505fdec175505191b81a0e21373a02eaf4958dd3bb38169047bea6"
+      "sha256": "91d441e5bbf55ea68028d47ec83ea2bf7997fbac8aa7f3a3900a8499e1d57fa5"
     },
     {
       "path": "tools/ips.py",
@@ -156,7 +156,7 @@
     },
     {
       "path": "tools/platform_check.py",
-      "sha256": "55c60e2587c0134624e0a3e90d094b97ec7087999585d8590c9446c19e2d160c"
+      "sha256": "bfb0de7de75248ba7c947ad667fb33f52b236b12abeccd2e3c5452b495031161"
     },
     {
       "path": "tools/mgba_bridge.c",
@@ -165,6 +165,22 @@
     {
       "path": "tools/build_mgba_bridge.sh",
       "sha256": "eb2ded3fa7357b810666fb969224a9791303f06cceb324d15cfbc8e456a6bc7e"
+    },
+    {
+      "path": "tools/shop_text.py",
+      "sha256": "a9259923fd217d546bb26fc85f5afafacda804b27b11b5f052074cb2f89587ed"
+    },
+    {
+      "path": "tools/item_window.py",
+      "sha256": "ee2038652877d55c0ee9fe93a3f5e5acd57e9417d2b02d9dc93974bc5d3bf3c1"
+    },
+    {
+      "path": "tools/item_audit.py",
+      "sha256": "1f4f14686b0fe0034ff04a13a7974b6d4ef8a1be35caccd651165191c4a93b99"
+    },
+    {
+      "path": "tools/item_ui_smoke.py",
+      "sha256": "48d3c083ddd709ac02fa33c17f4008b1ee701e5da2ca5fb60b1cc76a2ccc15fe"
     }
   ],
   "save_fixture": {

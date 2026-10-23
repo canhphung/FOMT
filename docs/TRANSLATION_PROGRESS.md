@@ -1,25 +1,26 @@
 # Tiến độ Việt hóa hiện tại
 
-Cập nhật 2026-10-23. Bộ chuẩn kỹ thuật: `platform-v1`; roadmap ban đầu: `7420c5c`.
+Cập nhật 2026-10-23. Bộ chuẩn kỹ thuật: `platform-v2-items`; roadmap ban đầu: `7420c5c`.
 Bản vá thử nghiệm, chưa phải Việt hóa 100%.
 
 ## Nội dung
 
 | Hạng mục | Có bản dịch nháp / đã trích xuất |
 | --- | ---: |
-| Tổng catalog | 722 / 9.283 |
-| Tên vật phẩm | 346 / 347 |
-| Mô tả vật phẩm | 37 / 347 |
+| Tổng catalog | 1.059 / 9.309 |
+| Tên vật phẩm | 347 / 347 |
+| Mô tả vật phẩm | 347 / 347 |
+| Chuỗi native shop/cửa sổ vật phẩm mới | 26 / 26 |
 | Nhãn menu tạm dừng | 7 / 7 |
 | Tạo game mới | 24 / 24 |
 | Intro/hướng dẫn đầu game | 145 bản ghi |
 | Menu con START | 162 bản ghi |
 | Lời chào Popuri | 1 bản ghi |
 
-722 ID không trùng nhau; chưa có ID đánh dấu `reviewed`. Còn 8.561 bản ghi
-chưa dịch trong catalog; 8.250 chuỗi mang ngữ cảnh chưa phân loại. Hai số
-này là hai chỉ số riêng, không cộng với nhau. Tỷ lệ khoảng 7,8% ID không phải
-phần trăm toàn bộ game hoặc lượng từ đã hoàn thành.
+1.059 ID không trùng nhau; chưa có ID đánh dấu `reviewed`. 8.250 bản ghi
+còn thiếu dịch đều đang chờ phân loại ngữ cảnh. Khoảng 11,4% ID trong catalog
+không phải phần trăm lượng từ hay toàn bộ game. Thêm 26 chuỗi UI native,
+glossary hiện có 400 thuật ngữ.
 
 Đồ họa theo dõi riêng: Bắt đầu/Tiếp tục, tạo game, lịch và HUD. Font Việt,
 con trỏ title, bố cục ngày/giờ và tiêu đề lịch đã được triển khai. Nguồn
@@ -27,28 +28,29 @@ trong localization/, chi tiết từng adapter trong các tài liệu hệ thố
 
 ## Kiểm chứng gần nhất
 
-- 126 pytest đạt với ROM USA rev 0 được người dùng cung cấp.
-- Bàn dịch local: 11 luồng Chromium đạt, sửa/lưu trên bản sao dữ liệu;
-  toàn bộ 22 file JSON localization gốc giữ nguyên hash.
-- Hai build độc lập giống byte; IPS phát hành áp lại đúng ROM. Khóa 28 file
+- 129 pytest đạt với ROM USA rev 0 được người dùng cung cấp.
+- Bàn dịch local: 12 luồng Chromium đạt, sửa/lưu trên bản sao dữ liệu;
+  toàn bộ 24 file JSON localization gốc giữ nguyên hash.
+- Hai build độc lập giống byte; IPS phát hành áp lại đúng ROM. Khóa 32 file
   nền tảng và 43 ảnh chuẩn, replay trên hai mGBA không lệch pixel.
 - mGBA 0.10.5/0.11-dev: boot/title/font, tạo game, START và Diary save/load
   qua cold boot; báo cáo gắn đúng hash target hiện tại.
 - 2.580 tổ hợp packed date/time, 300 setter, chín fixture HUD có kiểm VRAM.
 - 56 fixture lịch: kiểm OAM/texture/tile cache của tiêu đề; phần body từ
   y=40 khớp bản gốc. Tám chu kỳ mở/đóng trả lại tài nguyên; SRAM không đổi.
+- Vật phẩm/UI: 720 bản ghi, 724 pointer fields, 1.351 dòng có guard; 613 cửa sổ Ba lô mỗi backend qua RAM fixture, SRAM không đổi.
 - Kiểm round trip IPS và hash bản build. Số ngày trong lịch và HUD giữ nguyên.
 
 [Bộ chuẩn nền tảng](PLATFORM_BASELINE.md),
 [báo cáo nền tảng](evidence/platform-validation.json), [lịch/HUD](evidence/date-ui-validation.json),
-[tổng hợp](evidence/validation.json), [manifest bản vá](../patches/manifest.json).
-Báo cáo intro/tạo game/START chuyên biệt mang hash của các mốc trước; giữ
+[vật phẩm/UI](evidence/items-complete-validation.json), [tổng hợp lịch sử](evidence/validation.json), [manifest bản vá](../patches/manifest.json).
+Báo cáo lịch/HUD, intro/tạo game/START chuyên biệt mang hash của các mốc trước; giữ
 làm bằng chứng phạm vi từng mốc, không coi là chạy lại toàn bộ trên target mới.
 
 ## Còn thiếu
 
 - Phân loại ngữ cảnh/người nói, phần lớn hội thoại NPC và sự kiện.
-- 310 mô tả vật phẩm và một tên vật phẩm cần xác minh.
+- Duyệt nghĩa/bố cục 347 mô tả và 347 tên đã có nháp; kiểm giao dịch cửa hàng tự nhiên.
 - Kiểm kê UI còn thiếu, TV/sách/hướng dẫn và đồ họa chữ ngoài catalog.
 - Duyệt nghĩa/xưng hô/thuật ngữ; chưa encounter Popuri tự nhiên trong bằng chứng hiện có.
 - Chưa chơi xuyên mùa/toàn bộ nhánh, chưa kiểm mọi save cũ hoặc GBA thật.
@@ -56,7 +58,7 @@ làm bằng chứng phạm vi từng mốc, không coi là chạy lại toàn b�
   gameplay khi vượt mốc đó.
 
 Đã có glossary/hồ sơ theo cảnh, hàng đợi và lô 16 mô tả dụng cụ.
-Ưu tiên tiếp theo: duyệt nghĩa/bố cục lô đầu, rồi mở rộng mô tả và trace Thomas. Xem [ROADMAP_VI.md](ROADMAP_VI.md).
+Ưu tiên tiếp theo: duyệt lô items-complete, kiểm giao dịch cửa hàng và trace hội thoại NPC có đủ ngữ cảnh. Xem [ROADMAP_VI.md](ROADMAP_VI.md).
 
 ## Phiên dọn project — 2026-10-23
 
@@ -156,3 +158,12 @@ Chromium chạy 11 luồng thật trên bản sao dữ liệu, kiểm cả viewp
 ảnh game. Dữ liệu thật vẫn 722 nháp, 0 reviewed; hàng đợi 310 cần dịch,
 722 QA, 8.251 blocked. Chưa có editor glossary/hồ sơ/registry QA, import CSV
 hoặc tự build/playtest trong giao diện. [Hướng dẫn](TRANSLATION_WORKBENCH.md).
+
+## Phiên vật phẩm và UI — 2026-10-23
+
+Thêm 310 mô tả còn thiếu (326 là số trước lô 16 dụng cụ), xác minh Bột mì
+bằng nguồn trong ROM, chỉnh tên mì kiều mạch tempura và vé oẳn tù tì.
+Thêm 17 thông báo shop và 9 nhãn/đơn vị cửa sổ. Giữ nguyên token và dữ liệu
+phi văn bản; sửa scanner NUL của title dụng cụ, thêm giới hạn 95/79 byte.
+Chi tiết nguồn, lỗi English và phạm vi QA tại [ITEM_LOCALIZATION.md](ITEM_LOCALIZATION.md).
+Không nâng trạng thái ngôn ngữ hoặc chơi thử tự nhiên dựa trên RAM fixture.

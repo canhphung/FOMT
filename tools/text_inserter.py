@@ -24,6 +24,7 @@ import start_menu
 import date_ui
 import hud_accent
 import calendar_layout
+import item_window
 
 
 def build(base: bytes, translations: dict) -> tuple[bytes, dict]:
@@ -95,6 +96,10 @@ def build(base: bytes, translations: dict) -> tuple[bytes, dict]:
     if base[GLYPH_FUNCTION:GLYPH_FUNCTION+8] != expected:
         raise FormatError("glyph prologue mismatch")
     write(GLYPH_FUNCTION, trampoline(ROM_BASE+hook_offset), "glyph function entry")
+    item_window.verify(base)
+    at = (len(result) + 3) & ~3
+    hook_at = append(item_window.hook(ROM_BASE + at), 'bounded native tool title scanner')
+    write(item_window.SITE, item_window.patch(ROM_BASE + hook_at), 'stop native tool title scan at NUL')
     if any(k in selected for k in ("ui.start.1000b4","ui.start.1000bc")):
         start_menu.verify_bag(base)
         at = append(start_menu.bag_width_hook(ROM_BASE+((len(result)+3)&~3)),"bag title cell width hook")

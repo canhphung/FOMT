@@ -2,13 +2,13 @@
 
 | File | ID có bản dịch nháp |
 | --- | ---: |
-| `pilot.json` | 38 |
-| `items.json` | 337 |
+| `pilot.json` | 64 |
+| `items.json` | 648 |
 | `new_game.json` | 24 |
 | `intro.json` | 145 |
 | `start_menu.json` | 162 |
 | `item_descriptions_tools.json` | 16 |
-| **Tổng, không trùng ID** | **722** |
+| **Tổng, không trùng ID** | **1059** |
 
 Các file title/lịch/HUD là cấu hình đồ họa, theo dõi riêng với catalog text.
 Trạng thái `translated` không đồng nghĩa đã duyệt ngôn ngữ hoặc chơi thử

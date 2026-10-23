@@ -131,7 +131,7 @@ def real_rom():
 
 def test_all_actual_strings_round_trip(real_rom):
     catalog = extract(real_rom)
-    assert len(catalog["records"]) == 9283
+    assert len(catalog["records"]) == 9309
     for row in catalog["records"]:
         if row['source']['kind'] == 'glyph_strip':
             assert struct.pack('<8H', *map(ord,row['original_english'])) == bytes.fromhex(row['original_bytes'])
@@ -282,8 +282,8 @@ def test_expanded_translation_set_builds_without_overlap(real_rom):
     for name in ("pilot.json","items.json","new_game.json","intro.json","start_menu.json","item_descriptions_tools.json"):
         merged["records"].extend(json.loads((ROOT/"localization/vi"/name).read_text())["records"])
     _, report = build(real_rom,merged)
-    assert report["translated_records"] == 722
-    assert len({r["id"] for r in merged["records"]}) == 722
+    assert report["translated_records"] == 1059
+    assert len({r["id"] for r in merged["records"]}) == 1059
 
 
 @pytest.mark.parametrize('site',[0x5F78C,0x5F958,0x50B50])
