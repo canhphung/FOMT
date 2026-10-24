@@ -14,7 +14,7 @@ from fomt_text import FormatError,check_translation,encode
 
 ROOT=Path(__file__).resolve().parents[1]
 DEFAULT_TRANSLATIONS=tuple(ROOT/'localization/vi'/name for name in
-    ('pilot.json','items.json','new_game.json','intro.json','start_menu.json','item_descriptions_tools.json'))
+    ('pilot.json','items.json','new_game.json','intro.json','start_menu.json','item_descriptions_tools.json','signs.json'))
 FIELDS=('id','bucket','context_status','context','speaker','original_english',
         'vietnamese_translation','translation_status','language_review','renderer_check',
         'playtest','layout_review','source_reference','control_codes','blocked_reason','qa_stale')
@@ -71,7 +71,8 @@ def queue(catalog,translations,registry):
             errors.append('Active translation is empty.')
         if text:
             try:
-                check_translation(original['original_english'],text,original['max_columns'])
+                check_translation(original['original_english'],text,original['max_columns'],
+                    padding_reflow=original.get('source',{}).get('sign_context',{}).get('padding_reflow',False))
                 if len(encode(text,True))>original.get('max_encoded_bytes',1<<30):
                     raise FormatError('exceeds encoded-byte limit before rendering')
             except FormatError as exc:errors.append(str(exc))

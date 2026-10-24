@@ -54,7 +54,8 @@ def build(base: bytes, translations: dict) -> tuple[bytes, dict]:
             raise FormatError(f"empty translation for {identifier}")
         try:
             layout[identifier] = check_translation(original["original_english"],
-                row["vietnamese_translation"], original["max_columns"])
+                row["vietnamese_translation"], original["max_columns"],
+                padding_reflow=original.get('source',{}).get('sign_context',{}).get('padding_reflow',False))
         except FormatError as exc:
             raise FormatError(f"{identifier}: {exc}") from exc
         selected[identifier] = encode(row["vietnamese_translation"], vietnamese=True)
@@ -265,7 +266,7 @@ def atomic_write(path: Path, content: bytes):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("rom", type=Path)
-    parser.add_argument("--translations", type=Path, nargs="+", default=[Path("localization/vi/pilot.json"), Path("localization/vi/items.json"), Path("localization/vi/new_game.json"), Path("localization/vi/intro.json"), Path("localization/vi/start_menu.json"), Path("localization/vi/item_descriptions_tools.json")])
+    parser.add_argument("--translations", type=Path, nargs="+", default=[Path("localization/vi/pilot.json"), Path("localization/vi/items.json"), Path("localization/vi/new_game.json"), Path("localization/vi/intro.json"), Path("localization/vi/start_menu.json"), Path("localization/vi/item_descriptions_tools.json"), Path("localization/vi/signs.json")])
     parser.add_argument("--output", type=Path, default=Path("build/fomt-vi-demo.gba"))
     parser.add_argument("--patch", type=Path, default=Path("patches/fomt-vi-demo.ips"))
     parser.add_argument("--report", type=Path, default=Path("build/insertion-report.json"))

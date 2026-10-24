@@ -1,14 +1,15 @@
 # Tiến độ Việt hóa hiện tại
 
-Cập nhật 2026-10-24. Bộ chuẩn kỹ thuật: `platform-v4-objects`; roadmap ban đầu: `7420c5c`.
+Cập nhật 2026-10-24. Bộ chuẩn kỹ thuật: `platform-v5-signs`; roadmap ban đầu: `7420c5c`.
 Bản vá thử nghiệm, chưa phải Việt hóa 100%.
 
 ## Nội dung
 
 | Hạng mục | Có bản dịch nháp / đã trích xuất |
 | --- | ---: |
-| Tổng catalog | 1.408 / 9.309 |
+| Tổng catalog | 1.456 / 9.309 |
 | Hướng dẫn giường/thùng xuất hàng | 3 / 3 trong lô |
+| Biển/thông báo và lựa chọn liên quan | 48 / 48 trong lô |
 | Nhãn đồ vật tương tác | 261 / 261 đã xác minh |
 | Tên vật phẩm | 347 / 347 |
 | Mô tả vật phẩm | 347 / 347 |
@@ -21,10 +22,10 @@ Bản vá thử nghiệm, chưa phải Việt hóa 100%.
 | Thomas — script chuẩn | 34 / 34 |
 | Popuri — lô thường ngày mới | 51 / 51 (còn index 1–92) |
 
-1.408 ID không trùng nhau; chưa có ID đánh dấu `reviewed`. 7.901 bản ghi
-còn thiếu dịch đều đang chờ phân loại ngữ cảnh. Khoảng 15,1% ID trong catalog
+1.456 ID không trùng nhau; chưa có ID đánh dấu `reviewed`. 7.853 bản ghi
+còn thiếu dịch đều đang chờ phân loại ngữ cảnh. Khoảng 15,6% ID trong catalog
 không phải phần trăm lượng từ hay toàn bộ game. Thêm 26 chuỗi UI native,
-glossary hiện có 471 thuật ngữ.
+glossary hiện có 496 thuật ngữ.
 
 Đồ họa theo dõi riêng: Bắt đầu/Tiếp tục, tạo game, lịch và HUD. Font Việt,
 con trỏ title, bố cục ngày/giờ và tiêu đề lịch đã được triển khai. Nguồn
@@ -32,10 +33,10 @@ trong localization/, chi tiết từng adapter trong các tài liệu hệ thố
 
 ## Kiểm chứng gần nhất
 
-- 140 pytest đạt với ROM USA rev 0 được người dùng cung cấp.
+- 144 pytest đạt với ROM USA rev 0 được người dùng cung cấp.
 - Bàn dịch local: 12 luồng Chromium đạt ở mốc object-labels-01, sửa/lưu trên bản sao dữ liệu;
   toàn bộ 31 file JSON localization gốc giữ nguyên hash.
-- Hai build độc lập giống byte; IPS phát hành áp lại đúng ROM. Khóa 39 file
+- Hai build độc lập giống byte; IPS phát hành áp lại đúng ROM. Khóa 42 file
   nền tảng và 43 ảnh chuẩn, replay trên hai mGBA không lệch pixel.
 - mGBA 0.10.5/0.11-dev: boot/title/font, tạo game, START và Diary save/load
   qua cold boot; báo cáo gắn đúng hash target hiện tại.
@@ -221,3 +222,13 @@ font. Kiểm native UI fixture cả bốn WAIT, 10 dòng renderer và bitmap ch�
 trước/sau cuộn trên hai mGBA. Chưa có playtest tương tác tự nhiên cho ba
 chuỗi; duyệt ngôn ngữ/bố cục thủ công còn pending. Không dịch nhãn chứa
 RAW:81A8 khi chưa rõ chức năng. Chi tiết: [INTERACTION_HINTS.md](INTERACTION_HINTS.md).
+
+## Phiên signs-01 — 2026-10-24
+
+Thêm 48 mục ở 31 script: 45 nội dung biển và 3 lựa chọn ném đĩa. Giữ đầy đủ
+13 thông báo lễ hội, hai biến thể thư viện và lịch mở cửa đúng từng source.
+Xác minh 10 RAW glyph, giữ mũi tên; chỉ hai biển được giảm đệm trống theo
+contract. Kiểm native fixture 45 nội dung/73 WAIT và 179 dòng renderer;
+12 luồng Chromium trên bản sao, không sửa 37 JSON nguồn. Tổng nháp 1.456
+ID, glossary 496. Chưa có QA ngôn ngữ/bố cục thủ công hoặc mọi tương tác
+tự nhiên/map. Chi tiết: [SIGN_LOCALIZATION.md](SIGN_LOCALIZATION.md).

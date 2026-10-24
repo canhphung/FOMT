@@ -1,0 +1,826 @@
+{
+  "schema_version": 1,
+  "record_ids": [
+    "script.0085.000",
+    "script.0158.000",
+    "script.0159.000",
+    "script.0160.000",
+    "script.0161.000",
+    "script.0162.000",
+    "script.0163.000",
+    "script.0164.000",
+    "script.0405.000",
+    "script.0490.000",
+    "script.0491.000",
+    "script.0492.000",
+    "script.0492.001",
+    "script.0492.002",
+    "script.0492.003",
+    "script.0493.000",
+    "script.0494.000",
+    "script.0495.000",
+    "script.0496.000",
+    "script.0497.000",
+    "script.0498.000",
+    "script.0499.000",
+    "script.0500.000",
+    "script.0501.000",
+    "script.0502.000",
+    "script.0502.001",
+    "script.0503.000",
+    "script.0504.000",
+    "script.0505.000",
+    "script.0506.000",
+    "script.0507.000",
+    "script.0508.000",
+    "script.0509.000",
+    "script.0509.001",
+    "script.0510.000",
+    "script.0403.001",
+    "script.0403.002",
+    "script.0403.003",
+    "script.0403.004",
+    "script.0403.005",
+    "script.0403.006",
+    "script.0403.007",
+    "script.0403.008",
+    "script.0403.009",
+    "script.0403.010",
+    "script.0403.011",
+    "script.0403.012",
+    "script.0403.013"
+  ],
+  "source_proofs": [
+    {
+      "id": "script.0085.000",
+      "script_id": 85,
+      "string_index": 0,
+      "original_english": "Enter the Hot Spring{CR}{LF}from here. However, you{CR}{LF}can't get in while{WAIT}{CR}{LF}holding something.{WAIT}",
+      "code_sha256": "b895bcb5cccc32dbded8f26ad3f5c1631edd2ef3bcefc969c56876b8ed5b76d9",
+      "show_text_sites": [
+        {
+          "code_offset": 246,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "padding_reflow": false,
+      "kind": "sign_text"
+    },
+    {
+      "id": "script.0158.000",
+      "script_id": 158,
+      "string_index": 0,
+      "original_english": "Fish food storage sign{WAIT}",
+      "code_sha256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "padding_reflow": false,
+      "kind": "sign_text"
+    },
+    {
+      "id": "script.0159.000",
+      "script_id": 159,
+      "string_index": 0,
+      "original_english": "{RAW:81A9}Stable{WAIT}",
+      "code_sha256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "padding_reflow": false,
+      "kind": "sign_text"
+    },
+    {
+      "id": "script.0160.000",
+      "script_id": 160,
+      "string_index": 0,
+      "original_english": "Pieces of Lumber{CR}{LF}{RAW:8140}{CR}{LF}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{VAR:25}boards{WAIT}",
+      "code_sha256": "b47b5b34ee19767ba5da213066437ff80a01d5c0786587639582a2528918dbb1",
+      "show_text_sites": [
+        {
+          "code_offset": 23,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "padding_reflow": false,
+      "kind": "sign_text"
+    },
+    {
+      "id": "script.0161.000",
+      "script_id": 161,
+      "string_index": 0,
+      "original_english": "{RAW:81AA}Water Drawing Spot{WAIT}",
+      "code_sha256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "padding_reflow": false,
+      "kind": "sign_text"
+    },
+    {
+      "id": "script.0162.000",
+      "script_id": 162,
+      "string_index": 0,
+      "original_english": "Shipment Box{RAW:81A8}{WAIT}",
+      "code_sha256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "padding_reflow": false,
+      "kind": "sign_text"
+    },
+    {
+      "id": "script.0163.000",
+      "script_id": 163,
+      "string_index": 0,
+      "original_english": "Amount of Animal Fodder{CR}{LF}{RAW:8140}{CR}{LF}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{VAR:25}bushels{WAIT}",
+      "code_sha256": "6fff5a004e2a3a61c9e7cb48cf4ea79b92071a62aa17120cc627da39eaecfc42",
+      "show_text_sites": [
+        {
+          "code_offset": 23,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "padding_reflow": false,
+      "kind": "sign_text"
+    },
+    {
+      "id": "script.0164.000",
+      "script_id": 164,
+      "string_index": 0,
+      "original_english": "{RAW:81AA}Water Mill{CR}{LF}Put Corn in here to get{CR}{LF}30 bushels of Chicken Feed.{WAIT}",
+      "code_sha256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "padding_reflow": false,
+      "kind": "sign_text"
+    },
+    {
+      "id": "script.0405.000",
+      "script_id": 405,
+      "string_index": 0,
+      "original_english": "The Square's Garbage Can{CR}{LF}Throw away garbage here.{WAIT}",
+      "code_sha256": "ad12d6e6491a959460ae5de9c44c19ff26d9e209afdde3ffb3fee73ac6ef8c17",
+      "show_text_sites": [
+        {
+          "code_offset": 34,
+          "native_call": 35,
+          "text_flags": 0
+        },
+        {
+          "code_offset": 106,
+          "native_call": 35,
+          "text_flags": 0
+        },
+        {
+          "code_offset": 166,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "padding_reflow": false,
+      "kind": "sign_text"
+    },
+    {
+      "id": "script.0490.000",
+      "script_id": 490,
+      "string_index": 0,
+      "original_english": "Hot Spring{CR}{LF}Effects: Recuperate {CR}{LF}Stamina and Fatigue{WAIT}",
+      "code_sha256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "padding_reflow": false,
+      "kind": "sign_text"
+    },
+    {
+      "id": "script.0491.000",
+      "script_id": 491,
+      "string_index": 0,
+      "original_english": "If you throw an Egg in{CR}{LF}from here, you can make a{CR}{LF}Spa-Boiled Egg!{WAIT}",
+      "code_sha256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "padding_reflow": false,
+      "kind": "sign_text"
+    },
+    {
+      "id": "script.0492.000",
+      "script_id": 492,
+      "string_index": 0,
+      "original_english": "{RAW:81A1}Beach Rules{RAW:81A1}{WAIT}{PAGE}If you want to play{CR}{LF}frisbee with your dog,{CR}{LF}observe these rules:{WAIT}{PAGE}{RAW:8145}Bring your own frisbee{CR}{LF}{RAW:8145}Mature dogs only{WAIT}{PAGE}Beach is open these times:{CR}{LF}{RAW:8145}Sunny days only in{CR}{LF} Spring, Summer, and Fall.{WAIT}{CR}{LF}{RAW:8145}6AM-5PM{WAIT}{PAGE}Please play safely and{CR}{LF}have fun!{WAIT}",
+      "code_sha256": "7f742ad366ce72d346bb873235c7bcfca1974601b428685ab20aa1338dc27961",
+      "show_text_sites": [
+        {
+          "code_offset": 115,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "padding_reflow": false,
+      "kind": "sign_text"
+    },
+    {
+      "id": "script.0492.001",
+      "script_id": 492,
+      "string_index": 1,
+      "original_english": "Play with frisbee?",
+      "code_sha256": "7f742ad366ce72d346bb873235c7bcfca1974601b428685ab20aa1338dc27961",
+      "show_text_sites": [],
+      "padding_reflow": false,
+      "kind": "frisbee_choice"
+    },
+    {
+      "id": "script.0492.002",
+      "script_id": 492,
+      "string_index": 2,
+      "original_english": "Play",
+      "code_sha256": "7f742ad366ce72d346bb873235c7bcfca1974601b428685ab20aa1338dc27961",
+      "show_text_sites": [],
+      "padding_reflow": false,
+      "kind": "frisbee_choice"
+    },
+    {
+      "id": "script.0492.003",
+      "script_id": 492,
+      "string_index": 3,
+      "original_english": "Don't play",
+      "code_sha256": "7f742ad366ce72d346bb873235c7bcfca1974601b428685ab20aa1338dc27961",
+      "show_text_sites": [],
+      "padding_reflow": false,
+      "kind": "frisbee_choice"
+    },
+    {
+      "id": "script.0493.000",
+      "script_id": 493,
+      "string_index": 0,
+      "original_english": "Kai's Beach House{CR}{LF}Open Summer Only{CR}{LF}Closed Sunday{WAIT}{PAGE}Hours: 11AM-1PM and{CR}{LF}5-7PM. {WAIT}",
+      "code_sha256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "padding_reflow": false,
+      "kind": "sign_text"
+    },
+    {
+      "id": "script.0494.000",
+      "script_id": 494,
+      "string_index": 0,
+      "original_english": "Woodcutter's {CR}{LF}Open 11AM-4PM{CR}{LF}Closed Saturdays{WAIT}",
+      "code_sha256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "padding_reflow": false,
+      "kind": "sign_text"
+    },
+    {
+      "id": "script.0495.000",
+      "script_id": 495,
+      "string_index": 0,
+      "original_english": "{RAW:8175}Church{RAW:8176}{CR}{LF}{WAIT}",
+      "code_sha256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "padding_reflow": false,
+      "kind": "sign_text"
+    },
+    {
+      "id": "script.0496.000",
+      "script_id": 496,
+      "string_index": 0,
+      "original_english": "Supermarket{CR}{LF}Open 9AM-5PM{CR}{LF}Closed Tuesdays and Sundays{WAIT}",
+      "code_sha256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "padding_reflow": false,
+      "kind": "sign_text"
+    },
+    {
+      "id": "script.0497.000",
+      "script_id": 497,
+      "string_index": 0,
+      "original_english": "{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}Church{RAW:81AA}{CR}{LF}{RAW:81A9}North side of Mineral Town{CR}{LF}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}Rose Square{RAW:81AB}{WAIT}",
+      "code_sha256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "padding_reflow": true,
+      "kind": "sign_text"
+    },
+    {
+      "id": "script.0498.000",
+      "script_id": 498,
+      "string_index": 0,
+      "original_english": "{RAW:81AA}North side of Mineral Town{CR}{LF}{RAW:8140}Central Mineral Town{RAW:81A8}{CR}{LF}{RAW:81AB}South side of Mineral Town{WAIT}",
+      "code_sha256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "padding_reflow": false,
+      "kind": "sign_text"
+    },
+    {
+      "id": "script.0499.000",
+      "script_id": 499,
+      "string_index": 0,
+      "original_english": "North side of Mineral Town{RAW:81A8}{CR}{LF}{RAW:8140}{CR}{LF}{RAW:81AB}Central Mineral Town{WAIT}",
+      "code_sha256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "padding_reflow": false,
+      "kind": "sign_text"
+    },
+    {
+      "id": "script.0500.000",
+      "script_id": 500,
+      "string_index": 0,
+      "original_english": "Mineral Clinic{CR}{LF}Office Hours: 9AM-4PM{CR}{LF}Closed on Wednesdays{WAIT}",
+      "code_sha256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "padding_reflow": false,
+      "kind": "sign_text"
+    },
+    {
+      "id": "script.0501.000",
+      "script_id": 501,
+      "string_index": 0,
+      "original_english": "Doug's Place{CR}{LF}Bar Hours: 8:00 - 21:00{WAIT}",
+      "code_sha256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "padding_reflow": false,
+      "kind": "sign_text"
+    },
+    {
+      "id": "script.0502.000",
+      "script_id": 502,
+      "string_index": 0,
+      "original_english": "Mary's Library{CR}{LF}Open: 10AM{CR}{LF}Closed: 4PM  Closed Thursdays{WAIT}",
+      "code_sha256": "4dd7005253fe2b957bcfa1565efe7c3fb3434d3b44e87f11628504a8823ea078",
+      "show_text_sites": [
+        {
+          "code_offset": 63,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "padding_reflow": false,
+      "kind": "sign_text"
+    },
+    {
+      "id": "script.0502.001",
+      "script_id": 502,
+      "string_index": 1,
+      "original_english": "Mary's Library{CR}{LF}Open: 10AM{CR}{LF}Closed: 4PM  Closed Mondays{WAIT}",
+      "code_sha256": "4dd7005253fe2b957bcfa1565efe7c3fb3434d3b44e87f11628504a8823ea078",
+      "show_text_sites": [
+        {
+          "code_offset": 75,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "padding_reflow": false,
+      "kind": "sign_text"
+    },
+    {
+      "id": "script.0503.000",
+      "script_id": 503,
+      "string_index": 0,
+      "original_english": "Aja Winery{CR}{LF}Open 10AM to noon{CR}{LF}everyday except Sunday{WAIT}{CR}{LF}We sell wine and juice.{WAIT}",
+      "code_sha256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "padding_reflow": false,
+      "kind": "sign_text"
+    },
+    {
+      "id": "script.0504.000",
+      "script_id": 504,
+      "string_index": 0,
+      "original_english": "Poultry Farm{CR}{LF}Open 11AM-4PM{CR}{LF}Closed every Sunday{WAIT}",
+      "code_sha256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "padding_reflow": false,
+      "kind": "sign_text"
+    },
+    {
+      "id": "script.0505.000",
+      "script_id": 505,
+      "string_index": 0,
+      "original_english": "{RAW:81AA}North side of Mineral Town{CR}{LF}South side of Mineral Town{RAW:81A8}{CR}{LF}{RAW:81AB}{VAR:24}farm{WAIT}",
+      "code_sha256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "padding_reflow": false,
+      "kind": "sign_text"
+    },
+    {
+      "id": "script.0506.000",
+      "script_id": 506,
+      "string_index": 0,
+      "original_english": "{RAW:81A9}Poultry Farm{CR}{LF}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}Yodel Farm{RAW:81A8}{CR}{LF}{RAW:81AB}Forest{WAIT}",
+      "code_sha256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "padding_reflow": false,
+      "kind": "sign_text"
+    },
+    {
+      "id": "script.0507.000",
+      "script_id": 507,
+      "string_index": 0,
+      "original_english": "{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:81AA}Rose Square{CR}{LF}{RAW:8140}{CR}{LF}{RAW:81A9}South side of Mineral Town{WAIT}",
+      "code_sha256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "padding_reflow": true,
+      "kind": "sign_text"
+    },
+    {
+      "id": "script.0508.000",
+      "script_id": 508,
+      "string_index": 0,
+      "original_english": "Saibara the Blacksmith{CR}{LF}Open 10AM-4PM{CR}{LF}Closed Thursdays{WAIT}",
+      "code_sha256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "padding_reflow": false,
+      "kind": "sign_text"
+    },
+    {
+      "id": "script.0509.000",
+      "script_id": 509,
+      "string_index": 0,
+      "original_english": "{VAR:21}'s Cottage{CR}{LF}{WAIT}",
+      "code_sha256": "f6d8c00b6b887e680f0ffa730086d12eb5eaba85a23b37f408a1948aa2d5825e",
+      "show_text_sites": [
+        {
+          "code_offset": 36,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "padding_reflow": false,
+      "kind": "sign_text"
+    },
+    {
+      "id": "script.0509.001",
+      "script_id": 509,
+      "string_index": 1,
+      "original_english": "Empty Lot{CR}{LF}{WAIT}",
+      "code_sha256": "f6d8c00b6b887e680f0ffa730086d12eb5eaba85a23b37f408a1948aa2d5825e",
+      "show_text_sites": [
+        {
+          "code_offset": 48,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "padding_reflow": false,
+      "kind": "sign_text"
+    },
+    {
+      "id": "script.0510.000",
+      "script_id": 510,
+      "string_index": 0,
+      "original_english": "Yodel Farm{CR}{LF}We're open 10AM to {CR}{LF}3PM, except Mondays{WAIT}",
+      "code_sha256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "padding_reflow": false,
+      "kind": "sign_text"
+    },
+    {
+      "id": "script.0403.001",
+      "script_id": 403,
+      "string_index": 1,
+      "original_english": "{RAW:8199}New Year Festival{CR}{LF}1st day of Spring, 6PM{CR}{LF}At Rose Square{WAIT}{PAGE}Come one, come all!{CR}{LF}                    Mayor{CR}{LF}{WAIT}",
+      "code_sha256": "24cdd6a803e6a85a677de734fa3b05c7a70229ddc5f00ec09939147d2af648dc",
+      "show_text_sites": [
+        {
+          "code_offset": 53,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "padding_reflow": false,
+      "kind": "festival_notice"
+    },
+    {
+      "id": "script.0403.002",
+      "script_id": 403,
+      "string_index": 2,
+      "original_english": "{RAW:8199}Spring Horse Races{CR}{LF}18th day of Spring, 10AM{CR}{LF}At Rose Square{WAIT}{PAGE}Come one, come all!{CR}{LF}                    Mayor{CR}{LF}{WAIT}",
+      "code_sha256": "24cdd6a803e6a85a677de734fa3b05c7a70229ddc5f00ec09939147d2af648dc",
+      "show_text_sites": [
+        {
+          "code_offset": 65,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "padding_reflow": false,
+      "kind": "festival_notice"
+    },
+    {
+      "id": "script.0403.003",
+      "script_id": 403,
+      "string_index": 3,
+      "original_english": "{RAW:8199}Cooking Festival{CR}{LF}22nd day of Spring, 10AM{CR}{LF}At Rose Square{WAIT}{PAGE}Spice things up!{CR}{LF}                    Mayor{CR}{LF}{WAIT}",
+      "code_sha256": "24cdd6a803e6a85a677de734fa3b05c7a70229ddc5f00ec09939147d2af648dc",
+      "show_text_sites": [
+        {
+          "code_offset": 77,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "padding_reflow": false,
+      "kind": "festival_notice"
+    },
+    {
+      "id": "script.0403.004",
+      "script_id": 403,
+      "string_index": 4,
+      "original_english": "Swimming Festival{CR}{LF}1st day of Summer, 10AM{CR}{LF}At Mineral Beach{WAIT}{PAGE}Bring Dogs to Frisbee{CR}{LF}Tournament!          Mayor{CR}{LF}{WAIT}",
+      "code_sha256": "24cdd6a803e6a85a677de734fa3b05c7a70229ddc5f00ec09939147d2af648dc",
+      "show_text_sites": [
+        {
+          "code_offset": 89,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "padding_reflow": false,
+      "kind": "festival_notice"
+    },
+    {
+      "id": "script.0403.005",
+      "script_id": 403,
+      "string_index": 5,
+      "original_english": "{RAW:8199}Chicken Festival{CR}{LF}7th day of Summer, 10AM{CR}{LF}At Rose Square{WAIT}{PAGE}Bring your strongest{CR}{LF}Chicken!           Mayor{CR}{LF}{WAIT}",
+      "code_sha256": "24cdd6a803e6a85a677de734fa3b05c7a70229ddc5f00ec09939147d2af648dc",
+      "show_text_sites": [
+        {
+          "code_offset": 128,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "padding_reflow": false,
+      "kind": "festival_notice"
+    },
+    {
+      "id": "script.0403.006",
+      "script_id": 403,
+      "string_index": 6,
+      "original_english": "{RAW:8199}Cow Festival{CR}{LF}20th day of Summer, 10AM{CR}{LF}At Rose Square{WAIT}{PAGE}Bring your best Cow!{CR}{LF}                    Mayor{CR}{LF}{WAIT}",
+      "code_sha256": "24cdd6a803e6a85a677de734fa3b05c7a70229ddc5f00ec09939147d2af648dc",
+      "show_text_sites": [
+        {
+          "code_offset": 140,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "padding_reflow": false,
+      "kind": "festival_notice"
+    },
+    {
+      "id": "script.0403.007",
+      "script_id": 403,
+      "string_index": 7,
+      "original_english": "{RAW:8199}Fireworks Festival{CR}{LF}24th day of Summer, 6PM{CR}{LF}Mineral Beach{WAIT}{PAGE}Come celebrate the end of{CR}{LF}Summer!              Mayor{CR}{LF}{WAIT}",
+      "code_sha256": "24cdd6a803e6a85a677de734fa3b05c7a70229ddc5f00ec09939147d2af648dc",
+      "show_text_sites": [
+        {
+          "code_offset": 152,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "padding_reflow": false,
+      "kind": "festival_notice"
+    },
+    {
+      "id": "script.0403.008",
+      "script_id": 403,
+      "string_index": 8,
+      "original_english": "{RAW:8199}Music Festival{CR}{LF}3rd day of Fall, 6PM{CR}{LF}At the Church{WAIT}{PAGE}Come celebrate the Fall{CR}{LF}Equinox!             Mayor{CR}{LF}{WAIT}",
+      "code_sha256": "24cdd6a803e6a85a677de734fa3b05c7a70229ddc5f00ec09939147d2af648dc",
+      "show_text_sites": [
+        {
+          "code_offset": 164,
+          "native_call": 35,
+          "text_flags": 0
+        },
+        {
+          "code_offset": 203,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "padding_reflow": false,
+      "kind": "festival_notice"
+    },
+    {
+      "id": "script.0403.009",
+      "script_id": 403,
+      "string_index": 9,
+      "original_english": "{RAW:8199}Harvest Festival{CR}{LF}9th day of Fall, 10AM{CR}{LF}At Rose Square{WAIT}{PAGE}Come to partake together!{CR}{LF}                     Mayor{CR}{LF}{WAIT}",
+      "code_sha256": "24cdd6a803e6a85a677de734fa3b05c7a70229ddc5f00ec09939147d2af648dc",
+      "show_text_sites": [
+        {
+          "code_offset": 215,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "padding_reflow": false,
+      "kind": "festival_notice"
+    },
+    {
+      "id": "script.0403.010",
+      "script_id": 403,
+      "string_index": 10,
+      "original_english": "{RAW:8199}Fall Horse Races{CR}{LF}18th day of Fall, 10AM{CR}{LF}At Rose Square{WAIT}{PAGE}Come one, come all!{CR}{LF}                    Mayor{CR}{LF}{WAIT}",
+      "code_sha256": "24cdd6a803e6a85a677de734fa3b05c7a70229ddc5f00ec09939147d2af648dc",
+      "show_text_sites": [
+        {
+          "code_offset": 227,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "padding_reflow": false,
+      "kind": "festival_notice"
+    },
+    {
+      "id": "script.0403.011",
+      "script_id": 403,
+      "string_index": 11,
+      "original_english": "{RAW:8199}Sheep Festival{CR}{LF}21st day of Fall, 10AM{CR}{LF}At Yodel Farm{WAIT}{PAGE}Bring Dyed in the Wool{CR}{LF}Sheep!               Mayor{CR}{LF}{WAIT}",
+      "code_sha256": "24cdd6a803e6a85a677de734fa3b05c7a70229ddc5f00ec09939147d2af648dc",
+      "show_text_sites": [
+        {
+          "code_offset": 239,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "padding_reflow": false,
+      "kind": "festival_notice"
+    },
+    {
+      "id": "script.0403.012",
+      "script_id": 403,
+      "string_index": 12,
+      "original_english": "{RAW:8199}Year End Festival and{CR}{LF}Year End Noodles{WAIT}{PAGE}Come celebrate the end of{CR}{LF}the old year and the {CR}{LF}beginning of the new!{WAIT}{PAGE}{RAW:8199}Year End Festival{CR}{LF}30th day of Winter,{CR}{LF}Midnight, at Mother's Hill{CR}{LF}Peak.{WAIT}{PAGE}{RAW:8199}Year End Noodles{CR}{LF}30th day of Winter, 6PM{CR}{LF}At Rose Square{WAIT}{PAGE}Everyone come celebrate!{CR}{LF}                     Mayor{CR}{LF}{WAIT}",
+      "code_sha256": "24cdd6a803e6a85a677de734fa3b05c7a70229ddc5f00ec09939147d2af648dc",
+      "show_text_sites": [
+        {
+          "code_offset": 251,
+          "native_call": 35,
+          "text_flags": 0
+        },
+        {
+          "code_offset": 290,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "padding_reflow": false,
+      "kind": "festival_notice"
+    },
+    {
+      "id": "script.0403.013",
+      "script_id": 403,
+      "string_index": 13,
+      "original_english": "{RAW:8199}Year End Festival,{CR}{LF}Year End Noodles, and {CR}{LF}New Year Festival{WAIT}{PAGE}Come celebrate the end of{CR}{LF}the old year and the {CR}{LF}beginning of the new!{WAIT}{PAGE}{RAW:8199}Year End Festival{CR}{LF}30th day of Winter,{CR}{LF}Midnight, at Mother's Hill{CR}{LF}Peak.{WAIT}{PAGE}{RAW:8199}Year End Noodles{CR}{LF}30th day of Winter, 6PM{CR}{LF}At Rose Square{WAIT}{PAGE}{RAW:8199}New Year Festival{CR}{LF}1st day of Spring, 6PM{CR}{LF}At Rose Square{WAIT}{PAGE}Everyone come celebrate!{CR}{LF}                     Mayor{CR}{LF}{WAIT}",
+      "code_sha256": "24cdd6a803e6a85a677de734fa3b05c7a70229ddc5f00ec09939147d2af648dc",
+      "show_text_sites": [
+        {
+          "code_offset": 302,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "padding_reflow": false,
+      "kind": "festival_notice"
+    }
+  ],
+  "coverage": "All sign/notice candidates identified in extracted source: farm markers, town directions, shop hours, public rules, seasonal bulletin; not a claim that every physical map object has been enumerated."
+}

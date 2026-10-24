@@ -111,6 +111,13 @@ riêng tiêu đề Birthday là 8 mã glyph `u16le`, được kiểm tra theo đ
 Importer yêu cầu token và thứ tự token giống hoàn toàn nguồn. Phần tử `RAW`
 không được xóa/đổi để làm validator qua. Văn bản thường được chuẩn hóa NFC.
 
+Ngoại lệ có contract ở lô signs-01: chỉ script.0497.000 và script.0507.000
+được giảm số RAW:8140 để căn lề tiếng Việt. Không được tăng, đổi mũi tên,
+biến hay control khác. `sign_text.py` xác minh nguồn và gắn quyền này vào
+catalog; importer/queue/editor dùng cùng luật, mặc định mọi ID khác vẫn
+nghiêm ngặt. Mười RAW glyph của biển đã được đo bằng renderer native,
+không suy nghĩa từ CP932. [Chi tiết](SIGN_LOCALIZATION.md).
+
 ## Font, giới hạn và import
 
 Xem [VIETNAMESE_FONT.md](VIETNAMESE_FONT.md). Hộp thoại có ba dòng hiển thị và

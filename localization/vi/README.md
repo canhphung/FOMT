@@ -29,3 +29,9 @@ Tên riêng và thuật ngữ: xem `../glossary.json`. Chỉ dùng `reviewed` sa
 duyệt cả nghĩa, xưng hô, token và bố cục. Chưa có ID nào ở trạng thái này.
 
 Hàng đợi/ngữ cảnh/QA và quy trình lô: [LOCALIZATION_WORKFLOW.md](../../docs/LOCALIZATION_WORKFLOW.md).
+
+`signs.json`: 48 bản dịch biển/thông báo và lựa chọn ném đĩa; xem docs/SIGN_LOCALIZATION.md.
+
+Ngoại lệ căn lề đã xác minh: 497.000 và 507.000 trong signs.json được giảm
+RAW:8140 theo source contract. Không áp dụng cho ID hoặc token khác; giữ
+nguyên mũi tên và mọi control. Xem docs/SIGN_LOCALIZATION.md.

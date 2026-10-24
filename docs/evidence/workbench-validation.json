@@ -1,8 +1,8 @@
 {
-  "revision": "translation-workbench-v1-objects",
+  "revision": "translation-workbench-signs-01",
   "browser": {
     "status": "passed",
-    "timestamp": "2026-10-24T00:59:54.315Z",
+    "timestamp": "2026-10-24T03:33:49.404Z",
     "checks": [
       "Real catalog loaded and table paginated in Chromium.",
       "Removing a CR token reports an error and blocks Save.",
@@ -20,11 +20,11 @@
     "screenshots": [
       {
         "path": "docs/evidence/workbench.png",
-        "sha256": "b323f2907dd814b4088ba4de11e76190bee960b9767ba43c159238b9552602ed"
+        "sha256": "0bd14dd97a7f44f69a4c6f1247155799740024f0d988655389e0919685597732"
       },
       {
         "path": "docs/evidence/workbench-token-error.png",
-        "sha256": "04a52e59577cdc0859310732ec1e9d3be7f7d81116d96549340b682929727fba"
+        "sha256": "8572f84e7414d053cf319e0be1831939672ef9741ab43a5cf14bb60c3ce8dbce"
       }
     ],
     "browser": {
@@ -34,8 +34,8 @@
       "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
       "jsVersion": "15.4.80.11"
     },
-    "source_json_files_unchanged": 31,
-    "source_snapshot_sha256": "c2497bb9730b3a7e209968da1c8eb13dc63aa5cff074b9abc423d0b0736ce666",
+    "source_json_files_unchanged": 37,
+    "source_snapshot_sha256": "3d2340037510b9d653c79bc06a5a9f0d581a775f9edc5138306703fbeddc84e6",
     "scope": "Chromium UI and HTTP writes in a disposable copy of the actual extracted catalog; original translations unchanged.",
     "limitations": [
       "No emulator or ROM build invoked by this browser test.",
@@ -45,7 +45,7 @@
   "pipeline_regression": {
     "schema_version": 1,
     "status": "passed",
-    "baseline_sha256": "490a894f7c70f33d30cbc20d305b1a6c9c3b3cbc3a84f3cefd4436ea351098a5",
+    "baseline_sha256": "c1d37da382dce45dcb39239ceba4f28d78dec1dd138ef2e402e54a3397c63d78",
     "source_sha1": "a2fc3574f0a65a4fcf7682fb274b9d7eebdef963",
     "visual_review": "technical regression reference; user approval of the complete gallery pending; translation QA unchanged",
     "limitations": [
@@ -57,22 +57,22 @@
     ],
     "pytest_log": "build/platform-check/logs/pytest.log",
     "pytest": {
-      "passed": 138,
+      "passed": 144,
       "failed": 0,
       "skipped": 0
     },
-    "target_sha256": "98e69a242aaa5eb71c8e0fafa17bbca1379d13d06ebb906aa743ac1b4d9d3335",
-    "patch_sha256": "5980ae7b0b7d98b743cd062361db8ff1ec8e803ddcca301d5d0d345a43460bb5",
+    "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e",
+    "patch_sha256": "43c6e01faad0796cae29b08f934348ee782bece3b13e79795ec22ee5b59c891f",
     "repeated_builds_identical": true,
     "release_ips_round_trip": true,
-    "locked_files_checked": 37,
+    "locked_files_checked": 42,
     "golden_references_checked": 43,
     "emulator_replay_run": true
   },
   "source_files": [
     {
       "path": "tools/translation_workbench.py",
-      "sha256": "270fc584058f994dfac51e533a4c065a5cbb55e27be8809faa4e533b22978cc5"
+      "sha256": "aba015f33f34042407142bb1a24a3d9b5d7e46d464318e4a1e50349f122ab5b5"
     },
     {
       "path": "tools/workbench/app.js",
@@ -95,5 +95,5 @@
       "sha256": "4a78badecaf67e897bba54ca53d5a4bd346c253fa95ce60185cdbcda68efa3f3"
     }
   ],
-  "scope_note": "Browser edits only disposable data copies. Source snapshot describes the input at test time, before final QA proof binding. Object labels classified through explicit source contract; native tests in platform-validation.json."
+  "scope_note": "Browser edits only disposable copies. Original 37 localization JSON files unchanged during browser replay. Snapshot precedes final QA proof binding; padding validation separately covered by ROM-backed test_signs.py."
 }

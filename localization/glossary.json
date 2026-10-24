@@ -3128,6 +3128,181 @@
       "category": "interactive_object",
       "source_id": "script.0544.000",
       "status": "working; language review pending"
+    },
+    {
+      "english": "Water Drawing Spot",
+      "vietnamese": "Chỗ lấy nước",
+      "category": "sign_or_notice",
+      "source_id": "script.0161.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Stable",
+      "vietnamese": "Chuồng ngựa",
+      "category": "sign_or_notice",
+      "source_id": "script.0159.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Water Mill",
+      "vietnamese": "Cối xay nước",
+      "category": "sign_or_notice",
+      "source_id": "script.0164.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Hot Spring",
+      "vietnamese": "Suối nước nóng",
+      "category": "sign_or_notice",
+      "source_id": "script.0490.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Beach Rules",
+      "vietnamese": "Nội quy bãi biển",
+      "category": "sign_or_notice",
+      "source_id": "script.0492.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Rose Square",
+      "vietnamese": "Quảng trường Rose",
+      "category": "sign_or_notice",
+      "source_id": "script.0497.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Supermarket",
+      "vietnamese": "Siêu thị",
+      "category": "sign_or_notice",
+      "source_id": "script.0496.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Mineral Clinic",
+      "vietnamese": "Phòng khám Mineral",
+      "category": "sign_or_notice",
+      "source_id": "script.0500.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Mary's Library",
+      "vietnamese": "Thư viện Mary",
+      "category": "sign_or_notice",
+      "source_id": "script.0502.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Aja Winery",
+      "vietnamese": "Xưởng rượu Aja",
+      "category": "sign_or_notice",
+      "source_id": "script.0503.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Saibara the Blacksmith",
+      "vietnamese": "Lò rèn Saibara",
+      "category": "sign_or_notice",
+      "source_id": "script.0508.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "New Year Festival",
+      "vietnamese": "Lễ hội năm mới",
+      "category": "sign_or_notice",
+      "source_id": "script.0403.001",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Spring Horse Races",
+      "vietnamese": "Đua ngựa mùa xuân",
+      "category": "sign_or_notice",
+      "source_id": "script.0403.002",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Cooking Festival",
+      "vietnamese": "Lễ hội nấu ăn",
+      "category": "sign_or_notice",
+      "source_id": "script.0403.003",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Swimming Festival",
+      "vietnamese": "Lễ hội bơi lội",
+      "category": "sign_or_notice",
+      "source_id": "script.0403.004",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Chicken Festival",
+      "vietnamese": "Lễ hội gà",
+      "category": "sign_or_notice",
+      "source_id": "script.0403.005",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Cow Festival",
+      "vietnamese": "Lễ hội bò",
+      "category": "sign_or_notice",
+      "source_id": "script.0403.006",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Fireworks Festival",
+      "vietnamese": "Lễ hội pháo hoa",
+      "category": "sign_or_notice",
+      "source_id": "script.0403.007",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Music Festival",
+      "vietnamese": "Lễ hội âm nhạc",
+      "category": "sign_or_notice",
+      "source_id": "script.0403.008",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Harvest Festival",
+      "vietnamese": "Lễ hội thu hoạch",
+      "category": "sign_or_notice",
+      "source_id": "script.0403.009",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Fall Horse Races",
+      "vietnamese": "Đua ngựa mùa thu",
+      "category": "sign_or_notice",
+      "source_id": "script.0403.010",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Sheep Festival",
+      "vietnamese": "Lễ hội cừu",
+      "category": "sign_or_notice",
+      "source_id": "script.0403.011",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Year End Festival",
+      "vietnamese": "Lễ hội cuối năm",
+      "category": "sign_or_notice",
+      "source_id": "script.0403.012",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Year End Noodles",
+      "vietnamese": "Mì cuối năm",
+      "category": "sign_or_notice",
+      "source_id": "script.0403.012",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Empty Lot",
+      "vietnamese": "Đất trống",
+      "category": "sign_or_notice",
+      "source_id": "script.0509.001",
+      "status": "working; language review pending"
     }
   ],
   "references": [

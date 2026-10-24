@@ -279,11 +279,11 @@ def test_wrong_font_mask_height_rejected():
 
 def test_expanded_translation_set_builds_without_overlap(real_rom):
     merged = {"rom_sha1":ROM_SHA1,"records":[]}
-    for name in ("pilot.json","items.json","new_game.json","intro.json","start_menu.json","item_descriptions_tools.json"):
+    for name in ("pilot.json","items.json","new_game.json","intro.json","start_menu.json","item_descriptions_tools.json","signs.json"):
         merged["records"].extend(json.loads((ROOT/"localization/vi"/name).read_text())["records"])
     _, report = build(real_rom,merged)
-    assert report["translated_records"] == 1408
-    assert len({r["id"] for r in merged["records"]}) == 1408
+    assert report["translated_records"] == 1456
+    assert len({r["id"] for r in merged["records"]}) == 1456
 
 
 @pytest.mark.parametrize('site',[0x5F78C,0x5F958,0x50B50])

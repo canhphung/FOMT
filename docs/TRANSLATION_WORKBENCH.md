@@ -64,7 +64,7 @@ không bị cắt hoặc hộp thoại thực tế không tràn; vẫn cần ren
 
 ## Glossary và hồ sơ người nói
 
-Tab **Glossary** tìm trong 471 thuật ngữ hiện có và bảng tên riêng; hiển thị
+Tab **Glossary** tìm trong 496 thuật ngữ hiện có và bảng tên riêng; hiển thị
 category, trạng thái và source ID khi có. Quy tắc chung lấy trực tiếp từ
 `localization/glossary.json`. Tab **Xưng hô** hiển thị bảy hồ sơ, phạm vi và
 danh sách ID. Đây là phần tra cứu; chỉnh glossary/hồ sơ vẫn qua JSON và review.
@@ -75,7 +75,7 @@ chỉ được xem/xuất CSV; không có nút tự xác nhận ngữ cảnh ho�
 
 ## Lưu file và xử lý xung đột
 
-File sở hữu bản dịch hiện có được giữ nguyên, gồm đủ sáu file VI. Mô tả vật
+File sở hữu bản dịch hiện có được giữ nguyên, gồm đủ bảy file VI. Mô tả vật
 phẩm mới ghi vào `localization/vi/items.json`; bản ghi mới đã rõ ngữ cảnh
 khác ghi vào `pilot.json`. Không tạo file nháp nằm ngoài danh sách build.
 Các trường English/source/pointer/token/speaker không nhận từ form lưu.
@@ -111,3 +111,8 @@ và xóa bản sao khi xong; không chỉnh bản dịch gốc. Ảnh/báo cáo 
 `build/workbench-browser/`. Nó kiểm cả giao diện 1440px, bố cục 390px, lỗi
 token/độ dài/ký tự, backup, QA stale, glossary, hồ sơ, mở khóa Flower có chứng cứ, chặn chuỗi chưa phân loại và CSV.
 Đây là kiểm editor, không phải kiểm emulator. [Báo cáo phiên này](evidence/workbench-validation.json).
+
+Lô `signs-01` được lưu trong `localization/vi/signs.json`. Riêng 497.000 và
+507.000 được giảm số RAW:8140 theo contract nguồn để căn lề; bảng vẫn hiển
+thị đầy đủ token gốc/đích. Mọi mũi tên, biến và control khác phải khớp,
+các bản ghi còn lại không có ngoại lệ này. Xem docs/SIGN_LOCALIZATION.md.

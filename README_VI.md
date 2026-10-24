@@ -6,6 +6,8 @@ Không chứa hoặc tự tải ROM thương mại. Bản vá IPS nằm trong `p
 
 ## Trạng thái hiện tại
 
+[Biển chỉ dẫn/thông báo](docs/SIGN_LOCALIZATION.md): 45 nội dung biển và 3 lựa chọn liên quan, gồm Chỗ lấy nước, giờ cửa hàng, nội quy bãi biển và bảng lễ hội.
+
 [Hướng dẫn giường/thùng xuất hàng](docs/INTERACTION_HINTS.md): dịch ba vị trí chuỗi theo ảnh, giữ điểm chờ và cuộn dòng.
 
 [Đồ vật tương tác](docs/INTERACTIVE_OBJECTS.md): 261 nhãn/68 tên đã có nháp, gồm Bàn, Giường, Kệ sách, Tủ lạnh; hai bàn trong nhà được kiểm bằng input tự nhiên.
@@ -16,8 +18,8 @@ Lô [vật phẩm/UI](docs/ITEM_LOCALIZATION.md) hoàn tất nháp; duyệt ngh�
 
 - Trích xuất 9.309 bản ghi: 8.368 chuỗi SCR, 347 tên + 347 mô tả vật phẩm,
   7 nhãn menu tạm dừng, 24 mục tạo game mới, 28 mục hồi tưởng thời thơ ấu, 162 mục trong các menu con START và 26 chuỗi native cửa hàng/vật phẩm.
-- 1.408 bản ghi dịch nháp: 347 tên vật phẩm, 347 mô tả, 26 chuỗi UI native, 7 menu, 1 lời chào Popuri,
-  24 mục tạo game mới, 145 mục intro/hướng dẫn đầu game, 162 mục menu START, 85 câu NPC, 261 nhãn đồ vật và 3 hướng dẫn tương tác.
+- 1.456 bản ghi dịch nháp: 347 tên vật phẩm, 347 mô tả, 26 chuỗi UI native, 7 menu, 1 lời chào Popuri,
+  24 mục tạo game mới, 145 mục intro/hướng dẫn đầu game, 162 mục menu START, 85 câu NPC, 261 nhãn đồ vật, 3 hướng dẫn tương tác và 48 mục biển/thông báo.
 - Lịch/HUD tiếng Việt: Năm, Xuân/Hè/Thu/Đông, CN/T2…T7 và đồng hồ 24 giờ.
   Tiêu đề lịch đã căn khoảng cách và thu nhỏ riêng số năm; HUD giữ vị trí đồng hồ,
   icon và màu gốc. [Ảnh hiện tại](docs/evidence/date-ui.png),
@@ -40,7 +42,7 @@ Lô [vật phẩm/UI](docs/ITEM_LOCALIZATION.md) hoàn tất nháp; duyệt ngh�
   Bản sửa v2 xử lý lỗi lệch thân chữ/spacing; xem ảnh trước–sau trong `docs/evidence`.
 - Chèn lại ở vùng ROM mở rộng, giữ nguyên bytecode sự kiện và dữ liệu gameplay.
 - Kiểm thử mGBA: boot, tạo game mới, hội thoại Thomas, 7 nhãn menu, render font,
-  lịch/HUD và ghi Diary, nạp lại save sau boot; 140 pytest đạt. Chi tiết và giới hạn trong báo cáo tiến độ.
+  lịch/HUD và ghi Diary, nạp lại save sau boot; 144 pytest đạt. Chi tiết và giới hạn trong báo cáo tiến độ.
 
 Chưa xác minh toàn bộ gameplay, mọi màn hình vật phẩm, TV/sách/sự kiện, phần cứng
 GBA thật hoặc nhập tên người chơi có dấu. Phần lớn hội thoại vẫn là tiếng Anh.

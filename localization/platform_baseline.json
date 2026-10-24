@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "revision": "platform-v4-objects",
+  "revision": "platform-v5-signs",
   "created_at": "2026-10-23",
   "reference_target_sha256": "98e69a242aaa5eb71c8e0fafa17bbca1379d13d06ebb906aa743ac1b4d9d3335",
-  "policy": "Revision v4 adds explicit object-label source/caller guards, contract and native UI fixtures. Font/layout and 43 golden images stay unchanged; no automatic image rebaseline. Interaction-hints-01 adds three source-guarded instructions and a native fixture suite; all 43 golden references remain unchanged.",
+  "policy": "Revision v5 adds verified signs, native RAW glyph/scroll fixtures and a padding-only exception for script.0497.000 and script.0507.000. All other controls, arrows and variables remain strict. Font/layout and all 43 golden reference images are unchanged; reference_target_sha256 retains their original provenance.",
   "visual_review": "technical regression reference; user approval of the complete gallery pending; translation QA unchanged",
   "contracts": {
     "dialogue": {
@@ -108,7 +108,7 @@
     },
     {
       "path": "tools/fomt_text.py",
-      "sha256": "500d71eb65df6a1bbe24848b1bdb7507f5fc79b9fe62ba9a54d8cedd5913db89"
+      "sha256": "d4ecced64cd498b1a0ee83a76af51218dc68bb27fe491ae90fc87f0d23669c86"
     },
     {
       "path": "tools/text_extractor.py",
@@ -116,7 +116,7 @@
     },
     {
       "path": "tools/text_inserter.py",
-      "sha256": "91d441e5bbf55ea68028d47ec83ea2bf7997fbac8aa7f3a3900a8499e1d57fa5"
+      "sha256": "bcf7d1c4210849a22a048e6e2fe78d0f543f0d5e9999f80b612a3f618640c8a7"
     },
     {
       "path": "tools/ips.py",
@@ -156,7 +156,7 @@
     },
     {
       "path": "tools/platform_check.py",
-      "sha256": "a60e9c66f02d932f3c0281c21ef23e201a73f74ee1b7fe878b39a32546b76947"
+      "sha256": "a41c8166b3de8c19f3b83adab4e230f3fd5e75829d768b67563226779f414089"
     },
     {
       "path": "tools/mgba_bridge.c",
@@ -209,6 +209,18 @@
     {
       "path": "localization/qa/batches/interaction-hints-01.json",
       "sha256": "5654c7793f2aad5cdc2b90c037be4a2752efc7bf02652825dca76e5be31007f7"
+    },
+    {
+      "path": "tools/sign_text.py",
+      "sha256": "6bf62ba4ebf4328930392373954f6bdc069c72a120e31f6392c03f2bf5d86b52"
+    },
+    {
+      "path": "tools/signs_smoke.py",
+      "sha256": "9a901cb7dadfec9a7dce77d8c1c42f41f96f9dab7deaee2f937fbcb45e8b1c22"
+    },
+    {
+      "path": "localization/signs.json",
+      "sha256": "b738e92eb7dddb2179ba7fd845a4dd273ddefebbcfc3d5f23a9c486f644b8a97"
     }
   ],
   "save_fixture": {

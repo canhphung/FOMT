@@ -146,8 +146,20 @@ def tokens(text: str) -> list[str]:
     return TOKEN.findall(text)
 
 
-def check_translation(original: str, translation: str, max_columns: int) -> dict:
-    if tokens(original) != tokens(translation):
+def matching_tokens(original: str, translation: str, *, padding_reflow=False) -> bool:
+    a, b = tokens(original), tokens(translation)
+    if padding_reflow:
+        # Only a source-verified sign may reduce native full-width blank glyphs.
+        # Arrows, decorations, variables and all actual controls remain exact.
+        if b.count('{RAW:8140}') > a.count('{RAW:8140}'):
+            return False
+        a = [t for t in a if t != '{RAW:8140}']
+        b = [t for t in b if t != '{RAW:8140}']
+    return a == b
+
+
+def check_translation(original: str, translation: str, max_columns: int, *, padding_reflow=False) -> dict:
+    if not matching_tokens(original, translation, padding_reflow=padding_reflow):
         raise FormatError("control/variable/RAW tokens must be preserved in exactly the same order")
     encoded = encode(translation, vietnamese=True)
     x = maximum = 0
@@ -298,6 +310,8 @@ def extract(data: bytes) -> dict:
     npc_records(data, records)
     from object_text import annotate_records as object_records
     object_records(data, records)
+    from sign_text import annotate_records as sign_records
+    sign_records(data, records)
     from item_window import annotate_records as item_window_budgets
     item_window_budgets(records)
     return {"schema_version": 1, "rom": {"sha1": ROM_SHA1,

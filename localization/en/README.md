@@ -20,3 +20,5 @@ untranslated spouse/home records are tracked in `../npc_coverage.json`.
 The source-only ID/CODE/display-site contract is `../object_labels.json`.
 
 `interaction_hints.json`: ba chuỗi hướng dẫn giường/thùng xuất hàng nguyên bản; xem docs/INTERACTION_HINTS.md.
+
+`signs.json`: 48 bản ghi nguồn có context biển/thông báo và caller được xác minh.

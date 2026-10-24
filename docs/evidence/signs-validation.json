@@ -1,0 +1,1453 @@
+{
+  "schema_version": 1,
+  "revision": "signs-01",
+  "status": "passed",
+  "source_sha1": "a2fc3574f0a65a4fcf7682fb274b9d7eebdef963",
+  "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e",
+  "patch_sha256": "43c6e01faad0796cae29b08f934348ee782bece3b13e79795ec22ee5b59c891f",
+  "source_contract_sha256": "b738e92eb7dddb2179ba7fd845a4dd273ddefebbcfc3d5f23a9c486f644b8a97",
+  "source_contract": "localization/signs.json",
+  "sign_records": 48,
+  "sign_texts": 45,
+  "related_choices": 3,
+  "source_scripts": 31,
+  "draft_records": 1456,
+  "glossary_terms": 496,
+  "pytest": {
+    "passed": 144,
+    "failed": 0,
+    "skipped": 0
+  },
+  "repeated_builds_identical": true,
+  "release_ips_round_trip": true,
+  "emulators": {
+    "0.10.5": {
+      "library_sha256": "a59b9ebbc006144a1fc4fd68ddc371e95de4abc7d36073c7eed53e482d06a15c",
+      "signs": {
+        "status": "passed",
+        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e",
+        "sign_records": 48,
+        "native_widget_cases": 45,
+        "choice_labels_renderer_only": 3,
+        "guarded_renderer_lines": 179,
+        "native_waits_verified": 73,
+        "source_scripts_CODE_JUMP_unchanged": 31,
+        "untranslated_strings_byte_identical": 1,
+        "original_RAW_glyphs_unchanged": [
+          {
+            "code": "8140",
+            "advance_pixels": 16,
+            "foreground_pixels": 0,
+            "staging_sha256": "38723a2e5e8a17aa7950dc008209944e898f69a7bd10a23c839d341e935fd5ca"
+          },
+          {
+            "code": "8145",
+            "advance_pixels": 16,
+            "foreground_pixels": 4,
+            "staging_sha256": "c28c328df106f5785cfe3a5153079bbd1a499baebf962a192dd3a6a8fd1e94ed"
+          },
+          {
+            "code": "8175",
+            "advance_pixels": 16,
+            "foreground_pixels": 12,
+            "staging_sha256": "327b80e3a42eb751dab10fb87e171966323c62f1c43b2743ea17f90f4b486176"
+          },
+          {
+            "code": "8176",
+            "advance_pixels": 16,
+            "foreground_pixels": 12,
+            "staging_sha256": "dedd8653316db66ec25354b95db39cc690f2368a09d4755fd748c29aa2228e32"
+          },
+          {
+            "code": "8199",
+            "advance_pixels": 16,
+            "foreground_pixels": 31,
+            "staging_sha256": "2642d9d21f3d2c34ddcc953288411b7e9db4283548c5b46452789ddd631380a3"
+          },
+          {
+            "code": "81A1",
+            "advance_pixels": 16,
+            "foreground_pixels": 121,
+            "staging_sha256": "00d1a59e2385ef0b57d33ba7444372fdc0bad428c7c5f970fb7634959ee314bf"
+          },
+          {
+            "code": "81A8",
+            "advance_pixels": 16,
+            "foreground_pixels": 15,
+            "staging_sha256": "266a0a6b6cdc80d67566c1291f2744c690533b08968e58b7210d388d3fdb6374"
+          },
+          {
+            "code": "81A9",
+            "advance_pixels": 16,
+            "foreground_pixels": 15,
+            "staging_sha256": "bdce4bf7fe8fdc81f6868c9432b5fe11975aadc8663d69a7e18d6a4040234194"
+          },
+          {
+            "code": "81AA",
+            "advance_pixels": 16,
+            "foreground_pixels": 15,
+            "staging_sha256": "86b990d9121cb2f5e976098ffd8b0f682d9553a4aaabb18773d3592b18617db9"
+          },
+          {
+            "code": "81AB",
+            "advance_pixels": 16,
+            "foreground_pixels": 15,
+            "staging_sha256": "d3cb12ee31c4869b4a2d66674fb30fbda249238f5389804d18859506d539b4ba"
+          }
+        ],
+        "cases": [
+          {
+            "id": "script.0085.000",
+            "wait_offsets_verified": [
+              73,
+              86
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              2
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0158.000",
+            "wait_offsets_verified": [
+              28
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0159.000",
+            "wait_offsets_verified": [
+              16
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0160.000",
+            "wait_offsets_verified": [
+              57
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0161.000",
+            "wait_offsets_verified": [
+              19
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": [
+              "script.0161.000-wait-1.png"
+            ]
+          },
+          {
+            "id": "script.0162.000",
+            "wait_offsets_verified": [
+              22
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0163.000",
+            "wait_offsets_verified": [
+              62
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": [
+              "script.0163.000-wait-1.png"
+            ]
+          },
+          {
+            "id": "script.0164.000",
+            "wait_offsets_verified": [
+              78
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0405.000",
+            "wait_offsets_verified": [
+              55
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0490.000",
+            "wait_offsets_verified": [
+              63
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0491.000",
+            "wait_offsets_verified": [
+              72
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0492.000",
+            "wait_offsets_verified": [
+              24,
+              98,
+              160,
+              240,
+              273,
+              315
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0,
+              0,
+              0,
+              2,
+              2
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": [
+              "script.0492.000-wait-1.png",
+              "script.0492.000-wait-2.png",
+              "script.0492.000-wait-3.png",
+              "script.0492.000-wait-4.png",
+              "script.0492.000-wait-5.png",
+              "script.0492.000-wait-6.png"
+            ]
+          },
+          {
+            "id": "script.0493.000",
+            "wait_offsets_verified": [
+              68,
+              107
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0494.000",
+            "wait_offsets_verified": [
+              54
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0495.000",
+            "wait_offsets_verified": [
+              16
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0496.000",
+            "wait_offsets_verified": [
+              62
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": [
+              "script.0496.000-wait-1.png"
+            ]
+          },
+          {
+            "id": "script.0497.000",
+            "wait_offsets_verified": [
+              82
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": [
+              "script.0497.000-wait-1.png"
+            ]
+          },
+          {
+            "id": "script.0498.000",
+            "wait_offsets_verified": [
+              70
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0499.000",
+            "wait_offsets_verified": [
+              51
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0500.000",
+            "wait_offsets_verified": [
+              60
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0501.000",
+            "wait_offsets_verified": [
+              46
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0502.000",
+            "wait_offsets_verified": [
+              69
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0502.001",
+            "wait_offsets_verified": [
+              68
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0503.000",
+            "wait_offsets_verified": [
+              71,
+              101
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              2
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0504.000",
+            "wait_offsets_verified": [
+              55
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0505.000",
+            "wait_offsets_verified": [
+              62
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": [
+              "script.0505.000-wait-1.png"
+            ]
+          },
+          {
+            "id": "script.0506.000",
+            "wait_offsets_verified": [
+              55
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0507.000",
+            "wait_offsets_verified": [
+              55
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": [
+              "script.0507.000-wait-1.png"
+            ]
+          },
+          {
+            "id": "script.0508.000",
+            "wait_offsets_verified": [
+              56
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0509.000",
+            "wait_offsets_verified": [
+              31
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0509.001",
+            "wait_offsets_verified": [
+              15
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0510.000",
+            "wait_offsets_verified": [
+              50
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0403.001",
+            "wait_offsets_verified": [
+              67,
+              113
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0403.002",
+            "wait_offsets_verified": [
+              71,
+              117
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0403.003",
+            "wait_offsets_verified": [
+              67,
+              115
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0403.004",
+            "wait_offsets_verified": [
+              61,
+              111
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0403.005",
+            "wait_offsets_verified": [
+              59,
+              114
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0403.006",
+            "wait_offsets_verified": [
+              60,
+              103
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0403.007",
+            "wait_offsets_verified": [
+              64,
+              110
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0403.008",
+            "wait_offsets_verified": [
+              54,
+              101
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0403.009",
+            "wait_offsets_verified": [
+              66,
+              113
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0403.010",
+            "wait_offsets_verified": [
+              67,
+              113
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0403.011",
+            "wait_offsets_verified": [
+              52,
+              95
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0403.012",
+            "wait_offsets_verified": [
+              42,
+              93,
+              175,
+              241,
+              288
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0,
+              2,
+              2,
+              2
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0403.013",
+            "wait_offsets_verified": [
+              63,
+              114,
+              196,
+              262,
+              330,
+              377
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0,
+              2,
+              2,
+              2,
+              2
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": [
+              "script.0403.013-wait-1.png",
+              "script.0403.013-wait-2.png",
+              "script.0403.013-wait-3.png",
+              "script.0403.013-wait-4.png",
+              "script.0403.013-wait-5.png",
+              "script.0403.013-wait-6.png"
+            ]
+          }
+        ],
+        "sram_unchanged": true,
+        "emulator_error_count": 0,
+        "limitations": [
+          "Native UI fixtures hosted in the house, not natural encounters with every sign.",
+          "Three choice labels tested by renderer and source call, not the native choice widget.",
+          "Variables preserved in ROM; layout fixtures substitute twelve digits, not proof of native variable values.",
+          "Manual language/layout review and physical-map completeness pending."
+        ]
+      },
+      "golden_scenes": 43,
+      "changed_pixels": 0
+    },
+    "dev": {
+      "library_sha256": "b044208a82af47a6ce3651cf2c289c575866a4764d6e9377c88001e60edea0c7",
+      "signs": {
+        "status": "passed",
+        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e",
+        "sign_records": 48,
+        "native_widget_cases": 45,
+        "choice_labels_renderer_only": 3,
+        "guarded_renderer_lines": 179,
+        "native_waits_verified": 73,
+        "source_scripts_CODE_JUMP_unchanged": 31,
+        "untranslated_strings_byte_identical": 1,
+        "original_RAW_glyphs_unchanged": [
+          {
+            "code": "8140",
+            "advance_pixels": 16,
+            "foreground_pixels": 0,
+            "staging_sha256": "38723a2e5e8a17aa7950dc008209944e898f69a7bd10a23c839d341e935fd5ca"
+          },
+          {
+            "code": "8145",
+            "advance_pixels": 16,
+            "foreground_pixels": 4,
+            "staging_sha256": "c28c328df106f5785cfe3a5153079bbd1a499baebf962a192dd3a6a8fd1e94ed"
+          },
+          {
+            "code": "8175",
+            "advance_pixels": 16,
+            "foreground_pixels": 12,
+            "staging_sha256": "327b80e3a42eb751dab10fb87e171966323c62f1c43b2743ea17f90f4b486176"
+          },
+          {
+            "code": "8176",
+            "advance_pixels": 16,
+            "foreground_pixels": 12,
+            "staging_sha256": "dedd8653316db66ec25354b95db39cc690f2368a09d4755fd748c29aa2228e32"
+          },
+          {
+            "code": "8199",
+            "advance_pixels": 16,
+            "foreground_pixels": 31,
+            "staging_sha256": "2642d9d21f3d2c34ddcc953288411b7e9db4283548c5b46452789ddd631380a3"
+          },
+          {
+            "code": "81A1",
+            "advance_pixels": 16,
+            "foreground_pixels": 121,
+            "staging_sha256": "00d1a59e2385ef0b57d33ba7444372fdc0bad428c7c5f970fb7634959ee314bf"
+          },
+          {
+            "code": "81A8",
+            "advance_pixels": 16,
+            "foreground_pixels": 15,
+            "staging_sha256": "266a0a6b6cdc80d67566c1291f2744c690533b08968e58b7210d388d3fdb6374"
+          },
+          {
+            "code": "81A9",
+            "advance_pixels": 16,
+            "foreground_pixels": 15,
+            "staging_sha256": "bdce4bf7fe8fdc81f6868c9432b5fe11975aadc8663d69a7e18d6a4040234194"
+          },
+          {
+            "code": "81AA",
+            "advance_pixels": 16,
+            "foreground_pixels": 15,
+            "staging_sha256": "86b990d9121cb2f5e976098ffd8b0f682d9553a4aaabb18773d3592b18617db9"
+          },
+          {
+            "code": "81AB",
+            "advance_pixels": 16,
+            "foreground_pixels": 15,
+            "staging_sha256": "d3cb12ee31c4869b4a2d66674fb30fbda249238f5389804d18859506d539b4ba"
+          }
+        ],
+        "cases": [
+          {
+            "id": "script.0085.000",
+            "wait_offsets_verified": [
+              73,
+              86
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              2
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0158.000",
+            "wait_offsets_verified": [
+              28
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0159.000",
+            "wait_offsets_verified": [
+              16
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0160.000",
+            "wait_offsets_verified": [
+              57
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0161.000",
+            "wait_offsets_verified": [
+              19
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": [
+              "script.0161.000-wait-1.png"
+            ]
+          },
+          {
+            "id": "script.0162.000",
+            "wait_offsets_verified": [
+              22
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0163.000",
+            "wait_offsets_verified": [
+              62
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": [
+              "script.0163.000-wait-1.png"
+            ]
+          },
+          {
+            "id": "script.0164.000",
+            "wait_offsets_verified": [
+              78
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0405.000",
+            "wait_offsets_verified": [
+              55
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0490.000",
+            "wait_offsets_verified": [
+              63
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0491.000",
+            "wait_offsets_verified": [
+              72
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0492.000",
+            "wait_offsets_verified": [
+              24,
+              98,
+              160,
+              240,
+              273,
+              315
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0,
+              0,
+              0,
+              2,
+              2
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": [
+              "script.0492.000-wait-1.png",
+              "script.0492.000-wait-2.png",
+              "script.0492.000-wait-3.png",
+              "script.0492.000-wait-4.png",
+              "script.0492.000-wait-5.png",
+              "script.0492.000-wait-6.png"
+            ]
+          },
+          {
+            "id": "script.0493.000",
+            "wait_offsets_verified": [
+              68,
+              107
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0494.000",
+            "wait_offsets_verified": [
+              54
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0495.000",
+            "wait_offsets_verified": [
+              16
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0496.000",
+            "wait_offsets_verified": [
+              62
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": [
+              "script.0496.000-wait-1.png"
+            ]
+          },
+          {
+            "id": "script.0497.000",
+            "wait_offsets_verified": [
+              82
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": [
+              "script.0497.000-wait-1.png"
+            ]
+          },
+          {
+            "id": "script.0498.000",
+            "wait_offsets_verified": [
+              70
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0499.000",
+            "wait_offsets_verified": [
+              51
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0500.000",
+            "wait_offsets_verified": [
+              60
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0501.000",
+            "wait_offsets_verified": [
+              46
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0502.000",
+            "wait_offsets_verified": [
+              69
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0502.001",
+            "wait_offsets_verified": [
+              68
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0503.000",
+            "wait_offsets_verified": [
+              71,
+              101
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              2
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0504.000",
+            "wait_offsets_verified": [
+              55
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0505.000",
+            "wait_offsets_verified": [
+              62
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": [
+              "script.0505.000-wait-1.png"
+            ]
+          },
+          {
+            "id": "script.0506.000",
+            "wait_offsets_verified": [
+              55
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0507.000",
+            "wait_offsets_verified": [
+              55
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": [
+              "script.0507.000-wait-1.png"
+            ]
+          },
+          {
+            "id": "script.0508.000",
+            "wait_offsets_verified": [
+              56
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0509.000",
+            "wait_offsets_verified": [
+              31
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0509.001",
+            "wait_offsets_verified": [
+              15
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0510.000",
+            "wait_offsets_verified": [
+              50
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0403.001",
+            "wait_offsets_verified": [
+              67,
+              113
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0403.002",
+            "wait_offsets_verified": [
+              71,
+              117
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0403.003",
+            "wait_offsets_verified": [
+              67,
+              115
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0403.004",
+            "wait_offsets_verified": [
+              61,
+              111
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0403.005",
+            "wait_offsets_verified": [
+              59,
+              114
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0403.006",
+            "wait_offsets_verified": [
+              60,
+              103
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0403.007",
+            "wait_offsets_verified": [
+              64,
+              110
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0403.008",
+            "wait_offsets_verified": [
+              54,
+              101
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0403.009",
+            "wait_offsets_verified": [
+              66,
+              113
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0403.010",
+            "wait_offsets_verified": [
+              67,
+              113
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0403.011",
+            "wait_offsets_verified": [
+              52,
+              95
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0403.012",
+            "wait_offsets_verified": [
+              42,
+              93,
+              175,
+              241,
+              288
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0,
+              2,
+              2,
+              2
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0403.013",
+            "wait_offsets_verified": [
+              63,
+              114,
+              196,
+              262,
+              330,
+              377
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0,
+              2,
+              2,
+              2,
+              2
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": [
+              "script.0403.013-wait-1.png",
+              "script.0403.013-wait-2.png",
+              "script.0403.013-wait-3.png",
+              "script.0403.013-wait-4.png",
+              "script.0403.013-wait-5.png",
+              "script.0403.013-wait-6.png"
+            ]
+          }
+        ],
+        "sram_unchanged": true,
+        "emulator_error_count": 0,
+        "limitations": [
+          "Native UI fixtures hosted in the house, not natural encounters with every sign.",
+          "Three choice labels tested by renderer and source call, not the native choice widget.",
+          "Variables preserved in ROM; layout fixtures substitute twelve digits, not proof of native variable values.",
+          "Manual language/layout review and physical-map completeness pending."
+        ]
+      },
+      "golden_scenes": 43,
+      "changed_pixels": 0
+    }
+  },
+  "screenshots": [
+    {
+      "path": "docs/evidence/signs/script.0161.000-wait-1.png",
+      "sha256": "a1ccb0acf3720907763d9c107dde57e2d5c35d591edd730fafe206e999533af4",
+      "scope": "native widget fixture; house background is host only"
+    },
+    {
+      "path": "docs/evidence/signs/script.0163.000-wait-1.png",
+      "sha256": "123ff03f55b6f35ec3fd1d4a25c31a1b531d74cae3621f75945405558158e294",
+      "scope": "native widget fixture; house background is host only"
+    },
+    {
+      "path": "docs/evidence/signs/script.0492.000-wait-1.png",
+      "sha256": "db5392a365b9b78b50329726fd4263e6c2f4e7519c69015d75a2beacfbfcd1ab",
+      "scope": "native widget fixture; house background is host only"
+    },
+    {
+      "path": "docs/evidence/signs/script.0492.000-wait-2.png",
+      "sha256": "d7845e81a96b1cd3f6fcc52e33f36936aa90e1ffcf9265d5f137872eddf81104",
+      "scope": "native widget fixture; house background is host only"
+    },
+    {
+      "path": "docs/evidence/signs/script.0492.000-wait-3.png",
+      "sha256": "7db564e92f30db1d48a8de981e55d3f378ed9df131950ced3d2cc3651a914931",
+      "scope": "native widget fixture; house background is host only"
+    },
+    {
+      "path": "docs/evidence/signs/script.0492.000-wait-4.png",
+      "sha256": "d9696252f29e825e9bd3e20cc58c8c1a6184cae840f3265284a398f59dc91b9b",
+      "scope": "native widget fixture; house background is host only"
+    },
+    {
+      "path": "docs/evidence/signs/script.0492.000-wait-5.png",
+      "sha256": "ac6b054aca62ed63306f5478253cf678400c7ed3157855eea3dada46416ba9f2",
+      "scope": "native widget fixture; house background is host only"
+    },
+    {
+      "path": "docs/evidence/signs/script.0492.000-wait-6.png",
+      "sha256": "debbe460b705b03fd7aca7a9cb8829518b43d902f811112253b7a386eaf83559",
+      "scope": "native widget fixture; house background is host only"
+    },
+    {
+      "path": "docs/evidence/signs/script.0496.000-wait-1.png",
+      "sha256": "0520adea6c7627b53496a513403b5757410882a6c1b71a8f70c0ff936f56e364",
+      "scope": "native widget fixture; house background is host only"
+    },
+    {
+      "path": "docs/evidence/signs/script.0497.000-wait-1.png",
+      "sha256": "f03ae7d5569663511c61fd69db9dccc58831be87dd6d436b3ef330e435015900",
+      "scope": "native widget fixture; house background is host only"
+    },
+    {
+      "path": "docs/evidence/signs/script.0505.000-wait-1.png",
+      "sha256": "408644de54de3b5ecde82221a20fde38cf4280f86c90659ee0febcc80829b50e",
+      "scope": "native widget fixture; house background is host only"
+    },
+    {
+      "path": "docs/evidence/signs/script.0507.000-wait-1.png",
+      "sha256": "5da695e7357c282e4e3a87c52e57090dace96b0c138752a02b89978743f709f2",
+      "scope": "native widget fixture; house background is host only"
+    },
+    {
+      "path": "docs/evidence/signs/script.0403.013-wait-1.png",
+      "sha256": "c6f8621f745e9de7bc4d2e43fada2711e50581b217e7eadcd63bc4d9c0c9a7f3",
+      "scope": "native widget fixture; house background is host only"
+    },
+    {
+      "path": "docs/evidence/signs/script.0403.013-wait-2.png",
+      "sha256": "d75c81fc5ad61444fa1261b079f3b72b78c25d197256ac695a73ab37a245eb63",
+      "scope": "native widget fixture; house background is host only"
+    },
+    {
+      "path": "docs/evidence/signs/script.0403.013-wait-3.png",
+      "sha256": "2df6b796f38d7efcafcb73c33c5877b51d5dbdcbd0777916204318996db5487d",
+      "scope": "native widget fixture; house background is host only"
+    },
+    {
+      "path": "docs/evidence/signs/script.0403.013-wait-4.png",
+      "sha256": "1f34715a544e69037286ca77e0ad3251b432284a7a17911e14b10157bfd862fb",
+      "scope": "native widget fixture; house background is host only"
+    },
+    {
+      "path": "docs/evidence/signs/script.0403.013-wait-5.png",
+      "sha256": "8c2d6cc410c827bde88bfad2667344d37529d53fe81e3fc477bbf010c9baf714",
+      "scope": "native widget fixture; house background is host only"
+    },
+    {
+      "path": "docs/evidence/signs/script.0403.013-wait-6.png",
+      "sha256": "6cc481c5417e104894b9aec8bbc0968b63ad054d82422a6d8a94ecb936f3838e",
+      "scope": "native widget fixture; house background is host only"
+    }
+  ],
+  "limitations": [
+    "All identified source-sign candidates in this batch, not proof of exhaustive physical-map enumeration.",
+    "Native UI fixtures hosted in the house; no natural encounter certification for every sign.",
+    "Choice labels renderer/caller checked; three dynamic records use twelve-digit layout stand-ins.",
+    "Manual language/layout review and real GBA testing pending."
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "status": "passed",
-  "baseline_sha256": "43ff2238fa2d081745a353fe1caa62a1a4548c838a710e993c2033724032706a",
+  "baseline_sha256": "c1d37da382dce45dcb39239ceba4f28d78dec1dd138ef2e402e54a3397c63d78",
   "source_sha1": "a2fc3574f0a65a4fcf7682fb274b9d7eebdef963",
   "visual_review": "technical regression reference; user approval of the complete gallery pending; translation QA unchanged",
   "limitations": [
@@ -17,9 +17,9 @@
       "suites": {
         "full": {
           "report": "build/platform-check/0.10.5/full/report.json",
-          "sha256": "13716e5b126bcfd3c1ade218bbd5fec7748b06d00aca046ac7b1ee5b161edd90",
+          "sha256": "4cc15c5a893dca2288373ce7ec66f4c80391645c51e788e0c5384c18d6713fe2",
           "result": {
-            "target_sha256": "3979adc001b452bdd4f7694c74ae096550fa02ab484e92b8d8f064531b183996",
+            "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e",
             "checks": {
               "ascii_native_outlines_at_common_baseline": 95,
               "legacy_glyph_fallback_unchanged": 10,
@@ -90,9 +90,9 @@
         },
         "new-game": {
           "report": "build/platform-check/0.10.5/new-game/report.json",
-          "sha256": "6f7e54db19ce3fab676a41e165b22718106a1f8106f974d769eaba6ab4c23a81",
+          "sha256": "8d9792e574e62e6f23ff2602993e0afb063fe367c0280fb07fa349ffc7cfebd6",
           "result": {
-            "target_sha256": "3979adc001b452bdd4f7694c74ae096550fa02ab484e92b8d8f064531b183996",
+            "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e",
             "status": "passed",
             "checks": [
               "four seasons x days 1/30 through normal controls",
@@ -110,9 +110,9 @@
         },
         "start": {
           "report": "build/platform-check/0.10.5/start/report.json",
-          "sha256": "a1e8d758839d7210daa8c64e2b33313d265be480abe93f400070e318d127f51e",
+          "sha256": "20924f95631350c693015550124df6380b09472ccd093826687a2fdc7c4726d5",
           "result": {
-            "target_sha256": "3979adc001b452bdd4f7694c74ae096550fa02ab484e92b8d8f064531b183996",
+            "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e",
             "status": "passed",
             "translated_records": 162,
             "isolated_renderer_lines_with_guards": 239,
@@ -146,9 +146,9 @@
         },
         "date": {
           "report": "build/platform-check/0.10.5/date/report.json",
-          "sha256": "84ef2edce75a9b7e235bee8b07e0d06035edafba36be39d64e5168182c253d02",
+          "sha256": "6bdee4e4be646e49c3a4cda79445007b3bb5796beda9965f5215c8a690ce306c",
           "result": {
-            "target_sha256": "3979adc001b452bdd4f7694c74ae096550fa02ab484e92b8d8f064531b183996",
+            "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e",
             "revision": "vietnamese-calendar-heading-v19",
             "limitations": [
               "Calendar fixtures change UI view fields, not elapsed gameplay years",
@@ -619,9 +619,9 @@
         },
         "items": {
           "report": "build/platform-check/0.10.5/items/report.json",
-          "sha256": "f91dab7c26d521f4d5f305fcdb460543196ff64b1198bd0a3e2593e504e19349",
+          "sha256": "9ed78de0342f5dc8c51b6ffd4ea87886f6fe7dea1b0af9e9147e89eb0e69cc94",
           "result": {
-            "target_sha256": "3979adc001b452bdd4f7694c74ae096550fa02ab484e92b8d8f064531b183996",
+            "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e",
             "status": "passed",
             "record_ids": [
               "item.tool.000.description",
@@ -656,9 +656,9 @@
         },
         "item-audit": {
           "report": "build/platform-check/0.10.5/item-audit/report.json",
-          "sha256": "6dc84f95041b71aaa3f3f14d13f1c15069ca0917d915536b271cfbc45314733c",
+          "sha256": "b68b4e8a8c0a3ad00ddc44282d1a085927bc3d8ac4e764895828e97306dfe87a",
           "result": {
-            "target_sha256": "3979adc001b452bdd4f7694c74ae096550fa02ab484e92b8d8f064531b183996",
+            "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e",
             "item_names": 347,
             "item_descriptions": 347,
             "native_shop_and_item_literals": 26,
@@ -860,10 +860,10 @@
         },
         "item-ui": {
           "report": "build/platform-check/0.10.5/item-ui/report.json",
-          "sha256": "ebdacf892289904a9b972112476eb4b0e64bab7a22bd2d24d9323f8d0747bc9f",
+          "sha256": "9aa3f061aee8ec4a7272f0d859d60222b712dcff439511bc7ccc1de9dcd0a1b1",
           "result": {
             "status": "passed",
-            "target_sha256": "3979adc001b452bdd4f7694c74ae096550fa02ab484e92b8d8f064531b183996",
+            "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e",
             "item_info_windows": 347,
             "native_scroll_cases": 1,
             "wrapped_name_windows": 266,
@@ -881,10 +881,10 @@
         },
         "npc-daily": {
           "report": "build/platform-check/0.10.5/npc-daily/report.json",
-          "sha256": "e9a53559d77f980fe708db992cbfda38295d2515a3437c36b4668f22e62609f3",
+          "sha256": "34dcd872cf960aefbac253f67f10710ef1f453f637b263a4280c58151c92e7b9",
           "result": {
             "status": "passed",
-            "target_sha256": "3979adc001b452bdd4f7694c74ae096550fa02ab484e92b8d8f064531b183996",
+            "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e",
             "dialogue_records": 85,
             "thomas_branch_cases": 864,
             "native_waits_verified": 124,
@@ -902,10 +902,10 @@
         },
         "object-labels": {
           "report": "build/platform-check/0.10.5/object-labels/report.json",
-          "sha256": "aa279bd28d7024323166806c3e8e1ae7f747bc8ec4471f4767bf147036787ef3",
+          "sha256": "91cc20b5c12701a438cc556c0023abde1eea2cea566249d20640fb8f26abb824",
           "result": {
             "status": "passed",
-            "target_sha256": "3979adc001b452bdd4f7694c74ae096550fa02ab484e92b8d8f064531b183996",
+            "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e",
             "object_label_records": 261,
             "unique_terms": 68,
             "native_waits_verified": 261,
@@ -917,7 +917,7 @@
                 "id": "script.0355.000",
                 "controls": [],
                 "A_settle_frames": 150,
-                "native_wait_pointer": "0x882333d",
+                "native_wait_pointer": "0x882379d",
                 "screenshot": "natural-script.0355.000.png",
                 "ram_state_modified": false
               },
@@ -934,7 +934,7 @@
                   ]
                 ],
                 "A_settle_frames": 150,
-                "native_wait_pointer": "0x8822f42",
+                "native_wait_pointer": "0x88233a2",
                 "screenshot": "natural-script.0351.001.png",
                 "ram_state_modified": false
               }
@@ -952,10 +952,10 @@
         },
         "interaction-hints": {
           "report": "build/platform-check/0.10.5/interaction-hints/report.json",
-          "sha256": "9497372306d5c544f08f6ca187127a8bdae1a63586a7241e62305737d3e41613",
+          "sha256": "1dc22a6d10cad0900fc051d370b653a427d1a45abc0ddc5e53ee9eb66d2743ec",
           "result": {
             "status": "passed",
-            "target_sha256": "3979adc001b452bdd4f7694c74ae096550fa02ab484e92b8d8f064531b183996",
+            "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e",
             "guarded_renderer_lines": 10,
             "native_waits_verified": 4,
             "source_CODE_JUMP_and_unselected_strings_unchanged": true,
@@ -966,6 +966,92 @@
               "Sleep choices, unknown RAW:81A8 label and manual language/layout review outside this batch."
             ],
             "case_count": 3
+          }
+        },
+        "signs": {
+          "report": "build/platform-check/0.10.5/signs/report.json",
+          "sha256": "bb904eeaa21ed89c59cfbf8ddd84b4d275ded150673a532877e99ccd7be1dc5f",
+          "result": {
+            "status": "passed",
+            "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e",
+            "sign_records": 48,
+            "native_widget_cases": 45,
+            "choice_labels_renderer_only": 3,
+            "guarded_renderer_lines": 179,
+            "native_waits_verified": 73,
+            "source_scripts_CODE_JUMP_unchanged": 31,
+            "untranslated_strings_byte_identical": 1,
+            "original_RAW_glyphs_unchanged": [
+              {
+                "code": "8140",
+                "advance_pixels": 16,
+                "foreground_pixels": 0,
+                "staging_sha256": "38723a2e5e8a17aa7950dc008209944e898f69a7bd10a23c839d341e935fd5ca"
+              },
+              {
+                "code": "8145",
+                "advance_pixels": 16,
+                "foreground_pixels": 4,
+                "staging_sha256": "c28c328df106f5785cfe3a5153079bbd1a499baebf962a192dd3a6a8fd1e94ed"
+              },
+              {
+                "code": "8175",
+                "advance_pixels": 16,
+                "foreground_pixels": 12,
+                "staging_sha256": "327b80e3a42eb751dab10fb87e171966323c62f1c43b2743ea17f90f4b486176"
+              },
+              {
+                "code": "8176",
+                "advance_pixels": 16,
+                "foreground_pixels": 12,
+                "staging_sha256": "dedd8653316db66ec25354b95db39cc690f2368a09d4755fd748c29aa2228e32"
+              },
+              {
+                "code": "8199",
+                "advance_pixels": 16,
+                "foreground_pixels": 31,
+                "staging_sha256": "2642d9d21f3d2c34ddcc953288411b7e9db4283548c5b46452789ddd631380a3"
+              },
+              {
+                "code": "81A1",
+                "advance_pixels": 16,
+                "foreground_pixels": 121,
+                "staging_sha256": "00d1a59e2385ef0b57d33ba7444372fdc0bad428c7c5f970fb7634959ee314bf"
+              },
+              {
+                "code": "81A8",
+                "advance_pixels": 16,
+                "foreground_pixels": 15,
+                "staging_sha256": "266a0a6b6cdc80d67566c1291f2744c690533b08968e58b7210d388d3fdb6374"
+              },
+              {
+                "code": "81A9",
+                "advance_pixels": 16,
+                "foreground_pixels": 15,
+                "staging_sha256": "bdce4bf7fe8fdc81f6868c9432b5fe11975aadc8663d69a7e18d6a4040234194"
+              },
+              {
+                "code": "81AA",
+                "advance_pixels": 16,
+                "foreground_pixels": 15,
+                "staging_sha256": "86b990d9121cb2f5e976098ffd8b0f682d9553a4aaabb18773d3592b18617db9"
+              },
+              {
+                "code": "81AB",
+                "advance_pixels": 16,
+                "foreground_pixels": 15,
+                "staging_sha256": "d3cb12ee31c4869b4a2d66674fb30fbda249238f5389804d18859506d539b4ba"
+              }
+            ],
+            "sram_unchanged": true,
+            "emulator_error_count": 0,
+            "limitations": [
+              "Native UI fixtures hosted in the house, not natural encounters with every sign.",
+              "Three choice labels tested by renderer and source call, not the native choice widget.",
+              "Variables preserved in ROM; layout fixtures substitute twelve digits, not proof of native variable values.",
+              "Manual language/layout review and physical-map completeness pending."
+            ],
+            "case_count": 45
           }
         }
       },
@@ -1321,9 +1407,9 @@
       "suites": {
         "full": {
           "report": "build/platform-check/dev/full/report.json",
-          "sha256": "13716e5b126bcfd3c1ade218bbd5fec7748b06d00aca046ac7b1ee5b161edd90",
+          "sha256": "4cc15c5a893dca2288373ce7ec66f4c80391645c51e788e0c5384c18d6713fe2",
           "result": {
-            "target_sha256": "3979adc001b452bdd4f7694c74ae096550fa02ab484e92b8d8f064531b183996",
+            "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e",
             "checks": {
               "ascii_native_outlines_at_common_baseline": 95,
               "legacy_glyph_fallback_unchanged": 10,
@@ -1394,9 +1480,9 @@
         },
         "new-game": {
           "report": "build/platform-check/dev/new-game/report.json",
-          "sha256": "6f7e54db19ce3fab676a41e165b22718106a1f8106f974d769eaba6ab4c23a81",
+          "sha256": "8d9792e574e62e6f23ff2602993e0afb063fe367c0280fb07fa349ffc7cfebd6",
           "result": {
-            "target_sha256": "3979adc001b452bdd4f7694c74ae096550fa02ab484e92b8d8f064531b183996",
+            "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e",
             "status": "passed",
             "checks": [
               "four seasons x days 1/30 through normal controls",
@@ -1414,9 +1500,9 @@
         },
         "start": {
           "report": "build/platform-check/dev/start/report.json",
-          "sha256": "a1e8d758839d7210daa8c64e2b33313d265be480abe93f400070e318d127f51e",
+          "sha256": "20924f95631350c693015550124df6380b09472ccd093826687a2fdc7c4726d5",
           "result": {
-            "target_sha256": "3979adc001b452bdd4f7694c74ae096550fa02ab484e92b8d8f064531b183996",
+            "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e",
             "status": "passed",
             "translated_records": 162,
             "isolated_renderer_lines_with_guards": 239,
@@ -1450,9 +1536,9 @@
         },
         "date": {
           "report": "build/platform-check/dev/date/report.json",
-          "sha256": "84ef2edce75a9b7e235bee8b07e0d06035edafba36be39d64e5168182c253d02",
+          "sha256": "6bdee4e4be646e49c3a4cda79445007b3bb5796beda9965f5215c8a690ce306c",
           "result": {
-            "target_sha256": "3979adc001b452bdd4f7694c74ae096550fa02ab484e92b8d8f064531b183996",
+            "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e",
             "revision": "vietnamese-calendar-heading-v19",
             "limitations": [
               "Calendar fixtures change UI view fields, not elapsed gameplay years",
@@ -1923,9 +2009,9 @@
         },
         "items": {
           "report": "build/platform-check/dev/items/report.json",
-          "sha256": "f91dab7c26d521f4d5f305fcdb460543196ff64b1198bd0a3e2593e504e19349",
+          "sha256": "9ed78de0342f5dc8c51b6ffd4ea87886f6fe7dea1b0af9e9147e89eb0e69cc94",
           "result": {
-            "target_sha256": "3979adc001b452bdd4f7694c74ae096550fa02ab484e92b8d8f064531b183996",
+            "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e",
             "status": "passed",
             "record_ids": [
               "item.tool.000.description",
@@ -1960,9 +2046,9 @@
         },
         "item-audit": {
           "report": "build/platform-check/dev/item-audit/report.json",
-          "sha256": "6dc84f95041b71aaa3f3f14d13f1c15069ca0917d915536b271cfbc45314733c",
+          "sha256": "b68b4e8a8c0a3ad00ddc44282d1a085927bc3d8ac4e764895828e97306dfe87a",
           "result": {
-            "target_sha256": "3979adc001b452bdd4f7694c74ae096550fa02ab484e92b8d8f064531b183996",
+            "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e",
             "item_names": 347,
             "item_descriptions": 347,
             "native_shop_and_item_literals": 26,
@@ -2164,10 +2250,10 @@
         },
         "item-ui": {
           "report": "build/platform-check/dev/item-ui/report.json",
-          "sha256": "ebdacf892289904a9b972112476eb4b0e64bab7a22bd2d24d9323f8d0747bc9f",
+          "sha256": "9aa3f061aee8ec4a7272f0d859d60222b712dcff439511bc7ccc1de9dcd0a1b1",
           "result": {
             "status": "passed",
-            "target_sha256": "3979adc001b452bdd4f7694c74ae096550fa02ab484e92b8d8f064531b183996",
+            "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e",
             "item_info_windows": 347,
             "native_scroll_cases": 1,
             "wrapped_name_windows": 266,
@@ -2185,10 +2271,10 @@
         },
         "npc-daily": {
           "report": "build/platform-check/dev/npc-daily/report.json",
-          "sha256": "e9a53559d77f980fe708db992cbfda38295d2515a3437c36b4668f22e62609f3",
+          "sha256": "34dcd872cf960aefbac253f67f10710ef1f453f637b263a4280c58151c92e7b9",
           "result": {
             "status": "passed",
-            "target_sha256": "3979adc001b452bdd4f7694c74ae096550fa02ab484e92b8d8f064531b183996",
+            "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e",
             "dialogue_records": 85,
             "thomas_branch_cases": 864,
             "native_waits_verified": 124,
@@ -2206,10 +2292,10 @@
         },
         "object-labels": {
           "report": "build/platform-check/dev/object-labels/report.json",
-          "sha256": "aa279bd28d7024323166806c3e8e1ae7f747bc8ec4471f4767bf147036787ef3",
+          "sha256": "91cc20b5c12701a438cc556c0023abde1eea2cea566249d20640fb8f26abb824",
           "result": {
             "status": "passed",
-            "target_sha256": "3979adc001b452bdd4f7694c74ae096550fa02ab484e92b8d8f064531b183996",
+            "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e",
             "object_label_records": 261,
             "unique_terms": 68,
             "native_waits_verified": 261,
@@ -2221,7 +2307,7 @@
                 "id": "script.0355.000",
                 "controls": [],
                 "A_settle_frames": 150,
-                "native_wait_pointer": "0x882333d",
+                "native_wait_pointer": "0x882379d",
                 "screenshot": "natural-script.0355.000.png",
                 "ram_state_modified": false
               },
@@ -2238,7 +2324,7 @@
                   ]
                 ],
                 "A_settle_frames": 150,
-                "native_wait_pointer": "0x8822f42",
+                "native_wait_pointer": "0x88233a2",
                 "screenshot": "natural-script.0351.001.png",
                 "ram_state_modified": false
               }
@@ -2256,10 +2342,10 @@
         },
         "interaction-hints": {
           "report": "build/platform-check/dev/interaction-hints/report.json",
-          "sha256": "9497372306d5c544f08f6ca187127a8bdae1a63586a7241e62305737d3e41613",
+          "sha256": "1dc22a6d10cad0900fc051d370b653a427d1a45abc0ddc5e53ee9eb66d2743ec",
           "result": {
             "status": "passed",
-            "target_sha256": "3979adc001b452bdd4f7694c74ae096550fa02ab484e92b8d8f064531b183996",
+            "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e",
             "guarded_renderer_lines": 10,
             "native_waits_verified": 4,
             "source_CODE_JUMP_and_unselected_strings_unchanged": true,
@@ -2270,6 +2356,92 @@
               "Sleep choices, unknown RAW:81A8 label and manual language/layout review outside this batch."
             ],
             "case_count": 3
+          }
+        },
+        "signs": {
+          "report": "build/platform-check/dev/signs/report.json",
+          "sha256": "bb904eeaa21ed89c59cfbf8ddd84b4d275ded150673a532877e99ccd7be1dc5f",
+          "result": {
+            "status": "passed",
+            "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e",
+            "sign_records": 48,
+            "native_widget_cases": 45,
+            "choice_labels_renderer_only": 3,
+            "guarded_renderer_lines": 179,
+            "native_waits_verified": 73,
+            "source_scripts_CODE_JUMP_unchanged": 31,
+            "untranslated_strings_byte_identical": 1,
+            "original_RAW_glyphs_unchanged": [
+              {
+                "code": "8140",
+                "advance_pixels": 16,
+                "foreground_pixels": 0,
+                "staging_sha256": "38723a2e5e8a17aa7950dc008209944e898f69a7bd10a23c839d341e935fd5ca"
+              },
+              {
+                "code": "8145",
+                "advance_pixels": 16,
+                "foreground_pixels": 4,
+                "staging_sha256": "c28c328df106f5785cfe3a5153079bbd1a499baebf962a192dd3a6a8fd1e94ed"
+              },
+              {
+                "code": "8175",
+                "advance_pixels": 16,
+                "foreground_pixels": 12,
+                "staging_sha256": "327b80e3a42eb751dab10fb87e171966323c62f1c43b2743ea17f90f4b486176"
+              },
+              {
+                "code": "8176",
+                "advance_pixels": 16,
+                "foreground_pixels": 12,
+                "staging_sha256": "dedd8653316db66ec25354b95db39cc690f2368a09d4755fd748c29aa2228e32"
+              },
+              {
+                "code": "8199",
+                "advance_pixels": 16,
+                "foreground_pixels": 31,
+                "staging_sha256": "2642d9d21f3d2c34ddcc953288411b7e9db4283548c5b46452789ddd631380a3"
+              },
+              {
+                "code": "81A1",
+                "advance_pixels": 16,
+                "foreground_pixels": 121,
+                "staging_sha256": "00d1a59e2385ef0b57d33ba7444372fdc0bad428c7c5f970fb7634959ee314bf"
+              },
+              {
+                "code": "81A8",
+                "advance_pixels": 16,
+                "foreground_pixels": 15,
+                "staging_sha256": "266a0a6b6cdc80d67566c1291f2744c690533b08968e58b7210d388d3fdb6374"
+              },
+              {
+                "code": "81A9",
+                "advance_pixels": 16,
+                "foreground_pixels": 15,
+                "staging_sha256": "bdce4bf7fe8fdc81f6868c9432b5fe11975aadc8663d69a7e18d6a4040234194"
+              },
+              {
+                "code": "81AA",
+                "advance_pixels": 16,
+                "foreground_pixels": 15,
+                "staging_sha256": "86b990d9121cb2f5e976098ffd8b0f682d9553a4aaabb18773d3592b18617db9"
+              },
+              {
+                "code": "81AB",
+                "advance_pixels": 16,
+                "foreground_pixels": 15,
+                "staging_sha256": "d3cb12ee31c4869b4a2d66674fb30fbda249238f5389804d18859506d539b4ba"
+              }
+            ],
+            "sram_unchanged": true,
+            "emulator_error_count": 0,
+            "limitations": [
+              "Native UI fixtures hosted in the house, not natural encounters with every sign.",
+              "Three choice labels tested by renderer and source call, not the native choice widget.",
+              "Variables preserved in ROM; layout fixtures substitute twelve digits, not proof of native variable values.",
+              "Manual language/layout review and physical-map completeness pending."
+            ],
+            "case_count": 45
           }
         }
       },
@@ -2623,15 +2795,15 @@
   },
   "pytest_log": "build/platform-check/logs/pytest.log",
   "pytest": {
-    "passed": 140,
+    "passed": 144,
     "failed": 0,
     "skipped": 0
   },
-  "target_sha256": "3979adc001b452bdd4f7694c74ae096550fa02ab484e92b8d8f064531b183996",
-  "patch_sha256": "f0972d39442572daac0ea42d1de6dc13b00502a91ce2d6aad3957a654d1312c1",
+  "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e",
+  "patch_sha256": "43c6e01faad0796cae29b08f934348ee782bece3b13e79795ec22ee5b59c891f",
   "repeated_builds_identical": true,
   "release_ips_round_trip": true,
-  "locked_files_checked": 39,
+  "locked_files_checked": 42,
   "golden_references_checked": 43,
   "emulator_replay_run": true
 }

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Local English–Vietnamese translation editor; no ROM or external API required.
 
-The extracted catalog supplies immutable source fields. Saving edits the six
+The extracted catalog supplies immutable source fields. Saving edits the seven
 existing translation files, never QA approvals, font assets or the ROM.
 """
 from __future__ import annotations
@@ -165,7 +165,9 @@ class Repository:
             error('context', row['blocked_reason'] or 'Cần xác minh ngữ cảnh trước khi dịch.')
         if not text.strip():
             error('empty', 'Bản dịch đang trống.')
-        if expected != actual:
+        from fomt_text import matching_tokens
+        if not matching_tokens(original['original_english'],text,
+                padding_reflow=original.get('source',{}).get('sign_context',{}).get('padding_reflow',False)):
             error('tokens', 'Thiếu, thừa hoặc đổi thứ tự control code / placeholder.')
         metrics = {'max_columns': row['max_columns'], 'maximum_tiles': None, 'encoded_bytes': None,
                    'max_encoded_bytes': row['max_encoded_bytes'], 'dynamic_variable_reserve': False}

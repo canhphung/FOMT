@@ -1,0 +1,2228 @@
+{
+  "schema_version": 1,
+  "rom_sha1": "a2fc3574f0a65a4fcf7682fb274b9d7eebdef963",
+  "records": [
+    {
+      "id": "script.0085.000",
+      "rom_address": "0x082C3640",
+      "rom_offset": "0x2C3640",
+      "original_english": "Enter the Hot Spring{CR}{LF}from here. However, you{CR}{LF}can't get in while{WAIT}{CR}{LF}holding something.{WAIT}",
+      "vietnamese_translation": "",
+      "context": "sign_text",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "456e7465722074686520486f7420537072696e670d0a66726f6d20686572652e20486f77657665722c20796f750d0a63616e27742067657420696e207768696c65050d0a686f6c64696e6720736f6d657468696e672e05",
+      "source": {
+        "kind": "script",
+        "script_id": 85,
+        "string_index": 0,
+        "script_offset": 2897172,
+        "script_pointer_offset": 1018664,
+        "relative_offset_slot": 2897468,
+        "pool_offset": 2897472,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "sign_context": {
+          "code_sha256": "b895bcb5cccc32dbded8f26ad3f5c1631edd2ef3bcefc969c56876b8ed5b76d9",
+          "display_sites": [
+            {
+              "code_offset": 246,
+              "native_call": 33,
+              "text_flags": 256
+            }
+          ],
+          "padding_reflow": false
+        },
+        "context_reference": "localization/signs.json; docs/SIGN_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0158.000",
+      "rom_address": "0x082CBFB4",
+      "rom_offset": "0x2CBFB4",
+      "original_english": "Fish food storage sign{WAIT}",
+      "vietnamese_translation": "",
+      "context": "sign_text",
+      "speaker": null,
+      "control_codes": [
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "4669736820666f6f642073746f72616765207369676e05",
+      "source": {
+        "kind": "script",
+        "script_id": 158,
+        "string_index": 0,
+        "script_offset": 2932600,
+        "script_pointer_offset": 1018956,
+        "relative_offset_slot": 2932656,
+        "pool_offset": 2932660,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "sign_context": {
+          "code_sha256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+          "display_sites": [
+            {
+              "code_offset": 7,
+              "native_call": 35,
+              "text_flags": 0
+            }
+          ],
+          "padding_reflow": false
+        },
+        "context_reference": "localization/signs.json; docs/SIGN_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0159.000",
+      "rom_address": "0x082CC008",
+      "rom_offset": "0x2CC008",
+      "original_english": "{RAW:81A9}Stable{WAIT}",
+      "vietnamese_translation": "",
+      "context": "sign_text",
+      "speaker": null,
+      "control_codes": [
+        "{RAW:81A9}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "81a9537461626c6505",
+      "source": {
+        "kind": "script",
+        "script_id": 159,
+        "string_index": 0,
+        "script_offset": 2932684,
+        "script_pointer_offset": 1018960,
+        "relative_offset_slot": 2932740,
+        "pool_offset": 2932744,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "sign_context": {
+          "code_sha256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+          "display_sites": [
+            {
+              "code_offset": 7,
+              "native_call": 35,
+              "text_flags": 0
+            }
+          ],
+          "padding_reflow": false
+        },
+        "context_reference": "localization/signs.json; docs/SIGN_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0160.000",
+      "rom_address": "0x082CC060",
+      "rom_offset": "0x2CC060",
+      "original_english": "Pieces of Lumber{CR}{LF}{RAW:8140}{CR}{LF}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{VAR:25}boards{WAIT}",
+      "vietnamese_translation": "",
+      "context": "sign_text",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{RAW:8140}",
+        "{CR}",
+        "{LF}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{VAR:25}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "506965636573206f66204c756d6265720d0a81400d0a8140814081408140814081408140ff25626f6172647305",
+      "source": {
+        "kind": "script",
+        "script_id": 160,
+        "string_index": 0,
+        "script_offset": 2932756,
+        "script_pointer_offset": 1018964,
+        "relative_offset_slot": 2932828,
+        "pool_offset": 2932832,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "sign_context": {
+          "code_sha256": "b47b5b34ee19767ba5da213066437ff80a01d5c0786587639582a2528918dbb1",
+          "display_sites": [
+            {
+              "code_offset": 23,
+              "native_call": 35,
+              "text_flags": 0
+            }
+          ],
+          "padding_reflow": false
+        },
+        "context_reference": "localization/signs.json; docs/SIGN_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0161.000",
+      "rom_address": "0x082CC0CC",
+      "rom_offset": "0x2CC0CC",
+      "original_english": "{RAW:81AA}Water Drawing Spot{WAIT}",
+      "vietnamese_translation": "",
+      "context": "sign_text",
+      "speaker": null,
+      "control_codes": [
+        "{RAW:81AA}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "81aa57617465722044726177696e672053706f7405",
+      "source": {
+        "kind": "script",
+        "script_id": 161,
+        "string_index": 0,
+        "script_offset": 2932880,
+        "script_pointer_offset": 1018968,
+        "relative_offset_slot": 2932936,
+        "pool_offset": 2932940,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "sign_context": {
+          "code_sha256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+          "display_sites": [
+            {
+              "code_offset": 7,
+              "native_call": 35,
+              "text_flags": 0
+            }
+          ],
+          "padding_reflow": false
+        },
+        "context_reference": "localization/signs.json; docs/SIGN_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0162.000",
+      "rom_address": "0x082CC120",
+      "rom_offset": "0x2CC120",
+      "original_english": "Shipment Box{RAW:81A8}{WAIT}",
+      "vietnamese_translation": "",
+      "context": "sign_text",
+      "speaker": null,
+      "control_codes": [
+        "{RAW:81A8}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "536869706d656e7420426f7881a805",
+      "source": {
+        "kind": "script",
+        "script_id": 162,
+        "string_index": 0,
+        "script_offset": 2932964,
+        "script_pointer_offset": 1018972,
+        "relative_offset_slot": 2933020,
+        "pool_offset": 2933024,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "sign_context": {
+          "code_sha256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+          "display_sites": [
+            {
+              "code_offset": 7,
+              "native_call": 35,
+              "text_flags": 0
+            }
+          ],
+          "padding_reflow": false
+        },
+        "context_reference": "localization/signs.json; docs/SIGN_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0163.000",
+      "rom_address": "0x082CC17C",
+      "rom_offset": "0x2CC17C",
+      "original_english": "Amount of Animal Fodder{CR}{LF}{RAW:8140}{CR}{LF}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{VAR:25}bushels{WAIT}",
+      "vietnamese_translation": "",
+      "context": "sign_text",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{RAW:8140}",
+        "{CR}",
+        "{LF}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{VAR:25}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "416d6f756e74206f6620416e696d616c20466f646465720d0a81400d0a8140814081408140814081408140ff2562757368656c7305",
+      "source": {
+        "kind": "script",
+        "script_id": 163,
+        "string_index": 0,
+        "script_offset": 2933040,
+        "script_pointer_offset": 1018976,
+        "relative_offset_slot": 2933112,
+        "pool_offset": 2933116,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "sign_context": {
+          "code_sha256": "6fff5a004e2a3a61c9e7cb48cf4ea79b92071a62aa17120cc627da39eaecfc42",
+          "display_sites": [
+            {
+              "code_offset": 23,
+              "native_call": 35,
+              "text_flags": 0
+            }
+          ],
+          "padding_reflow": false
+        },
+        "context_reference": "localization/signs.json; docs/SIGN_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0164.000",
+      "rom_address": "0x082CC1F0",
+      "rom_offset": "0x2CC1F0",
+      "original_english": "{RAW:81AA}Water Mill{CR}{LF}Put Corn in here to get{CR}{LF}30 bushels of Chicken Feed.{WAIT}",
+      "vietnamese_translation": "",
+      "context": "sign_text",
+      "speaker": null,
+      "control_codes": [
+        "{RAW:81AA}",
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "81aa5761746572204d696c6c0d0a50757420436f726e20696e206865726520746f206765740d0a33302062757368656c73206f6620436869636b656e20466565642e05",
+      "source": {
+        "kind": "script",
+        "script_id": 164,
+        "string_index": 0,
+        "script_offset": 2933172,
+        "script_pointer_offset": 1018980,
+        "relative_offset_slot": 2933228,
+        "pool_offset": 2933232,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "sign_context": {
+          "code_sha256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+          "display_sites": [
+            {
+              "code_offset": 7,
+              "native_call": 35,
+              "text_flags": 0
+            }
+          ],
+          "padding_reflow": false
+        },
+        "context_reference": "localization/signs.json; docs/SIGN_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0405.000",
+      "rom_address": "0x082EDA80",
+      "rom_offset": "0x2EDA80",
+      "original_english": "The Square's Garbage Can{CR}{LF}Throw away garbage here.{WAIT}",
+      "vietnamese_translation": "",
+      "context": "sign_text",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "54686520537175617265277320476172626167652043616e0d0a5468726f772061776179206761726261676520686572652e05",
+      "source": {
+        "kind": "script",
+        "script_id": 405,
+        "string_index": 0,
+        "script_offset": 3070316,
+        "script_pointer_offset": 1019944,
+        "relative_offset_slot": 3070588,
+        "pool_offset": 3070592,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "sign_context": {
+          "code_sha256": "ad12d6e6491a959460ae5de9c44c19ff26d9e209afdde3ffb3fee73ac6ef8c17",
+          "display_sites": [
+            {
+              "code_offset": 34,
+              "native_call": 35,
+              "text_flags": 0
+            },
+            {
+              "code_offset": 106,
+              "native_call": 35,
+              "text_flags": 0
+            },
+            {
+              "code_offset": 166,
+              "native_call": 35,
+              "text_flags": 0
+            }
+          ],
+          "padding_reflow": false
+        },
+        "context_reference": "localization/signs.json; docs/SIGN_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0490.000",
+      "rom_address": "0x08328CD0",
+      "rom_offset": "0x328CD0",
+      "original_english": "Hot Spring{CR}{LF}Effects: Recuperate {CR}{LF}Stamina and Fatigue{WAIT}",
+      "vietnamese_translation": "",
+      "context": "sign_text",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "486f7420537072696e670d0a456666656374733a2052656375706572617465200d0a5374616d696e6120616e64204661746967756505",
+      "source": {
+        "kind": "script",
+        "script_id": 490,
+        "string_index": 0,
+        "script_offset": 3312788,
+        "script_pointer_offset": 1020284,
+        "relative_offset_slot": 3312844,
+        "pool_offset": 3312848,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "sign_context": {
+          "code_sha256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+          "display_sites": [
+            {
+              "code_offset": 7,
+              "native_call": 35,
+              "text_flags": 0
+            }
+          ],
+          "padding_reflow": false
+        },
+        "context_reference": "localization/signs.json; docs/SIGN_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0491.000",
+      "rom_address": "0x08328D44",
+      "rom_offset": "0x328D44",
+      "original_english": "If you throw an Egg in{CR}{LF}from here, you can make a{CR}{LF}Spa-Boiled Egg!{WAIT}",
+      "vietnamese_translation": "",
+      "context": "sign_text",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "496620796f75207468726f7720616e2045676720696e0d0a66726f6d20686572652c20796f752063616e206d616b6520610d0a5370612d426f696c6564204567672105",
+      "source": {
+        "kind": "script",
+        "script_id": 491,
+        "string_index": 0,
+        "script_offset": 3312904,
+        "script_pointer_offset": 1020288,
+        "relative_offset_slot": 3312960,
+        "pool_offset": 3312964,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "sign_context": {
+          "code_sha256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+          "display_sites": [
+            {
+              "code_offset": 7,
+              "native_call": 35,
+              "text_flags": 0
+            }
+          ],
+          "padding_reflow": false
+        },
+        "context_reference": "localization/signs.json; docs/SIGN_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0492.000",
+      "rom_address": "0x08329098",
+      "rom_offset": "0x329098",
+      "original_english": "{RAW:81A1}Beach Rules{RAW:81A1}{WAIT}{PAGE}If you want to play{CR}{LF}frisbee with your dog,{CR}{LF}observe these rules:{WAIT}{PAGE}{RAW:8145}Bring your own frisbee{CR}{LF}{RAW:8145}Mature dogs only{WAIT}{PAGE}Beach is open these times:{CR}{LF}{RAW:8145}Sunny days only in{CR}{LF} Spring, Summer, and Fall.{WAIT}{CR}{LF}{RAW:8145}6AM-5PM{WAIT}{PAGE}Please play safely and{CR}{LF}have fun!{WAIT}",
+      "vietnamese_translation": "",
+      "context": "sign_text",
+      "speaker": null,
+      "control_codes": [
+        "{RAW:81A1}",
+        "{RAW:81A1}",
+        "{WAIT}",
+        "{PAGE}",
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{RAW:8145}",
+        "{CR}",
+        "{LF}",
+        "{RAW:8145}",
+        "{WAIT}",
+        "{PAGE}",
+        "{CR}",
+        "{LF}",
+        "{RAW:8145}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{CR}",
+        "{LF}",
+        "{RAW:8145}",
+        "{WAIT}",
+        "{PAGE}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "81a142656163682052756c657381a1050c496620796f752077616e7420746f20706c61790d0a66726973626565207769746820796f757220646f672c0d0a6f6273657276652074686573652072756c65733a050c81454272696e6720796f7572206f776e20667269736265650d0a81454d617475726520646f6773206f6e6c79050c4265616368206973206f70656e2074686573652074696d65733a0d0a814553756e6e792064617973206f6e6c7920696e0d0a20537072696e672c2053756d6d65722c20616e642046616c6c2e050d0a814536414d2d35504d050c506c6561736520706c617920736166656c7920616e640d0a686176652066756e2105",
+      "source": {
+        "kind": "script",
+        "script_id": 492,
+        "string_index": 0,
+        "script_offset": 3313032,
+        "script_pointer_offset": 1020292,
+        "relative_offset_slot": 3313800,
+        "pool_offset": 3313816,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "sign_context": {
+          "code_sha256": "7f742ad366ce72d346bb873235c7bcfca1974601b428685ab20aa1338dc27961",
+          "display_sites": [
+            {
+              "code_offset": 115,
+              "native_call": 35,
+              "text_flags": 0
+            }
+          ],
+          "padding_reflow": false
+        },
+        "context_reference": "localization/signs.json; docs/SIGN_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0492.001",
+      "rom_address": "0x08329197",
+      "rom_offset": "0x329197",
+      "original_english": "Play with frisbee?",
+      "vietnamese_translation": "",
+      "context": "frisbee_choice",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "untranslated",
+      "original_bytes": "506c6179207769746820667269736265653f",
+      "source": {
+        "kind": "script",
+        "script_id": 492,
+        "string_index": 1,
+        "script_offset": 3313032,
+        "script_pointer_offset": 1020292,
+        "relative_offset_slot": 3313804,
+        "pool_offset": 3313816,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "sign_context": {
+          "code_sha256": "7f742ad366ce72d346bb873235c7bcfca1974601b428685ab20aa1338dc27961",
+          "display_sites": [],
+          "padding_reflow": false
+        },
+        "context_reference": "localization/signs.json; docs/SIGN_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0492.002",
+      "rom_address": "0x083291AA",
+      "rom_offset": "0x3291AA",
+      "original_english": "Play",
+      "vietnamese_translation": "",
+      "context": "frisbee_choice",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "untranslated",
+      "original_bytes": "506c6179",
+      "source": {
+        "kind": "script",
+        "script_id": 492,
+        "string_index": 2,
+        "script_offset": 3313032,
+        "script_pointer_offset": 1020292,
+        "relative_offset_slot": 3313808,
+        "pool_offset": 3313816,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "sign_context": {
+          "code_sha256": "7f742ad366ce72d346bb873235c7bcfca1974601b428685ab20aa1338dc27961",
+          "display_sites": [],
+          "padding_reflow": false
+        },
+        "context_reference": "localization/signs.json; docs/SIGN_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0492.003",
+      "rom_address": "0x083291AF",
+      "rom_offset": "0x3291AF",
+      "original_english": "Don't play",
+      "vietnamese_translation": "",
+      "context": "frisbee_choice",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "untranslated",
+      "original_bytes": "446f6e277420706c6179",
+      "source": {
+        "kind": "script",
+        "script_id": 492,
+        "string_index": 3,
+        "script_offset": 3313032,
+        "script_pointer_offset": 1020292,
+        "relative_offset_slot": 3313812,
+        "pool_offset": 3313816,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "sign_context": {
+          "code_sha256": "7f742ad366ce72d346bb873235c7bcfca1974601b428685ab20aa1338dc27961",
+          "display_sites": [],
+          "padding_reflow": false
+        },
+        "context_reference": "localization/signs.json; docs/SIGN_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0493.000",
+      "rom_address": "0x083291F8",
+      "rom_offset": "0x3291F8",
+      "original_english": "Kai's Beach House{CR}{LF}Open Summer Only{CR}{LF}Closed Sunday{WAIT}{PAGE}Hours: 11AM-1PM and{CR}{LF}5-7PM. {WAIT}",
+      "vietnamese_translation": "",
+      "context": "sign_text",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "4b6169277320426561636820486f7573650d0a4f70656e2053756d6d6572204f6e6c790d0a436c6f7365642053756e646179050c486f7572733a203131414d2d31504d20616e640d0a352d37504d2e2005",
+      "source": {
+        "kind": "script",
+        "script_id": 493,
+        "string_index": 0,
+        "script_offset": 3314108,
+        "script_pointer_offset": 1020296,
+        "relative_offset_slot": 3314164,
+        "pool_offset": 3314168,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "sign_context": {
+          "code_sha256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+          "display_sites": [
+            {
+              "code_offset": 7,
+              "native_call": 35,
+              "text_flags": 0
+            }
+          ],
+          "padding_reflow": false
+        },
+        "context_reference": "localization/signs.json; docs/SIGN_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0494.000",
+      "rom_address": "0x08329288",
+      "rom_offset": "0x329288",
+      "original_english": "Woodcutter's {CR}{LF}Open 11AM-4PM{CR}{LF}Closed Saturdays{WAIT}",
+      "vietnamese_translation": "",
+      "context": "sign_text",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "576f6f646375747465722773200d0a4f70656e203131414d2d34504d0d0a436c6f7365642053617475726461797305",
+      "source": {
+        "kind": "script",
+        "script_id": 494,
+        "string_index": 0,
+        "script_offset": 3314252,
+        "script_pointer_offset": 1020300,
+        "relative_offset_slot": 3314308,
+        "pool_offset": 3314312,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "sign_context": {
+          "code_sha256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+          "display_sites": [
+            {
+              "code_offset": 7,
+              "native_call": 35,
+              "text_flags": 0
+            }
+          ],
+          "padding_reflow": false
+        },
+        "context_reference": "localization/signs.json; docs/SIGN_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0495.000",
+      "rom_address": "0x083292F4",
+      "rom_offset": "0x3292F4",
+      "original_english": "{RAW:8175}Church{RAW:8176}{CR}{LF}{WAIT}",
+      "vietnamese_translation": "",
+      "context": "sign_text",
+      "speaker": null,
+      "control_codes": [
+        "{RAW:8175}",
+        "{RAW:8176}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "817543687572636881760d0a05",
+      "source": {
+        "kind": "script",
+        "script_id": 495,
+        "string_index": 0,
+        "script_offset": 3314360,
+        "script_pointer_offset": 1020304,
+        "relative_offset_slot": 3314416,
+        "pool_offset": 3314420,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "sign_context": {
+          "code_sha256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+          "display_sites": [
+            {
+              "code_offset": 7,
+              "native_call": 35,
+              "text_flags": 0
+            }
+          ],
+          "padding_reflow": false
+        },
+        "context_reference": "localization/signs.json; docs/SIGN_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0496.000",
+      "rom_address": "0x08329340",
+      "rom_offset": "0x329340",
+      "original_english": "Supermarket{CR}{LF}Open 9AM-5PM{CR}{LF}Closed Tuesdays and Sundays{WAIT}",
+      "vietnamese_translation": "",
+      "context": "sign_text",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "53757065726d61726b65740d0a4f70656e2039414d2d35504d0d0a436c6f73656420547565736461797320616e642053756e6461797305",
+      "source": {
+        "kind": "script",
+        "script_id": 496,
+        "string_index": 0,
+        "script_offset": 3314436,
+        "script_pointer_offset": 1020308,
+        "relative_offset_slot": 3314492,
+        "pool_offset": 3314496,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "sign_context": {
+          "code_sha256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+          "display_sites": [
+            {
+              "code_offset": 7,
+              "native_call": 35,
+              "text_flags": 0
+            }
+          ],
+          "padding_reflow": false
+        },
+        "context_reference": "localization/signs.json; docs/SIGN_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0497.000",
+      "rom_address": "0x083293B4",
+      "rom_offset": "0x3293B4",
+      "original_english": "{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}Church{RAW:81AA}{CR}{LF}{RAW:81A9}North side of Mineral Town{CR}{LF}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}Rose Square{RAW:81AB}{WAIT}",
+      "vietnamese_translation": "",
+      "context": "sign_text",
+      "speaker": null,
+      "control_codes": [
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:81AA}",
+        "{CR}",
+        "{LF}",
+        "{RAW:81A9}",
+        "{CR}",
+        "{LF}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:81AB}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "814081408140814081408140814081408140814043687572636881aa0d0a81a94e6f7274682073696465206f66204d696e6572616c20546f776e0d0a81408140814081408140526f73652053717561726581ab05",
+      "source": {
+        "kind": "script",
+        "script_id": 497,
+        "string_index": 0,
+        "script_offset": 3314552,
+        "script_pointer_offset": 1020312,
+        "relative_offset_slot": 3314608,
+        "pool_offset": 3314612,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "sign_context": {
+          "code_sha256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+          "display_sites": [
+            {
+              "code_offset": 7,
+              "native_call": 35,
+              "text_flags": 0
+            }
+          ],
+          "padding_reflow": true
+        },
+        "context_reference": "localization/signs.json; docs/SIGN_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0498.000",
+      "rom_address": "0x08329448",
+      "rom_offset": "0x329448",
+      "original_english": "{RAW:81AA}North side of Mineral Town{CR}{LF}{RAW:8140}Central Mineral Town{RAW:81A8}{CR}{LF}{RAW:81AB}South side of Mineral Town{WAIT}",
+      "vietnamese_translation": "",
+      "context": "sign_text",
+      "speaker": null,
+      "control_codes": [
+        "{RAW:81AA}",
+        "{CR}",
+        "{LF}",
+        "{RAW:8140}",
+        "{RAW:81A8}",
+        "{CR}",
+        "{LF}",
+        "{RAW:81AB}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "81aa4e6f7274682073696465206f66204d696e6572616c20546f776e0d0a814043656e7472616c204d696e6572616c20546f776e81a80d0a81ab536f7574682073696465206f66204d696e6572616c20546f776e05",
+      "source": {
+        "kind": "script",
+        "script_id": 498,
+        "string_index": 0,
+        "script_offset": 3314700,
+        "script_pointer_offset": 1020316,
+        "relative_offset_slot": 3314756,
+        "pool_offset": 3314760,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "sign_context": {
+          "code_sha256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+          "display_sites": [
+            {
+              "code_offset": 7,
+              "native_call": 35,
+              "text_flags": 0
+            }
+          ],
+          "padding_reflow": false
+        },
+        "context_reference": "localization/signs.json; docs/SIGN_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0499.000",
+      "rom_address": "0x083294DC",
+      "rom_offset": "0x3294DC",
+      "original_english": "North side of Mineral Town{RAW:81A8}{CR}{LF}{RAW:8140}{CR}{LF}{RAW:81AB}Central Mineral Town{WAIT}",
+      "vietnamese_translation": "",
+      "context": "sign_text",
+      "speaker": null,
+      "control_codes": [
+        "{RAW:81A8}",
+        "{CR}",
+        "{LF}",
+        "{RAW:8140}",
+        "{CR}",
+        "{LF}",
+        "{RAW:81AB}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "4e6f7274682073696465206f66204d696e6572616c20546f776e81a80d0a81400d0a81ab43656e7472616c204d696e6572616c20546f776e05",
+      "source": {
+        "kind": "script",
+        "script_id": 499,
+        "string_index": 0,
+        "script_offset": 3314848,
+        "script_pointer_offset": 1020320,
+        "relative_offset_slot": 3314904,
+        "pool_offset": 3314908,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "sign_context": {
+          "code_sha256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+          "display_sites": [
+            {
+              "code_offset": 7,
+              "native_call": 35,
+              "text_flags": 0
+            }
+          ],
+          "padding_reflow": false
+        },
+        "context_reference": "localization/signs.json; docs/SIGN_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0500.000",
+      "rom_address": "0x08329554",
+      "rom_offset": "0x329554",
+      "original_english": "Mineral Clinic{CR}{LF}Office Hours: 9AM-4PM{CR}{LF}Closed on Wednesdays{WAIT}",
+      "vietnamese_translation": "",
+      "context": "sign_text",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "4d696e6572616c20436c696e69630d0a4f666669636520486f7572733a2039414d2d34504d0d0a436c6f736564206f6e205765646e65736461797305",
+      "source": {
+        "kind": "script",
+        "script_id": 500,
+        "string_index": 0,
+        "script_offset": 3314968,
+        "script_pointer_offset": 1020324,
+        "relative_offset_slot": 3315024,
+        "pool_offset": 3315028,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "sign_context": {
+          "code_sha256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+          "display_sites": [
+            {
+              "code_offset": 7,
+              "native_call": 35,
+              "text_flags": 0
+            }
+          ],
+          "padding_reflow": false
+        },
+        "context_reference": "localization/signs.json; docs/SIGN_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0501.000",
+      "rom_address": "0x083295D0",
+      "rom_offset": "0x3295D0",
+      "original_english": "Doug's Place{CR}{LF}Bar Hours: 8:00 - 21:00{WAIT}",
+      "vietnamese_translation": "",
+      "context": "sign_text",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "446f7567277320506c6163650d0a42617220486f7572733a20383a3030202d2032313a303005",
+      "source": {
+        "kind": "script",
+        "script_id": 501,
+        "string_index": 0,
+        "script_offset": 3315092,
+        "script_pointer_offset": 1020328,
+        "relative_offset_slot": 3315148,
+        "pool_offset": 3315152,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "sign_context": {
+          "code_sha256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+          "display_sites": [
+            {
+              "code_offset": 7,
+              "native_call": 35,
+              "text_flags": 0
+            }
+          ],
+          "padding_reflow": false
+        },
+        "context_reference": "localization/signs.json; docs/SIGN_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0502.000",
+      "rom_address": "0x0832967C",
+      "rom_offset": "0x32967C",
+      "original_english": "Mary's Library{CR}{LF}Open: 10AM{CR}{LF}Closed: 4PM  Closed Thursdays{WAIT}",
+      "vietnamese_translation": "",
+      "context": "sign_text",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "4d6172792773204c6962726172790d0a4f70656e3a203130414d0d0a436c6f7365643a2034504d2020436c6f7365642054687572736461797305",
+      "source": {
+        "kind": "script",
+        "script_id": 502,
+        "string_index": 0,
+        "script_offset": 3315192,
+        "script_pointer_offset": 1020332,
+        "relative_offset_slot": 3315316,
+        "pool_offset": 3315324,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "sign_context": {
+          "code_sha256": "4dd7005253fe2b957bcfa1565efe7c3fb3434d3b44e87f11628504a8823ea078",
+          "display_sites": [
+            {
+              "code_offset": 63,
+              "native_call": 35,
+              "text_flags": 0
+            }
+          ],
+          "padding_reflow": false
+        },
+        "context_reference": "localization/signs.json; docs/SIGN_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0502.001",
+      "rom_address": "0x083296B7",
+      "rom_offset": "0x3296B7",
+      "original_english": "Mary's Library{CR}{LF}Open: 10AM{CR}{LF}Closed: 4PM  Closed Mondays{WAIT}",
+      "vietnamese_translation": "",
+      "context": "sign_text",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "4d6172792773204c6962726172790d0a4f70656e3a203130414d0d0a436c6f7365643a2034504d2020436c6f736564204d6f6e6461797305",
+      "source": {
+        "kind": "script",
+        "script_id": 502,
+        "string_index": 1,
+        "script_offset": 3315192,
+        "script_pointer_offset": 1020332,
+        "relative_offset_slot": 3315320,
+        "pool_offset": 3315324,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "sign_context": {
+          "code_sha256": "4dd7005253fe2b957bcfa1565efe7c3fb3434d3b44e87f11628504a8823ea078",
+          "display_sites": [
+            {
+              "code_offset": 75,
+              "native_call": 35,
+              "text_flags": 0
+            }
+          ],
+          "padding_reflow": false
+        },
+        "context_reference": "localization/signs.json; docs/SIGN_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0503.000",
+      "rom_address": "0x0832972C",
+      "rom_offset": "0x32972C",
+      "original_english": "Aja Winery{CR}{LF}Open 10AM to noon{CR}{LF}everyday except Sunday{WAIT}{CR}{LF}We sell wine and juice.{WAIT}",
+      "vietnamese_translation": "",
+      "context": "sign_text",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "416a612057696e6572790d0a4f70656e203130414d20746f206e6f6f6e0d0a6576657279646179206578636570742053756e646179050d0a57652073656c6c2077696e6520616e64206a756963652e05",
+      "source": {
+        "kind": "script",
+        "script_id": 503,
+        "string_index": 0,
+        "script_offset": 3315440,
+        "script_pointer_offset": 1020336,
+        "relative_offset_slot": 3315496,
+        "pool_offset": 3315500,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "sign_context": {
+          "code_sha256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+          "display_sites": [
+            {
+              "code_offset": 7,
+              "native_call": 35,
+              "text_flags": 0
+            }
+          ],
+          "padding_reflow": false
+        },
+        "context_reference": "localization/signs.json; docs/SIGN_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0504.000",
+      "rom_address": "0x083297BC",
+      "rom_offset": "0x3297BC",
+      "original_english": "Poultry Farm{CR}{LF}Open 11AM-4PM{CR}{LF}Closed every Sunday{WAIT}",
+      "vietnamese_translation": "",
+      "context": "sign_text",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "506f756c747279204661726d0d0a4f70656e203131414d2d34504d0d0a436c6f7365642065766572792053756e64617905",
+      "source": {
+        "kind": "script",
+        "script_id": 504,
+        "string_index": 0,
+        "script_offset": 3315584,
+        "script_pointer_offset": 1020340,
+        "relative_offset_slot": 3315640,
+        "pool_offset": 3315644,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "sign_context": {
+          "code_sha256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+          "display_sites": [
+            {
+              "code_offset": 7,
+              "native_call": 35,
+              "text_flags": 0
+            }
+          ],
+          "padding_reflow": false
+        },
+        "context_reference": "localization/signs.json; docs/SIGN_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0505.000",
+      "rom_address": "0x0832982C",
+      "rom_offset": "0x32982C",
+      "original_english": "{RAW:81AA}North side of Mineral Town{CR}{LF}South side of Mineral Town{RAW:81A8}{CR}{LF}{RAW:81AB}{VAR:24}farm{WAIT}",
+      "vietnamese_translation": "",
+      "context": "sign_text",
+      "speaker": null,
+      "control_codes": [
+        "{RAW:81AA}",
+        "{CR}",
+        "{LF}",
+        "{RAW:81A8}",
+        "{CR}",
+        "{LF}",
+        "{RAW:81AB}",
+        "{VAR:24}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "81aa4e6f7274682073696465206f66204d696e6572616c20546f776e0d0a536f7574682073696465206f66204d696e6572616c20546f776e81a80d0a81abff246661726d05",
+      "source": {
+        "kind": "script",
+        "script_id": 505,
+        "string_index": 0,
+        "script_offset": 3315696,
+        "script_pointer_offset": 1020344,
+        "relative_offset_slot": 3315752,
+        "pool_offset": 3315756,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "sign_context": {
+          "code_sha256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+          "display_sites": [
+            {
+              "code_offset": 7,
+              "native_call": 35,
+              "text_flags": 0
+            }
+          ],
+          "padding_reflow": false
+        },
+        "context_reference": "localization/signs.json; docs/SIGN_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0506.000",
+      "rom_address": "0x083298B0",
+      "rom_offset": "0x3298B0",
+      "original_english": "{RAW:81A9}Poultry Farm{CR}{LF}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}Yodel Farm{RAW:81A8}{CR}{LF}{RAW:81AB}Forest{WAIT}",
+      "vietnamese_translation": "",
+      "context": "sign_text",
+      "speaker": null,
+      "control_codes": [
+        "{RAW:81A9}",
+        "{CR}",
+        "{LF}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:81A8}",
+        "{CR}",
+        "{LF}",
+        "{RAW:81AB}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "81a9506f756c747279204661726d0d0a8140814081408140814081408140596f64656c204661726d81a80d0a81ab466f7265737405",
+      "source": {
+        "kind": "script",
+        "script_id": 506,
+        "string_index": 0,
+        "script_offset": 3315828,
+        "script_pointer_offset": 1020348,
+        "relative_offset_slot": 3315884,
+        "pool_offset": 3315888,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "sign_context": {
+          "code_sha256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+          "display_sites": [
+            {
+              "code_offset": 7,
+              "native_call": 35,
+              "text_flags": 0
+            }
+          ],
+          "padding_reflow": false
+        },
+        "context_reference": "localization/signs.json; docs/SIGN_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0507.000",
+      "rom_address": "0x08329924",
+      "rom_offset": "0x329924",
+      "original_english": "{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:81AA}Rose Square{CR}{LF}{RAW:8140}{CR}{LF}{RAW:81A9}South side of Mineral Town{WAIT}",
+      "vietnamese_translation": "",
+      "context": "sign_text",
+      "speaker": null,
+      "control_codes": [
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:81AA}",
+        "{CR}",
+        "{LF}",
+        "{RAW:8140}",
+        "{CR}",
+        "{LF}",
+        "{RAW:81A9}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "814081408140814081408140814081aa526f7365205371756172650d0a81400d0a81a9536f7574682073696465206f66204d696e6572616c20546f776e05",
+      "source": {
+        "kind": "script",
+        "script_id": 507,
+        "string_index": 0,
+        "script_offset": 3315944,
+        "script_pointer_offset": 1020352,
+        "relative_offset_slot": 3316000,
+        "pool_offset": 3316004,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "sign_context": {
+          "code_sha256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+          "display_sites": [
+            {
+              "code_offset": 7,
+              "native_call": 35,
+              "text_flags": 0
+            }
+          ],
+          "padding_reflow": true
+        },
+        "context_reference": "localization/signs.json; docs/SIGN_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0508.000",
+      "rom_address": "0x083299A0",
+      "rom_offset": "0x3299A0",
+      "original_english": "Saibara the Blacksmith{CR}{LF}Open 10AM-4PM{CR}{LF}Closed Thursdays{WAIT}",
+      "vietnamese_translation": "",
+      "context": "sign_text",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "536169626172612074686520426c61636b736d6974680d0a4f70656e203130414d2d34504d0d0a436c6f7365642054687572736461797305",
+      "source": {
+        "kind": "script",
+        "script_id": 508,
+        "string_index": 0,
+        "script_offset": 3316068,
+        "script_pointer_offset": 1020356,
+        "relative_offset_slot": 3316124,
+        "pool_offset": 3316128,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "sign_context": {
+          "code_sha256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+          "display_sites": [
+            {
+              "code_offset": 7,
+              "native_call": 35,
+              "text_flags": 0
+            }
+          ],
+          "padding_reflow": false
+        },
+        "context_reference": "localization/signs.json; docs/SIGN_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0509.000",
+      "rom_address": "0x08329A44",
+      "rom_offset": "0x329A44",
+      "original_english": "{VAR:21}'s Cottage{CR}{LF}{WAIT}",
+      "vietnamese_translation": "",
+      "context": "sign_text",
+      "speaker": null,
+      "control_codes": [
+        "{VAR:21}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "ff21277320436f74746167650d0a05",
+      "source": {
+        "kind": "script",
+        "script_id": 509,
+        "string_index": 0,
+        "script_offset": 3316188,
+        "script_pointer_offset": 1020360,
+        "relative_offset_slot": 3316284,
+        "pool_offset": 3316292,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "sign_context": {
+          "code_sha256": "f6d8c00b6b887e680f0ffa730086d12eb5eaba85a23b37f408a1948aa2d5825e",
+          "display_sites": [
+            {
+              "code_offset": 36,
+              "native_call": 35,
+              "text_flags": 0
+            }
+          ],
+          "padding_reflow": false
+        },
+        "context_reference": "localization/signs.json; docs/SIGN_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0509.001",
+      "rom_address": "0x08329A54",
+      "rom_offset": "0x329A54",
+      "original_english": "Empty Lot{CR}{LF}{WAIT}",
+      "vietnamese_translation": "",
+      "context": "sign_text",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "456d707479204c6f740d0a05",
+      "source": {
+        "kind": "script",
+        "script_id": 509,
+        "string_index": 1,
+        "script_offset": 3316188,
+        "script_pointer_offset": 1020360,
+        "relative_offset_slot": 3316288,
+        "pool_offset": 3316292,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "sign_context": {
+          "code_sha256": "f6d8c00b6b887e680f0ffa730086d12eb5eaba85a23b37f408a1948aa2d5825e",
+          "display_sites": [
+            {
+              "code_offset": 48,
+              "native_call": 35,
+              "text_flags": 0
+            }
+          ],
+          "padding_reflow": false
+        },
+        "context_reference": "localization/signs.json; docs/SIGN_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0510.000",
+      "rom_address": "0x08329AA0",
+      "rom_offset": "0x329AA0",
+      "original_english": "Yodel Farm{CR}{LF}We're open 10AM to {CR}{LF}3PM, except Mondays{WAIT}",
+      "vietnamese_translation": "",
+      "context": "sign_text",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "596f64656c204661726d0d0a5765277265206f70656e203130414d20746f200d0a33504d2c20657863657074204d6f6e6461797305",
+      "source": {
+        "kind": "script",
+        "script_id": 510,
+        "string_index": 0,
+        "script_offset": 3316324,
+        "script_pointer_offset": 1020364,
+        "relative_offset_slot": 3316380,
+        "pool_offset": 3316384,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "sign_context": {
+          "code_sha256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+          "display_sites": [
+            {
+              "code_offset": 7,
+              "native_call": 35,
+              "text_flags": 0
+            }
+          ],
+          "padding_reflow": false
+        },
+        "context_reference": "localization/signs.json; docs/SIGN_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0403.001",
+      "rom_address": "0x082EC42E",
+      "rom_offset": "0x2EC42E",
+      "original_english": "{RAW:8199}New Year Festival{CR}{LF}1st day of Spring, 6PM{CR}{LF}At Rose Square{WAIT}{PAGE}Come one, come all!{CR}{LF}                    Mayor{CR}{LF}{WAIT}",
+      "vietnamese_translation": "",
+      "context": "festival_notice",
+      "speaker": null,
+      "control_codes": [
+        "{RAW:8199}",
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "81994e6577205965617220466573746976616c0d0a31737420646179206f6620537072696e672c2036504d0d0a417420526f736520537175617265050c436f6d65206f6e652c20636f6d6520616c6c210d0a20202020202020202020202020202020202020204d61796f720d0a05",
+      "source": {
+        "kind": "script",
+        "script_id": 403,
+        "string_index": 1,
+        "script_offset": 3063332,
+        "script_pointer_offset": 1019936,
+        "relative_offset_slot": 3064776,
+        "pool_offset": 3064828,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "sign_context": {
+          "code_sha256": "24cdd6a803e6a85a677de734fa3b05c7a70229ddc5f00ec09939147d2af648dc",
+          "display_sites": [
+            {
+              "code_offset": 53,
+              "native_call": 35,
+              "text_flags": 0
+            }
+          ],
+          "padding_reflow": false
+        },
+        "context_reference": "localization/signs.json; docs/SIGN_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0403.002",
+      "rom_address": "0x082EC49D",
+      "rom_offset": "0x2EC49D",
+      "original_english": "{RAW:8199}Spring Horse Races{CR}{LF}18th day of Spring, 10AM{CR}{LF}At Rose Square{WAIT}{PAGE}Come one, come all!{CR}{LF}                    Mayor{CR}{LF}{WAIT}",
+      "vietnamese_translation": "",
+      "context": "festival_notice",
+      "speaker": null,
+      "control_codes": [
+        "{RAW:8199}",
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "8199537072696e6720486f7273652052616365730d0a3138746820646179206f6620537072696e672c203130414d0d0a417420526f736520537175617265050c436f6d65206f6e652c20636f6d6520616c6c210d0a20202020202020202020202020202020202020204d61796f720d0a05",
+      "source": {
+        "kind": "script",
+        "script_id": 403,
+        "string_index": 2,
+        "script_offset": 3063332,
+        "script_pointer_offset": 1019936,
+        "relative_offset_slot": 3064780,
+        "pool_offset": 3064828,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "sign_context": {
+          "code_sha256": "24cdd6a803e6a85a677de734fa3b05c7a70229ddc5f00ec09939147d2af648dc",
+          "display_sites": [
+            {
+              "code_offset": 65,
+              "native_call": 35,
+              "text_flags": 0
+            }
+          ],
+          "padding_reflow": false
+        },
+        "context_reference": "localization/signs.json; docs/SIGN_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0403.003",
+      "rom_address": "0x082EC50F",
+      "rom_offset": "0x2EC50F",
+      "original_english": "{RAW:8199}Cooking Festival{CR}{LF}22nd day of Spring, 10AM{CR}{LF}At Rose Square{WAIT}{PAGE}Spice things up!{CR}{LF}                    Mayor{CR}{LF}{WAIT}",
+      "vietnamese_translation": "",
+      "context": "festival_notice",
+      "speaker": null,
+      "control_codes": [
+        "{RAW:8199}",
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "8199436f6f6b696e6720466573746976616c0d0a32326e6420646179206f6620537072696e672c203130414d0d0a417420526f736520537175617265050c5370696365207468696e6773207570210d0a20202020202020202020202020202020202020204d61796f720d0a05",
+      "source": {
+        "kind": "script",
+        "script_id": 403,
+        "string_index": 3,
+        "script_offset": 3063332,
+        "script_pointer_offset": 1019936,
+        "relative_offset_slot": 3064784,
+        "pool_offset": 3064828,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "sign_context": {
+          "code_sha256": "24cdd6a803e6a85a677de734fa3b05c7a70229ddc5f00ec09939147d2af648dc",
+          "display_sites": [
+            {
+              "code_offset": 77,
+              "native_call": 35,
+              "text_flags": 0
+            }
+          ],
+          "padding_reflow": false
+        },
+        "context_reference": "localization/signs.json; docs/SIGN_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0403.004",
+      "rom_address": "0x082EC57C",
+      "rom_offset": "0x2EC57C",
+      "original_english": "Swimming Festival{CR}{LF}1st day of Summer, 10AM{CR}{LF}At Mineral Beach{WAIT}{PAGE}Bring Dogs to Frisbee{CR}{LF}Tournament!          Mayor{CR}{LF}{WAIT}",
+      "vietnamese_translation": "",
+      "context": "festival_notice",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "5377696d6d696e6720466573746976616c0d0a31737420646179206f662053756d6d65722c203130414d0d0a4174204d696e6572616c204265616368050c4272696e6720446f677320746f20467269736265650d0a546f75726e616d656e7421202020202020202020204d61796f720d0a05",
+      "source": {
+        "kind": "script",
+        "script_id": 403,
+        "string_index": 4,
+        "script_offset": 3063332,
+        "script_pointer_offset": 1019936,
+        "relative_offset_slot": 3064788,
+        "pool_offset": 3064828,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "sign_context": {
+          "code_sha256": "24cdd6a803e6a85a677de734fa3b05c7a70229ddc5f00ec09939147d2af648dc",
+          "display_sites": [
+            {
+              "code_offset": 89,
+              "native_call": 35,
+              "text_flags": 0
+            }
+          ],
+          "padding_reflow": false
+        },
+        "context_reference": "localization/signs.json; docs/SIGN_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0403.005",
+      "rom_address": "0x082EC5EF",
+      "rom_offset": "0x2EC5EF",
+      "original_english": "{RAW:8199}Chicken Festival{CR}{LF}7th day of Summer, 10AM{CR}{LF}At Rose Square{WAIT}{PAGE}Bring your strongest{CR}{LF}Chicken!           Mayor{CR}{LF}{WAIT}",
+      "vietnamese_translation": "",
+      "context": "festival_notice",
+      "speaker": null,
+      "control_codes": [
+        "{RAW:8199}",
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "8199436869636b656e20466573746976616c0d0a37746820646179206f662053756d6d65722c203130414d0d0a417420526f736520537175617265050c4272696e6720796f7572207374726f6e676573740d0a436869636b656e2120202020202020202020204d61796f720d0a05",
+      "source": {
+        "kind": "script",
+        "script_id": 403,
+        "string_index": 5,
+        "script_offset": 3063332,
+        "script_pointer_offset": 1019936,
+        "relative_offset_slot": 3064792,
+        "pool_offset": 3064828,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "sign_context": {
+          "code_sha256": "24cdd6a803e6a85a677de734fa3b05c7a70229ddc5f00ec09939147d2af648dc",
+          "display_sites": [
+            {
+              "code_offset": 128,
+              "native_call": 35,
+              "text_flags": 0
+            }
+          ],
+          "padding_reflow": false
+        },
+        "context_reference": "localization/signs.json; docs/SIGN_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0403.006",
+      "rom_address": "0x082EC65E",
+      "rom_offset": "0x2EC65E",
+      "original_english": "{RAW:8199}Cow Festival{CR}{LF}20th day of Summer, 10AM{CR}{LF}At Rose Square{WAIT}{PAGE}Bring your best Cow!{CR}{LF}                    Mayor{CR}{LF}{WAIT}",
+      "vietnamese_translation": "",
+      "context": "festival_notice",
+      "speaker": null,
+      "control_codes": [
+        "{RAW:8199}",
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "8199436f7720466573746976616c0d0a3230746820646179206f662053756d6d65722c203130414d0d0a417420526f736520537175617265050c4272696e6720796f7572206265737420436f77210d0a20202020202020202020202020202020202020204d61796f720d0a05",
+      "source": {
+        "kind": "script",
+        "script_id": 403,
+        "string_index": 6,
+        "script_offset": 3063332,
+        "script_pointer_offset": 1019936,
+        "relative_offset_slot": 3064796,
+        "pool_offset": 3064828,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "sign_context": {
+          "code_sha256": "24cdd6a803e6a85a677de734fa3b05c7a70229ddc5f00ec09939147d2af648dc",
+          "display_sites": [
+            {
+              "code_offset": 140,
+              "native_call": 35,
+              "text_flags": 0
+            }
+          ],
+          "padding_reflow": false
+        },
+        "context_reference": "localization/signs.json; docs/SIGN_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0403.007",
+      "rom_address": "0x082EC6CB",
+      "rom_offset": "0x2EC6CB",
+      "original_english": "{RAW:8199}Fireworks Festival{CR}{LF}24th day of Summer, 6PM{CR}{LF}Mineral Beach{WAIT}{PAGE}Come celebrate the end of{CR}{LF}Summer!              Mayor{CR}{LF}{WAIT}",
+      "vietnamese_translation": "",
+      "context": "festival_notice",
+      "speaker": null,
+      "control_codes": [
+        "{RAW:8199}",
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "819946697265776f726b7320466573746976616c0d0a3234746820646179206f662053756d6d65722c2036504d0d0a4d696e6572616c204265616368050c436f6d652063656c6562726174652074686520656e64206f660d0a53756d6d65722120202020202020202020202020204d61796f720d0a05",
+      "source": {
+        "kind": "script",
+        "script_id": 403,
+        "string_index": 7,
+        "script_offset": 3063332,
+        "script_pointer_offset": 1019936,
+        "relative_offset_slot": 3064800,
+        "pool_offset": 3064828,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "sign_context": {
+          "code_sha256": "24cdd6a803e6a85a677de734fa3b05c7a70229ddc5f00ec09939147d2af648dc",
+          "display_sites": [
+            {
+              "code_offset": 152,
+              "native_call": 35,
+              "text_flags": 0
+            }
+          ],
+          "padding_reflow": false
+        },
+        "context_reference": "localization/signs.json; docs/SIGN_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0403.008",
+      "rom_address": "0x082EC742",
+      "rom_offset": "0x2EC742",
+      "original_english": "{RAW:8199}Music Festival{CR}{LF}3rd day of Fall, 6PM{CR}{LF}At the Church{WAIT}{PAGE}Come celebrate the Fall{CR}{LF}Equinox!             Mayor{CR}{LF}{WAIT}",
+      "vietnamese_translation": "",
+      "context": "festival_notice",
+      "speaker": null,
+      "control_codes": [
+        "{RAW:8199}",
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "81994d7573696320466573746976616c0d0a33726420646179206f662046616c6c2c2036504d0d0a41742074686520436875726368050c436f6d652063656c656272617465207468652046616c6c0d0a457175696e6f7821202020202020202020202020204d61796f720d0a05",
+      "source": {
+        "kind": "script",
+        "script_id": 403,
+        "string_index": 8,
+        "script_offset": 3063332,
+        "script_pointer_offset": 1019936,
+        "relative_offset_slot": 3064804,
+        "pool_offset": 3064828,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "sign_context": {
+          "code_sha256": "24cdd6a803e6a85a677de734fa3b05c7a70229ddc5f00ec09939147d2af648dc",
+          "display_sites": [
+            {
+              "code_offset": 164,
+              "native_call": 35,
+              "text_flags": 0
+            },
+            {
+              "code_offset": 203,
+              "native_call": 35,
+              "text_flags": 0
+            }
+          ],
+          "padding_reflow": false
+        },
+        "context_reference": "localization/signs.json; docs/SIGN_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0403.009",
+      "rom_address": "0x082EC7B0",
+      "rom_offset": "0x2EC7B0",
+      "original_english": "{RAW:8199}Harvest Festival{CR}{LF}9th day of Fall, 10AM{CR}{LF}At Rose Square{WAIT}{PAGE}Come to partake together!{CR}{LF}                     Mayor{CR}{LF}{WAIT}",
+      "vietnamese_translation": "",
+      "context": "festival_notice",
+      "speaker": null,
+      "control_codes": [
+        "{RAW:8199}",
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "81994861727665737420466573746976616c0d0a39746820646179206f662046616c6c2c203130414d0d0a417420526f736520537175617265050c436f6d6520746f2070617274616b6520746f676574686572210d0a2020202020202020202020202020202020202020204d61796f720d0a05",
+      "source": {
+        "kind": "script",
+        "script_id": 403,
+        "string_index": 9,
+        "script_offset": 3063332,
+        "script_pointer_offset": 1019936,
+        "relative_offset_slot": 3064808,
+        "pool_offset": 3064828,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "sign_context": {
+          "code_sha256": "24cdd6a803e6a85a677de734fa3b05c7a70229ddc5f00ec09939147d2af648dc",
+          "display_sites": [
+            {
+              "code_offset": 215,
+              "native_call": 35,
+              "text_flags": 0
+            }
+          ],
+          "padding_reflow": false
+        },
+        "context_reference": "localization/signs.json; docs/SIGN_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0403.010",
+      "rom_address": "0x082EC824",
+      "rom_offset": "0x2EC824",
+      "original_english": "{RAW:8199}Fall Horse Races{CR}{LF}18th day of Fall, 10AM{CR}{LF}At Rose Square{WAIT}{PAGE}Come one, come all!{CR}{LF}                    Mayor{CR}{LF}{WAIT}",
+      "vietnamese_translation": "",
+      "context": "festival_notice",
+      "speaker": null,
+      "control_codes": [
+        "{RAW:8199}",
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "819946616c6c20486f7273652052616365730d0a3138746820646179206f662046616c6c2c203130414d0d0a417420526f736520537175617265050c436f6d65206f6e652c20636f6d6520616c6c210d0a20202020202020202020202020202020202020204d61796f720d0a05",
+      "source": {
+        "kind": "script",
+        "script_id": 403,
+        "string_index": 10,
+        "script_offset": 3063332,
+        "script_pointer_offset": 1019936,
+        "relative_offset_slot": 3064812,
+        "pool_offset": 3064828,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "sign_context": {
+          "code_sha256": "24cdd6a803e6a85a677de734fa3b05c7a70229ddc5f00ec09939147d2af648dc",
+          "display_sites": [
+            {
+              "code_offset": 227,
+              "native_call": 35,
+              "text_flags": 0
+            }
+          ],
+          "padding_reflow": false
+        },
+        "context_reference": "localization/signs.json; docs/SIGN_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0403.011",
+      "rom_address": "0x082EC892",
+      "rom_offset": "0x2EC892",
+      "original_english": "{RAW:8199}Sheep Festival{CR}{LF}21st day of Fall, 10AM{CR}{LF}At Yodel Farm{WAIT}{PAGE}Bring Dyed in the Wool{CR}{LF}Sheep!               Mayor{CR}{LF}{WAIT}",
+      "vietnamese_translation": "",
+      "context": "festival_notice",
+      "speaker": null,
+      "control_codes": [
+        "{RAW:8199}",
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "8199536865657020466573746976616c0d0a3231737420646179206f662046616c6c2c203130414d0d0a417420596f64656c204661726d050c4272696e67204479656420696e2074686520576f6f6c0d0a5368656570212020202020202020202020202020204d61796f720d0a05",
+      "source": {
+        "kind": "script",
+        "script_id": 403,
+        "string_index": 11,
+        "script_offset": 3063332,
+        "script_pointer_offset": 1019936,
+        "relative_offset_slot": 3064816,
+        "pool_offset": 3064828,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "sign_context": {
+          "code_sha256": "24cdd6a803e6a85a677de734fa3b05c7a70229ddc5f00ec09939147d2af648dc",
+          "display_sites": [
+            {
+              "code_offset": 239,
+              "native_call": 35,
+              "text_flags": 0
+            }
+          ],
+          "padding_reflow": false
+        },
+        "context_reference": "localization/signs.json; docs/SIGN_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0403.012",
+      "rom_address": "0x082EC901",
+      "rom_offset": "0x2EC901",
+      "original_english": "{RAW:8199}Year End Festival and{CR}{LF}Year End Noodles{WAIT}{PAGE}Come celebrate the end of{CR}{LF}the old year and the {CR}{LF}beginning of the new!{WAIT}{PAGE}{RAW:8199}Year End Festival{CR}{LF}30th day of Winter,{CR}{LF}Midnight, at Mother's Hill{CR}{LF}Peak.{WAIT}{PAGE}{RAW:8199}Year End Noodles{CR}{LF}30th day of Winter, 6PM{CR}{LF}At Rose Square{WAIT}{PAGE}Everyone come celebrate!{CR}{LF}                     Mayor{CR}{LF}{WAIT}",
+      "vietnamese_translation": "",
+      "context": "festival_notice",
+      "speaker": null,
+      "control_codes": [
+        "{RAW:8199}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{RAW:8199}",
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{RAW:8199}",
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "81995965617220456e6420466573746976616c20616e640d0a5965617220456e64204e6f6f646c6573050c436f6d652063656c6562726174652074686520656e64206f660d0a746865206f6c64207965617220616e6420746865200d0a626567696e6e696e67206f6620746865206e657721050c81995965617220456e6420466573746976616c0d0a3330746820646179206f662057696e7465722c0d0a4d69646e696768742c206174204d6f7468657227732048696c6c0d0a5065616b2e050c81995965617220456e64204e6f6f646c65730d0a3330746820646179206f662057696e7465722c2036504d0d0a417420526f736520537175617265050c45766572796f6e6520636f6d652063656c656272617465210d0a2020202020202020202020202020202020202020204d61796f720d0a05",
+      "source": {
+        "kind": "script",
+        "script_id": 403,
+        "string_index": 12,
+        "script_offset": 3063332,
+        "script_pointer_offset": 1019936,
+        "relative_offset_slot": 3064820,
+        "pool_offset": 3064828,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "sign_context": {
+          "code_sha256": "24cdd6a803e6a85a677de734fa3b05c7a70229ddc5f00ec09939147d2af648dc",
+          "display_sites": [
+            {
+              "code_offset": 251,
+              "native_call": 35,
+              "text_flags": 0
+            },
+            {
+              "code_offset": 290,
+              "native_call": 35,
+              "text_flags": 0
+            }
+          ],
+          "padding_reflow": false
+        },
+        "context_reference": "localization/signs.json; docs/SIGN_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0403.013",
+      "rom_address": "0x082ECA37",
+      "rom_offset": "0x2ECA37",
+      "original_english": "{RAW:8199}Year End Festival,{CR}{LF}Year End Noodles, and {CR}{LF}New Year Festival{WAIT}{PAGE}Come celebrate the end of{CR}{LF}the old year and the {CR}{LF}beginning of the new!{WAIT}{PAGE}{RAW:8199}Year End Festival{CR}{LF}30th day of Winter,{CR}{LF}Midnight, at Mother's Hill{CR}{LF}Peak.{WAIT}{PAGE}{RAW:8199}Year End Noodles{CR}{LF}30th day of Winter, 6PM{CR}{LF}At Rose Square{WAIT}{PAGE}{RAW:8199}New Year Festival{CR}{LF}1st day of Spring, 6PM{CR}{LF}At Rose Square{WAIT}{PAGE}Everyone come celebrate!{CR}{LF}                     Mayor{CR}{LF}{WAIT}",
+      "vietnamese_translation": "",
+      "context": "festival_notice",
+      "speaker": null,
+      "control_codes": [
+        "{RAW:8199}",
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{RAW:8199}",
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{RAW:8199}",
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{RAW:8199}",
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "81995965617220456e6420466573746976616c2c0d0a5965617220456e64204e6f6f646c65732c20616e64200d0a4e6577205965617220466573746976616c050c436f6d652063656c6562726174652074686520656e64206f660d0a746865206f6c64207965617220616e6420746865200d0a626567696e6e696e67206f6620746865206e657721050c81995965617220456e6420466573746976616c0d0a3330746820646179206f662057696e7465722c0d0a4d69646e696768742c206174204d6f7468657227732048696c6c0d0a5065616b2e050c81995965617220456e64204e6f6f646c65730d0a3330746820646179206f662057696e7465722c2036504d0d0a417420526f736520537175617265050c81994e6577205965617220466573746976616c0d0a31737420646179206f6620537072696e672c2036504d0d0a417420526f736520537175617265050c45766572796f6e6520636f6d652063656c656272617465210d0a2020202020202020202020202020202020202020204d61796f720d0a05",
+      "source": {
+        "kind": "script",
+        "script_id": 403,
+        "string_index": 13,
+        "script_offset": 3063332,
+        "script_pointer_offset": 1019936,
+        "relative_offset_slot": 3064824,
+        "pool_offset": 3064828,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById",
+        "sign_context": {
+          "code_sha256": "24cdd6a803e6a85a677de734fa3b05c7a70229ddc5f00ec09939147d2af648dc",
+          "display_sites": [
+            {
+              "code_offset": 302,
+              "native_call": 35,
+              "text_flags": 0
+            }
+          ],
+          "padding_reflow": false
+        },
+        "context_reference": "localization/signs.json; docs/SIGN_LOCALIZATION.md"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    }
+  ]
+}

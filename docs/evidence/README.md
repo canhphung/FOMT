@@ -64,3 +64,5 @@ Các ảnh thử HUD lỗi thời đã bỏ khỏi cây hiện tại; có thể 
 Giữ ảnh cần giải thích thiết kế hiện hành và ảnh fixture được báo cáo tham chiếu.
 
 `interaction-hints-validation.json` và `interaction-hints/`: bằng chứng UI fixture cho ba chuỗi hướng dẫn giường/thùng xuất hàng; không phải ảnh gặp vật thể bằng gameplay tự nhiên.
+
+`signs-validation.json` và `signs/`: RAW glyph gốc, bitmap native tại 73 WAIT, source contracts và ảnh fixture của lô biển; không phải bằng chứng đi tới mọi biển bằng gameplay.
