@@ -24756,6 +24756,448 @@
       "playtest": {
         "status": "not_run"
       }
+    },
+    {
+      "id": "script.0105.000",
+      "source_sha256": "7023af388b7a5d37bca3f10aacee63fa229002747a9ab6da02b5296501ecdc5f",
+      "translation_sha256": "3ebbeb1d155e6a831bf516b8edcf8cdd71a2ab20ab7dd19d8a9639e26a3727d3",
+      "context_status": "verified",
+      "context_evidence": "docs/LOCKED_DOORS.md; exact literal/CODE/native display sites in localization/locked_doors.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/locked-doors-validation.json",
+        "target_sha256": "884dda08c7e0282ab85c8424cd1a8f915c5115f42e1e418594eacf3039b244c3"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0108.000",
+      "source_sha256": "7023af388b7a5d37bca3f10aacee63fa229002747a9ab6da02b5296501ecdc5f",
+      "translation_sha256": "3ebbeb1d155e6a831bf516b8edcf8cdd71a2ab20ab7dd19d8a9639e26a3727d3",
+      "context_status": "verified",
+      "context_evidence": "docs/LOCKED_DOORS.md; exact literal/CODE/native display sites in localization/locked_doors.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/locked-doors-validation.json",
+        "target_sha256": "884dda08c7e0282ab85c8424cd1a8f915c5115f42e1e418594eacf3039b244c3"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0136.000",
+      "source_sha256": "7023af388b7a5d37bca3f10aacee63fa229002747a9ab6da02b5296501ecdc5f",
+      "translation_sha256": "3ebbeb1d155e6a831bf516b8edcf8cdd71a2ab20ab7dd19d8a9639e26a3727d3",
+      "context_status": "verified",
+      "context_evidence": "docs/LOCKED_DOORS.md; exact literal/CODE/native display sites in localization/locked_doors.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/locked-doors-validation.json",
+        "target_sha256": "884dda08c7e0282ab85c8424cd1a8f915c5115f42e1e418594eacf3039b244c3"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0139.044",
+      "source_sha256": "c28ef133c768c8c96657f08bcc7a7be1261da42fd628a30119ada5dfad7cf440",
+      "translation_sha256": "8879d4f86f9f16cd5cebe5e2852690f3c57cd404bf2e2b40c5a9c3285c2dbc93",
+      "context_status": "verified",
+      "context_evidence": "docs/LOCKED_DOORS.md; exact literal/CODE/native display sites in localization/locked_doors.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/locked-doors-validation.json",
+        "target_sha256": "884dda08c7e0282ab85c8424cd1a8f915c5115f42e1e418594eacf3039b244c3"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0179.000",
+      "source_sha256": "7023af388b7a5d37bca3f10aacee63fa229002747a9ab6da02b5296501ecdc5f",
+      "translation_sha256": "3ebbeb1d155e6a831bf516b8edcf8cdd71a2ab20ab7dd19d8a9639e26a3727d3",
+      "context_status": "verified",
+      "context_evidence": "docs/LOCKED_DOORS.md; exact literal/CODE/native display sites in localization/locked_doors.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/locked-doors-validation.json",
+        "target_sha256": "884dda08c7e0282ab85c8424cd1a8f915c5115f42e1e418594eacf3039b244c3"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0205.000",
+      "source_sha256": "7023af388b7a5d37bca3f10aacee63fa229002747a9ab6da02b5296501ecdc5f",
+      "translation_sha256": "3ebbeb1d155e6a831bf516b8edcf8cdd71a2ab20ab7dd19d8a9639e26a3727d3",
+      "context_status": "verified",
+      "context_evidence": "docs/LOCKED_DOORS.md; exact literal/CODE/native display sites in localization/locked_doors.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/locked-doors-validation.json",
+        "target_sha256": "884dda08c7e0282ab85c8424cd1a8f915c5115f42e1e418594eacf3039b244c3"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0239.000",
+      "source_sha256": "7023af388b7a5d37bca3f10aacee63fa229002747a9ab6da02b5296501ecdc5f",
+      "translation_sha256": "3ebbeb1d155e6a831bf516b8edcf8cdd71a2ab20ab7dd19d8a9639e26a3727d3",
+      "context_status": "verified",
+      "context_evidence": "docs/LOCKED_DOORS.md; exact literal/CODE/native display sites in localization/locked_doors.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/locked-doors-validation.json",
+        "target_sha256": "884dda08c7e0282ab85c8424cd1a8f915c5115f42e1e418594eacf3039b244c3"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0240.000",
+      "source_sha256": "7023af388b7a5d37bca3f10aacee63fa229002747a9ab6da02b5296501ecdc5f",
+      "translation_sha256": "3ebbeb1d155e6a831bf516b8edcf8cdd71a2ab20ab7dd19d8a9639e26a3727d3",
+      "context_status": "verified",
+      "context_evidence": "docs/LOCKED_DOORS.md; exact literal/CODE/native display sites in localization/locked_doors.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/locked-doors-validation.json",
+        "target_sha256": "884dda08c7e0282ab85c8424cd1a8f915c5115f42e1e418594eacf3039b244c3"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0258.000",
+      "source_sha256": "7023af388b7a5d37bca3f10aacee63fa229002747a9ab6da02b5296501ecdc5f",
+      "translation_sha256": "3ebbeb1d155e6a831bf516b8edcf8cdd71a2ab20ab7dd19d8a9639e26a3727d3",
+      "context_status": "verified",
+      "context_evidence": "docs/LOCKED_DOORS.md; exact literal/CODE/native display sites in localization/locked_doors.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/locked-doors-validation.json",
+        "target_sha256": "884dda08c7e0282ab85c8424cd1a8f915c5115f42e1e418594eacf3039b244c3"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0259.000",
+      "source_sha256": "7023af388b7a5d37bca3f10aacee63fa229002747a9ab6da02b5296501ecdc5f",
+      "translation_sha256": "3ebbeb1d155e6a831bf516b8edcf8cdd71a2ab20ab7dd19d8a9639e26a3727d3",
+      "context_status": "verified",
+      "context_evidence": "docs/LOCKED_DOORS.md; exact literal/CODE/native display sites in localization/locked_doors.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/locked-doors-validation.json",
+        "target_sha256": "884dda08c7e0282ab85c8424cd1a8f915c5115f42e1e418594eacf3039b244c3"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0271.000",
+      "source_sha256": "7023af388b7a5d37bca3f10aacee63fa229002747a9ab6da02b5296501ecdc5f",
+      "translation_sha256": "3ebbeb1d155e6a831bf516b8edcf8cdd71a2ab20ab7dd19d8a9639e26a3727d3",
+      "context_status": "verified",
+      "context_evidence": "docs/LOCKED_DOORS.md; exact literal/CODE/native display sites in localization/locked_doors.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/locked-doors-validation.json",
+        "target_sha256": "884dda08c7e0282ab85c8424cd1a8f915c5115f42e1e418594eacf3039b244c3"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0362.000",
+      "source_sha256": "7023af388b7a5d37bca3f10aacee63fa229002747a9ab6da02b5296501ecdc5f",
+      "translation_sha256": "3ebbeb1d155e6a831bf516b8edcf8cdd71a2ab20ab7dd19d8a9639e26a3727d3",
+      "context_status": "verified",
+      "context_evidence": "docs/LOCKED_DOORS.md; exact literal/CODE/native display sites in localization/locked_doors.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/locked-doors-validation.json",
+        "target_sha256": "884dda08c7e0282ab85c8424cd1a8f915c5115f42e1e418594eacf3039b244c3"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0370.000",
+      "source_sha256": "7023af388b7a5d37bca3f10aacee63fa229002747a9ab6da02b5296501ecdc5f",
+      "translation_sha256": "3ebbeb1d155e6a831bf516b8edcf8cdd71a2ab20ab7dd19d8a9639e26a3727d3",
+      "context_status": "verified",
+      "context_evidence": "docs/LOCKED_DOORS.md; exact literal/CODE/native display sites in localization/locked_doors.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/locked-doors-validation.json",
+        "target_sha256": "884dda08c7e0282ab85c8424cd1a8f915c5115f42e1e418594eacf3039b244c3"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0371.000",
+      "source_sha256": "7023af388b7a5d37bca3f10aacee63fa229002747a9ab6da02b5296501ecdc5f",
+      "translation_sha256": "3ebbeb1d155e6a831bf516b8edcf8cdd71a2ab20ab7dd19d8a9639e26a3727d3",
+      "context_status": "verified",
+      "context_evidence": "docs/LOCKED_DOORS.md; exact literal/CODE/native display sites in localization/locked_doors.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/locked-doors-validation.json",
+        "target_sha256": "884dda08c7e0282ab85c8424cd1a8f915c5115f42e1e418594eacf3039b244c3"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0372.000",
+      "source_sha256": "7023af388b7a5d37bca3f10aacee63fa229002747a9ab6da02b5296501ecdc5f",
+      "translation_sha256": "3ebbeb1d155e6a831bf516b8edcf8cdd71a2ab20ab7dd19d8a9639e26a3727d3",
+      "context_status": "verified",
+      "context_evidence": "docs/LOCKED_DOORS.md; exact literal/CODE/native display sites in localization/locked_doors.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/locked-doors-validation.json",
+        "target_sha256": "884dda08c7e0282ab85c8424cd1a8f915c5115f42e1e418594eacf3039b244c3"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0373.000",
+      "source_sha256": "7023af388b7a5d37bca3f10aacee63fa229002747a9ab6da02b5296501ecdc5f",
+      "translation_sha256": "3ebbeb1d155e6a831bf516b8edcf8cdd71a2ab20ab7dd19d8a9639e26a3727d3",
+      "context_status": "verified",
+      "context_evidence": "docs/LOCKED_DOORS.md; exact literal/CODE/native display sites in localization/locked_doors.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/locked-doors-validation.json",
+        "target_sha256": "884dda08c7e0282ab85c8424cd1a8f915c5115f42e1e418594eacf3039b244c3"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0374.000",
+      "source_sha256": "7023af388b7a5d37bca3f10aacee63fa229002747a9ab6da02b5296501ecdc5f",
+      "translation_sha256": "3ebbeb1d155e6a831bf516b8edcf8cdd71a2ab20ab7dd19d8a9639e26a3727d3",
+      "context_status": "verified",
+      "context_evidence": "docs/LOCKED_DOORS.md; exact literal/CODE/native display sites in localization/locked_doors.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/locked-doors-validation.json",
+        "target_sha256": "884dda08c7e0282ab85c8424cd1a8f915c5115f42e1e418594eacf3039b244c3"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0375.000",
+      "source_sha256": "7023af388b7a5d37bca3f10aacee63fa229002747a9ab6da02b5296501ecdc5f",
+      "translation_sha256": "3ebbeb1d155e6a831bf516b8edcf8cdd71a2ab20ab7dd19d8a9639e26a3727d3",
+      "context_status": "verified",
+      "context_evidence": "docs/LOCKED_DOORS.md; exact literal/CODE/native display sites in localization/locked_doors.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/locked-doors-validation.json",
+        "target_sha256": "884dda08c7e0282ab85c8424cd1a8f915c5115f42e1e418594eacf3039b244c3"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0376.000",
+      "source_sha256": "7023af388b7a5d37bca3f10aacee63fa229002747a9ab6da02b5296501ecdc5f",
+      "translation_sha256": "3ebbeb1d155e6a831bf516b8edcf8cdd71a2ab20ab7dd19d8a9639e26a3727d3",
+      "context_status": "verified",
+      "context_evidence": "docs/LOCKED_DOORS.md; exact literal/CODE/native display sites in localization/locked_doors.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/locked-doors-validation.json",
+        "target_sha256": "884dda08c7e0282ab85c8424cd1a8f915c5115f42e1e418594eacf3039b244c3"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0377.000",
+      "source_sha256": "7023af388b7a5d37bca3f10aacee63fa229002747a9ab6da02b5296501ecdc5f",
+      "translation_sha256": "3ebbeb1d155e6a831bf516b8edcf8cdd71a2ab20ab7dd19d8a9639e26a3727d3",
+      "context_status": "verified",
+      "context_evidence": "docs/LOCKED_DOORS.md; exact literal/CODE/native display sites in localization/locked_doors.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/locked-doors-validation.json",
+        "target_sha256": "884dda08c7e0282ab85c8424cd1a8f915c5115f42e1e418594eacf3039b244c3"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0378.000",
+      "source_sha256": "7023af388b7a5d37bca3f10aacee63fa229002747a9ab6da02b5296501ecdc5f",
+      "translation_sha256": "3ebbeb1d155e6a831bf516b8edcf8cdd71a2ab20ab7dd19d8a9639e26a3727d3",
+      "context_status": "verified",
+      "context_evidence": "docs/LOCKED_DOORS.md; exact literal/CODE/native display sites in localization/locked_doors.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/locked-doors-validation.json",
+        "target_sha256": "884dda08c7e0282ab85c8424cd1a8f915c5115f42e1e418594eacf3039b244c3"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0395.000",
+      "source_sha256": "7023af388b7a5d37bca3f10aacee63fa229002747a9ab6da02b5296501ecdc5f",
+      "translation_sha256": "3ebbeb1d155e6a831bf516b8edcf8cdd71a2ab20ab7dd19d8a9639e26a3727d3",
+      "context_status": "verified",
+      "context_evidence": "docs/LOCKED_DOORS.md; exact literal/CODE/native display sites in localization/locked_doors.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/locked-doors-validation.json",
+        "target_sha256": "884dda08c7e0282ab85c8424cd1a8f915c5115f42e1e418594eacf3039b244c3"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0523.000",
+      "source_sha256": "7023af388b7a5d37bca3f10aacee63fa229002747a9ab6da02b5296501ecdc5f",
+      "translation_sha256": "3ebbeb1d155e6a831bf516b8edcf8cdd71a2ab20ab7dd19d8a9639e26a3727d3",
+      "context_status": "verified",
+      "context_evidence": "docs/LOCKED_DOORS.md; exact literal/CODE/native display sites in localization/locked_doors.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/locked-doors-validation.json",
+        "target_sha256": "884dda08c7e0282ab85c8424cd1a8f915c5115f42e1e418594eacf3039b244c3"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0528.000",
+      "source_sha256": "7023af388b7a5d37bca3f10aacee63fa229002747a9ab6da02b5296501ecdc5f",
+      "translation_sha256": "3ebbeb1d155e6a831bf516b8edcf8cdd71a2ab20ab7dd19d8a9639e26a3727d3",
+      "context_status": "verified",
+      "context_evidence": "docs/LOCKED_DOORS.md; exact literal/CODE/native display sites in localization/locked_doors.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/locked-doors-validation.json",
+        "target_sha256": "884dda08c7e0282ab85c8424cd1a8f915c5115f42e1e418594eacf3039b244c3"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0530.000",
+      "source_sha256": "7023af388b7a5d37bca3f10aacee63fa229002747a9ab6da02b5296501ecdc5f",
+      "translation_sha256": "3ebbeb1d155e6a831bf516b8edcf8cdd71a2ab20ab7dd19d8a9639e26a3727d3",
+      "context_status": "verified",
+      "context_evidence": "docs/LOCKED_DOORS.md; exact literal/CODE/native display sites in localization/locked_doors.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/locked-doors-validation.json",
+        "target_sha256": "884dda08c7e0282ab85c8424cd1a8f915c5115f42e1e418594eacf3039b244c3"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0560.000",
+      "source_sha256": "7023af388b7a5d37bca3f10aacee63fa229002747a9ab6da02b5296501ecdc5f",
+      "translation_sha256": "3ebbeb1d155e6a831bf516b8edcf8cdd71a2ab20ab7dd19d8a9639e26a3727d3",
+      "context_status": "verified",
+      "context_evidence": "docs/LOCKED_DOORS.md; exact literal/CODE/native display sites in localization/locked_doors.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/locked-doors-validation.json",
+        "target_sha256": "884dda08c7e0282ab85c8424cd1a8f915c5115f42e1e418594eacf3039b244c3"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
     }
   ]
 }

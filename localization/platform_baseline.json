@@ -156,7 +156,7 @@
     },
     {
       "path": "tools/platform_check.py",
-      "sha256": "0e54a6a8a6c2ce60495d24c262e3c5096e5c521f2d098626890227fdef3f2625"
+      "sha256": "17c0a0df07584d30e51064d78ddd22c167d08f65bb019074be9237a142bb9118"
     },
     {
       "path": "tools/mgba_bridge.c",
@@ -237,6 +237,14 @@
     {
       "path": "localization/popuri_context.json",
       "sha256": "2458403e1b828992714c23c462660c8a1f068ec633a2c36d2e7dafaa53f49a7f"
+    },
+    {
+      "path": "tools/locked_doors_smoke.py",
+      "sha256": "539d90570cdff613ac1407098d759141793eb6a146af893a9454e39e333ddced"
+    },
+    {
+      "path": "localization/locked_doors.json",
+      "sha256": "8fb9dd79a83b01ec0296fa67bdc970062812c6ff880aa88c1691559da4b6f96b"
     }
   ],
   "save_fixture": {

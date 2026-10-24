@@ -1,0 +1,682 @@
+{
+  "schema_version": 1,
+  "rom_sha1": "a2fc3574f0a65a4fcf7682fb274b9d7eebdef963",
+  "records": [
+    {
+      "id": "script.0105.000",
+      "rom_address": "0x082C63E0",
+      "rom_offset": "0x2C63E0",
+      "original_english": "It's locked...{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "49742773206c6f636b65642e2e2e05",
+      "source": {
+        "kind": "script",
+        "script_id": 105,
+        "string_index": 0,
+        "script_offset": 2907012,
+        "script_pointer_offset": 1018744,
+        "relative_offset_slot": 2909148,
+        "pool_offset": 2909152,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0108.000",
+      "rom_address": "0x082C7BB4",
+      "rom_offset": "0x2C7BB4",
+      "original_english": "It's locked...{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "49742773206c6f636b65642e2e2e05",
+      "source": {
+        "kind": "script",
+        "script_id": 108,
+        "string_index": 0,
+        "script_offset": 2913404,
+        "script_pointer_offset": 1018756,
+        "relative_offset_slot": 2915248,
+        "pool_offset": 2915252,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0136.000",
+      "rom_address": "0x082C901C",
+      "rom_offset": "0x2C901C",
+      "original_english": "It's locked...{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "49742773206c6f636b65642e2e2e05",
+      "source": {
+        "kind": "script",
+        "script_id": 136,
+        "string_index": 0,
+        "script_offset": 2919872,
+        "script_pointer_offset": 1018868,
+        "relative_offset_slot": 2920472,
+        "pool_offset": 2920476,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0139.044",
+      "rom_address": "0x082CB26F",
+      "rom_offset": "0x2CB26F",
+      "original_english": "It's locked.{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "49742773206c6f636b65642e05",
+      "source": {
+        "kind": "script",
+        "script_id": 139,
+        "string_index": 44,
+        "script_offset": 2920636,
+        "script_pointer_offset": 1018880,
+        "relative_offset_slot": 2924648,
+        "pool_offset": 2924660,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0179.000",
+      "rom_address": "0x082CE770",
+      "rom_offset": "0x2CE770",
+      "original_english": "It's locked...{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "49742773206c6f636b65642e2e2e05",
+      "source": {
+        "kind": "script",
+        "script_id": 179,
+        "string_index": 0,
+        "script_offset": 2941560,
+        "script_pointer_offset": 1019040,
+        "relative_offset_slot": 2942828,
+        "pool_offset": 2942832,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0205.000",
+      "rom_address": "0x082D11F8",
+      "rom_offset": "0x2D11F8",
+      "original_english": "It's locked...{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "49742773206c6f636b65642e2e2e05",
+      "source": {
+        "kind": "script",
+        "script_id": 205,
+        "string_index": 0,
+        "script_offset": 2953192,
+        "script_pointer_offset": 1019144,
+        "relative_offset_slot": 2953716,
+        "pool_offset": 2953720,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0239.000",
+      "rom_address": "0x082D3690",
+      "rom_offset": "0x2D3690",
+      "original_english": "It's locked...{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "49742773206c6f636b65642e2e2e05",
+      "source": {
+        "kind": "script",
+        "script_id": 239,
+        "string_index": 0,
+        "script_offset": 2962928,
+        "script_pointer_offset": 1019280,
+        "relative_offset_slot": 2963084,
+        "pool_offset": 2963088,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0240.000",
+      "rom_address": "0x082D38F0",
+      "rom_offset": "0x2D38F0",
+      "original_english": "It's locked...{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "49742773206c6f636b65642e2e2e05",
+      "source": {
+        "kind": "script",
+        "script_id": 240,
+        "string_index": 0,
+        "script_offset": 2963104,
+        "script_pointer_offset": 1019284,
+        "relative_offset_slot": 2963692,
+        "pool_offset": 2963696,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0258.000",
+      "rom_address": "0x082D402C",
+      "rom_offset": "0x2D402C",
+      "original_english": "It's locked...{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "49742773206c6f636b65642e2e2e05",
+      "source": {
+        "kind": "script",
+        "script_id": 258,
+        "string_index": 0,
+        "script_offset": 2964928,
+        "script_pointer_offset": 1019356,
+        "relative_offset_slot": 2965544,
+        "pool_offset": 2965548,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0259.000",
+      "rom_address": "0x082D4164",
+      "rom_offset": "0x2D4164",
+      "original_english": "It's locked...{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "49742773206c6f636b65642e2e2e05",
+      "source": {
+        "kind": "script",
+        "script_id": 259,
+        "string_index": 0,
+        "script_offset": 2965564,
+        "script_pointer_offset": 1019360,
+        "relative_offset_slot": 2965856,
+        "pool_offset": 2965860,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0271.000",
+      "rom_address": "0x082D4944",
+      "rom_offset": "0x2D4944",
+      "original_english": "It's locked...{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "49742773206c6f636b65642e2e2e05",
+      "source": {
+        "kind": "script",
+        "script_id": 271,
+        "string_index": 0,
+        "script_offset": 2966764,
+        "script_pointer_offset": 1019408,
+        "relative_offset_slot": 2967868,
+        "pool_offset": 2967876,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0362.000",
+      "rom_address": "0x082E28D0",
+      "rom_offset": "0x2E28D0",
+      "original_english": "It's locked...{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "49742773206c6f636b65642e2e2e05",
+      "source": {
+        "kind": "script",
+        "script_id": 362,
+        "string_index": 0,
+        "script_offset": 3024668,
+        "script_pointer_offset": 1019772,
+        "relative_offset_slot": 3025100,
+        "pool_offset": 3025104,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0370.000",
+      "rom_address": "0x082E38C0",
+      "rom_offset": "0x2E38C0",
+      "original_english": "It's locked...{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "49742773206c6f636b65642e2e2e05",
+      "source": {
+        "kind": "script",
+        "script_id": 370,
+        "string_index": 0,
+        "script_offset": 3025964,
+        "script_pointer_offset": 1019804,
+        "relative_offset_slot": 3029180,
+        "pool_offset": 3029184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0371.000",
+      "rom_address": "0x082E4AAC",
+      "rom_offset": "0x2E4AAC",
+      "original_english": "It's locked...{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "49742773206c6f636b65642e2e2e05",
+      "source": {
+        "kind": "script",
+        "script_id": 371,
+        "string_index": 0,
+        "script_offset": 3029200,
+        "script_pointer_offset": 1019808,
+        "relative_offset_slot": 3033768,
+        "pool_offset": 3033772,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0372.000",
+      "rom_address": "0x082E615C",
+      "rom_offset": "0x2E615C",
+      "original_english": "It's locked...{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "49742773206c6f636b65642e2e2e05",
+      "source": {
+        "kind": "script",
+        "script_id": 372,
+        "string_index": 0,
+        "script_offset": 3033788,
+        "script_pointer_offset": 1019812,
+        "relative_offset_slot": 3039576,
+        "pool_offset": 3039580,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0373.000",
+      "rom_address": "0x082E6F4C",
+      "rom_offset": "0x2E6F4C",
+      "original_english": "It's locked...{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "49742773206c6f636b65642e2e2e05",
+      "source": {
+        "kind": "script",
+        "script_id": 373,
+        "string_index": 0,
+        "script_offset": 3039596,
+        "script_pointer_offset": 1019816,
+        "relative_offset_slot": 3043144,
+        "pool_offset": 3043148,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0374.000",
+      "rom_address": "0x082E87B4",
+      "rom_offset": "0x2E87B4",
+      "original_english": "It's locked...{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "49742773206c6f636b65642e2e2e05",
+      "source": {
+        "kind": "script",
+        "script_id": 374,
+        "string_index": 0,
+        "script_offset": 3043164,
+        "script_pointer_offset": 1019820,
+        "relative_offset_slot": 3049392,
+        "pool_offset": 3049396,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0375.000",
+      "rom_address": "0x082E9384",
+      "rom_offset": "0x2E9384",
+      "original_english": "It's locked...{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "49742773206c6f636b65642e2e2e05",
+      "source": {
+        "kind": "script",
+        "script_id": 375,
+        "string_index": 0,
+        "script_offset": 3049412,
+        "script_pointer_offset": 1019824,
+        "relative_offset_slot": 3052416,
+        "pool_offset": 3052420,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0376.000",
+      "rom_address": "0x082E9ED4",
+      "rom_offset": "0x2E9ED4",
+      "original_english": "It's locked...{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "49742773206c6f636b65642e2e2e05",
+      "source": {
+        "kind": "script",
+        "script_id": 376,
+        "string_index": 0,
+        "script_offset": 3052436,
+        "script_pointer_offset": 1019828,
+        "relative_offset_slot": 3055312,
+        "pool_offset": 3055316,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0377.000",
+      "rom_address": "0x082EA370",
+      "rom_offset": "0x2EA370",
+      "original_english": "It's locked...{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "49742773206c6f636b65642e2e2e05",
+      "source": {
+        "kind": "script",
+        "script_id": 377,
+        "string_index": 0,
+        "script_offset": 3055332,
+        "script_pointer_offset": 1019832,
+        "relative_offset_slot": 3056492,
+        "pool_offset": 3056496,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0378.000",
+      "rom_address": "0x082EAA1C",
+      "rom_offset": "0x2EAA1C",
+      "original_english": "It's locked...{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "49742773206c6f636b65642e2e2e05",
+      "source": {
+        "kind": "script",
+        "script_id": 378,
+        "string_index": 0,
+        "script_offset": 3056512,
+        "script_pointer_offset": 1019836,
+        "relative_offset_slot": 3058200,
+        "pool_offset": 3058204,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0395.000",
+      "rom_address": "0x082EBB98",
+      "rom_offset": "0x2EBB98",
+      "original_english": "It's locked...{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "49742773206c6f636b65642e2e2e05",
+      "source": {
+        "kind": "script",
+        "script_id": 395,
+        "string_index": 0,
+        "script_offset": 3062524,
+        "script_pointer_offset": 1019904,
+        "relative_offset_slot": 3062676,
+        "pool_offset": 3062680,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0523.000",
+      "rom_address": "0x0832B8A8",
+      "rom_offset": "0x32B8A8",
+      "original_english": "It's locked...{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "49742773206c6f636b65642e2e2e05",
+      "source": {
+        "kind": "script",
+        "script_id": 523,
+        "string_index": 0,
+        "script_offset": 3319020,
+        "script_pointer_offset": 1020416,
+        "relative_offset_slot": 3324068,
+        "pool_offset": 3324072,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0528.000",
+      "rom_address": "0x0832CE80",
+      "rom_offset": "0x32CE80",
+      "original_english": "It's locked...{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "49742773206c6f636b65642e2e2e05",
+      "source": {
+        "kind": "script",
+        "script_id": 528,
+        "string_index": 0,
+        "script_offset": 3327900,
+        "script_pointer_offset": 1020436,
+        "relative_offset_slot": 3329660,
+        "pool_offset": 3329664,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0530.000",
+      "rom_address": "0x0832D428",
+      "rom_offset": "0x32D428",
+      "original_english": "It's locked...{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "49742773206c6f636b65642e2e2e05",
+      "source": {
+        "kind": "script",
+        "script_id": 530,
+        "string_index": 0,
+        "script_offset": 3329948,
+        "script_pointer_offset": 1020444,
+        "relative_offset_slot": 3331108,
+        "pool_offset": 3331112,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0560.000",
+      "rom_address": "0x0832EEE4",
+      "rom_offset": "0x32EEE4",
+      "original_english": "It's locked...{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "49742773206c6f636b65642e2e2e05",
+      "source": {
+        "kind": "script",
+        "script_id": 560,
+        "string_index": 0,
+        "script_offset": 3337728,
+        "script_pointer_offset": 1020564,
+        "relative_offset_slot": 3337952,
+        "pool_offset": 3337956,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    }
+  ]
+}

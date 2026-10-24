@@ -72,3 +72,5 @@ Giữ ảnh cần giải thích thiết kế hiện hành và ảnh fixture đư
 farm-interactions-validation.json và farm-interactions/: kiểm native fixture cho 23 tương tác nông trại, không phải encounter tự nhiên.
 
 popuri-validation.json và popuri/: bằng chứng native fixture 139 câu, không phải encounter hoặc toàn bộ event.
+
+locked-doors-validation.json và locked-doors/: chứng minh nguồn và UI fixture 26 thông báo cửa khóa.

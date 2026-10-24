@@ -1,0 +1,449 @@
+{
+  "schema_version": 1,
+  "record_ids": [
+    "script.0105.000",
+    "script.0108.000",
+    "script.0136.000",
+    "script.0139.044",
+    "script.0179.000",
+    "script.0205.000",
+    "script.0239.000",
+    "script.0240.000",
+    "script.0258.000",
+    "script.0259.000",
+    "script.0271.000",
+    "script.0362.000",
+    "script.0370.000",
+    "script.0371.000",
+    "script.0372.000",
+    "script.0373.000",
+    "script.0374.000",
+    "script.0375.000",
+    "script.0376.000",
+    "script.0377.000",
+    "script.0378.000",
+    "script.0395.000",
+    "script.0523.000",
+    "script.0528.000",
+    "script.0530.000",
+    "script.0560.000"
+  ],
+  "source_proofs": [
+    {
+      "id": "script.0105.000",
+      "script_id": 105,
+      "string_index": 0,
+      "original_english": "It's locked...{WAIT}",
+      "code_sha256": "70afb0e602e3656a6286562f51f68f58980c4cfba648a0b7e728438603c69bf2",
+      "show_text_sites": [
+        {
+          "code_offset": 2088,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "locked_door",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0108.000",
+      "script_id": 108,
+      "string_index": 0,
+      "original_english": "It's locked...{WAIT}",
+      "code_sha256": "9d6af27efc51689f4574c6a52b9720a376d5d8e311be09126f55d6e5603491dd",
+      "show_text_sites": [
+        {
+          "code_offset": 1796,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "locked_door",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0136.000",
+      "script_id": 136,
+      "string_index": 0,
+      "original_english": "It's locked...{WAIT}",
+      "code_sha256": "5a027e0e9bb05a713b2847d1873229f21052bd8556aa9e91e4168f456cccea48",
+      "show_text_sites": [
+        {
+          "code_offset": 550,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "locked_door",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0139.044",
+      "script_id": 139,
+      "string_index": 44,
+      "original_english": "It's locked.{WAIT}",
+      "code_sha256": "482379807aefdd9ae573225ae8493f947c19ba5a2d1b49b783a2eecb2d23bad5",
+      "show_text_sites": [
+        {
+          "code_offset": 2905,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "locked_door",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0179.000",
+      "script_id": 179,
+      "string_index": 0,
+      "original_english": "It's locked...{WAIT}",
+      "code_sha256": "bd46290a250a783f3e91d403ba1e48c1152d6b7fef85e34e21fab7fd5a823f4d",
+      "show_text_sites": [
+        {
+          "code_offset": 1218,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "locked_door",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0205.000",
+      "script_id": 205,
+      "string_index": 0,
+      "original_english": "It's locked...{WAIT}",
+      "code_sha256": "720a35a8a253c54e600441c59c0c54719d50ced94412fb4a1b80b09d81b70c67",
+      "show_text_sites": [
+        {
+          "code_offset": 475,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "locked_door",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0239.000",
+      "script_id": 239,
+      "string_index": 0,
+      "original_english": "It's locked...{WAIT}",
+      "code_sha256": "5d5a9e15e228bcaadd4ec1ffea59f6afe6844c37621b20cdf6d68aff3b34f390",
+      "show_text_sites": [
+        {
+          "code_offset": 108,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "locked_door",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0240.000",
+      "script_id": 240,
+      "string_index": 0,
+      "original_english": "It's locked...{WAIT}",
+      "code_sha256": "620055b8b21b67eee8a2f7dff3a740d4956952d9f63ff75500d409e57a587962",
+      "show_text_sites": [
+        {
+          "code_offset": 538,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "locked_door",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0258.000",
+      "script_id": 258,
+      "string_index": 0,
+      "original_english": "It's locked...{WAIT}",
+      "code_sha256": "ab7621ef6c0dd6ac7923bbfa6e32e7e7f29498ee69a27bcacb64a3ec76630552",
+      "show_text_sites": [
+        {
+          "code_offset": 567,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "locked_door",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0259.000",
+      "script_id": 259,
+      "string_index": 0,
+      "original_english": "It's locked...{WAIT}",
+      "code_sha256": "08aff18da6535436d23336fd3e7c8e9dacdea6c232cca47bb1e28dff3c2fd62d",
+      "show_text_sites": [
+        {
+          "code_offset": 242,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "locked_door",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0271.000",
+      "script_id": 271,
+      "string_index": 0,
+      "original_english": "It's locked...{WAIT}",
+      "code_sha256": "585fa06a4b45958af9db7ecb4dc55dbac1d99e12997665422a3fb8681e869869",
+      "show_text_sites": [
+        {
+          "code_offset": 1029,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "locked_door",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0362.000",
+      "script_id": 362,
+      "string_index": 0,
+      "original_english": "It's locked...{WAIT}",
+      "code_sha256": "a18ac941772ec9bba27a5fee209f4c4e0053b6c2f0c45551e77e9d1d2b7a2d94",
+      "show_text_sites": [
+        {
+          "code_offset": 385,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "locked_door",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0370.000",
+      "script_id": 370,
+      "string_index": 0,
+      "original_english": "It's locked...{WAIT}",
+      "code_sha256": "ed3ae63da62659862bbec580598713145c12269054285f91198a9e1398076ab6",
+      "show_text_sites": [
+        {
+          "code_offset": 3167,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "locked_door",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0371.000",
+      "script_id": 371,
+      "string_index": 0,
+      "original_english": "It's locked...{WAIT}",
+      "code_sha256": "8ec2364d1250826eb0e3e99c45fa91e8d43add78b4688d86e11e6dd4b3f9ef87",
+      "show_text_sites": [
+        {
+          "code_offset": 4520,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "locked_door",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0372.000",
+      "script_id": 372,
+      "string_index": 0,
+      "original_english": "It's locked...{WAIT}",
+      "code_sha256": "a1c5bf036d1a4590b5569267c4b4e990efc666d4d2501f5bd61010e96a52832c",
+      "show_text_sites": [
+        {
+          "code_offset": 5739,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "locked_door",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0373.000",
+      "script_id": 373,
+      "string_index": 0,
+      "original_english": "It's locked...{WAIT}",
+      "code_sha256": "f7968ac5e80387eb40862c413ef421bd4e0af8c273ba7dafdbc3c7f737ce1657",
+      "show_text_sites": [
+        {
+          "code_offset": 3501,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "locked_door",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0374.000",
+      "script_id": 374,
+      "string_index": 0,
+      "original_english": "It's locked...{WAIT}",
+      "code_sha256": "a59f277e1ef88dbf7aff43e47436c34960d1a9474af312c0e623cbb87f03ebb2",
+      "show_text_sites": [
+        {
+          "code_offset": 6178,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "locked_door",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0375.000",
+      "script_id": 375,
+      "string_index": 0,
+      "original_english": "It's locked...{WAIT}",
+      "code_sha256": "dc08f9856db4ee6de925efae819b35f7987b874c2751451046c06f8a5f01a4ad",
+      "show_text_sites": [
+        {
+          "code_offset": 2955,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "locked_door",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0376.000",
+      "script_id": 376,
+      "string_index": 0,
+      "original_english": "It's locked...{WAIT}",
+      "code_sha256": "6d62bd357cb9867ea77f68be3a3ab88e31ddedbceba29ef31d091cbb716c0df9",
+      "show_text_sites": [
+        {
+          "code_offset": 2827,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "locked_door",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0377.000",
+      "script_id": 377,
+      "string_index": 0,
+      "original_english": "It's locked...{WAIT}",
+      "code_sha256": "34747631c0cd1cf59ca5c4aaa9e520be2adb913e2f4eddf0c78ca53635dc1254",
+      "show_text_sites": [
+        {
+          "code_offset": 1110,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "locked_door",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0378.000",
+      "script_id": 378,
+      "string_index": 0,
+      "original_english": "It's locked...{WAIT}",
+      "code_sha256": "0e6a8a0cf6249b1a631e47e0324c7edc2045f988a4205b3069643dbabed9ee10",
+      "show_text_sites": [
+        {
+          "code_offset": 1638,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "locked_door",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0395.000",
+      "script_id": 395,
+      "string_index": 0,
+      "original_english": "It's locked...{WAIT}",
+      "code_sha256": "d74a55d254db73c5455ae604f1ffe6eeee534c455f8bbd87a55f8fbd87a52a47",
+      "show_text_sites": [
+        {
+          "code_offset": 103,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "locked_door",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0523.000",
+      "script_id": 523,
+      "string_index": 0,
+      "original_english": "It's locked...{WAIT}",
+      "code_sha256": "f30629d30aa7b43860c3cf31e4bb403e9e1d430549977fd9ff27377c3e3cd101",
+      "show_text_sites": [
+        {
+          "code_offset": 5001,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "locked_door",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0528.000",
+      "script_id": 528,
+      "string_index": 0,
+      "original_english": "It's locked...{WAIT}",
+      "code_sha256": "def446cedbf9a8b196ae61f69c3e291cab77afd0c95fc74c799deebc2d356c04",
+      "show_text_sites": [
+        {
+          "code_offset": 1710,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "locked_door",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0530.000",
+      "script_id": 530,
+      "string_index": 0,
+      "original_english": "It's locked...{WAIT}",
+      "code_sha256": "a792d0eddfb6717d60b125e6af271b25c6497e96b678fb1556cf8299c9b25fcb",
+      "show_text_sites": [
+        {
+          "code_offset": 1112,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "locked_door",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0560.000",
+      "script_id": 560,
+      "string_index": 0,
+      "original_english": "It's locked...{WAIT}",
+      "code_sha256": "3b4b38c0279d41de9639d0d433bc3414c4b71784756c9d6230397cc3cc4123a0",
+      "show_text_sites": [
+        {
+          "code_offset": 174,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "locked_door",
+      "padding_reflow": false
+    }
+  ]
+}

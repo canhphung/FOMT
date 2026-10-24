@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "name": "Locked door notices",
+  "record_ids": [
+    "script.0105.000",
+    "script.0108.000",
+    "script.0136.000",
+    "script.0139.044",
+    "script.0179.000",
+    "script.0205.000",
+    "script.0239.000",
+    "script.0240.000",
+    "script.0258.000",
+    "script.0259.000",
+    "script.0271.000",
+    "script.0362.000",
+    "script.0370.000",
+    "script.0371.000",
+    "script.0372.000",
+    "script.0373.000",
+    "script.0374.000",
+    "script.0375.000",
+    "script.0376.000",
+    "script.0377.000",
+    "script.0378.000",
+    "script.0395.000",
+    "script.0523.000",
+    "script.0528.000",
+    "script.0530.000",
+    "script.0560.000"
+  ]
+}
