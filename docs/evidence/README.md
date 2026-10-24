@@ -66,3 +66,5 @@ Giữ ảnh cần giải thích thiết kế hiện hành và ảnh fixture đư
 `interaction-hints-validation.json` và `interaction-hints/`: bằng chứng UI fixture cho ba chuỗi hướng dẫn giường/thùng xuất hàng; không phải ảnh gặp vật thể bằng gameplay tự nhiên.
 
 `signs-validation.json` và `signs/`: RAW glyph gốc, bitmap native tại 73 WAIT, source contracts và ảnh fixture của lô biển; không phải bằng chứng đi tới mọi biển bằng gameplay.
+
+`sign-hours-validation.json` và `sign-hours/`: kiểm thử tập trung sau khi đổi giờ biển sang `9h - 17h`; báo cáo platform trước đó giữ hash lịch sử riêng.

@@ -1,0 +1,1388 @@
+{
+  "schema_version": 1,
+  "revision": "sign-hours-01",
+  "status": "passed",
+  "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f",
+  "patch_sha256": "0889bb94cd9df0578012eb715376a8cd123d4b9e5f4743d0ea42222015db4e74",
+  "source_sha1": "a2fc3574f0a65a4fcf7682fb274b9d7eebdef963",
+  "changed_records": [
+    "script.0492.000",
+    "script.0493.000",
+    "script.0494.000",
+    "script.0496.000",
+    "script.0500.000",
+    "script.0501.000",
+    "script.0502.000",
+    "script.0502.001",
+    "script.0503.000",
+    "script.0504.000",
+    "script.0508.000",
+    "script.0510.000",
+    "script.0403.001",
+    "script.0403.002",
+    "script.0403.003",
+    "script.0403.004",
+    "script.0403.005",
+    "script.0403.006",
+    "script.0403.007",
+    "script.0403.008",
+    "script.0403.009",
+    "script.0403.010",
+    "script.0403.011",
+    "script.0403.012",
+    "script.0403.013"
+  ],
+  "format": "24-hour Hh - Hh ranges; single Hh times; midnight wording retained",
+  "focused_pytest": {
+    "passed": 5,
+    "failed": 0,
+    "scope": "tests/test_signs.py and test_expanded_translation_set_builds_without_overlap"
+  },
+  "repeated_builds_identical": true,
+  "release_ips_round_trip": true,
+  "emulators": {
+    "0.10.5": {
+      "status": "passed",
+      "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f",
+      "sign_records": 48,
+      "native_widget_cases": 45,
+      "choice_labels_renderer_only": 3,
+      "guarded_renderer_lines": 179,
+      "native_waits_verified": 73,
+      "source_scripts_CODE_JUMP_unchanged": 31,
+      "untranslated_strings_byte_identical": 1,
+      "original_RAW_glyphs_unchanged": [
+        {
+          "code": "8140",
+          "advance_pixels": 16,
+          "foreground_pixels": 0,
+          "staging_sha256": "38723a2e5e8a17aa7950dc008209944e898f69a7bd10a23c839d341e935fd5ca"
+        },
+        {
+          "code": "8145",
+          "advance_pixels": 16,
+          "foreground_pixels": 4,
+          "staging_sha256": "c28c328df106f5785cfe3a5153079bbd1a499baebf962a192dd3a6a8fd1e94ed"
+        },
+        {
+          "code": "8175",
+          "advance_pixels": 16,
+          "foreground_pixels": 12,
+          "staging_sha256": "327b80e3a42eb751dab10fb87e171966323c62f1c43b2743ea17f90f4b486176"
+        },
+        {
+          "code": "8176",
+          "advance_pixels": 16,
+          "foreground_pixels": 12,
+          "staging_sha256": "dedd8653316db66ec25354b95db39cc690f2368a09d4755fd748c29aa2228e32"
+        },
+        {
+          "code": "8199",
+          "advance_pixels": 16,
+          "foreground_pixels": 31,
+          "staging_sha256": "2642d9d21f3d2c34ddcc953288411b7e9db4283548c5b46452789ddd631380a3"
+        },
+        {
+          "code": "81A1",
+          "advance_pixels": 16,
+          "foreground_pixels": 121,
+          "staging_sha256": "00d1a59e2385ef0b57d33ba7444372fdc0bad428c7c5f970fb7634959ee314bf"
+        },
+        {
+          "code": "81A8",
+          "advance_pixels": 16,
+          "foreground_pixels": 15,
+          "staging_sha256": "266a0a6b6cdc80d67566c1291f2744c690533b08968e58b7210d388d3fdb6374"
+        },
+        {
+          "code": "81A9",
+          "advance_pixels": 16,
+          "foreground_pixels": 15,
+          "staging_sha256": "bdce4bf7fe8fdc81f6868c9432b5fe11975aadc8663d69a7e18d6a4040234194"
+        },
+        {
+          "code": "81AA",
+          "advance_pixels": 16,
+          "foreground_pixels": 15,
+          "staging_sha256": "86b990d9121cb2f5e976098ffd8b0f682d9553a4aaabb18773d3592b18617db9"
+        },
+        {
+          "code": "81AB",
+          "advance_pixels": 16,
+          "foreground_pixels": 15,
+          "staging_sha256": "d3cb12ee31c4869b4a2d66674fb30fbda249238f5389804d18859506d539b4ba"
+        }
+      ],
+      "cases": [
+        {
+          "id": "script.0085.000",
+          "wait_offsets_verified": [
+            73,
+            86
+          ],
+          "exact_foreground_cache_rotations": [
+            0,
+            2
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0158.000",
+          "wait_offsets_verified": [
+            28
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0159.000",
+          "wait_offsets_verified": [
+            16
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0160.000",
+          "wait_offsets_verified": [
+            57
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": true,
+          "screenshots": []
+        },
+        {
+          "id": "script.0161.000",
+          "wait_offsets_verified": [
+            19
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0161.000-wait-1.png"
+          ]
+        },
+        {
+          "id": "script.0162.000",
+          "wait_offsets_verified": [
+            22
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0163.000",
+          "wait_offsets_verified": [
+            62
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": true,
+          "screenshots": [
+            "script.0163.000-wait-1.png"
+          ]
+        },
+        {
+          "id": "script.0164.000",
+          "wait_offsets_verified": [
+            78
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0405.000",
+          "wait_offsets_verified": [
+            55
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0490.000",
+          "wait_offsets_verified": [
+            63
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0491.000",
+          "wait_offsets_verified": [
+            72
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0492.000",
+          "wait_offsets_verified": [
+            24,
+            98,
+            160,
+            240,
+            253,
+            295
+          ],
+          "exact_foreground_cache_rotations": [
+            0,
+            0,
+            0,
+            0,
+            2,
+            2
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0492.000-wait-1.png",
+            "script.0492.000-wait-2.png",
+            "script.0492.000-wait-3.png",
+            "script.0492.000-wait-4.png",
+            "script.0492.000-wait-5.png",
+            "script.0492.000-wait-6.png"
+          ]
+        },
+        {
+          "id": "script.0493.000",
+          "wait_offsets_verified": [
+            68,
+            105
+          ],
+          "exact_foreground_cache_rotations": [
+            0,
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0494.000",
+          "wait_offsets_verified": [
+            53
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0495.000",
+          "wait_offsets_verified": [
+            16
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0496.000",
+          "wait_offsets_verified": [
+            61
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0496.000-wait-1.png"
+          ]
+        },
+        {
+          "id": "script.0497.000",
+          "wait_offsets_verified": [
+            82
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0497.000-wait-1.png"
+          ]
+        },
+        {
+          "id": "script.0498.000",
+          "wait_offsets_verified": [
+            70
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0499.000",
+          "wait_offsets_verified": [
+            51
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0500.000",
+          "wait_offsets_verified": [
+            59
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0501.000",
+          "wait_offsets_verified": [
+            42
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0502.000",
+          "wait_offsets_verified": [
+            61
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0502.001",
+          "wait_offsets_verified": [
+            60
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0503.000",
+          "wait_offsets_verified": [
+            70,
+            100
+          ],
+          "exact_foreground_cache_rotations": [
+            0,
+            2
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0504.000",
+          "wait_offsets_verified": [
+            54
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0505.000",
+          "wait_offsets_verified": [
+            62
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": true,
+          "screenshots": [
+            "script.0505.000-wait-1.png"
+          ]
+        },
+        {
+          "id": "script.0506.000",
+          "wait_offsets_verified": [
+            55
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0507.000",
+          "wait_offsets_verified": [
+            55
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0507.000-wait-1.png"
+          ]
+        },
+        {
+          "id": "script.0508.000",
+          "wait_offsets_verified": [
+            55
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0509.000",
+          "wait_offsets_verified": [
+            31
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": true,
+          "screenshots": []
+        },
+        {
+          "id": "script.0509.001",
+          "wait_offsets_verified": [
+            15
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0510.000",
+          "wait_offsets_verified": [
+            49
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0403.001",
+          "wait_offsets_verified": [
+            63,
+            109
+          ],
+          "exact_foreground_cache_rotations": [
+            0,
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0403.002",
+          "wait_offsets_verified": [
+            67,
+            113
+          ],
+          "exact_foreground_cache_rotations": [
+            0,
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0403.003",
+          "wait_offsets_verified": [
+            63,
+            111
+          ],
+          "exact_foreground_cache_rotations": [
+            0,
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0403.004",
+          "wait_offsets_verified": [
+            57,
+            107
+          ],
+          "exact_foreground_cache_rotations": [
+            0,
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0403.005",
+          "wait_offsets_verified": [
+            55,
+            110
+          ],
+          "exact_foreground_cache_rotations": [
+            0,
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0403.006",
+          "wait_offsets_verified": [
+            56,
+            99
+          ],
+          "exact_foreground_cache_rotations": [
+            0,
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0403.007",
+          "wait_offsets_verified": [
+            60,
+            106
+          ],
+          "exact_foreground_cache_rotations": [
+            0,
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0403.008",
+          "wait_offsets_verified": [
+            50,
+            97
+          ],
+          "exact_foreground_cache_rotations": [
+            0,
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0403.009",
+          "wait_offsets_verified": [
+            62,
+            109
+          ],
+          "exact_foreground_cache_rotations": [
+            0,
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0403.010",
+          "wait_offsets_verified": [
+            63,
+            109
+          ],
+          "exact_foreground_cache_rotations": [
+            0,
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0403.011",
+          "wait_offsets_verified": [
+            48,
+            91
+          ],
+          "exact_foreground_cache_rotations": [
+            0,
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0403.012",
+          "wait_offsets_verified": [
+            42,
+            93,
+            175,
+            237,
+            284
+          ],
+          "exact_foreground_cache_rotations": [
+            0,
+            0,
+            2,
+            2,
+            2
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0403.013",
+          "wait_offsets_verified": [
+            63,
+            114,
+            196,
+            258,
+            322,
+            369
+          ],
+          "exact_foreground_cache_rotations": [
+            0,
+            0,
+            2,
+            2,
+            2,
+            2
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0403.013-wait-1.png",
+            "script.0403.013-wait-2.png",
+            "script.0403.013-wait-3.png",
+            "script.0403.013-wait-4.png",
+            "script.0403.013-wait-5.png",
+            "script.0403.013-wait-6.png"
+          ]
+        }
+      ],
+      "sram_unchanged": true,
+      "emulator_error_count": 0,
+      "limitations": [
+        "Native UI fixtures hosted in the house, not natural encounters with every sign.",
+        "Three choice labels tested by renderer and source call, not the native choice widget.",
+        "Variables preserved in ROM; layout fixtures substitute twelve digits, not proof of native variable values.",
+        "Manual language/layout review and physical-map completeness pending."
+      ]
+    },
+    "dev": {
+      "status": "passed",
+      "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f",
+      "sign_records": 48,
+      "native_widget_cases": 45,
+      "choice_labels_renderer_only": 3,
+      "guarded_renderer_lines": 179,
+      "native_waits_verified": 73,
+      "source_scripts_CODE_JUMP_unchanged": 31,
+      "untranslated_strings_byte_identical": 1,
+      "original_RAW_glyphs_unchanged": [
+        {
+          "code": "8140",
+          "advance_pixels": 16,
+          "foreground_pixels": 0,
+          "staging_sha256": "38723a2e5e8a17aa7950dc008209944e898f69a7bd10a23c839d341e935fd5ca"
+        },
+        {
+          "code": "8145",
+          "advance_pixels": 16,
+          "foreground_pixels": 4,
+          "staging_sha256": "c28c328df106f5785cfe3a5153079bbd1a499baebf962a192dd3a6a8fd1e94ed"
+        },
+        {
+          "code": "8175",
+          "advance_pixels": 16,
+          "foreground_pixels": 12,
+          "staging_sha256": "327b80e3a42eb751dab10fb87e171966323c62f1c43b2743ea17f90f4b486176"
+        },
+        {
+          "code": "8176",
+          "advance_pixels": 16,
+          "foreground_pixels": 12,
+          "staging_sha256": "dedd8653316db66ec25354b95db39cc690f2368a09d4755fd748c29aa2228e32"
+        },
+        {
+          "code": "8199",
+          "advance_pixels": 16,
+          "foreground_pixels": 31,
+          "staging_sha256": "2642d9d21f3d2c34ddcc953288411b7e9db4283548c5b46452789ddd631380a3"
+        },
+        {
+          "code": "81A1",
+          "advance_pixels": 16,
+          "foreground_pixels": 121,
+          "staging_sha256": "00d1a59e2385ef0b57d33ba7444372fdc0bad428c7c5f970fb7634959ee314bf"
+        },
+        {
+          "code": "81A8",
+          "advance_pixels": 16,
+          "foreground_pixels": 15,
+          "staging_sha256": "266a0a6b6cdc80d67566c1291f2744c690533b08968e58b7210d388d3fdb6374"
+        },
+        {
+          "code": "81A9",
+          "advance_pixels": 16,
+          "foreground_pixels": 15,
+          "staging_sha256": "bdce4bf7fe8fdc81f6868c9432b5fe11975aadc8663d69a7e18d6a4040234194"
+        },
+        {
+          "code": "81AA",
+          "advance_pixels": 16,
+          "foreground_pixels": 15,
+          "staging_sha256": "86b990d9121cb2f5e976098ffd8b0f682d9553a4aaabb18773d3592b18617db9"
+        },
+        {
+          "code": "81AB",
+          "advance_pixels": 16,
+          "foreground_pixels": 15,
+          "staging_sha256": "d3cb12ee31c4869b4a2d66674fb30fbda249238f5389804d18859506d539b4ba"
+        }
+      ],
+      "cases": [
+        {
+          "id": "script.0085.000",
+          "wait_offsets_verified": [
+            73,
+            86
+          ],
+          "exact_foreground_cache_rotations": [
+            0,
+            2
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0158.000",
+          "wait_offsets_verified": [
+            28
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0159.000",
+          "wait_offsets_verified": [
+            16
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0160.000",
+          "wait_offsets_verified": [
+            57
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": true,
+          "screenshots": []
+        },
+        {
+          "id": "script.0161.000",
+          "wait_offsets_verified": [
+            19
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0161.000-wait-1.png"
+          ]
+        },
+        {
+          "id": "script.0162.000",
+          "wait_offsets_verified": [
+            22
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0163.000",
+          "wait_offsets_verified": [
+            62
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": true,
+          "screenshots": [
+            "script.0163.000-wait-1.png"
+          ]
+        },
+        {
+          "id": "script.0164.000",
+          "wait_offsets_verified": [
+            78
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0405.000",
+          "wait_offsets_verified": [
+            55
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0490.000",
+          "wait_offsets_verified": [
+            63
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0491.000",
+          "wait_offsets_verified": [
+            72
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0492.000",
+          "wait_offsets_verified": [
+            24,
+            98,
+            160,
+            240,
+            253,
+            295
+          ],
+          "exact_foreground_cache_rotations": [
+            0,
+            0,
+            0,
+            0,
+            2,
+            2
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0492.000-wait-1.png",
+            "script.0492.000-wait-2.png",
+            "script.0492.000-wait-3.png",
+            "script.0492.000-wait-4.png",
+            "script.0492.000-wait-5.png",
+            "script.0492.000-wait-6.png"
+          ]
+        },
+        {
+          "id": "script.0493.000",
+          "wait_offsets_verified": [
+            68,
+            105
+          ],
+          "exact_foreground_cache_rotations": [
+            0,
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0494.000",
+          "wait_offsets_verified": [
+            53
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0495.000",
+          "wait_offsets_verified": [
+            16
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0496.000",
+          "wait_offsets_verified": [
+            61
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0496.000-wait-1.png"
+          ]
+        },
+        {
+          "id": "script.0497.000",
+          "wait_offsets_verified": [
+            82
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0497.000-wait-1.png"
+          ]
+        },
+        {
+          "id": "script.0498.000",
+          "wait_offsets_verified": [
+            70
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0499.000",
+          "wait_offsets_verified": [
+            51
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0500.000",
+          "wait_offsets_verified": [
+            59
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0501.000",
+          "wait_offsets_verified": [
+            42
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0502.000",
+          "wait_offsets_verified": [
+            61
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0502.001",
+          "wait_offsets_verified": [
+            60
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0503.000",
+          "wait_offsets_verified": [
+            70,
+            100
+          ],
+          "exact_foreground_cache_rotations": [
+            0,
+            2
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0504.000",
+          "wait_offsets_verified": [
+            54
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0505.000",
+          "wait_offsets_verified": [
+            62
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": true,
+          "screenshots": [
+            "script.0505.000-wait-1.png"
+          ]
+        },
+        {
+          "id": "script.0506.000",
+          "wait_offsets_verified": [
+            55
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0507.000",
+          "wait_offsets_verified": [
+            55
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0507.000-wait-1.png"
+          ]
+        },
+        {
+          "id": "script.0508.000",
+          "wait_offsets_verified": [
+            55
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0509.000",
+          "wait_offsets_verified": [
+            31
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": true,
+          "screenshots": []
+        },
+        {
+          "id": "script.0509.001",
+          "wait_offsets_verified": [
+            15
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0510.000",
+          "wait_offsets_verified": [
+            49
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0403.001",
+          "wait_offsets_verified": [
+            63,
+            109
+          ],
+          "exact_foreground_cache_rotations": [
+            0,
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0403.002",
+          "wait_offsets_verified": [
+            67,
+            113
+          ],
+          "exact_foreground_cache_rotations": [
+            0,
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0403.003",
+          "wait_offsets_verified": [
+            63,
+            111
+          ],
+          "exact_foreground_cache_rotations": [
+            0,
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0403.004",
+          "wait_offsets_verified": [
+            57,
+            107
+          ],
+          "exact_foreground_cache_rotations": [
+            0,
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0403.005",
+          "wait_offsets_verified": [
+            55,
+            110
+          ],
+          "exact_foreground_cache_rotations": [
+            0,
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0403.006",
+          "wait_offsets_verified": [
+            56,
+            99
+          ],
+          "exact_foreground_cache_rotations": [
+            0,
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0403.007",
+          "wait_offsets_verified": [
+            60,
+            106
+          ],
+          "exact_foreground_cache_rotations": [
+            0,
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0403.008",
+          "wait_offsets_verified": [
+            50,
+            97
+          ],
+          "exact_foreground_cache_rotations": [
+            0,
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0403.009",
+          "wait_offsets_verified": [
+            62,
+            109
+          ],
+          "exact_foreground_cache_rotations": [
+            0,
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0403.010",
+          "wait_offsets_verified": [
+            63,
+            109
+          ],
+          "exact_foreground_cache_rotations": [
+            0,
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0403.011",
+          "wait_offsets_verified": [
+            48,
+            91
+          ],
+          "exact_foreground_cache_rotations": [
+            0,
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0403.012",
+          "wait_offsets_verified": [
+            42,
+            93,
+            175,
+            237,
+            284
+          ],
+          "exact_foreground_cache_rotations": [
+            0,
+            0,
+            2,
+            2,
+            2
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": []
+        },
+        {
+          "id": "script.0403.013",
+          "wait_offsets_verified": [
+            63,
+            114,
+            196,
+            258,
+            322,
+            369
+          ],
+          "exact_foreground_cache_rotations": [
+            0,
+            0,
+            2,
+            2,
+            2,
+            2
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0403.013-wait-1.png",
+            "script.0403.013-wait-2.png",
+            "script.0403.013-wait-3.png",
+            "script.0403.013-wait-4.png",
+            "script.0403.013-wait-5.png",
+            "script.0403.013-wait-6.png"
+          ]
+        }
+      ],
+      "sram_unchanged": true,
+      "emulator_error_count": 0,
+      "limitations": [
+        "Native UI fixtures hosted in the house, not natural encounters with every sign.",
+        "Three choice labels tested by renderer and source call, not the native choice widget.",
+        "Variables preserved in ROM; layout fixtures substitute twelve digits, not proof of native variable values.",
+        "Manual language/layout review and physical-map completeness pending."
+      ]
+    }
+  },
+  "screenshots": [
+    {
+      "path": "docs/evidence/sign-hours/script.0496.000-wait-1.png",
+      "sha256": "8fbce35d3c43c2f744e0e5eb549800e8e1189018b26ef532326ecb9b0f220108",
+      "scope": "native UI fixture"
+    },
+    {
+      "path": "docs/evidence/sign-hours/script.0492.000-wait-5.png",
+      "sha256": "eb2dd823c457b9da26933a39d9f0d721768b5af679db684b7781a7b988ce5a4a",
+      "scope": "native UI fixture"
+    },
+    {
+      "path": "docs/evidence/sign-hours/script.0403.013-wait-4.png",
+      "sha256": "4fb39d8a25826e12a0e2c4b7e406ada271cad718ef941589826afa45ae0673ea",
+      "scope": "native UI fixture"
+    }
+  ],
+  "prior_full_platform_evidence": "docs/evidence/platform-validation.json",
+  "limitations": [
+    "Focused sign-format validation; full platform/golden/browser replay belongs to the earlier signs-01 target, not this target.",
+    "Native UI fixtures rather than natural visits to every sign; three choices renderer-only and dynamic values use twelve-cell stand-ins.",
+    "Manual language/layout review pending."
+  ]
+}

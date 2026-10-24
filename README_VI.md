@@ -6,6 +6,8 @@ Không chứa hoặc tự tải ROM thương mại. Bản vá IPS nằm trong `p
 
 ## Trạng thái hiện tại
 
+Giờ trên biển hiện dùng dạng **9h - 17h**; [kiểm chứng bản giờ mới](docs/evidence/sign-hours-validation.json).
+
 [Biển chỉ dẫn/thông báo](docs/SIGN_LOCALIZATION.md): 45 nội dung biển và 3 lựa chọn liên quan, gồm Chỗ lấy nước, giờ cửa hàng, nội quy bãi biển và bảng lễ hội.
 
 [Hướng dẫn giường/thùng xuất hàng](docs/INTERACTION_HINTS.md): dịch ba vị trí chuỗi theo ảnh, giữ điểm chờ và cuộn dòng.
@@ -42,7 +44,7 @@ Lô [vật phẩm/UI](docs/ITEM_LOCALIZATION.md) hoàn tất nháp; duyệt ngh�
   Bản sửa v2 xử lý lỗi lệch thân chữ/spacing; xem ảnh trước–sau trong `docs/evidence`.
 - Chèn lại ở vùng ROM mở rộng, giữ nguyên bytecode sự kiện và dữ liệu gameplay.
 - Kiểm thử mGBA: boot, tạo game mới, hội thoại Thomas, 7 nhãn menu, render font,
-  lịch/HUD và ghi Diary, nạp lại save sau boot; 144 pytest đạt. Chi tiết và giới hạn trong báo cáo tiến độ.
+  lịch/HUD và ghi Diary, nạp lại save sau boot; 144 pytest đạt tại mốc signs-01. Chi tiết và giới hạn trong báo cáo tiến độ.
 
 Chưa xác minh toàn bộ gameplay, mọi màn hình vật phẩm, TV/sách/sự kiện, phần cứng
 GBA thật hoặc nhập tên người chơi có dấu. Phần lớn hội thoại vẫn là tiếng Anh.

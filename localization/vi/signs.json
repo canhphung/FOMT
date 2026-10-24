@@ -498,7 +498,7 @@
       "rom_address": "0x08329098",
       "rom_offset": "0x329098",
       "original_english": "{RAW:81A1}Beach Rules{RAW:81A1}{WAIT}{PAGE}If you want to play{CR}{LF}frisbee with your dog,{CR}{LF}observe these rules:{WAIT}{PAGE}{RAW:8145}Bring your own frisbee{CR}{LF}{RAW:8145}Mature dogs only{WAIT}{PAGE}Beach is open these times:{CR}{LF}{RAW:8145}Sunny days only in{CR}{LF} Spring, Summer, and Fall.{WAIT}{CR}{LF}{RAW:8145}6AM-5PM{WAIT}{PAGE}Please play safely and{CR}{LF}have fun!{WAIT}",
-      "vietnamese_translation": "{RAW:81A1}Nội quy bãi biển{RAW:81A1}{WAIT}{PAGE}Muốn chơi ném đĩa{CR}{LF}với chó, hãy tuân thủ{CR}{LF}các quy định sau:{WAIT}{PAGE}{RAW:8145}Tự mang theo đĩa ném{CR}{LF}{RAW:8145}Chỉ chó đã trưởng thành{WAIT}{PAGE}Thời gian được chơi:{CR}{LF}{RAW:8145}Chỉ ngày nắng trong{CR}{LF} mùa xuân, hè và thu.{WAIT}{CR}{LF}{RAW:8145}6 giờ sáng - 5 giờ chiều{WAIT}{PAGE}Hãy chơi an toàn{CR}{LF}và thật vui nhé!{WAIT}",
+      "vietnamese_translation": "{RAW:81A1}Nội quy bãi biển{RAW:81A1}{WAIT}{PAGE}Muốn chơi ném đĩa{CR}{LF}với chó, hãy tuân thủ{CR}{LF}các quy định sau:{WAIT}{PAGE}{RAW:8145}Tự mang theo đĩa ném{CR}{LF}{RAW:8145}Chỉ chó đã trưởng thành{WAIT}{PAGE}Thời gian được chơi:{CR}{LF}{RAW:8145}Chỉ ngày nắng trong{CR}{LF} mùa xuân, hè và thu.{WAIT}{CR}{LF}{RAW:8145}6h - 17h{WAIT}{PAGE}Hãy chơi an toàn{CR}{LF}và thật vui nhé!{WAIT}",
       "context": "sign_text",
       "speaker": null,
       "control_codes": [
@@ -659,7 +659,7 @@
       "rom_address": "0x083291F8",
       "rom_offset": "0x3291F8",
       "original_english": "Kai's Beach House{CR}{LF}Open Summer Only{CR}{LF}Closed Sunday{WAIT}{PAGE}Hours: 11AM-1PM and{CR}{LF}5-7PM. {WAIT}",
-      "vietnamese_translation": "Quán bãi biển của Kai{CR}{LF}Chỉ mở vào mùa hè{CR}{LF}Nghỉ Chủ nhật{WAIT}{PAGE}Giờ mở: 11-13 giờ và{CR}{LF}17-19 giờ.{WAIT}",
+      "vietnamese_translation": "Quán bãi biển của Kai{CR}{LF}Chỉ mở vào mùa hè{CR}{LF}Nghỉ Chủ nhật{WAIT}{PAGE}Giờ mở: 11h - 13h và{CR}{LF}17h - 19h.{WAIT}",
       "context": "sign_text",
       "speaker": null,
       "control_codes": [
@@ -706,7 +706,7 @@
       "rom_address": "0x08329288",
       "rom_offset": "0x329288",
       "original_english": "Woodcutter's {CR}{LF}Open 11AM-4PM{CR}{LF}Closed Saturdays{WAIT}",
-      "vietnamese_translation": "Nhà thợ mộc{CR}{LF}Mở cửa: 11-16 giờ{CR}{LF}Nghỉ thứ Bảy{WAIT}",
+      "vietnamese_translation": "Nhà thợ mộc{CR}{LF}Mở cửa: 11h - 16h{CR}{LF}Nghỉ thứ Bảy{WAIT}",
       "context": "sign_text",
       "speaker": null,
       "control_codes": [
@@ -792,7 +792,7 @@
       "rom_address": "0x08329340",
       "rom_offset": "0x329340",
       "original_english": "Supermarket{CR}{LF}Open 9AM-5PM{CR}{LF}Closed Tuesdays and Sundays{WAIT}",
-      "vietnamese_translation": "Siêu thị{CR}{LF}Mở cửa: 9-17 giờ{CR}{LF}Nghỉ thứ Ba và Chủ nhật{WAIT}",
+      "vietnamese_translation": "Siêu thị{CR}{LF}Mở cửa: 9h - 17h{CR}{LF}Nghỉ thứ Ba và Chủ nhật{WAIT}",
       "context": "sign_text",
       "speaker": null,
       "control_codes": [
@@ -989,7 +989,7 @@
       "rom_address": "0x08329554",
       "rom_offset": "0x329554",
       "original_english": "Mineral Clinic{CR}{LF}Office Hours: 9AM-4PM{CR}{LF}Closed on Wednesdays{WAIT}",
-      "vietnamese_translation": "Phòng khám Mineral{CR}{LF}Giờ khám: 9-16 giờ{CR}{LF}Nghỉ thứ Tư{WAIT}",
+      "vietnamese_translation": "Phòng khám Mineral{CR}{LF}Giờ khám: 9h - 16h{CR}{LF}Nghỉ thứ Tư{WAIT}",
       "context": "sign_text",
       "speaker": null,
       "control_codes": [
@@ -1032,7 +1032,7 @@
       "rom_address": "0x083295D0",
       "rom_offset": "0x3295D0",
       "original_english": "Doug's Place{CR}{LF}Bar Hours: 8:00 - 21:00{WAIT}",
-      "vietnamese_translation": "Quán của Doug{CR}{LF}Giờ quán bar: 8:00 - 21:00{WAIT}",
+      "vietnamese_translation": "Quán của Doug{CR}{LF}Giờ quán bar: 8h - 21h{WAIT}",
       "context": "sign_text",
       "speaker": null,
       "control_codes": [
@@ -1073,7 +1073,7 @@
       "rom_address": "0x0832967C",
       "rom_offset": "0x32967C",
       "original_english": "Mary's Library{CR}{LF}Open: 10AM{CR}{LF}Closed: 4PM  Closed Thursdays{WAIT}",
-      "vietnamese_translation": "Thư viện Mary{CR}{LF}Mở cửa: 10 giờ{CR}{LF}Đóng: 16 giờ. Nghỉ thứ Năm{WAIT}",
+      "vietnamese_translation": "Thư viện Mary{CR}{LF}Mở cửa: 10h{CR}{LF}Đóng: 16h. Nghỉ thứ Năm{WAIT}",
       "context": "sign_text",
       "speaker": null,
       "control_codes": [
@@ -1116,7 +1116,7 @@
       "rom_address": "0x083296B7",
       "rom_offset": "0x3296B7",
       "original_english": "Mary's Library{CR}{LF}Open: 10AM{CR}{LF}Closed: 4PM  Closed Mondays{WAIT}",
-      "vietnamese_translation": "Thư viện Mary{CR}{LF}Mở cửa: 10 giờ{CR}{LF}Đóng: 16 giờ. Nghỉ thứ Hai{WAIT}",
+      "vietnamese_translation": "Thư viện Mary{CR}{LF}Mở cửa: 10h{CR}{LF}Đóng: 16h. Nghỉ thứ Hai{WAIT}",
       "context": "sign_text",
       "speaker": null,
       "control_codes": [
@@ -1159,7 +1159,7 @@
       "rom_address": "0x0832972C",
       "rom_offset": "0x32972C",
       "original_english": "Aja Winery{CR}{LF}Open 10AM to noon{CR}{LF}everyday except Sunday{WAIT}{CR}{LF}We sell wine and juice.{WAIT}",
-      "vietnamese_translation": "Xưởng rượu Aja{CR}{LF}Mở cửa: 10-12 giờ{CR}{LF}Hằng ngày, trừ Chủ nhật{WAIT}{CR}{LF}Bán rượu và nước ép.{WAIT}",
+      "vietnamese_translation": "Xưởng rượu Aja{CR}{LF}Mở cửa: 10h - 12h{CR}{LF}Hằng ngày, trừ Chủ nhật{WAIT}{CR}{LF}Bán rượu và nước ép.{WAIT}",
       "context": "sign_text",
       "speaker": null,
       "control_codes": [
@@ -1205,7 +1205,7 @@
       "rom_address": "0x083297BC",
       "rom_offset": "0x3297BC",
       "original_english": "Poultry Farm{CR}{LF}Open 11AM-4PM{CR}{LF}Closed every Sunday{WAIT}",
-      "vietnamese_translation": "Trại gia cầm{CR}{LF}Mở cửa: 11-16 giờ{CR}{LF}Nghỉ Chủ nhật{WAIT}",
+      "vietnamese_translation": "Trại gia cầm{CR}{LF}Mở cửa: 11h - 16h{CR}{LF}Nghỉ Chủ nhật{WAIT}",
       "context": "sign_text",
       "speaker": null,
       "control_codes": [
@@ -1401,7 +1401,7 @@
       "rom_address": "0x083299A0",
       "rom_offset": "0x3299A0",
       "original_english": "Saibara the Blacksmith{CR}{LF}Open 10AM-4PM{CR}{LF}Closed Thursdays{WAIT}",
-      "vietnamese_translation": "Lò rèn Saibara{CR}{LF}Mở cửa: 10-16 giờ{CR}{LF}Nghỉ thứ Năm{WAIT}",
+      "vietnamese_translation": "Lò rèn Saibara{CR}{LF}Mở cửa: 10h - 16h{CR}{LF}Nghỉ thứ Năm{WAIT}",
       "context": "sign_text",
       "speaker": null,
       "control_codes": [
@@ -1527,7 +1527,7 @@
       "rom_address": "0x08329AA0",
       "rom_offset": "0x329AA0",
       "original_english": "Yodel Farm{CR}{LF}We're open 10AM to {CR}{LF}3PM, except Mondays{WAIT}",
-      "vietnamese_translation": "Trại Yodel{CR}{LF}Mở cửa: 10-15 giờ,{CR}{LF}trừ thứ Hai{WAIT}",
+      "vietnamese_translation": "Trại Yodel{CR}{LF}Mở cửa: 10h - 15h,{CR}{LF}trừ thứ Hai{WAIT}",
       "context": "sign_text",
       "speaker": null,
       "control_codes": [
@@ -1570,7 +1570,7 @@
       "rom_address": "0x082EC42E",
       "rom_offset": "0x2EC42E",
       "original_english": "{RAW:8199}New Year Festival{CR}{LF}1st day of Spring, 6PM{CR}{LF}At Rose Square{WAIT}{PAGE}Come one, come all!{CR}{LF}                    Mayor{CR}{LF}{WAIT}",
-      "vietnamese_translation": "{RAW:8199}Lễ hội năm mới{CR}{LF}Ngày 1 xuân, 18 giờ{CR}{LF}Quảng trường Rose{WAIT}{PAGE}Mời mọi người tham dự!{CR}{LF}Thị trưởng{CR}{LF}{WAIT}",
+      "vietnamese_translation": "{RAW:8199}Lễ hội năm mới{CR}{LF}Ngày 1 xuân, 18h{CR}{LF}Quảng trường Rose{WAIT}{PAGE}Mời mọi người tham dự!{CR}{LF}Thị trưởng{CR}{LF}{WAIT}",
       "context": "festival_notice",
       "speaker": null,
       "control_codes": [
@@ -1620,7 +1620,7 @@
       "rom_address": "0x082EC49D",
       "rom_offset": "0x2EC49D",
       "original_english": "{RAW:8199}Spring Horse Races{CR}{LF}18th day of Spring, 10AM{CR}{LF}At Rose Square{WAIT}{PAGE}Come one, come all!{CR}{LF}                    Mayor{CR}{LF}{WAIT}",
-      "vietnamese_translation": "{RAW:8199}Đua ngựa mùa xuân{CR}{LF}Ngày 18 xuân, 10 giờ{CR}{LF}Quảng trường Rose{WAIT}{PAGE}Mời mọi người tham dự!{CR}{LF}Thị trưởng{CR}{LF}{WAIT}",
+      "vietnamese_translation": "{RAW:8199}Đua ngựa mùa xuân{CR}{LF}Ngày 18 xuân, 10h{CR}{LF}Quảng trường Rose{WAIT}{PAGE}Mời mọi người tham dự!{CR}{LF}Thị trưởng{CR}{LF}{WAIT}",
       "context": "festival_notice",
       "speaker": null,
       "control_codes": [
@@ -1670,7 +1670,7 @@
       "rom_address": "0x082EC50F",
       "rom_offset": "0x2EC50F",
       "original_english": "{RAW:8199}Cooking Festival{CR}{LF}22nd day of Spring, 10AM{CR}{LF}At Rose Square{WAIT}{PAGE}Spice things up!{CR}{LF}                    Mayor{CR}{LF}{WAIT}",
-      "vietnamese_translation": "{RAW:8199}Lễ hội nấu ăn{CR}{LF}Ngày 22 xuân, 10 giờ{CR}{LF}Quảng trường Rose{WAIT}{PAGE}Cùng trổ tài nấu nướng!{CR}{LF}Thị trưởng{CR}{LF}{WAIT}",
+      "vietnamese_translation": "{RAW:8199}Lễ hội nấu ăn{CR}{LF}Ngày 22 xuân, 10h{CR}{LF}Quảng trường Rose{WAIT}{PAGE}Cùng trổ tài nấu nướng!{CR}{LF}Thị trưởng{CR}{LF}{WAIT}",
       "context": "festival_notice",
       "speaker": null,
       "control_codes": [
@@ -1720,7 +1720,7 @@
       "rom_address": "0x082EC57C",
       "rom_offset": "0x2EC57C",
       "original_english": "Swimming Festival{CR}{LF}1st day of Summer, 10AM{CR}{LF}At Mineral Beach{WAIT}{PAGE}Bring Dogs to Frisbee{CR}{LF}Tournament!          Mayor{CR}{LF}{WAIT}",
-      "vietnamese_translation": "Lễ hội bơi lội{CR}{LF}Ngày 1 hè, 10 giờ{CR}{LF}Bãi biển Mineral{WAIT}{PAGE}Mang chó đến thi{CR}{LF}ném đĩa! Thị trưởng{CR}{LF}{WAIT}",
+      "vietnamese_translation": "Lễ hội bơi lội{CR}{LF}Ngày 1 hè, 10h{CR}{LF}Bãi biển Mineral{WAIT}{PAGE}Mang chó đến thi{CR}{LF}ném đĩa! Thị trưởng{CR}{LF}{WAIT}",
       "context": "festival_notice",
       "speaker": null,
       "control_codes": [
@@ -1769,7 +1769,7 @@
       "rom_address": "0x082EC5EF",
       "rom_offset": "0x2EC5EF",
       "original_english": "{RAW:8199}Chicken Festival{CR}{LF}7th day of Summer, 10AM{CR}{LF}At Rose Square{WAIT}{PAGE}Bring your strongest{CR}{LF}Chicken!           Mayor{CR}{LF}{WAIT}",
-      "vietnamese_translation": "{RAW:8199}Lễ hội gà{CR}{LF}Ngày 7 hè, 10 giờ{CR}{LF}Quảng trường Rose{WAIT}{PAGE}Mang chú gà khỏe nhất{CR}{LF}đến thi! Thị trưởng{CR}{LF}{WAIT}",
+      "vietnamese_translation": "{RAW:8199}Lễ hội gà{CR}{LF}Ngày 7 hè, 10h{CR}{LF}Quảng trường Rose{WAIT}{PAGE}Mang chú gà khỏe nhất{CR}{LF}đến thi! Thị trưởng{CR}{LF}{WAIT}",
       "context": "festival_notice",
       "speaker": null,
       "control_codes": [
@@ -1819,7 +1819,7 @@
       "rom_address": "0x082EC65E",
       "rom_offset": "0x2EC65E",
       "original_english": "{RAW:8199}Cow Festival{CR}{LF}20th day of Summer, 10AM{CR}{LF}At Rose Square{WAIT}{PAGE}Bring your best Cow!{CR}{LF}                    Mayor{CR}{LF}{WAIT}",
-      "vietnamese_translation": "{RAW:8199}Lễ hội bò{CR}{LF}Ngày 20 hè, 10 giờ{CR}{LF}Quảng trường Rose{WAIT}{PAGE}Mang cô bò tốt nhất!{CR}{LF}Thị trưởng{CR}{LF}{WAIT}",
+      "vietnamese_translation": "{RAW:8199}Lễ hội bò{CR}{LF}Ngày 20 hè, 10h{CR}{LF}Quảng trường Rose{WAIT}{PAGE}Mang cô bò tốt nhất!{CR}{LF}Thị trưởng{CR}{LF}{WAIT}",
       "context": "festival_notice",
       "speaker": null,
       "control_codes": [
@@ -1869,7 +1869,7 @@
       "rom_address": "0x082EC6CB",
       "rom_offset": "0x2EC6CB",
       "original_english": "{RAW:8199}Fireworks Festival{CR}{LF}24th day of Summer, 6PM{CR}{LF}Mineral Beach{WAIT}{PAGE}Come celebrate the end of{CR}{LF}Summer!              Mayor{CR}{LF}{WAIT}",
-      "vietnamese_translation": "{RAW:8199}Lễ hội pháo hoa{CR}{LF}Ngày 24 hè, 18 giờ{CR}{LF}Bãi biển Mineral{WAIT}{PAGE}Cùng mừng cuối mùa hè!{CR}{LF}Thị trưởng{CR}{LF}{WAIT}",
+      "vietnamese_translation": "{RAW:8199}Lễ hội pháo hoa{CR}{LF}Ngày 24 hè, 18h{CR}{LF}Bãi biển Mineral{WAIT}{PAGE}Cùng mừng cuối mùa hè!{CR}{LF}Thị trưởng{CR}{LF}{WAIT}",
       "context": "festival_notice",
       "speaker": null,
       "control_codes": [
@@ -1919,7 +1919,7 @@
       "rom_address": "0x082EC742",
       "rom_offset": "0x2EC742",
       "original_english": "{RAW:8199}Music Festival{CR}{LF}3rd day of Fall, 6PM{CR}{LF}At the Church{WAIT}{PAGE}Come celebrate the Fall{CR}{LF}Equinox!             Mayor{CR}{LF}{WAIT}",
-      "vietnamese_translation": "{RAW:8199}Lễ hội âm nhạc{CR}{LF}Ngày 3 thu, 18 giờ{CR}{LF}Nhà thờ{WAIT}{PAGE}Cùng mừng ngày{CR}{LF}thu phân! Thị trưởng{CR}{LF}{WAIT}",
+      "vietnamese_translation": "{RAW:8199}Lễ hội âm nhạc{CR}{LF}Ngày 3 thu, 18h{CR}{LF}Nhà thờ{WAIT}{PAGE}Cùng mừng ngày{CR}{LF}thu phân! Thị trưởng{CR}{LF}{WAIT}",
       "context": "festival_notice",
       "speaker": null,
       "control_codes": [
@@ -1974,7 +1974,7 @@
       "rom_address": "0x082EC7B0",
       "rom_offset": "0x2EC7B0",
       "original_english": "{RAW:8199}Harvest Festival{CR}{LF}9th day of Fall, 10AM{CR}{LF}At Rose Square{WAIT}{PAGE}Come to partake together!{CR}{LF}                     Mayor{CR}{LF}{WAIT}",
-      "vietnamese_translation": "{RAW:8199}Lễ hội thu hoạch{CR}{LF}Ngày 9 thu, 10 giờ{CR}{LF}Quảng trường Rose{WAIT}{PAGE}Mời mọi người chung vui!{CR}{LF}Thị trưởng{CR}{LF}{WAIT}",
+      "vietnamese_translation": "{RAW:8199}Lễ hội thu hoạch{CR}{LF}Ngày 9 thu, 10h{CR}{LF}Quảng trường Rose{WAIT}{PAGE}Mời mọi người chung vui!{CR}{LF}Thị trưởng{CR}{LF}{WAIT}",
       "context": "festival_notice",
       "speaker": null,
       "control_codes": [
@@ -2024,7 +2024,7 @@
       "rom_address": "0x082EC824",
       "rom_offset": "0x2EC824",
       "original_english": "{RAW:8199}Fall Horse Races{CR}{LF}18th day of Fall, 10AM{CR}{LF}At Rose Square{WAIT}{PAGE}Come one, come all!{CR}{LF}                    Mayor{CR}{LF}{WAIT}",
-      "vietnamese_translation": "{RAW:8199}Đua ngựa mùa thu{CR}{LF}Ngày 18 thu, 10 giờ{CR}{LF}Quảng trường Rose{WAIT}{PAGE}Mời mọi người tham dự!{CR}{LF}Thị trưởng{CR}{LF}{WAIT}",
+      "vietnamese_translation": "{RAW:8199}Đua ngựa mùa thu{CR}{LF}Ngày 18 thu, 10h{CR}{LF}Quảng trường Rose{WAIT}{PAGE}Mời mọi người tham dự!{CR}{LF}Thị trưởng{CR}{LF}{WAIT}",
       "context": "festival_notice",
       "speaker": null,
       "control_codes": [
@@ -2074,7 +2074,7 @@
       "rom_address": "0x082EC892",
       "rom_offset": "0x2EC892",
       "original_english": "{RAW:8199}Sheep Festival{CR}{LF}21st day of Fall, 10AM{CR}{LF}At Yodel Farm{WAIT}{PAGE}Bring Dyed in the Wool{CR}{LF}Sheep!               Mayor{CR}{LF}{WAIT}",
-      "vietnamese_translation": "{RAW:8199}Lễ hội cừu{CR}{LF}Ngày 21 thu, 10 giờ{CR}{LF}Trại Yodel{WAIT}{PAGE}Mang cừu đến dự thi!{CR}{LF}Thị trưởng{CR}{LF}{WAIT}",
+      "vietnamese_translation": "{RAW:8199}Lễ hội cừu{CR}{LF}Ngày 21 thu, 10h{CR}{LF}Trại Yodel{WAIT}{PAGE}Mang cừu đến dự thi!{CR}{LF}Thị trưởng{CR}{LF}{WAIT}",
       "context": "festival_notice",
       "speaker": null,
       "control_codes": [
@@ -2124,7 +2124,7 @@
       "rom_address": "0x082EC901",
       "rom_offset": "0x2EC901",
       "original_english": "{RAW:8199}Year End Festival and{CR}{LF}Year End Noodles{WAIT}{PAGE}Come celebrate the end of{CR}{LF}the old year and the {CR}{LF}beginning of the new!{WAIT}{PAGE}{RAW:8199}Year End Festival{CR}{LF}30th day of Winter,{CR}{LF}Midnight, at Mother's Hill{CR}{LF}Peak.{WAIT}{PAGE}{RAW:8199}Year End Noodles{CR}{LF}30th day of Winter, 6PM{CR}{LF}At Rose Square{WAIT}{PAGE}Everyone come celebrate!{CR}{LF}                     Mayor{CR}{LF}{WAIT}",
-      "vietnamese_translation": "{RAW:8199}Lễ hội cuối năm và{CR}{LF}Mì cuối năm{WAIT}{PAGE}Cùng tiễn năm cũ{CR}{LF}và chào đón{CR}{LF}năm mới!{WAIT}{PAGE}{RAW:8199}Lễ hội cuối năm{CR}{LF}Ngày 30 đông,{CR}{LF}nửa đêm, tại đỉnh{CR}{LF}Mother's Hill.{WAIT}{PAGE}{RAW:8199}Mì cuối năm{CR}{LF}Ngày 30 đông, 18 giờ{CR}{LF}Quảng trường Rose{WAIT}{PAGE}Mời mọi người chung vui!{CR}{LF}Thị trưởng{CR}{LF}{WAIT}",
+      "vietnamese_translation": "{RAW:8199}Lễ hội cuối năm và{CR}{LF}Mì cuối năm{WAIT}{PAGE}Cùng tiễn năm cũ{CR}{LF}và chào đón{CR}{LF}năm mới!{WAIT}{PAGE}{RAW:8199}Lễ hội cuối năm{CR}{LF}Ngày 30 đông,{CR}{LF}nửa đêm, tại đỉnh{CR}{LF}Mother's Hill.{WAIT}{PAGE}{RAW:8199}Mì cuối năm{CR}{LF}Ngày 30 đông, 18h{CR}{LF}Quảng trường Rose{WAIT}{PAGE}Mời mọi người chung vui!{CR}{LF}Thị trưởng{CR}{LF}{WAIT}",
       "context": "festival_notice",
       "speaker": null,
       "control_codes": [
@@ -2199,7 +2199,7 @@
       "rom_address": "0x082ECA37",
       "rom_offset": "0x2ECA37",
       "original_english": "{RAW:8199}Year End Festival,{CR}{LF}Year End Noodles, and {CR}{LF}New Year Festival{WAIT}{PAGE}Come celebrate the end of{CR}{LF}the old year and the {CR}{LF}beginning of the new!{WAIT}{PAGE}{RAW:8199}Year End Festival{CR}{LF}30th day of Winter,{CR}{LF}Midnight, at Mother's Hill{CR}{LF}Peak.{WAIT}{PAGE}{RAW:8199}Year End Noodles{CR}{LF}30th day of Winter, 6PM{CR}{LF}At Rose Square{WAIT}{PAGE}{RAW:8199}New Year Festival{CR}{LF}1st day of Spring, 6PM{CR}{LF}At Rose Square{WAIT}{PAGE}Everyone come celebrate!{CR}{LF}                     Mayor{CR}{LF}{WAIT}",
-      "vietnamese_translation": "{RAW:8199}Lễ hội cuối năm,{CR}{LF}Mì cuối năm và{CR}{LF}Lễ hội năm mới{WAIT}{PAGE}Cùng tiễn năm cũ{CR}{LF}và chào đón{CR}{LF}năm mới!{WAIT}{PAGE}{RAW:8199}Lễ hội cuối năm{CR}{LF}Ngày 30 đông,{CR}{LF}nửa đêm, tại đỉnh{CR}{LF}Mother's Hill.{WAIT}{PAGE}{RAW:8199}Mì cuối năm{CR}{LF}Ngày 30 đông, 18 giờ{CR}{LF}Quảng trường Rose{WAIT}{PAGE}{RAW:8199}Lễ hội năm mới{CR}{LF}Ngày 1 xuân, 18 giờ{CR}{LF}Quảng trường Rose{WAIT}{PAGE}Mời mọi người chung vui!{CR}{LF}Thị trưởng{CR}{LF}{WAIT}",
+      "vietnamese_translation": "{RAW:8199}Lễ hội cuối năm,{CR}{LF}Mì cuối năm và{CR}{LF}Lễ hội năm mới{WAIT}{PAGE}Cùng tiễn năm cũ{CR}{LF}và chào đón{CR}{LF}năm mới!{WAIT}{PAGE}{RAW:8199}Lễ hội cuối năm{CR}{LF}Ngày 30 đông,{CR}{LF}nửa đêm, tại đỉnh{CR}{LF}Mother's Hill.{WAIT}{PAGE}{RAW:8199}Mì cuối năm{CR}{LF}Ngày 30 đông, 18h{CR}{LF}Quảng trường Rose{WAIT}{PAGE}{RAW:8199}Lễ hội năm mới{CR}{LF}Ngày 1 xuân, 18h{CR}{LF}Quảng trường Rose{WAIT}{PAGE}Mời mọi người chung vui!{CR}{LF}Thị trưởng{CR}{LF}{WAIT}",
       "context": "festival_notice",
       "speaker": null,
       "control_codes": [

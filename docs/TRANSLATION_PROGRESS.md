@@ -33,13 +33,20 @@ trong localization/, chi tiết từng adapter trong các tài liệu hệ thố
 
 ## Kiểm chứng gần nhất
 
+**sign-hours-01:** đổi cách ghi giờ ở 25 mục thành `9h - 17h`/`18h`;
+5 test ROM hiện có, hai build/IPS round trip và hai sign suite native
+45 nội dung/73 WAIT/179 dòng đều đạt. Không sửa source code/font; xem
+[sign-hours-validation.json](evidence/sign-hours-validation.json).
+
+Các kiểm chứng đầy đủ bên dưới thuộc mốc signs-01 trước khi chỉnh giờ:
+
 - 144 pytest đạt với ROM USA rev 0 được người dùng cung cấp.
-- Bàn dịch local: 12 luồng Chromium đạt ở mốc object-labels-01, sửa/lưu trên bản sao dữ liệu;
-  toàn bộ 31 file JSON localization gốc giữ nguyên hash.
+- Bàn dịch local: 12 luồng Chromium đạt ở mốc signs-01, sửa/lưu trên bản sao dữ liệu;
+  toàn bộ 37 file JSON localization gốc giữ nguyên hash.
 - Hai build độc lập giống byte; IPS phát hành áp lại đúng ROM. Khóa 42 file
   nền tảng và 43 ảnh chuẩn, replay trên hai mGBA không lệch pixel.
 - mGBA 0.10.5/0.11-dev: boot/title/font, tạo game, START và Diary save/load
-  qua cold boot; báo cáo gắn đúng hash target hiện tại.
+  qua cold boot; báo cáo gắn đúng hash target tại mốc signs-01.
 - 2.580 tổ hợp packed date/time, 300 setter, chín fixture HUD có kiểm VRAM.
 - 56 fixture lịch: kiểm OAM/texture/tile cache của tiêu đề; phần body từ
   y=40 khớp bản gốc. Tám chu kỳ mở/đóng trả lại tài nguyên; SRAM không đổi.
@@ -232,3 +239,10 @@ contract. Kiểm native fixture 45 nội dung/73 WAIT và 179 dòng renderer;
 12 luồng Chromium trên bản sao, không sửa 37 JSON nguồn. Tổng nháp 1.456
 ID, glossary 496. Chưa có QA ngôn ngữ/bố cục thủ công hoặc mọi tương tác
 tự nhiên/map. Chi tiết: [SIGN_LOCALIZATION.md](SIGN_LOCALIZATION.md).
+
+## Phiên sign-hours-01 — 2026-10-24
+
+Chuẩn hóa giờ biển/thông báo theo yêu cầu: khoảng giờ có `h` ở cả hai đầu
+và khoảng cách quanh dấu gạch. Giữ nguyên giờ/ngày nghỉ, font, layout và
+control. Chỉ định dạng 25 bản dịch, không thêm ID. QA thủ công/tương tác
+tự nhiên vẫn pending; không tái sử dụng tuyên bố full-platform cho hash mới.

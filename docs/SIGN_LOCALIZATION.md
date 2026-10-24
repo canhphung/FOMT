@@ -114,4 +114,19 @@ trên bản sao dữ liệu. Kết quả gắn hash ở
 
 ![Biển chỉ đường — native fixture](evidence/signs/script.0497.000-wait-1.png)
 
-![Siêu thị — native fixture](evidence/signs/script.0496.000-wait-1.png)
+![Siêu thị — định dạng giờ mới, native fixture](evidence/sign-hours/script.0496.000-wait-1.png)
+
+## Điều chỉnh cách ghi giờ — sign-hours-01
+
+Theo yêu cầu người dùng, 25 mục đổi giờ số sang ký hiệu `h`: `9h - 17h`,
+`11h - 13h`, `17h - 19h`; giờ đơn của thông báo lễ hội dùng `10h`/`18h`.
+Nội quy biển dùng `6h - 17h`, quán Doug dùng `8h - 21h`; giờ thực tế và
+ngày nghỉ giữ nguyên. Mốc nửa đêm vẫn giữ lời nguồn. Không đổi token,
+font hay CODE/JUMP. Tổng số bản dịch vẫn 1.456.
+
+Chạy 5 test ROM có sẵn cho nguồn/validator/queue/editor/build và cả hai
+native sign suite: 45 nội dung/73 WAIT, 179 dòng renderer mỗi backend.
+Hai build giống byte, IPS round trip đúng. Không chạy lại toàn bộ platform
+cho thay đổi định dạng này; bằng chứng 144 test/43 ảnh chuẩn/Chromium ở
+mốc signs-01 trước đó là lịch sử, không phải chứng nhận của hash mới.
+[Báo cáo và ảnh mới](evidence/sign-hours-validation.json).

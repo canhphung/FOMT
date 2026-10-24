@@ -21824,16 +21824,16 @@
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "renderer only for three frisbee choice labels; exact native foreground/WAIT fixtures for other 45, twelve-digit stand-ins for VAR cases",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "scope": "renderer only for three choices; exact foreground and WAIT/scroll checks for 45 sign texts, twelve-cell stand-ins for VAR rows",
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       }
     },
     {
@@ -21846,16 +21846,16 @@
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "renderer only for three frisbee choice labels; exact native foreground/WAIT fixtures for other 45, twelve-digit stand-ins for VAR cases",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "scope": "renderer only for three choices; exact foreground and WAIT/scroll checks for 45 sign texts, twelve-cell stand-ins for VAR rows",
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       }
     },
     {
@@ -21868,16 +21868,16 @@
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "renderer only for three frisbee choice labels; exact native foreground/WAIT fixtures for other 45, twelve-digit stand-ins for VAR cases",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "scope": "renderer only for three choices; exact foreground and WAIT/scroll checks for 45 sign texts, twelve-cell stand-ins for VAR rows",
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       }
     },
     {
@@ -21890,16 +21890,16 @@
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "renderer only for three frisbee choice labels; exact native foreground/WAIT fixtures for other 45, twelve-digit stand-ins for VAR cases",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "scope": "renderer only for three choices; exact foreground and WAIT/scroll checks for 45 sign texts, twelve-cell stand-ins for VAR rows",
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       }
     },
     {
@@ -21912,16 +21912,16 @@
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "renderer only for three frisbee choice labels; exact native foreground/WAIT fixtures for other 45, twelve-digit stand-ins for VAR cases",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "scope": "renderer only for three choices; exact foreground and WAIT/scroll checks for 45 sign texts, twelve-cell stand-ins for VAR rows",
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       }
     },
     {
@@ -21934,16 +21934,16 @@
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "renderer only for three frisbee choice labels; exact native foreground/WAIT fixtures for other 45, twelve-digit stand-ins for VAR cases",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "scope": "renderer only for three choices; exact foreground and WAIT/scroll checks for 45 sign texts, twelve-cell stand-ins for VAR rows",
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       }
     },
     {
@@ -21956,16 +21956,16 @@
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "renderer only for three frisbee choice labels; exact native foreground/WAIT fixtures for other 45, twelve-digit stand-ins for VAR cases",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "scope": "renderer only for three choices; exact foreground and WAIT/scroll checks for 45 sign texts, twelve-cell stand-ins for VAR rows",
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       }
     },
     {
@@ -21978,16 +21978,16 @@
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "renderer only for three frisbee choice labels; exact native foreground/WAIT fixtures for other 45, twelve-digit stand-ins for VAR cases",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "scope": "renderer only for three choices; exact foreground and WAIT/scroll checks for 45 sign texts, twelve-cell stand-ins for VAR rows",
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       }
     },
     {
@@ -22000,16 +22000,16 @@
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "renderer only for three frisbee choice labels; exact native foreground/WAIT fixtures for other 45, twelve-digit stand-ins for VAR cases",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "scope": "renderer only for three choices; exact foreground and WAIT/scroll checks for 45 sign texts, twelve-cell stand-ins for VAR rows",
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       }
     },
     {
@@ -22022,16 +22022,16 @@
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "renderer only for three frisbee choice labels; exact native foreground/WAIT fixtures for other 45, twelve-digit stand-ins for VAR cases",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "scope": "renderer only for three choices; exact foreground and WAIT/scroll checks for 45 sign texts, twelve-cell stand-ins for VAR rows",
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       }
     },
     {
@@ -22044,38 +22044,38 @@
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "renderer only for three frisbee choice labels; exact native foreground/WAIT fixtures for other 45, twelve-digit stand-ins for VAR cases",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "scope": "renderer only for three choices; exact foreground and WAIT/scroll checks for 45 sign texts, twelve-cell stand-ins for VAR rows",
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       }
     },
     {
       "id": "script.0492.000",
       "source_sha256": "5ddc34c1e68d100ffeaf74d47ea5186c4be77499b97f5eda924d3ef1efaf8d84",
-      "translation_sha256": "eb79e4f28b2af63421e8a51fe87a60272eab15d994791dd2dcd105ccf5965b2b",
+      "translation_sha256": "65283352efda8e8dd5fba56f5ffbe2b54b044aa0898ff26ff84ab79d3bdcf40d",
       "context_status": "verified",
       "context_evidence": "docs/SIGN_LOCALIZATION.md; exact literal, CODE hash and display/choice calls in localization/signs.json",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "renderer only for three frisbee choice labels; exact native foreground/WAIT fixtures for other 45, twelve-digit stand-ins for VAR cases",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "scope": "renderer only for three choices; exact foreground and WAIT/scroll checks for 45 sign texts, twelve-cell stand-ins for VAR rows",
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       }
     },
     {
@@ -22088,16 +22088,16 @@
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "renderer only for three frisbee choice labels; exact native foreground/WAIT fixtures for other 45, twelve-digit stand-ins for VAR cases",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "scope": "renderer only for three choices; exact foreground and WAIT/scroll checks for 45 sign texts, twelve-cell stand-ins for VAR rows",
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       }
     },
     {
@@ -22110,16 +22110,16 @@
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "renderer only for three frisbee choice labels; exact native foreground/WAIT fixtures for other 45, twelve-digit stand-ins for VAR cases",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "scope": "renderer only for three choices; exact foreground and WAIT/scroll checks for 45 sign texts, twelve-cell stand-ins for VAR rows",
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       }
     },
     {
@@ -22132,60 +22132,60 @@
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "renderer only for three frisbee choice labels; exact native foreground/WAIT fixtures for other 45, twelve-digit stand-ins for VAR cases",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "scope": "renderer only for three choices; exact foreground and WAIT/scroll checks for 45 sign texts, twelve-cell stand-ins for VAR rows",
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       }
     },
     {
       "id": "script.0493.000",
       "source_sha256": "b741280f5893c4b6031e71e73cbc0c048bd31adff66cb4ef3cf80197d1f3c6ee",
-      "translation_sha256": "0b2e88567a98f43edcb0279ee92a484e7d4876f73123cf39965e3e3d43097124",
+      "translation_sha256": "ac5e2795fe19945b65f56ef73ea681c1b1a053942be50971359660cbbf8d2f1a",
       "context_status": "verified",
       "context_evidence": "docs/SIGN_LOCALIZATION.md; exact literal, CODE hash and display/choice calls in localization/signs.json",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "renderer only for three frisbee choice labels; exact native foreground/WAIT fixtures for other 45, twelve-digit stand-ins for VAR cases",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "scope": "renderer only for three choices; exact foreground and WAIT/scroll checks for 45 sign texts, twelve-cell stand-ins for VAR rows",
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       }
     },
     {
       "id": "script.0494.000",
       "source_sha256": "b31f97854eee5559dcc6c9235def83d3aa4e2043b05be326411e91c25c47c957",
-      "translation_sha256": "a12d974040232ab7ad51992ba2ca38605871d6aa0bbab9c92d299fb2f1ca2de2",
+      "translation_sha256": "8e8d36705e04e854f407470739599f8be36cb7cb1de9816cee41fdce329d1411",
       "context_status": "verified",
       "context_evidence": "docs/SIGN_LOCALIZATION.md; exact literal, CODE hash and display/choice calls in localization/signs.json",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "renderer only for three frisbee choice labels; exact native foreground/WAIT fixtures for other 45, twelve-digit stand-ins for VAR cases",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "scope": "renderer only for three choices; exact foreground and WAIT/scroll checks for 45 sign texts, twelve-cell stand-ins for VAR rows",
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       }
     },
     {
@@ -22198,38 +22198,38 @@
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "renderer only for three frisbee choice labels; exact native foreground/WAIT fixtures for other 45, twelve-digit stand-ins for VAR cases",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "scope": "renderer only for three choices; exact foreground and WAIT/scroll checks for 45 sign texts, twelve-cell stand-ins for VAR rows",
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       }
     },
     {
       "id": "script.0496.000",
       "source_sha256": "b1278512b306277eb0b537e387c9b6e372e84e7ef38abbcbca0b96dc1ba9e669",
-      "translation_sha256": "8e6c9bae8c3df4243320d9fab8d507cb0839932b9eb5d4f52cf8137671178eae",
+      "translation_sha256": "0bbee88e3074a3f9b232ff72002e9e9d2abe0b387c8041ae8aa0d539c14d1035",
       "context_status": "verified",
       "context_evidence": "docs/SIGN_LOCALIZATION.md; exact literal, CODE hash and display/choice calls in localization/signs.json",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "renderer only for three frisbee choice labels; exact native foreground/WAIT fixtures for other 45, twelve-digit stand-ins for VAR cases",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "scope": "renderer only for three choices; exact foreground and WAIT/scroll checks for 45 sign texts, twelve-cell stand-ins for VAR rows",
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       }
     },
     {
@@ -22242,16 +22242,16 @@
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "renderer only for three frisbee choice labels; exact native foreground/WAIT fixtures for other 45, twelve-digit stand-ins for VAR cases",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "scope": "renderer only for three choices; exact foreground and WAIT/scroll checks for 45 sign texts, twelve-cell stand-ins for VAR rows",
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       }
     },
     {
@@ -22264,16 +22264,16 @@
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "renderer only for three frisbee choice labels; exact native foreground/WAIT fixtures for other 45, twelve-digit stand-ins for VAR cases",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "scope": "renderer only for three choices; exact foreground and WAIT/scroll checks for 45 sign texts, twelve-cell stand-ins for VAR rows",
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       }
     },
     {
@@ -22286,148 +22286,148 @@
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "renderer only for three frisbee choice labels; exact native foreground/WAIT fixtures for other 45, twelve-digit stand-ins for VAR cases",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "scope": "renderer only for three choices; exact foreground and WAIT/scroll checks for 45 sign texts, twelve-cell stand-ins for VAR rows",
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       }
     },
     {
       "id": "script.0500.000",
       "source_sha256": "8bf9cc29004be046aca2a23856ed6a4ad376eef835f9f07e2ae8f09bb38acda2",
-      "translation_sha256": "8abf3d815e931131c85f3ce66a33b4a900b55202e849529888d9d80896a4dc66",
+      "translation_sha256": "bf9912420095eb3494c2e243ab0b9c6ae6a11ac6e9709836491f707a390f4e99",
       "context_status": "verified",
       "context_evidence": "docs/SIGN_LOCALIZATION.md; exact literal, CODE hash and display/choice calls in localization/signs.json",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "renderer only for three frisbee choice labels; exact native foreground/WAIT fixtures for other 45, twelve-digit stand-ins for VAR cases",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "scope": "renderer only for three choices; exact foreground and WAIT/scroll checks for 45 sign texts, twelve-cell stand-ins for VAR rows",
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       }
     },
     {
       "id": "script.0501.000",
       "source_sha256": "6a7a294d27f06832444a7d86ecb87aa696004bc9a3fa9c060f6fe013adee6a0a",
-      "translation_sha256": "fbbf09d7e787245b6b52a95c378c23602697d002f124989e8d53de608150984e",
+      "translation_sha256": "1f48fb7bc734ed48ff39e41b061913f45fbaaf9a67b8acfac48f52da773a0e6e",
       "context_status": "verified",
       "context_evidence": "docs/SIGN_LOCALIZATION.md; exact literal, CODE hash and display/choice calls in localization/signs.json",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "renderer only for three frisbee choice labels; exact native foreground/WAIT fixtures for other 45, twelve-digit stand-ins for VAR cases",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "scope": "renderer only for three choices; exact foreground and WAIT/scroll checks for 45 sign texts, twelve-cell stand-ins for VAR rows",
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       }
     },
     {
       "id": "script.0502.000",
       "source_sha256": "5ae1fe68ccf3dcd9fff89c0b0248a05535babeb1c03a7ac35c399b7564bc77eb",
-      "translation_sha256": "6b43d08ec489e212e936ac3105df8740beaaa8e1a761a1cfc90843f1f761cb48",
+      "translation_sha256": "58a5c367ff1e2ec1f4511bd7060a99bd318936eb0851732df652ae624350f592",
       "context_status": "verified",
       "context_evidence": "docs/SIGN_LOCALIZATION.md; exact literal, CODE hash and display/choice calls in localization/signs.json",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "renderer only for three frisbee choice labels; exact native foreground/WAIT fixtures for other 45, twelve-digit stand-ins for VAR cases",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "scope": "renderer only for three choices; exact foreground and WAIT/scroll checks for 45 sign texts, twelve-cell stand-ins for VAR rows",
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       }
     },
     {
       "id": "script.0502.001",
       "source_sha256": "c4a54c0ac8e6f87fe96fdb95c9373358b87010eb98cbd3c31d11cebc82152904",
-      "translation_sha256": "4674530f927668e604cfde73a63f9279619f1193b8f9a0889c656efe886dd880",
+      "translation_sha256": "88e4fe0726d3b0d4b706f09a3c1ab4b5cdbef650eea5e641e2bdd65cf1139876",
       "context_status": "verified",
       "context_evidence": "docs/SIGN_LOCALIZATION.md; exact literal, CODE hash and display/choice calls in localization/signs.json",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "renderer only for three frisbee choice labels; exact native foreground/WAIT fixtures for other 45, twelve-digit stand-ins for VAR cases",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "scope": "renderer only for three choices; exact foreground and WAIT/scroll checks for 45 sign texts, twelve-cell stand-ins for VAR rows",
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       }
     },
     {
       "id": "script.0503.000",
       "source_sha256": "cb08d4d1f9fa8592ced840cf520cd51e0c68c7da5946482972deaf1b1489589b",
-      "translation_sha256": "b3de8509b844e168206412fea1d8ab79c61694ec7fa4901b7f53a940bd008950",
+      "translation_sha256": "8f4e0f1380d7f0a44e1758611b8d3b45db0be35daec00e068309c12896bbec34",
       "context_status": "verified",
       "context_evidence": "docs/SIGN_LOCALIZATION.md; exact literal, CODE hash and display/choice calls in localization/signs.json",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "renderer only for three frisbee choice labels; exact native foreground/WAIT fixtures for other 45, twelve-digit stand-ins for VAR cases",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "scope": "renderer only for three choices; exact foreground and WAIT/scroll checks for 45 sign texts, twelve-cell stand-ins for VAR rows",
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       }
     },
     {
       "id": "script.0504.000",
       "source_sha256": "d6644fd7122bafe471a0554028f7582c3b5574d879621ca1f912060ddc6d713e",
-      "translation_sha256": "6b3ae7d4b28b127a825e82588346426a76d50ae5587e884a3f334f27070d8795",
+      "translation_sha256": "5286ab531faa04d6f3c28dd13351bb833afcc347ed95059d3525fcbbb95a9801",
       "context_status": "verified",
       "context_evidence": "docs/SIGN_LOCALIZATION.md; exact literal, CODE hash and display/choice calls in localization/signs.json",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "renderer only for three frisbee choice labels; exact native foreground/WAIT fixtures for other 45, twelve-digit stand-ins for VAR cases",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "scope": "renderer only for three choices; exact foreground and WAIT/scroll checks for 45 sign texts, twelve-cell stand-ins for VAR rows",
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       }
     },
     {
@@ -22440,16 +22440,16 @@
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "renderer only for three frisbee choice labels; exact native foreground/WAIT fixtures for other 45, twelve-digit stand-ins for VAR cases",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "scope": "renderer only for three choices; exact foreground and WAIT/scroll checks for 45 sign texts, twelve-cell stand-ins for VAR rows",
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       }
     },
     {
@@ -22462,16 +22462,16 @@
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "renderer only for three frisbee choice labels; exact native foreground/WAIT fixtures for other 45, twelve-digit stand-ins for VAR cases",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "scope": "renderer only for three choices; exact foreground and WAIT/scroll checks for 45 sign texts, twelve-cell stand-ins for VAR rows",
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       }
     },
     {
@@ -22484,38 +22484,38 @@
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "renderer only for three frisbee choice labels; exact native foreground/WAIT fixtures for other 45, twelve-digit stand-ins for VAR cases",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "scope": "renderer only for three choices; exact foreground and WAIT/scroll checks for 45 sign texts, twelve-cell stand-ins for VAR rows",
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       }
     },
     {
       "id": "script.0508.000",
       "source_sha256": "eff7395bd2b09c7ea0bbb1cf19024f2f9ca7e9621a4985b7a3af38fad1e988bc",
-      "translation_sha256": "c3bc8f3ff88694301e4cdc5391dd60d2753d0c5710c06d854c98520b2cdf5735",
+      "translation_sha256": "e9fdd4dad55ea00d4af8d0f5ec5f8004bf1cccf48793d84ebe544356e533f489",
       "context_status": "verified",
       "context_evidence": "docs/SIGN_LOCALIZATION.md; exact literal, CODE hash and display/choice calls in localization/signs.json",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "renderer only for three frisbee choice labels; exact native foreground/WAIT fixtures for other 45, twelve-digit stand-ins for VAR cases",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "scope": "renderer only for three choices; exact foreground and WAIT/scroll checks for 45 sign texts, twelve-cell stand-ins for VAR rows",
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       }
     },
     {
@@ -22528,16 +22528,16 @@
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "renderer only for three frisbee choice labels; exact native foreground/WAIT fixtures for other 45, twelve-digit stand-ins for VAR cases",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "scope": "renderer only for three choices; exact foreground and WAIT/scroll checks for 45 sign texts, twelve-cell stand-ins for VAR rows",
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       }
     },
     {
@@ -22550,324 +22550,324 @@
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "renderer only for three frisbee choice labels; exact native foreground/WAIT fixtures for other 45, twelve-digit stand-ins for VAR cases",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "scope": "renderer only for three choices; exact foreground and WAIT/scroll checks for 45 sign texts, twelve-cell stand-ins for VAR rows",
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       }
     },
     {
       "id": "script.0510.000",
       "source_sha256": "a0f54f977c100458e52c4338c80bb6a4d3d9b733e6f7be831001f1c71633eefa",
-      "translation_sha256": "ab82e49dce1733963f75d69abafe133bbfb5936e0d5d87eab5b68b1a9e5e914f",
+      "translation_sha256": "38ca57e9b2b2eb65d4f2168cf2d28b712d32d03ada8d8ad308df209ee44d63a8",
       "context_status": "verified",
       "context_evidence": "docs/SIGN_LOCALIZATION.md; exact literal, CODE hash and display/choice calls in localization/signs.json",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "renderer only for three frisbee choice labels; exact native foreground/WAIT fixtures for other 45, twelve-digit stand-ins for VAR cases",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "scope": "renderer only for three choices; exact foreground and WAIT/scroll checks for 45 sign texts, twelve-cell stand-ins for VAR rows",
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       }
     },
     {
       "id": "script.0403.001",
       "source_sha256": "a5d8b34cf8a9f360909e36b168b69bcbeea0898acdb11e04cf12b78279c07b24",
-      "translation_sha256": "eee0ec879b9ec15b36cce792cce4939f12ec803e6880843f2968039f6e42f353",
+      "translation_sha256": "27e8d8bb69a6b0cab92135fb956f199d91bf7a1b4e4833b31dd18c2bc3431828",
       "context_status": "verified",
       "context_evidence": "docs/SIGN_LOCALIZATION.md; exact literal, CODE hash and display/choice calls in localization/signs.json",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "renderer only for three frisbee choice labels; exact native foreground/WAIT fixtures for other 45, twelve-digit stand-ins for VAR cases",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "scope": "renderer only for three choices; exact foreground and WAIT/scroll checks for 45 sign texts, twelve-cell stand-ins for VAR rows",
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       }
     },
     {
       "id": "script.0403.002",
       "source_sha256": "82e3e286102e451bd746efa90fb1be0accf05e76e2e3139a4df139c230d5cff0",
-      "translation_sha256": "54d6f861681afcc50863820fd856dd3fcae14c59c158f3c73cf2e4f4b4724ebe",
+      "translation_sha256": "84a22906c358a08646ed9deffc725b20bb62fc1f5421c38fd412e3d1e3f662cb",
       "context_status": "verified",
       "context_evidence": "docs/SIGN_LOCALIZATION.md; exact literal, CODE hash and display/choice calls in localization/signs.json",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "renderer only for three frisbee choice labels; exact native foreground/WAIT fixtures for other 45, twelve-digit stand-ins for VAR cases",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "scope": "renderer only for three choices; exact foreground and WAIT/scroll checks for 45 sign texts, twelve-cell stand-ins for VAR rows",
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       }
     },
     {
       "id": "script.0403.003",
       "source_sha256": "7a262cb30c22bba10c3d2d1dfdd60638c88c480513c3b8f42699beb885552d6c",
-      "translation_sha256": "cce3ba73085de13111146dcd339904c87d6594095757a9ed6dad526604fed645",
+      "translation_sha256": "cf3038c0567bf274749428a7c955c02ce60b2987dc1fbe329ff8ae0715c17277",
       "context_status": "verified",
       "context_evidence": "docs/SIGN_LOCALIZATION.md; exact literal, CODE hash and display/choice calls in localization/signs.json",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "renderer only for three frisbee choice labels; exact native foreground/WAIT fixtures for other 45, twelve-digit stand-ins for VAR cases",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "scope": "renderer only for three choices; exact foreground and WAIT/scroll checks for 45 sign texts, twelve-cell stand-ins for VAR rows",
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       }
     },
     {
       "id": "script.0403.004",
       "source_sha256": "a9d7b8439967d180a03c2e26a6bf20f9f2423283426bf340d1eeb93dd8b434be",
-      "translation_sha256": "6213da5eed1d5bfb787a3d17e7d9b2dc506e3f3e94d61c9d81f0618ff69dd1a1",
+      "translation_sha256": "7a530745d24e1cde74c563bfcb23dc8fa2b44da50d81664293ba6a8dd23e22c7",
       "context_status": "verified",
       "context_evidence": "docs/SIGN_LOCALIZATION.md; exact literal, CODE hash and display/choice calls in localization/signs.json",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "renderer only for three frisbee choice labels; exact native foreground/WAIT fixtures for other 45, twelve-digit stand-ins for VAR cases",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "scope": "renderer only for three choices; exact foreground and WAIT/scroll checks for 45 sign texts, twelve-cell stand-ins for VAR rows",
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       }
     },
     {
       "id": "script.0403.005",
       "source_sha256": "89d1b7d14403d996e10e72546cedbeb90ce9c2e796106470c8873020c5fcd918",
-      "translation_sha256": "040c435e019f38a1737800714c645f7387de44ffd34b0e81c0c7faa75289b5ea",
+      "translation_sha256": "1caed4e307e3cc8f6fe5dcb076ced050ad5779357b5efee51111716e87067fe8",
       "context_status": "verified",
       "context_evidence": "docs/SIGN_LOCALIZATION.md; exact literal, CODE hash and display/choice calls in localization/signs.json",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "renderer only for three frisbee choice labels; exact native foreground/WAIT fixtures for other 45, twelve-digit stand-ins for VAR cases",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "scope": "renderer only for three choices; exact foreground and WAIT/scroll checks for 45 sign texts, twelve-cell stand-ins for VAR rows",
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       }
     },
     {
       "id": "script.0403.006",
       "source_sha256": "dc98e6282473f671e46d8edb801863d3557844f070fa1cf8e8867ece10c81ffb",
-      "translation_sha256": "2f0a85220b56aa9fa9203655b177f3382fa9f7373c6de8efc5032489ddc788d5",
+      "translation_sha256": "e435d80c5857bc9a85f149e44fc3b0122858d96289c618490a5c92797dc389c8",
       "context_status": "verified",
       "context_evidence": "docs/SIGN_LOCALIZATION.md; exact literal, CODE hash and display/choice calls in localization/signs.json",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "renderer only for three frisbee choice labels; exact native foreground/WAIT fixtures for other 45, twelve-digit stand-ins for VAR cases",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "scope": "renderer only for three choices; exact foreground and WAIT/scroll checks for 45 sign texts, twelve-cell stand-ins for VAR rows",
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       }
     },
     {
       "id": "script.0403.007",
       "source_sha256": "b213493708a1114042b5b3591298b7ec8b40360c4a5eeb60eda8981fbf2bb31a",
-      "translation_sha256": "6d581fa9a276d3f4ea43dd0c968540629c2e5fa264469d7165df322f823d463b",
+      "translation_sha256": "d042ceb9891da3fb6878e273bd09c615c1754ef2bcb396d7c777c5dd967d51c7",
       "context_status": "verified",
       "context_evidence": "docs/SIGN_LOCALIZATION.md; exact literal, CODE hash and display/choice calls in localization/signs.json",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "renderer only for three frisbee choice labels; exact native foreground/WAIT fixtures for other 45, twelve-digit stand-ins for VAR cases",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "scope": "renderer only for three choices; exact foreground and WAIT/scroll checks for 45 sign texts, twelve-cell stand-ins for VAR rows",
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       }
     },
     {
       "id": "script.0403.008",
       "source_sha256": "e1f8aa55249f67546bde13ccd8232d5a80c418fd271ea788550785df2a35b81e",
-      "translation_sha256": "524a300d819abcb0f3d3213eec78da9d346dbd78648c3d2713009e9e4afcc228",
+      "translation_sha256": "e1f26a49751f09c07e34ce65e1d7ab0b1ed657df55c1d1fcce5595e82912ccdf",
       "context_status": "verified",
       "context_evidence": "docs/SIGN_LOCALIZATION.md; exact literal, CODE hash and display/choice calls in localization/signs.json",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "renderer only for three frisbee choice labels; exact native foreground/WAIT fixtures for other 45, twelve-digit stand-ins for VAR cases",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "scope": "renderer only for three choices; exact foreground and WAIT/scroll checks for 45 sign texts, twelve-cell stand-ins for VAR rows",
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       }
     },
     {
       "id": "script.0403.009",
       "source_sha256": "e3036794c625f97a8af358dd2afffe6c795f2757521af9441160c1b6248119f8",
-      "translation_sha256": "435db65b4baf9b475934f84bc1e1f549e5105c61b2531a2dbef2d74510aa1f85",
+      "translation_sha256": "14671ad9f3af40e22af5c537cc8fd57437c8e77a7e0d20dbeb27c3cee37b4352",
       "context_status": "verified",
       "context_evidence": "docs/SIGN_LOCALIZATION.md; exact literal, CODE hash and display/choice calls in localization/signs.json",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "renderer only for three frisbee choice labels; exact native foreground/WAIT fixtures for other 45, twelve-digit stand-ins for VAR cases",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "scope": "renderer only for three choices; exact foreground and WAIT/scroll checks for 45 sign texts, twelve-cell stand-ins for VAR rows",
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       }
     },
     {
       "id": "script.0403.010",
       "source_sha256": "bc0f30300bebb524ca44cbe99b40c0ed479c5e06174f53b334f81d091037cb15",
-      "translation_sha256": "288839c370160c66f6b6ece978ebc3c1ddf3ee0d24f0087351887acac73334c2",
+      "translation_sha256": "b861226d8d7d0041922a0ed771c1181dec9518a0a0357b70bd3757ae23564da5",
       "context_status": "verified",
       "context_evidence": "docs/SIGN_LOCALIZATION.md; exact literal, CODE hash and display/choice calls in localization/signs.json",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "renderer only for three frisbee choice labels; exact native foreground/WAIT fixtures for other 45, twelve-digit stand-ins for VAR cases",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "scope": "renderer only for three choices; exact foreground and WAIT/scroll checks for 45 sign texts, twelve-cell stand-ins for VAR rows",
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       }
     },
     {
       "id": "script.0403.011",
       "source_sha256": "34ed85b4cb01c5dc303d99b5e6408539e7d2cc911c7d4de4cd3e313e4cd2749b",
-      "translation_sha256": "44d12e72ef2694a4279bbc7a204760f1b6338d71c654d860bc480d49692cd024",
+      "translation_sha256": "b211e7485883db6dac9b84abf9c6edcb0e2eeb7c7bdf7cd292123bea804bbe9c",
       "context_status": "verified",
       "context_evidence": "docs/SIGN_LOCALIZATION.md; exact literal, CODE hash and display/choice calls in localization/signs.json",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "renderer only for three frisbee choice labels; exact native foreground/WAIT fixtures for other 45, twelve-digit stand-ins for VAR cases",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "scope": "renderer only for three choices; exact foreground and WAIT/scroll checks for 45 sign texts, twelve-cell stand-ins for VAR rows",
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       }
     },
     {
       "id": "script.0403.012",
       "source_sha256": "16ddd497e97e4da5f884aa88a23f6dc57ad4f60f8ca4e613eb8f953bb0673efd",
-      "translation_sha256": "a3abe457a365ae9b8dd5d66b08bfee2eefdb69714228301b934462d55278def5",
+      "translation_sha256": "eb89192c513308f0e955167b1132d504b86214564c66cbeeb8e76def30e27b1e",
       "context_status": "verified",
       "context_evidence": "docs/SIGN_LOCALIZATION.md; exact literal, CODE hash and display/choice calls in localization/signs.json",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "renderer only for three frisbee choice labels; exact native foreground/WAIT fixtures for other 45, twelve-digit stand-ins for VAR cases",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "scope": "renderer only for three choices; exact foreground and WAIT/scroll checks for 45 sign texts, twelve-cell stand-ins for VAR rows",
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       }
     },
     {
       "id": "script.0403.013",
       "source_sha256": "0d977c1826c2cf2cab670ede31bb5749c3f71bf4fa64ec4f81e8a521e6b6ae14",
-      "translation_sha256": "7aa101ffb9cee88acf4f9e5b0927199eedeb4705eef83cc628ce2466e50dae78",
+      "translation_sha256": "7053d6a62bd58abb433660b1e32377ca880fab024f39c8dd9a29921ba4218021",
       "context_status": "verified",
       "context_evidence": "docs/SIGN_LOCALIZATION.md; exact literal, CODE hash and display/choice calls in localization/signs.json",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       },
       "playtest": {
         "status": "not_run"
       },
       "fixture_ui_check": {
-        "scope": "renderer only for three frisbee choice labels; exact native foreground/WAIT fixtures for other 45, twelve-digit stand-ins for VAR cases",
-        "evidence": "docs/evidence/signs-validation.json",
-        "target_sha256": "3a750395328bdd204e19a808837d9c1bea2ec3eaae31aa5c9450085f5507313e"
+        "scope": "renderer only for three choices; exact foreground and WAIT/scroll checks for 45 sign texts, twelve-cell stand-ins for VAR rows",
+        "evidence": "docs/evidence/sign-hours-validation.json",
+        "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       }
     }
   ]
