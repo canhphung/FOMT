@@ -166,7 +166,60 @@
         "Rod": "bố",
         "Carter": "cha Carter"
       },
-      "context_reference": "docs/POPURI_LOCALIZATION.md"
+      "context_reference": "docs/POPURI_LOCALIZATION.md",
+      "heart_event_source_ids": [
+        "script.0036.000",
+        "script.0036.001",
+        "script.0036.002",
+        "script.0036.003",
+        "script.0036.004",
+        "script.0036.005",
+        "script.0036.006",
+        "script.0036.007",
+        "script.0036.008",
+        "script.0036.011",
+        "script.0036.012",
+        "script.0036.013",
+        "script.0036.014",
+        "script.0036.015",
+        "script.0036.016",
+        "script.0037.000",
+        "script.0037.003",
+        "script.0037.004",
+        "script.0037.005",
+        "script.0037.006",
+        "script.0037.007",
+        "script.0038.004",
+        "script.0038.010",
+        "script.0038.012",
+        "script.0038.016",
+        "script.0038.019",
+        "script.0038.022",
+        "script.0038.030",
+        "script.0038.031",
+        "script.0038.032",
+        "script.0038.033",
+        "script.0038.035",
+        "script.0038.039",
+        "script.0038.041",
+        "script.0039.001",
+        "script.0039.005",
+        "script.0039.010",
+        "script.0039.012",
+        "script.0039.014",
+        "script.0039.017",
+        "script.0039.019",
+        "script.0039.021",
+        "script.0039.023",
+        "script.0039.026"
+      ],
+      "heart_event_voice": {
+        "reference": "docs/POPURI_HEART_EVENTS.md",
+        "general": "mình/bạn",
+        "Rick": "em/anh",
+        "Lillia": "con/mẹ",
+        "roleplay_38_019_022": "em/anh, playing house, not marriage"
+      }
     },
     {
       "character": "Thomas",
@@ -317,6 +370,96 @@
       ],
       "evidence": "docs/INTRO_LOCALIZATION.md",
       "extension_policy": "Recheck speaker, player age, relationship and branch before applying outside this scope."
+    },
+    {
+      "character": "Rick",
+      "self": "tôi",
+      "player": "cậu",
+      "scope": "Popuri heart events 36–39 only; exact relation/role overrides in docs/POPURI_HEART_EVENTS.md",
+      "source_ids": [
+        "script.0039.000",
+        "script.0039.006",
+        "script.0039.011",
+        "script.0039.013",
+        "script.0039.016",
+        "script.0039.018",
+        "script.0039.020",
+        "script.0039.024",
+        "script.0039.027"
+      ],
+      "status": "working; manual language review pending"
+    },
+    {
+      "character": "Lillia",
+      "self": "cô",
+      "player": "cháu",
+      "scope": "Popuri heart events 36–39 only; exact relation/role overrides in docs/POPURI_HEART_EVENTS.md",
+      "source_ids": [
+        "script.0039.002",
+        "script.0039.003",
+        "script.0039.004",
+        "script.0039.015",
+        "script.0039.022",
+        "script.0039.025",
+        "script.0039.028"
+      ],
+      "status": "working; manual language review pending"
+    },
+    {
+      "character": "Carter",
+      "self": "cha",
+      "player": "con",
+      "scope": "Popuri heart events 36–39 only; exact relation/role overrides in docs/POPURI_HEART_EVENTS.md",
+      "source_ids": [
+        "script.0038.005",
+        "script.0038.008",
+        "script.0038.009",
+        "script.0038.011",
+        "script.0038.015",
+        "script.0038.034",
+        "script.0038.044"
+      ],
+      "status": "working; manual language review pending"
+    },
+    {
+      "character": "May",
+      "self": "tớ",
+      "player": "bố (đóng vai)",
+      "scope": "Popuri heart events 36–39 only; exact relation/role overrides in docs/POPURI_HEART_EVENTS.md",
+      "source_ids": [
+        "script.0038.001",
+        "script.0038.003",
+        "script.0038.006",
+        "script.0038.017",
+        "script.0038.020",
+        "script.0038.023",
+        "script.0038.024",
+        "script.0038.026",
+        "script.0038.027",
+        "script.0038.029",
+        "script.0038.037",
+        "script.0038.040",
+        "script.0038.042"
+      ],
+      "status": "working; manual language review pending"
+    },
+    {
+      "character": "Stu",
+      "self": "tớ",
+      "player": "bố (đóng vai)",
+      "scope": "Popuri heart events 36–39 only; exact relation/role overrides in docs/POPURI_HEART_EVENTS.md",
+      "source_ids": [
+        "script.0038.000",
+        "script.0038.007",
+        "script.0038.018",
+        "script.0038.021",
+        "script.0038.025",
+        "script.0038.028",
+        "script.0038.036",
+        "script.0038.038",
+        "script.0038.043"
+      ],
+      "status": "working; manual language review pending"
     }
   ],
   "first_dialogue_candidate": {

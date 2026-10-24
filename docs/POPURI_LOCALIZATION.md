@@ -77,3 +77,5 @@ platform/golden trước đó là bằng chứng lịch sử, chưa chạy lại
 
 ![Hai lựa chọn native](evidence/popuri-complete/choices-initial.png)
 ![Phản ứng sợ hãi — fixture](evidence/popuri-complete/script.0993.021-wait-1.png)
+
+Bổ sung sau đó: bốn heart event người chơi đã có trọn 99 STR và các lựa chọn; xem [POPURI_HEART_EVENTS.md](POPURI_HEART_EVENTS.md). Rival/cưới/lễ hội khác vẫn theo dõi riêng.

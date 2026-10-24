@@ -30,7 +30,7 @@ def test_choice_byte_budget_and_scoped_punctuation_in_editor():
  from fomt_text import extract
  from translation_workbench import Repository
  rows=extract(verified_rom(os.environ['FOMT_ROM']))['records']
- assert {r['id'] for r in rows if r['source'].get('popuri_context',{}).get('drop_apostrophe')}=={'script.0993.005','script.0993.021','script.0993.092'}
+ assert {r['id'] for r in rows if r['source'].get('popuri_context',{}).get('drop_apostrophe')}=={'script.0993.005','script.0993.021','script.0993.092','script.0038.026'}
  repo=Repository(ROOT)
  assert repo.validate('script.0993.039','Xin lỗi, mình có hẹn.')['valid']
  assert any(e['code']=='bytes' for e in repo.validate('script.0993.039','Xin lỗi, mình có hẹn rồi.')['errors'])

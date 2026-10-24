@@ -1,0 +1,2786 @@
+{
+  "revision": "popuri-hearts-01",
+  "status": "passed",
+  "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add",
+  "patch_sha256": "7a2e271f3678157ed33685faa15094c4311bf10609a61f4e7e868a69316a1844",
+  "source_contract_sha256": "198e55f9500c41f4f70a3c5bb0a0f7a82c8e34cf6ef183dad3f89a4da21aa9f5",
+  "new_drafts": 99,
+  "dialogue_records": 90,
+  "player_choices": 9,
+  "source_scripts": [
+    36,
+    37,
+    38,
+    39
+  ],
+  "pytest": {
+    "passed": 152,
+    "failed": 0
+  },
+  "release_ips_round_trip": true,
+  "repeated_builds_identical": true,
+  "response_blocks": [
+    {
+      "script_id": 36,
+      "selection": 1,
+      "entry_code_offset": 996,
+      "end_before": 1703,
+      "dialogue_ids": [
+        "script.0036.011",
+        "script.0036.012",
+        "script.0036.013"
+      ]
+    },
+    {
+      "script_id": 36,
+      "selection": 2,
+      "entry_code_offset": 1703,
+      "end_before": 2398,
+      "dialogue_ids": [
+        "script.0036.014",
+        "script.0036.015",
+        "script.0036.016"
+      ]
+    },
+    {
+      "script_id": 37,
+      "selection": 1,
+      "entry_code_offset": 155,
+      "end_before": 349,
+      "dialogue_ids": [
+        "script.0037.003"
+      ]
+    },
+    {
+      "script_id": 37,
+      "selection": 2,
+      "entry_code_offset": 349,
+      "end_before": 1200,
+      "dialogue_ids": [
+        "script.0037.004",
+        "script.0037.005",
+        "script.0037.006",
+        "script.0037.007"
+      ]
+    },
+    {
+      "script_id": 38,
+      "selection": 1,
+      "entry_code_offset": 997,
+      "end_before": 2573,
+      "dialogue_ids": [
+        "script.0038.015",
+        "script.0038.016",
+        "script.0038.017",
+        "script.0038.018",
+        "script.0038.019",
+        "script.0038.020",
+        "script.0038.021",
+        "script.0038.022",
+        "script.0038.023",
+        "script.0038.024",
+        "script.0038.025",
+        "script.0038.026",
+        "script.0038.027",
+        "script.0038.028",
+        "script.0038.029",
+        "script.0038.030",
+        "script.0038.031",
+        "script.0038.032",
+        "script.0038.033"
+      ]
+    },
+    {
+      "script_id": 38,
+      "selection": 2,
+      "entry_code_offset": 2573,
+      "end_before": 3395,
+      "dialogue_ids": [
+        "script.0038.034",
+        "script.0038.035",
+        "script.0038.036",
+        "script.0038.037",
+        "script.0038.038",
+        "script.0038.039",
+        "script.0038.040",
+        "script.0038.041",
+        "script.0038.042",
+        "script.0038.043",
+        "script.0038.044"
+      ]
+    },
+    {
+      "script_id": 39,
+      "selection": 1,
+      "entry_code_offset": 580,
+      "end_before": 1024,
+      "dialogue_ids": [
+        "script.0039.010",
+        "script.0039.011",
+        "script.0039.012",
+        "script.0039.013",
+        "script.0039.014",
+        "script.0039.015",
+        "script.0039.016"
+      ]
+    },
+    {
+      "script_id": 39,
+      "selection": 2,
+      "entry_code_offset": 1024,
+      "end_before": 1418,
+      "dialogue_ids": [
+        "script.0039.017",
+        "script.0039.018",
+        "script.0039.019",
+        "script.0039.020",
+        "script.0039.021",
+        "script.0039.022"
+      ]
+    },
+    {
+      "script_id": 39,
+      "selection": 3,
+      "entry_code_offset": 1418,
+      "end_before": 1801,
+      "dialogue_ids": [
+        "script.0039.023",
+        "script.0039.024",
+        "script.0039.025",
+        "script.0039.026",
+        "script.0039.027",
+        "script.0039.028"
+      ]
+    }
+  ],
+  "emulators": {
+    "0.10.5": {
+      "dialogue": {
+        "status": "passed",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add",
+        "sign_records": 99,
+        "native_widget_cases": 90,
+        "choice_labels_renderer_only": 9,
+        "guarded_renderer_lines": 235,
+        "native_waits_verified": 114,
+        "source_scripts_CODE_JUMP_unchanged": 4,
+        "untranslated_strings_byte_identical": 0,
+        "original_RAW_glyphs_unchanged": [],
+        "cases": [
+          {
+            "id": "script.0036.000",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              20
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0036.001",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              28
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0036.002",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              43
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0036.003",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              32
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0036.004",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              49,
+              103
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              2
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0036.005",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              64,
+              122
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0036.006",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              47
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0036.007",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              56
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0036.008",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              43
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0036.011",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              45,
+              131
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": [
+              "script.0036.011-wait-1.png",
+              "script.0036.011-wait-2.png"
+            ]
+          },
+          {
+            "id": "script.0036.012",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              48,
+              95
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0036.013",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              33
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0036.014",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              53
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0036.015",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              38,
+              123,
+              178
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0036.016",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              40
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0037.000",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              34,
+              115
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0037.003",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              47,
+              67
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": [
+              "script.0037.003-wait-1.png",
+              "script.0037.003-wait-2.png"
+            ]
+          },
+          {
+            "id": "script.0037.004",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              26
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0037.005",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              44
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0037.006",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              42,
+              99
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0037.007",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              67
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.000",
+            "speaker": "Stu",
+            "wait_offsets_verified": [
+              52
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.001",
+            "speaker": "May",
+            "wait_offsets_verified": [
+              27
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.002",
+            "speaker": "May / Stu",
+            "wait_offsets_verified": [
+              17
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.003",
+            "speaker": "May",
+            "wait_offsets_verified": [
+              58
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.004",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              15
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.005",
+            "speaker": "Carter",
+            "wait_offsets_verified": [
+              84
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.006",
+            "speaker": "May",
+            "wait_offsets_verified": [
+              70
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.007",
+            "speaker": "Stu",
+            "wait_offsets_verified": [
+              39
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.008",
+            "speaker": "Carter",
+            "wait_offsets_verified": [
+              30
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.009",
+            "speaker": "Carter",
+            "wait_offsets_verified": [
+              43
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.010",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              81
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.011",
+            "speaker": "Carter",
+            "wait_offsets_verified": [
+              52
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.012",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              39
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.015",
+            "speaker": "Carter",
+            "wait_offsets_verified": [
+              63
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.016",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              37
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.017",
+            "speaker": "May",
+            "wait_offsets_verified": [
+              13
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.018",
+            "speaker": "Stu",
+            "wait_offsets_verified": [
+              47
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.019",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              22
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": [
+              "script.0038.019-wait-1.png"
+            ]
+          },
+          {
+            "id": "script.0038.020",
+            "speaker": "May",
+            "wait_offsets_verified": [
+              11
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.021",
+            "speaker": "Stu",
+            "wait_offsets_verified": [
+              17
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.022",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              58
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.023",
+            "speaker": "May",
+            "wait_offsets_verified": [
+              28
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.024",
+            "speaker": "May",
+            "wait_offsets_verified": [
+              29
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.025",
+            "speaker": "Stu",
+            "wait_offsets_verified": [
+              30
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.026",
+            "speaker": "May",
+            "wait_offsets_verified": [
+              69
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": [
+              "script.0038.026-wait-1.png"
+            ]
+          },
+          {
+            "id": "script.0038.027",
+            "speaker": "May",
+            "wait_offsets_verified": [
+              46
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.028",
+            "speaker": "Stu",
+            "wait_offsets_verified": [
+              27
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.029",
+            "speaker": "May",
+            "wait_offsets_verified": [
+              21
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.030",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              43
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.031",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              53,
+              91
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.032",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              51,
+              115
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              2
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.033",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              28
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.034",
+            "speaker": "Carter",
+            "wait_offsets_verified": [
+              18
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.035",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              49
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.036",
+            "speaker": "Stu",
+            "wait_offsets_verified": [
+              52
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.037",
+            "speaker": "May",
+            "wait_offsets_verified": [
+              38
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.038",
+            "speaker": "Stu",
+            "wait_offsets_verified": [
+              39
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.039",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              34
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.040",
+            "speaker": "May",
+            "wait_offsets_verified": [
+              20
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.041",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              27
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.042",
+            "speaker": "May",
+            "wait_offsets_verified": [
+              11
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.043",
+            "speaker": "Stu",
+            "wait_offsets_verified": [
+              10
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.044",
+            "speaker": "Carter",
+            "wait_offsets_verified": [
+              53,
+              133
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0039.000",
+            "speaker": "Rick",
+            "wait_offsets_verified": [
+              51,
+              125,
+              153
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0,
+              2
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0039.001",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              38,
+              82
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0039.002",
+            "speaker": "Lillia",
+            "wait_offsets_verified": [
+              59
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0039.003",
+            "speaker": "Lillia",
+            "wait_offsets_verified": [
+              46
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0039.004",
+            "speaker": "Lillia",
+            "wait_offsets_verified": [
+              49,
+              96,
+              143
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0039.005",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              83,
+              160,
+              207
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0039.006",
+            "speaker": "Rick",
+            "wait_offsets_verified": [
+              85,
+              136,
+              192
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              1,
+              2
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0039.010",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              55
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0039.011",
+            "speaker": "Rick",
+            "wait_offsets_verified": [
+              60
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0039.012",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              63,
+              80
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              2
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0039.013",
+            "speaker": "Rick",
+            "wait_offsets_verified": [
+              16
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0039.014",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              45
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0039.015",
+            "speaker": "Lillia",
+            "wait_offsets_verified": [
+              61
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0039.016",
+            "speaker": "Rick",
+            "wait_offsets_verified": [
+              14
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0039.017",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              48
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0039.018",
+            "speaker": "Rick",
+            "wait_offsets_verified": [
+              52
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0039.019",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              53
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0039.020",
+            "speaker": "Rick",
+            "wait_offsets_verified": [
+              51
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0039.021",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              9
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0039.022",
+            "speaker": "Lillia",
+            "wait_offsets_verified": [
+              51,
+              86
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0039.023",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              33
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0039.024",
+            "speaker": "Rick",
+            "wait_offsets_verified": [
+              18
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0039.025",
+            "speaker": "Lillia",
+            "wait_offsets_verified": [
+              94
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": [
+              "script.0039.025-wait-1.png"
+            ]
+          },
+          {
+            "id": "script.0039.026",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              35
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0039.027",
+            "speaker": "Rick",
+            "wait_offsets_verified": [
+              60,
+              110
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": [
+              "script.0039.027-wait-1.png",
+              "script.0039.027-wait-2.png"
+            ]
+          },
+          {
+            "id": "script.0039.028",
+            "speaker": "Lillia",
+            "wait_offsets_verified": [
+              71
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          }
+        ],
+        "sram_unchanged": true,
+        "emulator_error_count": 0,
+        "limitations": [
+          "Native UI fixtures, not natural object encounters.",
+          "Dialogue variables substitute twelve digits for layout; original VAR preserved.",
+          "Manual language/layout review and other unclassified interactions remain pending."
+        ]
+      },
+      "choices": {
+        "status": "passed",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add",
+        "menus": [
+          {
+            "script_id": 36,
+            "all_label_bitmaps_verified": true,
+            "cases": [
+              {
+                "source_id": "script.0036.009",
+                "native_selection": 1,
+                "script_response_entry": 996,
+                "A_confirmed": true,
+                "screenshot": "event-36-option-1.png"
+              },
+              {
+                "source_id": "script.0036.010",
+                "native_selection": 2,
+                "script_response_entry": 1703,
+                "A_confirmed": true,
+                "screenshot": "event-36-option-2.png"
+              }
+            ]
+          },
+          {
+            "script_id": 37,
+            "all_label_bitmaps_verified": true,
+            "cases": [
+              {
+                "source_id": "script.0037.001",
+                "native_selection": 1,
+                "script_response_entry": 155,
+                "A_confirmed": true,
+                "screenshot": "event-37-option-1.png"
+              },
+              {
+                "source_id": "script.0037.002",
+                "native_selection": 2,
+                "script_response_entry": 349,
+                "A_confirmed": true,
+                "screenshot": "event-37-option-2.png"
+              }
+            ]
+          },
+          {
+            "script_id": 38,
+            "all_label_bitmaps_verified": true,
+            "cases": [
+              {
+                "source_id": "script.0038.013",
+                "native_selection": 1,
+                "script_response_entry": 997,
+                "A_confirmed": true,
+                "screenshot": "event-38-option-1.png"
+              },
+              {
+                "source_id": "script.0038.014",
+                "native_selection": 2,
+                "script_response_entry": 2573,
+                "A_confirmed": true,
+                "screenshot": "event-38-option-2.png"
+              }
+            ]
+          },
+          {
+            "script_id": 39,
+            "all_label_bitmaps_verified": true,
+            "cases": [
+              {
+                "source_id": "script.0039.007",
+                "native_selection": 1,
+                "script_response_entry": 580,
+                "A_confirmed": true,
+                "screenshot": "event-39-option-1.png"
+              },
+              {
+                "source_id": "script.0039.008",
+                "native_selection": 2,
+                "script_response_entry": 1024,
+                "A_confirmed": true,
+                "screenshot": "event-39-option-2.png"
+              },
+              {
+                "source_id": "script.0039.009",
+                "native_selection": 3,
+                "script_response_entry": 1418,
+                "A_confirmed": true,
+                "screenshot": "event-39-option-3.png"
+              }
+            ]
+          }
+        ],
+        "native_choices_confirmed": 9,
+        "sram_unchanged": true,
+        "limitations": [
+          "Native menu UI fixtures, not natural event activation or subsequent gameplay effects.",
+          "Response entry values separately verified against source JUMP table; fixture does not execute the entire event."
+        ]
+      }
+    },
+    "dev": {
+      "dialogue": {
+        "status": "passed",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add",
+        "sign_records": 99,
+        "native_widget_cases": 90,
+        "choice_labels_renderer_only": 9,
+        "guarded_renderer_lines": 235,
+        "native_waits_verified": 114,
+        "source_scripts_CODE_JUMP_unchanged": 4,
+        "untranslated_strings_byte_identical": 0,
+        "original_RAW_glyphs_unchanged": [],
+        "cases": [
+          {
+            "id": "script.0036.000",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              20
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0036.001",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              28
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0036.002",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              43
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0036.003",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              32
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0036.004",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              49,
+              103
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              2
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0036.005",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              64,
+              122
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0036.006",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              47
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0036.007",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              56
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0036.008",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              43
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0036.011",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              45,
+              131
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": [
+              "script.0036.011-wait-1.png",
+              "script.0036.011-wait-2.png"
+            ]
+          },
+          {
+            "id": "script.0036.012",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              48,
+              95
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0036.013",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              33
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0036.014",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              53
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0036.015",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              38,
+              123,
+              178
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0036.016",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              40
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0037.000",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              34,
+              115
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0037.003",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              47,
+              67
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": [
+              "script.0037.003-wait-1.png",
+              "script.0037.003-wait-2.png"
+            ]
+          },
+          {
+            "id": "script.0037.004",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              26
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0037.005",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              44
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0037.006",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              42,
+              99
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0037.007",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              67
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.000",
+            "speaker": "Stu",
+            "wait_offsets_verified": [
+              52
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.001",
+            "speaker": "May",
+            "wait_offsets_verified": [
+              27
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.002",
+            "speaker": "May / Stu",
+            "wait_offsets_verified": [
+              17
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.003",
+            "speaker": "May",
+            "wait_offsets_verified": [
+              58
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.004",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              15
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.005",
+            "speaker": "Carter",
+            "wait_offsets_verified": [
+              84
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.006",
+            "speaker": "May",
+            "wait_offsets_verified": [
+              70
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.007",
+            "speaker": "Stu",
+            "wait_offsets_verified": [
+              39
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.008",
+            "speaker": "Carter",
+            "wait_offsets_verified": [
+              30
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.009",
+            "speaker": "Carter",
+            "wait_offsets_verified": [
+              43
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.010",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              81
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.011",
+            "speaker": "Carter",
+            "wait_offsets_verified": [
+              52
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.012",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              39
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.015",
+            "speaker": "Carter",
+            "wait_offsets_verified": [
+              63
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.016",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              37
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.017",
+            "speaker": "May",
+            "wait_offsets_verified": [
+              13
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.018",
+            "speaker": "Stu",
+            "wait_offsets_verified": [
+              47
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.019",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              22
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": [
+              "script.0038.019-wait-1.png"
+            ]
+          },
+          {
+            "id": "script.0038.020",
+            "speaker": "May",
+            "wait_offsets_verified": [
+              11
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.021",
+            "speaker": "Stu",
+            "wait_offsets_verified": [
+              17
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.022",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              58
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.023",
+            "speaker": "May",
+            "wait_offsets_verified": [
+              28
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.024",
+            "speaker": "May",
+            "wait_offsets_verified": [
+              29
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.025",
+            "speaker": "Stu",
+            "wait_offsets_verified": [
+              30
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.026",
+            "speaker": "May",
+            "wait_offsets_verified": [
+              69
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": [
+              "script.0038.026-wait-1.png"
+            ]
+          },
+          {
+            "id": "script.0038.027",
+            "speaker": "May",
+            "wait_offsets_verified": [
+              46
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.028",
+            "speaker": "Stu",
+            "wait_offsets_verified": [
+              27
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.029",
+            "speaker": "May",
+            "wait_offsets_verified": [
+              21
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.030",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              43
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.031",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              53,
+              91
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.032",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              51,
+              115
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              2
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.033",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              28
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.034",
+            "speaker": "Carter",
+            "wait_offsets_verified": [
+              18
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.035",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              49
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.036",
+            "speaker": "Stu",
+            "wait_offsets_verified": [
+              52
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.037",
+            "speaker": "May",
+            "wait_offsets_verified": [
+              38
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.038",
+            "speaker": "Stu",
+            "wait_offsets_verified": [
+              39
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.039",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              34
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.040",
+            "speaker": "May",
+            "wait_offsets_verified": [
+              20
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.041",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              27
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.042",
+            "speaker": "May",
+            "wait_offsets_verified": [
+              11
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.043",
+            "speaker": "Stu",
+            "wait_offsets_verified": [
+              10
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0038.044",
+            "speaker": "Carter",
+            "wait_offsets_verified": [
+              53,
+              133
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0039.000",
+            "speaker": "Rick",
+            "wait_offsets_verified": [
+              51,
+              125,
+              153
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0,
+              2
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0039.001",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              38,
+              82
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0039.002",
+            "speaker": "Lillia",
+            "wait_offsets_verified": [
+              59
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0039.003",
+            "speaker": "Lillia",
+            "wait_offsets_verified": [
+              46
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0039.004",
+            "speaker": "Lillia",
+            "wait_offsets_verified": [
+              49,
+              96,
+              143
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0039.005",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              83,
+              160,
+              207
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0039.006",
+            "speaker": "Rick",
+            "wait_offsets_verified": [
+              85,
+              136,
+              192
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              1,
+              2
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0039.010",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              55
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0039.011",
+            "speaker": "Rick",
+            "wait_offsets_verified": [
+              60
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0039.012",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              63,
+              80
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              2
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0039.013",
+            "speaker": "Rick",
+            "wait_offsets_verified": [
+              16
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0039.014",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              45
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0039.015",
+            "speaker": "Lillia",
+            "wait_offsets_verified": [
+              61
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0039.016",
+            "speaker": "Rick",
+            "wait_offsets_verified": [
+              14
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0039.017",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              48
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0039.018",
+            "speaker": "Rick",
+            "wait_offsets_verified": [
+              52
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0039.019",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              53
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0039.020",
+            "speaker": "Rick",
+            "wait_offsets_verified": [
+              51
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0039.021",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              9
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0039.022",
+            "speaker": "Lillia",
+            "wait_offsets_verified": [
+              51,
+              86
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0039.023",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              33
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0039.024",
+            "speaker": "Rick",
+            "wait_offsets_verified": [
+              18
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0039.025",
+            "speaker": "Lillia",
+            "wait_offsets_verified": [
+              94
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": [
+              "script.0039.025-wait-1.png"
+            ]
+          },
+          {
+            "id": "script.0039.026",
+            "speaker": "Popuri",
+            "wait_offsets_verified": [
+              35
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0039.027",
+            "speaker": "Rick",
+            "wait_offsets_verified": [
+              60,
+              110
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": [
+              "script.0039.027-wait-1.png",
+              "script.0039.027-wait-2.png"
+            ]
+          },
+          {
+            "id": "script.0039.028",
+            "speaker": "Lillia",
+            "wait_offsets_verified": [
+              71
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          }
+        ],
+        "sram_unchanged": true,
+        "emulator_error_count": 0,
+        "limitations": [
+          "Native UI fixtures, not natural object encounters.",
+          "Dialogue variables substitute twelve digits for layout; original VAR preserved.",
+          "Manual language/layout review and other unclassified interactions remain pending."
+        ]
+      },
+      "choices": {
+        "status": "passed",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add",
+        "menus": [
+          {
+            "script_id": 36,
+            "all_label_bitmaps_verified": true,
+            "cases": [
+              {
+                "source_id": "script.0036.009",
+                "native_selection": 1,
+                "script_response_entry": 996,
+                "A_confirmed": true,
+                "screenshot": "event-36-option-1.png"
+              },
+              {
+                "source_id": "script.0036.010",
+                "native_selection": 2,
+                "script_response_entry": 1703,
+                "A_confirmed": true,
+                "screenshot": "event-36-option-2.png"
+              }
+            ]
+          },
+          {
+            "script_id": 37,
+            "all_label_bitmaps_verified": true,
+            "cases": [
+              {
+                "source_id": "script.0037.001",
+                "native_selection": 1,
+                "script_response_entry": 155,
+                "A_confirmed": true,
+                "screenshot": "event-37-option-1.png"
+              },
+              {
+                "source_id": "script.0037.002",
+                "native_selection": 2,
+                "script_response_entry": 349,
+                "A_confirmed": true,
+                "screenshot": "event-37-option-2.png"
+              }
+            ]
+          },
+          {
+            "script_id": 38,
+            "all_label_bitmaps_verified": true,
+            "cases": [
+              {
+                "source_id": "script.0038.013",
+                "native_selection": 1,
+                "script_response_entry": 997,
+                "A_confirmed": true,
+                "screenshot": "event-38-option-1.png"
+              },
+              {
+                "source_id": "script.0038.014",
+                "native_selection": 2,
+                "script_response_entry": 2573,
+                "A_confirmed": true,
+                "screenshot": "event-38-option-2.png"
+              }
+            ]
+          },
+          {
+            "script_id": 39,
+            "all_label_bitmaps_verified": true,
+            "cases": [
+              {
+                "source_id": "script.0039.007",
+                "native_selection": 1,
+                "script_response_entry": 580,
+                "A_confirmed": true,
+                "screenshot": "event-39-option-1.png"
+              },
+              {
+                "source_id": "script.0039.008",
+                "native_selection": 2,
+                "script_response_entry": 1024,
+                "A_confirmed": true,
+                "screenshot": "event-39-option-2.png"
+              },
+              {
+                "source_id": "script.0039.009",
+                "native_selection": 3,
+                "script_response_entry": 1418,
+                "A_confirmed": true,
+                "screenshot": "event-39-option-3.png"
+              }
+            ]
+          }
+        ],
+        "native_choices_confirmed": 9,
+        "sram_unchanged": true,
+        "limitations": [
+          "Native menu UI fixtures, not natural event activation or subsequent gameplay effects.",
+          "Response entry values separately verified against source JUMP table; fixture does not execute the entire event."
+        ]
+      }
+    }
+  },
+  "screenshots": [
+    {
+      "path": "docs/evidence/popuri-hearts/script.0039.027-wait-1.png",
+      "sha256": "0e8fcd6fb61041bec5fb853c965d4cc0d0d50a66bc479dd89ba5bcb92ecaabbd",
+      "scope": "native UI fixture, house background is host only"
+    },
+    {
+      "path": "docs/evidence/popuri-hearts/script.0036.011-wait-1.png",
+      "sha256": "57a7838f4c7692d1df772b8c08ff56acd41f884c95aee19c33706d9b8ff4b475",
+      "scope": "native UI fixture, house background is host only"
+    },
+    {
+      "path": "docs/evidence/popuri-hearts/script.0039.025-wait-1.png",
+      "sha256": "8c0678f95ae0f412a7c8adf6c77646b410a8c8c3040c633eafcc097c21e3053c",
+      "scope": "native UI fixture, house background is host only"
+    },
+    {
+      "path": "docs/evidence/popuri-hearts/script.0039.027-wait-2.png",
+      "sha256": "a2544211434b2f9654ed97a8c66735de749cf0e3c560dbf8d26c995f5f0f6ff2",
+      "scope": "native UI fixture, house background is host only"
+    },
+    {
+      "path": "docs/evidence/popuri-hearts/script.0038.026-wait-1.png",
+      "sha256": "8e4fb3f241715a04216054ff2dfa8ba9d744f864032c37c053870a8f79e01ae0",
+      "scope": "native UI fixture, house background is host only"
+    },
+    {
+      "path": "docs/evidence/popuri-hearts/script.0037.003-wait-1.png",
+      "sha256": "e9c8bc1fb239feb94455b628e9e529135e436caa8e6b313da186b1c6361947f8",
+      "scope": "native UI fixture, house background is host only"
+    },
+    {
+      "path": "docs/evidence/popuri-hearts/script.0038.019-wait-1.png",
+      "sha256": "797dc133c9e601a43a85ea0180238638c1e3a598423998d8d36b3cf4a4709d48",
+      "scope": "native UI fixture, house background is host only"
+    },
+    {
+      "path": "docs/evidence/popuri-hearts/script.0036.011-wait-2.png",
+      "sha256": "0ca0556efc3cf77078d4196c5fa5ac0aa4f35b89d1ffb057d765f48098ec4e04",
+      "scope": "native UI fixture, house background is host only"
+    },
+    {
+      "path": "docs/evidence/popuri-hearts/script.0037.003-wait-2.png",
+      "sha256": "c7bf310434636e95545d38de101a0e2712218defa21a3c02ab7343790f719620",
+      "scope": "native UI fixture, house background is host only"
+    },
+    {
+      "path": "docs/evidence/popuri-hearts/event-39-option-2.png",
+      "sha256": "2d092f3effa1ce030798b1d6d408f63f28b60e4ab9527ff6b2cf9a71de0ba66b",
+      "scope": "native UI fixture, house background is host only"
+    },
+    {
+      "path": "docs/evidence/popuri-hearts/event-39-option-3.png",
+      "sha256": "a3ac9f9e1ab8c0c58189d36b28f8a5de0a666540755bf05e1ca48578edc2ce7f",
+      "scope": "native UI fixture, house background is host only"
+    },
+    {
+      "path": "docs/evidence/popuri-hearts/event-37-option-2.png",
+      "sha256": "1af35dce64d27f53238d2191de14609f2b068131396ca4694af45eede9f44848",
+      "scope": "native UI fixture, house background is host only"
+    },
+    {
+      "path": "docs/evidence/popuri-hearts/event-37-option-1.png",
+      "sha256": "5ee3b98069d3743316552f101746b15e4973b4558a536e01f0f073184f9a8ea9",
+      "scope": "native UI fixture, house background is host only"
+    },
+    {
+      "path": "docs/evidence/popuri-hearts/event-36-option-1.png",
+      "sha256": "c8a51aa820abd1a36dc367be13c70a386e634b065d0d10ad3d04d7783b68d396",
+      "scope": "native UI fixture, house background is host only"
+    },
+    {
+      "path": "docs/evidence/popuri-hearts/event-39-option-1.png",
+      "sha256": "2e312379aa37031ff16de113b41028b304cab7be17db3910260e6f73d7be278f",
+      "scope": "native UI fixture, house background is host only"
+    },
+    {
+      "path": "docs/evidence/popuri-hearts/event-38-option-1.png",
+      "sha256": "19acb5486f31365b2ac89365ae03d45b9102ec4a7b1a6ff158cde73e3deaa77a",
+      "scope": "native UI fixture, house background is host only"
+    },
+    {
+      "path": "docs/evidence/popuri-hearts/event-38-option-2.png",
+      "sha256": "488db15c843b3156b0974a87b129906ff5f72025ae77e5a37fb833feb4d3a15d",
+      "scope": "native UI fixture, house background is host only"
+    },
+    {
+      "path": "docs/evidence/popuri-hearts/event-36-option-2.png",
+      "sha256": "ae9183cafdf59229a51e048696d1dd1c026284b071a68ee0efbde62bbd503d87",
+      "scope": "native UI fixture, house background is host only"
+    }
+  ],
+  "limitations": [
+    "Native UI fixtures, not natural activation or complete event gameplay replay.",
+    "Activation requirements in documentation are guide references; black-event time discrepancy remains unresolved in ROM dispatcher.",
+    "Language/layout manual review and rival events remain pending.",
+    "Previous full-platform/golden/Chromium evidence is historical."
+  ]
+}

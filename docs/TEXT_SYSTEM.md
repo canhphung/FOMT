@@ -252,3 +252,5 @@ CODE hash và OnCall33/34/35. Chỉ gán context cho đúng nhãn đã chọn, g
 Xem [INTERACTIVE_OBJECTS.md](INTERACTIVE_OBJECTS.md).
 
 Ngoại lệ Popuri: popuri_text.py cấp quyền bỏ RAW:8166 chỉ tại 993.005/021/092 theo nguồn được xác minh; không nới token khác. Hai lựa chọn 038/039 giữ cap 26 byte native. Xem POPURI_LOCALIZATION.md.
+
+Ngoại lệ RAW:8166 của heart-event 38.026 do popuri_heart_events.py xác minh riêng, không cấp cho ID khác. Source name IDs và menu 39/40 được kiểm cùng CODE/JUMP; xem POPURI_HEART_EVENTS.md.

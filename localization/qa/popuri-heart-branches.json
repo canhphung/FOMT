@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "source_contract": "localization/popuri_heart_events.json",
+  "scope": "verified source response blocks, not activation/side-effect emulation",
+  "branches": [
+    {
+      "script_id": 36,
+      "selection": 1,
+      "entry_code_offset": 996,
+      "end_before": 1703,
+      "dialogue_ids": [
+        "script.0036.011",
+        "script.0036.012",
+        "script.0036.013"
+      ]
+    },
+    {
+      "script_id": 36,
+      "selection": 2,
+      "entry_code_offset": 1703,
+      "end_before": 2398,
+      "dialogue_ids": [
+        "script.0036.014",
+        "script.0036.015",
+        "script.0036.016"
+      ]
+    },
+    {
+      "script_id": 37,
+      "selection": 1,
+      "entry_code_offset": 155,
+      "end_before": 349,
+      "dialogue_ids": [
+        "script.0037.003"
+      ]
+    },
+    {
+      "script_id": 37,
+      "selection": 2,
+      "entry_code_offset": 349,
+      "end_before": 1200,
+      "dialogue_ids": [
+        "script.0037.004",
+        "script.0037.005",
+        "script.0037.006",
+        "script.0037.007"
+      ]
+    },
+    {
+      "script_id": 38,
+      "selection": 1,
+      "entry_code_offset": 997,
+      "end_before": 2573,
+      "dialogue_ids": [
+        "script.0038.015",
+        "script.0038.016",
+        "script.0038.017",
+        "script.0038.018",
+        "script.0038.019",
+        "script.0038.020",
+        "script.0038.021",
+        "script.0038.022",
+        "script.0038.023",
+        "script.0038.024",
+        "script.0038.025",
+        "script.0038.026",
+        "script.0038.027",
+        "script.0038.028",
+        "script.0038.029",
+        "script.0038.030",
+        "script.0038.031",
+        "script.0038.032",
+        "script.0038.033"
+      ]
+    },
+    {
+      "script_id": 38,
+      "selection": 2,
+      "entry_code_offset": 2573,
+      "end_before": 3395,
+      "dialogue_ids": [
+        "script.0038.034",
+        "script.0038.035",
+        "script.0038.036",
+        "script.0038.037",
+        "script.0038.038",
+        "script.0038.039",
+        "script.0038.040",
+        "script.0038.041",
+        "script.0038.042",
+        "script.0038.043",
+        "script.0038.044"
+      ]
+    },
+    {
+      "script_id": 39,
+      "selection": 1,
+      "entry_code_offset": 580,
+      "end_before": 1024,
+      "dialogue_ids": [
+        "script.0039.010",
+        "script.0039.011",
+        "script.0039.012",
+        "script.0039.013",
+        "script.0039.014",
+        "script.0039.015",
+        "script.0039.016"
+      ]
+    },
+    {
+      "script_id": 39,
+      "selection": 2,
+      "entry_code_offset": 1024,
+      "end_before": 1418,
+      "dialogue_ids": [
+        "script.0039.017",
+        "script.0039.018",
+        "script.0039.019",
+        "script.0039.020",
+        "script.0039.021",
+        "script.0039.022"
+      ]
+    },
+    {
+      "script_id": 39,
+      "selection": 3,
+      "entry_code_offset": 1418,
+      "end_before": 1801,
+      "dialogue_ids": [
+        "script.0039.023",
+        "script.0039.024",
+        "script.0039.025",
+        "script.0039.026",
+        "script.0039.027",
+        "script.0039.028"
+      ]
+    }
+  ]
+}

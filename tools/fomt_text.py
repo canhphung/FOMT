@@ -318,6 +318,8 @@ def extract(data: bytes) -> dict:
     sign_records(data, records)
     from popuri_text import annotate_records as popuri_records
     popuri_records(data, records)
+    from popuri_heart_events import annotate_records as heart_records
+    heart_records(data, records)
     from item_window import annotate_records as item_window_budgets
     item_window_budgets(records)
     return {"schema_version": 1, "rom": {"sha1": ROM_SHA1,

@@ -24,3 +24,5 @@ The source-only ID/CODE/display-site contract is `../object_labels.json`.
 `signs.json`: 48 bản ghi nguồn có context biển/thông báo và caller được xác minh.
 
 farm_interactions.json: nguồn 23 tương tác nông trại bị sót.
+
+popuri_heart_events.json: 99 chuỗi gốc của bốn sự kiện tim Popuri, giữ nguyên literal/địa chỉ/byte nguồn.

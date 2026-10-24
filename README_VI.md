@@ -6,6 +6,8 @@ Không chứa hoặc tự tải ROM thương mại. Bản vá IPS nằm trong `p
 
 ## Trạng thái hiện tại
 
+[Bốn sự kiện tim Popuri](docs/POPURI_HEART_EVENTS.md): 99 mục gồm đủ 9 lựa chọn và các block trả lời; người nói xác minh bằng ROM, điều kiện wiki còn ghi riêng.
+
 [Thông báo cửa khóa](docs/LOCKED_DOORS.md): 26 bản sao đã dịch thành “Cửa bị khóa…”, giữ nguyên điều kiện mở cửa.
 
 [Popuri theo ngữ cảnh](docs/POPURI_LOCALIZATION.md): 144/144 mục script chuẩn (142 câu thoại và 2 lựa chọn); xưng hô theo bối cảnh, đã kiểm cả menu lựa chọn native.
@@ -26,8 +28,8 @@ Lô [vật phẩm/UI](docs/ITEM_LOCALIZATION.md) hoàn tất nháp; duyệt ngh�
 
 - Trích xuất 9.309 bản ghi: 8.368 chuỗi SCR, 347 tên + 347 mô tả vật phẩm,
   7 nhãn menu tạm dừng, 24 mục tạo game mới, 28 mục hồi tưởng thời thơ ấu, 162 mục trong các menu con START và 26 chuỗi native cửa hàng/vật phẩm.
-- 1.597 bản ghi dịch nháp: 347 tên vật phẩm, 347 mô tả, 26 chuỗi UI native, 7 menu, 1 lời chào Popuri,
-  24 mục tạo game mới, 145 mục intro/hướng dẫn đầu game, 162 mục menu START, 172 câu NPC, 261 nhãn đồ vật, 3 hướng dẫn tương tác và 48 mục biển/thông báo và 23 tương tác nông trại và 26 thông báo cửa khóa.
+- 1.696 bản ghi dịch nháp: 347 tên vật phẩm, 347 mô tả, 26 chuỗi UI native, 7 menu, 1 lời chào Popuri,
+  24 mục tạo game mới, 145 mục intro/hướng dẫn đầu game, 162 mục menu START, 172 câu NPC, 261 nhãn đồ vật, 3 hướng dẫn tương tác và 48 mục biển/thông báo và 23 tương tác nông trại và 26 thông báo cửa khóa và 99 mục sự kiện tim Popuri.
 - Lịch/HUD tiếng Việt: Năm, Xuân/Hè/Thu/Đông, CN/T2…T7 và đồng hồ 24 giờ.
   Tiêu đề lịch đã căn khoảng cách và thu nhỏ riêng số năm; HUD giữ vị trí đồng hồ,
   icon và màu gốc. [Ảnh hiện tại](docs/evidence/date-ui.png),

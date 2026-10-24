@@ -3,7 +3,7 @@
   "revision": "platform-v5-signs",
   "created_at": "2026-10-23",
   "reference_target_sha256": "98e69a242aaa5eb71c8e0fafa17bbca1379d13d06ebb906aa743ac1b4d9d3335",
-  "policy": "Revision v5 adds verified signs, native RAW glyph/scroll fixtures and a padding-only exception for script.0497.000 and script.0507.000. All other controls, arrows and variables remain strict. Font/layout and all 43 golden reference images are unchanged; reference_target_sha256 retains their original provenance. Farm follow-up adds 23 guarded texts; reusable sign fixture accepts a separate contract. Nonlabel preservation counter counts only byte-identical strings. Golden references unchanged. Popuri completion: source-verified apostrophe removal only at 993.005/021/092; OnCall39 and native choice-byte-cap guards. Golden images unchanged.",
+  "policy": "Revision v5 adds verified signs, native RAW glyph/scroll fixtures and a padding-only exception for script.0497.000 and script.0507.000. All other controls, arrows and variables remain strict. Font/layout and all 43 golden reference images are unchanged; reference_target_sha256 retains their original provenance. Farm follow-up adds 23 guarded texts; reusable sign fixture accepts a separate contract. Nonlabel preservation counter counts only byte-identical strings. Golden references unchanged. Popuri completion: source-verified apostrophe removal only at 993.005/021/092; OnCall39 and native choice-byte-cap guards. Golden images unchanged. Heart-events follow-up adds four source-verified scripts, speaker/response maps and native menus. Source punctuation exception extends only to 38.026. Existing font and golden references retained.",
   "visual_review": "technical regression reference; user approval of the complete gallery pending; translation QA unchanged",
   "contracts": {
     "dialogue": {
@@ -108,7 +108,7 @@
     },
     {
       "path": "tools/fomt_text.py",
-      "sha256": "f032008a46346a97189d1d2d992373e9b7e7ea0b096c31fed615f9c1859fc4b4"
+      "sha256": "b6e42f06782c534b65b0ad416daedcff4a63abf9040f9ed75d0e973b35e864f2"
     },
     {
       "path": "tools/text_extractor.py",
@@ -156,7 +156,7 @@
     },
     {
       "path": "tools/platform_check.py",
-      "sha256": "3ab4fca703850860054297c16e4b56408863db4794ef904939f8be4e2b6e23c0"
+      "sha256": "06ac88aa3eaa8e595767ec3606099846d637bd263e61c405975642dd0fe0c585"
     },
     {
       "path": "tools/mgba_bridge.c",
@@ -216,7 +216,7 @@
     },
     {
       "path": "tools/signs_smoke.py",
-      "sha256": "9b7e2176d47946b7da9d1969c2f02cbe82050369ad796cc0b9c817c62b0033c1"
+      "sha256": "a1619b8f590641e32d4d0c435be73f161115b2bde0856b3a9783be1b823cb0e6"
     },
     {
       "path": "localization/signs.json",
@@ -253,6 +253,22 @@
     {
       "path": "tools/popuri_choices_smoke.py",
       "sha256": "a163746fc6d5a738755cfd8bc0ef34520c974751e7979be5e3b7f8cf46930ac5"
+    },
+    {
+      "path": "tools/popuri_heart_events.py",
+      "sha256": "163234cb2dec5c3fa381fc3715aa7d02c9be50895caa8d4b78ab0f5e40f8ad75"
+    },
+    {
+      "path": "tools/popuri_hearts_smoke.py",
+      "sha256": "5e80d6f494e3637fbdf760ba6daae38a8cba4796391eecf9b17f534afbcb536a"
+    },
+    {
+      "path": "tools/heart_choices_smoke.py",
+      "sha256": "5d791c9601369f9f14997ead6d757d2648636f1c669c6e74afc3ca18acab2eb6"
+    },
+    {
+      "path": "localization/popuri_heart_events.json",
+      "sha256": "198e55f9500c41f4f70a3c5bb0a0f7a82c8e34cf6ef183dad3f89a4da21aa9f5"
     }
   ],
   "save_fixture": {

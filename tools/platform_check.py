@@ -133,12 +133,12 @@ def run(base_path, backends):
         for suite, script in [('full', 'emulator_smoke'), ('new-game', 'new_game_smoke'),
                               ('start', 'start_menu_smoke'), ('date', 'date_ui_smoke'),
                               ('items', 'item_batch_smoke'), ('item-audit', 'item_audit'),
-                              ('item-ui', 'item_ui_smoke'), ('npc-daily', 'npc_daily_smoke'), ('object-labels', 'object_labels_smoke'), ('interaction-hints', 'interaction_hints_smoke'), ('signs', 'signs_smoke'), ('farm', 'farm_interactions_smoke'), ('popuri', 'popuri_smoke'), ('locked-doors', 'locked_doors_smoke'), ('popuri-choices', 'popuri_choices_smoke')]:
+                              ('item-ui', 'item_ui_smoke'), ('npc-daily', 'npc_daily_smoke'), ('object-labels', 'object_labels_smoke'), ('interaction-hints', 'interaction_hints_smoke'), ('signs', 'signs_smoke'), ('farm', 'farm_interactions_smoke'), ('popuri', 'popuri_smoke'), ('locked-doors', 'locked_doors_smoke'), ('popuri-choices', 'popuri_choices_smoke'), ('popuri-hearts', 'popuri_hearts_smoke'), ('heart-choices', 'heart_choices_smoke')]:
             dest = OUT / backend / suite
             args = [sys.executable, f'tools/{script}.py', str(rom), '--library', str(library)]
             if suite != 'start':
                 args += ['--base-rom', str(base_path)]
-            if suite in ('start', 'date', 'item-ui', 'object-labels', 'interaction-hints', 'signs', 'farm', 'popuri', 'locked-doors', 'popuri-choices'):
+            if suite in ('start', 'date', 'item-ui', 'object-labels', 'interaction-hints', 'signs', 'farm', 'popuri', 'locked-doors', 'popuri-choices', 'popuri-hearts', 'heart-choices'):
                 args += ['--sram', str(fixture)]
             if suite == 'items':
                 args += ['--output', str(dest / 'report.json')]

@@ -63,7 +63,7 @@ def assert_cache(actual,expected):
     raise AssertionError(('sign cache foreground mismatch',len(actual),[len(r) for r in expected], 'missing',sorted(combined-actual)[:24], 'extra',sorted(actual-combined)[:24]))
 
 
-def run(args, verifier=verify, capture_ids=None):
+def run(args, verifier=verify, capture_ids=None, speaker_labels=False):
     base=verified_rom(args.base_rom);target=args.rom.read_bytes();contract=verifier(base)
     proofs={r['id']:r for r in contract['source_proofs']}
     translations={r['id']:r for p in DEFAULT_TRANSLATIONS for r in json.loads(p.read_text())['records']}
@@ -97,7 +97,7 @@ def run(args, verifier=verify, capture_ids=None):
         active=[w for w in widgets(session) if w[1]==5];assert len(active)==1
         root,_,_,data=active[0];context=u32(data,0xF8);initial=session.state();cases=[]
         for begin,end,row,payload in text_ranges(target,rows):
-            if proofs[row['id']]['kind'] in ('frisbee_choice','popuri_choice'):continue
+            if proofs[row['id']]['kind'] in ('frisbee_choice','popuri_choice','heart_event_choice'):continue
             working=re.sub(r'\{VAR:[0-9A-F]{2}\}','123456789012',row['vietnamese_translation'])
             dynamic=working!=row['vietnamese_translation']
             if dynamic:payload=encode(working,True);begin=0x03006000;end=begin+len(payload)
@@ -106,7 +106,11 @@ def run(args, verifier=verify, capture_ids=None):
             session.write(0x04000208,b'\0\0')
             flags=proofs[row['id']]['show_text_sites'][0]['text_flags']
             session.call(0x08050425,root,begin,flags,context)
-            session.call(0x08050B3D,root);session.call(0x08050C19,root)
+            session.call(0x08050B3D,root)
+            if speaker_labels and row.get('speaker'):
+                session.write(0x03005800,row['speaker'].split(' / ')[0].encode('ascii')+b'\0')
+                session.call(0x08050B51,root,0x03005800)
+            else:session.call(0x08050C19,root)
             after=session.read(0x02000000,0x40000);session.restore(initial)
             if dynamic:session.write(begin,payload+b'\0')
             i=0
@@ -130,10 +134,10 @@ def run(args, verifier=verify, capture_ids=None):
                 if row['id'] in (capture_ids or ('script.0161.000','script.0163.000','script.0403.013','script.0492.000','script.0496.000','script.0497.000','script.0505.000','script.0507.000')):
                     name=row['id']+f'-wait-{n+1}.png';session.screenshot(out/name);captures.append(name)
                 if n+1<len(offsets):session.press(1,settle=1)
-            cases.append({'id':row['id'],'wait_offsets_verified':offsets,'exact_foreground_cache_rotations':rotations,'dynamic_12_cell_standin':dynamic,'screenshots':captures})
+            cases.append({'id':row['id'],'speaker':row.get('speaker') if speaker_labels else None,'wait_offsets_verified':offsets,'exact_foreground_cache_rotations':rotations,'dynamic_12_cell_standin':dynamic,'screenshots':captures})
         assert session.sram()==sram and session.lib.session_errors()==0 and original.lib.session_errors()==0
         return {'status':'passed','target_sha256':hashlib.sha256(target).hexdigest(),'sign_records':len(rows),'native_widget_cases':len(cases),
-            'choice_labels_renderer_only':sum(r['kind'] in ('frisbee_choice','popuri_choice') for r in proofs.values()),'guarded_renderer_lines':renderer,'native_waits_verified':sum(len(c['wait_offsets_verified']) for c in cases),
+            'choice_labels_renderer_only':sum(r['kind'] in ('frisbee_choice','popuri_choice','heart_event_choice') for r in proofs.values()),'guarded_renderer_lines':renderer,'native_waits_verified':sum(len(c['wait_offsets_verified']) for c in cases),
             'source_scripts_CODE_JUMP_unchanged':len({r['script_id'] for r in proofs.values()}),'untranslated_strings_byte_identical':untouched,
             'original_RAW_glyphs_unchanged':glyphs,'cases':cases,'sram_unchanged':True,'emulator_error_count':0,
             'limitations':['Native UI fixtures hosted in the house, not natural encounters with every sign.',

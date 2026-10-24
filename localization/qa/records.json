@@ -25283,6 +25283,1689 @@
       "playtest": {
         "status": "not_run"
       }
+    },
+    {
+      "id": "script.0036.000",
+      "source_sha256": "6f51554d87b83d2e64e1f826d27451294d942b004fd42b997532a63d5f699987",
+      "translation_sha256": "b0c431fe455d906b41e563777f69b6b9524cba55ed9be15de8ad459d64634ab8",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0036.001",
+      "source_sha256": "9f5fb15ff542af8a21b2bb07813faa96f785cb2eabc5f94a52c79dd1da866f89",
+      "translation_sha256": "0d90f397801aef6e3e79f71fccbf90800531179d3d456adebb189accebc42392",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0036.002",
+      "source_sha256": "ee1fe5f4b5ab3460eddf47fb63325c14bb81ffd6249aa1eeeab757972445dc5d",
+      "translation_sha256": "1731b50d36badd3e8fe71691580caa2178b07f31f0195d04c8d55c8bf3b40e4c",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0036.003",
+      "source_sha256": "f018ac9b98d453c745ed4bbd8d45a4dbf1ba886077a153797802b5e2cd366c4c",
+      "translation_sha256": "440c5a0d201ae5aa4df3075041992f24cb47cd2bd794ed902120d2fabb52efbe",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0036.004",
+      "source_sha256": "d1d12418b3f138597b6c50b9b61134152bcdafcad37c21cd191c65b921eeef5c",
+      "translation_sha256": "b1c319643338c2f5db428569529a06a1fce6cee32c3e16e74d4e01379581c821",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0036.005",
+      "source_sha256": "ca9503555bec7baa62b143d7cd6cf7a047646f5054fd02d1214b22b3be3ad3d8",
+      "translation_sha256": "f673054a7e4c6562b29a80026ff85cb31e0ea3fa295ddf4b22d16052b79dabf4",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0036.006",
+      "source_sha256": "4621a1c8c4b4422b5e3be06d35fea950444eb34694884d88b8a377766c3dbfab",
+      "translation_sha256": "e01a2c1c159e3d7d679c5a07e13ff2e8f6144d0b5021ee1d2039a47ec57dc8e8",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0036.007",
+      "source_sha256": "8dfdb5ed2d96c4d93ab28109ce3a533625d06f3f40961c4e36b6c03239f4b4ff",
+      "translation_sha256": "dd3222891667bd066ee7f39dce808b5e733dd099f38d3e387c7afaa96147eee9",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0036.008",
+      "source_sha256": "61a4f787313d087be0c65aac1f01a7575a2e7e202cf18f5fe30209792e62c02e",
+      "translation_sha256": "d285426b5a79754eb024ddaef8f5327c0a0ed9e45baac2fce1f18be67ccf0527",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0036.009",
+      "source_sha256": "27282b999a04ddc63b41567e687d9b5109651c26ba0caf653ded126f30648d61",
+      "translation_sha256": "6867f211c16b32ce6b5af02b6b6902407141f689aa6267b7d4010dff00a791b4",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0036.010",
+      "source_sha256": "675d13c2dc0bf946872f682f69aedc1a1d49174b69888af1dd60be7359baa6f9",
+      "translation_sha256": "d431d343dd142149939465a869132c57de8ef48c642d8085b3b1cd72c93b36eb",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0036.011",
+      "source_sha256": "06e6430705dbb7961576a34f306be6a48ceb546076b642e2a5db9bc48ba57e7e",
+      "translation_sha256": "32ad2061a220012c7234040e4c85ec28138b0429fbee620fe8e42c47077221d6",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0036.012",
+      "source_sha256": "e02c3fc73a988e9db3ce7c17b85e05b62553663e4c7dd5e40c2f90ac6510ab99",
+      "translation_sha256": "a529c57e2262d6ab16c418f7fcd957a80fd13c39de45d44ea22b9b35e20b26cb",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0036.013",
+      "source_sha256": "036b149c5e66613b1fc81623ad47f1b9f54ca61538238c5840408aab5f1f4dea",
+      "translation_sha256": "57f85526d7042d5ac478e21d9442d69c391845e72b87a95354f9c8393fc5dc09",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0036.014",
+      "source_sha256": "877101ac90345fc190b8770062584afcc59a87dcc72c956f9cc234a500da96ba",
+      "translation_sha256": "6be52487f998035196d1f62cc072829c816d5f98168c291d140c403435c63ce8",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0036.015",
+      "source_sha256": "8eabbb3ec218f15f7a3169965151d1b10d7c397e2eead805237ba831066d21b9",
+      "translation_sha256": "bb0a717218e814044b77b2bf00355b6a7c6d9e0b6479ae03c7f4aa1a81445fa6",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0036.016",
+      "source_sha256": "d585fefc925cd1041fb22db848572205b3e7a288edbeb0607ca579abdf56183e",
+      "translation_sha256": "78d164fb93e4142a2372e1e67852fc817e8efede37308840688bdf35376bce68",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0037.000",
+      "source_sha256": "548d464e61907b666c8a22749851449b85008cb46aa5ceb62482a94a9ef30042",
+      "translation_sha256": "804ea673aec172abfa03394cf371a55fbc82e3e86d1bdcd9a4afef65174e70d1",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0037.001",
+      "source_sha256": "a1e0ba7d408936db504b1b7c4eac984895e3259c19c95038e11849a5a2743b6c",
+      "translation_sha256": "a71499e430c4cdab3a3fce247cb69ad3ce197d86695c48eeea612be24f5e7999",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0037.002",
+      "source_sha256": "c10c037156053bfe962132f8eb70e273899bcbf44d3db5e8d88a465a07e84d9e",
+      "translation_sha256": "dbce53c36b73d1d84d53a98bf20a3a5e3cd77a8a1cb1b1de946a8243cc13b312",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0037.003",
+      "source_sha256": "44b68f286ad744a402048ea8e924a890a4b8edf6cb43c3cd2110274fe7cba606",
+      "translation_sha256": "a0b83f284aa5a552372d630fec30aff746c0dc067cc243b54e7e0b297c303549",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0037.004",
+      "source_sha256": "4b741033a0fde62069e10b7fb146081fb7b8853557b5b5ba80d6e02e7d4af802",
+      "translation_sha256": "adea6b7eb2dfcc703e17ae2ce66a0fe593add70da96ba4c4a336ca70363658c1",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0037.005",
+      "source_sha256": "45f6d030af5df6450a9833dbb2bc3a10844c02fbbc283c5db0f336630915bbea",
+      "translation_sha256": "a6ff054c30c4740ef48edba2c7b8ec76f2c0672e2c07e51433c04e21cbec9744",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0037.006",
+      "source_sha256": "43eafa1793aa40763bffed45d2d576b3b7211f68e72d4ed30e902f1184424342",
+      "translation_sha256": "95f3133dfed4128a06300e833ea3152b4aef9248996f1fb9878aa079eae79e05",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0037.007",
+      "source_sha256": "8a2e366b670121137f71cf0c566b8e6ce367082cdc0cbbf8bd10414a5f41f25f",
+      "translation_sha256": "1f4eb73ede999ba3df3ec367b9f7a12a788e4d08094c246b976cab3e01cbae3a",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0038.000",
+      "source_sha256": "7a7e073b5cd7c86797a7b0cf08944c9110a3fdd016a8ea584e219741052be1b3",
+      "translation_sha256": "427130ddf82a6feabf0914d9c1f6f56fda431c0d523e5d9a950c4e8fe5899365",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0038.001",
+      "source_sha256": "3c97a346d6247f6bc6c89fc8ba3d20e19fa86bf655283bac312c3be633b30d1d",
+      "translation_sha256": "deb1d752794945d07a961c847ef412826f5cce5e87328418525e9db7d8ce7f1a",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0038.002",
+      "source_sha256": "fb5b07f61494f41086c94aeb4a248cee9d843dbfa1f7f364aa96cf2636e131ee",
+      "translation_sha256": "5cc3898776d66a42526bcffbe27be71d03a073ef6298b9cd85f20b4388bf4c46",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0038.003",
+      "source_sha256": "27b871de29a4f0c4b385d1739be9db22c7d675160e89b89f674e320037e0f0b1",
+      "translation_sha256": "fb847e1ea5e4f2f0f817b974d9a153c8df7c53edbc1e00bfe06f5749fe75ccd3",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0038.004",
+      "source_sha256": "d70a8957476bc72319842259d2c672efc592501c5b04bf0431ec15465241b714",
+      "translation_sha256": "5fb5ad9aa4c1701d9cbbaaea0ae82ab47c96438be914e6ca104be67ca80d7c91",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0038.005",
+      "source_sha256": "d63ab705644e30f9d84c226e456300e165e1e548126456ea7268dbb36196e23b",
+      "translation_sha256": "fd98eab222b4988d61d47dfd11c473b12836e7ce6e975ce1b63890e050effd31",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0038.006",
+      "source_sha256": "0ed5e3e537d26bf475a3016139e0c0dbdd6540f889fef1776c4527e9bf141313",
+      "translation_sha256": "0065d72be85b64dab9f2cd5e33fd9197abfcec058c41355ec2cd6caa92035896",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0038.007",
+      "source_sha256": "bcbef9fe0bf9a8c1c8a02bd403076ac0e704f57ded10efae32d5273b1b953cd9",
+      "translation_sha256": "4fbfc44d99e48f20ad9f33ca9f491a828d624633c22da65ea5e6dec302dd6cc9",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0038.008",
+      "source_sha256": "4ca1279f28c41b6996a3871d884330d4718a294d1f817ab7f19843178ff03a7d",
+      "translation_sha256": "3283cefaefab9212fc3facd2c65ae19a9d3d02ecb9fefcb98df650f52ac6c9ff",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0038.009",
+      "source_sha256": "a40e396e1c73c8e091957f73e1d3507a1f5afb25f05db03090ac258f8e50fa8b",
+      "translation_sha256": "2d9d8a054a1d0046f8fccd1a7f7954bddebe6954379bc29b909f6bc9db24ff4f",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0038.010",
+      "source_sha256": "1a9eb0d22a2337305642cc1f4f88dfc9236dca60b9050283b447b363a60e478f",
+      "translation_sha256": "34c67d62002eeb5e4ff1ac3e78b1a30a43da28752f182d48d74e2021e815c70b",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0038.011",
+      "source_sha256": "b6f8d8af99369a19646400ce1c652584beb1a9543425ea122e4c790feba84709",
+      "translation_sha256": "b8798edce793c67f2a592ca11ab7ecfcecd5bb9e892074b72c38eb32a04001a6",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0038.012",
+      "source_sha256": "90fc38dbb7ad0ca44c38d6da8331a0f6eadca7fcdc1cc6eebffe509df78d41bb",
+      "translation_sha256": "f1da992aef72b22c34de452858ae516fc17be5e6c3d5dd4a5900b10b89a7d152",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0038.013",
+      "source_sha256": "89738a7f948def3684c245803cee1883f6cd9717e76daf06d95a999bb3826db1",
+      "translation_sha256": "f69c5a57db13e1cf3e2901c3fc64fb4b6a0cec921748e19212be48b9778e9326",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0038.014",
+      "source_sha256": "0a2484cdfe81146809282bff58a0c98371d3d02586192d4137eaa8e11d93dc69",
+      "translation_sha256": "4ec9a34b246b4b7be82bdc067214962576814f79cb646230383d1b5298ce8dbf",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0038.015",
+      "source_sha256": "57ed94219b1b2a00a4b3bff497244dd60a6044f65c5b6d0f0d1a0f652aa816df",
+      "translation_sha256": "a2f5e8eafec914fad6c0a7aa61eaf423bc1cbc0bd04732d5823115f37863c59b",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0038.016",
+      "source_sha256": "d495bdef8fd487f0681b301de964ce59321c7ed62d04b3d34c1cb2479048bc3a",
+      "translation_sha256": "ece2b7bf5bcad4bef05574ff5943b57d6c4943f804d0bc375ab9cbe32df60795",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0038.017",
+      "source_sha256": "e93ca31d8e5515a9885ec9644ae6f541929c1d09f441a4f2be34d46b32d12167",
+      "translation_sha256": "9b5d56f4f2287f15e191ec3ecf19abbd56db83d499a181698d23d0c8124a2272",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0038.018",
+      "source_sha256": "3d7d990e919b0dc9f72c0f017921f0f5b177d7b8e7b0f2331530cafa0f7a9dfd",
+      "translation_sha256": "df3e8f0c5a5b5dfbf8da54103b5b3678caa2e3704ab7a4bd57cb92466835e3aa",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0038.019",
+      "source_sha256": "5f3aa877b4a79ef8065dbfdd21ae984c68bd75694d0a84e814a43849002d7db5",
+      "translation_sha256": "6354f02ec90fc65508231459dfd135fedb3d80c179b05ec2d3b52db1ea05bd99",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0038.020",
+      "source_sha256": "56fb8e085e083dba428e7188697d8842f90b0ee1afaf092d3bb99a8552b5b2ff",
+      "translation_sha256": "328a8f8a093c100a9ff8bf4ac8d0ce7d7e04069a96520000cfa11c1732922f2a",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0038.021",
+      "source_sha256": "dc441aa8cdc62cacd3d8d23617b67404aade1cd3bee7395af2caa13c494e29db",
+      "translation_sha256": "107db529ecf58cda17085655e9f2501e1f3e9905244c0c73ad8b325b009e3a04",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0038.022",
+      "source_sha256": "7eee3591c668d52a9977bee4dc16d5443ab7ae562468837e44a86049afd38243",
+      "translation_sha256": "c3877fac415c665423c8cc2897d656ccae0e4d4dbef5010a3b7c373aeac89ad5",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0038.023",
+      "source_sha256": "0c72912c0c2e6c04201bbc34d5be7d086342f955d72973af1ea0b93e208596aa",
+      "translation_sha256": "0730a93ee8ff804fe9df6a5fdda632369b0caa47a0015282d70ddc69fa1f5d53",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0038.024",
+      "source_sha256": "ad940cbe5cda3567464ed802b849f172153e343d7db8632302fdbd46eb414525",
+      "translation_sha256": "2074d6a6619828f5b25621bc15f89b3d6ada5b0454e09ec720c9a74a51fbc733",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0038.025",
+      "source_sha256": "89fe8e17bea6602855a6ed02d33e86ac5f449bff1ec04735970712f985ad95c8",
+      "translation_sha256": "01cf4e112845a3d48f4f0b83ddf34e19dafa369469b02aa81ab32de8d5d6c911",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0038.026",
+      "source_sha256": "a98c8fbae088553ad61638851fa83307c32b115cf1967e4d6c145443b19f1214",
+      "translation_sha256": "42fc62f1b537e04286749d427f16dd3b55019aa7c7f5c9cb4bff9056aecadc3c",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0038.027",
+      "source_sha256": "90ec4920fa24e871389d50742a7312a6793c430e2e4323fee99a1d3f1e6713b1",
+      "translation_sha256": "fe0d4a0de9f837784255d2cda19428517c5fd8f81576a6ef29fbdd9466160a58",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0038.028",
+      "source_sha256": "e14601783215329693e099e02e92c24d90ad05855e2e368d9ccb94e397d9df70",
+      "translation_sha256": "b50edc205193c1b0673f1f96ff0d6ab68e78d29f5a728ed3cd537296e56a2736",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0038.029",
+      "source_sha256": "e217f87d9221aab0fe0d46594646ff9a039454778b774b0294bfb1a886fd8958",
+      "translation_sha256": "9cf22d9d8eadb089aad5a6b7e5389f906de001cbb6f886afdbb7ce7ef0be5e8b",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0038.030",
+      "source_sha256": "cca78fbd1171f7b7cd99ced1eb4da0b16090799d2067c6cbe36fdaf535f6f1a0",
+      "translation_sha256": "346df49f718dfa209e573d604b7941b2b2e32aaefc52b54251088d21d6f96b3e",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0038.031",
+      "source_sha256": "f64e43052525f9ec25002c2f2c2b7396e99bc85830576ffda3baeaa3399cdddd",
+      "translation_sha256": "b004fd3f9a588f956d65b65b8937b1cf028f76a30640ed743f329dcefcde7635",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0038.032",
+      "source_sha256": "732e0e31e27a376c4960b88355c068d5b287ef5645c82170e4b84622f239a534",
+      "translation_sha256": "7197f187a989bc070ddf3e3e24dfb5a3e4a0ffab349d5f4a0b9b4c38005e9287",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0038.033",
+      "source_sha256": "daccbc208a39dc0c445db37d98aba6b81d59b14682d364b2d80d3a85aed7133f",
+      "translation_sha256": "e5f4f734c3552ce88444a517884b07d757337f635b00a5a408bd09c00ce2adec",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0038.034",
+      "source_sha256": "9fc1018a0a6d40e0288332053fac4b8891ccba2247b718a053f71498a42ca832",
+      "translation_sha256": "8185f09b7fe2dfb6934ffb3eaa60750078278e27a4ea4ac9319ad41539bbef26",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0038.035",
+      "source_sha256": "71ea86c54efd9047fbad4f55278464a4906d3f434dbccc0626dbd6b1466392a0",
+      "translation_sha256": "04ee962fea7976a9ba71390e2c6ee93289cabd6d8f3a6d79acc95aa09845ceb8",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0038.036",
+      "source_sha256": "981e3aeeebb559d10ffdba394c6e4089d286fb1c6070355e7190607ef1f690e7",
+      "translation_sha256": "6e3ad4128cba2e04c7dbb08ccb3a1f1f791cd2c6759d016f76b3ce6708d9f091",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0038.037",
+      "source_sha256": "083572fb39c18dc0c7b7346942e125afeab2863feaacd5eec0029d0792922bf2",
+      "translation_sha256": "9d499f05dd5e1c0c57c5cd3df788608a9eea9a4e9d0fc815497c4eefaff445aa",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0038.038",
+      "source_sha256": "702ccf035349f37e3a00437d8f716dfdc7bdf597fc3061192149bf8b316aa4ae",
+      "translation_sha256": "13db61dda09f665a52078ef90e611083437d852fb4e1db401e5f7340f7fdc3a9",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0038.039",
+      "source_sha256": "d9f1380a40c06005d9c97cdffb66cfeefea30eb381d7052f0d5aac31abc953c4",
+      "translation_sha256": "7e828ef7a9bc4d1010a34fdd0164e402ee35f68c1e6a50ac4105a88027ab2493",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0038.040",
+      "source_sha256": "bbfc4914368eee18631b767308eea7ab3530bedf177ec9627697a62bcaf5b6e4",
+      "translation_sha256": "ef4b2142b67bedaa9cf0d84d2a1bd6b83ce04eceeb749f915fe9eb22140d4ad1",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0038.041",
+      "source_sha256": "aaa410d3209f50a252490b08eb182108fbaca6d3c7b0242969eea54059c3db27",
+      "translation_sha256": "67e2fe832956530c05def9bedaf6651e63da8f8cc840c5dce68ef5ba2950bc9f",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0038.042",
+      "source_sha256": "26f31f97cc4cbfa00b1f52096cb7a285f9fd158ae3ac75039e4945ad2ae57c1d",
+      "translation_sha256": "6776ad6f1a2c1111ae5cd75969d06f980ecc7887b1a7b2902d31913bbf62131c",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0038.043",
+      "source_sha256": "cae8c4bcc50400e59d45ee16194d9ba70f3181ac41b556635c99b8bf6172527a",
+      "translation_sha256": "434ebaa999468879108658bea2adb45a1b9a3d5812505bc9b0817aac91ba4efb",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0038.044",
+      "source_sha256": "ec4c87adfd013d550b629eba8327582259bc1601182ee8964da554a64972bd5c",
+      "translation_sha256": "b42c6b77f03a9393c1d11bd8a4bc8d0f2a28d2a1a5b93baee2f7f01f66dc85d2",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0039.000",
+      "source_sha256": "0488892d001182fcb02729a0767cb90c1b6783e45cdd57e14b7bfdd54b4d9a50",
+      "translation_sha256": "854853268cf52d0bb75ce91c06723cc039f2f454138b1fd8864204929e5a62bd",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0039.001",
+      "source_sha256": "072d3c0bb7c6d09337dabba39002cbed753f02a2fe9cc5a605d0aabbdf5d4f7e",
+      "translation_sha256": "856167abe81da243a2cb9071675af94e34e77f2d42c2fadaff7db9313f2fa67b",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0039.002",
+      "source_sha256": "d1e98a8def9a5df4fbc11294f4e00b004f6ac0b1069ab91d85234156e363aaa7",
+      "translation_sha256": "f549eb2aac47ca518e3ad4cf32d09e49488d76853f24123847b9ac0ad773dcd9",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0039.003",
+      "source_sha256": "b6608f2ad27d5f4d5ab6c517776d7ffd6404f0a56396d564b92aef8916d604f9",
+      "translation_sha256": "c568b352645feafc8479d2ca22f43f8184fced701f380c156deeb6909d775012",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0039.004",
+      "source_sha256": "344f959311b25bad0a91c0f21d236b2616f9a9500a21269576e9ca72b17ad8de",
+      "translation_sha256": "28eb304c93516d589bc2fd439931724c0c6b4b3443533ac90d7404b6e0b15034",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0039.005",
+      "source_sha256": "cd63099142bee5394ac35eecd1c0a51c1450b56bdab849bd9d239f60bb77e0a4",
+      "translation_sha256": "3c6f47fba1dd2d87e9c6816838371d2da6f72c245e4d6924cc18a30c74e3debf",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0039.006",
+      "source_sha256": "d51de466e7812a7b3660032358f74a534c5743e5c288d7f4b79c09dfb1af9c83",
+      "translation_sha256": "167bed405745340a1dacf996a71d9ebbfd3e70e2a93fddb0aecd3158bb434ddb",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0039.007",
+      "source_sha256": "52b96d6019092afb2f09371ad065d5ed6d771d5824f0f8d27830e0fc1cfcf51c",
+      "translation_sha256": "8268a5368cf18c5fd614bbdab8048ef75f442ca374d442f445929553c358b5c6",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0039.008",
+      "source_sha256": "b2cb1609233901ef3517fb9d16dc52bf3927dff17fc7270b0c1c55c2cc28351e",
+      "translation_sha256": "b7af1cc4bfe60234e447f9c9dce3d86f45af8fab5e9def441bdf7b9155010194",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0039.009",
+      "source_sha256": "decd62445cb29d6a6554764a4a1401fc9564aa05dd050fa6483982f1a1c93a90",
+      "translation_sha256": "0dc8e634cf7cd27af0da2dae08211f4aa9a541ce1ad8f2e6255740419ff70331",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0039.010",
+      "source_sha256": "f568a648c12f863a8364b34ed85da0c4ef1908dd2c8d8331e94b2cf76b3dba3c",
+      "translation_sha256": "c32c2b3145c1faf6a5af3eceb373d956663f0fdcab9096eef391a58cd2726cfb",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0039.011",
+      "source_sha256": "071227a05c45ed08cff48ddf9c7125d2c250f5276c90f23a4cfc64e3fb78c502",
+      "translation_sha256": "1a7cd4015e5cfdb71da4a6209520b3a161fa0c121ef8ac46ef447cf297adfed1",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0039.012",
+      "source_sha256": "ec7958b19d125a50cf0d3b8d2c701c4b2f436eab96377f004c41f54bc074a050",
+      "translation_sha256": "82bb21182bee71a09e7b2810a992cb539b9a06137996cf62bc911890b30f57ea",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0039.013",
+      "source_sha256": "c02732aee014361a0f1b4ed756b23aca8665b17986d5294271b637018fced263",
+      "translation_sha256": "c02732aee014361a0f1b4ed756b23aca8665b17986d5294271b637018fced263",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0039.014",
+      "source_sha256": "2882eab140e9a151726216591678cb0110b7dac907c1795b69dc6edeb2ea2092",
+      "translation_sha256": "d016b7d60f392d6286b06caa4d24b6c55e5f0cec445b0b72358fc482187008d7",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0039.015",
+      "source_sha256": "74ef079241fdd5f30532590382353e22fa7dd65faaf8a4363eb195505ce645d6",
+      "translation_sha256": "67fc5bcf53048cebee328ba73bcda579119d624e328e7649d857e936cce0ad57",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0039.016",
+      "source_sha256": "c6fd07bf98fa449fafd6b8b2a04e07e2c7fcefee0f0de4587024f9429ded243f",
+      "translation_sha256": "c6fd07bf98fa449fafd6b8b2a04e07e2c7fcefee0f0de4587024f9429ded243f",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0039.017",
+      "source_sha256": "b6bcd757f9f7cf568392fd959d44fbf60f9efd245959b2619a94f6c00ee13949",
+      "translation_sha256": "7292f66c41cbd2e21eb8662df920f223aa1d2952156c924d1578de8e58cf1c25",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0039.018",
+      "source_sha256": "684f2208d218d0d88ffe2a23871263288dfee06a23711fa379ed1659b6564a97",
+      "translation_sha256": "a31b9dec87ee7f7437d9c1a9765ea68fcfb87123cae5081ad714af92acc1d504",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0039.019",
+      "source_sha256": "830aa244e64aaf5220fb6452ab2e615b2df2708f6da1e7ada3e2e35e614f0c1c",
+      "translation_sha256": "23208351393dcd56db0ace7c2871d97ed12ada0d4b9a6495b4ca02c15b9e3736",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0039.020",
+      "source_sha256": "58414887f54966a72a360229e8d3025719e47784a3eddaac90e2b97d4b82282a",
+      "translation_sha256": "5e0904a80fa68300a01b90880b449525768308692d99aa6e6f372e7e9b8b4126",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0039.021",
+      "source_sha256": "62017a455d1d06e32b4e053acbd609e0094ba7d08edff375369b1774080463ef",
+      "translation_sha256": "1e6f24fe9c95a978771426a5843b303d512c2098152d7b41656a75ffe1861503",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0039.022",
+      "source_sha256": "2f6aad6c4f6846ba2edb048b7267dc7376625d178369856409a72c049cf39134",
+      "translation_sha256": "ee1b88b75c7e6f6dd1e27fbaf76f03f6a795dfb805f13a792e282a04fa84a299",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0039.023",
+      "source_sha256": "13f64530b7320e1ef4222d4298782e5e778ca61de3ae5750b5f69104c5fe532f",
+      "translation_sha256": "7f829b05f273a4d6375fc2d64118cbdf90613383701332b3813f2fde8f84fdbd",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0039.024",
+      "source_sha256": "c7ff30e6bd571e47841633a407a5ef4adf59c06be749a401aa63b39cbe90310e",
+      "translation_sha256": "3f43b83b7f918b4bf155720624d36cc6fdf56f109eac3fc49fd1710e4176be06",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0039.025",
+      "source_sha256": "2c5435fcea6020c25b27a5a51f6a45e20b2ff23a9eff6224e16d039203f7e0b2",
+      "translation_sha256": "5274eae139636288e6d2245f5def90b4717ed97d84faba89e2678627054479b1",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0039.026",
+      "source_sha256": "cea3eb56f5c3a8d570baeed835e899fd37d95b6fe179e1a3f44451136d399067",
+      "translation_sha256": "9c08f247c3fc99a426186350fcb04dd5ec33202215c55bacb0f85fb393ac9a77",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0039.027",
+      "source_sha256": "a14e8fd756d66b95181334d6fb6031864676134b140d23438ac9535a94edb334",
+      "translation_sha256": "9e72bb1f91e63b954afbf81c12ba067921c892d79b71424c03fe2e7d22c3d00d",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0039.028",
+      "source_sha256": "a9f6c489bf4272dda7a15d90cb2fddfa36fc2b509c54a9c1436c92a898c8c788",
+      "translation_sha256": "6148bfae00a916ce58041420df6dbb2a8b865c8223fc9de879c9e51eba0359a5",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_HEART_EVENTS.md; exact CODE/JUMP, OnCall44 name ID and ROM name table; Fogu knowledge used for event context, not source dialogue",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-hearts-validation.json",
+        "target_sha256": "951e3987578dd668e6d7afb4edb838b2c87f3ecdabc04c673683c4790d4d1add"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
     }
   ]
 }

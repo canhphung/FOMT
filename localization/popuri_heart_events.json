@@ -1,0 +1,2636 @@
+{
+  "schema_version": 1,
+  "record_ids": [
+    "script.0036.000",
+    "script.0036.001",
+    "script.0036.002",
+    "script.0036.003",
+    "script.0036.004",
+    "script.0036.005",
+    "script.0036.006",
+    "script.0036.007",
+    "script.0036.008",
+    "script.0036.009",
+    "script.0036.010",
+    "script.0036.011",
+    "script.0036.012",
+    "script.0036.013",
+    "script.0036.014",
+    "script.0036.015",
+    "script.0036.016",
+    "script.0037.000",
+    "script.0037.001",
+    "script.0037.002",
+    "script.0037.003",
+    "script.0037.004",
+    "script.0037.005",
+    "script.0037.006",
+    "script.0037.007",
+    "script.0038.000",
+    "script.0038.001",
+    "script.0038.002",
+    "script.0038.003",
+    "script.0038.004",
+    "script.0038.005",
+    "script.0038.006",
+    "script.0038.007",
+    "script.0038.008",
+    "script.0038.009",
+    "script.0038.010",
+    "script.0038.011",
+    "script.0038.012",
+    "script.0038.013",
+    "script.0038.014",
+    "script.0038.015",
+    "script.0038.016",
+    "script.0038.017",
+    "script.0038.018",
+    "script.0038.019",
+    "script.0038.020",
+    "script.0038.021",
+    "script.0038.022",
+    "script.0038.023",
+    "script.0038.024",
+    "script.0038.025",
+    "script.0038.026",
+    "script.0038.027",
+    "script.0038.028",
+    "script.0038.029",
+    "script.0038.030",
+    "script.0038.031",
+    "script.0038.032",
+    "script.0038.033",
+    "script.0038.034",
+    "script.0038.035",
+    "script.0038.036",
+    "script.0038.037",
+    "script.0038.038",
+    "script.0038.039",
+    "script.0038.040",
+    "script.0038.041",
+    "script.0038.042",
+    "script.0038.043",
+    "script.0038.044",
+    "script.0039.000",
+    "script.0039.001",
+    "script.0039.002",
+    "script.0039.003",
+    "script.0039.004",
+    "script.0039.005",
+    "script.0039.006",
+    "script.0039.007",
+    "script.0039.008",
+    "script.0039.009",
+    "script.0039.010",
+    "script.0039.011",
+    "script.0039.012",
+    "script.0039.013",
+    "script.0039.014",
+    "script.0039.015",
+    "script.0039.016",
+    "script.0039.017",
+    "script.0039.018",
+    "script.0039.019",
+    "script.0039.020",
+    "script.0039.021",
+    "script.0039.022",
+    "script.0039.023",
+    "script.0039.024",
+    "script.0039.025",
+    "script.0039.026",
+    "script.0039.027",
+    "script.0039.028"
+  ],
+  "source_proofs": [
+    {
+      "id": "script.0036.000",
+      "script_id": 36,
+      "string_index": 0,
+      "original_english": "Wait a second...!{WAIT}",
+      "code_sha256": "ea8956d3ef0e45c7b6bf395a666ba1f06cc43aa103593ed637045a14373d481f",
+      "show_text_sites": [
+        {
+          "code_offset": 166,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Popuri",
+      "speaker_sites": [
+        {
+          "speaker_id": 3,
+          "speaker": "Popuri",
+          "name_call_offset": 159
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0036.001",
+      "script_id": 36,
+      "string_index": 1,
+      "original_english": "Wait, come back!{WAIT}",
+      "code_sha256": "ea8956d3ef0e45c7b6bf395a666ba1f06cc43aa103593ed637045a14373d481f",
+      "show_text_sites": [
+        {
+          "code_offset": 288,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Popuri",
+      "speaker_sites": [
+        {
+          "speaker_id": 3,
+          "speaker": "Popuri",
+          "name_call_offset": 281
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0036.002",
+      "script_id": 36,
+      "string_index": 2,
+      "original_english": "Bad chicken! {CR}{LF}Don't run away again!{WAIT}",
+      "code_sha256": "ea8956d3ef0e45c7b6bf395a666ba1f06cc43aa103593ed637045a14373d481f",
+      "show_text_sites": [
+        {
+          "code_offset": 485,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Popuri",
+      "speaker_sites": [
+        {
+          "speaker_id": 3,
+          "speaker": "Popuri",
+          "name_call_offset": 478
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0036.003",
+      "script_id": 36,
+      "string_index": 3,
+      "original_english": "Thanks for helping me out. {WAIT}",
+      "code_sha256": "ea8956d3ef0e45c7b6bf395a666ba1f06cc43aa103593ed637045a14373d481f",
+      "show_text_sites": [
+        {
+          "code_offset": 523,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Popuri",
+      "speaker_sites": [
+        {
+          "speaker_id": 3,
+          "speaker": "Popuri",
+          "name_call_offset": 509
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0036.004",
+      "script_id": 36,
+      "string_index": 4,
+      "original_english": "I don't think I've seen you {CR}{LF}around before? {WAIT}{CR}{LF}My name is Popuri. {CR}{LF}How do you do.{WAIT}",
+      "code_sha256": "ea8956d3ef0e45c7b6bf395a666ba1f06cc43aa103593ed637045a14373d481f",
+      "show_text_sites": [
+        {
+          "code_offset": 644,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Popuri",
+      "speaker_sites": [
+        {
+          "speaker_id": 3,
+          "speaker": "Popuri",
+          "name_call_offset": 630
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0036.005",
+      "script_id": 36,
+      "string_index": 5,
+      "original_english": "Ah, you're the new guy{CR}{LF}over at that farm, right?{WAIT}{PAGE}{VAR:21} is your{CR}{LF}name? Nice to meet you! {WAIT}",
+      "code_sha256": "ea8956d3ef0e45c7b6bf395a666ba1f06cc43aa103593ed637045a14373d481f",
+      "show_text_sites": [
+        {
+          "code_offset": 709,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Popuri",
+      "speaker_sites": [
+        {
+          "speaker_id": 3,
+          "speaker": "Popuri",
+          "name_call_offset": 695
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0036.006",
+      "script_id": 36,
+      "string_index": 6,
+      "original_english": "Uh-oh. I let the {CR}{LF}Chicken get away again!{WAIT}",
+      "code_sha256": "ea8956d3ef0e45c7b6bf395a666ba1f06cc43aa103593ed637045a14373d481f",
+      "show_text_sites": [
+        {
+          "code_offset": 779,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Popuri",
+      "speaker_sites": [
+        {
+          "speaker_id": 3,
+          "speaker": "Popuri",
+          "name_call_offset": 765
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0036.007",
+      "script_id": 36,
+      "string_index": 7,
+      "original_english": "Thank you.{CR}{LF}Chickens are really hard{CR}{LF}to catch, you know. {WAIT}",
+      "code_sha256": "ea8956d3ef0e45c7b6bf395a666ba1f06cc43aa103593ed637045a14373d481f",
+      "show_text_sites": [
+        {
+          "code_offset": 893,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Popuri",
+      "speaker_sites": [
+        {
+          "speaker_id": 3,
+          "speaker": "Popuri",
+          "name_call_offset": 879
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0036.008",
+      "script_id": 36,
+      "string_index": 8,
+      "original_english": "Do you like Chickens, {CR}{LF}{VAR:21}?{WAIT}",
+      "code_sha256": "ea8956d3ef0e45c7b6bf395a666ba1f06cc43aa103593ed637045a14373d481f",
+      "show_text_sites": [
+        {
+          "code_offset": 958,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Popuri",
+      "speaker_sites": [
+        {
+          "speaker_id": 3,
+          "speaker": "Popuri",
+          "name_call_offset": 944
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0036.009",
+      "script_id": 36,
+      "string_index": 9,
+      "original_english": "Yes, I do.",
+      "code_sha256": "ea8956d3ef0e45c7b6bf395a666ba1f06cc43aa103593ed637045a14373d481f",
+      "show_text_sites": [],
+      "speaker": null,
+      "speaker_sites": [],
+      "kind": "heart_event_choice",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0036.010",
+      "script_id": 36,
+      "string_index": 10,
+      "original_english": "No, I don't.",
+      "code_sha256": "ea8956d3ef0e45c7b6bf395a666ba1f06cc43aa103593ed637045a14373d481f",
+      "show_text_sites": [],
+      "speaker": null,
+      "speaker_sites": [],
+      "kind": "heart_event_choice",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0036.011",
+      "script_id": 36,
+      "string_index": 11,
+      "original_english": "I thought so! {CR}{LF}I love Chickens, too!{WAIT}{PAGE}I think people who like{CR}{LF}Chickens are just good{CR}{LF}people. Don't you agree?{WAIT}",
+      "code_sha256": "ea8956d3ef0e45c7b6bf395a666ba1f06cc43aa103593ed637045a14373d481f",
+      "show_text_sites": [
+        {
+          "code_offset": 1039,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Popuri",
+      "speaker_sites": [
+        {
+          "speaker_id": 3,
+          "speaker": "Popuri",
+          "name_call_offset": 1025
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0036.012",
+      "script_id": 36,
+      "string_index": 12,
+      "original_english": "I've got to bring her back{CR}{LF}to the house now. {WAIT}{PAGE}If you ever need help with{CR}{LF}Chickens, just come to me!{WAIT}",
+      "code_sha256": "ea8956d3ef0e45c7b6bf395a666ba1f06cc43aa103593ed637045a14373d481f",
+      "show_text_sites": [
+        {
+          "code_offset": 1095,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Popuri",
+      "speaker_sites": [
+        {
+          "speaker_id": 3,
+          "speaker": "Popuri",
+          "name_call_offset": 1081
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0036.013",
+      "script_id": 36,
+      "string_index": 13,
+      "original_english": "Let's go home now,{CR}{LF}baby!{WAIT}",
+      "code_sha256": "ea8956d3ef0e45c7b6bf395a666ba1f06cc43aa103593ed637045a14373d481f",
+      "show_text_sites": [
+        {
+          "code_offset": 1153,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Popuri",
+      "speaker_sites": [
+        {
+          "speaker_id": 3,
+          "speaker": "Popuri",
+          "name_call_offset": 1146
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0036.014",
+      "script_id": 36,
+      "string_index": 14,
+      "original_english": "But why not?!{CR}{LF}They're so cute!{WAIT}",
+      "code_sha256": "ea8956d3ef0e45c7b6bf395a666ba1f06cc43aa103593ed637045a14373d481f",
+      "show_text_sites": [
+        {
+          "code_offset": 1747,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Popuri",
+      "speaker_sites": [
+        {
+          "speaker_id": 3,
+          "speaker": "Popuri",
+          "name_call_offset": 1733
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0036.015",
+      "script_id": 36,
+      "string_index": 15,
+      "original_english": "Then what are you {CR}{LF}doing here?{WAIT}{PAGE}It's a Chicken farm, after {CR}{LF}all...Full of Chickens you {CR}{LF}hate, right?! {WAIT}{PAGE}Sorry to make you touch{CR}{LF}a Chicken!{WAIT}",
+      "code_sha256": "ea8956d3ef0e45c7b6bf395a666ba1f06cc43aa103593ed637045a14373d481f",
+      "show_text_sites": [
+        {
+          "code_offset": 1785,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Popuri",
+      "speaker_sites": [
+        {
+          "speaker_id": 3,
+          "speaker": "Popuri",
+          "name_call_offset": 1771
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0036.016",
+      "script_id": 36,
+      "string_index": 16,
+      "original_english": "Let's go home now, {CR}{LF}Chickies! {WAIT}",
+      "code_sha256": "ea8956d3ef0e45c7b6bf395a666ba1f06cc43aa103593ed637045a14373d481f",
+      "show_text_sites": [
+        {
+          "code_offset": 1843,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Popuri",
+      "speaker_sites": [
+        {
+          "speaker_id": 3,
+          "speaker": "Popuri",
+          "name_call_offset": 1836
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0037.000",
+      "script_id": 37,
+      "string_index": 0,
+      "original_english": "Good morning, {CR}{LF}{VAR:21}.{WAIT}{PAGE}Today I came to look at {CR}{LF}your farm. Will you show {CR}{LF}me around?{WAIT}",
+      "code_sha256": "b86185f91da6fb086dced2a0c76e013dfa146783bf9a39266be604c0c9ac1f17",
+      "show_text_sites": [
+        {
+          "code_offset": 117,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Popuri",
+      "speaker_sites": [
+        {
+          "speaker_id": 3,
+          "speaker": "Popuri",
+          "name_call_offset": 103
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0037.001",
+      "script_id": 37,
+      "string_index": 1,
+      "original_english": "I'm too busy now!",
+      "code_sha256": "b86185f91da6fb086dced2a0c76e013dfa146783bf9a39266be604c0c9ac1f17",
+      "show_text_sites": [],
+      "speaker": null,
+      "speaker_sites": [],
+      "kind": "heart_event_choice",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0037.002",
+      "script_id": 37,
+      "string_index": 2,
+      "original_english": "Sure.",
+      "code_sha256": "b86185f91da6fb086dced2a0c76e013dfa146783bf9a39266be604c0c9ac1f17",
+      "show_text_sites": [],
+      "speaker": null,
+      "speaker_sites": [],
+      "kind": "heart_event_choice",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0037.003",
+      "script_id": 37,
+      "string_index": 3,
+      "original_english": "I thought you were {CR}{LF}nicer than that...{WAIT}{PAGE}I'm going home now...{WAIT}",
+      "code_sha256": "b86185f91da6fb086dced2a0c76e013dfa146783bf9a39266be604c0c9ac1f17",
+      "show_text_sites": [
+        {
+          "code_offset": 199,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Popuri",
+      "speaker_sites": [
+        {
+          "speaker_id": 3,
+          "speaker": "Popuri",
+          "name_call_offset": 185
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0037.004",
+      "script_id": 37,
+      "string_index": 4,
+      "original_english": "Really? Oh, thank you!{WAIT}",
+      "code_sha256": "b86185f91da6fb086dced2a0c76e013dfa146783bf9a39266be604c0c9ac1f17",
+      "show_text_sites": [
+        {
+          "code_offset": 437,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Popuri",
+      "speaker_sites": [
+        {
+          "speaker_id": 3,
+          "speaker": "Popuri",
+          "name_call_offset": 423
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0037.005",
+      "script_id": 37,
+      "string_index": 5,
+      "original_english": "So this is where you raise {CR}{LF}the Sheep and Cows?{WAIT}",
+      "code_sha256": "b86185f91da6fb086dced2a0c76e013dfa146783bf9a39266be604c0c9ac1f17",
+      "show_text_sites": [
+        {
+          "code_offset": 604,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Popuri",
+      "speaker_sites": [
+        {
+          "speaker_id": 3,
+          "speaker": "Popuri",
+          "name_call_offset": 590
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0037.006",
+      "script_id": 37,
+      "string_index": 6,
+      "original_english": "This is a very nice Chicken {CR}{LF}Coop you have!{WAIT}{PAGE}If you need to know{CR}{LF}anything about Chickens, {CR}{LF}just ask my mom!{WAIT}",
+      "code_sha256": "b86185f91da6fb086dced2a0c76e013dfa146783bf9a39266be604c0c9ac1f17",
+      "show_text_sites": [
+        {
+          "code_offset": 771,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Popuri",
+      "speaker_sites": [
+        {
+          "speaker_id": 3,
+          "speaker": "Popuri",
+          "name_call_offset": 757
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0037.007",
+      "script_id": 37,
+      "string_index": 7,
+      "original_english": "Thanks for showing {CR}{LF}me around. It was fun.{CR}{LF}See you later!{WAIT}",
+      "code_sha256": "b86185f91da6fb086dced2a0c76e013dfa146783bf9a39266be604c0c9ac1f17",
+      "show_text_sites": [
+        {
+          "code_offset": 1044,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Popuri",
+      "speaker_sites": [
+        {
+          "speaker_id": 3,
+          "speaker": "Popuri",
+          "name_call_offset": 1030
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0038.000",
+      "script_id": 38,
+      "string_index": 0,
+      "original_english": "You want to play house{CR}{LF}outside again? {WAIT}",
+      "code_sha256": "17af259fa16eb001ef14b9572f3536a60604b81d0d1243d997ce0a8c88f009d6",
+      "show_text_sites": [
+        {
+          "code_offset": 367,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Stu",
+      "speaker_sites": [
+        {
+          "speaker_id": 16,
+          "speaker": "Stu",
+          "name_call_offset": 360
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0038.001",
+      "script_id": 38,
+      "string_index": 1,
+      "original_english": "I like it!{CR}{LF}It's fun!{WAIT}",
+      "code_sha256": "17af259fa16eb001ef14b9572f3536a60604b81d0d1243d997ce0a8c88f009d6",
+      "show_text_sites": [
+        {
+          "code_offset": 399,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "May",
+      "speaker_sites": [
+        {
+          "speaker_id": 5,
+          "speaker": "May",
+          "name_call_offset": 392
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0038.002",
+      "script_id": 38,
+      "string_index": 2,
+      "original_english": "No way...!{WAIT}",
+      "code_sha256": "17af259fa16eb001ef14b9572f3536a60604b81d0d1243d997ce0a8c88f009d6",
+      "show_text_sites": [
+        {
+          "code_offset": 431,
+          "native_call": 33,
+          "text_flags": 256
+        },
+        {
+          "code_offset": 694,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "May / Stu",
+      "speaker_sites": [
+        {
+          "speaker_id": 16,
+          "speaker": "Stu",
+          "name_call_offset": 424
+        },
+        {
+          "speaker_id": 5,
+          "speaker": "May",
+          "name_call_offset": 687
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0038.003",
+      "script_id": 38,
+      "string_index": 3,
+      "original_english": "Today Carter can be Father {CR}{LF}and Popuri can be Mother.{WAIT}",
+      "code_sha256": "17af259fa16eb001ef14b9572f3536a60604b81d0d1243d997ce0a8c88f009d6",
+      "show_text_sites": [
+        {
+          "code_offset": 463,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "May",
+      "speaker_sites": [
+        {
+          "speaker_id": 5,
+          "speaker": "May",
+          "name_call_offset": 456
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0038.004",
+      "script_id": 38,
+      "string_index": 4,
+      "original_english": "Alright. {WAIT}",
+      "code_sha256": "17af259fa16eb001ef14b9572f3536a60604b81d0d1243d997ce0a8c88f009d6",
+      "show_text_sites": [
+        {
+          "code_offset": 523,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Popuri",
+      "speaker_sites": [
+        {
+          "speaker_id": 3,
+          "speaker": "Popuri",
+          "name_call_offset": 516
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0038.005",
+      "script_id": 38,
+      "string_index": 5,
+      "original_english": "I'm sorry, but I have a lot{CR}{LF}of work to do, so I {CR}{LF}can't play today. {WAIT}",
+      "code_sha256": "17af259fa16eb001ef14b9572f3536a60604b81d0d1243d997ce0a8c88f009d6",
+      "show_text_sites": [
+        {
+          "code_offset": 555,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Carter",
+      "speaker_sites": [
+        {
+          "speaker_id": 22,
+          "speaker": "Carter",
+          "name_call_offset": 548
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0038.006",
+      "script_id": 38,
+      "string_index": 6,
+      "original_english": "Oh no...!{CR}{LF}We can't play family{CR}{LF}without a father!...{WAIT}",
+      "code_sha256": "17af259fa16eb001ef14b9572f3536a60604b81d0d1243d997ce0a8c88f009d6",
+      "show_text_sites": [
+        {
+          "code_offset": 614,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "May",
+      "speaker_sites": [
+        {
+          "speaker_id": 5,
+          "speaker": "May",
+          "name_call_offset": 607
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0038.007",
+      "script_id": 38,
+      "string_index": 7,
+      "original_english": "In that case, let's play {CR}{LF}something else! {WAIT}",
+      "code_sha256": "17af259fa16eb001ef14b9572f3536a60604b81d0d1243d997ce0a8c88f009d6",
+      "show_text_sites": [
+        {
+          "code_offset": 646,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Stu",
+      "speaker_sites": [
+        {
+          "speaker_id": 16,
+          "speaker": "Stu",
+          "name_call_offset": 639
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0038.008",
+      "script_id": 38,
+      "string_index": 8,
+      "original_english": "Now what'll I do...?{WAIT}",
+      "code_sha256": "17af259fa16eb001ef14b9572f3536a60604b81d0d1243d997ce0a8c88f009d6",
+      "show_text_sites": [
+        {
+          "code_offset": 726,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Carter",
+      "speaker_sites": [
+        {
+          "speaker_id": 22,
+          "speaker": "Carter",
+          "name_call_offset": 719
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0038.009",
+      "script_id": 38,
+      "string_index": 9,
+      "original_english": "{VAR:21}! {CR}{LF}Perfect timing! {WAIT}",
+      "code_sha256": "17af259fa16eb001ef14b9572f3536a60604b81d0d1243d997ce0a8c88f009d6",
+      "show_text_sites": [
+        {
+          "code_offset": 815,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Carter",
+      "speaker_sites": [
+        {
+          "speaker_id": 22,
+          "speaker": "Carter",
+          "name_call_offset": 808
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0038.010",
+      "script_id": 38,
+      "string_index": 10,
+      "original_english": "These kids want to play, but{CR}{LF}Carter has to leave. so we{CR}{LF}can't play their game. {WAIT}",
+      "code_sha256": "17af259fa16eb001ef14b9572f3536a60604b81d0d1243d997ce0a8c88f009d6",
+      "show_text_sites": [
+        {
+          "code_offset": 889,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Popuri",
+      "speaker_sites": [
+        {
+          "speaker_id": 3,
+          "speaker": "Popuri",
+          "name_call_offset": 875
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0038.011",
+      "script_id": 38,
+      "string_index": 11,
+      "original_english": "Would you be willing to{CR}{LF}play with the kids for me?{WAIT}",
+      "code_sha256": "17af259fa16eb001ef14b9572f3536a60604b81d0d1243d997ce0a8c88f009d6",
+      "show_text_sites": [
+        {
+          "code_offset": 921,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Carter",
+      "speaker_sites": [
+        {
+          "speaker_id": 22,
+          "speaker": "Carter",
+          "name_call_offset": 914
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0038.012",
+      "script_id": 38,
+      "string_index": 12,
+      "original_english": "It would mean a {CR}{LF}lot to me, too. {WAIT}",
+      "code_sha256": "17af259fa16eb001ef14b9572f3536a60604b81d0d1243d997ce0a8c88f009d6",
+      "show_text_sites": [
+        {
+          "code_offset": 959,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Popuri",
+      "speaker_sites": [
+        {
+          "speaker_id": 3,
+          "speaker": "Popuri",
+          "name_call_offset": 945
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0038.013",
+      "script_id": 38,
+      "string_index": 13,
+      "original_english": "Sure, I'll play.",
+      "code_sha256": "17af259fa16eb001ef14b9572f3536a60604b81d0d1243d997ce0a8c88f009d6",
+      "show_text_sites": [],
+      "speaker": null,
+      "speaker_sites": [],
+      "kind": "heart_event_choice",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0038.014",
+      "script_id": 38,
+      "string_index": 14,
+      "original_english": "Sorry, I've got work.",
+      "code_sha256": "17af259fa16eb001ef14b9572f3536a60604b81d0d1243d997ce0a8c88f009d6",
+      "show_text_sites": [],
+      "speaker": null,
+      "speaker_sites": [],
+      "kind": "heart_event_choice",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0038.015",
+      "script_id": 38,
+      "string_index": 15,
+      "original_english": "Thanks! I knew I could{CR}{LF}count on you, {CR}{LF}{VAR:21}!{WAIT}",
+      "code_sha256": "17af259fa16eb001ef14b9572f3536a60604b81d0d1243d997ce0a8c88f009d6",
+      "show_text_sites": [
+        {
+          "code_offset": 1062,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Carter",
+      "speaker_sites": [
+        {
+          "speaker_id": 22,
+          "speaker": "Carter",
+          "name_call_offset": 1055
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0038.016",
+      "script_id": 38,
+      "string_index": 16,
+      "original_english": "You're such a nice guy,{CR}{LF}{VAR:21}. {WAIT}",
+      "code_sha256": "17af259fa16eb001ef14b9572f3536a60604b81d0d1243d997ce0a8c88f009d6",
+      "show_text_sites": [
+        {
+          "code_offset": 1100,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Popuri",
+      "speaker_sites": [
+        {
+          "speaker_id": 3,
+          "speaker": "Popuri",
+          "name_call_offset": 1086
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0038.017",
+      "script_id": 38,
+      "string_index": 17,
+      "original_english": "Great!{WAIT}",
+      "code_sha256": "17af259fa16eb001ef14b9572f3536a60604b81d0d1243d997ce0a8c88f009d6",
+      "show_text_sites": [
+        {
+          "code_offset": 1150,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "May",
+      "speaker_sites": [
+        {
+          "speaker_id": 5,
+          "speaker": "May",
+          "name_call_offset": 1143
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0038.018",
+      "script_id": 38,
+      "string_index": 18,
+      "original_english": "Are we really going{CR}{LF}to play house now?{WAIT}",
+      "code_sha256": "17af259fa16eb001ef14b9572f3536a60604b81d0d1243d997ce0a8c88f009d6",
+      "show_text_sites": [
+        {
+          "code_offset": 1182,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Stu",
+      "speaker_sites": [
+        {
+          "speaker_id": 16,
+          "speaker": "Stu",
+          "name_call_offset": 1175
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0038.019",
+      "script_id": 38,
+      "string_index": 19,
+      "original_english": "Welcome back, darling. {WAIT}",
+      "code_sha256": "17af259fa16eb001ef14b9572f3536a60604b81d0d1243d997ce0a8c88f009d6",
+      "show_text_sites": [
+        {
+          "code_offset": 1462,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Popuri",
+      "speaker_sites": [
+        {
+          "speaker_id": 3,
+          "speaker": "Popuri",
+          "name_call_offset": 1448
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0038.020",
+      "script_id": 38,
+      "string_index": 20,
+      "original_english": "Hi, Daddy! {WAIT}",
+      "code_sha256": "17af259fa16eb001ef14b9572f3536a60604b81d0d1243d997ce0a8c88f009d6",
+      "show_text_sites": [
+        {
+          "code_offset": 1494,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "May",
+      "speaker_sites": [
+        {
+          "speaker_id": 5,
+          "speaker": "May",
+          "name_call_offset": 1487
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0038.021",
+      "script_id": 38,
+      "string_index": 21,
+      "original_english": "Welcome home. {WAIT}",
+      "code_sha256": "17af259fa16eb001ef14b9572f3536a60604b81d0d1243d997ce0a8c88f009d6",
+      "show_text_sites": [
+        {
+          "code_offset": 1526,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Stu",
+      "speaker_sites": [
+        {
+          "speaker_id": 16,
+          "speaker": "Stu",
+          "name_call_offset": 1519
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0038.022",
+      "script_id": 38,
+      "string_index": 22,
+      "original_english": "How was work today?{CR}{LF}Would you like dinner now?{WAIT}",
+      "code_sha256": "17af259fa16eb001ef14b9572f3536a60604b81d0d1243d997ce0a8c88f009d6",
+      "show_text_sites": [
+        {
+          "code_offset": 1591,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Popuri",
+      "speaker_sites": [
+        {
+          "speaker_id": 3,
+          "speaker": "Popuri",
+          "name_call_offset": 1577
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0038.023",
+      "script_id": 38,
+      "string_index": 23,
+      "original_english": "Daddy, listen to this! {WAIT}",
+      "code_sha256": "17af259fa16eb001ef14b9572f3536a60604b81d0d1243d997ce0a8c88f009d6",
+      "show_text_sites": [
+        {
+          "code_offset": 1650,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "May",
+      "speaker_sites": [
+        {
+          "speaker_id": 5,
+          "speaker": "May",
+          "name_call_offset": 1643
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0038.024",
+      "script_id": 38,
+      "string_index": 24,
+      "original_english": "Today Stu wet his bed. {WAIT}",
+      "code_sha256": "17af259fa16eb001ef14b9572f3536a60604b81d0d1243d997ce0a8c88f009d6",
+      "show_text_sites": [
+        {
+          "code_offset": 1716,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "May",
+      "speaker_sites": [
+        {
+          "speaker_id": 5,
+          "speaker": "May",
+          "name_call_offset": 1709
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0038.025",
+      "script_id": 38,
+      "string_index": 25,
+      "original_english": "How do you know that!?{WAIT}",
+      "code_sha256": "17af259fa16eb001ef14b9572f3536a60604b81d0d1243d997ce0a8c88f009d6",
+      "show_text_sites": [
+        {
+          "code_offset": 1800,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Stu",
+      "speaker_sites": [
+        {
+          "speaker_id": 16,
+          "speaker": "Stu",
+          "name_call_offset": 1793
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0038.026",
+      "script_id": 38,
+      "string_index": 26,
+      "original_english": "Stu, we{RAW:8166}re just playing.{CR}{LF}You don{RAW:8166}t have to get{CR}{LF}so angry...{WAIT}",
+      "code_sha256": "17af259fa16eb001ef14b9572f3536a60604b81d0d1243d997ce0a8c88f009d6",
+      "show_text_sites": [
+        {
+          "code_offset": 1832,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "May",
+      "speaker_sites": [
+        {
+          "speaker_id": 5,
+          "speaker": "May",
+          "name_call_offset": 1825
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": true
+    },
+    {
+      "id": "script.0038.027",
+      "script_id": 38,
+      "string_index": 27,
+      "original_english": "You mean you really {CR}{LF}wet your bed today...?{WAIT}",
+      "code_sha256": "17af259fa16eb001ef14b9572f3536a60604b81d0d1243d997ce0a8c88f009d6",
+      "show_text_sites": [
+        {
+          "code_offset": 1882,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "May",
+      "speaker_sites": [
+        {
+          "speaker_id": 5,
+          "speaker": "May",
+          "name_call_offset": 1875
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0038.028",
+      "script_id": 38,
+      "string_index": 28,
+      "original_english": "Enough! {CR}{LF}I'm going home!{WAIT}",
+      "code_sha256": "17af259fa16eb001ef14b9572f3536a60604b81d0d1243d997ce0a8c88f009d6",
+      "show_text_sites": [
+        {
+          "code_offset": 1932,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Stu",
+      "speaker_sites": [
+        {
+          "speaker_id": 16,
+          "speaker": "Stu",
+          "name_call_offset": 1925
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0038.029",
+      "script_id": 38,
+      "string_index": 29,
+      "original_english": "Stu, wait...!!{WAIT}",
+      "code_sha256": "17af259fa16eb001ef14b9572f3536a60604b81d0d1243d997ce0a8c88f009d6",
+      "show_text_sites": [
+        {
+          "code_offset": 1964,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "May",
+      "speaker_sites": [
+        {
+          "speaker_id": 5,
+          "speaker": "May",
+          "name_call_offset": 1957
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0038.030",
+      "script_id": 38,
+      "string_index": 30,
+      "original_english": "I guess that's it for{CR}{LF}today...{WAIT}",
+      "code_sha256": "17af259fa16eb001ef14b9572f3536a60604b81d0d1243d997ce0a8c88f009d6",
+      "show_text_sites": [
+        {
+          "code_offset": 2156,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Popuri",
+      "speaker_sites": [
+        {
+          "speaker_id": 3,
+          "speaker": "Popuri",
+          "name_call_offset": 2142
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0038.031",
+      "script_id": 38,
+      "string_index": 31,
+      "original_english": "I actually like playing {CR}{LF}house once in a while. {WAIT}{PAGE}It reminds me of when I {CR}{LF}was a child.{WAIT}",
+      "code_sha256": "17af259fa16eb001ef14b9572f3536a60604b81d0d1243d997ce0a8c88f009d6",
+      "show_text_sites": [
+        {
+          "code_offset": 2194,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Popuri",
+      "speaker_sites": [
+        {
+          "speaker_id": 3,
+          "speaker": "Popuri",
+          "name_call_offset": 2180
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0038.032",
+      "script_id": 38,
+      "string_index": 32,
+      "original_english": "Thinking about those days {CR}{LF}reminds me of this. {WAIT}{CR}{LF}I made it the other day. {CR}{LF}Here. I'm giving it to you.{WAIT}",
+      "code_sha256": "17af259fa16eb001ef14b9572f3536a60604b81d0d1243d997ce0a8c88f009d6",
+      "show_text_sites": [
+        {
+          "code_offset": 2232,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Popuri",
+      "speaker_sites": [
+        {
+          "speaker_id": 3,
+          "speaker": "Popuri",
+          "name_call_offset": 2218
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0038.033",
+      "script_id": 38,
+      "string_index": 33,
+      "original_english": "I'm going home now, too.{WAIT}",
+      "code_sha256": "17af259fa16eb001ef14b9572f3536a60604b81d0d1243d997ce0a8c88f009d6",
+      "show_text_sites": [
+        {
+          "code_offset": 2372,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Popuri",
+      "speaker_sites": [
+        {
+          "speaker_id": 3,
+          "speaker": "Popuri",
+          "name_call_offset": 2358
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0038.034",
+      "script_id": 38,
+      "string_index": 34,
+      "original_english": "Oh...That's too bad. {WAIT}",
+      "code_sha256": "17af259fa16eb001ef14b9572f3536a60604b81d0d1243d997ce0a8c88f009d6",
+      "show_text_sites": [
+        {
+          "code_offset": 2629,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Carter",
+      "speaker_sites": [
+        {
+          "speaker_id": 22,
+          "speaker": "Carter",
+          "name_call_offset": 2622
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0038.035",
+      "script_id": 38,
+      "string_index": 35,
+      "original_english": "If you have to work...{CR}{LF}I don't blame you...{WAIT}",
+      "code_sha256": "17af259fa16eb001ef14b9572f3536a60604b81d0d1243d997ce0a8c88f009d6",
+      "show_text_sites": [
+        {
+          "code_offset": 2667,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Popuri",
+      "speaker_sites": [
+        {
+          "speaker_id": 3,
+          "speaker": "Popuri",
+          "name_call_offset": 2653
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0038.036",
+      "script_id": 38,
+      "string_index": 36,
+      "original_english": "That's too bad. {CR}{LF}Let's play superheroes{CR}{LF}instead. {WAIT}",
+      "code_sha256": "17af259fa16eb001ef14b9572f3536a60604b81d0d1243d997ce0a8c88f009d6",
+      "show_text_sites": [
+        {
+          "code_offset": 2726,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Stu",
+      "speaker_sites": [
+        {
+          "speaker_id": 16,
+          "speaker": "Stu",
+          "name_call_offset": 2719
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0038.037",
+      "script_id": 38,
+      "string_index": 37,
+      "original_english": "No...! {CR}{LF}I don't want to!!!{WAIT}",
+      "code_sha256": "17af259fa16eb001ef14b9572f3536a60604b81d0d1243d997ce0a8c88f009d6",
+      "show_text_sites": [
+        {
+          "code_offset": 2785,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "May",
+      "speaker_sites": [
+        {
+          "speaker_id": 5,
+          "speaker": "May",
+          "name_call_offset": 2778
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0038.038",
+      "script_id": 38,
+      "string_index": 38,
+      "original_english": "Well, you don't have to {CR}{LF}throw a tantrum!{WAIT}",
+      "code_sha256": "17af259fa16eb001ef14b9572f3536a60604b81d0d1243d997ce0a8c88f009d6",
+      "show_text_sites": [
+        {
+          "code_offset": 2835,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Stu",
+      "speaker_sites": [
+        {
+          "speaker_id": 16,
+          "speaker": "Stu",
+          "name_call_offset": 2828
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0038.039",
+      "script_id": 38,
+      "string_index": 39,
+      "original_english": "In that case, why don't we {CR}{LF}go exploring? {WAIT}",
+      "code_sha256": "17af259fa16eb001ef14b9572f3536a60604b81d0d1243d997ce0a8c88f009d6",
+      "show_text_sites": [
+        {
+          "code_offset": 2866,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Popuri",
+      "speaker_sites": [
+        {
+          "speaker_id": 3,
+          "speaker": "Popuri",
+          "name_call_offset": 2859
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0038.040",
+      "script_id": 38,
+      "string_index": 40,
+      "original_english": "Really? That's great!{WAIT}",
+      "code_sha256": "17af259fa16eb001ef14b9572f3536a60604b81d0d1243d997ce0a8c88f009d6",
+      "show_text_sites": [
+        {
+          "code_offset": 2916,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "May",
+      "speaker_sites": [
+        {
+          "speaker_id": 5,
+          "speaker": "May",
+          "name_call_offset": 2909
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0038.041",
+      "script_id": 38,
+      "string_index": 41,
+      "original_english": "Should we go right now?{WAIT}",
+      "code_sha256": "17af259fa16eb001ef14b9572f3536a60604b81d0d1243d997ce0a8c88f009d6",
+      "show_text_sites": [
+        {
+          "code_offset": 2947,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Popuri",
+      "speaker_sites": [
+        {
+          "speaker_id": 3,
+          "speaker": "Popuri",
+          "name_call_offset": 2940
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0038.042",
+      "script_id": 38,
+      "string_index": 42,
+      "original_english": "Yay!!{WAIT}",
+      "code_sha256": "17af259fa16eb001ef14b9572f3536a60604b81d0d1243d997ce0a8c88f009d6",
+      "show_text_sites": [
+        {
+          "code_offset": 2979,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "May",
+      "speaker_sites": [
+        {
+          "speaker_id": 5,
+          "speaker": "May",
+          "name_call_offset": 2972
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0038.043",
+      "script_id": 38,
+      "string_index": 43,
+      "original_english": "Yippee!{WAIT}",
+      "code_sha256": "17af259fa16eb001ef14b9572f3536a60604b81d0d1243d997ce0a8c88f009d6",
+      "show_text_sites": [
+        {
+          "code_offset": 3011,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Stu",
+      "speaker_sites": [
+        {
+          "speaker_id": 16,
+          "speaker": "Stu",
+          "name_call_offset": 3004
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0038.044",
+      "script_id": 38,
+      "string_index": 44,
+      "original_english": "Well, I have to go back{CR}{LF}to work now. Sorry. {WAIT}{PAGE}I have to lock the Church{CR}{LF}up until tomorrow, so {CR}{LF}can you leave?{WAIT}",
+      "code_sha256": "17af259fa16eb001ef14b9572f3536a60604b81d0d1243d997ce0a8c88f009d6",
+      "show_text_sites": [
+        {
+          "code_offset": 3256,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Carter",
+      "speaker_sites": [
+        {
+          "speaker_id": 22,
+          "speaker": "Carter",
+          "name_call_offset": 3249
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0039.000",
+      "script_id": 39,
+      "string_index": 0,
+      "original_english": "I can't believe how {CR}{LF}irresponsible Dad is! {WAIT}{PAGE}Leaving Mom like this and{CR}{LF}going off in search of {CR}{LF}some flower we're not{WAIT}{CR}{LF}even sure it exists!!...{WAIT}",
+      "code_sha256": "a21f0d80fbffddb8dc2ea4471c9ae93271161db8c04744d119f037668df9e744",
+      "show_text_sites": [
+        {
+          "code_offset": 176,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Rick",
+      "speaker_sites": [
+        {
+          "speaker_id": 2,
+          "speaker": "Rick",
+          "name_call_offset": 169
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0039.001",
+      "script_id": 39,
+      "string_index": 1,
+      "original_english": "Don't talk that way{CR}{LF}about dad!!{WAIT}{PAGE}The whole reason he went {CR}{LF}away is to cure Mom!{WAIT}",
+      "code_sha256": "a21f0d80fbffddb8dc2ea4471c9ae93271161db8c04744d119f037668df9e744",
+      "show_text_sites": [
+        {
+          "code_offset": 207,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Popuri",
+      "speaker_sites": [
+        {
+          "speaker_id": 3,
+          "speaker": "Popuri",
+          "name_call_offset": 200
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0039.002",
+      "script_id": 39,
+      "string_index": 2,
+      "original_english": "Both of you stop it now!{CR}{LF}Please don't argue about {CR}{LF}your father! {WAIT}",
+      "code_sha256": "a21f0d80fbffddb8dc2ea4471c9ae93271161db8c04744d119f037668df9e744",
+      "show_text_sites": [
+        {
+          "code_offset": 238,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Lillia",
+      "speaker_sites": [
+        {
+          "speaker_id": 1,
+          "speaker": "Lillia",
+          "name_call_offset": 231
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0039.003",
+      "script_id": 39,
+      "string_index": 3,
+      "original_english": "{VAR:21}, you're {CR}{LF}here at just the right {CR}{LF}time. {WAIT}",
+      "code_sha256": "a21f0d80fbffddb8dc2ea4471c9ae93271161db8c04744d119f037668df9e744",
+      "show_text_sites": [
+        {
+          "code_offset": 422,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Lillia",
+      "speaker_sites": [
+        {
+          "speaker_id": 1,
+          "speaker": "Lillia",
+          "name_call_offset": 415
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0039.004",
+      "script_id": 39,
+      "string_index": 4,
+      "original_english": "Popuri and Rick are fighting{CR}{LF}about their dad, you see. {WAIT}{PAGE}They won't listen to me {CR}{LF}at all...{WAIT}{PAGE}Will you talk some sense {CR}{LF}into them for me?{WAIT}",
+      "code_sha256": "a21f0d80fbffddb8dc2ea4471c9ae93271161db8c04744d119f037668df9e744",
+      "show_text_sites": [
+        {
+          "code_offset": 471,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Lillia",
+      "speaker_sites": [
+        {
+          "speaker_id": 1,
+          "speaker": "Lillia",
+          "name_call_offset": 464
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0039.005",
+      "script_id": 39,
+      "string_index": 5,
+      "original_english": "Our dad was brave enough to{CR}{LF}go out hunting for a rare {CR}{LF}flower to cure Mom.{WAIT}{CR}{LF}Rick blames him for leaving{CR}{LF}us, but I think that's {CR}{LF}horrible! {WAIT}{PAGE}Dad only left because he {CR}{LF}loves Mom...{WAIT}",
+      "code_sha256": "a21f0d80fbffddb8dc2ea4471c9ae93271161db8c04744d119f037668df9e744",
+      "show_text_sites": [
+        {
+          "code_offset": 509,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Popuri",
+      "speaker_sites": [
+        {
+          "speaker_id": 3,
+          "speaker": "Popuri",
+          "name_call_offset": 495
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0039.006",
+      "script_id": 39,
+      "string_index": 6,
+      "original_english": "Can you believe it?!{CR}{LF}Dad left without any real {CR}{LF}information about the {WAIT}{CR}{LF}flower, or a plan about how{CR}{LF}to find it! {WAIT}{CR}{LF}He'll never find it! That's{CR}{LF}why he's irresponsible!{WAIT}",
+      "code_sha256": "a21f0d80fbffddb8dc2ea4471c9ae93271161db8c04744d119f037668df9e744",
+      "show_text_sites": [
+        {
+          "code_offset": 540,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Rick",
+      "speaker_sites": [
+        {
+          "speaker_id": 2,
+          "speaker": "Rick",
+          "name_call_offset": 533
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0039.007",
+      "script_id": 39,
+      "string_index": 7,
+      "original_english": "I agree with Popuri.",
+      "code_sha256": "a21f0d80fbffddb8dc2ea4471c9ae93271161db8c04744d119f037668df9e744",
+      "show_text_sites": [],
+      "speaker": null,
+      "speaker_sites": [],
+      "kind": "heart_event_choice",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0039.008",
+      "script_id": 39,
+      "string_index": 8,
+      "original_english": "I agree with Rick.",
+      "code_sha256": "a21f0d80fbffddb8dc2ea4471c9ae93271161db8c04744d119f037668df9e744",
+      "show_text_sites": [],
+      "speaker": null,
+      "speaker_sites": [],
+      "kind": "heart_event_choice",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0039.009",
+      "script_id": 39,
+      "string_index": 9,
+      "original_english": "Poor Lillia.",
+      "code_sha256": "a21f0d80fbffddb8dc2ea4471c9ae93271161db8c04744d119f037668df9e744",
+      "show_text_sites": [],
+      "speaker": null,
+      "speaker_sites": [],
+      "kind": "heart_event_choice",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0039.010",
+      "script_id": 39,
+      "string_index": 10,
+      "original_english": "See, even {VAR:21}{CR}{LF}thinks I'm right. {WAIT}",
+      "code_sha256": "a21f0d80fbffddb8dc2ea4471c9ae93271161db8c04744d119f037668df9e744",
+      "show_text_sites": [
+        {
+          "code_offset": 682,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Popuri",
+      "speaker_sites": [
+        {
+          "speaker_id": 3,
+          "speaker": "Popuri",
+          "name_call_offset": 675
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0039.011",
+      "script_id": 39,
+      "string_index": 11,
+      "original_english": "{VAR:21}! {CR}{LF}Don't butt into other {CR}{LF}people's business!{WAIT}",
+      "code_sha256": "a21f0d80fbffddb8dc2ea4471c9ae93271161db8c04744d119f037668df9e744",
+      "show_text_sites": [
+        {
+          "code_offset": 722,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Rick",
+      "speaker_sites": [
+        {
+          "speaker_id": 2,
+          "speaker": "Rick",
+          "name_call_offset": 715
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0039.012",
+      "script_id": 39,
+      "string_index": 12,
+      "original_english": "Don't get mad at {CR}{LF}{VAR:21} just {CR}{LF}because he doesn't agree{WAIT}{CR}{LF}with you!{WAIT}",
+      "code_sha256": "a21f0d80fbffddb8dc2ea4471c9ae93271161db8c04744d119f037668df9e744",
+      "show_text_sites": [
+        {
+          "code_offset": 753,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Popuri",
+      "speaker_sites": [
+        {
+          "speaker_id": 3,
+          "speaker": "Popuri",
+          "name_call_offset": 746
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0039.013",
+      "script_id": 39,
+      "string_index": 13,
+      "original_english": "......Popuri...{WAIT}",
+      "code_sha256": "a21f0d80fbffddb8dc2ea4471c9ae93271161db8c04744d119f037668df9e744",
+      "show_text_sites": [
+        {
+          "code_offset": 793,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Rick",
+      "speaker_sites": [
+        {
+          "speaker_id": 2,
+          "speaker": "Rick",
+          "name_call_offset": 786
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0039.014",
+      "script_id": 39,
+      "string_index": 14,
+      "original_english": "Thanks for taking {CR}{LF}my side, {VAR:21}. {WAIT}",
+      "code_sha256": "a21f0d80fbffddb8dc2ea4471c9ae93271161db8c04744d119f037668df9e744",
+      "show_text_sites": [
+        {
+          "code_offset": 858,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Popuri",
+      "speaker_sites": [
+        {
+          "speaker_id": 3,
+          "speaker": "Popuri",
+          "name_call_offset": 844
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0039.015",
+      "script_id": 39,
+      "string_index": 15,
+      "original_english": "I'm glad the argument's {CR}{LF}over! Thank you, {CR}{LF}{VAR:21}. {WAIT}",
+      "code_sha256": "a21f0d80fbffddb8dc2ea4471c9ae93271161db8c04744d119f037668df9e744",
+      "show_text_sites": [
+        {
+          "code_offset": 889,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Lillia",
+      "speaker_sites": [
+        {
+          "speaker_id": 1,
+          "speaker": "Lillia",
+          "name_call_offset": 882
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0039.016",
+      "script_id": 39,
+      "string_index": 16,
+      "original_english": ".............{WAIT}",
+      "code_sha256": "a21f0d80fbffddb8dc2ea4471c9ae93271161db8c04744d119f037668df9e744",
+      "show_text_sites": [
+        {
+          "code_offset": 920,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Rick",
+      "speaker_sites": [
+        {
+          "speaker_id": 2,
+          "speaker": "Rick",
+          "name_call_offset": 913
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0039.017",
+      "script_id": 39,
+      "string_index": 17,
+      "original_english": "But....{CR}{LF}Why?! How could you {CR}{LF}say that!{WAIT}",
+      "code_sha256": "a21f0d80fbffddb8dc2ea4471c9ae93271161db8c04744d119f037668df9e744",
+      "show_text_sites": [
+        {
+          "code_offset": 1116,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Popuri",
+      "speaker_sites": [
+        {
+          "speaker_id": 3,
+          "speaker": "Popuri",
+          "name_call_offset": 1102
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0039.018",
+      "script_id": 39,
+      "string_index": 18,
+      "original_english": "See, even {VAR:21}{CR}{LF}thinks Dad is wrong!{WAIT}",
+      "code_sha256": "a21f0d80fbffddb8dc2ea4471c9ae93271161db8c04744d119f037668df9e744",
+      "show_text_sites": [
+        {
+          "code_offset": 1156,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Rick",
+      "speaker_sites": [
+        {
+          "speaker_id": 2,
+          "speaker": "Rick",
+          "name_call_offset": 1149
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0039.019",
+      "script_id": 39,
+      "string_index": 19,
+      "original_english": "Mmm...{CR}{LF}Looks like I was wrong {CR}{LF}about you, {VAR:21}!{WAIT}",
+      "code_sha256": "a21f0d80fbffddb8dc2ea4471c9ae93271161db8c04744d119f037668df9e744",
+      "show_text_sites": [
+        {
+          "code_offset": 1194,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Popuri",
+      "speaker_sites": [
+        {
+          "speaker_id": 3,
+          "speaker": "Popuri",
+          "name_call_offset": 1180
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0039.020",
+      "script_id": 39,
+      "string_index": 20,
+      "original_english": "Popuri! Don't be mean to {CR}{LF}{VAR:21}!{WAIT}",
+      "code_sha256": "a21f0d80fbffddb8dc2ea4471c9ae93271161db8c04744d119f037668df9e744",
+      "show_text_sites": [
+        {
+          "code_offset": 1225,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Rick",
+      "speaker_sites": [
+        {
+          "speaker_id": 2,
+          "speaker": "Rick",
+          "name_call_offset": 1218
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0039.021",
+      "script_id": 39,
+      "string_index": 21,
+      "original_english": "What!{WAIT}",
+      "code_sha256": "a21f0d80fbffddb8dc2ea4471c9ae93271161db8c04744d119f037668df9e744",
+      "show_text_sites": [
+        {
+          "code_offset": 1283,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Popuri",
+      "speaker_sites": [
+        {
+          "speaker_id": 3,
+          "speaker": "Popuri",
+          "name_call_offset": 1276
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0039.022",
+      "script_id": 39,
+      "string_index": 22,
+      "original_english": "Now they're arguing over{CR}{LF}{VAR:21}...{WAIT}{PAGE}Will they ever stop...?{WAIT}",
+      "code_sha256": "a21f0d80fbffddb8dc2ea4471c9ae93271161db8c04744d119f037668df9e744",
+      "show_text_sites": [
+        {
+          "code_offset": 1314,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Lillia",
+      "speaker_sites": [
+        {
+          "speaker_id": 1,
+          "speaker": "Lillia",
+          "name_call_offset": 1307
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0039.023",
+      "script_id": 39,
+      "string_index": 23,
+      "original_english": "...........{CR}{LF}I'm sorry, Mom...{WAIT}",
+      "code_sha256": "a21f0d80fbffddb8dc2ea4471c9ae93271161db8c04744d119f037668df9e744",
+      "show_text_sites": [
+        {
+          "code_offset": 1519,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Popuri",
+      "speaker_sites": [
+        {
+          "speaker_id": 3,
+          "speaker": "Popuri",
+          "name_call_offset": 1512
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0039.024",
+      "script_id": 39,
+      "string_index": 24,
+      "original_english": "Sorry, Mom. {WAIT}",
+      "code_sha256": "a21f0d80fbffddb8dc2ea4471c9ae93271161db8c04744d119f037668df9e744",
+      "show_text_sites": [
+        {
+          "code_offset": 1550,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Rick",
+      "speaker_sites": [
+        {
+          "speaker_id": 2,
+          "speaker": "Rick",
+          "name_call_offset": 1543
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0039.025",
+      "script_id": 39,
+      "string_index": 25,
+      "original_english": "Just...Please stop arguing {CR}{LF}about your father!!...{CR}{LF}Ohh...This is all my fault!{WAIT}",
+      "code_sha256": "a21f0d80fbffddb8dc2ea4471c9ae93271161db8c04744d119f037668df9e744",
+      "show_text_sites": [
+        {
+          "code_offset": 1599,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Lillia",
+      "speaker_sites": [
+        {
+          "speaker_id": 1,
+          "speaker": "Lillia",
+          "name_call_offset": 1592
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0039.026",
+      "script_id": 39,
+      "string_index": 26,
+      "original_english": "Nothing's your{CR}{LF}fault, Mom!{WAIT}",
+      "code_sha256": "a21f0d80fbffddb8dc2ea4471c9ae93271161db8c04744d119f037668df9e744",
+      "show_text_sites": [
+        {
+          "code_offset": 1630,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Popuri",
+      "speaker_sites": [
+        {
+          "speaker_id": 3,
+          "speaker": "Popuri",
+          "name_call_offset": 1623
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0039.027",
+      "script_id": 39,
+      "string_index": 27,
+      "original_english": "Popuri's right.{CR}{LF}It's not your fault at all,{CR}{LF}Mom...{WAIT}{PAGE}I'm sorry for talking that{CR}{LF}way about Dad... {WAIT}",
+      "code_sha256": "a21f0d80fbffddb8dc2ea4471c9ae93271161db8c04744d119f037668df9e744",
+      "show_text_sites": [
+        {
+          "code_offset": 1661,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Rick",
+      "speaker_sites": [
+        {
+          "speaker_id": 2,
+          "speaker": "Rick",
+          "name_call_offset": 1654
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    },
+    {
+      "id": "script.0039.028",
+      "script_id": 39,
+      "string_index": 28,
+      "original_english": "That's OK. I know you{CR}{LF}just talk that way because {CR}{LF}you're worried about me.{WAIT}",
+      "code_sha256": "a21f0d80fbffddb8dc2ea4471c9ae93271161db8c04744d119f037668df9e744",
+      "show_text_sites": [
+        {
+          "code_offset": 1692,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "speaker": "Lillia",
+      "speaker_sites": [
+        {
+          "speaker_id": 1,
+          "speaker": "Lillia",
+          "name_call_offset": 1685
+        }
+      ],
+      "kind": "heart_event_dialogue",
+      "padding_reflow": false,
+      "drop_apostrophe": false
+    }
+  ],
+  "scripts": {
+    "36": {
+      "CODE_sha256": "ea8956d3ef0e45c7b6bf395a666ba1f06cc43aa103593ed637045a14373d481f",
+      "JUMP_sha256": "3f38eb9a1aa35b1aea792b1c890b7044ddd3a9e273b53ab00db75872830ad4cd"
+    },
+    "37": {
+      "CODE_sha256": "b86185f91da6fb086dced2a0c76e013dfa146783bf9a39266be604c0c9ac1f17",
+      "JUMP_sha256": "82f046415e096c5fafae16712d957e9a9af07955f4bb45c8c60ba43c915317bb"
+    },
+    "38": {
+      "CODE_sha256": "17af259fa16eb001ef14b9572f3536a60604b81d0d1243d997ce0a8c88f009d6",
+      "JUMP_sha256": "90e66b628699a13728d0668acc2049e8b58d2bb6ed5aa137f73489ce2d46c02b"
+    },
+    "39": {
+      "CODE_sha256": "a21f0d80fbffddb8dc2ea4471c9ae93271161db8c04744d119f037668df9e744",
+      "JUMP_sha256": "a78592a681712e89e81a3625632129254ba8ccc3b40cac31de8280241c12b1c6"
+    }
+  },
+  "choice_groups": [
+    {
+      "script_id": 36,
+      "native_call": 39,
+      "code_offset": 979,
+      "choice_indices": [
+        9,
+        10
+      ],
+      "choice_push_offsets": [
+        975,
+        977
+      ],
+      "switch_offset": 2398,
+      "switch_index": 0,
+      "routes": [
+        {
+          "value": 1,
+          "target": 996
+        },
+        {
+          "value": 2,
+          "target": 1703
+        }
+      ]
+    },
+    {
+      "script_id": 37,
+      "native_call": 39,
+      "code_offset": 138,
+      "choice_indices": [
+        1,
+        2
+      ],
+      "choice_push_offsets": [
+        134,
+        136
+      ],
+      "switch_offset": 1200,
+      "switch_index": 0,
+      "routes": [
+        {
+          "value": 1,
+          "target": 155
+        },
+        {
+          "value": 2,
+          "target": 349
+        }
+      ]
+    },
+    {
+      "script_id": 38,
+      "native_call": 39,
+      "code_offset": 980,
+      "choice_indices": [
+        13,
+        14
+      ],
+      "choice_push_offsets": [
+        976,
+        978
+      ],
+      "switch_offset": 3395,
+      "switch_index": 0,
+      "routes": [
+        {
+          "value": 1,
+          "target": 997
+        },
+        {
+          "value": 2,
+          "target": 2573
+        }
+      ]
+    },
+    {
+      "script_id": 39,
+      "native_call": 40,
+      "code_offset": 563,
+      "choice_indices": [
+        7,
+        8,
+        9
+      ],
+      "choice_push_offsets": [
+        557,
+        559,
+        561
+      ],
+      "switch_offset": 1801,
+      "switch_index": 0,
+      "routes": [
+        {
+          "value": 1,
+          "target": 580
+        },
+        {
+          "value": 2,
+          "target": 1024
+        },
+        {
+          "value": 3,
+          "target": 1418
+        }
+      ]
+    }
+  ],
+  "speaker_names": {
+    "1": "Lillia",
+    "2": "Rick",
+    "3": "Popuri",
+    "5": "May",
+    "16": "Stu",
+    "22": "Carter"
+  },
+  "name_table_sha256": "727c011cf0508b4790cc867cc9dc3272107913809e252b25bd3b8cc98437e1ba",
+  "native_handlers": {
+    "33": {
+      "start": 263644,
+      "sha256": "0e11069c465ba7376dd28cf5b40a9742ba96f39f86a829fb3220b0a53dd4a6c1"
+    },
+    "39": {
+      "start": 264576,
+      "sha256": "728909b7d5381f498afaf82f8e23ad029c8f3547161d502296467d7b05d7dd4c"
+    },
+    "40": {
+      "start": 264720,
+      "sha256": "7b0279a44383544995b936c01ec5eb288beb2add2a47ca7b7f00f80577cded51"
+    },
+    "44": {
+      "start": 263724,
+      "sha256": "c022573c698b37867b423c843529bcf6cc7516ef91374ab9565b27df2e648f81"
+    }
+  }
+}

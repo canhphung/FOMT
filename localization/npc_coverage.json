@@ -42,7 +42,21 @@
       "untranslated_indexes": [],
       "season_weather": "Rain and summer/return-visit references present; full seasonal and rival/player-marriage trigger gates pending.",
       "natural_encounter": "not_run",
-      "evidence": "docs/POPURI_LOCALIZATION.md"
+      "evidence": "docs/POPURI_LOCALIZATION.md",
+      "heart_events": {
+        "script_ids": [
+          36,
+          37,
+          38,
+          39
+        ],
+        "translated_records": 99,
+        "dialogue_records": 90,
+        "player_choices": 9,
+        "activation_status": "guide reference only; ROM dispatcher and natural triggers pending",
+        "source_response_blocks": "localization/qa/popuri-heart-branches.json",
+        "evidence": "docs/POPURI_HEART_EVENTS.md"
+      }
     }
   ],
   "evidence": "docs/NPC_DAILY_LOCALIZATION.md"
