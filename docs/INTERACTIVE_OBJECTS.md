@@ -98,7 +98,7 @@ Fixture không chứng minh đã đi đến mọi nhà bằng gameplay. Hai bàn
 được kiểm bằng input tự nhiên; các nhãn khác chưa có chứng nhận tương tác tự
 nhiên. Ngôn ngữ/bố cục thủ công và GBA thật vẫn pending.
 
-[Báo cáo hiện hành](evidence/object-labels-validation.json) gắn hash ROM/IPS,
+[Báo cáo tại mốc object-labels-01](evidence/object-labels-validation.json) gắn hash ROM/IPS,
 138 pytest, kết quả hai mGBA và ảnh. Bộ chuẩn v4 khóa 37 file, chạy chín suite
 mỗi backend, vẫn giữ 43 ảnh chuẩn và kiểm round trip IPS/hai build độc lập.
 Không dùng pixel fixture mới để tự ghi đè ảnh chuẩn cũ.

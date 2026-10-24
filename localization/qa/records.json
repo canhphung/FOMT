@@ -21747,6 +21747,72 @@
         "evidence": "docs/evidence/object-labels-validation.json",
         "target_sha256": "98e69a242aaa5eb71c8e0fafa17bbca1379d13d06ebb906aa743ac1b4d9d3335"
       }
+    },
+    {
+      "id": "script.0223.003",
+      "source_sha256": "5d6842a418c112116df995385cce5e85827b1caf202c256fef1f5b3caed9a2b6",
+      "translation_sha256": "606ade6170a515d1f6f7125936d401b6490fd76935f58bc3b8eeb97a7f51e191",
+      "context_status": "verified",
+      "context_evidence": "docs/INTERACTION_HINTS.md; exact source text and native display call in localization/qa/batches/interaction-hints-01.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/interaction-hints-validation.json",
+        "target_sha256": "3979adc001b452bdd4f7694c74ae096550fa02ab484e92b8d8f064531b183996"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native widget foreground masks and WAIT/scroll checkpoints; not a natural object interaction",
+        "evidence": "docs/evidence/interaction-hints-validation.json",
+        "target_sha256": "3979adc001b452bdd4f7694c74ae096550fa02ab484e92b8d8f064531b183996"
+      }
+    },
+    {
+      "id": "script.0342.003",
+      "source_sha256": "5d6842a418c112116df995385cce5e85827b1caf202c256fef1f5b3caed9a2b6",
+      "translation_sha256": "606ade6170a515d1f6f7125936d401b6490fd76935f58bc3b8eeb97a7f51e191",
+      "context_status": "verified",
+      "context_evidence": "docs/INTERACTION_HINTS.md; exact source text and native display call in localization/qa/batches/interaction-hints-01.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/interaction-hints-validation.json",
+        "target_sha256": "3979adc001b452bdd4f7694c74ae096550fa02ab484e92b8d8f064531b183996"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native widget foreground masks and WAIT/scroll checkpoints; not a natural object interaction",
+        "evidence": "docs/evidence/interaction-hints-validation.json",
+        "target_sha256": "3979adc001b452bdd4f7694c74ae096550fa02ab484e92b8d8f064531b183996"
+      }
+    },
+    {
+      "id": "script.0464.000",
+      "source_sha256": "d0037e87083a68249414727591ae42438b6f60a748ebbb9f45aa3d3ce62c0dc5",
+      "translation_sha256": "1f717c5da4dc1045a5319900a9237ca60db1a0c83e70ce555d3588936740e257",
+      "context_status": "verified",
+      "context_evidence": "docs/INTERACTION_HINTS.md; exact source text and native display call in localization/qa/batches/interaction-hints-01.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/interaction-hints-validation.json",
+        "target_sha256": "3979adc001b452bdd4f7694c74ae096550fa02ab484e92b8d8f064531b183996"
+      },
+      "playtest": {
+        "status": "not_run"
+      },
+      "fixture_ui_check": {
+        "scope": "native widget foreground masks and WAIT/scroll checkpoints; not a natural object interaction",
+        "evidence": "docs/evidence/interaction-hints-validation.json",
+        "target_sha256": "3979adc001b452bdd4f7694c74ae096550fa02ab484e92b8d8f064531b183996"
+      }
     }
   ]
 }

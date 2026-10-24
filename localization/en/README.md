@@ -18,3 +18,5 @@ untranslated spouse/home records are tracked in `../npc_coverage.json`.
 
 `object_labels.json` preserves the 261 verified examined-object label records.
 The source-only ID/CODE/display-site contract is `../object_labels.json`.
+
+`interaction_hints.json`: ba chuỗi hướng dẫn giường/thùng xuất hàng nguyên bản; xem docs/INTERACTION_HINTS.md.

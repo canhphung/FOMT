@@ -15682,6 +15682,102 @@
       "max_columns": 28,
       "layout_budget": "conservative; runtime review required",
       "context_evidence": "docs/INTERACTIVE_OBJECTS.md; exact object literal, script CODE and native display calls verified."
+    },
+    {
+      "id": "script.0223.003",
+      "rom_address": "0x082D24D6",
+      "rom_offset": "0x2D24D6",
+      "original_english": "Bed{CR}{LF}Investigate from left {CR}{LF}side to sleep.{WAIT}",
+      "vietnamese_translation": "Giường{CR}{LF}Kiểm tra từ bên trái{CR}{LF}để đi ngủ.{WAIT}",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "4265640d0a496e7665737469676174652066726f6d206c656674200d0a7369646520746f20736c6565702e05",
+      "source": {
+        "kind": "script",
+        "script_id": 223,
+        "string_index": 3,
+        "script_offset": 2958056,
+        "script_pointer_offset": 1019216,
+        "relative_offset_slot": 2958516,
+        "pool_offset": 2958520,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required",
+      "context_evidence": "docs/INTERACTION_HINTS.md; exact source text and native display call in localization/qa/batches/interaction-hints-01.json"
+    },
+    {
+      "id": "script.0342.003",
+      "rom_address": "0x082DADFC",
+      "rom_offset": "0x2DADFC",
+      "original_english": "Bed{CR}{LF}Investigate from left {CR}{LF}side to sleep.{WAIT}",
+      "vietnamese_translation": "Giường{CR}{LF}Kiểm tra từ bên trái{CR}{LF}để đi ngủ.{WAIT}",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "4265640d0a496e7665737469676174652066726f6d206c656674200d0a7369646520746f20736c6565702e05",
+      "source": {
+        "kind": "script",
+        "script_id": 342,
+        "string_index": 3,
+        "script_offset": 2992388,
+        "script_pointer_offset": 1019692,
+        "relative_offset_slot": 2993628,
+        "pool_offset": 2993632,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required",
+      "context_evidence": "docs/INTERACTION_HINTS.md; exact source text and native display call in localization/qa/batches/interaction-hints-01.json"
+    },
+    {
+      "id": "script.0464.000",
+      "rom_address": "0x082F4A3C",
+      "rom_offset": "0x2F4A3C",
+      "original_english": "Shipment Box{CR}{LF}Put things here to ship,{CR}{LF}and by evening you'll{WAIT}{CR}{LF}recieve payment.{WAIT}",
+      "vietnamese_translation": "Thùng xuất hàng{CR}{LF}Bỏ đồ vào đây để bán,{CR}{LF}đến chiều bạn sẽ{WAIT}{CR}{LF}nhận được tiền.{WAIT}",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "536869706d656e7420426f780d0a507574207468696e6773206865726520746f20736869702c0d0a616e64206279206576656e696e6720796f75276c6c050d0a72656369657665207061796d656e742e05",
+      "source": {
+        "kind": "script",
+        "script_id": 464,
+        "string_index": 0,
+        "script_offset": 3099096,
+        "script_pointer_offset": 1020180,
+        "relative_offset_slot": 3099192,
+        "pool_offset": 3099196,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required",
+      "context_evidence": "docs/INTERACTION_HINTS.md; exact source text and native display call in localization/qa/batches/interaction-hints-01.json"
     }
   ]
 }

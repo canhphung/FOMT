@@ -5,7 +5,7 @@ chốt font, bố cục và quy trình build đang có.
 Không thay nét, màu, vị trí hoặc kích thước HUD trong phiên này. Đây vẫn là
 bản Việt hóa thử nghiệm; bộ chuẩn không thay việc duyệt ngôn ngữ và chơi thử.
 
-[Manifest bộ chuẩn](../localization/platform_baseline.json) khóa 37 file nguồn
+[Manifest bộ chuẩn](../localization/platform_baseline.json) khóa 39 file nguồn
 và 43 ảnh framebuffer 240×160. Hash ROM tham chiếu là
 `98e69a242aaa5eb71c8e0fafa17bbca1379d13d06ebb906aa743ac1b4d9d3335`.
 Ảnh chuẩn kỹ thuật đã được kiểm bằng replay; việc người dùng duyệt toàn bộ
@@ -54,8 +54,8 @@ make platform-emulator ROM="$FOMT_ROM" PYTHON=.venv/bin/python
 pytest với ROM USA hợp lệ, build hai lần độc lập, so byte ROM/IPS, đối chiếu
 manifest phát hành và áp lại IPS để kiểm ROM đích. Không sửa bản vá phát hành.
 
-`platform-emulator` làm các bước trên rồi chạy chín suite trên **cả** 0.10.5 và
-0.11-dev: font/title/intro/save-load, tạo game, START, lịch/HUD, mô tả dụng cụ, audit toàn bộ vật phẩm và ma trận cửa sổ Ba lô, hội thoại NPC và nhãn đồ vật.
+`platform-emulator` làm các bước trên rồi chạy mười suite trên **cả** 0.10.5 và
+0.11-dev: font/title/intro/save-load, tạo game, START, lịch/HUD, mô tả dụng cụ, audit toàn bộ vật phẩm và ma trận cửa sổ Ba lô, hội thoại NPC, nhãn đồ vật và hướng dẫn giường/thùng xuất hàng.
 Mỗi báo cáo phải mang đúng hash ROM vừa build. Cuối mỗi backend, so toàn bộ
 43 ảnh với chuẩn theo RGBA, không theo cách nén PNG, không cho phép sai pixel.
 Ảnh diff đánh dấu tím cả lỗi màu lẫn lỗi alpha. Đây là kiểm tra cảnh cố định,
@@ -127,3 +127,5 @@ phải giữ nguyên pixel. Nếu dịch chính một cảnh chuẩn thì phải
 Chưa kiểm phần cứng GBA thật, toàn mùa hoặc mọi cửa sổ vật phẩm. Fixture năm
 200 chỉ kiểm UI. Encounter Popuri và cửa sổ tự nhiên của đủ dụng cụ vẫn là
 công việc QA còn lại, không được coi là đã hoàn thành nhờ bộ chuẩn này.
+
+Interaction-hints-01 bổ sung suite thứ mười cho mỗi backend, khóa thêm hai file (tổng 39), kiểm ba chuỗi hướng dẫn và cuộn dòng; giữ nguyên toàn bộ 43 ảnh chuẩn và hash nguồn gốc bộ chuẩn. Xem [INTERACTION_HINTS.md](INTERACTION_HINTS.md).

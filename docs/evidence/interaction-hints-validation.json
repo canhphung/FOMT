@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "revision": "interaction-hints-01",
+  "status": "passed",
+  "target_sha256": "3979adc001b452bdd4f7694c74ae096550fa02ab484e92b8d8f064531b183996",
+  "patch_sha256": "f0972d39442572daac0ea42d1de6dc13b00502a91ce2d6aad3957a654d1312c1",
+  "source_sha1": "a2fc3574f0a65a4fcf7682fb274b9d7eebdef963",
+  "new_drafts": 3,
+  "draft_records": 1408,
+  "pytest": {
+    "passed": 140,
+    "failed": 0,
+    "skipped": 0
+  },
+  "emulators": {
+    "0.10.5": {
+      "library_sha256": "a59b9ebbc006144a1fc4fd68ddc371e95de4abc7d36073c7eed53e482d06a15c",
+      "result": {
+        "status": "passed",
+        "target_sha256": "3979adc001b452bdd4f7694c74ae096550fa02ab484e92b8d8f064531b183996",
+        "cases": [
+          {
+            "id": "script.0223.003",
+            "wait_offsets_verified": [
+              51
+            ],
+            "native_flags": 256,
+            "screenshots": [
+              "script.0223.003-wait-1.png"
+            ],
+            "foreground_masks_verified": true
+          },
+          {
+            "id": "script.0342.003",
+            "wait_offsets_verified": [
+              51
+            ],
+            "native_flags": 256,
+            "screenshots": [
+              "script.0342.003-wait-1.png"
+            ],
+            "foreground_masks_verified": true
+          },
+          {
+            "id": "script.0464.000",
+            "wait_offsets_verified": [
+              74,
+              97
+            ],
+            "native_flags": 0,
+            "screenshots": [
+              "script.0464.000-wait-1.png",
+              "script.0464.000-wait-2.png"
+            ],
+            "foreground_masks_verified": true
+          }
+        ],
+        "guarded_renderer_lines": 10,
+        "native_waits_verified": 4,
+        "source_CODE_JUMP_and_unselected_strings_unchanged": true,
+        "sram_unchanged": true,
+        "emulator_error_count": 0,
+        "limitations": [
+          "Native UI fixtures hosted in the starting house; not natural bed/shipment encounters.",
+          "Sleep choices, unknown RAW:81A8 label and manual language/layout review outside this batch."
+        ]
+      },
+      "golden_scenes": 43,
+      "changed_pixels": 0
+    },
+    "dev": {
+      "library_sha256": "b044208a82af47a6ce3651cf2c289c575866a4764d6e9377c88001e60edea0c7",
+      "result": {
+        "status": "passed",
+        "target_sha256": "3979adc001b452bdd4f7694c74ae096550fa02ab484e92b8d8f064531b183996",
+        "cases": [
+          {
+            "id": "script.0223.003",
+            "wait_offsets_verified": [
+              51
+            ],
+            "native_flags": 256,
+            "screenshots": [
+              "script.0223.003-wait-1.png"
+            ],
+            "foreground_masks_verified": true
+          },
+          {
+            "id": "script.0342.003",
+            "wait_offsets_verified": [
+              51
+            ],
+            "native_flags": 256,
+            "screenshots": [
+              "script.0342.003-wait-1.png"
+            ],
+            "foreground_masks_verified": true
+          },
+          {
+            "id": "script.0464.000",
+            "wait_offsets_verified": [
+              74,
+              97
+            ],
+            "native_flags": 0,
+            "screenshots": [
+              "script.0464.000-wait-1.png",
+              "script.0464.000-wait-2.png"
+            ],
+            "foreground_masks_verified": true
+          }
+        ],
+        "guarded_renderer_lines": 10,
+        "native_waits_verified": 4,
+        "source_CODE_JUMP_and_unselected_strings_unchanged": true,
+        "sram_unchanged": true,
+        "emulator_error_count": 0,
+        "limitations": [
+          "Native UI fixtures hosted in the starting house; not natural bed/shipment encounters.",
+          "Sleep choices, unknown RAW:81A8 label and manual language/layout review outside this batch."
+        ]
+      },
+      "golden_scenes": 43,
+      "changed_pixels": 0
+    }
+  },
+  "screenshots": [
+    {
+      "path": "docs/evidence/interaction-hints/script.0223.003-wait-1.png",
+      "sha256": "47fa8f0da9aa3a8eb4584d52b0c9b1150aee90bfd960a68608d647c797765b15",
+      "scope": "native widget fixture"
+    },
+    {
+      "path": "docs/evidence/interaction-hints/script.0342.003-wait-1.png",
+      "sha256": "47fa8f0da9aa3a8eb4584d52b0c9b1150aee90bfd960a68608d647c797765b15",
+      "scope": "native widget fixture"
+    },
+    {
+      "path": "docs/evidence/interaction-hints/script.0464.000-wait-1.png",
+      "sha256": "c942bc823db604a2f9b2e401f406f0086f9772246a3a2d190e3593530f384ee1",
+      "scope": "native widget fixture"
+    },
+    {
+      "path": "docs/evidence/interaction-hints/script.0464.000-wait-2.png",
+      "sha256": "f3d6ec64c1d6fa2a7d7c965e49202fb8b6b8e719ac3d64dd6e383804cb441acb",
+      "scope": "native widget fixture"
+    }
+  ],
+  "limitations": [
+    "Native widget fixtures, not natural bed/shipment encounters.",
+    "Language/layout review pending; sleep choices and unknown RAW:81A8 label outside this batch."
+  ]
+}

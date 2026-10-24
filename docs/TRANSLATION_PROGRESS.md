@@ -7,7 +7,8 @@ Bản vá thử nghiệm, chưa phải Việt hóa 100%.
 
 | Hạng mục | Có bản dịch nháp / đã trích xuất |
 | --- | ---: |
-| Tổng catalog | 1.405 / 9.309 |
+| Tổng catalog | 1.408 / 9.309 |
+| Hướng dẫn giường/thùng xuất hàng | 3 / 3 trong lô |
 | Nhãn đồ vật tương tác | 261 / 261 đã xác minh |
 | Tên vật phẩm | 347 / 347 |
 | Mô tả vật phẩm | 347 / 347 |
@@ -20,7 +21,7 @@ Bản vá thử nghiệm, chưa phải Việt hóa 100%.
 | Thomas — script chuẩn | 34 / 34 |
 | Popuri — lô thường ngày mới | 51 / 51 (còn index 1–92) |
 
-1.405 ID không trùng nhau; chưa có ID đánh dấu `reviewed`. 7.904 bản ghi
+1.408 ID không trùng nhau; chưa có ID đánh dấu `reviewed`. 7.901 bản ghi
 còn thiếu dịch đều đang chờ phân loại ngữ cảnh. Khoảng 15,1% ID trong catalog
 không phải phần trăm lượng từ hay toàn bộ game. Thêm 26 chuỗi UI native,
 glossary hiện có 471 thuật ngữ.
@@ -31,10 +32,10 @@ trong localization/, chi tiết từng adapter trong các tài liệu hệ thố
 
 ## Kiểm chứng gần nhất
 
-- 138 pytest đạt với ROM USA rev 0 được người dùng cung cấp.
+- 140 pytest đạt với ROM USA rev 0 được người dùng cung cấp.
 - Bàn dịch local: 12 luồng Chromium đạt ở mốc object-labels-01, sửa/lưu trên bản sao dữ liệu;
   toàn bộ 31 file JSON localization gốc giữ nguyên hash.
-- Hai build độc lập giống byte; IPS phát hành áp lại đúng ROM. Khóa 37 file
+- Hai build độc lập giống byte; IPS phát hành áp lại đúng ROM. Khóa 39 file
   nền tảng và 43 ảnh chuẩn, replay trên hai mGBA không lệch pixel.
 - mGBA 0.10.5/0.11-dev: boot/title/font, tạo game, START và Diary save/load
   qua cold boot; báo cáo gắn đúng hash target hiện tại.
@@ -211,3 +212,12 @@ con trỏ WAIT và pixel glyph của ba hàng cache. Không coi là đã đi m�
 Font/bố cục không đổi, 43 ảnh chuẩn giữ nguyên. Còn kiểm tự nhiên các nhà
 khác và kiểm kê menu/hướng dẫn dài/biển hiệu ngoài nhãn; toàn bộ vẫn là nháp.
 Knowledge giữ cục bộ, không đưa tài liệu hoặc ZIP lên GitHub.
+
+## Phiên interaction-hints-01 — 2026-10-24
+
+Thêm hai bản hướng dẫn giường và một bản hướng dẫn thùng xuất hàng, đúng
+chuỗi trong ảnh người dùng. Giữ control code, CODE/JUMP, lựa chọn ngủ và
+font. Kiểm native UI fixture cả bốn WAIT, 10 dòng renderer và bitmap chữ
+trước/sau cuộn trên hai mGBA. Chưa có playtest tương tác tự nhiên cho ba
+chuỗi; duyệt ngôn ngữ/bố cục thủ công còn pending. Không dịch nhãn chứa
+RAW:81A8 khi chưa rõ chức năng. Chi tiết: [INTERACTION_HINTS.md](INTERACTION_HINTS.md).

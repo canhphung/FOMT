@@ -62,3 +62,5 @@ có encounter tự nhiên trong bằng chứng hiện có.
 
 Các ảnh thử HUD lỗi thời đã bỏ khỏi cây hiện tại; có thể truy hồi bằng Git.
 Giữ ảnh cần giải thích thiết kế hiện hành và ảnh fixture được báo cáo tham chiếu.
+
+`interaction-hints-validation.json` và `interaction-hints/`: bằng chứng UI fixture cho ba chuỗi hướng dẫn giường/thùng xuất hàng; không phải ảnh gặp vật thể bằng gameplay tự nhiên.

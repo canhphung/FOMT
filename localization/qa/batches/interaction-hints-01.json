@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "name": "Bed side and shipment-box instructions from user screenshots",
+  "record_ids": [
+    "script.0223.003",
+    "script.0342.003",
+    "script.0464.000"
+  ],
+  "source_proofs": [
+    {
+      "id": "script.0223.003",
+      "script_id": 223,
+      "string_index": 3,
+      "original_english": "Bed{CR}{LF}Investigate from left {CR}{LF}side to sleep.{WAIT}",
+      "code_sha256": "d3284b125d3bee24107cbca61428843e3a2aa3bb8374662757dfa831a1a6c151",
+      "show_text_sites": [
+        {
+          "code_offset": 360,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ]
+    },
+    {
+      "id": "script.0342.003",
+      "script_id": 342,
+      "string_index": 3,
+      "original_english": "Bed{CR}{LF}Investigate from left {CR}{LF}side to sleep.{WAIT}",
+      "code_sha256": "7781284ee676d5c43123d71e9ea9172ed679d0150a7ea1e305ef2911a689ce22",
+      "show_text_sites": [
+        {
+          "code_offset": 1068,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ]
+    },
+    {
+      "id": "script.0464.000",
+      "script_id": 464,
+      "string_index": 0,
+      "original_english": "Shipment Box{CR}{LF}Put things here to ship,{CR}{LF}and by evening you'll{WAIT}{CR}{LF}recieve payment.{WAIT}",
+      "code_sha256": "a70fddfa314f073fc8cfafe61054bf4179da603fb4a4be6fc68409e46eeb6e85",
+      "show_text_sites": [
+        {
+          "code_offset": 17,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    }
+  ]
+}

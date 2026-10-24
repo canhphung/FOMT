@@ -3,7 +3,7 @@
   "revision": "platform-v4-objects",
   "created_at": "2026-10-23",
   "reference_target_sha256": "98e69a242aaa5eb71c8e0fafa17bbca1379d13d06ebb906aa743ac1b4d9d3335",
-  "policy": "Revision v4 adds explicit object-label source/caller guards, contract and native UI fixtures. Font/layout and 43 golden images stay unchanged; no automatic image rebaseline.",
+  "policy": "Revision v4 adds explicit object-label source/caller guards, contract and native UI fixtures. Font/layout and 43 golden images stay unchanged; no automatic image rebaseline. Interaction-hints-01 adds three source-guarded instructions and a native fixture suite; all 43 golden references remain unchanged.",
   "visual_review": "technical regression reference; user approval of the complete gallery pending; translation QA unchanged",
   "contracts": {
     "dialogue": {
@@ -156,7 +156,7 @@
     },
     {
       "path": "tools/platform_check.py",
-      "sha256": "15e27f72bb1181547afdda67d2dae58aa98e39a2fdc68437a6b57ea7310a7499"
+      "sha256": "a60e9c66f02d932f3c0281c21ef23e201a73f74ee1b7fe878b39a32546b76947"
     },
     {
       "path": "tools/mgba_bridge.c",
@@ -201,6 +201,14 @@
     {
       "path": "localization/object_labels.json",
       "sha256": "384e6c3985e76ad4156ef88d52378618ab53694f8be63db13cd6c0bc0199c46a"
+    },
+    {
+      "path": "tools/interaction_hints_smoke.py",
+      "sha256": "bed2f44d95e0b4d1ccce248c3bc038d961db0c2ab837eda456443fcd9ff02eda"
+    },
+    {
+      "path": "localization/qa/batches/interaction-hints-01.json",
+      "sha256": "5654c7793f2aad5cdc2b90c037be4a2752efc7bf02652825dca76e5be31007f7"
     }
   ],
   "save_fixture": {
