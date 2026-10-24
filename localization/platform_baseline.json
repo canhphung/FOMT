@@ -156,7 +156,7 @@
     },
     {
       "path": "tools/platform_check.py",
-      "sha256": "62d12df3e8ad96a2671e407ef401d3320ee711531441a28dd7ebe6ddd602cf7a"
+      "sha256": "0e54a6a8a6c2ce60495d24c262e3c5096e5c521f2d098626890227fdef3f2625"
     },
     {
       "path": "tools/mgba_bridge.c",
@@ -229,6 +229,14 @@
     {
       "path": "localization/farm_interactions.json",
       "sha256": "1fde9127b1e1888c6890589f46e72b87f1550324a60261989a939753f526b2ff"
+    },
+    {
+      "path": "tools/popuri_smoke.py",
+      "sha256": "b51aa1ff23fe515a839364156edc3d445038b4c4e38c28133fd6fab0ca99b637"
+    },
+    {
+      "path": "localization/popuri_context.json",
+      "sha256": "2458403e1b828992714c23c462660c8a1f068ec633a2c36d2e7dafaa53f49a7f"
     }
   ],
   "save_fixture": {

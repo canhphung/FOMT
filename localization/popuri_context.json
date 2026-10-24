@@ -1,0 +1,2375 @@
+{
+  "schema_version": 1,
+  "record_ids": [
+    "script.0993.000",
+    "script.0993.001",
+    "script.0993.002",
+    "script.0993.003",
+    "script.0993.004",
+    "script.0993.006",
+    "script.0993.007",
+    "script.0993.008",
+    "script.0993.009",
+    "script.0993.010",
+    "script.0993.011",
+    "script.0993.012",
+    "script.0993.013",
+    "script.0993.014",
+    "script.0993.015",
+    "script.0993.016",
+    "script.0993.017",
+    "script.0993.018",
+    "script.0993.019",
+    "script.0993.020",
+    "script.0993.022",
+    "script.0993.023",
+    "script.0993.024",
+    "script.0993.025",
+    "script.0993.026",
+    "script.0993.027",
+    "script.0993.028",
+    "script.0993.029",
+    "script.0993.030",
+    "script.0993.031",
+    "script.0993.032",
+    "script.0993.033",
+    "script.0993.034",
+    "script.0993.035",
+    "script.0993.036",
+    "script.0993.037",
+    "script.0993.040",
+    "script.0993.041",
+    "script.0993.042",
+    "script.0993.043",
+    "script.0993.044",
+    "script.0993.045",
+    "script.0993.046",
+    "script.0993.047",
+    "script.0993.048",
+    "script.0993.049",
+    "script.0993.050",
+    "script.0993.051",
+    "script.0993.052",
+    "script.0993.053",
+    "script.0993.054",
+    "script.0993.055",
+    "script.0993.056",
+    "script.0993.057",
+    "script.0993.058",
+    "script.0993.059",
+    "script.0993.060",
+    "script.0993.061",
+    "script.0993.062",
+    "script.0993.063",
+    "script.0993.064",
+    "script.0993.065",
+    "script.0993.066",
+    "script.0993.067",
+    "script.0993.068",
+    "script.0993.069",
+    "script.0993.070",
+    "script.0993.071",
+    "script.0993.072",
+    "script.0993.073",
+    "script.0993.074",
+    "script.0993.075",
+    "script.0993.076",
+    "script.0993.077",
+    "script.0993.078",
+    "script.0993.079",
+    "script.0993.080",
+    "script.0993.081",
+    "script.0993.082",
+    "script.0993.083",
+    "script.0993.084",
+    "script.0993.085",
+    "script.0993.086",
+    "script.0993.087",
+    "script.0993.088",
+    "script.0993.089",
+    "script.0993.090",
+    "script.0993.091",
+    "script.0993.093",
+    "script.0993.094",
+    "script.0993.095",
+    "script.0993.096",
+    "script.0993.097",
+    "script.0993.098",
+    "script.0993.099",
+    "script.0993.100",
+    "script.0993.101",
+    "script.0993.102",
+    "script.0993.103",
+    "script.0993.104",
+    "script.0993.105",
+    "script.0993.106",
+    "script.0993.107",
+    "script.0993.108",
+    "script.0993.109",
+    "script.0993.110",
+    "script.0993.111",
+    "script.0993.112",
+    "script.0993.113",
+    "script.0993.114",
+    "script.0993.115",
+    "script.0993.116",
+    "script.0993.117",
+    "script.0993.118",
+    "script.0993.119",
+    "script.0993.120",
+    "script.0993.121",
+    "script.0993.122",
+    "script.0993.123",
+    "script.0993.124",
+    "script.0993.125",
+    "script.0993.126",
+    "script.0993.127",
+    "script.0993.128",
+    "script.0993.129",
+    "script.0993.130",
+    "script.0993.131",
+    "script.0993.132",
+    "script.0993.133",
+    "script.0993.134",
+    "script.0993.135",
+    "script.0993.136",
+    "script.0993.137",
+    "script.0993.138",
+    "script.0993.139",
+    "script.0993.140",
+    "script.0993.141",
+    "script.0993.142",
+    "script.0993.143"
+  ],
+  "source_proofs": [
+    {
+      "id": "script.0993.000",
+      "script_id": 993,
+      "string_index": 0,
+      "original_english": "Hello, my name is Popuri.{CR}{LF}What's your's?{WAIT}{PAGE}Nice to meet you!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 613,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.001",
+      "script_id": 993,
+      "string_index": 1,
+      "original_english": "Really? A birthday present?{CR}{LF}For me? Thank you so much!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 1443,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.002",
+      "script_id": 993,
+      "string_index": 2,
+      "original_english": "Thank you so much!{CR}{LF}What a great birthday!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 1650,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.003",
+      "script_id": 993,
+      "string_index": 3,
+      "original_english": "Really? This is a birthday{CR}{LF}present for me?{WAIT}{PAGE}I'm so surprised! I'll{CR}{LF}treasure it forever!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 1763,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.004",
+      "script_id": 993,
+      "string_index": 4,
+      "original_english": "I'm so happy!{CR}{LF}What a great birthday!{CR}{LF}I'm so lucky ot have been{WAIT}{CR}{LF}born in Summer!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 1836,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.006",
+      "script_id": 993,
+      "string_index": 6,
+      "original_english": "Thanks, {VAR:29}!{CR}{LF}I'm so glad I married you!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 2108,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.007",
+      "script_id": 993,
+      "string_index": 7,
+      "original_english": "I just love it!{CR}{LF}Thank you so much!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 2315,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.008",
+      "script_id": 993,
+      "string_index": 8,
+      "original_english": "Thanks, {VAR:29}.{CR}{LF}You're the greatest!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 2370,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.009",
+      "script_id": 993,
+      "string_index": 9,
+      "original_english": "Thanks! I love it!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 2577,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.010",
+      "script_id": 993,
+      "string_index": 10,
+      "original_english": "Thank you, {VAR:29}.{CR}{LF}I'm so happy...{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 2632,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.011",
+      "script_id": 993,
+      "string_index": 11,
+      "original_english": "Thank you so much!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 2839,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.012",
+      "script_id": 993,
+      "string_index": 12,
+      "original_english": "Thank you so much!{CR}{LF}I'm so glad!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 2894,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.013",
+      "script_id": 993,
+      "string_index": 13,
+      "original_english": "Thank you!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 3101,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.014",
+      "script_id": 993,
+      "string_index": 14,
+      "original_english": "What's this?{CR}{LF}I don't like this at all!{CR}{LF}Here's your dinner.{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 3156,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.015",
+      "script_id": 993,
+      "string_index": 15,
+      "original_english": "I don't like this!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 3363,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.016",
+      "script_id": 993,
+      "string_index": 16,
+      "original_english": "Hmmph!{CR}{LF}How could you be {CR}{LF}so stupid!?...{WAIT}{PAGE}Throw this away yourself!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 3418,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.017",
+      "script_id": 993,
+      "string_index": 17,
+      "original_english": "Who would {CR}{LF}want this!?...{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 3625,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.018",
+      "script_id": 993,
+      "string_index": 18,
+      "original_english": "Cute!{WAIT}{PAGE}I grew up on a farm with{CR}{LF}Chickens, so I love {WAIT}{CR}{LF}animals...{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 3680,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.019",
+      "script_id": 993,
+      "string_index": 19,
+      "original_english": "So cuuuute!!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 3887,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.020",
+      "script_id": 993,
+      "string_index": 20,
+      "original_english": "I...I can't believe you {CR}{LF}would try to give me this!{CR}{LF}I don't even want to {WAIT}{CR}{LF}look at it...!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 3942,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.022",
+      "script_id": 993,
+      "string_index": 22,
+      "original_english": "This is for me!?{CR}{LF}Thank you so much!{CR}{LF}I love it!{WAIT}{PAGE}You're the best, {CR}{LF}{VAR:29}!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 4204,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.023",
+      "script_id": 993,
+      "string_index": 23,
+      "original_english": "You're giving this to{CR}{LF}me?...How sweet!{WAIT}{PAGE}Don't worry, Kai won't get{CR}{LF}upset about it!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 4277,
+          "native_call": 33,
+          "text_flags": 256
+        },
+        {
+          "code_offset": 4612,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.024",
+      "script_id": 993,
+      "string_index": 24,
+      "original_english": "This is for me?!...{CR}{LF}Awesome!...I feel so...{CR}{LF}...like a woman!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 4484,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.025",
+      "script_id": 993,
+      "string_index": 25,
+      "original_english": "You're giving this to me?{CR}{LF}I love it! Thank you{CR}{LF}so much!{WAIT}{PAGE}You're great, {VAR:29}.{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 4539,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.026",
+      "script_id": 993,
+      "string_index": 26,
+      "original_english": "This is for me?!{CR}{LF}Thanks! I can't wait to {CR}{LF}show it to Mom!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 4819,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.027",
+      "script_id": 993,
+      "string_index": 27,
+      "original_english": "This is for me?!{CR}{LF}Thanks! It smells so good!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 4874,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.028",
+      "script_id": 993,
+      "string_index": 28,
+      "original_english": "You know what?{CR}{LF}Kai already gave me the{CR}{LF}same kind of Perfume...{WAIT}{PAGE}Give this to someone you{CR}{LF}really like instead.{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 4947,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.029",
+      "script_id": 993,
+      "string_index": 29,
+      "original_english": "You're giving this Perfume{CR}{LF}to me? Really?...{WAIT}{PAGE}Thank you so much!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 5154,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.030",
+      "script_id": 993,
+      "string_index": 30,
+      "original_english": "Thak you!{CR}{LF}Are you giving presents to{CR}{LF}everybody, or just me?...{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 5227,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.031",
+      "script_id": 993,
+      "string_index": 31,
+      "original_english": "Thanks!{WAIT}{PAGE}I can't wait to eat them!{CR}{LF}I knew today was going{CR}{LF}to be great!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 5292,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.032",
+      "script_id": 993,
+      "string_index": 32,
+      "original_english": "Wow...Thank you so much!{CR}{LF}Are you sure it's OK?{WAIT}{PAGE}And I didn't even give you{CR}{LF}anything at the Winter{CR}{LF}Thanksgiving Festival!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 5489,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.033",
+      "script_id": 993,
+      "string_index": 33,
+      "original_english": "This is for me?{CR}{LF}Thanks! But...You really{CR}{LF}shouldn't have gone to{WAIT}{CR}{LF}the trouble...{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 5686,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.034",
+      "script_id": 993,
+      "string_index": 34,
+      "original_english": "Wait one second!{CR}{LF}Let's talk at your place!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 9747,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.035",
+      "script_id": 993,
+      "string_index": 35,
+      "original_english": "You're sweet, but you {CR}{LF}should really give this to{CR}{LF}someone you want to marry.{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 9850,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.036",
+      "script_id": 993,
+      "string_index": 36,
+      "original_english": "I just don't feel{CR}{LF}that way about you. I like{CR}{LF}you as a friend, though!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 10007,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.037",
+      "script_id": 993,
+      "string_index": 37,
+      "original_english": "Tomorrow is the {CR}{LF}Starry Night Festival, {CR}{LF}right? Why don't you come{WAIT}{CR}{LF}over to my house...?{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 10381,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.040",
+      "script_id": 993,
+      "string_index": 40,
+      "original_english": "Great! I'll make you the{CR}{LF}best dinner ever!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 10425,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.041",
+      "script_id": 993,
+      "string_index": 41,
+      "original_english": "I guess you're {CR}{LF}too busy...Oh well...{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 10471,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.042",
+      "script_id": 993,
+      "string_index": 42,
+      "original_english": "Tomorrow is the Starry{CR}{LF}Night Festival, so let's{CR}{LF}have a party at my house!{WAIT}{PAGE}I just learned a great new{CR}{LF}Cake recipe from Anna!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 10588,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.043",
+      "script_id": 993,
+      "string_index": 43,
+      "original_english": "I thought I felt {CR}{LF}strange...I'm just glad {CR}{LF}I'm not sick!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 10803,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.044",
+      "script_id": 993,
+      "string_index": 44,
+      "original_english": "I'm just a little {CR}{LF}hungrier than usual, {CR}{LF}that's all!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 10829,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.045",
+      "script_id": 993,
+      "string_index": 45,
+      "original_english": "Good morning!{CR}{LF}I roll around a lot in my{CR}{LF}sleep, so I was so worried{WAIT}{PAGE}about the baby I didn't{CR}{LF}sleep at all...!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 10938,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.046",
+      "script_id": 993,
+      "string_index": 46,
+      "original_english": "Or...Is there such a thing{CR}{LF}as being too happy to {CR}{LF}sleep?  I thought so...{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 10964,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.047",
+      "script_id": 993,
+      "string_index": 47,
+      "original_english": "The Doctor at the Clinic{CR}{LF}said everything was going{CR}{LF}well! I can't wait until{WAIT}{CR}{LF}it's born!...{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 11073,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.048",
+      "script_id": 993,
+      "string_index": 48,
+      "original_english": "Honestly, I'm a little{CR}{LF}scared, though...{WAIT}{PAGE}Mom told me labor was{CR}{LF}so painful!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 11099,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.049",
+      "script_id": 993,
+      "string_index": 49,
+      "original_english": "............................{CR}{LF}............................{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 11183,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.050",
+      "script_id": 993,
+      "string_index": 50,
+      "original_english": "{VAR:29}!!!{CR}{LF}Elli at the Clinic said{CR}{LF}the baby would be born{WAIT}{CR}{LF}tomorrow! I'm so excited!!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 11209,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.051",
+      "script_id": 993,
+      "string_index": 51,
+      "original_english": "Ahhh....He's so cuuute!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 11398,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.052",
+      "script_id": 993,
+      "string_index": 52,
+      "original_english": "{VAR:2A} is so {CR}{LF}adorable...{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 11424,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.053",
+      "script_id": 993,
+      "string_index": 53,
+      "original_english": "He's so cuuute!{CR}{LF}I think he'll be so {CR}{LF}handsome when he grows up!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 11533,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.054",
+      "script_id": 993,
+      "string_index": 54,
+      "original_english": "When you were a baby,{CR}{LF}I bet you looked just {CR}{LF}{VAR:2A} now!{WAIT}{PAGE}I think he takes after you!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 11559,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.055",
+      "script_id": 993,
+      "string_index": 55,
+      "original_english": "Now he's making {CR}{LF}baby noises! {CR}{LF}I love him so much...!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 11693,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.056",
+      "script_id": 993,
+      "string_index": 56,
+      "original_english": "I'd do anything for{CR}{LF}{VAR:2A}....Don't{CR}{LF}you agree, {VAR:29}?{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 11719,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.057",
+      "script_id": 993,
+      "string_index": 57,
+      "original_english": "{VAR:2A} can already{CR}{LF}walk! He's so advanced for{CR}{LF}his age, don't you think?{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 11854,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.058",
+      "script_id": 993,
+      "string_index": 58,
+      "original_english": "When he gets older,{CR}{LF}he'll take over the farm.{WAIT}{PAGE}Won't that be wonderful?{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 11880,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.059",
+      "script_id": 993,
+      "string_index": 59,
+      "original_english": "He talks a little bit, now!{CR}{LF}Whom do you like more,{CR}{LF}Papa or Mama?{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 11990,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.060",
+      "script_id": 993,
+      "string_index": 60,
+      "original_english": "Who do you like more,{CR}{LF}me or {VAR:2A}?{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 12016,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.061",
+      "script_id": 993,
+      "string_index": 61,
+      "original_english": "............................{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 12101,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.062",
+      "script_id": 993,
+      "string_index": 62,
+      "original_english": "I'm sick of this!{CR}{LF}I just want to go home!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 12127,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.063",
+      "script_id": 993,
+      "string_index": 63,
+      "original_english": "Good morning,{CR}{LF}{VAR:29}.{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 12294,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.064",
+      "script_id": 993,
+      "string_index": 64,
+      "original_english": "I get bored if you {CR}{LF}don't talk to me, you know!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 12320,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.065",
+      "script_id": 993,
+      "string_index": 65,
+      "original_english": "Can I go back home...{CR}{LF}Just for a little bit?...{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 12429,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.066",
+      "script_id": 993,
+      "string_index": 66,
+      "original_english": "You don't spend very much{CR}{LF}time at home lately, {CR}{LF}{VAR:29}.{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 12455,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.067",
+      "script_id": 993,
+      "string_index": 67,
+      "original_english": "Good morning!{CR}{LF}Everyone on the Poultry{CR}{LF}Farm wakes up early, so{WAIT}{CR}{LF}I'm used to it!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 12624,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.068",
+      "script_id": 993,
+      "string_index": 68,
+      "original_english": "Put in a good day's{CR}{LF}work, now!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 12650,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.069",
+      "script_id": 993,
+      "string_index": 69,
+      "original_english": "I got lots of Eggs from{CR}{LF}Mom, so I hope you{CR}{LF}like them!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 12759,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.070",
+      "script_id": 993,
+      "string_index": 70,
+      "original_english": "I make great {CR}{LF}fried eggs!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 12785,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.071",
+      "script_id": 993,
+      "string_index": 71,
+      "original_english": "Good morning, {VAR:29}!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 12954,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.072",
+      "script_id": 993,
+      "string_index": 72,
+      "original_english": "Should we walk{CR}{LF}{VAR:23}?{WAIT}{PAGE}Well, I guess the farm is{CR}{LF}so big we don't have to!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 12980,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.073",
+      "script_id": 993,
+      "string_index": 73,
+      "original_english": "I like living on farms {CR}{LF}because the food is {CR}{LF}so fresh!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 13089,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.074",
+      "script_id": 993,
+      "string_index": 74,
+      "original_english": "The only fresh things we{CR}{LF}have on the Poultry Farm{CR}{LF}are Eggs and Corn!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 13115,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.075",
+      "script_id": 993,
+      "string_index": 75,
+      "original_english": "Good morning!{WAIT}{PAGE}Did you dream of me,{CR}{LF}{VAR:29}?{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 13256,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.076",
+      "script_id": 993,
+      "string_index": 76,
+      "original_english": "Work hard, but not{CR}{LF}too hard, OK!?{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 13282,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.077",
+      "script_id": 993,
+      "string_index": 77,
+      "original_english": "I love watching you {CR}{LF}enjoy the food I make you,{CR}{LF}{VAR:29}.{WAIT}{PAGE}You just gobble it up!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 13391,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.078",
+      "script_id": 993,
+      "string_index": 78,
+      "original_english": "My brother is so {CR}{LF}picky about his food!{WAIT}{PAGE}Poor Karen!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 13417,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.079",
+      "script_id": 993,
+      "string_index": 79,
+      "original_english": "Welcome, {VAR:29}.{WAIT}{PAGE}My mom says my face {CR}{LF}looks softer these days.{WAIT}{PAGE}I guess it's true what they{CR}{LF}say about that happening{CR}{LF}when you get pregnant!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 13611,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.080",
+      "script_id": 993,
+      "string_index": 80,
+      "original_english": "You don't have to worry{CR}{LF}about me working too hard!{WAIT}{PAGE}I do have some sense,{CR}{LF}you know!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 13637,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.081",
+      "script_id": 993,
+      "string_index": 81,
+      "original_english": "Hi, {VAR:29}!{CR}{LF}How is {VAR:2A}?{WAIT}{PAGE}Is he lonely without me?{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 13751,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.082",
+      "script_id": 993,
+      "string_index": 82,
+      "original_english": "Take good care of {CR}{LF}{VAR:2A} now!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 13777,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.083",
+      "script_id": 993,
+      "string_index": 83,
+      "original_english": ".........................{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 13862,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.084",
+      "script_id": 993,
+      "string_index": 84,
+      "original_english": "What did you come here{CR}{LF}for, anyway!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 13888,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.085",
+      "script_id": 993,
+      "string_index": 85,
+      "original_english": "I'm trying to get some {CR}{LF}work done, so quit{CR}{LF}bothering me!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 14001,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.086",
+      "script_id": 993,
+      "string_index": 86,
+      "original_english": "I keep telling you to{CR}{LF}stop distracting me!{WAIT}{PAGE}You're impossible {CR}{LF}sometimes, {VAR:29}.{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 14027,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.087",
+      "script_id": 993,
+      "string_index": 87,
+      "original_english": "Hi, {VAR:29}.{CR}{LF}What's up?{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 14142,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.088",
+      "script_id": 993,
+      "string_index": 88,
+      "original_english": "I'm trying to get some {CR}{LF}work done! You get to{CR}{LF}work, too!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 14168,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.089",
+      "script_id": 993,
+      "string_index": 89,
+      "original_english": "Welcome, {VAR:29}!{CR}{LF}Hee-hee...{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 14283,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.090",
+      "script_id": 993,
+      "string_index": 90,
+      "original_english": "I don't know why, but I get{CR}{LF}embarrassed when you show{CR}{LF}up at the store!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 14309,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.091",
+      "script_id": 993,
+      "string_index": 91,
+      "original_english": "Welcome, {VAR:29}!{CR}{LF}See how hard I'm {CR}{LF}working?!...{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 14396,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.093",
+      "script_id": 993,
+      "string_index": 93,
+      "original_english": "Hi, {VAR:21}.{CR}{LF}The Poultry Farm is closed{CR}{LF}today. Sorry.{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 14553,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.094",
+      "script_id": 993,
+      "string_index": 94,
+      "original_english": "Me? No, my mom never{CR}{LF}even lets me touch the{CR}{LF}store money!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 14572,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.095",
+      "script_id": 993,
+      "string_index": 95,
+      "original_english": "Rain...?{CR}{LF}It doesn't rain this much{CR}{LF}where I live...{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 14649,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.096",
+      "script_id": 993,
+      "string_index": 96,
+      "original_english": "Nothing to do but{CR}{LF}relax, I suppose.{WAIT}{PAGE}Kai must be off today, {CR}{LF}too...{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 14668,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.097",
+      "script_id": 993,
+      "string_index": 97,
+      "original_english": "Ah, {VAR:21}.{CR}{LF}How are you today?{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 14770,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.098",
+      "script_id": 993,
+      "string_index": 98,
+      "original_english": "I only get to come in the{CR}{LF}Summer, so I miss the {CR}{LF}people here!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 14789,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.099",
+      "script_id": 993,
+      "string_index": 99,
+      "original_english": "You look like you're {CR}{LF}busy as ever, {VAR:21}.{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 14891,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.100",
+      "script_id": 993,
+      "string_index": 100,
+      "original_english": "It's like it's always {CR}{LF}Summer where I live with{CR}{LF}Kai. Do I look tan to you?{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 14910,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.101",
+      "script_id": 993,
+      "string_index": 101,
+      "original_english": "Howdy, {VAR:21}!{CR}{LF}How are you faring?{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 15012,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.102",
+      "script_id": 993,
+      "string_index": 102,
+      "original_english": "Sometimes I want to come{CR}{LF}back here in the Spring{CR}{LF}or the Fall...{WAIT}{CR}{LF}Even Winter!{WAIT}{PAGE}If I leave Kai alone, {CR}{LF}though, pretty soon the {CR}{LF}other girls will be all{WAIT}{CR}{LF}over him!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 15031,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.103",
+      "script_id": 993,
+      "string_index": 103,
+      "original_english": "How is your farm,{CR}{LF}{VAR:21}?{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 15133,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.104",
+      "script_id": 993,
+      "string_index": 104,
+      "original_english": "I wish I were still {CR}{LF}surrounded by animals like{CR}{LF}you are, {VAR:21}.{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 15152,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.105",
+      "script_id": 993,
+      "string_index": 105,
+      "original_english": "Hi, {VAR:21}.{CR}{LF}I hear you're doing a good{CR}{LF}job on your farm.{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 15255,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.106",
+      "script_id": 993,
+      "string_index": 106,
+      "original_english": "I used to always{CR}{LF}want to leave this town...{CR}{LF}But now I appreciate it{WAIT}{CR}{LF}more.{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 15274,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.107",
+      "script_id": 993,
+      "string_index": 107,
+      "original_english": "You seem more grown up{CR}{LF}every year, {VAR:21}.{WAIT}{PAGE}I guess that's natural,{CR}{LF}though...{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 15385,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.108",
+      "script_id": 993,
+      "string_index": 108,
+      "original_english": "I try to make Kai {CR}{LF}stay with us at the house,{CR}{LF}but he insists on staying{WAIT}{CR}{LF}at the inn!{WAIT}{PAGE}I wonder why...?{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 15404,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.109",
+      "script_id": 993,
+      "string_index": 109,
+      "original_english": "Hi, {VAR:21}.{CR}{LF}I wish I could come here{CR}{LF}for more than just {WAIT}{CR}{LF}Summers, sometimes!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 15482,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.110",
+      "script_id": 993,
+      "string_index": 110,
+      "original_english": "I always hope my dad will{CR}{LF}be back this time when I {CR}{LF}come back, but he {WAIT}{CR}{LF}never is...{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 15501,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.111",
+      "script_id": 993,
+      "string_index": 111,
+      "original_english": "Hi, {VAR:21}.{CR}{LF}How are you doing?{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 15733,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.112",
+      "script_id": 993,
+      "string_index": 112,
+      "original_english": "Say hello to your wife {CR}{LF}for me.{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 15752,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.113",
+      "script_id": 993,
+      "string_index": 113,
+      "original_english": "Still toiling away at {CR}{LF}the farm, {VAR:21}?{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 15855,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.114",
+      "script_id": 993,
+      "string_index": 114,
+      "original_english": "What are you doing here?{CR}{LF}You are married now.{WAIT}{PAGE}Why don't you go back {CR}{LF}home to your cute wife?{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 15874,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.115",
+      "script_id": 993,
+      "string_index": 115,
+      "original_english": "How is farm life treating{CR}{LF}you, {VAR:21}?{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 15952,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.116",
+      "script_id": 993,
+      "string_index": 116,
+      "original_english": "You treat your wife so{CR}{LF}well! I'm jealous...{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 15971,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.117",
+      "script_id": 993,
+      "string_index": 117,
+      "original_english": "Hee-hee...{CR}{LF}We're getting married...!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 16080,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.118",
+      "script_id": 993,
+      "string_index": 118,
+      "original_english": "I just wish Dad would{CR}{LF}come back...{WAIT}{PAGE}How can he miss his own{CR}{LF}daughter's wedding!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 16106,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.119",
+      "script_id": 993,
+      "string_index": 119,
+      "original_english": "You've never met my father,{CR}{LF}have you, {VAR:21}?{WAIT}{PAGE}I wonder what he would {CR}{LF}think of you...?{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 16120,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.120",
+      "script_id": 993,
+      "string_index": 120,
+      "original_english": "...Hello!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 16230,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.121",
+      "script_id": 993,
+      "string_index": 121,
+      "original_english": "Did you need something?{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 16256,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.122",
+      "script_id": 993,
+      "string_index": 122,
+      "original_english": "Are you having fun{CR}{LF}on your farm?{CR}{LF}I'm so bored...{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 16367,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.123",
+      "script_id": 993,
+      "string_index": 123,
+      "original_english": "Don't tell anyone, though!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 16393,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.124",
+      "script_id": 993,
+      "string_index": 124,
+      "original_english": "You're much nicer{CR}{LF}than my brother, {CR}{LF}you know that?{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 16504,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.125",
+      "script_id": 993,
+      "string_index": 125,
+      "original_english": "My brother is so attached{CR}{LF}to me! {CR}{LF}Can you believe it?{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 16530,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.126",
+      "script_id": 993,
+      "string_index": 126,
+      "original_english": "What is it like where{CR}{LF}you live, {VAR:21}?{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 16643,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.127",
+      "script_id": 993,
+      "string_index": 127,
+      "original_english": "I want to visit{CR}{LF}lots of different places!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 16669,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.128",
+      "script_id": 993,
+      "string_index": 128,
+      "original_english": "I'm so impressed you're{CR}{LF}managing your farm {CR}{LF}all by yourself!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 16785,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.129",
+      "script_id": 993,
+      "string_index": 129,
+      "original_english": "My brother likes you,{CR}{LF}and so do I!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 16812,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.130",
+      "script_id": 993,
+      "string_index": 130,
+      "original_english": "What do you think{CR}{LF}of me...?{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 16928,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.131",
+      "script_id": 993,
+      "string_index": 131,
+      "original_english": "Everyone thinks I'm {CR}{LF}still a kid...{WAIT}{PAGE}Do you think so, too?{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 16955,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.132",
+      "script_id": 993,
+      "string_index": 132,
+      "original_english": "You had better treat{CR}{LF}me like an adult, {CR}{LF}{VAR:21}!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 17043,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.133",
+      "script_id": 993,
+      "string_index": 133,
+      "original_english": "I used to like only {CR}{LF}handsome men, but now I {CR}{LF}think I like quite men, {WAIT}{CR}{LF}like you...{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 17070,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.134",
+      "script_id": 993,
+      "string_index": 134,
+      "original_english": "I always relax more in{CR}{LF}my own room...{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 17307,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.135",
+      "script_id": 993,
+      "string_index": 135,
+      "original_english": "I'm getting sleepy...{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 17515,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.136",
+      "script_id": 993,
+      "string_index": 136,
+      "original_english": "What do you think {CR}{LF}Churches are for?{WAIT}{PAGE}Whenever I ask Carter, he{CR}{LF}won't give me a straight {CR}{LF}answer!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 17752,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.137",
+      "script_id": 993,
+      "string_index": 137,
+      "original_english": "This church was built when{CR}{LF}I was just a kid.{WAIT}{PAGE}My brother used to take{CR}{LF}me here all the time. {WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 17960,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.138",
+      "script_id": 993,
+      "string_index": 138,
+      "original_english": "My Mom minds the store,{CR}{LF}and my brother looks after{CR}{LF}the Chickens. {WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 18197,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.139",
+      "script_id": 993,
+      "string_index": 139,
+      "original_english": "My father trusts my brother{CR}{LF}so much!{WAIT}{PAGE}He wouldn't teach ME {CR}{LF}anything, though.{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 18405,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.140",
+      "script_id": 993,
+      "string_index": 140,
+      "original_english": "I love the ocean. {CR}{LF}Mineral Beach is the best {CR}{LF}place of all!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 18508,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.141",
+      "script_id": 993,
+      "string_index": 141,
+      "original_english": "Kai's father owns {CR}{LF}restaurants in lots {CR}{LF}of towns.{WAIT}{PAGE}I had no idea!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 18528,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.142",
+      "script_id": 993,
+      "string_index": 142,
+      "original_english": "I love Summer!{CR}{LF}The beach during Summer{CR}{LF}is my favorite!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 18765,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.143",
+      "script_id": 993,
+      "string_index": 143,
+      "original_english": "Have you ever eaten at the {CR}{LF}Beach House?{WAIT}{PAGE}They have things there you{CR}{LF}can't find in town.{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 18973,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    }
+  ]
+}

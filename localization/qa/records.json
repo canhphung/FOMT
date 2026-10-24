@@ -14135,13 +14135,13 @@
       "source_sha256": "a4f7ea3ee068e5eb34d0637ee9593990aa26fb416e63dd17ce7bb284d33ca0f2",
       "translation_sha256": "fdb730cf2489b529881b90933846e6291973dee0e6d2c179b9804248864fc9e8",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -14157,13 +14157,13 @@
       "source_sha256": "d744ea43f06aa207641d040747835405f3bb00e70ec74b4cafbbb346eb8202f4",
       "translation_sha256": "950084e35b967cd450c629864d29dc3e1dfd25f992cd847ce3e6eb7d0fe2754f",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -14179,13 +14179,13 @@
       "source_sha256": "27ecd336e82a9ccdfa7577caed4b772cc75fb6f1dc2b82d018ddd486d11da9aa",
       "translation_sha256": "61d45906697156cdd55c47aa5866340eeb3a36b450f307f3369cd73fb0629b92",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -14201,13 +14201,13 @@
       "source_sha256": "8a17d7a8cb0f3affee482c14bc859d68cc54566e15593aac6b45f33cf2db5d33",
       "translation_sha256": "43489c3f4a8af18d5ee8161f24df598714d19128970b28bf579fa478570dc5fe",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -14223,13 +14223,13 @@
       "source_sha256": "74a6d04654b9fdf9392fd7797cc1713487c22cbd01417a6af4fe3e074b349d58",
       "translation_sha256": "fa5f07fb8b255839dda2dad8f337045a6d25234edf1da627d0991db29cc0a3a7",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -14245,13 +14245,13 @@
       "source_sha256": "d849af5b1ca39a6e0a03a252b175715a6331d22874661e4ee581fbc6d360dbaf",
       "translation_sha256": "19cbb7c365412838d99fdc7e870e15ea5b8611406403fc7e2c16185c2bad631c",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -14267,13 +14267,13 @@
       "source_sha256": "4b2aa89bb554d2ee552ecd283b54cd344a4d8b072e58d78b1ed02aaad522b01e",
       "translation_sha256": "3111d805096c89ca12f6f90d7a4daaa46c6f31a0d041a606e9707ade1e5dafbc",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -14289,13 +14289,13 @@
       "source_sha256": "fbae28281e7e6a0188761cc3f64e109b0b596e48999384c2c1511a6bd90085d5",
       "translation_sha256": "8787e8a6eba20480a43c63373ac0545b8bdc1ea68603ff829470a01c21522638",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -14311,13 +14311,13 @@
       "source_sha256": "3a500ff0c49469ece99d8548c5ca400fd71702cab62e08b2204ae5fec987db72",
       "translation_sha256": "d9e81604e05b07b43989a9034d13994d50e1f3d85a4dc84ad7900699489c7349",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -14333,13 +14333,13 @@
       "source_sha256": "1bdeb912814d7da9cb70ffb188b34e8743ab0bdf3859e4dc2bbb73dab0f0149f",
       "translation_sha256": "f5eb022c3bdc33a168bb6ef052b8e61651756a8df6a39aa671533a85ab90ebf0",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -14355,13 +14355,13 @@
       "source_sha256": "8e36c81fa3222f1173a787b775e31ee37f644c090bebd232586b1b4f9fc833b8",
       "translation_sha256": "d0dd710a3aaaac5a032710738ab3f0e0a30039146ec451573f0c2a3668ce2c80",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -14377,13 +14377,13 @@
       "source_sha256": "f8d5a5567667ef4df278b2182f50ed58937c54e7e3520c4c21bff0472eaa4fe7",
       "translation_sha256": "08ca10a63d909894dfddbb89fcd65f770ef34b9ec18900ec75a29cca1fa13711",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -14399,13 +14399,13 @@
       "source_sha256": "26cf5be9df9ca55eec375a2888eadc3a448e10d93e2a82107245ae1bb7e8f84e",
       "translation_sha256": "8bce3fe09002c115ceec394ff023d740c78d939db2341a2b302601510e73baf1",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -14421,13 +14421,13 @@
       "source_sha256": "5786ebb568400f766a8967a5b01dd987b3b67164a6c65f4c13c19c9b446bc932",
       "translation_sha256": "c8c2dde0e90958e817499aa2ce05c034da364a9cf58832ecf89104981f889ed1",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -14443,13 +14443,13 @@
       "source_sha256": "6e6afba49c472beb7d6cdec808ec1e8f7eeb823ee176f07ce2008b07671c364c",
       "translation_sha256": "b7affaabd0ad4ec4eefd9522bcae989f41e4e4bcb443d72032d5687e1f52988f",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -14465,13 +14465,13 @@
       "source_sha256": "302277e7adb0e48f495a5a2fbcd32a9d9d50313b4c022650e671dddbcf060c65",
       "translation_sha256": "ea271a91b04befbc30c663c99752b4f84222ec4284d711bd2f07b568449988fa",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -14487,13 +14487,13 @@
       "source_sha256": "486150f07f1c19a675d84ddf87ec49a6249f7cefaff20487bd38f0580a31197d",
       "translation_sha256": "8a3539d60f20120aa58a0f8c924b519aa25d0f2bc60e758311293097d899248f",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -14509,13 +14509,13 @@
       "source_sha256": "d419c701bc41d0ab88eb86dae6ef5b5ac007f205561d0f77d2f0a07cd7c43974",
       "translation_sha256": "1eb0d815c699d6510807c0aaa20f25d59fc073c151b540da2714db17fc9aa8b1",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -14531,13 +14531,13 @@
       "source_sha256": "422814c04bf63ba195bbee0511f5cd3e7f560d1b2a56ddc7c4d74c4d21ac1f53",
       "translation_sha256": "353fb75fe4575b2e422f79d60136a5ab185861fa7bc7d386caa8eebe39b0aaef",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -14553,13 +14553,13 @@
       "source_sha256": "6983cfde0dc9f6ab48a7a39a8bee5ccf8abaa5e343c5cd94f740b896bd6611fe",
       "translation_sha256": "dd7b243377acb09498adb70eed06baf0000b8dc68818a7afbdfa81b48c964181",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -14575,13 +14575,13 @@
       "source_sha256": "0828e28176cb1fda877b983d3fe3f809d703b49fefb5e092755a7e0004b2526b",
       "translation_sha256": "50c4e0d59249c1674a067e179bd00286f519ab190440e6c71963407f698b4480",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -14597,13 +14597,13 @@
       "source_sha256": "5acd1c2c6e4350440d395dceab906a900ea2ffe33a1ca666e25bdab2e4f94997",
       "translation_sha256": "2c85a1c04d455205a21cfc736b9066fe9446bec3d77931794220a5d853401e96",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -14619,13 +14619,13 @@
       "source_sha256": "f53a1bd0ed3bde670fef5d6b587915ecba3285b93a6c7f871b7a517f7be9fb8b",
       "translation_sha256": "f0e9ba55d4fbadff141c2b396cf4b6525a07e4804b036d10361aa6497c68f936",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -14641,13 +14641,13 @@
       "source_sha256": "0d2d1090041697c5eb2d2b1c4e596843a21075799d9421fd14599f06e9de3c54",
       "translation_sha256": "b4a91d9296df91afc309a369f0aac1b8490073f6a72e72f2ff06ef6bda8ee63c",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -14663,13 +14663,13 @@
       "source_sha256": "71931f133bc59325ae56e3716163da5310ad25cbf3a25dc9a03a6f67d3a2e1c7",
       "translation_sha256": "144cca37a7fbb73a4e5aa61d1a4043de3adf98ea4e22bc4d421885b68de2c544",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -14685,13 +14685,13 @@
       "source_sha256": "83c74f783d5c310eb18973f535945f3819817a25776ff46d49b4e724ca28cb12",
       "translation_sha256": "2423910bd9961a3abad6052356de4c4a48ac27b75509df016344be115a6f5e30",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -14707,13 +14707,13 @@
       "source_sha256": "486337fc92c6de81a632f6eabf224a9ec6ea30b4426c0163049378b5175c132d",
       "translation_sha256": "cc168bc3cb60e3d89871a5ea0823346a33d99f04db7cf0af26220ab2f5242dc4",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -14729,13 +14729,13 @@
       "source_sha256": "4601c2052819c798ed48f50eb7475c6bc45e74ada56a10575cb30638ae0d3178",
       "translation_sha256": "920aea218bf2ef8ea009acb3e5215490b087bb746ac533dceca895d1d26fdf56",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -14751,13 +14751,13 @@
       "source_sha256": "142514fa4295df985909d1d1615293a776db6d67326c6e01f3b98642070f3758",
       "translation_sha256": "d832d3b26119246fd667b98353a6411c006e3050fa2ec859225e8f6126ebd26d",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -14773,13 +14773,13 @@
       "source_sha256": "ca16664ac9c4a3531e4131776c850499d6a35ffb95075dc19193861d49b7f1f2",
       "translation_sha256": "94742ee648804d47a1c2bc9150e7ba5424addc8f9b8c117dfe4708557f8a6c67",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -14795,13 +14795,13 @@
       "source_sha256": "a963cd61077e98d7c2f9e3e674d71b749333bed686616dd88aedc30af9601a55",
       "translation_sha256": "80a8cb93a659ed1141b2805970b77803ae2ac7301c77b1f02614903af94a627b",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -14817,13 +14817,13 @@
       "source_sha256": "b45587bacac4078c0eed96c483d996f43eff09256e1bdb8f146f9eec42e080bc",
       "translation_sha256": "81d36884b354584e2eaf8d9a551e610be7baf58475e847b521bd3dcc79c71b63",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -14837,15 +14837,15 @@
     {
       "id": "script.0993.125",
       "source_sha256": "bcbd53eb8cc5c02300b68b88f9381a3fafdc5a18a1314a2dd452423c747e09e9",
-      "translation_sha256": "3e8a56ad662ce46372b3be4ec0beaf299cd019acde0959567fc4297e6a556247",
+      "translation_sha256": "4cbb53946a3a4022dc7ba97fea8bfa06285360a7eb1da04c4219a2266fcfc09e",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -14861,13 +14861,13 @@
       "source_sha256": "5fcccce71e5aa74dd32878cf219df2067d398e3bb176e74af2ee5bcac1addb7b",
       "translation_sha256": "ec2054e8b196e0f5f86cab1e71641a6833b936beb3c9abd008cb6c54efd67940",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -14883,13 +14883,13 @@
       "source_sha256": "cc509daf8d259ffae8bc58e87087d9abf16b5bb5607dab04e9c70305fec58f1b",
       "translation_sha256": "c0f035bb2090c596f8b5226a38bae4d302ac3bfaa436e8de23a5b11ca81afa37",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -14905,13 +14905,13 @@
       "source_sha256": "3d17e5a281cb0231e2e2765c0e96b845e620faf77b9f29b0b1ed5cee08f4a519",
       "translation_sha256": "a07023c31c816e4abaa7de936b09c8dcd8168811d5ad3595720b181eea257eec",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -14927,13 +14927,13 @@
       "source_sha256": "d0dc2cc0336701c9d141de530e49316d9a9a9ab39de6b994deb8b0e81318e125",
       "translation_sha256": "10add2f7ecc93a4d813b42cd19e028c8613c6e1b77c508859eea2eeedf455686",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -14949,13 +14949,13 @@
       "source_sha256": "c0fdb50be8ed42b278f4cdcd2b898e81f746fc792e5284a9109f25dec54700cb",
       "translation_sha256": "e064800183c26fe81b15a51afb9eb4975b1541b2374d04b0fd45e48db7a10aeb",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -14971,13 +14971,13 @@
       "source_sha256": "a4051e3315da3168122e7c90d066af11068cea6879514ada08bca2cc57a5bb97",
       "translation_sha256": "986b2057d115a053d0ea7fe7ac68cc5c91da651a7ab0876691323f3ff6a76d64",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -14993,13 +14993,13 @@
       "source_sha256": "f2152429864a857477ffe4653ec03bb9f03a13a2a3b854f8d522c9e7b3324c80",
       "translation_sha256": "83f7542cd0bb23311de831e37a59a3166ab6f5619c3670c1081f7107aea7e608",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -15013,15 +15013,15 @@
     {
       "id": "script.0993.133",
       "source_sha256": "5217aa829d59d35473b9948ab83c7319923155939a1d85ddf4ba55bffe9fbf33",
-      "translation_sha256": "1ee2643617428b9c28a86fb249190cce6858ee4089703972dd292a87d6472198",
+      "translation_sha256": "92b8d923d620b31739c551449b3fa772ca0f0f2a62f041dc799617545c2e4078",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -15037,13 +15037,13 @@
       "source_sha256": "a6fe9a3a35dce9d90aac1540c86466e9ce7186b794ce58adb9dc456e2a1def37",
       "translation_sha256": "43230bf60bbcd17c502bb4be8b6dad6ebc878d54d3d6b7c5c758c734f60269a7",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -15059,13 +15059,13 @@
       "source_sha256": "e145fbfb1615efb92966dc675028bb5d4a6ed2ff88b453c5eb70973efb42e895",
       "translation_sha256": "886412600dc1b3fbcf1a8fbc535c4ce4092473d9c6a5c19f7c4637c02f4d1e0c",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -15079,15 +15079,15 @@
     {
       "id": "script.0993.136",
       "source_sha256": "e508d84141b0c8af72aa5f322602a45151b2cf1b87f7b598e826ef4f1da3b870",
-      "translation_sha256": "da58ce486a3b024aa16db89adbdc318737482b73d45495453623425ac9362e57",
+      "translation_sha256": "05997dec5a552a21e8e12a8d71663dd4efa8e7c7f19d265779334ffc320a9341",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -15103,13 +15103,13 @@
       "source_sha256": "0a49444bde511b449d8e1d5fd612e906581f114b2854068b1e8f3a274dc2e441",
       "translation_sha256": "67cab20e445f4fda6f0996701144a0f66fd1bf8c90966203988b24bfeceaaf2f",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -15125,13 +15125,13 @@
       "source_sha256": "e867445c16b1972f5ae6fe7342007e85936cb1a6662bb4883f9a899cbf9d7071",
       "translation_sha256": "fb6a361a06f5359ac8187d7f14cb9ba675425778ae2d1e781950fe4503d61d61",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -15147,13 +15147,13 @@
       "source_sha256": "8cd50d6d4273d539c4760a2d2e5ee62a46c341f2d0d5f11c12d06461649cce67",
       "translation_sha256": "0a99a6b65177d7fe07148308bdc566928d80ceb72d29b5fa26a02325b7718d58",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -15169,13 +15169,13 @@
       "source_sha256": "e1b41e26fd1f11a8491cf8c08062115352d3e7d96ecd7efc19245fd301046b8e",
       "translation_sha256": "0690df45bd3115181c83ee34b2d3e306b75a82dec0309e536a9c7ab257d47686",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -15191,13 +15191,13 @@
       "source_sha256": "6dd21df453c278c938d703a2d6903550f232c9a4577976331e110593e9bd87c2",
       "translation_sha256": "376ff9fe1c32d849a0f1921b7e1b76143fbe449408463e5c1e3be879728fe72d",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -15213,13 +15213,13 @@
       "source_sha256": "6977ba6ba0b4e41923acf9af68a7d0462fc50a862179f2e313e8190aa0aed828",
       "translation_sha256": "aded3a889529fd0e18d8392872ef505bc3273e0911e9d678282cfaa38fff3562",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -15235,13 +15235,13 @@
       "source_sha256": "d70f45e7a6750a4e7dab3ad19a4961de827568781282e0f60b38ee8fcef15619",
       "translation_sha256": "abcb45aefba8f328f12488e9592a95389560b8af2e644436789123de99934778",
       "context_status": "verified",
-      "context_evidence": "docs/NPC_DAILY_LOCALIZATION.md; actor script literal, CODE hash and native ShowText site. Full trigger coverage tracked separately.",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
       "language_review": "pending",
       "layout_review": "pending",
       "renderer_check": {
         "status": "passed",
-        "evidence": "docs/evidence/npc-daily-validation.json",
-        "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5"
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"
@@ -23256,6 +23256,1502 @@
         "status": "passed",
         "evidence": "docs/evidence/farm-interactions-validation.json",
         "target_sha256": "795d71a987886f7c4abf9a8447988766e1ef9a5e578aee65ae1808e63950c77f"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.000",
+      "source_sha256": "f9b363f6617aff075b2d701a2a24118b94a1c7a60ae724bc30455113e6364f58",
+      "translation_sha256": "e7debb28c101c880cc7955d6fd02eb92a7fdc7c4016aa11803d56030d4cba94f",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.001",
+      "source_sha256": "69ea111cad8c86500bf6e1273306ffabb504d6cd906c631a6b93526c345a4cff",
+      "translation_sha256": "027c5e1649fd3ed77c45b7617b36f26c395d1d3e21fc4369fa60068e83514fc5",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.002",
+      "source_sha256": "55b0afd96d5173eb86ca5c36feee944eb5fb34feaa7f4294b5877fb6560f857a",
+      "translation_sha256": "40db18be83cca9a70b9a42cedb65df125582103e2ef286ba30adffad30976935",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.003",
+      "source_sha256": "668a3a04232155c64bcbd5bca0a428a14151b984c8d17126189728d4b1705a9f",
+      "translation_sha256": "ed6e14600f333863df2abb129f596fee9163808e11409461c9d391cb000d3d29",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.004",
+      "source_sha256": "6f4988773677803aa79de976784c332218634cbeb2a64b8a0fcf812bae6b9a9c",
+      "translation_sha256": "ea860961104c80207379859a6ee78cde959b847f7c678c5a3b0c0420e6962f7f",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.006",
+      "source_sha256": "9f53991d62bd50fff282853ee7112b85d88be9b88ada6764a4d4574f14f2e330",
+      "translation_sha256": "5da7dffc167a040db951aa0af20d4dbd070e936a401667327ef05aae04be64c8",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.007",
+      "source_sha256": "ff669123c2bcd28494893c429a3636783f18062f540aa46cdd1dd72dc2b2e925",
+      "translation_sha256": "9dd8edbea65abc831417d6fee6f88890589c16045aaa4f0b7b4de4cdab1e732b",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.008",
+      "source_sha256": "12d623c55712c2eb867782e3e2e816a18884a88b38dda5cc6d9841a7acaa3159",
+      "translation_sha256": "484499cfbb162eabd7ae28dea396d283d3c845915b406b43a0fd5e6a136afe4d",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.009",
+      "source_sha256": "f441ba9cb25b0d0d9d2df0ab336b292c94b78946289eb16d1b7789522f917e31",
+      "translation_sha256": "bf0ecab165d71b8ecee5a3f87c691c13e7734861d212a770e2608759b053f256",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.010",
+      "source_sha256": "88a9481128de52d03a40ae9e59f162059a085b7fe400c0c5d43584e7ca9104d6",
+      "translation_sha256": "0110de6c83908a82a131380d3f0b8bd24a56760d0e865dc1f8661edf79a6539d",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.011",
+      "source_sha256": "59427f3c3e3f862136e32198b9e0c298adf736d7c65fb86f15c214f4b3ecbe6b",
+      "translation_sha256": "f95a6cce6014bc3c74b9d58b86a179c8028249eb25957bca220ece22aa9dd02b",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.012",
+      "source_sha256": "dcffa2c766dc39c811708a83177241841dba4fda73dd8982335ad6e014139cfa",
+      "translation_sha256": "93a1d774583e9798f8029ab3034d362ba0012a32cfd312213af2a9e8c398ef0d",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.013",
+      "source_sha256": "94e419cd9506f1102456825b1f5dfa62578122c1e160bd4b9a141c44a5464331",
+      "translation_sha256": "86bf488a687ebdb0183ffddd06d40d34be90f4f90fadbdd1e49bc477560acd96",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.014",
+      "source_sha256": "5f219c59b280fbfe2e9621beff17a4b1dfac4581c3045f221411a8b494504f94",
+      "translation_sha256": "4702355e90b99c640506ba93edc13c7f91e6fe7e1172687f84644f067e931307",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.015",
+      "source_sha256": "d3e8cd270c7e4f748895421700f7c7f119f977463188387498823ee8552a047b",
+      "translation_sha256": "76122684801619bb2d20cd65a297d0d7aec924cae8f2734fe39ec279680ad2a5",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.016",
+      "source_sha256": "0b7f2c7b0cd3c97d171a3892ca874d88d7dac5ea3de747c9302a6cbad6f40b55",
+      "translation_sha256": "2e7b71dedccd3f68cba376a71ff07a9a92bc6562ea5ab56a924164dca7e3be36",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.017",
+      "source_sha256": "cdce14b959a025e244be4a988199cf2a02dad902dfd8af261d396722dd026189",
+      "translation_sha256": "d27005c284286471354d4f34a1f5bc172870a830d221caf0fb08714ec7abab1c",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.018",
+      "source_sha256": "981353e86a03e792d19d1a1ccd3ff1b659e257af6d5aebdf187f19b0d6dc5277",
+      "translation_sha256": "e1539fc21d82122ee48a7b425bf0bb3dac06a25380c3a64e914e3fa592e6e103",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.019",
+      "source_sha256": "df3b1e9a73233121d45f9c4704bc782b8e811a7a6fd96629ac649142acb619f2",
+      "translation_sha256": "000d2f47b6ec10fc243bb484e84bf2e7f35a8bc4972ab0c1b948016847c55bac",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.020",
+      "source_sha256": "25754bcc3e5f66152fd4a9b6a035b842bb68125aca0f7106c0a7c4657cd4e4b6",
+      "translation_sha256": "d16d3ac8cdaf977bab7c6be29cb50895bf9cbc5b7c89037f9496307767b0cf32",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.022",
+      "source_sha256": "53da44af9e0c321a6ce41fc89fafb065833821eb25c394adc5fdd821fca3b92a",
+      "translation_sha256": "055a28461cf4ff532aafe57b15cf99bdc1543a04bedba5ab7d792d1bf3dcf5a4",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.023",
+      "source_sha256": "5eb4cda2674619cc9ffed1196ad71bf49a96dea0e7672bc265427744698f6a8e",
+      "translation_sha256": "98a5963736a7d27db69bf18c62c289a2ef1046480a799d25227aedd44ec7c1d3",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.024",
+      "source_sha256": "0dd55dd791489db0514d82f5d87932db1396387ab340bfa0ca6d498f4817a628",
+      "translation_sha256": "c543a271339d80b12ec50b6530c76b773ca005da4c76c7da9fefdf2e7846afbf",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.025",
+      "source_sha256": "10031d6ff9eecf3bee337aa0a384ff30d92734358d1789bb65fc3f0919bde754",
+      "translation_sha256": "6d211ee85114891bae6603e4c5f681a3c4283d0509394f4bf02158d5a753a80f",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.026",
+      "source_sha256": "1732e8aa8a53f7b175015fbd0a14c64d81b3911e254c7f67617359d5045be7e3",
+      "translation_sha256": "b6fad2cd7e47f41446eb44ebd7d32a09e01bf556c5c244bedbb47229593ff1d5",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.027",
+      "source_sha256": "cf73de577639c5aaa9989cf7f1332b8a72ef20c83e34168247e5a5e669f49a17",
+      "translation_sha256": "7ac130a9a402c2bb1328178e7e06cf6246c4f74ad01729892904b2c0d40445bc",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.028",
+      "source_sha256": "93a1876db48e4f0134df7876bb4580d4ef32a8144ed6b04739415576af183c0b",
+      "translation_sha256": "39131bec213298f772987581e487747302472880b6ec3fe37bbad58279f36e4d",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.029",
+      "source_sha256": "8ed3749de6c020caabb0c5777a865c943f068984af1fa369d5cb64583cebe286",
+      "translation_sha256": "87c7666d751fe3064b9048b7755a2fc0c5ce4abc0be2ba2437d13817b9ddb795",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.030",
+      "source_sha256": "3a6787221d8aaea3dd5682f4d7f8c147f6a260dcf6e45f3df9dab27438a3e987",
+      "translation_sha256": "72c5f2b2e9299fe78df93232850cb11828d096757a625d441d3466d800f52588",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.031",
+      "source_sha256": "f270a808ca49358bb148516a7f76e4db2197f6859844be5e8ac972ee8a82dfdc",
+      "translation_sha256": "1a9eb324ab4d2993f424b3ceb6979dad4a7baa4d78b49ae69c143e3a4a93f247",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.032",
+      "source_sha256": "1b4a72365e06846f4351a487efe3cfaca1f28d20402deaceedbf0ff6e4b0ddaf",
+      "translation_sha256": "2c50957d1dd2546fb001bf0d7783819dfd1f8b7dae1db88806bbc61c1d45acc6",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.033",
+      "source_sha256": "7f738199eb0f8a41e07c82eae5c5b9e5fdd0e9929e5b17d0f8c62c9260c68ade",
+      "translation_sha256": "1661fce764a879a0b7a7e0363cdbf3575672f7a3db7875e675fdd95ce77168a9",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.034",
+      "source_sha256": "9386c2b5a2e624bac1e944766d4c57711f83e6e7e9e065ec1655eedcd6f38e1b",
+      "translation_sha256": "2fac01b7c5ed39efe58d25cab17747585b3800de2c906df905397ec6e35afb49",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.035",
+      "source_sha256": "f6951ccfbf8ca6457c78ed9892d9061b48586ef0d169e06b9af05e7d60c65e32",
+      "translation_sha256": "22074ea617244e4f2d7e0be405376ef789835125d7abde0a47ff01959c83da1a",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.036",
+      "source_sha256": "da34f506d8b7582b92e6c9634a7318216156306b6f79ea2eb601ec32abd61a31",
+      "translation_sha256": "1d1fc805a06201a1cafdb5319adb3a46ce61bbd3fdb4d5fbdd0be1150e13356b",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.037",
+      "source_sha256": "ea99f8994cf23af9ae14a75ddb4bb4d2f7b3b1c04fe6babe54caea18622bb4ae",
+      "translation_sha256": "0199646c897ed4ed48231b36e99ed486ec11b7c3ff2c40e70b80127415d954d4",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.040",
+      "source_sha256": "8bd16be8bdeb0f2acdbaeb49ecb249d273862782c4a137bf0a392b33d0852f6f",
+      "translation_sha256": "33727e16be83d598274fd2f6ceca5c173e15a3b63bd1ed1873c0327529f05cc5",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.041",
+      "source_sha256": "4bb1f5082b486cf32b9fa8ed3cf1710cc7f18dfdefe204cebe1369416bcef977",
+      "translation_sha256": "62c84e8e0a33953d2f674b0a55aee290a761cacde8c509750179ece03915983a",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.042",
+      "source_sha256": "96f309351a75d0d4124f35204b17b8ad0f02362b460fce54b20eec8a8378aff2",
+      "translation_sha256": "d9d2400a933a9e1863aa1166bd27b4ca9fe6161bb4e8d3cbed39d1f80ccf7f62",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.043",
+      "source_sha256": "0a7c7cd9616d1417e733a4f5ce792e2a89a3b90660ef7261b408e9fa22158e8b",
+      "translation_sha256": "a8f222338f96b15419f2f85e1030ac65e3fdbc6c18a82377af98445793732bef",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.044",
+      "source_sha256": "c3735707deec9242b58ae615afb74edf9faf2af880dbbcac57544fecf1a97e76",
+      "translation_sha256": "791e21ee4a0bb27b71ee05e9549e9d252c340500a59b854c52bde7b2fc8ba10e",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.045",
+      "source_sha256": "e12e92044804aed3bf6178d9a1869188497e8996aeb7df0b744cdb938a80ddeb",
+      "translation_sha256": "18a82d25f0f70cd0c664b27172db736a3cec0c097118d981672eff521a575018",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.046",
+      "source_sha256": "0599a1dc7fc82dcff585664b70f371abb3dcba2e4534eb6c6f2df6854fd779db",
+      "translation_sha256": "9b2016fb7e0231b1b9f22f1aa1488b0377210e7bda03d5eae724d27d4b205784",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.047",
+      "source_sha256": "677da6327efa112722db219a9cee1ec4ef6d5dd933139ad007d8f3469fb732f6",
+      "translation_sha256": "fcca1a3a41a8f58b1bda4340d17153af03da8646aced368c05cff4897059bfbf",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.048",
+      "source_sha256": "9228a9fe9886a3434a26a9d4d6db9fb9295bc73392aa4915fcd9e32043a95d57",
+      "translation_sha256": "c951c5e1c2f891b6392ec2e9ebdbf697cd8def1c3afb7ba30dc66c15b69a4c24",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.049",
+      "source_sha256": "b25b4b838075edb3eb955bbe535b46c2deff4d803d8c14594bd5f31c4a9a64bf",
+      "translation_sha256": "b25b4b838075edb3eb955bbe535b46c2deff4d803d8c14594bd5f31c4a9a64bf",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.050",
+      "source_sha256": "a6681b65ba15d38489db6f989a63b4af661669c4a5208c8c2be595a3257a94bb",
+      "translation_sha256": "fa32626bfed498569e0f5df3ebb36b4b4241b61a8a05b9ffbd78c6307f830f99",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.051",
+      "source_sha256": "1adcb493050ea6e58926313268a05b52be89c02d8e77959081ebcb71c6afb536",
+      "translation_sha256": "8a2812df31364d25663a1b01c8fff42eb94460a957fbc141cf8ab4b5ee47f35d",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.052",
+      "source_sha256": "7301b1c0d9ace8cd2c86f1693afdb8b71577d759635aa8eb99a6d36a1f78f9a1",
+      "translation_sha256": "3252f6719052e8e768bb0a049e7869127eae4bce1fb1d0e01c9e547d65f4acbf",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.053",
+      "source_sha256": "80e334e19480e7eafe235c7ecebbd06e013b74cc01326a7afe32c5e5f266878a",
+      "translation_sha256": "20c02aa2ae68f2ab80eaff84f08f541ca49e272205868d5e67a401a2b79b1361",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.054",
+      "source_sha256": "00ade155b6ba1fd8b215e1f46b66950fa8b9c8477d81de061ce9839aa4dbe4b9",
+      "translation_sha256": "dc3c453e55b446c6971d9e0fd6b45f9ccf9fe8e2b4d8b90872f366dfe5343316",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.055",
+      "source_sha256": "dfb33f1c9055c7a2734ffaa3b180a7be53438bc206cfb40a32f8edcf1eebb960",
+      "translation_sha256": "0cd864a9d9548b21491bf128bc54bea7ccff07dfe4e3c729d258853a3156bf2d",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.056",
+      "source_sha256": "d6a9dc23b5daca82e5a27a51fe50c0494694366361e741b45e10b65c24a2db66",
+      "translation_sha256": "a2a94e89587304fdedc5b7e70ee6938393bcb2d013c958a57e643cd3daba7fab",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.057",
+      "source_sha256": "d03614c02436e1162114157da2927a20e607d28c60ba9cddd518df3ec61959f7",
+      "translation_sha256": "c911ac4f18645213f1607f492b6198379883d17148f5260ffcf6cf9165297ef9",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.058",
+      "source_sha256": "535363cd738391649ccb5c92ffd5ad50aa03c50d33bccf5f2ac3bd899a0c68ec",
+      "translation_sha256": "453d05dbc19be453149944a3766c3a6554bf8e77e43b63a0c331bf129ead47d3",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.059",
+      "source_sha256": "843a92aa80d37283392cf8b8c407f6e79046a1c460b1003d394da4a61e3ca9d2",
+      "translation_sha256": "34664ec99746d0251aa7e8772a9191ce585011652ff311587425490e81e10ab6",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.060",
+      "source_sha256": "df55de7b73fd5b049359d66ec6b7a5378b9b0bc912629a742a4a9c42f3fd9e0e",
+      "translation_sha256": "c2b1bc1dd033a3dcdf7da72fc0d40fee3988b552f0a4d094cff4c8f74dae7aaf",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.061",
+      "source_sha256": "a857a8a3be7390f21516c21e56d27cdb7081b8eaee7f2072ba3e7d25bc22c989",
+      "translation_sha256": "a857a8a3be7390f21516c21e56d27cdb7081b8eaee7f2072ba3e7d25bc22c989",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.062",
+      "source_sha256": "a48bfc636a9641673076f0f0bb142d4bd647d2a4719f315739517612ba7f1b9d",
+      "translation_sha256": "6f1d0bda7cadd3dac3c26b751d7441e017d27ee5c4b9c9dec1cbba4d119e0b64",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.063",
+      "source_sha256": "39ead9b27f3183ab489b42bb56dbd11cf85b71fe5b87d41d01f7e88a04958179",
+      "translation_sha256": "8dac4d62d5bc4a88589331db97b0c70963d3153da8b092eafc3de7ef79154590",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.064",
+      "source_sha256": "d42f7aa36ac03f4d17006abcbf3f6310ba0a1f9886267c61251e772c044970d0",
+      "translation_sha256": "8c15039935e6744888ba408f331bc9c7b0bd13b3b1147c5161b0b1cccec67cc1",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.065",
+      "source_sha256": "3cb4ed4ad3b48720be26b261ba3b823413054384695a144d3a2957b655a16c60",
+      "translation_sha256": "b94a9c24a0371e23e31f25171076d1ab13f5dfebcb544473c3cc15eedb10f1c4",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.066",
+      "source_sha256": "4fc71df8b83e29f58ab96930f6f38097ecb32bcdc5f2e0b385e33dd242a5bf5a",
+      "translation_sha256": "0e507eb05259f6c175a96133579fdf2209dd24cdb2617197b2bbb9f465839674",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.067",
+      "source_sha256": "d65c2935e95962a263acca2e3a96068bb6b6630563d1c1a895f22810e083051c",
+      "translation_sha256": "e215fcb9e6811da485bfdc26a37470ddf23bb1546c8e72734e58a6ba4aadbc7b",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.068",
+      "source_sha256": "f0a1f6d195e36de56f0c309ce6d78d1b6d80b5f8475388eb9b1e2d98ccfac34e",
+      "translation_sha256": "2496c2772d0014efee92f722e66f881e0b59dc4fc73f3a639dbbc4e0646086bb",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.069",
+      "source_sha256": "e90ccd399682ca28f0e2a64b51c5995437777a306c74ad8b3aa52fb8674128a4",
+      "translation_sha256": "54d35cde01b67ea203ef431ca012b587a2306fbc046dbcc3cdb8be8997973592",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.070",
+      "source_sha256": "7106b7464bb939c627d02e54f9a0622fee1517c689cfddf38318e472fc4e2c1b",
+      "translation_sha256": "f3ecb22185b5c23d589d4067e5e69b640a76830fbef10be843ee2bfe10d644cb",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.071",
+      "source_sha256": "cbb8915d1de20124131fad0a618351bf6190042f62c6accf7db1c8279f05bfcf",
+      "translation_sha256": "72c60b8d7bc54503f1e196a6034de0eee4cc9ecd726301c175dd8c16fe10aab0",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.072",
+      "source_sha256": "bd5964dd36a53fbf7915fee9205bbe2b91fc97c34a6582654fd237a90e3e2ece",
+      "translation_sha256": "5de68fd370dd2bf228c50c2f1093cd937c21ae6b2c9182730ef096a3f432f8d5",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.073",
+      "source_sha256": "6254d3049e832d38392de0bfe17b5319d4a282de3bb4ecc5bb7a2f568a65093c",
+      "translation_sha256": "51c3ed045ec1b19b96cd367e0ba9e7182a7b49018ea3a82cc1ab6d46c9502621",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.074",
+      "source_sha256": "f2b0d29ccc2fb97c1cd74009ff47be258d1dbe249174c1d4c7cb7955cdfbc436",
+      "translation_sha256": "11eb34ab3f5e06ffc2409372cc49d82b40b242a1f2a8d81103f9cd5b86e30f89",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.075",
+      "source_sha256": "4be42965256b6f74994dfe4ce6ad1a5bddd00e30db85273e90c83d742905e5ef",
+      "translation_sha256": "4793a1187e8fa68663ea937dcc4872902bfa1a3ddcb0db15fe562e1f07f9ab51",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.076",
+      "source_sha256": "1b4c06824a1c47c121b35e7f8807aec97d611255d097fdcce1a10af89b071081",
+      "translation_sha256": "7bf4a6b38d35d4c9a01b75d408089c590f7073e3c36a0e6df47106080d5be21a",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.077",
+      "source_sha256": "bccadd5dba7b5ec5d221a062429b836a80152bbe56dff09c0c313e505f0de7af",
+      "translation_sha256": "7c51cfba39d3034b335987f84911f703d2e45b360f2e508d0b5ffe30d1d44929",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.078",
+      "source_sha256": "13b7e4ea0ea45b0e018f9acd5f4882c653ba903f97c4ef5f443902182365ef28",
+      "translation_sha256": "5f00798379a67ba9d4c8d7a2fd301f9ff5062918841afcdac048d3dc3380fe40",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.079",
+      "source_sha256": "a68407ada244f70917762bb0ba7a403444b3c55c8a45e0b22ec4f40bb787874b",
+      "translation_sha256": "dfde6dac6340b0ae3de0ba8b3c2d251033c41f4c6646387a4f8538b9a9f5daf0",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.080",
+      "source_sha256": "ca21acf82a860ba4e6925acd374900dbbf167e9fd1579407616e0623efd8b2e2",
+      "translation_sha256": "2695b2ed66dbfeaec57be06c9476dbb00a7eda06b92967f0ae5cd99569fbfa33",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.081",
+      "source_sha256": "1c480126a1632c9dac7d13762d8b8f8e51eee02b1e05b1483b34e5d1ac81fc04",
+      "translation_sha256": "81025a673a82964d64a9017e03f17500b45403644fd770ec9eb8160852ec33a3",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.082",
+      "source_sha256": "5ab47cc8a4e5397a48bdb199e857ddac7a5b1dba4eba8bfcccc49ff2971fee19",
+      "translation_sha256": "49dfdc217f5d9132000d4a141890bbe001208d6b9887dff25ab07300b812e02e",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.083",
+      "source_sha256": "2a5a2855aa5ef1b3ce2d8e2974a60f16bf69d4aa2e7cba4a9851fdd8c4788d04",
+      "translation_sha256": "2a5a2855aa5ef1b3ce2d8e2974a60f16bf69d4aa2e7cba4a9851fdd8c4788d04",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.084",
+      "source_sha256": "6fab8c8417bb49be12e65b3ffddeb80846fecaaa828b0f1a6f48c938ff7e4bb1",
+      "translation_sha256": "4e74e3ddaa3f3676e10d791d6281ad1d7c25d391e8ae86f3bd3d8c71633802bd",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.085",
+      "source_sha256": "8d139a71e814ffe95afe798d0488c4ac5aec3f313ad76e1e523b9a3d95073d9c",
+      "translation_sha256": "2c279dc93fac5de6b4d6fc02788941f26ca57ec730b3b9c84ee3383b87c988fa",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.086",
+      "source_sha256": "b51cbf1207d15109c685f72f546fb5058a5e408b4b84ec584e292752c5c2df40",
+      "translation_sha256": "872a45f55e38144ce07685a2d1ec68f96ba2e78b0fd87dd8ad4081fe05c60579",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.087",
+      "source_sha256": "18d4800a937d8be020cc33f55c148637431cb06bd07f32a900f0307331b58837",
+      "translation_sha256": "d8a7b32b4b42081032e15ff9b461c448849b81ff99e8c231053804cc027d7260",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.088",
+      "source_sha256": "7d3e6525da0e54baa7c9aabf363dae9356d4a0f10f1bb39c09e5d3bff23c9ee9",
+      "translation_sha256": "08dfc6e5322787b0c819099a69c00f5d15333f902989f89aaeac4c101acbda90",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.089",
+      "source_sha256": "0aa14b0a760880a239e16b60074e142de17ab2480b37d650d108cce9568d0b7b",
+      "translation_sha256": "bd1ab34b53984cba98e7804049802e52807ead36944421927558a137816d951c",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.090",
+      "source_sha256": "f3274b11f32b3ae5b20af9ff479849e06124d2d8e8cd4139289c67162cefea45",
+      "translation_sha256": "98490070635dd6bed08a73e4d2fdbcb30a654e9310748b178248fa245476ee52",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.091",
+      "source_sha256": "f467e7d688160818080dd8c8839f5a7effedec996ff599863c3feb38c7c084aa",
+      "translation_sha256": "ce43399bf3e493d4293ac754335313ce2a258ba630d20cb9594dff0d27116e35",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; actor constructor + full CODE hash and immediate native dialogue call; semantic context distinguished from unverified trigger gates",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-validation.json",
+        "target_sha256": "02f79aaaaaa283e12c5e82c7484849d1ec5cdb9b2ffa4490246c89cd28931700"
       },
       "playtest": {
         "status": "not_run"

@@ -31,17 +31,24 @@
       "character": "Popuri",
       "script_id": 993,
       "standard_script_strings": 144,
-      "translated_total": 52,
-      "translated_in_batch": 51,
+      "translated_total": 139,
+      "translated_in_batch": 87,
       "existing_first_greeting": 1,
       "pronouns": [
-        "mình",
-        "bạn"
+        "mình/bạn: general or shared",
+        "em/anh: explicit spouse/family"
       ],
-      "scope": "indexes 93..143 and previous first greeting 0",
-      "untranslated_indexes": "1..92",
+      "scope": "139/144 standard-script strings; not all Popuri events",
+      "untranslated_indexes": [
+        5,
+        21,
+        38,
+        39,
+        92
+      ],
       "season_weather": "Rain and summer/return-visit references present; full seasonal and rival/player-marriage trigger gates pending.",
-      "natural_encounter": "not_run"
+      "natural_encounter": "not_run",
+      "evidence": "docs/POPURI_LOCALIZATION.md"
     }
   ],
   "evidence": "docs/NPC_DAILY_LOCALIZATION.md"
