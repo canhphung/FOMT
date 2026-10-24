@@ -15,3 +15,6 @@ inserter re-extracts these fields independently instead of trusting JSON offsets
 `npc_daily.json` preserves 85 verified standard-dialogue sources for Thomas and
 Popuri, including guarded actor/ShowText provenance. Trigger coverage and
 untranslated spouse/home records are tracked in `../npc_coverage.json`.
+
+`object_labels.json` preserves the 261 verified examined-object label records.
+The source-only ID/CODE/display-site contract is `../object_labels.json`.

@@ -64,7 +64,7 @@ không bị cắt hoặc hộp thoại thực tế không tràn; vẫn cần ren
 
 ## Glossary và hồ sơ người nói
 
-Tab **Glossary** tìm trong 405 thuật ngữ hiện có và bảng tên riêng; hiển thị
+Tab **Glossary** tìm trong 471 thuật ngữ hiện có và bảng tên riêng; hiển thị
 category, trạng thái và source ID khi có. Quy tắc chung lấy trực tiếp từ
 `localization/glossary.json`. Tab **Xưng hô** hiển thị bảy hồ sơ, phạm vi và
 danh sách ID. Đây là phần tra cứu; chỉnh glossary/hồ sơ vẫn qua JSON và review.

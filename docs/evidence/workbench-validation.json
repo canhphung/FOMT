@@ -1,8 +1,8 @@
 {
-  "revision": "translation-workbench-v1-npc",
+  "revision": "translation-workbench-v1-objects",
   "browser": {
     "status": "passed",
-    "timestamp": "2026-10-23T12:17:27.329Z",
+    "timestamp": "2026-10-24T00:59:54.315Z",
     "checks": [
       "Real catalog loaded and table paginated in Chromium.",
       "Removing a CR token reports an error and blocks Save.",
@@ -20,11 +20,11 @@
     "screenshots": [
       {
         "path": "docs/evidence/workbench.png",
-        "sha256": "31861a601d721a867844036d9b04c4c062a76675264e094421a59a3f478f39fe"
+        "sha256": "b323f2907dd814b4088ba4de11e76190bee960b9767ba43c159238b9552602ed"
       },
       {
         "path": "docs/evidence/workbench-token-error.png",
-        "sha256": "e2927132b7e3457d86c9facbc07e9dd3e04bcf01bf504843d64a60e59e611a74"
+        "sha256": "04a52e59577cdc0859310732ec1e9d3be7f7d81116d96549340b682929727fba"
       }
     ],
     "browser": {
@@ -34,8 +34,8 @@
       "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
       "jsVersion": "15.4.80.11"
     },
-    "source_json_files_unchanged": 28,
-    "source_snapshot_sha256": "d815b9e7a506a4366ca64316e22442194e22f28675e0734c2134ae4a328d3725",
+    "source_json_files_unchanged": 31,
+    "source_snapshot_sha256": "c2497bb9730b3a7e209968da1c8eb13dc63aa5cff074b9abc423d0b0736ce666",
     "scope": "Chromium UI and HTTP writes in a disposable copy of the actual extracted catalog; original translations unchanged.",
     "limitations": [
       "No emulator or ROM build invoked by this browser test.",
@@ -45,7 +45,7 @@
   "pipeline_regression": {
     "schema_version": 1,
     "status": "passed",
-    "baseline_sha256": "e26a40135b08f1ac51d2de032d05c79806aeafdf5391c21d68b1bf13d756e529",
+    "baseline_sha256": "490a894f7c70f33d30cbc20d305b1a6c9c3b3cbc3a84f3cefd4436ea351098a5",
     "source_sha1": "a2fc3574f0a65a4fcf7682fb274b9d7eebdef963",
     "visual_review": "technical regression reference; user approval of the complete gallery pending; translation QA unchanged",
     "limitations": [
@@ -57,15 +57,15 @@
     ],
     "pytest_log": "build/platform-check/logs/pytest.log",
     "pytest": {
-      "passed": 134,
+      "passed": 138,
       "failed": 0,
       "skipped": 0
     },
-    "target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766",
-    "patch_sha256": "ecfcc9a2a63c81cc206558a338bf949b5fabac88d1014cb67ef9aa9379beb959",
+    "target_sha256": "98e69a242aaa5eb71c8e0fafa17bbca1379d13d06ebb906aa743ac1b4d9d3335",
+    "patch_sha256": "5980ae7b0b7d98b743cd062361db8ff1ec8e803ddcca301d5d0d345a43460bb5",
     "repeated_builds_identical": true,
     "release_ips_round_trip": true,
-    "locked_files_checked": 34,
+    "locked_files_checked": 37,
     "golden_references_checked": 43,
     "emulator_replay_run": true
   },
@@ -95,5 +95,5 @@
       "sha256": "4a78badecaf67e897bba54ca53d5a4bd346c253fa95ce60185cdbcda68efa3f3"
     }
   ],
-  "scope_note": "Browser writes disposable copies only; source localization untouched. Updated NPC profiles source-ID scoped. Native regressions in platform-validation.json."
+  "scope_note": "Browser edits only disposable data copies. Source snapshot describes the input at test time, before final QA proof binding. Object labels classified through explicit source contract; native tests in platform-validation.json."
 }

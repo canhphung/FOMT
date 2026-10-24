@@ -1,5 +1,9 @@
 # Quy trình dịch theo ngữ cảnh và hàng đợi QA
 
+Cập nhật object-labels-01: [đồ vật](INTERACTIVE_OBJECTS.md) thêm 261 nhãn
+đã xác minh, glossary hiện 471 thuật ngữ; chỉ hai bàn có playtest tự nhiên.
+Các số trong phần baseline bên dưới là lịch sử.
+
 Cập nhật npc-daily-01: [NPC](NPC_DAILY_LOCALIZATION.md) có 85 nháp mới,
 glossary 405 thuật ngữ. [Vật phẩm](ITEM_LOCALIZATION.md) đã đủ 347 mô tả;
 Flower đã xác minh là Bột mì. Các số ở phần baseline/lô đầu dưới đây là

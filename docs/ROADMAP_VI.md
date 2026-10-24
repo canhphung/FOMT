@@ -4,13 +4,13 @@ Cập nhật 2026-10-23. Baseline triển khai: `f8e1af2`, ROM USA A4NE revision
 Mục tiêu: Việt hóa toàn bộ văn bản có thể tiếp cận, giữ gameplay/save gốc,
 phát hành bản vá; không decompile toàn bộ game hoặc phân phối ROM.
 
-Đã triển khai hàng đợi CLI/ngữ cảnh/QA tối thiểu và lô tools-01; hiện có 1.144
+Đã triển khai hàng đợi CLI/ngữ cảnh/QA tối thiểu và lô tools-01; hiện có 1.405
 nháp, đủ 347 tên và 347 mô tả vật phẩm cùng 26 chuỗi UI native. Xem [quy trình](LOCALIZATION_WORKFLOW.md) và [tiến độ hiện tại](TRANSLATION_PROGRESS.md).
 Đã có [bàn dịch local](TRANSLATION_WORKBENCH.md): bảng Anh–Việt, tìm/lọc,
 glossary/xưng hô, kiểm token/độ dài và lưu nháp có backup/xung đột.
-Bộ chuẩn kỹ thuật [platform-v3-npc](PLATFORM_BASELINE.md) khóa 34 file, giữ
+Bộ chuẩn kỹ thuật [platform-v4-objects](PLATFORM_BASELINE.md) khóa 37 file, giữ
 font/bố cục và 43 ảnh chuẩn; một lệnh kiểm hai build/IPS và hai mGBA. Hiện có
-134 pytest và ma trận 613 cửa sổ vật phẩm mỗi backend.
+138 pytest và ma trận 613 cửa sổ vật phẩm mỗi backend.
 Duyệt thẩm mỹ toàn gallery và QA nội dung vẫn được theo dõi riêng.
 Bảng dưới giữ baseline lúc lập roadmap.
 
@@ -83,6 +83,10 @@ trong hàng đợi CLI/JSON/CSV và được hiển thị trong bàn dịch loca
 có trình sửa registry QA hoặc tự xác minh chuỗi chưa phân loại.
 
 ## C. Hoàn thiện nội dung thấy thường xuyên
+
+Lô [object-labels-01](INTERACTIVE_OBJECTS.md) thêm 261 nhãn/68 tên đồ vật;
+Table trong nhà đã có bằng chứng input tự nhiên. Các menu/hướng dẫn dài,
+biển hiệu và vật thể chưa kiểm kê tiếp tục theo dõi riêng.
 
 Lô [items-complete](ITEM_LOCALIZATION.md) đã thêm 310 mô tả, xác minh Flower
 là Bột mì và bổ sung 26 chuỗi UI native. Đủ 347 tên/347 mô tả ở mức nháp.

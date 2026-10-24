@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "status": "passed",
-  "baseline_sha256": "e26a40135b08f1ac51d2de032d05c79806aeafdf5391c21d68b1bf13d756e529",
+  "baseline_sha256": "490a894f7c70f33d30cbc20d305b1a6c9c3b3cbc3a84f3cefd4436ea351098a5",
   "source_sha1": "a2fc3574f0a65a4fcf7682fb274b9d7eebdef963",
   "visual_review": "technical regression reference; user approval of the complete gallery pending; translation QA unchanged",
   "limitations": [
@@ -17,9 +17,9 @@
       "suites": {
         "full": {
           "report": "build/platform-check/0.10.5/full/report.json",
-          "sha256": "adb61c84d52d7edc426ef4f632ba5cb2e3fb3f1dc6e7eaff2c244cb1041a788e",
+          "sha256": "29b4c7fcfff4b371c4eb71c16864f602b91b46f1b8adcc32a45b7f1f36c47c4e",
           "result": {
-            "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5",
+            "target_sha256": "98e69a242aaa5eb71c8e0fafa17bbca1379d13d06ebb906aa743ac1b4d9d3335",
             "checks": {
               "ascii_native_outlines_at_common_baseline": 95,
               "legacy_glyph_fallback_unchanged": 10,
@@ -90,9 +90,9 @@
         },
         "new-game": {
           "report": "build/platform-check/0.10.5/new-game/report.json",
-          "sha256": "58a0dee62ba4ee335cd67a459d0c0c2585e13418d9625f3838f71bf44d1e8836",
+          "sha256": "03e81c498176d44af4845768474d30aa153a95d7727e81c1c2e5611252fc505b",
           "result": {
-            "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5",
+            "target_sha256": "98e69a242aaa5eb71c8e0fafa17bbca1379d13d06ebb906aa743ac1b4d9d3335",
             "status": "passed",
             "checks": [
               "four seasons x days 1/30 through normal controls",
@@ -110,9 +110,9 @@
         },
         "start": {
           "report": "build/platform-check/0.10.5/start/report.json",
-          "sha256": "f5ec5593f82274184e942f20b24a7b3efdfc3a3486d62c4d079eaadba774ffa0",
+          "sha256": "9c7e121cb447e8bb8b53e7b6b6df60f11d183bac70321c0504412138cb2696b8",
           "result": {
-            "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5",
+            "target_sha256": "98e69a242aaa5eb71c8e0fafa17bbca1379d13d06ebb906aa743ac1b4d9d3335",
             "status": "passed",
             "translated_records": 162,
             "isolated_renderer_lines_with_guards": 239,
@@ -146,9 +146,9 @@
         },
         "date": {
           "report": "build/platform-check/0.10.5/date/report.json",
-          "sha256": "ef375375c6d9300e2139e3aa862302074c620e154aff3f3b5953097ee2dc3bde",
+          "sha256": "ea18509e262e81a6ee57b5306ba9294281b27feb92eb502a9a9dafad304538eb",
           "result": {
-            "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5",
+            "target_sha256": "98e69a242aaa5eb71c8e0fafa17bbca1379d13d06ebb906aa743ac1b4d9d3335",
             "revision": "vietnamese-calendar-heading-v19",
             "limitations": [
               "Calendar fixtures change UI view fields, not elapsed gameplay years",
@@ -619,9 +619,9 @@
         },
         "items": {
           "report": "build/platform-check/0.10.5/items/report.json",
-          "sha256": "41a9536d33509a482ede0d28c80bbbe0620b9423c043e4b1587b97029df13530",
+          "sha256": "d42c8ce15d0da6fd6e075d0a520ecf0d2c068cc76a292d16ee7659989613e161",
           "result": {
-            "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5",
+            "target_sha256": "98e69a242aaa5eb71c8e0fafa17bbca1379d13d06ebb906aa743ac1b4d9d3335",
             "status": "passed",
             "record_ids": [
               "item.tool.000.description",
@@ -656,9 +656,9 @@
         },
         "item-audit": {
           "report": "build/platform-check/0.10.5/item-audit/report.json",
-          "sha256": "62f97c253ec07220554017a8d20266d9268b026b5f4966a844fa92a1b2c98332",
+          "sha256": "7614dc6b42dd4a7e087b49f23f0bc9b667e7a68e1dbfe4323dc8eb6efe515dbc",
           "result": {
-            "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5",
+            "target_sha256": "98e69a242aaa5eb71c8e0fafa17bbca1379d13d06ebb906aa743ac1b4d9d3335",
             "item_names": 347,
             "item_descriptions": 347,
             "native_shop_and_item_literals": 26,
@@ -860,10 +860,10 @@
         },
         "item-ui": {
           "report": "build/platform-check/0.10.5/item-ui/report.json",
-          "sha256": "bebca8d5a65214bbe3096fed23ed8c69becd379c432d8e9f9a144336f06d3c33",
+          "sha256": "8f310eee57328d314bd3012611ebbe5ddf2cb1ff93ea7042775a3d52ce01d6ce",
           "result": {
             "status": "passed",
-            "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5",
+            "target_sha256": "98e69a242aaa5eb71c8e0fafa17bbca1379d13d06ebb906aa743ac1b4d9d3335",
             "item_info_windows": 347,
             "native_scroll_cases": 1,
             "wrapped_name_windows": 266,
@@ -881,10 +881,10 @@
         },
         "npc-daily": {
           "report": "build/platform-check/0.10.5/npc-daily/report.json",
-          "sha256": "e7ed3f0ff23cf06486f75df261cd375eecfa71e855ab985943e8cd9f20fc6ee3",
+          "sha256": "aef737839da419a49d6070371b953ed216bf53c70a937121da51de12db714974",
           "result": {
             "status": "passed",
-            "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5",
+            "target_sha256": "98e69a242aaa5eb71c8e0fafa17bbca1379d13d06ebb906aa743ac1b4d9d3335",
             "dialogue_records": 85,
             "thomas_branch_cases": 864,
             "native_waits_verified": 124,
@@ -898,6 +898,56 @@
               "Popuri spouse/home dialogue indexes 1..92 remain outside this batch."
             ],
             "case_count": 85
+          }
+        },
+        "object-labels": {
+          "report": "build/platform-check/0.10.5/object-labels/report.json",
+          "sha256": "6b501f78a674844caab0c7ace5bdb775ac9c50ad888ecce88d6d86940257d404",
+          "result": {
+            "status": "passed",
+            "target_sha256": "98e69a242aaa5eb71c8e0fafa17bbca1379d13d06ebb906aa743ac1b4d9d3335",
+            "object_label_records": 261,
+            "unique_terms": 68,
+            "native_waits_verified": 261,
+            "guarded_renderer_lines": 261,
+            "script_CODE_JUMP_unchanged": 260,
+            "nonlabel_strings_byte_identical": 184,
+            "natural_house_interactions": [
+              {
+                "id": "script.0355.000",
+                "controls": [],
+                "A_settle_frames": 150,
+                "native_wait_pointer": "0x8822bed",
+                "screenshot": "natural-script.0355.000.png",
+                "ram_state_modified": false
+              },
+              {
+                "id": "script.0351.001",
+                "controls": [
+                  [
+                    128,
+                    54
+                  ],
+                  [
+                    32,
+                    94
+                  ]
+                ],
+                "A_settle_frames": 150,
+                "native_wait_pointer": "0x88227f2",
+                "screenshot": "natural-script.0351.001.png",
+                "ram_state_modified": false
+              }
+            ],
+            "sram_unchanged": true,
+            "emulator_error_count": 0,
+            "limitations": [
+              "Natural input verified two tables in the starting farmhouse, not every map/upgrade/object.",
+              "Other labels use native dialogue fixtures with original flags; framebuffer location is not a natural encounter witness.",
+              "Menus, longer hints, signs and mixed-script event dialogue outside selected labels remain unchanged.",
+              "Language/layout review and real GBA hardware testing pending."
+            ],
+            "case_count": 261
           }
         }
       },
@@ -1253,9 +1303,9 @@
       "suites": {
         "full": {
           "report": "build/platform-check/dev/full/report.json",
-          "sha256": "adb61c84d52d7edc426ef4f632ba5cb2e3fb3f1dc6e7eaff2c244cb1041a788e",
+          "sha256": "29b4c7fcfff4b371c4eb71c16864f602b91b46f1b8adcc32a45b7f1f36c47c4e",
           "result": {
-            "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5",
+            "target_sha256": "98e69a242aaa5eb71c8e0fafa17bbca1379d13d06ebb906aa743ac1b4d9d3335",
             "checks": {
               "ascii_native_outlines_at_common_baseline": 95,
               "legacy_glyph_fallback_unchanged": 10,
@@ -1326,9 +1376,9 @@
         },
         "new-game": {
           "report": "build/platform-check/dev/new-game/report.json",
-          "sha256": "58a0dee62ba4ee335cd67a459d0c0c2585e13418d9625f3838f71bf44d1e8836",
+          "sha256": "03e81c498176d44af4845768474d30aa153a95d7727e81c1c2e5611252fc505b",
           "result": {
-            "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5",
+            "target_sha256": "98e69a242aaa5eb71c8e0fafa17bbca1379d13d06ebb906aa743ac1b4d9d3335",
             "status": "passed",
             "checks": [
               "four seasons x days 1/30 through normal controls",
@@ -1346,9 +1396,9 @@
         },
         "start": {
           "report": "build/platform-check/dev/start/report.json",
-          "sha256": "f5ec5593f82274184e942f20b24a7b3efdfc3a3486d62c4d079eaadba774ffa0",
+          "sha256": "9c7e121cb447e8bb8b53e7b6b6df60f11d183bac70321c0504412138cb2696b8",
           "result": {
-            "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5",
+            "target_sha256": "98e69a242aaa5eb71c8e0fafa17bbca1379d13d06ebb906aa743ac1b4d9d3335",
             "status": "passed",
             "translated_records": 162,
             "isolated_renderer_lines_with_guards": 239,
@@ -1382,9 +1432,9 @@
         },
         "date": {
           "report": "build/platform-check/dev/date/report.json",
-          "sha256": "ef375375c6d9300e2139e3aa862302074c620e154aff3f3b5953097ee2dc3bde",
+          "sha256": "ea18509e262e81a6ee57b5306ba9294281b27feb92eb502a9a9dafad304538eb",
           "result": {
-            "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5",
+            "target_sha256": "98e69a242aaa5eb71c8e0fafa17bbca1379d13d06ebb906aa743ac1b4d9d3335",
             "revision": "vietnamese-calendar-heading-v19",
             "limitations": [
               "Calendar fixtures change UI view fields, not elapsed gameplay years",
@@ -1855,9 +1905,9 @@
         },
         "items": {
           "report": "build/platform-check/dev/items/report.json",
-          "sha256": "41a9536d33509a482ede0d28c80bbbe0620b9423c043e4b1587b97029df13530",
+          "sha256": "d42c8ce15d0da6fd6e075d0a520ecf0d2c068cc76a292d16ee7659989613e161",
           "result": {
-            "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5",
+            "target_sha256": "98e69a242aaa5eb71c8e0fafa17bbca1379d13d06ebb906aa743ac1b4d9d3335",
             "status": "passed",
             "record_ids": [
               "item.tool.000.description",
@@ -1892,9 +1942,9 @@
         },
         "item-audit": {
           "report": "build/platform-check/dev/item-audit/report.json",
-          "sha256": "62f97c253ec07220554017a8d20266d9268b026b5f4966a844fa92a1b2c98332",
+          "sha256": "7614dc6b42dd4a7e087b49f23f0bc9b667e7a68e1dbfe4323dc8eb6efe515dbc",
           "result": {
-            "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5",
+            "target_sha256": "98e69a242aaa5eb71c8e0fafa17bbca1379d13d06ebb906aa743ac1b4d9d3335",
             "item_names": 347,
             "item_descriptions": 347,
             "native_shop_and_item_literals": 26,
@@ -2096,10 +2146,10 @@
         },
         "item-ui": {
           "report": "build/platform-check/dev/item-ui/report.json",
-          "sha256": "bebca8d5a65214bbe3096fed23ed8c69becd379c432d8e9f9a144336f06d3c33",
+          "sha256": "8f310eee57328d314bd3012611ebbe5ddf2cb1ff93ea7042775a3d52ce01d6ce",
           "result": {
             "status": "passed",
-            "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5",
+            "target_sha256": "98e69a242aaa5eb71c8e0fafa17bbca1379d13d06ebb906aa743ac1b4d9d3335",
             "item_info_windows": 347,
             "native_scroll_cases": 1,
             "wrapped_name_windows": 266,
@@ -2117,10 +2167,10 @@
         },
         "npc-daily": {
           "report": "build/platform-check/dev/npc-daily/report.json",
-          "sha256": "e7ed3f0ff23cf06486f75df261cd375eecfa71e855ab985943e8cd9f20fc6ee3",
+          "sha256": "aef737839da419a49d6070371b953ed216bf53c70a937121da51de12db714974",
           "result": {
             "status": "passed",
-            "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5",
+            "target_sha256": "98e69a242aaa5eb71c8e0fafa17bbca1379d13d06ebb906aa743ac1b4d9d3335",
             "dialogue_records": 85,
             "thomas_branch_cases": 864,
             "native_waits_verified": 124,
@@ -2134,6 +2184,56 @@
               "Popuri spouse/home dialogue indexes 1..92 remain outside this batch."
             ],
             "case_count": 85
+          }
+        },
+        "object-labels": {
+          "report": "build/platform-check/dev/object-labels/report.json",
+          "sha256": "6b501f78a674844caab0c7ace5bdb775ac9c50ad888ecce88d6d86940257d404",
+          "result": {
+            "status": "passed",
+            "target_sha256": "98e69a242aaa5eb71c8e0fafa17bbca1379d13d06ebb906aa743ac1b4d9d3335",
+            "object_label_records": 261,
+            "unique_terms": 68,
+            "native_waits_verified": 261,
+            "guarded_renderer_lines": 261,
+            "script_CODE_JUMP_unchanged": 260,
+            "nonlabel_strings_byte_identical": 184,
+            "natural_house_interactions": [
+              {
+                "id": "script.0355.000",
+                "controls": [],
+                "A_settle_frames": 150,
+                "native_wait_pointer": "0x8822bed",
+                "screenshot": "natural-script.0355.000.png",
+                "ram_state_modified": false
+              },
+              {
+                "id": "script.0351.001",
+                "controls": [
+                  [
+                    128,
+                    54
+                  ],
+                  [
+                    32,
+                    94
+                  ]
+                ],
+                "A_settle_frames": 150,
+                "native_wait_pointer": "0x88227f2",
+                "screenshot": "natural-script.0351.001.png",
+                "ram_state_modified": false
+              }
+            ],
+            "sram_unchanged": true,
+            "emulator_error_count": 0,
+            "limitations": [
+              "Natural input verified two tables in the starting farmhouse, not every map/upgrade/object.",
+              "Other labels use native dialogue fixtures with original flags; framebuffer location is not a natural encounter witness.",
+              "Menus, longer hints, signs and mixed-script event dialogue outside selected labels remain unchanged.",
+              "Language/layout review and real GBA hardware testing pending."
+            ],
+            "case_count": 261
           }
         }
       },
@@ -2487,15 +2587,15 @@
   },
   "pytest_log": "build/platform-check/logs/pytest.log",
   "pytest": {
-    "passed": 134,
+    "passed": 138,
     "failed": 0,
     "skipped": 0
   },
-  "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5",
-  "patch_sha256": "f4a8ae0c5b6f2445d372cdb4bdb66f49e15f1e74c822012ed0d971b8f9e5f669",
+  "target_sha256": "98e69a242aaa5eb71c8e0fafa17bbca1379d13d06ebb906aa743ac1b4d9d3335",
+  "patch_sha256": "5980ae7b0b7d98b743cd062361db8ff1ec8e803ddcca301d5d0d345a43460bb5",
   "repeated_builds_identical": true,
   "release_ips_round_trip": true,
-  "locked_files_checked": 34,
+  "locked_files_checked": 37,
   "golden_references_checked": 43,
   "emulator_replay_run": true
 }

@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "revision": "platform-v3-npc",
+  "revision": "platform-v4-objects",
   "created_at": "2026-10-23",
-  "reference_target_sha256": "ee4fe9f95a91cf12462f0ec9326167affb6b84e581e7bb9e99b8cc304ea02766",
-  "policy": "Revision v3 adds guarded NPC speaker/call-site attribution and native dialogue fixtures. Font/layout and all 43 golden images stay unchanged. New trigger interpretations must be reviewed against source CODE; no automatic rebaseline.",
+  "reference_target_sha256": "98e69a242aaa5eb71c8e0fafa17bbca1379d13d06ebb906aa743ac1b4d9d3335",
+  "policy": "Revision v4 adds explicit object-label source/caller guards, contract and native UI fixtures. Font/layout and 43 golden images stay unchanged; no automatic image rebaseline.",
   "visual_review": "technical regression reference; user approval of the complete gallery pending; translation QA unchanged",
   "contracts": {
     "dialogue": {
@@ -108,7 +108,7 @@
     },
     {
       "path": "tools/fomt_text.py",
-      "sha256": "31e5ffd0ff796618fcaaf1daeec2e2485f692cccc8b5a3027b0eca7ccb55e67f"
+      "sha256": "500d71eb65df6a1bbe24848b1bdb7507f5fc79b9fe62ba9a54d8cedd5913db89"
     },
     {
       "path": "tools/text_extractor.py",
@@ -156,7 +156,7 @@
     },
     {
       "path": "tools/platform_check.py",
-      "sha256": "958ff4f614b0bc4c50ffedc3f6a434c702e4d42a99d8b9586929fe8bdac0683a"
+      "sha256": "15e27f72bb1181547afdda67d2dae58aa98e39a2fdc68437a6b57ea7310a7499"
     },
     {
       "path": "tools/mgba_bridge.c",
@@ -189,6 +189,18 @@
     {
       "path": "tools/npc_daily_smoke.py",
       "sha256": "ed3690522943e5647f1bdbb159669c99fb1908656bae2dc1c70029cd5b3b4bfa"
+    },
+    {
+      "path": "tools/object_text.py",
+      "sha256": "df8a02066141aabbd671cacbc64e144c52554018023d96268c36d9d83c418f2d"
+    },
+    {
+      "path": "tools/object_labels_smoke.py",
+      "sha256": "b3785c4e1dedd7983cb5060dd8843c50255d110bb260e5d96ec7e5c9fddda6e8"
+    },
+    {
+      "path": "localization/object_labels.json",
+      "sha256": "384e6c3985e76ad4156ef88d52378618ab53694f8be63db13cd6c0bc0199c46a"
     }
   ],
   "save_fixture": {

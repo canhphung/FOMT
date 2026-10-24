@@ -2666,6 +2666,468 @@
       "category": "location",
       "source_id": "script.1017.012",
       "status": "working; language review pending"
+    },
+    {
+      "english": "Bucket",
+      "vietnamese": "Xô",
+      "category": "interactive_object",
+      "source_id": "script.0094.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Straw",
+      "vietnamese": "Rơm",
+      "category": "interactive_object",
+      "source_id": "script.0095.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Wood Box",
+      "vietnamese": "Thùng gỗ",
+      "category": "interactive_object",
+      "source_id": "script.0099.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Bench",
+      "vietnamese": "Ghế dài",
+      "category": "interactive_object",
+      "source_id": "script.0100.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Parasol",
+      "vietnamese": "Ô che nắng",
+      "category": "interactive_object",
+      "source_id": "script.0101.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Boat",
+      "vietnamese": "Thuyền",
+      "category": "interactive_object",
+      "source_id": "script.0103.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Counter",
+      "vietnamese": "Quầy",
+      "category": "interactive_object",
+      "source_id": "script.0104.005",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Timber",
+      "vietnamese": "Gỗ xẻ",
+      "category": "interactive_object",
+      "source_id": "script.0109.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Chair",
+      "vietnamese": "Ghế",
+      "category": "interactive_object",
+      "source_id": "script.0116.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Kitchen",
+      "vietnamese": "Bếp",
+      "category": "interactive_object",
+      "source_id": "script.0117.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Refrigerator",
+      "vietnamese": "Tủ lạnh",
+      "category": "interactive_object",
+      "source_id": "script.0118.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Kitchen Cabinet",
+      "vietnamese": "Tủ bếp",
+      "category": "interactive_object",
+      "source_id": "script.0119.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Sofa",
+      "vietnamese": "Ghế sofa",
+      "category": "interactive_object",
+      "source_id": "script.0120.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Fireplace",
+      "vietnamese": "Lò sưởi",
+      "category": "interactive_object",
+      "source_id": "script.0121.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Table",
+      "vietnamese": "Bàn",
+      "category": "interactive_object",
+      "source_id": "script.0122.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Bed",
+      "vietnamese": "Giường",
+      "category": "interactive_object",
+      "source_id": "script.0126.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Bookshelf",
+      "vietnamese": "Kệ sách",
+      "category": "interactive_object",
+      "source_id": "script.0127.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Painting of a flower",
+      "vietnamese": "Tranh hoa",
+      "category": "interactive_object",
+      "source_id": "script.0129.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Lamp",
+      "vietnamese": "Đèn",
+      "category": "interactive_object",
+      "source_id": "script.0130.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Painting of a Mountain",
+      "vietnamese": "Tranh núi",
+      "category": "interactive_object",
+      "source_id": "script.0131.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Photograph",
+      "vietnamese": "Ảnh chụp",
+      "category": "interactive_object",
+      "source_id": "script.0132.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Drawers",
+      "vietnamese": "Tủ ngăn kéo",
+      "category": "interactive_object",
+      "source_id": "script.0135.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Candlesticks",
+      "vietnamese": "Chân nến",
+      "category": "interactive_object",
+      "source_id": "script.0137.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Organ",
+      "vietnamese": "Đàn phong cầm",
+      "category": "interactive_object",
+      "source_id": "script.0140.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Window",
+      "vietnamese": "Cửa sổ",
+      "category": "interactive_object",
+      "source_id": "script.0144.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Barrel",
+      "vietnamese": "Thùng",
+      "category": "interactive_object",
+      "source_id": "script.0145.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Basket",
+      "vietnamese": "Giỏ",
+      "category": "interactive_object",
+      "source_id": "script.0146.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Tree",
+      "vietnamese": "Cây",
+      "category": "interactive_object",
+      "source_id": "script.0174.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Plant",
+      "vietnamese": "Cây cảnh",
+      "category": "interactive_object",
+      "source_id": "script.0184.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Vase",
+      "vietnamese": "Bình hoa",
+      "category": "interactive_object",
+      "source_id": "script.0189.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Trash basket",
+      "vietnamese": "Sọt rác",
+      "category": "interactive_object",
+      "source_id": "script.0194.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Painting of Kappa",
+      "vietnamese": "Tranh Kappa",
+      "category": "interactive_object",
+      "source_id": "script.0197.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Shelf",
+      "vietnamese": "Kệ đồ",
+      "category": "interactive_object",
+      "source_id": "script.0203.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Advertisement",
+      "vietnamese": "Tờ quảng cáo",
+      "category": "interactive_object",
+      "source_id": "script.0207.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Poster",
+      "vietnamese": "Áp phích",
+      "category": "interactive_object",
+      "source_id": "script.0208.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Sopha",
+      "vietnamese": "Ghế sofa",
+      "category": "interactive_object",
+      "source_id": "script.0236.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Desk",
+      "vietnamese": "Bàn làm việc",
+      "category": "interactive_object",
+      "source_id": "script.0243.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Liquor Shelf",
+      "vietnamese": "Kệ rượu",
+      "category": "interactive_object",
+      "source_id": "script.0253.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Dresser",
+      "vietnamese": "Tủ ngăn kéo",
+      "category": "interactive_object",
+      "source_id": "script.0257.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Big Kitchen",
+      "vietnamese": "Bếp lớn",
+      "category": "interactive_object",
+      "source_id": "script.0261.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Cooking Utensils",
+      "vietnamese": "Dụng cụ nấu ăn",
+      "category": "interactive_object",
+      "source_id": "script.0262.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Ladder",
+      "vietnamese": "Thang",
+      "category": "interactive_object",
+      "source_id": "script.0304.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Clock",
+      "vietnamese": "Đồng hồ",
+      "category": "interactive_object",
+      "source_id": "script.0333.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Stairs to Basement",
+      "vietnamese": "Cầu thang xuống hầm",
+      "category": "interactive_object",
+      "source_id": "script.0340.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Big Bed",
+      "vietnamese": "Giường lớn",
+      "category": "interactive_object",
+      "source_id": "script.0343.046",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Record Player",
+      "vietnamese": "Máy hát đĩa",
+      "category": "interactive_object",
+      "source_id": "script.0351.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Sock Hook",
+      "vietnamese": "Móc treo tất",
+      "category": "interactive_object",
+      "source_id": "script.0354.008",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Grape Vine",
+      "vietnamese": "Giàn nho",
+      "category": "interactive_object",
+      "source_id": "script.0365.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Mailbox",
+      "vietnamese": "Hộp thư",
+      "category": "interactive_object",
+      "source_id": "script.0366.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Street lamp",
+      "vietnamese": "Đèn đường",
+      "category": "interactive_object",
+      "source_id": "script.0367.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Grave",
+      "vietnamese": "Mộ",
+      "category": "interactive_object",
+      "source_id": "script.0369.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Square's Bench",
+      "vietnamese": "Ghế dài ở quảng trường",
+      "category": "interactive_object",
+      "source_id": "script.0402.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Pestle and mortar",
+      "vietnamese": "Chày và cối",
+      "category": "interactive_object",
+      "source_id": "script.0407.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Square's street lamp",
+      "vietnamese": "Đèn đường ở quảng trường",
+      "category": "interactive_object",
+      "source_id": "script.0408.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Wine Bottles",
+      "vietnamese": "Chai rượu",
+      "category": "interactive_object",
+      "source_id": "script.0413.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Large Barrel",
+      "vietnamese": "Thùng lớn",
+      "category": "interactive_object",
+      "source_id": "script.0418.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Barrel Shelf",
+      "vietnamese": "Kệ để thùng",
+      "category": "interactive_object",
+      "source_id": "script.0419.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Wine Rack",
+      "vietnamese": "Kệ rượu",
+      "category": "interactive_object",
+      "source_id": "script.0420.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Menu",
+      "vietnamese": "Thực đơn",
+      "category": "interactive_object",
+      "source_id": "script.0434.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Smelting Furnace",
+      "vietnamese": "Lò luyện kim",
+      "category": "interactive_object",
+      "source_id": "script.0514.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Hammer",
+      "vietnamese": "Búa",
+      "category": "interactive_object",
+      "source_id": "script.0515.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Shovel",
+      "vietnamese": "Xẻng",
+      "category": "interactive_object",
+      "source_id": "script.0516.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Stove",
+      "vietnamese": "Bếp lò",
+      "category": "interactive_object",
+      "source_id": "script.0517.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Water",
+      "vietnamese": "Nước",
+      "category": "interactive_object",
+      "source_id": "script.0520.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Mirror",
+      "vietnamese": "Gương",
+      "category": "interactive_object",
+      "source_id": "script.0538.000",
+      "status": "working; language review pending"
+    },
+    {
+      "english": "Ground",
+      "vietnamese": "Mặt đất",
+      "category": "interactive_object",
+      "source_id": "script.0544.000",
+      "status": "working; language review pending"
     }
   ],
   "references": [

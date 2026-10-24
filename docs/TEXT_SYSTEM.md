@@ -235,3 +235,11 @@ chỉ thay cách vẽ. Xem [DATE_UI.md](DATE_UI.md) cho cấu trúc và kiểm c
 ShowText cho 34 chuỗi Thomas và 51 chuỗi Popuri; chỉ phân loại đúng 85 ID.
 Dò nhánh Thomas theo CODE không phải gameplay simulation; trigger còn thiếu
 được ghi riêng. Xem [NPC_DAILY_LOCALIZATION.md](NPC_DAILY_LOCALIZATION.md).
+
+## Nhãn đồ vật tương tác
+
+`object_text.py` kiểm 261 literal tại 260 script bằng contract ID/English,
+CODE hash và OnCall33/34/35. Chỉ gán context cho đúng nhãn đã chọn, giữ
+184 chuỗi sự kiện/hội thoại cùng script nguyên byte. Hai Table trong nhà
+được nối bằng input tự nhiên, các nhãn khác có native UI/cache fixture.
+Xem [INTERACTIVE_OBJECTS.md](INTERACTIVE_OBJECTS.md).

@@ -1,13 +1,14 @@
 # Tiến độ Việt hóa hiện tại
 
-Cập nhật 2026-10-23. Bộ chuẩn kỹ thuật: `platform-v3-npc`; roadmap ban đầu: `7420c5c`.
+Cập nhật 2026-10-24. Bộ chuẩn kỹ thuật: `platform-v4-objects`; roadmap ban đầu: `7420c5c`.
 Bản vá thử nghiệm, chưa phải Việt hóa 100%.
 
 ## Nội dung
 
 | Hạng mục | Có bản dịch nháp / đã trích xuất |
 | --- | ---: |
-| Tổng catalog | 1.144 / 9.309 |
+| Tổng catalog | 1.405 / 9.309 |
+| Nhãn đồ vật tương tác | 261 / 261 đã xác minh |
 | Tên vật phẩm | 347 / 347 |
 | Mô tả vật phẩm | 347 / 347 |
 | Chuỗi native shop/cửa sổ vật phẩm mới | 26 / 26 |
@@ -19,10 +20,10 @@ Bản vá thử nghiệm, chưa phải Việt hóa 100%.
 | Thomas — script chuẩn | 34 / 34 |
 | Popuri — lô thường ngày mới | 51 / 51 (còn index 1–92) |
 
-1.144 ID không trùng nhau; chưa có ID đánh dấu `reviewed`. 8.165 bản ghi
-còn thiếu dịch đều đang chờ phân loại ngữ cảnh. Khoảng 12,3% ID trong catalog
+1.405 ID không trùng nhau; chưa có ID đánh dấu `reviewed`. 7.904 bản ghi
+còn thiếu dịch đều đang chờ phân loại ngữ cảnh. Khoảng 15,1% ID trong catalog
 không phải phần trăm lượng từ hay toàn bộ game. Thêm 26 chuỗi UI native,
-glossary hiện có 405 thuật ngữ.
+glossary hiện có 471 thuật ngữ.
 
 Đồ họa theo dõi riêng: Bắt đầu/Tiếp tục, tạo game, lịch và HUD. Font Việt,
 con trỏ title, bố cục ngày/giờ và tiêu đề lịch đã được triển khai. Nguồn
@@ -30,10 +31,10 @@ trong localization/, chi tiết từng adapter trong các tài liệu hệ thố
 
 ## Kiểm chứng gần nhất
 
-- 134 pytest đạt với ROM USA rev 0 được người dùng cung cấp.
-- Bàn dịch local: 12 luồng Chromium đạt ở mốc npc-daily-01, sửa/lưu trên bản sao dữ liệu;
-  toàn bộ 28 file JSON localization gốc giữ nguyên hash.
-- Hai build độc lập giống byte; IPS phát hành áp lại đúng ROM. Khóa 34 file
+- 138 pytest đạt với ROM USA rev 0 được người dùng cung cấp.
+- Bàn dịch local: 12 luồng Chromium đạt ở mốc object-labels-01, sửa/lưu trên bản sao dữ liệu;
+  toàn bộ 31 file JSON localization gốc giữ nguyên hash.
+- Hai build độc lập giống byte; IPS phát hành áp lại đúng ROM. Khóa 37 file
   nền tảng và 43 ảnh chuẩn, replay trên hai mGBA không lệch pixel.
 - mGBA 0.10.5/0.11-dev: boot/title/font, tạo game, START và Diary save/load
   qua cold boot; báo cáo gắn đúng hash target hiện tại.
@@ -42,11 +43,12 @@ trong localization/, chi tiết từng adapter trong các tài liệu hệ thố
   y=40 khớp bản gốc. Tám chu kỳ mở/đóng trả lại tài nguyên; SRAM không đổi.
 - Vật phẩm/UI: 720 bản ghi, 724 pointer fields, 1.351 dòng có guard; 613 cửa sổ Ba lô mỗi backend qua RAM fixture, SRAM không đổi.
 - NPC: 85 câu mới, 124 WAIT native, 266 dòng có guard, 864 ca dò nhánh Thomas; fixture UI, chưa encounter tự nhiên.
+- Đồ vật: 261 nhãn/68 tên, 261 WAIT và bitmap cache khớp pixel mỗi backend; hai bàn bằng input tự nhiên; 260 CODE/JUMP và 184 chuỗi ngoài nhãn giữ nguyên.
 - Kiểm round trip IPS và hash bản build. Số ngày trong lịch và HUD giữ nguyên.
 
 [Bộ chuẩn nền tảng](PLATFORM_BASELINE.md),
 [báo cáo nền tảng](evidence/platform-validation.json), [lịch/HUD](evidence/date-ui-validation.json),
-[NPC](evidence/npc-daily-validation.json), [vật phẩm/UI mốc trước](evidence/items-complete-validation.json), [tổng hợp lịch sử](evidence/validation.json), [manifest bản vá](../patches/manifest.json).
+[đồ vật](evidence/object-labels-validation.json), [NPC mốc trước](evidence/npc-daily-validation.json), [vật phẩm/UI mốc trước](evidence/items-complete-validation.json), [tổng hợp lịch sử](evidence/validation.json), [manifest bản vá](../patches/manifest.json).
 Báo cáo lịch/HUD, intro/tạo game/START chuyên biệt mang hash của các mốc trước; giữ
 làm bằng chứng phạm vi từng mốc, không coi là chạy lại toàn bộ trên target mới.
 
@@ -193,3 +195,19 @@ không phát hành cùng bản vá. Không đánh dấu toàn bộ Thomas đã d
 kiểm năm WAIT/12 dòng riêng cho bốn câu. Gate đầy đủ kiểm lại hai build/IPS,
 134 pytest, tám suite mỗi mGBA và 43 ảnh chuẩn không đổi. Bàn dịch không
 chạy lại trong lượt chỉ thay văn bản này; bằng chứng browser cũ giữ hash/mốc cũ.
+
+## Nhãn đồ vật tương tác — object-labels-01, 2026-10-24
+
+Thêm 261 nhãn tại 260 script, 68 tên English và 66 mục glossary mới.
+Xác minh literal, CODE và OnCall33/34/35 bằng contract nguồn tường minh;
+không thay từ hàng loạt hoặc dịch lẫn thoại Cliff, giường/vợ, cuộc thi,
+khám bệnh và Ngọc Sự thật nằm trong cùng script. 184 chuỗi ngoài nhãn giữ byte.
+
+Table trong ảnh người dùng là 351.001; đã tái hiện từ save bằng input
+thường cùng bàn tròn 355.000. Các nhãn còn lại kiểm fixture UI native,
+con trỏ WAIT và pixel glyph của ba hàng cache. Không coi là đã đi mọi map.
+[Phạm vi và ảnh](INTERACTIVE_OBJECTS.md), [bằng chứng](evidence/object-labels-validation.json).
+
+Font/bố cục không đổi, 43 ảnh chuẩn giữ nguyên. Còn kiểm tự nhiên các nhà
+khác và kiểm kê menu/hướng dẫn dài/biển hiệu ngoài nhãn; toàn bộ vẫn là nháp.
+Knowledge giữ cục bộ, không đưa tài liệu hoặc ZIP lên GitHub.

@@ -1,0 +1,4072 @@
+{
+  "schema_version": 1,
+  "scope": "Explicit examined object/furniture labels only, no automatic noun replacement or mixed-script dialogue attribution.",
+  "script_code_sha256": {
+    "94": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "95": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "96": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "99": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "100": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "101": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "103": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "104": "a350352dfa56fc078402010ad7af7358c036aacbaab33c6d89595077f878f0bf",
+    "109": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "110": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "116": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "117": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "118": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "119": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "120": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "121": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "122": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "125": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "126": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "127": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "128": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "129": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "130": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "131": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "132": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "133": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "135": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "137": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "138": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "140": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "141": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "144": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "145": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "146": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "147": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "148": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "149": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "151": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "152": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "174": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "180": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "181": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "182": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "183": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "184": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "185": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "186": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "187": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "189": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "190": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "191": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "192": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "193": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "194": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "195": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "196": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "197": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "198": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "199": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "200": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "202": "f6319b95e0ba9f64978595e7c253552945381853c1f85179e77cb5d6617029b2",
+    "203": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "204": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "207": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "208": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "209": "4949f1b8735e9d038dfba6097e1f16df110cbd0a0cc19dda65667ffca302711d",
+    "210": "d3efb033ddd0885d36d72d418878b1f6e7dda0f51b1697d6bd8192896f0b8dfd",
+    "211": "e4cfac277d2af7b008d03b27dfff4819f24586ccef45fdd9f803a0b3b31bdbd1",
+    "212": "dd1bb44b9f3940639ef4430d8627790b8e864c43467d4347c43e3c2e27ebf793",
+    "213": "16242017926313ec41e6a5026d4c26d5c8202db0f0b2171c940078b38579f2f9",
+    "214": "7131c89cf6486d47c2efb478590d23ec9e5ad000b1ec67f56f1fe59fcfe84dae",
+    "215": "09925aa0349e37409685467ff5dfd5cb9c975b01abdf2c7c99fb17f91574a6fa",
+    "216": "e52d4d653bb14d8dbf91c2c65934603bb0df1fa543f50e9aba572c9ead123c12",
+    "227": "92bb99fd3d4f13ec26ed25b83824932b340f2d576504ca689145905c9b91e4a3",
+    "229": "b3a1e888a3510042c6ac2c77cdaa6dc4ed194af59869b4247f5d8c669f974230",
+    "230": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "231": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "232": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "233": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "234": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "235": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "236": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "241": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "242": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "243": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "244": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "245": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "246": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "247": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "248": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "249": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "251": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "252": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "253": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "254": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "255": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "257": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "260": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "261": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "262": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "263": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "264": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "265": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "266": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "267": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "269": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "270": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "276": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "277": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "278": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "279": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "280": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "281": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "282": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "283": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "286": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "287": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "288": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "289": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "290": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "291": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "294": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "295": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "296": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "297": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "298": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "299": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "301": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "302": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "303": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "304": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "320": "0ab705d0e58619ee825d20d34a79eee19e0cfa934f9434da85f4db98042c5c64",
+    "321": "58bca1bbb44129be0fcb0d62977209e570421294489dec1faab3ce11b04631b2",
+    "322": "2dba500c6a7ef707e96d33e423690bbea9c472cdaea0b16d22efe160f5fb3e08",
+    "323": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "324": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "325": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "326": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "327": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "328": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "330": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "331": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "332": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "333": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "334": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "335": "00c7aab9d641e19e43a8d65284b3a1156bdc4b066e355b0a9251fa7076584daa",
+    "336": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "337": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "340": "92bb99fd3d4f13ec26ed25b83824932b340f2d576504ca689145905c9b91e4a3",
+    "343": "f496cbe0d37a3b4d47229940cce35714d917cfab35e2feb01d6b47289fee3396",
+    "346": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "351": "8d1882942c5a81943ccb03e1ec3ee6fd1b85e7f5d5fbbc08eec28a5c372e3f5f",
+    "354": "05893873822b83cd60ef1d6901c719a1f97aefd31402562b6b756fdac0772aa6",
+    "355": "92bb99fd3d4f13ec26ed25b83824932b340f2d576504ca689145905c9b91e4a3",
+    "359": "f19dad91b0d4b57e36079095db7bfaba2c68f89db02453b0cfe8c262bfcd7b6a",
+    "363": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "364": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "365": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "366": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "367": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "368": "5b1ce5899da96d6bfa8e32a5d5561640d7b094b5d4f397f25c83c14ff186e659",
+    "369": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "382": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "383": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "384": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "385": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "386": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "387": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "388": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "391": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "392": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "393": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "394": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "396": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "397": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "398": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "402": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "404": "a34554428d54c5b103e9d977aa3250f1487206489143c3aff9423381eaf836a5",
+    "407": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "408": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "412": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "413": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "414": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "417": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "418": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "419": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "420": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "421": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "429": "92bb99fd3d4f13ec26ed25b83824932b340f2d576504ca689145905c9b91e4a3",
+    "431": "92bb99fd3d4f13ec26ed25b83824932b340f2d576504ca689145905c9b91e4a3",
+    "432": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "433": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "434": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "435": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "436": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "437": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "438": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "439": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "442": "860fc02e17d1f1c4500d2c338f2def0125dc29ba37223529f396d11b78f2850d",
+    "443": "bb17963b58e1ce02518f5643346cbbcde831fb083d077dcf18f07d82a4cc6b3e",
+    "444": "3333684c029b61bf0228937fe46508bba67184e1687feefb1060e5e0b1dce30b",
+    "445": "d36d7d2c3d4d272a6fbf49863ed635f5e7a926e39af7f0e02cb2fe46703ecfd2",
+    "446": "2b4a1e58c541477dd7531556096c50014627bf5066944b03550f5b06492e4be1",
+    "447": "07dbeb2969c671ffc3c5f01784d798878ef5b30f807b4a84482fa7a30dc7d4df",
+    "448": "c49e83545c7d037c1a7ba510f6cc8d90f8c1eaec777d6ad5b48ee3fb24893839",
+    "449": "ee917c8c3c4002227535c5df62132951ec1488d8171584b2c6bb8ee5be127a2f",
+    "450": "51126aa519487e81093e11f3d8a2ebc756d9fa4aac554772cbdf586dfe85656a",
+    "451": "382b775815ec479fda09dd15d0f7d435c6b3edb350483c2b38d1b28cf2fb15ab",
+    "452": "0cf0864b87712f15c3ccd90ec8f918676f62e0c7f6aa49bd4d1d12c69144b4fb",
+    "453": "d1ef4bded7aff11a3195bd3087eb1f476be420efe4dfba76ec31371d3eca719e",
+    "454": "7930a78517159de71428ab49b7a14f1a6a6003a7f7c80d7de4e87341fccda25d",
+    "455": "7cdf8b3218552dcc4586a5046852fe68c7c8af19f0bf4c856b9a627ce58d8726",
+    "456": "4be7318d077fccf2d8cd5f4f8931b830dfe47888c9c63a98623545d1675b0718",
+    "457": "8232f5f3611fb5edbc0561f24dca56b5ab06c625ae1c512c3cef1293e636e79c",
+    "466": "4a006255ce5df7c399986962c6114786a1721a913d0cd9dc07dc8b167d71ca58",
+    "482": "bca82990a2992e0f6b60d7c078c0dc7d9110a6b343d243c066a13746620c4e6a",
+    "483": "d37a242c3931def3c3ba25292c82a697347f3c4cf0f6453f78f7362f41bb81c4",
+    "484": "46971e7034e08d820c145d1d49489cf148ff0897313678e32bf23aae3320e7a8",
+    "485": "e52bca6c8166236bec4c22fef4b9f9989f8fb89e4e570ca5c973d515c3d06119",
+    "486": "392fad9eb62e76b1e37f717509f779f7df6d96986586805504bf91611540be60",
+    "487": "9c21d378ad22aacf2a4951b578439a5ddd5dec3dbc3e15a144bfe5985a853ba9",
+    "488": "20561a92a9bf819a6850aaa86ecd0faaf912c3c22e1f37b74ac0cb7dac1395f3",
+    "489": "b381c0445c606a7dcc752c067bc5ec7bb535d1f2fd0101bb78db1ab1a1149205",
+    "511": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "512": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "514": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "515": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "516": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "517": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "518": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "520": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "522": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "531": "3a3327e71f55570d609e8dfc23dece959a8410a87330121dd0f042f2540edd6d",
+    "535": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "538": "92bb99fd3d4f13ec26ed25b83824932b340f2d576504ca689145905c9b91e4a3",
+    "539": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "542": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "543": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "544": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "545": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "546": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "547": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "548": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "549": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "551": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "552": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "553": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "554": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "555": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "556": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "557": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "558": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "562": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "563": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "564": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "565": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "566": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "567": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+    "569": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0"
+  },
+  "records": [
+    {
+      "id": "script.0094.000",
+      "script_id": 94,
+      "string_index": 0,
+      "original_english": "Bucket{WAIT}",
+      "label_english": "Bucket",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0095.000",
+      "script_id": 95,
+      "string_index": 0,
+      "original_english": "Straw{WAIT}",
+      "label_english": "Straw",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0096.000",
+      "script_id": 96,
+      "string_index": 0,
+      "original_english": "Tools{WAIT}",
+      "label_english": "Tools",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0099.000",
+      "script_id": 99,
+      "string_index": 0,
+      "original_english": "Wood Box{WAIT}",
+      "label_english": "Wood Box",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0100.000",
+      "script_id": 100,
+      "string_index": 0,
+      "original_english": "Bench{WAIT}",
+      "label_english": "Bench",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0101.000",
+      "script_id": 101,
+      "string_index": 0,
+      "original_english": "Parasol{WAIT}",
+      "label_english": "Parasol",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0103.000",
+      "script_id": 103,
+      "string_index": 0,
+      "original_english": "Boat{WAIT}",
+      "label_english": "Boat",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0104.005",
+      "script_id": 104,
+      "string_index": 5,
+      "original_english": "Counter{WAIT}",
+      "label_english": "Counter",
+      "show_text_sites": [
+        {
+          "code_offset": 425,
+          "native_call": 33,
+          "text_flags": 256
+        },
+        {
+          "code_offset": 447,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ]
+    },
+    {
+      "id": "script.0109.000",
+      "script_id": 109,
+      "string_index": 0,
+      "original_english": "Timber{WAIT}",
+      "label_english": "Timber",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0110.000",
+      "script_id": 110,
+      "string_index": 0,
+      "original_english": "Wood Box{WAIT}",
+      "label_english": "Wood Box",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0116.000",
+      "script_id": 116,
+      "string_index": 0,
+      "original_english": "Chair{WAIT}",
+      "label_english": "Chair",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0117.000",
+      "script_id": 117,
+      "string_index": 0,
+      "original_english": "Kitchen{WAIT}",
+      "label_english": "Kitchen",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0118.000",
+      "script_id": 118,
+      "string_index": 0,
+      "original_english": "Refrigerator{WAIT}",
+      "label_english": "Refrigerator",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0119.000",
+      "script_id": 119,
+      "string_index": 0,
+      "original_english": "Kitchen Cabinet{WAIT}",
+      "label_english": "Kitchen Cabinet",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0120.000",
+      "script_id": 120,
+      "string_index": 0,
+      "original_english": "Sofa{WAIT}",
+      "label_english": "Sofa",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0121.000",
+      "script_id": 121,
+      "string_index": 0,
+      "original_english": "Fireplace{WAIT}",
+      "label_english": "Fireplace",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0122.000",
+      "script_id": 122,
+      "string_index": 0,
+      "original_english": "Table{WAIT}",
+      "label_english": "Table",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0125.000",
+      "script_id": 125,
+      "string_index": 0,
+      "original_english": "Wood Box{WAIT}",
+      "label_english": "Wood Box",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0126.000",
+      "script_id": 126,
+      "string_index": 0,
+      "original_english": "Bed{WAIT}",
+      "label_english": "Bed",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0127.000",
+      "script_id": 127,
+      "string_index": 0,
+      "original_english": "Bookshelf{WAIT}",
+      "label_english": "Bookshelf",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0128.000",
+      "script_id": 128,
+      "string_index": 0,
+      "original_english": "Chair{WAIT}",
+      "label_english": "Chair",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0129.000",
+      "script_id": 129,
+      "string_index": 0,
+      "original_english": "Painting of a flower{WAIT}",
+      "label_english": "Painting of a flower",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0130.000",
+      "script_id": 130,
+      "string_index": 0,
+      "original_english": "Lamp{WAIT}",
+      "label_english": "Lamp",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0131.000",
+      "script_id": 131,
+      "string_index": 0,
+      "original_english": "Painting of a Mountain{WAIT}",
+      "label_english": "Painting of a Mountain",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0132.000",
+      "script_id": 132,
+      "string_index": 0,
+      "original_english": "Photograph{WAIT}",
+      "label_english": "Photograph",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0133.000",
+      "script_id": 133,
+      "string_index": 0,
+      "original_english": "Table{WAIT}",
+      "label_english": "Table",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0135.000",
+      "script_id": 135,
+      "string_index": 0,
+      "original_english": "Drawers{WAIT}",
+      "label_english": "Drawers",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0137.000",
+      "script_id": 137,
+      "string_index": 0,
+      "original_english": "Candlesticks{WAIT}",
+      "label_english": "Candlesticks",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0138.000",
+      "script_id": 138,
+      "string_index": 0,
+      "original_english": "Chair{WAIT}",
+      "label_english": "Chair",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0140.000",
+      "script_id": 140,
+      "string_index": 0,
+      "original_english": "Organ{WAIT}",
+      "label_english": "Organ",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0141.000",
+      "script_id": 141,
+      "string_index": 0,
+      "original_english": "Table{WAIT}",
+      "label_english": "Table",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0144.000",
+      "script_id": 144,
+      "string_index": 0,
+      "original_english": "Window{WAIT}",
+      "label_english": "Window",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0145.000",
+      "script_id": 145,
+      "string_index": 0,
+      "original_english": "Barrel{WAIT}",
+      "label_english": "Barrel",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0146.000",
+      "script_id": 146,
+      "string_index": 0,
+      "original_english": "Basket{WAIT}",
+      "label_english": "Basket",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0147.000",
+      "script_id": 147,
+      "string_index": 0,
+      "original_english": "Bed{WAIT}",
+      "label_english": "Bed",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0148.000",
+      "script_id": 148,
+      "string_index": 0,
+      "original_english": "Bookshelf{WAIT}",
+      "label_english": "Bookshelf",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0149.000",
+      "script_id": 149,
+      "string_index": 0,
+      "original_english": "Kitchen{WAIT}",
+      "label_english": "Kitchen",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0151.000",
+      "script_id": 151,
+      "string_index": 0,
+      "original_english": "Refrigerator{WAIT}",
+      "label_english": "Refrigerator",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0152.000",
+      "script_id": 152,
+      "string_index": 0,
+      "original_english": "Wood Box{WAIT}",
+      "label_english": "Wood Box",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0174.000",
+      "script_id": 174,
+      "string_index": 0,
+      "original_english": "Tree{WAIT}",
+      "label_english": "Tree",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0180.000",
+      "script_id": 180,
+      "string_index": 0,
+      "original_english": "Bed{WAIT}",
+      "label_english": "Bed",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0181.000",
+      "script_id": 181,
+      "string_index": 0,
+      "original_english": "Bookshelf{WAIT}",
+      "label_english": "Bookshelf",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0182.000",
+      "script_id": 182,
+      "string_index": 0,
+      "original_english": "Chair{WAIT}",
+      "label_english": "Chair",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0183.000",
+      "script_id": 183,
+      "string_index": 0,
+      "original_english": "Kitchen{WAIT}",
+      "label_english": "Kitchen",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0184.000",
+      "script_id": 184,
+      "string_index": 0,
+      "original_english": "Plant{WAIT}",
+      "label_english": "Plant",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0185.000",
+      "script_id": 185,
+      "string_index": 0,
+      "original_english": "Refrigerator{WAIT}",
+      "label_english": "Refrigerator",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0186.000",
+      "script_id": 186,
+      "string_index": 0,
+      "original_english": "Kitchen Cabinet{WAIT}",
+      "label_english": "Kitchen Cabinet",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0187.000",
+      "script_id": 187,
+      "string_index": 0,
+      "original_english": "Table{WAIT}",
+      "label_english": "Table",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0189.000",
+      "script_id": 189,
+      "string_index": 0,
+      "original_english": "Vase{WAIT}",
+      "label_english": "Vase",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0190.000",
+      "script_id": 190,
+      "string_index": 0,
+      "original_english": "Bed{WAIT}",
+      "label_english": "Bed",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0191.000",
+      "script_id": 191,
+      "string_index": 0,
+      "original_english": "Bookshelf{WAIT}",
+      "label_english": "Bookshelf",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0192.000",
+      "script_id": 192,
+      "string_index": 0,
+      "original_english": "Chair{WAIT}",
+      "label_english": "Chair",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0193.000",
+      "script_id": 193,
+      "string_index": 0,
+      "original_english": "Table{WAIT}",
+      "label_english": "Table",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0194.000",
+      "script_id": 194,
+      "string_index": 0,
+      "original_english": "Trash basket{WAIT}",
+      "label_english": "Trash basket",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0195.000",
+      "script_id": 195,
+      "string_index": 0,
+      "original_english": "Kitchen{WAIT}",
+      "label_english": "Kitchen",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0196.000",
+      "script_id": 196,
+      "string_index": 0,
+      "original_english": "Lamp{WAIT}",
+      "label_english": "Lamp",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0197.000",
+      "script_id": 197,
+      "string_index": 0,
+      "original_english": "Painting of Kappa{WAIT}",
+      "label_english": "Painting of Kappa",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0198.000",
+      "script_id": 198,
+      "string_index": 0,
+      "original_english": "Refrigerator{WAIT}",
+      "label_english": "Refrigerator",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0199.000",
+      "script_id": 199,
+      "string_index": 0,
+      "original_english": "Bookshelf{WAIT}",
+      "label_english": "Bookshelf",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0200.000",
+      "script_id": 200,
+      "string_index": 0,
+      "original_english": "Table{WAIT}",
+      "label_english": "Table",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0202.000",
+      "script_id": 202,
+      "string_index": 0,
+      "original_english": "Counter{WAIT}",
+      "label_english": "Counter",
+      "show_text_sites": [
+        {
+          "code_offset": 7843,
+          "native_call": 35,
+          "text_flags": 0
+        },
+        {
+          "code_offset": 7966,
+          "native_call": 35,
+          "text_flags": 0
+        },
+        {
+          "code_offset": 7988,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0203.000",
+      "script_id": 203,
+      "string_index": 0,
+      "original_english": "Shelf{WAIT}",
+      "label_english": "Shelf",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0204.000",
+      "script_id": 204,
+      "string_index": 0,
+      "original_english": "Shelf{WAIT}",
+      "label_english": "Shelf",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0207.000",
+      "script_id": 207,
+      "string_index": 0,
+      "original_english": "Advertisement{WAIT}",
+      "label_english": "Advertisement",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0208.000",
+      "script_id": 208,
+      "string_index": 0,
+      "original_english": "Poster{WAIT}",
+      "label_english": "Poster",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0209.000",
+      "script_id": 209,
+      "string_index": 0,
+      "original_english": "Feed Box{WAIT}",
+      "label_english": "Feed Box",
+      "show_text_sites": [
+        {
+          "code_offset": 119,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0210.000",
+      "script_id": 210,
+      "string_index": 0,
+      "original_english": "Feed Box{WAIT}",
+      "label_english": "Feed Box",
+      "show_text_sites": [
+        {
+          "code_offset": 119,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0211.000",
+      "script_id": 211,
+      "string_index": 0,
+      "original_english": "Feed Box{WAIT}",
+      "label_english": "Feed Box",
+      "show_text_sites": [
+        {
+          "code_offset": 119,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0212.000",
+      "script_id": 212,
+      "string_index": 0,
+      "original_english": "Feed Box{WAIT}",
+      "label_english": "Feed Box",
+      "show_text_sites": [
+        {
+          "code_offset": 119,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0213.000",
+      "script_id": 213,
+      "string_index": 0,
+      "original_english": "Feed Box{WAIT}",
+      "label_english": "Feed Box",
+      "show_text_sites": [
+        {
+          "code_offset": 119,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0214.000",
+      "script_id": 214,
+      "string_index": 0,
+      "original_english": "Feed Box{WAIT}",
+      "label_english": "Feed Box",
+      "show_text_sites": [
+        {
+          "code_offset": 119,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0215.000",
+      "script_id": 215,
+      "string_index": 0,
+      "original_english": "Feed Box{WAIT}",
+      "label_english": "Feed Box",
+      "show_text_sites": [
+        {
+          "code_offset": 119,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0216.000",
+      "script_id": 216,
+      "string_index": 0,
+      "original_english": "Feed Box{WAIT}",
+      "label_english": "Feed Box",
+      "show_text_sites": [
+        {
+          "code_offset": 119,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0227.000",
+      "script_id": 227,
+      "string_index": 0,
+      "original_english": "Table{WAIT}",
+      "label_english": "Table",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ]
+    },
+    {
+      "id": "script.0229.005",
+      "script_id": 229,
+      "string_index": 5,
+      "original_english": "Bed{WAIT}",
+      "label_english": "Bed",
+      "show_text_sites": [
+        {
+          "code_offset": 288,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0230.000",
+      "script_id": 230,
+      "string_index": 0,
+      "original_english": "Bookshelf{WAIT}",
+      "label_english": "Bookshelf",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0231.000",
+      "script_id": 231,
+      "string_index": 0,
+      "original_english": "Bookshelf{WAIT}",
+      "label_english": "Bookshelf",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0232.000",
+      "script_id": 232,
+      "string_index": 0,
+      "original_english": "Bookshelf{WAIT}",
+      "label_english": "Bookshelf",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0233.000",
+      "script_id": 233,
+      "string_index": 0,
+      "original_english": "Chair{WAIT}",
+      "label_english": "Chair",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0234.000",
+      "script_id": 234,
+      "string_index": 0,
+      "original_english": "Plant{WAIT}",
+      "label_english": "Plant",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0235.000",
+      "script_id": 235,
+      "string_index": 0,
+      "original_english": "Shelf{WAIT}",
+      "label_english": "Shelf",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0236.000",
+      "script_id": 236,
+      "string_index": 0,
+      "original_english": "Sopha{WAIT}",
+      "label_english": "Sopha",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0241.000",
+      "script_id": 241,
+      "string_index": 0,
+      "original_english": "Bed{WAIT}",
+      "label_english": "Bed",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0242.000",
+      "script_id": 242,
+      "string_index": 0,
+      "original_english": "Bookshelf{WAIT}",
+      "label_english": "Bookshelf",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0243.000",
+      "script_id": 243,
+      "string_index": 0,
+      "original_english": "Desk{WAIT}",
+      "label_english": "Desk",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0244.000",
+      "script_id": 244,
+      "string_index": 0,
+      "original_english": "Sofa{WAIT}",
+      "label_english": "Sofa",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0245.000",
+      "script_id": 245,
+      "string_index": 0,
+      "original_english": "Table{WAIT}",
+      "label_english": "Table",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0246.000",
+      "script_id": 246,
+      "string_index": 0,
+      "original_english": "Plant{WAIT}",
+      "label_english": "Plant",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0247.000",
+      "script_id": 247,
+      "string_index": 0,
+      "original_english": "Bed{WAIT}",
+      "label_english": "Bed",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0248.000",
+      "script_id": 248,
+      "string_index": 0,
+      "original_english": "Table{WAIT}",
+      "label_english": "Table",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0249.000",
+      "script_id": 249,
+      "string_index": 0,
+      "original_english": "Shelf{WAIT}",
+      "label_english": "Shelf",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0251.000",
+      "script_id": 251,
+      "string_index": 0,
+      "original_english": "Barrel{WAIT}",
+      "label_english": "Barrel",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0252.000",
+      "script_id": 252,
+      "string_index": 0,
+      "original_english": "Chair{WAIT}",
+      "label_english": "Chair",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0253.000",
+      "script_id": 253,
+      "string_index": 0,
+      "original_english": "Liquor Shelf{WAIT}",
+      "label_english": "Liquor Shelf",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0254.000",
+      "script_id": 254,
+      "string_index": 0,
+      "original_english": "Bed{WAIT}",
+      "label_english": "Bed",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0255.000",
+      "script_id": 255,
+      "string_index": 0,
+      "original_english": "Chair{WAIT}",
+      "label_english": "Chair",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0256.000",
+      "script_id": 256,
+      "string_index": 0,
+      "original_english": "Table{WAIT}",
+      "label_english": "Table",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0257.000",
+      "script_id": 257,
+      "string_index": 0,
+      "original_english": "Dresser{WAIT}",
+      "label_english": "Dresser",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0260.000",
+      "script_id": 260,
+      "string_index": 0,
+      "original_english": "Kitchen{WAIT}",
+      "label_english": "Kitchen",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0261.000",
+      "script_id": 261,
+      "string_index": 0,
+      "original_english": "Big Kitchen{WAIT}",
+      "label_english": "Big Kitchen",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0262.000",
+      "script_id": 262,
+      "string_index": 0,
+      "original_english": "Cooking Utensils{WAIT}",
+      "label_english": "Cooking Utensils",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0263.000",
+      "script_id": 263,
+      "string_index": 0,
+      "original_english": "Refrigerator{WAIT}",
+      "label_english": "Refrigerator",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0264.000",
+      "script_id": 264,
+      "string_index": 0,
+      "original_english": "Shelf{WAIT}",
+      "label_english": "Shelf",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0265.000",
+      "script_id": 265,
+      "string_index": 0,
+      "original_english": "Bed{WAIT}",
+      "label_english": "Bed",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0266.000",
+      "script_id": 266,
+      "string_index": 0,
+      "original_english": "Bookshelf{WAIT}",
+      "label_english": "Bookshelf",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0267.000",
+      "script_id": 267,
+      "string_index": 0,
+      "original_english": "Table{WAIT}",
+      "label_english": "Table",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0269.000",
+      "script_id": 269,
+      "string_index": 0,
+      "original_english": "Shelf{WAIT}",
+      "label_english": "Shelf",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0270.000",
+      "script_id": 270,
+      "string_index": 0,
+      "original_english": "Table{WAIT}",
+      "label_english": "Table",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0276.000",
+      "script_id": 276,
+      "string_index": 0,
+      "original_english": "Bed{WAIT}",
+      "label_english": "Bed",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0277.000",
+      "script_id": 277,
+      "string_index": 0,
+      "original_english": "Chair{WAIT}",
+      "label_english": "Chair",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0278.000",
+      "script_id": 278,
+      "string_index": 0,
+      "original_english": "Table{WAIT}",
+      "label_english": "Table",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0279.000",
+      "script_id": 279,
+      "string_index": 0,
+      "original_english": "Vase{WAIT}",
+      "label_english": "Vase",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0280.000",
+      "script_id": 280,
+      "string_index": 0,
+      "original_english": "Bed{WAIT}",
+      "label_english": "Bed",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0281.000",
+      "script_id": 281,
+      "string_index": 0,
+      "original_english": "Chair{WAIT}",
+      "label_english": "Chair",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0282.000",
+      "script_id": 282,
+      "string_index": 0,
+      "original_english": "Table{WAIT}",
+      "label_english": "Table",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0283.000",
+      "script_id": 283,
+      "string_index": 0,
+      "original_english": "Vase{WAIT}",
+      "label_english": "Vase",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0286.000",
+      "script_id": 286,
+      "string_index": 0,
+      "original_english": "Chair{WAIT}",
+      "label_english": "Chair",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0287.000",
+      "script_id": 287,
+      "string_index": 0,
+      "original_english": "Kitchen{WAIT}",
+      "label_english": "Kitchen",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0288.000",
+      "script_id": 288,
+      "string_index": 0,
+      "original_english": "Cooking Utensils{WAIT}",
+      "label_english": "Cooking Utensils",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0289.000",
+      "script_id": 289,
+      "string_index": 0,
+      "original_english": "Refrigerator{WAIT}",
+      "label_english": "Refrigerator",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0290.000",
+      "script_id": 290,
+      "string_index": 0,
+      "original_english": "Kitchen Cabinet{WAIT}",
+      "label_english": "Kitchen Cabinet",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0291.000",
+      "script_id": 291,
+      "string_index": 0,
+      "original_english": "Table{WAIT}",
+      "label_english": "Table",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0294.000",
+      "script_id": 294,
+      "string_index": 0,
+      "original_english": "Bed{WAIT}",
+      "label_english": "Bed",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0295.000",
+      "script_id": 295,
+      "string_index": 0,
+      "original_english": "Bookshelf{WAIT}",
+      "label_english": "Bookshelf",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0296.000",
+      "script_id": 296,
+      "string_index": 0,
+      "original_english": "Table{WAIT}",
+      "label_english": "Table",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0297.000",
+      "script_id": 297,
+      "string_index": 0,
+      "original_english": "Plant{WAIT}",
+      "label_english": "Plant",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0298.000",
+      "script_id": 298,
+      "string_index": 0,
+      "original_english": "Shelf{WAIT}",
+      "label_english": "Shelf",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0299.000",
+      "script_id": 299,
+      "string_index": 0,
+      "original_english": "Fireplace{WAIT}",
+      "label_english": "Fireplace",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0301.000",
+      "script_id": 301,
+      "string_index": 0,
+      "original_english": "Chair{WAIT}",
+      "label_english": "Chair",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0302.000",
+      "script_id": 302,
+      "string_index": 0,
+      "original_english": "Counter{WAIT}",
+      "label_english": "Counter",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0303.000",
+      "script_id": 303,
+      "string_index": 0,
+      "original_english": "Table{WAIT}",
+      "label_english": "Table",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0304.000",
+      "script_id": 304,
+      "string_index": 0,
+      "original_english": "Ladder{WAIT}",
+      "label_english": "Ladder",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0320.000",
+      "script_id": 320,
+      "string_index": 0,
+      "original_english": "Bookshelf{CR}{LF}{WAIT}",
+      "label_english": "Bookshelf",
+      "show_text_sites": [
+        {
+          "code_offset": 66,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ]
+    },
+    {
+      "id": "script.0321.000",
+      "script_id": 321,
+      "string_index": 0,
+      "original_english": "Bookshelf{CR}{LF}{WAIT}",
+      "label_english": "Bookshelf",
+      "show_text_sites": [
+        {
+          "code_offset": 66,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ]
+    },
+    {
+      "id": "script.0322.002",
+      "script_id": 322,
+      "string_index": 2,
+      "original_english": "Bookshelf{CR}{LF}{WAIT}",
+      "label_english": "Bookshelf",
+      "show_text_sites": [
+        {
+          "code_offset": 262,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ]
+    },
+    {
+      "id": "script.0323.000",
+      "script_id": 323,
+      "string_index": 0,
+      "original_english": "Bed{WAIT}",
+      "label_english": "Bed",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0324.000",
+      "script_id": 324,
+      "string_index": 0,
+      "original_english": "Chair{WAIT}",
+      "label_english": "Chair",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0325.000",
+      "script_id": 325,
+      "string_index": 0,
+      "original_english": "Kitchen{WAIT}",
+      "label_english": "Kitchen",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0326.000",
+      "script_id": 326,
+      "string_index": 0,
+      "original_english": "Plant{WAIT}",
+      "label_english": "Plant",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0327.000",
+      "script_id": 327,
+      "string_index": 0,
+      "original_english": "Shelf{WAIT}",
+      "label_english": "Shelf",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0328.000",
+      "script_id": 328,
+      "string_index": 0,
+      "original_english": "Table{WAIT}",
+      "label_english": "Table",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0330.000",
+      "script_id": 330,
+      "string_index": 0,
+      "original_english": "Bed{WAIT}",
+      "label_english": "Bed",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0331.000",
+      "script_id": 331,
+      "string_index": 0,
+      "original_english": "Bookshelf{WAIT}",
+      "label_english": "Bookshelf",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0332.000",
+      "script_id": 332,
+      "string_index": 0,
+      "original_english": "Chair{WAIT}",
+      "label_english": "Chair",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0333.000",
+      "script_id": 333,
+      "string_index": 0,
+      "original_english": "Clock{WAIT}",
+      "label_english": "Clock",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0334.000",
+      "script_id": 334,
+      "string_index": 0,
+      "original_english": "Kitchen{WAIT}",
+      "label_english": "Kitchen",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0335.000",
+      "script_id": 335,
+      "string_index": 0,
+      "original_english": "Refrigerator{WAIT}",
+      "label_english": "Refrigerator",
+      "show_text_sites": [
+        {
+          "code_offset": 67,
+          "native_call": 35,
+          "text_flags": 0
+        },
+        {
+          "code_offset": 194,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0336.000",
+      "script_id": 336,
+      "string_index": 0,
+      "original_english": "Kitchen Cabinet{WAIT}",
+      "label_english": "Kitchen Cabinet",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0337.000",
+      "script_id": 337,
+      "string_index": 0,
+      "original_english": "Table{WAIT}",
+      "label_english": "Table",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0340.000",
+      "script_id": 340,
+      "string_index": 0,
+      "original_english": "Stairs to Basement{WAIT}",
+      "label_english": "Stairs to Basement",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ]
+    },
+    {
+      "id": "script.0343.046",
+      "script_id": 343,
+      "string_index": 46,
+      "original_english": "Big Bed{WAIT}",
+      "label_english": "Big Bed",
+      "show_text_sites": [
+        {
+          "code_offset": 4742,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ]
+    },
+    {
+      "id": "script.0346.000",
+      "script_id": 346,
+      "string_index": 0,
+      "original_english": "Chair{WAIT}",
+      "label_english": "Chair",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0351.000",
+      "script_id": 351,
+      "string_index": 0,
+      "original_english": "Record Player{WAIT}",
+      "label_english": "Record Player",
+      "show_text_sites": [
+        {
+          "code_offset": 153,
+          "native_call": 33,
+          "text_flags": 256
+        },
+        {
+          "code_offset": 281,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ]
+    },
+    {
+      "id": "script.0351.001",
+      "script_id": 351,
+      "string_index": 1,
+      "original_english": "Table{WAIT}",
+      "label_english": "Table",
+      "show_text_sites": [
+        {
+          "code_offset": 303,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ]
+    },
+    {
+      "id": "script.0354.008",
+      "script_id": 354,
+      "string_index": 8,
+      "original_english": "Sock Hook{WAIT}",
+      "label_english": "Sock Hook",
+      "show_text_sites": [
+        {
+          "code_offset": 600,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ]
+    },
+    {
+      "id": "script.0355.000",
+      "script_id": 355,
+      "string_index": 0,
+      "original_english": "Table{WAIT}",
+      "label_english": "Table",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ]
+    },
+    {
+      "id": "script.0359.000",
+      "script_id": 359,
+      "string_index": 0,
+      "original_english": "Vase{WAIT}",
+      "label_english": "Vase",
+      "show_text_sites": [
+        {
+          "code_offset": 131,
+          "native_call": 33,
+          "text_flags": 256
+        },
+        {
+          "code_offset": 278,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ]
+    },
+    {
+      "id": "script.0363.000",
+      "script_id": 363,
+      "string_index": 0,
+      "original_english": "Barrel{WAIT}",
+      "label_english": "Barrel",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0364.000",
+      "script_id": 364,
+      "string_index": 0,
+      "original_english": "Bench{WAIT}",
+      "label_english": "Bench",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0365.000",
+      "script_id": 365,
+      "string_index": 0,
+      "original_english": "Grape Vine{WAIT}",
+      "label_english": "Grape Vine",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0366.000",
+      "script_id": 366,
+      "string_index": 0,
+      "original_english": "Mailbox{WAIT}",
+      "label_english": "Mailbox",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0367.000",
+      "script_id": 367,
+      "string_index": 0,
+      "original_english": "Street lamp{WAIT}",
+      "label_english": "Street lamp",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0368.000",
+      "script_id": 368,
+      "string_index": 0,
+      "original_english": "Street lamp{WAIT}",
+      "label_english": "Street lamp",
+      "show_text_sites": [
+        {
+          "code_offset": 37,
+          "native_call": 35,
+          "text_flags": 0
+        },
+        {
+          "code_offset": 180,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0369.000",
+      "script_id": 369,
+      "string_index": 0,
+      "original_english": "Grave{WAIT}",
+      "label_english": "Grave",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0382.000",
+      "script_id": 382,
+      "string_index": 0,
+      "original_english": "Barrel{WAIT}",
+      "label_english": "Barrel",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0383.000",
+      "script_id": 383,
+      "string_index": 0,
+      "original_english": "Chair{WAIT}",
+      "label_english": "Chair",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0384.000",
+      "script_id": 384,
+      "string_index": 0,
+      "original_english": "Kitchen{WAIT}",
+      "label_english": "Kitchen",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0385.000",
+      "script_id": 385,
+      "string_index": 0,
+      "original_english": "Cooking Utensils{WAIT}",
+      "label_english": "Cooking Utensils",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0386.000",
+      "script_id": 386,
+      "string_index": 0,
+      "original_english": "Refrigerator{WAIT}",
+      "label_english": "Refrigerator",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0387.000",
+      "script_id": 387,
+      "string_index": 0,
+      "original_english": "Kitchen Cabinet{WAIT}",
+      "label_english": "Kitchen Cabinet",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0388.000",
+      "script_id": 388,
+      "string_index": 0,
+      "original_english": "Table{WAIT}",
+      "label_english": "Table",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0391.000",
+      "script_id": 391,
+      "string_index": 0,
+      "original_english": "Wood Box{WAIT}",
+      "label_english": "Wood Box",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0392.000",
+      "script_id": 392,
+      "string_index": 0,
+      "original_english": "Bed{WAIT}",
+      "label_english": "Bed",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0393.000",
+      "script_id": 393,
+      "string_index": 0,
+      "original_english": "Bookshelf{WAIT}",
+      "label_english": "Bookshelf",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0394.000",
+      "script_id": 394,
+      "string_index": 0,
+      "original_english": "Chair{WAIT}",
+      "label_english": "Chair",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0396.000",
+      "script_id": 396,
+      "string_index": 0,
+      "original_english": "Painting of a Mountain{WAIT}",
+      "label_english": "Painting of a Mountain",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0397.000",
+      "script_id": 397,
+      "string_index": 0,
+      "original_english": "Plant{WAIT}",
+      "label_english": "Plant",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0398.000",
+      "script_id": 398,
+      "string_index": 0,
+      "original_english": "Table{WAIT}",
+      "label_english": "Table",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0402.000",
+      "script_id": 402,
+      "string_index": 0,
+      "original_english": "Square's Bench{WAIT}",
+      "label_english": "Square's Bench",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0404.020",
+      "script_id": 404,
+      "string_index": 20,
+      "original_english": "Table{WAIT}",
+      "label_english": "Table",
+      "show_text_sites": [
+        {
+          "code_offset": 1874,
+          "native_call": 33,
+          "text_flags": 256
+        },
+        {
+          "code_offset": 2415,
+          "native_call": 33,
+          "text_flags": 256
+        },
+        {
+          "code_offset": 2437,
+          "native_call": 33,
+          "text_flags": 256
+        },
+        {
+          "code_offset": 2459,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ]
+    },
+    {
+      "id": "script.0407.000",
+      "script_id": 407,
+      "string_index": 0,
+      "original_english": "Pestle and mortar{WAIT}",
+      "label_english": "Pestle and mortar",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0408.000",
+      "script_id": 408,
+      "string_index": 0,
+      "original_english": "Square's street lamp{WAIT}",
+      "label_english": "Square's street lamp",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0412.000",
+      "script_id": 412,
+      "string_index": 0,
+      "original_english": "Barrel{WAIT}",
+      "label_english": "Barrel",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0413.000",
+      "script_id": 413,
+      "string_index": 0,
+      "original_english": "Wine Bottles{WAIT}",
+      "label_english": "Wine Bottles",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0414.000",
+      "script_id": 414,
+      "string_index": 0,
+      "original_english": "Shelf{WAIT}",
+      "label_english": "Shelf",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0417.000",
+      "script_id": 417,
+      "string_index": 0,
+      "original_english": "Wood Box{WAIT}",
+      "label_english": "Wood Box",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0418.000",
+      "script_id": 418,
+      "string_index": 0,
+      "original_english": "Large Barrel{WAIT}",
+      "label_english": "Large Barrel",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0419.000",
+      "script_id": 419,
+      "string_index": 0,
+      "original_english": "Barrel Shelf{WAIT}",
+      "label_english": "Barrel Shelf",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0420.000",
+      "script_id": 420,
+      "string_index": 0,
+      "original_english": "Wine Rack{WAIT}",
+      "label_english": "Wine Rack",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0421.000",
+      "script_id": 421,
+      "string_index": 0,
+      "original_english": "Shelf{WAIT}",
+      "label_english": "Shelf",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0429.000",
+      "script_id": 429,
+      "string_index": 0,
+      "original_english": "Plant{WAIT}",
+      "label_english": "Plant",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ]
+    },
+    {
+      "id": "script.0431.000",
+      "script_id": 431,
+      "string_index": 0,
+      "original_english": "Window{WAIT}",
+      "label_english": "Window",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ]
+    },
+    {
+      "id": "script.0432.000",
+      "script_id": 432,
+      "string_index": 0,
+      "original_english": "Chair{WAIT}",
+      "label_english": "Chair",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0433.000",
+      "script_id": 433,
+      "string_index": 0,
+      "original_english": "Kitchen{WAIT}",
+      "label_english": "Kitchen",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0434.000",
+      "script_id": 434,
+      "string_index": 0,
+      "original_english": "Menu{WAIT}",
+      "label_english": "Menu",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0435.000",
+      "script_id": 435,
+      "string_index": 0,
+      "original_english": "Cooking Utensils{WAIT}",
+      "label_english": "Cooking Utensils",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0436.000",
+      "script_id": 436,
+      "string_index": 0,
+      "original_english": "Poster{WAIT}",
+      "label_english": "Poster",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0437.000",
+      "script_id": 437,
+      "string_index": 0,
+      "original_english": "Refrigerator{WAIT}",
+      "label_english": "Refrigerator",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0438.000",
+      "script_id": 438,
+      "string_index": 0,
+      "original_english": "Kitchen Cabinet{WAIT}",
+      "label_english": "Kitchen Cabinet",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0439.000",
+      "script_id": 439,
+      "string_index": 0,
+      "original_english": "Table{WAIT}",
+      "label_english": "Table",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0442.000",
+      "script_id": 442,
+      "string_index": 0,
+      "original_english": "Feed Box{WAIT}",
+      "label_english": "Feed Box",
+      "show_text_sites": [
+        {
+          "code_offset": 119,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0443.000",
+      "script_id": 443,
+      "string_index": 0,
+      "original_english": "Feed Box{WAIT}",
+      "label_english": "Feed Box",
+      "show_text_sites": [
+        {
+          "code_offset": 119,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0444.000",
+      "script_id": 444,
+      "string_index": 0,
+      "original_english": "Feed Box{WAIT}",
+      "label_english": "Feed Box",
+      "show_text_sites": [
+        {
+          "code_offset": 119,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0445.000",
+      "script_id": 445,
+      "string_index": 0,
+      "original_english": "Feed Box{WAIT}",
+      "label_english": "Feed Box",
+      "show_text_sites": [
+        {
+          "code_offset": 119,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0446.000",
+      "script_id": 446,
+      "string_index": 0,
+      "original_english": "Feed Box{WAIT}",
+      "label_english": "Feed Box",
+      "show_text_sites": [
+        {
+          "code_offset": 119,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0447.000",
+      "script_id": 447,
+      "string_index": 0,
+      "original_english": "Feed Box{WAIT}",
+      "label_english": "Feed Box",
+      "show_text_sites": [
+        {
+          "code_offset": 119,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0448.000",
+      "script_id": 448,
+      "string_index": 0,
+      "original_english": "Feed Box{WAIT}",
+      "label_english": "Feed Box",
+      "show_text_sites": [
+        {
+          "code_offset": 119,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0449.000",
+      "script_id": 449,
+      "string_index": 0,
+      "original_english": "Feed Box{WAIT}",
+      "label_english": "Feed Box",
+      "show_text_sites": [
+        {
+          "code_offset": 119,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0450.000",
+      "script_id": 450,
+      "string_index": 0,
+      "original_english": "Feed Box{WAIT}",
+      "label_english": "Feed Box",
+      "show_text_sites": [
+        {
+          "code_offset": 119,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0451.000",
+      "script_id": 451,
+      "string_index": 0,
+      "original_english": "Feed Box{WAIT}",
+      "label_english": "Feed Box",
+      "show_text_sites": [
+        {
+          "code_offset": 119,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0452.000",
+      "script_id": 452,
+      "string_index": 0,
+      "original_english": "Feed Box{WAIT}",
+      "label_english": "Feed Box",
+      "show_text_sites": [
+        {
+          "code_offset": 119,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0453.000",
+      "script_id": 453,
+      "string_index": 0,
+      "original_english": "Feed Box{WAIT}",
+      "label_english": "Feed Box",
+      "show_text_sites": [
+        {
+          "code_offset": 119,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0454.000",
+      "script_id": 454,
+      "string_index": 0,
+      "original_english": "Feed Box{WAIT}",
+      "label_english": "Feed Box",
+      "show_text_sites": [
+        {
+          "code_offset": 119,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0455.000",
+      "script_id": 455,
+      "string_index": 0,
+      "original_english": "Feed Box{WAIT}",
+      "label_english": "Feed Box",
+      "show_text_sites": [
+        {
+          "code_offset": 119,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0456.000",
+      "script_id": 456,
+      "string_index": 0,
+      "original_english": "Feed Box{WAIT}",
+      "label_english": "Feed Box",
+      "show_text_sites": [
+        {
+          "code_offset": 119,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0457.000",
+      "script_id": 457,
+      "string_index": 0,
+      "original_english": "Feed Box{WAIT}",
+      "label_english": "Feed Box",
+      "show_text_sites": [
+        {
+          "code_offset": 119,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0466.000",
+      "script_id": 466,
+      "string_index": 0,
+      "original_english": "Counter{WAIT}",
+      "label_english": "Counter",
+      "show_text_sites": [
+        {
+          "code_offset": 7843,
+          "native_call": 33,
+          "text_flags": 256
+        },
+        {
+          "code_offset": 7946,
+          "native_call": 33,
+          "text_flags": 256
+        },
+        {
+          "code_offset": 8134,
+          "native_call": 33,
+          "text_flags": 256
+        },
+        {
+          "code_offset": 8156,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ]
+    },
+    {
+      "id": "script.0482.000",
+      "script_id": 482,
+      "string_index": 0,
+      "original_english": "Counter{WAIT}",
+      "label_english": "Counter",
+      "show_text_sites": [
+        {
+          "code_offset": 7843,
+          "native_call": 33,
+          "text_flags": 256
+        },
+        {
+          "code_offset": 8010,
+          "native_call": 33,
+          "text_flags": 256
+        },
+        {
+          "code_offset": 8032,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ]
+    },
+    {
+      "id": "script.0483.000",
+      "script_id": 483,
+      "string_index": 0,
+      "original_english": "Table{WAIT}",
+      "label_english": "Table",
+      "show_text_sites": [
+        {
+          "code_offset": 7843,
+          "native_call": 33,
+          "text_flags": 256
+        },
+        {
+          "code_offset": 9195,
+          "native_call": 33,
+          "text_flags": 256
+        },
+        {
+          "code_offset": 9212,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ]
+    },
+    {
+      "id": "script.0484.000",
+      "script_id": 484,
+      "string_index": 0,
+      "original_english": "Counter{WAIT}",
+      "label_english": "Counter",
+      "show_text_sites": [
+        {
+          "code_offset": 7843,
+          "native_call": 33,
+          "text_flags": 256
+        },
+        {
+          "code_offset": 7973,
+          "native_call": 33,
+          "text_flags": 256
+        },
+        {
+          "code_offset": 8199,
+          "native_call": 33,
+          "text_flags": 256
+        },
+        {
+          "code_offset": 8221,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ]
+    },
+    {
+      "id": "script.0485.000",
+      "script_id": 485,
+      "string_index": 0,
+      "original_english": "Counter{WAIT}",
+      "label_english": "Counter",
+      "show_text_sites": [
+        {
+          "code_offset": 7843,
+          "native_call": 33,
+          "text_flags": 256
+        },
+        {
+          "code_offset": 8061,
+          "native_call": 33,
+          "text_flags": 256
+        },
+        {
+          "code_offset": 8083,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ]
+    },
+    {
+      "id": "script.0486.000",
+      "script_id": 486,
+      "string_index": 0,
+      "original_english": "Counter{WAIT}",
+      "label_english": "Counter",
+      "show_text_sites": [
+        {
+          "code_offset": 7843,
+          "native_call": 33,
+          "text_flags": 256
+        },
+        {
+          "code_offset": 7949,
+          "native_call": 33,
+          "text_flags": 256
+        },
+        {
+          "code_offset": 8098,
+          "native_call": 33,
+          "text_flags": 256
+        },
+        {
+          "code_offset": 8120,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ]
+    },
+    {
+      "id": "script.0487.000",
+      "script_id": 487,
+      "string_index": 0,
+      "original_english": "Counter{WAIT}",
+      "label_english": "Counter",
+      "show_text_sites": [
+        {
+          "code_offset": 7843,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ]
+    },
+    {
+      "id": "script.0488.000",
+      "script_id": 488,
+      "string_index": 0,
+      "original_english": "Counter{WAIT}",
+      "label_english": "Counter",
+      "show_text_sites": [
+        {
+          "code_offset": 7843,
+          "native_call": 33,
+          "text_flags": 256
+        },
+        {
+          "code_offset": 8116,
+          "native_call": 33,
+          "text_flags": 256
+        },
+        {
+          "code_offset": 8138,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ]
+    },
+    {
+      "id": "script.0489.000",
+      "script_id": 489,
+      "string_index": 0,
+      "original_english": "Counter{WAIT}",
+      "label_english": "Counter",
+      "show_text_sites": [
+        {
+          "code_offset": 7843,
+          "native_call": 33,
+          "text_flags": 256
+        },
+        {
+          "code_offset": 8061,
+          "native_call": 33,
+          "text_flags": 256
+        },
+        {
+          "code_offset": 8083,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ]
+    },
+    {
+      "id": "script.0511.000",
+      "script_id": 511,
+      "string_index": 0,
+      "original_english": "Bed{WAIT}",
+      "label_english": "Bed",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0512.000",
+      "script_id": 512,
+      "string_index": 0,
+      "original_english": "Bookshelf{WAIT}",
+      "label_english": "Bookshelf",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0514.000",
+      "script_id": 514,
+      "string_index": 0,
+      "original_english": "Smelting Furnace{WAIT}",
+      "label_english": "Smelting Furnace",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0515.000",
+      "script_id": 515,
+      "string_index": 0,
+      "original_english": "Hammer{WAIT}",
+      "label_english": "Hammer",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0516.000",
+      "script_id": 516,
+      "string_index": 0,
+      "original_english": "Shovel{WAIT}",
+      "label_english": "Shovel",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0517.000",
+      "script_id": 517,
+      "string_index": 0,
+      "original_english": "Stove{WAIT}",
+      "label_english": "Stove",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0518.000",
+      "script_id": 518,
+      "string_index": 0,
+      "original_english": "Table{WAIT}",
+      "label_english": "Table",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0520.000",
+      "script_id": 520,
+      "string_index": 0,
+      "original_english": "Water{WAIT}",
+      "label_english": "Water",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0522.000",
+      "script_id": 522,
+      "string_index": 0,
+      "original_english": "Mailbox{WAIT}",
+      "label_english": "Mailbox",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0531.001",
+      "script_id": 531,
+      "string_index": 1,
+      "original_english": "Fireplace{WAIT}",
+      "label_english": "Fireplace",
+      "show_text_sites": [
+        {
+          "code_offset": 548,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ]
+    },
+    {
+      "id": "script.0535.000",
+      "script_id": 535,
+      "string_index": 0,
+      "original_english": "Chair{WAIT}",
+      "label_english": "Chair",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0538.000",
+      "script_id": 538,
+      "string_index": 0,
+      "original_english": "Mirror{WAIT}",
+      "label_english": "Mirror",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ]
+    },
+    {
+      "id": "script.0539.000",
+      "script_id": 539,
+      "string_index": 0,
+      "original_english": "Table{WAIT}",
+      "label_english": "Table",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0542.000",
+      "script_id": 542,
+      "string_index": 0,
+      "original_english": "Bed{WAIT}",
+      "label_english": "Bed",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0543.000",
+      "script_id": 543,
+      "string_index": 0,
+      "original_english": "Chair{WAIT}",
+      "label_english": "Chair",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0544.000",
+      "script_id": 544,
+      "string_index": 0,
+      "original_english": "Ground{WAIT}",
+      "label_english": "Ground",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0545.000",
+      "script_id": 545,
+      "string_index": 0,
+      "original_english": "Kitchen{WAIT}",
+      "label_english": "Kitchen",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0546.000",
+      "script_id": 546,
+      "string_index": 0,
+      "original_english": "Plant{WAIT}",
+      "label_english": "Plant",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0547.000",
+      "script_id": 547,
+      "string_index": 0,
+      "original_english": "Kitchen Cabinet{WAIT}",
+      "label_english": "Kitchen Cabinet",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0548.000",
+      "script_id": 548,
+      "string_index": 0,
+      "original_english": "Fireplace{WAIT}",
+      "label_english": "Fireplace",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0549.000",
+      "script_id": 549,
+      "string_index": 0,
+      "original_english": "Table{WAIT}",
+      "label_english": "Table",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0551.000",
+      "script_id": 551,
+      "string_index": 0,
+      "original_english": "Wood Box{WAIT}",
+      "label_english": "Wood Box",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0552.000",
+      "script_id": 552,
+      "string_index": 0,
+      "original_english": "Chair{WAIT}",
+      "label_english": "Chair",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0553.000",
+      "script_id": 553,
+      "string_index": 0,
+      "original_english": "Clock{WAIT}",
+      "label_english": "Clock",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0554.000",
+      "script_id": 554,
+      "string_index": 0,
+      "original_english": "Kitchen{WAIT}",
+      "label_english": "Kitchen",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0555.000",
+      "script_id": 555,
+      "string_index": 0,
+      "original_english": "Refrigerator{WAIT}",
+      "label_english": "Refrigerator",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0556.000",
+      "script_id": 556,
+      "string_index": 0,
+      "original_english": "Kitchen Cabinet{WAIT}",
+      "label_english": "Kitchen Cabinet",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0557.000",
+      "script_id": 557,
+      "string_index": 0,
+      "original_english": "Shelf{WAIT}",
+      "label_english": "Shelf",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0558.000",
+      "script_id": 558,
+      "string_index": 0,
+      "original_english": "Table{WAIT}",
+      "label_english": "Table",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0562.000",
+      "script_id": 562,
+      "string_index": 0,
+      "original_english": "Wood Box{WAIT}",
+      "label_english": "Wood Box",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0563.000",
+      "script_id": 563,
+      "string_index": 0,
+      "original_english": "Bed{WAIT}",
+      "label_english": "Bed",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0564.000",
+      "script_id": 564,
+      "string_index": 0,
+      "original_english": "Bookshelf{WAIT}",
+      "label_english": "Bookshelf",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0565.000",
+      "script_id": 565,
+      "string_index": 0,
+      "original_english": "Chair{WAIT}",
+      "label_english": "Chair",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0566.000",
+      "script_id": 566,
+      "string_index": 0,
+      "original_english": "Shelf{WAIT}",
+      "label_english": "Shelf",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0567.000",
+      "script_id": 567,
+      "string_index": 0,
+      "original_english": "Table{WAIT}",
+      "label_english": "Table",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    },
+    {
+      "id": "script.0569.000",
+      "script_id": 569,
+      "string_index": 0,
+      "original_english": "Vase{WAIT}",
+      "label_english": "Vase",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ]
+    }
+  ],
+  "native_handler_sha256": {
+    "33": "7e81a98a9ea0be39deb86d090e3b9947120d9d6c2c090ecd47fccc1e41feeee6",
+    "34": "fbf5b1dc589bd9a7d9030c7e210b2527a6ce8dc07389bb8b2b46c7e46075d933",
+    "35": "2a313e09ccd5803488e12f728325c612d8bebe293cc7f746431f6b796f1a8345"
+  }
+}

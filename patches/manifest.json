@@ -3,13 +3,13 @@
   "stage": "experimental localization demo; not a full translation",
   "source_sha1": "a2fc3574f0a65a4fcf7682fb274b9d7eebdef963",
   "source_size": 8388608,
-  "target_sha256": "606ffa11607126b47abe2906e33d78a977f85a709c92ae963e9a6bfb7128c3a5",
+  "target_sha256": "98e69a242aaa5eb71c8e0fafa17bbca1379d13d06ebb906aa743ac1b4d9d3335",
   "target_size": 16777216,
-  "patch_sha256": "f4a8ae0c5b6f2445d372cdb4bdb66f49e15f1e74c822012ed0d971b8f9e5f669",
-  "patch_size": 269643,
-  "translated_draft_records": 1144,
-  "revision": "2026-10-23",
-  "validation": "134 ROM-backed pytest; two reproducible builds and IPS round trip; eight suites on both mGBA backends; 43 unchanged golden scenes. NPC batch: 85 records, 124 native WAIT points, 266 guarded lines, 864 source-CODE branch probes. Native UI fixtures do not claim natural encounters or language approval. See platform-validation.json and npc-daily-validation.json.",
+  "patch_sha256": "5980ae7b0b7d98b743cd062361db8ff1ec8e803ddcca301d5d0d345a43460bb5",
+  "patch_size": 401982,
+  "translated_draft_records": 1405,
+  "revision": "2026-10-24",
+  "validation": "138 ROM-backed pytest; two reproducible builds/IPS round trip; nine suites on both mGBA backends, 43 unchanged golden scenes. Object labels: 261 slots/68 terms, exact native foreground masks and WAIT cursors, 260 CODE/JUMP chunks preserved; two natural house-table interactions per backend. Other objects use UI fixtures. See platform-validation.json and object-labels-validation.json.",
   "font_revision": "native-outline-aligned-v2",
   "translated_graphics_assets": 3,
   "title_graphics_revision": "native-thin-double-outline-v5",
@@ -28,7 +28,7 @@
   "calendar_font_tiles_reserved": 256,
   "calendar_heading_revision": "centered-native-compact-year-v1",
   "item_description_drafts": 347,
-  "localization_batch": "npc-daily-01",
+  "localization_batch": "object-labels-01",
   "item_batch_evidence": "docs/evidence/items-complete-validation.json",
   "platform_baseline": "localization/platform_baseline.json",
   "platform_validation": "docs/evidence/platform-validation.json",
@@ -43,5 +43,8 @@
     "script.1017.018",
     "script.1017.023"
   ],
-  "thomas_refinement_evidence": "docs/evidence/thomas-refinement-validation.json"
+  "thomas_refinement_evidence": "docs/evidence/thomas-refinement-validation.json",
+  "object_label_drafts": 261,
+  "object_label_terms": 68,
+  "object_label_evidence": "docs/evidence/object-labels-validation.json"
 }

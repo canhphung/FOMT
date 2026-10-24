@@ -1,0 +1,3324 @@
+{
+  "schema_version": 1,
+  "revision": "object-labels-01",
+  "status": "passed",
+  "created_at": "2026-10-24T01:02:45.523036+00:00",
+  "source_sha1": "a2fc3574f0a65a4fcf7682fb274b9d7eebdef963",
+  "target_sha256": "98e69a242aaa5eb71c8e0fafa17bbca1379d13d06ebb906aa743ac1b4d9d3335",
+  "patch_sha256": "5980ae7b0b7d98b743cd062361db8ff1ec8e803ddcca301d5d0d345a43460bb5",
+  "pytest": {
+    "passed": 138,
+    "failed": 0,
+    "skipped": 0
+  },
+  "catalog_records": 9309,
+  "draft_records": 1405,
+  "new_drafts": 261,
+  "unique_english_object_names": 68,
+  "glossary_terms": 471,
+  "source_contract": "localization/object_labels.json",
+  "source_contract_sha256": "384e6c3985e76ad4156ef88d52378618ab53694f8be63db13cd6c0bc0199c46a",
+  "release_ips_round_trip": true,
+  "repeated_builds_identical": true,
+  "queue": {
+    "translate": 0,
+    "qa": 1405,
+    "blocked": 7904,
+    "done": 0
+  },
+  "emulators": {
+    "0.10.5": {
+      "library_sha256": "a59b9ebbc006144a1fc4fd68ddc371e95de4abc7d36073c7eed53e482d06a15c",
+      "objects": {
+        "status": "passed",
+        "target_sha256": "98e69a242aaa5eb71c8e0fafa17bbca1379d13d06ebb906aa743ac1b4d9d3335",
+        "object_label_records": 261,
+        "unique_terms": 68,
+        "native_waits_verified": 261,
+        "guarded_renderer_lines": 261,
+        "script_CODE_JUMP_unchanged": 260,
+        "nonlabel_strings_byte_identical": 184,
+        "natural_house_interactions": [
+          {
+            "id": "script.0355.000",
+            "controls": [],
+            "A_settle_frames": 150,
+            "native_wait_pointer": "0x8822bed",
+            "screenshot": "natural-script.0355.000.png",
+            "ram_state_modified": false
+          },
+          {
+            "id": "script.0351.001",
+            "controls": [
+              [
+                128,
+                54
+              ],
+              [
+                32,
+                94
+              ]
+            ],
+            "A_settle_frames": 150,
+            "native_wait_pointer": "0x88227f2",
+            "screenshot": "natural-script.0351.001.png",
+            "ram_state_modified": false
+          }
+        ],
+        "cases": [
+          {
+            "id": "script.0094.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 37,
+            "wait_pointer": "0x881b4ac"
+          },
+          {
+            "id": "script.0095.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 66,
+            "wait_pointer": "0x881b4f1"
+          },
+          {
+            "id": "script.0096.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 107,
+            "wait_pointer": "0x881b53a"
+          },
+          {
+            "id": "script.0099.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 130,
+            "wait_pointer": "0x881b583"
+          },
+          {
+            "id": "script.0100.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 112,
+            "wait_pointer": "0x881b5ca"
+          },
+          {
+            "id": "script.0101.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 150,
+            "wait_pointer": "0x881b615"
+          },
+          {
+            "id": "script.0103.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 102,
+            "wait_pointer": "0x881b65c"
+          },
+          {
+            "id": "script.0104.005",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 76,
+            "wait_pointer": "0x881b931"
+          },
+          {
+            "id": "script.0109.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 78,
+            "wait_pointer": "0x881b978"
+          },
+          {
+            "id": "script.0110.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 130,
+            "wait_pointer": "0x881b9c3"
+          },
+          {
+            "id": "script.0116.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 63,
+            "wait_pointer": "0x881ba05"
+          },
+          {
+            "id": "script.0117.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 68,
+            "wait_pointer": "0x881ba49"
+          },
+          {
+            "id": "script.0118.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 98,
+            "wait_pointer": "0x881ba92"
+          },
+          {
+            "id": "script.0119.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 96,
+            "wait_pointer": "0x881bad9"
+          },
+          {
+            "id": "script.0120.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 127,
+            "wait_pointer": "0x881bb22"
+          },
+          {
+            "id": "script.0121.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 97,
+            "wait_pointer": "0x881bb6b"
+          },
+          {
+            "id": "script.0122.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x881bbad"
+          },
+          {
+            "id": "script.0125.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 130,
+            "wait_pointer": "0x881bbf7"
+          },
+          {
+            "id": "script.0126.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 106,
+            "wait_pointer": "0x881bc3d"
+          },
+          {
+            "id": "script.0127.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 110,
+            "wait_pointer": "0x881bc86"
+          },
+          {
+            "id": "script.0128.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 63,
+            "wait_pointer": "0x881bcc9"
+          },
+          {
+            "id": "script.0129.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 130,
+            "wait_pointer": "0x881bd12"
+          },
+          {
+            "id": "script.0130.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 63,
+            "wait_pointer": "0x881bd56"
+          },
+          {
+            "id": "script.0131.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 119,
+            "wait_pointer": "0x881bd9f"
+          },
+          {
+            "id": "script.0132.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 126,
+            "wait_pointer": "0x881bde7"
+          },
+          {
+            "id": "script.0133.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x881be29"
+          },
+          {
+            "id": "script.0135.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 159,
+            "wait_pointer": "0x881be77"
+          },
+          {
+            "id": "script.0137.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 129,
+            "wait_pointer": "0x881bebf"
+          },
+          {
+            "id": "script.0138.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 63,
+            "wait_pointer": "0x881bf01"
+          },
+          {
+            "id": "script.0140.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 211,
+            "wait_pointer": "0x881bf51"
+          },
+          {
+            "id": "script.0141.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x881bf95"
+          },
+          {
+            "id": "script.0144.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 95,
+            "wait_pointer": "0x881bfdd"
+          },
+          {
+            "id": "script.0145.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 87,
+            "wait_pointer": "0x881c023"
+          },
+          {
+            "id": "script.0146.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 48,
+            "wait_pointer": "0x881c065"
+          },
+          {
+            "id": "script.0147.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 106,
+            "wait_pointer": "0x881c0ad"
+          },
+          {
+            "id": "script.0148.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 110,
+            "wait_pointer": "0x881c0f6"
+          },
+          {
+            "id": "script.0149.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 68,
+            "wait_pointer": "0x881c139"
+          },
+          {
+            "id": "script.0151.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 98,
+            "wait_pointer": "0x881c182"
+          },
+          {
+            "id": "script.0152.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 130,
+            "wait_pointer": "0x881c1cb"
+          },
+          {
+            "id": "script.0174.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 53,
+            "wait_pointer": "0x881c20d"
+          },
+          {
+            "id": "script.0180.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 106,
+            "wait_pointer": "0x881c255"
+          },
+          {
+            "id": "script.0181.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 110,
+            "wait_pointer": "0x881c29e"
+          },
+          {
+            "id": "script.0182.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 63,
+            "wait_pointer": "0x881c2e1"
+          },
+          {
+            "id": "script.0183.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 68,
+            "wait_pointer": "0x881c325"
+          },
+          {
+            "id": "script.0184.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 122,
+            "wait_pointer": "0x881c36f"
+          },
+          {
+            "id": "script.0185.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 98,
+            "wait_pointer": "0x881c3b6"
+          },
+          {
+            "id": "script.0186.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 96,
+            "wait_pointer": "0x881c3fd"
+          },
+          {
+            "id": "script.0187.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x881c441"
+          },
+          {
+            "id": "script.0189.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x881c48a"
+          },
+          {
+            "id": "script.0190.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 106,
+            "wait_pointer": "0x881c4d1"
+          },
+          {
+            "id": "script.0191.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 110,
+            "wait_pointer": "0x881c51a"
+          },
+          {
+            "id": "script.0192.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 63,
+            "wait_pointer": "0x881c55d"
+          },
+          {
+            "id": "script.0193.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x881c5a1"
+          },
+          {
+            "id": "script.0194.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 92,
+            "wait_pointer": "0x881c5ea"
+          },
+          {
+            "id": "script.0195.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 68,
+            "wait_pointer": "0x881c62d"
+          },
+          {
+            "id": "script.0196.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 63,
+            "wait_pointer": "0x881c672"
+          },
+          {
+            "id": "script.0197.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 172,
+            "wait_pointer": "0x881c6bc"
+          },
+          {
+            "id": "script.0198.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 98,
+            "wait_pointer": "0x881c706"
+          },
+          {
+            "id": "script.0199.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 110,
+            "wait_pointer": "0x881c74e"
+          },
+          {
+            "id": "script.0200.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x881c791"
+          },
+          {
+            "id": "script.0202.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 76,
+            "wait_pointer": "0x881e706"
+          },
+          {
+            "id": "script.0203.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 88,
+            "wait_pointer": "0x881e7a5"
+          },
+          {
+            "id": "script.0204.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 88,
+            "wait_pointer": "0x881e7ed"
+          },
+          {
+            "id": "script.0207.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 177,
+            "wait_pointer": "0x881e83c"
+          },
+          {
+            "id": "script.0208.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 120,
+            "wait_pointer": "0x881e887"
+          },
+          {
+            "id": "script.0209.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x881e93e"
+          },
+          {
+            "id": "script.0210.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x881e9f6"
+          },
+          {
+            "id": "script.0211.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x881eaae"
+          },
+          {
+            "id": "script.0212.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x881eb66"
+          },
+          {
+            "id": "script.0213.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x881ec1e"
+          },
+          {
+            "id": "script.0214.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x881ecd6"
+          },
+          {
+            "id": "script.0215.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x881ed8e"
+          },
+          {
+            "id": "script.0216.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x881ee46"
+          },
+          {
+            "id": "script.0227.000",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x881ee89"
+          },
+          {
+            "id": "script.0229.005",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 106,
+            "wait_pointer": "0x881f1f5"
+          },
+          {
+            "id": "script.0230.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 110,
+            "wait_pointer": "0x881f23e"
+          },
+          {
+            "id": "script.0231.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 110,
+            "wait_pointer": "0x881f286"
+          },
+          {
+            "id": "script.0232.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 110,
+            "wait_pointer": "0x881f2ce"
+          },
+          {
+            "id": "script.0233.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 63,
+            "wait_pointer": "0x881f311"
+          },
+          {
+            "id": "script.0234.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 122,
+            "wait_pointer": "0x881f35b"
+          },
+          {
+            "id": "script.0235.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 88,
+            "wait_pointer": "0x881f3a1"
+          },
+          {
+            "id": "script.0236.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 127,
+            "wait_pointer": "0x881f3ea"
+          },
+          {
+            "id": "script.0241.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 106,
+            "wait_pointer": "0x881f431"
+          },
+          {
+            "id": "script.0242.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 110,
+            "wait_pointer": "0x881f47a"
+          },
+          {
+            "id": "script.0243.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 170,
+            "wait_pointer": "0x881f4c8"
+          },
+          {
+            "id": "script.0244.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 127,
+            "wait_pointer": "0x881f512"
+          },
+          {
+            "id": "script.0245.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x881f555"
+          },
+          {
+            "id": "script.0246.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 122,
+            "wait_pointer": "0x881f59f"
+          },
+          {
+            "id": "script.0247.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 106,
+            "wait_pointer": "0x881f5e5"
+          },
+          {
+            "id": "script.0248.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x881f629"
+          },
+          {
+            "id": "script.0249.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 88,
+            "wait_pointer": "0x881f671"
+          },
+          {
+            "id": "script.0251.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 87,
+            "wait_pointer": "0x881f6b7"
+          },
+          {
+            "id": "script.0252.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 63,
+            "wait_pointer": "0x881f6f9"
+          },
+          {
+            "id": "script.0253.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 109,
+            "wait_pointer": "0x881f743"
+          },
+          {
+            "id": "script.0254.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 106,
+            "wait_pointer": "0x881f789"
+          },
+          {
+            "id": "script.0255.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 63,
+            "wait_pointer": "0x881f7cd"
+          },
+          {
+            "id": "script.0256.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x881f811"
+          },
+          {
+            "id": "script.0257.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 159,
+            "wait_pointer": "0x881f85f"
+          },
+          {
+            "id": "script.0260.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 68,
+            "wait_pointer": "0x881f8a1"
+          },
+          {
+            "id": "script.0261.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 117,
+            "wait_pointer": "0x881f8ea"
+          },
+          {
+            "id": "script.0262.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 199,
+            "wait_pointer": "0x881f93b"
+          },
+          {
+            "id": "script.0263.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 98,
+            "wait_pointer": "0x881f982"
+          },
+          {
+            "id": "script.0264.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 88,
+            "wait_pointer": "0x881f9c9"
+          },
+          {
+            "id": "script.0265.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 106,
+            "wait_pointer": "0x881fa11"
+          },
+          {
+            "id": "script.0266.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 110,
+            "wait_pointer": "0x881fa5a"
+          },
+          {
+            "id": "script.0267.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x881fa9d"
+          },
+          {
+            "id": "script.0269.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 88,
+            "wait_pointer": "0x881fae5"
+          },
+          {
+            "id": "script.0270.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x881fb29"
+          },
+          {
+            "id": "script.0276.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 106,
+            "wait_pointer": "0x881fb71"
+          },
+          {
+            "id": "script.0277.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 63,
+            "wait_pointer": "0x881fbb5"
+          },
+          {
+            "id": "script.0278.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x881fbf9"
+          },
+          {
+            "id": "script.0279.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x881fc42"
+          },
+          {
+            "id": "script.0280.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 106,
+            "wait_pointer": "0x881fc89"
+          },
+          {
+            "id": "script.0281.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 63,
+            "wait_pointer": "0x881fccd"
+          },
+          {
+            "id": "script.0282.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x881fd11"
+          },
+          {
+            "id": "script.0283.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x881fd5a"
+          },
+          {
+            "id": "script.0286.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 63,
+            "wait_pointer": "0x881fd9d"
+          },
+          {
+            "id": "script.0287.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 68,
+            "wait_pointer": "0x881fde1"
+          },
+          {
+            "id": "script.0288.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 199,
+            "wait_pointer": "0x881fe33"
+          },
+          {
+            "id": "script.0289.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 98,
+            "wait_pointer": "0x881fe7a"
+          },
+          {
+            "id": "script.0290.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 96,
+            "wait_pointer": "0x881fec1"
+          },
+          {
+            "id": "script.0291.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x881ff05"
+          },
+          {
+            "id": "script.0294.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 106,
+            "wait_pointer": "0x881ff4d"
+          },
+          {
+            "id": "script.0295.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 110,
+            "wait_pointer": "0x881ff96"
+          },
+          {
+            "id": "script.0296.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x881ffd9"
+          },
+          {
+            "id": "script.0297.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 122,
+            "wait_pointer": "0x8820023"
+          },
+          {
+            "id": "script.0298.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 88,
+            "wait_pointer": "0x8820069"
+          },
+          {
+            "id": "script.0299.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 97,
+            "wait_pointer": "0x88200b3"
+          },
+          {
+            "id": "script.0301.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 63,
+            "wait_pointer": "0x88200f5"
+          },
+          {
+            "id": "script.0302.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 76,
+            "wait_pointer": "0x882013a"
+          },
+          {
+            "id": "script.0303.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x882017d"
+          },
+          {
+            "id": "script.0304.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 87,
+            "wait_pointer": "0x88201c2"
+          },
+          {
+            "id": "script.0320.000",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 110,
+            "wait_pointer": "0x8820248"
+          },
+          {
+            "id": "script.0321.000",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 110,
+            "wait_pointer": "0x88202d0"
+          },
+          {
+            "id": "script.0322.002",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 110,
+            "wait_pointer": "0x88204c0"
+          },
+          {
+            "id": "script.0323.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 106,
+            "wait_pointer": "0x8820509"
+          },
+          {
+            "id": "script.0324.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 63,
+            "wait_pointer": "0x882054d"
+          },
+          {
+            "id": "script.0325.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 68,
+            "wait_pointer": "0x8820591"
+          },
+          {
+            "id": "script.0326.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 122,
+            "wait_pointer": "0x88205db"
+          },
+          {
+            "id": "script.0327.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 88,
+            "wait_pointer": "0x8820621"
+          },
+          {
+            "id": "script.0328.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x8820665"
+          },
+          {
+            "id": "script.0330.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 106,
+            "wait_pointer": "0x88206ad"
+          },
+          {
+            "id": "script.0331.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 110,
+            "wait_pointer": "0x88206f6"
+          },
+          {
+            "id": "script.0332.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 63,
+            "wait_pointer": "0x8820739"
+          },
+          {
+            "id": "script.0333.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 124,
+            "wait_pointer": "0x8820783"
+          },
+          {
+            "id": "script.0334.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 68,
+            "wait_pointer": "0x88207c5"
+          },
+          {
+            "id": "script.0335.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 98,
+            "wait_pointer": "0x88208d2"
+          },
+          {
+            "id": "script.0336.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 96,
+            "wait_pointer": "0x88209c5"
+          },
+          {
+            "id": "script.0337.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x8820a09"
+          },
+          {
+            "id": "script.0340.000",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 293,
+            "wait_pointer": "0x8820a5f"
+          },
+          {
+            "id": "script.0343.046",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 155,
+            "wait_pointer": "0x882259d"
+          },
+          {
+            "id": "script.0346.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 63,
+            "wait_pointer": "0x88225e1"
+          },
+          {
+            "id": "script.0351.000",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 169,
+            "wait_pointer": "0x88227ec"
+          },
+          {
+            "id": "script.0351.001",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x88227f2"
+          },
+          {
+            "id": "script.0354.008",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 167,
+            "wait_pointer": "0x8822ba9"
+          },
+          {
+            "id": "script.0355.000",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x8822bed"
+          },
+          {
+            "id": "script.0359.000",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x8822dae"
+          },
+          {
+            "id": "script.0363.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 87,
+            "wait_pointer": "0x8822e13"
+          },
+          {
+            "id": "script.0364.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 112,
+            "wait_pointer": "0x8822e5a"
+          },
+          {
+            "id": "script.0365.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 116,
+            "wait_pointer": "0x8822ea2"
+          },
+          {
+            "id": "script.0366.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 113,
+            "wait_pointer": "0x8822eea"
+          },
+          {
+            "id": "script.0367.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 164,
+            "wait_pointer": "0x8822f37"
+          },
+          {
+            "id": "script.0368.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 164,
+            "wait_pointer": "0x8823037"
+          },
+          {
+            "id": "script.0369.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 50,
+            "wait_pointer": "0x882311c"
+          },
+          {
+            "id": "script.0382.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 87,
+            "wait_pointer": "0x8823163"
+          },
+          {
+            "id": "script.0383.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 63,
+            "wait_pointer": "0x88231a5"
+          },
+          {
+            "id": "script.0384.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 68,
+            "wait_pointer": "0x88231e9"
+          },
+          {
+            "id": "script.0385.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 199,
+            "wait_pointer": "0x882323b"
+          },
+          {
+            "id": "script.0386.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 98,
+            "wait_pointer": "0x8823282"
+          },
+          {
+            "id": "script.0387.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 96,
+            "wait_pointer": "0x88232c9"
+          },
+          {
+            "id": "script.0388.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x882330d"
+          },
+          {
+            "id": "script.0391.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 130,
+            "wait_pointer": "0x8823357"
+          },
+          {
+            "id": "script.0392.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 106,
+            "wait_pointer": "0x882339d"
+          },
+          {
+            "id": "script.0393.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 110,
+            "wait_pointer": "0x88233e6"
+          },
+          {
+            "id": "script.0394.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 63,
+            "wait_pointer": "0x8823429"
+          },
+          {
+            "id": "script.0396.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 119,
+            "wait_pointer": "0x8823473"
+          },
+          {
+            "id": "script.0397.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 122,
+            "wait_pointer": "0x88234bb"
+          },
+          {
+            "id": "script.0398.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x88234fd"
+          },
+          {
+            "id": "script.0402.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 327,
+            "wait_pointer": "0x8823559"
+          },
+          {
+            "id": "script.0404.020",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x8824306"
+          },
+          {
+            "id": "script.0407.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 145,
+            "wait_pointer": "0x8824353"
+          },
+          {
+            "id": "script.0408.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 379,
+            "wait_pointer": "0x88243b2"
+          },
+          {
+            "id": "script.0412.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 87,
+            "wait_pointer": "0x88243f7"
+          },
+          {
+            "id": "script.0413.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 129,
+            "wait_pointer": "0x8824440"
+          },
+          {
+            "id": "script.0414.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 88,
+            "wait_pointer": "0x8824489"
+          },
+          {
+            "id": "script.0417.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 130,
+            "wait_pointer": "0x88244d3"
+          },
+          {
+            "id": "script.0418.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 136,
+            "wait_pointer": "0x882451c"
+          },
+          {
+            "id": "script.0419.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 177,
+            "wait_pointer": "0x882456c"
+          },
+          {
+            "id": "script.0420.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 109,
+            "wait_pointer": "0x88245b7"
+          },
+          {
+            "id": "script.0421.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 88,
+            "wait_pointer": "0x88245fd"
+          },
+          {
+            "id": "script.0429.000",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 122,
+            "wait_pointer": "0x8824647"
+          },
+          {
+            "id": "script.0431.000",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 95,
+            "wait_pointer": "0x882468d"
+          },
+          {
+            "id": "script.0432.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 63,
+            "wait_pointer": "0x88246d1"
+          },
+          {
+            "id": "script.0433.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 68,
+            "wait_pointer": "0x8824715"
+          },
+          {
+            "id": "script.0434.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 126,
+            "wait_pointer": "0x8824760"
+          },
+          {
+            "id": "script.0435.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 199,
+            "wait_pointer": "0x88247b3"
+          },
+          {
+            "id": "script.0436.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 120,
+            "wait_pointer": "0x88247fb"
+          },
+          {
+            "id": "script.0437.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 98,
+            "wait_pointer": "0x8824842"
+          },
+          {
+            "id": "script.0438.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 96,
+            "wait_pointer": "0x8824889"
+          },
+          {
+            "id": "script.0439.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x88248cd"
+          },
+          {
+            "id": "script.0442.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x8824986"
+          },
+          {
+            "id": "script.0443.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x8824a3e"
+          },
+          {
+            "id": "script.0444.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x8824af6"
+          },
+          {
+            "id": "script.0445.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x8824bae"
+          },
+          {
+            "id": "script.0446.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x8824c66"
+          },
+          {
+            "id": "script.0447.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x8824d1e"
+          },
+          {
+            "id": "script.0448.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x8824dd6"
+          },
+          {
+            "id": "script.0449.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x8824e8e"
+          },
+          {
+            "id": "script.0450.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x8824f46"
+          },
+          {
+            "id": "script.0451.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x8824ffe"
+          },
+          {
+            "id": "script.0452.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x88250b6"
+          },
+          {
+            "id": "script.0453.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x882516e"
+          },
+          {
+            "id": "script.0454.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x8825226"
+          },
+          {
+            "id": "script.0455.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x88252de"
+          },
+          {
+            "id": "script.0456.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x8825396"
+          },
+          {
+            "id": "script.0457.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x882544e"
+          },
+          {
+            "id": "script.0466.000",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 76,
+            "wait_pointer": "0x882746a"
+          },
+          {
+            "id": "script.0482.000",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 76,
+            "wait_pointer": "0x8829446"
+          },
+          {
+            "id": "script.0483.000",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x882b9a9"
+          },
+          {
+            "id": "script.0484.000",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 76,
+            "wait_pointer": "0x882e3fe"
+          },
+          {
+            "id": "script.0485.000",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 76,
+            "wait_pointer": "0x8830436"
+          },
+          {
+            "id": "script.0486.000",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 76,
+            "wait_pointer": "0x883246a"
+          },
+          {
+            "id": "script.0487.000",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 76,
+            "wait_pointer": "0x8834cee"
+          },
+          {
+            "id": "script.0488.000",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 76,
+            "wait_pointer": "0x88371a6"
+          },
+          {
+            "id": "script.0489.000",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 76,
+            "wait_pointer": "0x88391d2"
+          },
+          {
+            "id": "script.0511.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 106,
+            "wait_pointer": "0x8839241"
+          },
+          {
+            "id": "script.0512.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 110,
+            "wait_pointer": "0x883928a"
+          },
+          {
+            "id": "script.0514.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 158,
+            "wait_pointer": "0x88392d7"
+          },
+          {
+            "id": "script.0515.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x8839319"
+          },
+          {
+            "id": "script.0516.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 75,
+            "wait_pointer": "0x883935e"
+          },
+          {
+            "id": "script.0517.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 97,
+            "wait_pointer": "0x88393a5"
+          },
+          {
+            "id": "script.0518.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x88393e9"
+          },
+          {
+            "id": "script.0520.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 80,
+            "wait_pointer": "0x883942f"
+          },
+          {
+            "id": "script.0522.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 113,
+            "wait_pointer": "0x8839476"
+          },
+          {
+            "id": "script.0531.001",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 97,
+            "wait_pointer": "0x88396ed"
+          },
+          {
+            "id": "script.0535.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 63,
+            "wait_pointer": "0x8839731"
+          },
+          {
+            "id": "script.0538.000",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 96,
+            "wait_pointer": "0x8839778"
+          },
+          {
+            "id": "script.0539.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x88397bd"
+          },
+          {
+            "id": "script.0542.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 106,
+            "wait_pointer": "0x8839805"
+          },
+          {
+            "id": "script.0543.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 63,
+            "wait_pointer": "0x8839849"
+          },
+          {
+            "id": "script.0544.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 125,
+            "wait_pointer": "0x8839893"
+          },
+          {
+            "id": "script.0545.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 68,
+            "wait_pointer": "0x88398d5"
+          },
+          {
+            "id": "script.0546.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 122,
+            "wait_pointer": "0x883991f"
+          },
+          {
+            "id": "script.0547.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 96,
+            "wait_pointer": "0x8839965"
+          },
+          {
+            "id": "script.0548.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 97,
+            "wait_pointer": "0x88399af"
+          },
+          {
+            "id": "script.0549.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x88399f1"
+          },
+          {
+            "id": "script.0551.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 130,
+            "wait_pointer": "0x8839a3b"
+          },
+          {
+            "id": "script.0552.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 63,
+            "wait_pointer": "0x8839a7d"
+          },
+          {
+            "id": "script.0553.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 124,
+            "wait_pointer": "0x8839ac7"
+          },
+          {
+            "id": "script.0554.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 68,
+            "wait_pointer": "0x8839b09"
+          },
+          {
+            "id": "script.0555.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 98,
+            "wait_pointer": "0x8839b52"
+          },
+          {
+            "id": "script.0556.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 96,
+            "wait_pointer": "0x8839b99"
+          },
+          {
+            "id": "script.0557.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 88,
+            "wait_pointer": "0x8839be1"
+          },
+          {
+            "id": "script.0558.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x8839c25"
+          },
+          {
+            "id": "script.0562.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 130,
+            "wait_pointer": "0x8839c6f"
+          },
+          {
+            "id": "script.0563.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 106,
+            "wait_pointer": "0x8839cb5"
+          },
+          {
+            "id": "script.0564.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 110,
+            "wait_pointer": "0x8839cfe"
+          },
+          {
+            "id": "script.0565.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 63,
+            "wait_pointer": "0x8839d41"
+          },
+          {
+            "id": "script.0566.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 88,
+            "wait_pointer": "0x8839d89"
+          },
+          {
+            "id": "script.0567.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x8839dcd"
+          },
+          {
+            "id": "script.0569.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x8839e16"
+          }
+        ],
+        "fixture_screenshots": [
+          "fixture-script.0116.000.png",
+          "fixture-script.0127.000.png",
+          "fixture-script.0335.000.png",
+          "fixture-script.0343.046.png",
+          "fixture-script.0538.000.png"
+        ],
+        "sram_unchanged": true,
+        "emulator_error_count": 0,
+        "limitations": [
+          "Natural input verified two tables in the starting farmhouse, not every map/upgrade/object.",
+          "Other labels use native dialogue fixtures with original flags; framebuffer location is not a natural encounter witness.",
+          "Menus, longer hints, signs and mixed-script event dialogue outside selected labels remain unchanged.",
+          "Language/layout review and real GBA hardware testing pending."
+        ]
+      },
+      "golden_scenes": 43,
+      "changed_golden_pixels": 0
+    },
+    "dev": {
+      "library_sha256": "b044208a82af47a6ce3651cf2c289c575866a4764d6e9377c88001e60edea0c7",
+      "objects": {
+        "status": "passed",
+        "target_sha256": "98e69a242aaa5eb71c8e0fafa17bbca1379d13d06ebb906aa743ac1b4d9d3335",
+        "object_label_records": 261,
+        "unique_terms": 68,
+        "native_waits_verified": 261,
+        "guarded_renderer_lines": 261,
+        "script_CODE_JUMP_unchanged": 260,
+        "nonlabel_strings_byte_identical": 184,
+        "natural_house_interactions": [
+          {
+            "id": "script.0355.000",
+            "controls": [],
+            "A_settle_frames": 150,
+            "native_wait_pointer": "0x8822bed",
+            "screenshot": "natural-script.0355.000.png",
+            "ram_state_modified": false
+          },
+          {
+            "id": "script.0351.001",
+            "controls": [
+              [
+                128,
+                54
+              ],
+              [
+                32,
+                94
+              ]
+            ],
+            "A_settle_frames": 150,
+            "native_wait_pointer": "0x88227f2",
+            "screenshot": "natural-script.0351.001.png",
+            "ram_state_modified": false
+          }
+        ],
+        "cases": [
+          {
+            "id": "script.0094.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 37,
+            "wait_pointer": "0x881b4ac"
+          },
+          {
+            "id": "script.0095.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 66,
+            "wait_pointer": "0x881b4f1"
+          },
+          {
+            "id": "script.0096.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 107,
+            "wait_pointer": "0x881b53a"
+          },
+          {
+            "id": "script.0099.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 130,
+            "wait_pointer": "0x881b583"
+          },
+          {
+            "id": "script.0100.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 112,
+            "wait_pointer": "0x881b5ca"
+          },
+          {
+            "id": "script.0101.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 150,
+            "wait_pointer": "0x881b615"
+          },
+          {
+            "id": "script.0103.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 102,
+            "wait_pointer": "0x881b65c"
+          },
+          {
+            "id": "script.0104.005",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 76,
+            "wait_pointer": "0x881b931"
+          },
+          {
+            "id": "script.0109.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 78,
+            "wait_pointer": "0x881b978"
+          },
+          {
+            "id": "script.0110.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 130,
+            "wait_pointer": "0x881b9c3"
+          },
+          {
+            "id": "script.0116.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 63,
+            "wait_pointer": "0x881ba05"
+          },
+          {
+            "id": "script.0117.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 68,
+            "wait_pointer": "0x881ba49"
+          },
+          {
+            "id": "script.0118.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 98,
+            "wait_pointer": "0x881ba92"
+          },
+          {
+            "id": "script.0119.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 96,
+            "wait_pointer": "0x881bad9"
+          },
+          {
+            "id": "script.0120.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 127,
+            "wait_pointer": "0x881bb22"
+          },
+          {
+            "id": "script.0121.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 97,
+            "wait_pointer": "0x881bb6b"
+          },
+          {
+            "id": "script.0122.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x881bbad"
+          },
+          {
+            "id": "script.0125.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 130,
+            "wait_pointer": "0x881bbf7"
+          },
+          {
+            "id": "script.0126.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 106,
+            "wait_pointer": "0x881bc3d"
+          },
+          {
+            "id": "script.0127.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 110,
+            "wait_pointer": "0x881bc86"
+          },
+          {
+            "id": "script.0128.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 63,
+            "wait_pointer": "0x881bcc9"
+          },
+          {
+            "id": "script.0129.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 130,
+            "wait_pointer": "0x881bd12"
+          },
+          {
+            "id": "script.0130.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 63,
+            "wait_pointer": "0x881bd56"
+          },
+          {
+            "id": "script.0131.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 119,
+            "wait_pointer": "0x881bd9f"
+          },
+          {
+            "id": "script.0132.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 126,
+            "wait_pointer": "0x881bde7"
+          },
+          {
+            "id": "script.0133.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x881be29"
+          },
+          {
+            "id": "script.0135.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 159,
+            "wait_pointer": "0x881be77"
+          },
+          {
+            "id": "script.0137.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 129,
+            "wait_pointer": "0x881bebf"
+          },
+          {
+            "id": "script.0138.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 63,
+            "wait_pointer": "0x881bf01"
+          },
+          {
+            "id": "script.0140.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 211,
+            "wait_pointer": "0x881bf51"
+          },
+          {
+            "id": "script.0141.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x881bf95"
+          },
+          {
+            "id": "script.0144.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 95,
+            "wait_pointer": "0x881bfdd"
+          },
+          {
+            "id": "script.0145.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 87,
+            "wait_pointer": "0x881c023"
+          },
+          {
+            "id": "script.0146.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 48,
+            "wait_pointer": "0x881c065"
+          },
+          {
+            "id": "script.0147.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 106,
+            "wait_pointer": "0x881c0ad"
+          },
+          {
+            "id": "script.0148.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 110,
+            "wait_pointer": "0x881c0f6"
+          },
+          {
+            "id": "script.0149.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 68,
+            "wait_pointer": "0x881c139"
+          },
+          {
+            "id": "script.0151.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 98,
+            "wait_pointer": "0x881c182"
+          },
+          {
+            "id": "script.0152.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 130,
+            "wait_pointer": "0x881c1cb"
+          },
+          {
+            "id": "script.0174.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 53,
+            "wait_pointer": "0x881c20d"
+          },
+          {
+            "id": "script.0180.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 106,
+            "wait_pointer": "0x881c255"
+          },
+          {
+            "id": "script.0181.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 110,
+            "wait_pointer": "0x881c29e"
+          },
+          {
+            "id": "script.0182.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 63,
+            "wait_pointer": "0x881c2e1"
+          },
+          {
+            "id": "script.0183.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 68,
+            "wait_pointer": "0x881c325"
+          },
+          {
+            "id": "script.0184.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 122,
+            "wait_pointer": "0x881c36f"
+          },
+          {
+            "id": "script.0185.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 98,
+            "wait_pointer": "0x881c3b6"
+          },
+          {
+            "id": "script.0186.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 96,
+            "wait_pointer": "0x881c3fd"
+          },
+          {
+            "id": "script.0187.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x881c441"
+          },
+          {
+            "id": "script.0189.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x881c48a"
+          },
+          {
+            "id": "script.0190.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 106,
+            "wait_pointer": "0x881c4d1"
+          },
+          {
+            "id": "script.0191.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 110,
+            "wait_pointer": "0x881c51a"
+          },
+          {
+            "id": "script.0192.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 63,
+            "wait_pointer": "0x881c55d"
+          },
+          {
+            "id": "script.0193.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x881c5a1"
+          },
+          {
+            "id": "script.0194.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 92,
+            "wait_pointer": "0x881c5ea"
+          },
+          {
+            "id": "script.0195.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 68,
+            "wait_pointer": "0x881c62d"
+          },
+          {
+            "id": "script.0196.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 63,
+            "wait_pointer": "0x881c672"
+          },
+          {
+            "id": "script.0197.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 172,
+            "wait_pointer": "0x881c6bc"
+          },
+          {
+            "id": "script.0198.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 98,
+            "wait_pointer": "0x881c706"
+          },
+          {
+            "id": "script.0199.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 110,
+            "wait_pointer": "0x881c74e"
+          },
+          {
+            "id": "script.0200.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x881c791"
+          },
+          {
+            "id": "script.0202.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 76,
+            "wait_pointer": "0x881e706"
+          },
+          {
+            "id": "script.0203.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 88,
+            "wait_pointer": "0x881e7a5"
+          },
+          {
+            "id": "script.0204.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 88,
+            "wait_pointer": "0x881e7ed"
+          },
+          {
+            "id": "script.0207.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 177,
+            "wait_pointer": "0x881e83c"
+          },
+          {
+            "id": "script.0208.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 120,
+            "wait_pointer": "0x881e887"
+          },
+          {
+            "id": "script.0209.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x881e93e"
+          },
+          {
+            "id": "script.0210.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x881e9f6"
+          },
+          {
+            "id": "script.0211.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x881eaae"
+          },
+          {
+            "id": "script.0212.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x881eb66"
+          },
+          {
+            "id": "script.0213.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x881ec1e"
+          },
+          {
+            "id": "script.0214.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x881ecd6"
+          },
+          {
+            "id": "script.0215.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x881ed8e"
+          },
+          {
+            "id": "script.0216.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x881ee46"
+          },
+          {
+            "id": "script.0227.000",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x881ee89"
+          },
+          {
+            "id": "script.0229.005",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 106,
+            "wait_pointer": "0x881f1f5"
+          },
+          {
+            "id": "script.0230.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 110,
+            "wait_pointer": "0x881f23e"
+          },
+          {
+            "id": "script.0231.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 110,
+            "wait_pointer": "0x881f286"
+          },
+          {
+            "id": "script.0232.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 110,
+            "wait_pointer": "0x881f2ce"
+          },
+          {
+            "id": "script.0233.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 63,
+            "wait_pointer": "0x881f311"
+          },
+          {
+            "id": "script.0234.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 122,
+            "wait_pointer": "0x881f35b"
+          },
+          {
+            "id": "script.0235.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 88,
+            "wait_pointer": "0x881f3a1"
+          },
+          {
+            "id": "script.0236.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 127,
+            "wait_pointer": "0x881f3ea"
+          },
+          {
+            "id": "script.0241.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 106,
+            "wait_pointer": "0x881f431"
+          },
+          {
+            "id": "script.0242.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 110,
+            "wait_pointer": "0x881f47a"
+          },
+          {
+            "id": "script.0243.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 170,
+            "wait_pointer": "0x881f4c8"
+          },
+          {
+            "id": "script.0244.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 127,
+            "wait_pointer": "0x881f512"
+          },
+          {
+            "id": "script.0245.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x881f555"
+          },
+          {
+            "id": "script.0246.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 122,
+            "wait_pointer": "0x881f59f"
+          },
+          {
+            "id": "script.0247.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 106,
+            "wait_pointer": "0x881f5e5"
+          },
+          {
+            "id": "script.0248.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x881f629"
+          },
+          {
+            "id": "script.0249.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 88,
+            "wait_pointer": "0x881f671"
+          },
+          {
+            "id": "script.0251.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 87,
+            "wait_pointer": "0x881f6b7"
+          },
+          {
+            "id": "script.0252.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 63,
+            "wait_pointer": "0x881f6f9"
+          },
+          {
+            "id": "script.0253.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 109,
+            "wait_pointer": "0x881f743"
+          },
+          {
+            "id": "script.0254.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 106,
+            "wait_pointer": "0x881f789"
+          },
+          {
+            "id": "script.0255.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 63,
+            "wait_pointer": "0x881f7cd"
+          },
+          {
+            "id": "script.0256.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x881f811"
+          },
+          {
+            "id": "script.0257.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 159,
+            "wait_pointer": "0x881f85f"
+          },
+          {
+            "id": "script.0260.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 68,
+            "wait_pointer": "0x881f8a1"
+          },
+          {
+            "id": "script.0261.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 117,
+            "wait_pointer": "0x881f8ea"
+          },
+          {
+            "id": "script.0262.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 199,
+            "wait_pointer": "0x881f93b"
+          },
+          {
+            "id": "script.0263.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 98,
+            "wait_pointer": "0x881f982"
+          },
+          {
+            "id": "script.0264.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 88,
+            "wait_pointer": "0x881f9c9"
+          },
+          {
+            "id": "script.0265.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 106,
+            "wait_pointer": "0x881fa11"
+          },
+          {
+            "id": "script.0266.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 110,
+            "wait_pointer": "0x881fa5a"
+          },
+          {
+            "id": "script.0267.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x881fa9d"
+          },
+          {
+            "id": "script.0269.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 88,
+            "wait_pointer": "0x881fae5"
+          },
+          {
+            "id": "script.0270.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x881fb29"
+          },
+          {
+            "id": "script.0276.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 106,
+            "wait_pointer": "0x881fb71"
+          },
+          {
+            "id": "script.0277.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 63,
+            "wait_pointer": "0x881fbb5"
+          },
+          {
+            "id": "script.0278.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x881fbf9"
+          },
+          {
+            "id": "script.0279.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x881fc42"
+          },
+          {
+            "id": "script.0280.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 106,
+            "wait_pointer": "0x881fc89"
+          },
+          {
+            "id": "script.0281.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 63,
+            "wait_pointer": "0x881fccd"
+          },
+          {
+            "id": "script.0282.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x881fd11"
+          },
+          {
+            "id": "script.0283.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x881fd5a"
+          },
+          {
+            "id": "script.0286.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 63,
+            "wait_pointer": "0x881fd9d"
+          },
+          {
+            "id": "script.0287.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 68,
+            "wait_pointer": "0x881fde1"
+          },
+          {
+            "id": "script.0288.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 199,
+            "wait_pointer": "0x881fe33"
+          },
+          {
+            "id": "script.0289.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 98,
+            "wait_pointer": "0x881fe7a"
+          },
+          {
+            "id": "script.0290.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 96,
+            "wait_pointer": "0x881fec1"
+          },
+          {
+            "id": "script.0291.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x881ff05"
+          },
+          {
+            "id": "script.0294.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 106,
+            "wait_pointer": "0x881ff4d"
+          },
+          {
+            "id": "script.0295.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 110,
+            "wait_pointer": "0x881ff96"
+          },
+          {
+            "id": "script.0296.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x881ffd9"
+          },
+          {
+            "id": "script.0297.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 122,
+            "wait_pointer": "0x8820023"
+          },
+          {
+            "id": "script.0298.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 88,
+            "wait_pointer": "0x8820069"
+          },
+          {
+            "id": "script.0299.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 97,
+            "wait_pointer": "0x88200b3"
+          },
+          {
+            "id": "script.0301.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 63,
+            "wait_pointer": "0x88200f5"
+          },
+          {
+            "id": "script.0302.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 76,
+            "wait_pointer": "0x882013a"
+          },
+          {
+            "id": "script.0303.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x882017d"
+          },
+          {
+            "id": "script.0304.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 87,
+            "wait_pointer": "0x88201c2"
+          },
+          {
+            "id": "script.0320.000",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 110,
+            "wait_pointer": "0x8820248"
+          },
+          {
+            "id": "script.0321.000",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 110,
+            "wait_pointer": "0x88202d0"
+          },
+          {
+            "id": "script.0322.002",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 110,
+            "wait_pointer": "0x88204c0"
+          },
+          {
+            "id": "script.0323.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 106,
+            "wait_pointer": "0x8820509"
+          },
+          {
+            "id": "script.0324.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 63,
+            "wait_pointer": "0x882054d"
+          },
+          {
+            "id": "script.0325.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 68,
+            "wait_pointer": "0x8820591"
+          },
+          {
+            "id": "script.0326.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 122,
+            "wait_pointer": "0x88205db"
+          },
+          {
+            "id": "script.0327.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 88,
+            "wait_pointer": "0x8820621"
+          },
+          {
+            "id": "script.0328.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x8820665"
+          },
+          {
+            "id": "script.0330.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 106,
+            "wait_pointer": "0x88206ad"
+          },
+          {
+            "id": "script.0331.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 110,
+            "wait_pointer": "0x88206f6"
+          },
+          {
+            "id": "script.0332.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 63,
+            "wait_pointer": "0x8820739"
+          },
+          {
+            "id": "script.0333.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 124,
+            "wait_pointer": "0x8820783"
+          },
+          {
+            "id": "script.0334.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 68,
+            "wait_pointer": "0x88207c5"
+          },
+          {
+            "id": "script.0335.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 98,
+            "wait_pointer": "0x88208d2"
+          },
+          {
+            "id": "script.0336.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 96,
+            "wait_pointer": "0x88209c5"
+          },
+          {
+            "id": "script.0337.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x8820a09"
+          },
+          {
+            "id": "script.0340.000",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 293,
+            "wait_pointer": "0x8820a5f"
+          },
+          {
+            "id": "script.0343.046",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 155,
+            "wait_pointer": "0x882259d"
+          },
+          {
+            "id": "script.0346.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 63,
+            "wait_pointer": "0x88225e1"
+          },
+          {
+            "id": "script.0351.000",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 169,
+            "wait_pointer": "0x88227ec"
+          },
+          {
+            "id": "script.0351.001",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x88227f2"
+          },
+          {
+            "id": "script.0354.008",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 167,
+            "wait_pointer": "0x8822ba9"
+          },
+          {
+            "id": "script.0355.000",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x8822bed"
+          },
+          {
+            "id": "script.0359.000",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x8822dae"
+          },
+          {
+            "id": "script.0363.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 87,
+            "wait_pointer": "0x8822e13"
+          },
+          {
+            "id": "script.0364.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 112,
+            "wait_pointer": "0x8822e5a"
+          },
+          {
+            "id": "script.0365.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 116,
+            "wait_pointer": "0x8822ea2"
+          },
+          {
+            "id": "script.0366.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 113,
+            "wait_pointer": "0x8822eea"
+          },
+          {
+            "id": "script.0367.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 164,
+            "wait_pointer": "0x8822f37"
+          },
+          {
+            "id": "script.0368.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 164,
+            "wait_pointer": "0x8823037"
+          },
+          {
+            "id": "script.0369.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 50,
+            "wait_pointer": "0x882311c"
+          },
+          {
+            "id": "script.0382.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 87,
+            "wait_pointer": "0x8823163"
+          },
+          {
+            "id": "script.0383.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 63,
+            "wait_pointer": "0x88231a5"
+          },
+          {
+            "id": "script.0384.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 68,
+            "wait_pointer": "0x88231e9"
+          },
+          {
+            "id": "script.0385.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 199,
+            "wait_pointer": "0x882323b"
+          },
+          {
+            "id": "script.0386.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 98,
+            "wait_pointer": "0x8823282"
+          },
+          {
+            "id": "script.0387.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 96,
+            "wait_pointer": "0x88232c9"
+          },
+          {
+            "id": "script.0388.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x882330d"
+          },
+          {
+            "id": "script.0391.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 130,
+            "wait_pointer": "0x8823357"
+          },
+          {
+            "id": "script.0392.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 106,
+            "wait_pointer": "0x882339d"
+          },
+          {
+            "id": "script.0393.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 110,
+            "wait_pointer": "0x88233e6"
+          },
+          {
+            "id": "script.0394.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 63,
+            "wait_pointer": "0x8823429"
+          },
+          {
+            "id": "script.0396.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 119,
+            "wait_pointer": "0x8823473"
+          },
+          {
+            "id": "script.0397.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 122,
+            "wait_pointer": "0x88234bb"
+          },
+          {
+            "id": "script.0398.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x88234fd"
+          },
+          {
+            "id": "script.0402.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 327,
+            "wait_pointer": "0x8823559"
+          },
+          {
+            "id": "script.0404.020",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x8824306"
+          },
+          {
+            "id": "script.0407.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 145,
+            "wait_pointer": "0x8824353"
+          },
+          {
+            "id": "script.0408.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 379,
+            "wait_pointer": "0x88243b2"
+          },
+          {
+            "id": "script.0412.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 87,
+            "wait_pointer": "0x88243f7"
+          },
+          {
+            "id": "script.0413.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 129,
+            "wait_pointer": "0x8824440"
+          },
+          {
+            "id": "script.0414.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 88,
+            "wait_pointer": "0x8824489"
+          },
+          {
+            "id": "script.0417.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 130,
+            "wait_pointer": "0x88244d3"
+          },
+          {
+            "id": "script.0418.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 136,
+            "wait_pointer": "0x882451c"
+          },
+          {
+            "id": "script.0419.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 177,
+            "wait_pointer": "0x882456c"
+          },
+          {
+            "id": "script.0420.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 109,
+            "wait_pointer": "0x88245b7"
+          },
+          {
+            "id": "script.0421.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 88,
+            "wait_pointer": "0x88245fd"
+          },
+          {
+            "id": "script.0429.000",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 122,
+            "wait_pointer": "0x8824647"
+          },
+          {
+            "id": "script.0431.000",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 95,
+            "wait_pointer": "0x882468d"
+          },
+          {
+            "id": "script.0432.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 63,
+            "wait_pointer": "0x88246d1"
+          },
+          {
+            "id": "script.0433.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 68,
+            "wait_pointer": "0x8824715"
+          },
+          {
+            "id": "script.0434.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 126,
+            "wait_pointer": "0x8824760"
+          },
+          {
+            "id": "script.0435.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 199,
+            "wait_pointer": "0x88247b3"
+          },
+          {
+            "id": "script.0436.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 120,
+            "wait_pointer": "0x88247fb"
+          },
+          {
+            "id": "script.0437.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 98,
+            "wait_pointer": "0x8824842"
+          },
+          {
+            "id": "script.0438.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 96,
+            "wait_pointer": "0x8824889"
+          },
+          {
+            "id": "script.0439.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x88248cd"
+          },
+          {
+            "id": "script.0442.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x8824986"
+          },
+          {
+            "id": "script.0443.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x8824a3e"
+          },
+          {
+            "id": "script.0444.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x8824af6"
+          },
+          {
+            "id": "script.0445.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x8824bae"
+          },
+          {
+            "id": "script.0446.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x8824c66"
+          },
+          {
+            "id": "script.0447.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x8824d1e"
+          },
+          {
+            "id": "script.0448.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x8824dd6"
+          },
+          {
+            "id": "script.0449.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x8824e8e"
+          },
+          {
+            "id": "script.0450.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x8824f46"
+          },
+          {
+            "id": "script.0451.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x8824ffe"
+          },
+          {
+            "id": "script.0452.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x88250b6"
+          },
+          {
+            "id": "script.0453.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x882516e"
+          },
+          {
+            "id": "script.0454.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x8825226"
+          },
+          {
+            "id": "script.0455.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x88252de"
+          },
+          {
+            "id": "script.0456.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x8825396"
+          },
+          {
+            "id": "script.0457.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x882544e"
+          },
+          {
+            "id": "script.0466.000",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 76,
+            "wait_pointer": "0x882746a"
+          },
+          {
+            "id": "script.0482.000",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 76,
+            "wait_pointer": "0x8829446"
+          },
+          {
+            "id": "script.0483.000",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x882b9a9"
+          },
+          {
+            "id": "script.0484.000",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 76,
+            "wait_pointer": "0x882e3fe"
+          },
+          {
+            "id": "script.0485.000",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 76,
+            "wait_pointer": "0x8830436"
+          },
+          {
+            "id": "script.0486.000",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 76,
+            "wait_pointer": "0x883246a"
+          },
+          {
+            "id": "script.0487.000",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 76,
+            "wait_pointer": "0x8834cee"
+          },
+          {
+            "id": "script.0488.000",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 76,
+            "wait_pointer": "0x88371a6"
+          },
+          {
+            "id": "script.0489.000",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 76,
+            "wait_pointer": "0x88391d2"
+          },
+          {
+            "id": "script.0511.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 106,
+            "wait_pointer": "0x8839241"
+          },
+          {
+            "id": "script.0512.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 110,
+            "wait_pointer": "0x883928a"
+          },
+          {
+            "id": "script.0514.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 158,
+            "wait_pointer": "0x88392d7"
+          },
+          {
+            "id": "script.0515.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x8839319"
+          },
+          {
+            "id": "script.0516.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 75,
+            "wait_pointer": "0x883935e"
+          },
+          {
+            "id": "script.0517.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 97,
+            "wait_pointer": "0x88393a5"
+          },
+          {
+            "id": "script.0518.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x88393e9"
+          },
+          {
+            "id": "script.0520.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 80,
+            "wait_pointer": "0x883942f"
+          },
+          {
+            "id": "script.0522.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 113,
+            "wait_pointer": "0x8839476"
+          },
+          {
+            "id": "script.0531.001",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 97,
+            "wait_pointer": "0x88396ed"
+          },
+          {
+            "id": "script.0535.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 63,
+            "wait_pointer": "0x8839731"
+          },
+          {
+            "id": "script.0538.000",
+            "native_text_flags": 256,
+            "foreground_pixels_verified": 96,
+            "wait_pointer": "0x8839778"
+          },
+          {
+            "id": "script.0539.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x88397bd"
+          },
+          {
+            "id": "script.0542.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 106,
+            "wait_pointer": "0x8839805"
+          },
+          {
+            "id": "script.0543.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 63,
+            "wait_pointer": "0x8839849"
+          },
+          {
+            "id": "script.0544.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 125,
+            "wait_pointer": "0x8839893"
+          },
+          {
+            "id": "script.0545.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 68,
+            "wait_pointer": "0x88398d5"
+          },
+          {
+            "id": "script.0546.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 122,
+            "wait_pointer": "0x883991f"
+          },
+          {
+            "id": "script.0547.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 96,
+            "wait_pointer": "0x8839965"
+          },
+          {
+            "id": "script.0548.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 97,
+            "wait_pointer": "0x88399af"
+          },
+          {
+            "id": "script.0549.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x88399f1"
+          },
+          {
+            "id": "script.0551.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 130,
+            "wait_pointer": "0x8839a3b"
+          },
+          {
+            "id": "script.0552.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 63,
+            "wait_pointer": "0x8839a7d"
+          },
+          {
+            "id": "script.0553.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 124,
+            "wait_pointer": "0x8839ac7"
+          },
+          {
+            "id": "script.0554.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 68,
+            "wait_pointer": "0x8839b09"
+          },
+          {
+            "id": "script.0555.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 98,
+            "wait_pointer": "0x8839b52"
+          },
+          {
+            "id": "script.0556.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 96,
+            "wait_pointer": "0x8839b99"
+          },
+          {
+            "id": "script.0557.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 88,
+            "wait_pointer": "0x8839be1"
+          },
+          {
+            "id": "script.0558.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x8839c25"
+          },
+          {
+            "id": "script.0562.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 130,
+            "wait_pointer": "0x8839c6f"
+          },
+          {
+            "id": "script.0563.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 106,
+            "wait_pointer": "0x8839cb5"
+          },
+          {
+            "id": "script.0564.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 110,
+            "wait_pointer": "0x8839cfe"
+          },
+          {
+            "id": "script.0565.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 63,
+            "wait_pointer": "0x8839d41"
+          },
+          {
+            "id": "script.0566.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 88,
+            "wait_pointer": "0x8839d89"
+          },
+          {
+            "id": "script.0567.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 62,
+            "wait_pointer": "0x8839dcd"
+          },
+          {
+            "id": "script.0569.000",
+            "native_text_flags": 0,
+            "foreground_pixels_verified": 123,
+            "wait_pointer": "0x8839e16"
+          }
+        ],
+        "fixture_screenshots": [
+          "fixture-script.0116.000.png",
+          "fixture-script.0127.000.png",
+          "fixture-script.0335.000.png",
+          "fixture-script.0343.046.png",
+          "fixture-script.0538.000.png"
+        ],
+        "sram_unchanged": true,
+        "emulator_error_count": 0,
+        "limitations": [
+          "Natural input verified two tables in the starting farmhouse, not every map/upgrade/object.",
+          "Other labels use native dialogue fixtures with original flags; framebuffer location is not a natural encounter witness.",
+          "Menus, longer hints, signs and mixed-script event dialogue outside selected labels remain unchanged.",
+          "Language/layout review and real GBA hardware testing pending."
+        ]
+      },
+      "golden_scenes": 43,
+      "changed_golden_pixels": 0
+    }
+  },
+  "screenshots": [
+    {
+      "path": "docs/evidence/object-labels/natural-script.0355.000.png",
+      "sha256": "c9b025b5cc08d67f090aeadd6e9aa43ce5168f0d3e1ac91f37f6c4862490f0b7",
+      "scope": "normal cold-boot in-game input"
+    },
+    {
+      "path": "docs/evidence/object-labels/natural-script.0351.001.png",
+      "sha256": "4d8f8d4512736c685082076c65778502f502ad99e83dfd5ed534f612da45e06a",
+      "scope": "normal cold-boot in-game input"
+    },
+    {
+      "path": "docs/evidence/object-labels/fixture-script.0116.000.png",
+      "sha256": "fc2deff673f7dd27434c479af28cd36c19c50816dfca8818e05c0273d4b58c0c",
+      "scope": "native layout fixture, not a natural map interaction"
+    },
+    {
+      "path": "docs/evidence/object-labels/fixture-script.0127.000.png",
+      "sha256": "0d8a1df3dbc5d2d8566e0ebbaced0245ec2052cc63e6ab393d2e50e9f8e1a5a6",
+      "scope": "native layout fixture, not a natural map interaction"
+    },
+    {
+      "path": "docs/evidence/object-labels/fixture-script.0335.000.png",
+      "sha256": "095a5e2e7b0730bc618d46c124892366389ae0504e3afb7c1901c2834d69212c",
+      "scope": "native layout fixture, not a natural map interaction"
+    },
+    {
+      "path": "docs/evidence/object-labels/fixture-script.0343.046.png",
+      "sha256": "e572f02fde861a958445911d7e64a257841534b7eccf3e231d924c4084502912",
+      "scope": "native layout fixture, not a natural map interaction"
+    },
+    {
+      "path": "docs/evidence/object-labels/fixture-script.0538.000.png",
+      "sha256": "7bab277712a3726c63d9da9ca11481729bf504f8cf363152ab2a0bb33da6d4cc",
+      "scope": "native layout fixture, not a natural map interaction"
+    }
+  ],
+  "limitations": [
+    "261 label positions, not 261 distinct object types or proof of complete object inventory.",
+    "Natural interactions cover two tables in the starting farmhouse; other object labels use native UI fixtures.",
+    "Menus, longer hints, signs and mixed-script event dialogue outside selected labels remain unchanged.",
+    "Language/layout review and real GBA testing pending. No reference knowledge documents are distributed."
+  ]
+}
