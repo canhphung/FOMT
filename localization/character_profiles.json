@@ -7,7 +7,7 @@
       "character": "Popuri",
       "self": "mình",
       "player": "bạn",
-      "scope": "139 verified standard-script lines; general/shared gifts mình-bạn, explicit spouse/family em-anh; full trigger gates pending",
+      "scope": "142 standard dialogue lines; two player choices separate; general/shared mình-bạn, explicit spouse/family em-anh",
       "status": "scene-scoped working profile; language review pending",
       "source_ids": [
         "script.0993.000",
@@ -148,7 +148,10 @@
         "script.0993.140",
         "script.0993.141",
         "script.0993.142",
-        "script.0993.143"
+        "script.0993.143",
+        "script.0993.005",
+        "script.0993.021",
+        "script.0993.092"
       ],
       "evidence": "docs/NPC_DAILY_LOCALIZATION.md; prior scenes in docs/INTRO_LOCALIZATION.md and docs/TEXT_SYSTEM.md",
       "extension_policy": "Recheck speaker, player age, relationship and branch before applying outside this scope.",

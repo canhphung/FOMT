@@ -25198,6 +25198,91 @@
       "playtest": {
         "status": "not_run"
       }
+    },
+    {
+      "id": "script.0993.005",
+      "source_sha256": "1c2e6308c3ca13cda924c1f226bf696f4aa3891d2edffa1684e855d57cd97ba0",
+      "translation_sha256": "86b5f6b419db7e8d2c8fc5cca3ae1ff7751715f1cc46d74830734fec246c0ad3",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; popuri_text.py validates constructor/CODE/literal, apostrophe glyph and OnCall39 choice arguments",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-complete-validation.json",
+        "target_sha256": "ab9813d4deb4dfecf0762336e7d73f0ccce920f9677c8475349107ad6f003852"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.021",
+      "source_sha256": "b810f9edb1151b2240cd3a0499d1a334da41afeca6fffce647cdfb4e26b09355",
+      "translation_sha256": "1f1a5722e4a593e68577275f3c04a9c0beeff1e37b8ff3612fe8b6b4cefb6a58",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; popuri_text.py validates constructor/CODE/literal, apostrophe glyph and OnCall39 choice arguments",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-complete-validation.json",
+        "target_sha256": "ab9813d4deb4dfecf0762336e7d73f0ccce920f9677c8475349107ad6f003852"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.038",
+      "source_sha256": "09e20a7fe82b0dc36ba07d7d30f97cc17581b7ba8a8ec7c4e4887235574518c5",
+      "translation_sha256": "54eab5f231d7b3be6e832f394349a5b6c729fcd87b41d5a5b8525e1a01bf2f32",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; popuri_text.py validates constructor/CODE/literal, apostrophe glyph and OnCall39 choice arguments",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-complete-validation.json",
+        "target_sha256": "ab9813d4deb4dfecf0762336e7d73f0ccce920f9677c8475349107ad6f003852"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.039",
+      "source_sha256": "1855986ff8403950ac001f298c2671c3f2bc45b6a6700fa08f0596704455c13a",
+      "translation_sha256": "415d6efdbf0d32b2c30ffa17431ff87e8fd4978d2ab824707456a1ee5137c0f1",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; popuri_text.py validates constructor/CODE/literal, apostrophe glyph and OnCall39 choice arguments",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-complete-validation.json",
+        "target_sha256": "ab9813d4deb4dfecf0762336e7d73f0ccce920f9677c8475349107ad6f003852"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0993.092",
+      "source_sha256": "981db7ddc4c7574bde4c4fddef5d2cd359fd8d2c44799afaa99e15c8f9f0a42f",
+      "translation_sha256": "5cb6b2060b7f5600f24254aa6350df3e25159a4ced8fd1114be63fd7fc4c9639",
+      "context_status": "verified",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; popuri_text.py validates constructor/CODE/literal, apostrophe glyph and OnCall39 choice arguments",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/popuri-complete-validation.json",
+        "target_sha256": "ab9813d4deb4dfecf0762336e7d73f0ccce920f9677c8475349107ad6f003852"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
     }
   ]
 }

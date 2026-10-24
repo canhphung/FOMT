@@ -72,7 +72,8 @@ def queue(catalog,translations,registry):
         if text:
             try:
                 check_translation(original['original_english'],text,original['max_columns'],
-                    padding_reflow=original.get('source',{}).get('sign_context',{}).get('padding_reflow',False))
+                    padding_reflow=original.get('source',{}).get('sign_context',{}).get('padding_reflow',False),
+                    drop_apostrophe=original.get('source',{}).get('popuri_context',{}).get('drop_apostrophe',False))
                 if len(encode(text,True))>original.get('max_encoded_bytes',1<<30):
                     raise FormatError('exceeds encoded-byte limit before rendering')
             except FormatError as exc:errors.append(str(exc))

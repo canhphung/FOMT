@@ -55,7 +55,8 @@ def build(base: bytes, translations: dict) -> tuple[bytes, dict]:
         try:
             layout[identifier] = check_translation(original["original_english"],
                 row["vietnamese_translation"], original["max_columns"],
-                padding_reflow=original.get('source',{}).get('sign_context',{}).get('padding_reflow',False))
+                padding_reflow=original.get('source',{}).get('sign_context',{}).get('padding_reflow',False),
+                    drop_apostrophe=original.get('source',{}).get('popuri_context',{}).get('drop_apostrophe',False))
         except FormatError as exc:
             raise FormatError(f"{identifier}: {exc}") from exc
         selected[identifier] = encode(row["vietnamese_translation"], vietnamese=True)

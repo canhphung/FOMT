@@ -97,7 +97,7 @@ def run(args, verifier=verify, capture_ids=None):
         active=[w for w in widgets(session) if w[1]==5];assert len(active)==1
         root,_,_,data=active[0];context=u32(data,0xF8);initial=session.state();cases=[]
         for begin,end,row,payload in text_ranges(target,rows):
-            if proofs[row['id']]['kind']=='frisbee_choice':continue
+            if proofs[row['id']]['kind'] in ('frisbee_choice','popuri_choice'):continue
             working=re.sub(r'\{VAR:[0-9A-F]{2}\}','123456789012',row['vietnamese_translation'])
             dynamic=working!=row['vietnamese_translation']
             if dynamic:payload=encode(working,True);begin=0x03006000;end=begin+len(payload)
@@ -133,7 +133,7 @@ def run(args, verifier=verify, capture_ids=None):
             cases.append({'id':row['id'],'wait_offsets_verified':offsets,'exact_foreground_cache_rotations':rotations,'dynamic_12_cell_standin':dynamic,'screenshots':captures})
         assert session.sram()==sram and session.lib.session_errors()==0 and original.lib.session_errors()==0
         return {'status':'passed','target_sha256':hashlib.sha256(target).hexdigest(),'sign_records':len(rows),'native_widget_cases':len(cases),
-            'choice_labels_renderer_only':sum(r['kind']=='frisbee_choice' for r in proofs.values()),'guarded_renderer_lines':renderer,'native_waits_verified':sum(len(c['wait_offsets_verified']) for c in cases),
+            'choice_labels_renderer_only':sum(r['kind'] in ('frisbee_choice','popuri_choice') for r in proofs.values()),'guarded_renderer_lines':renderer,'native_waits_verified':sum(len(c['wait_offsets_verified']) for c in cases),
             'source_scripts_CODE_JUMP_unchanged':len({r['script_id'] for r in proofs.values()}),'untranslated_strings_byte_identical':untouched,
             'original_RAW_glyphs_unchanged':glyphs,'cases':cases,'sram_unchanged':True,'emulator_error_count':0,
             'limitations':['Native UI fixtures hosted in the house, not natural encounters with every sign.',

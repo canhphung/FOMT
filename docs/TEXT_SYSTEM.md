@@ -250,3 +250,5 @@ CODE hash và OnCall33/34/35. Chỉ gán context cho đúng nhãn đã chọn, g
 184 chuỗi sự kiện/hội thoại cùng script nguyên byte. Hai Table trong nhà
 được nối bằng input tự nhiên, các nhãn khác có native UI/cache fixture.
 Xem [INTERACTIVE_OBJECTS.md](INTERACTIVE_OBJECTS.md).
+
+Ngoại lệ Popuri: popuri_text.py cấp quyền bỏ RAW:8166 chỉ tại 993.005/021/092 theo nguồn được xác minh; không nới token khác. Hai lựa chọn 038/039 giữ cap 26 byte native. Xem POPURI_LOCALIZATION.md.

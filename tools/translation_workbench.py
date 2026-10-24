@@ -167,7 +167,8 @@ class Repository:
             error('empty', 'Bản dịch đang trống.')
         from fomt_text import matching_tokens
         if not matching_tokens(original['original_english'],text,
-                padding_reflow=original.get('source',{}).get('sign_context',{}).get('padding_reflow',False)):
+                padding_reflow=original.get('source',{}).get('sign_context',{}).get('padding_reflow',False),
+                    drop_apostrophe=original.get('source',{}).get('popuri_context',{}).get('drop_apostrophe',False)):
             error('tokens', 'Thiếu, thừa hoặc đổi thứ tự control code / placeholder.')
         metrics = {'max_columns': row['max_columns'], 'maximum_tiles': None, 'encoded_bytes': None,
                    'max_encoded_bytes': row['max_encoded_bytes'], 'dynamic_variable_reserve': False}

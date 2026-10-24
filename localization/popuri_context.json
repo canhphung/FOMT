@@ -6,6 +6,7 @@
     "script.0993.002",
     "script.0993.003",
     "script.0993.004",
+    "script.0993.005",
     "script.0993.006",
     "script.0993.007",
     "script.0993.008",
@@ -21,6 +22,7 @@
     "script.0993.018",
     "script.0993.019",
     "script.0993.020",
+    "script.0993.021",
     "script.0993.022",
     "script.0993.023",
     "script.0993.024",
@@ -37,6 +39,8 @@
     "script.0993.035",
     "script.0993.036",
     "script.0993.037",
+    "script.0993.038",
+    "script.0993.039",
     "script.0993.040",
     "script.0993.041",
     "script.0993.042",
@@ -89,6 +93,7 @@
     "script.0993.089",
     "script.0993.090",
     "script.0993.091",
+    "script.0993.092",
     "script.0993.093",
     "script.0993.094",
     "script.0993.095",
@@ -215,6 +220,22 @@
       "show_text_sites": [
         {
           "code_offset": 1836,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.005",
+      "script_id": 993,
+      "string_index": 5,
+      "original_english": "Really? A birthday present{CR}{LF}for me? {WAIT}{PAGE}If I told my mom about this,{CR}{LF}she{RAW:8166}s be so surprised!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 2043,
           "native_call": 33,
           "text_flags": 256
         }
@@ -455,6 +476,22 @@
       "show_text_sites": [
         {
           "code_offset": 3942,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.021",
+      "script_id": 993,
+      "string_index": 21,
+      "original_english": "No, I{RAW:8166}m scared!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 4149,
           "native_call": 33,
           "text_flags": 256
         }
@@ -721,6 +758,26 @@
         }
       ],
       "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.038",
+      "script_id": 993,
+      "string_index": 38,
+      "original_english": "Sounds like fun.",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [],
+      "kind": "popuri_choice",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0993.039",
+      "script_id": 993,
+      "string_index": 39,
+      "original_english": "Sorry, I have other plans.",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [],
+      "kind": "popuri_choice",
       "padding_reflow": false
     },
     {
@@ -1556,6 +1613,22 @@
       "padding_reflow": false
     },
     {
+      "id": "script.0993.092",
+      "script_id": 993,
+      "string_index": 92,
+      "original_english": "I{RAW:8166}m working very hard{CR}{LF}for you, {VAR:29}!{WAIT}",
+      "code_sha256": "3f11878d5c486bf852cdadbfc40cfac3e3e4c6e5bbf815885c4a6a767c1d8bd9",
+      "show_text_sites": [
+        {
+          "code_offset": 14422,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "popuri_dialogue",
+      "padding_reflow": false
+    },
+    {
       "id": "script.0993.093",
       "script_id": 993,
       "string_index": 93,
@@ -2371,5 +2444,7 @@
       "kind": "popuri_dialogue",
       "padding_reflow": false
     }
-  ]
+  ],
+  "choice_handler_sha256": "86e93100b85f3baea879dc18676e9eb91683322b98cf5c5e6e083408ce5f2658",
+  "choice_widget_sha256": "865824867cfbef6758d4c5e089c13267dcd8be26a4362122c07efaa68c195c42"
 }

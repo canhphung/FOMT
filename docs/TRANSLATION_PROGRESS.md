@@ -7,7 +7,7 @@ Bản vá thử nghiệm, chưa phải Việt hóa 100%.
 
 | Hạng mục | Có bản dịch nháp / đã trích xuất |
 | --- | ---: |
-| Tổng catalog | 1.592 / 9.309 |
+| Tổng catalog | 1.597 / 9.309 |
 | Hướng dẫn giường/thùng xuất hàng | 3 / 3 trong lô |
 | Biển/thông báo và lựa chọn liên quan | 48 / 48 trong lô |
 | Nhãn đồ vật tương tác | 261 / 261 đã xác minh |
@@ -22,8 +22,8 @@ Bản vá thử nghiệm, chưa phải Việt hóa 100%.
 | Thomas — script chuẩn | 34 / 34 |
 | Popuri — lô thường ngày mới | 51 / 51 (còn index 1–92) |
 
-1.592 ID không trùng nhau; chưa có ID đánh dấu `reviewed`. 7.717 bản ghi
-còn thiếu dịch đều đang chờ phân loại ngữ cảnh. Khoảng 17,1% ID trong catalog
+1.597 ID không trùng nhau; chưa có ID đánh dấu `reviewed`. 7.712 bản ghi
+còn thiếu dịch đều đang chờ phân loại ngữ cảnh. Khoảng 17,2% ID trong catalog
 không phải phần trăm lượng từ hay toàn bộ game. Thêm 26 chuỗi UI native,
 glossary hiện có 496 thuật ngữ.
 
@@ -236,7 +236,7 @@ Thêm 48 mục ở 31 script: 45 nội dung biển và 3 lựa chọn ném đĩa
 13 thông báo lễ hội, hai biến thể thư viện và lịch mở cửa đúng từng source.
 Xác minh 10 RAW glyph, giữ mũi tên; chỉ hai biển được giảm đệm trống theo
 contract. Kiểm native fixture 45 nội dung/73 WAIT và 179 dòng renderer;
-12 luồng Chromium trên bản sao, không sửa 37 JSON nguồn. Tổng nháp 1.592
+12 luồng Chromium trên bản sao, không sửa 37 JSON nguồn. Tổng nháp 1.597
 ID, glossary 496. Chưa có QA ngôn ngữ/bố cục thủ công hoặc mọi tương tác
 tự nhiên/map. Chi tiết: [SIGN_LOCALIZATION.md](SIGN_LOCALIZATION.md).
 
@@ -249,8 +249,8 @@ tự nhiên vẫn pending; không tái sử dụng tuyên bố full-platform cho
 
 ## Phiên farm-interactions-01 — 2026-10-24
 
-Bổ sung 23 chuỗi/17 script theo ảnh và các nhánh cùng nhóm. Tổng 1.592 nháp,
-7.717 ID chờ ngữ cảnh. 145 test đạt, hai mGBA: 23 fixture/26 WAIT/61 dòng.
+Bổ sung 23 chuỗi/17 script theo ảnh và các nhánh cùng nhóm. Tổng 1.597 nháp,
+7.712 ID chờ ngữ cảnh. 145 test đạt, hai mGBA: 23 fixture/26 WAIT/61 dòng.
 Giữ LV và bytecode, chưa có QA tương tác tự nhiên toàn bộ nhóm. Xem
 [FARM_INTERACTIONS.md](FARM_INTERACTIONS.md). Knowledge tiếp tục ở ngoài Git.
 
@@ -264,6 +264,14 @@ Chưa dịch mọi event Popuri, chưa duyệt thủ công/encounter tự nhiên
 
 ## Phiên locked-doors-01 — 2026-10-24
 
-Thêm 26 thông báo cửa khóa, tổng 1.592 nháp. 146 test đạt, hai mGBA kiểm
+Thêm 26 thông báo cửa khóa, tổng 1.597 nháp. 146 test đạt, hai mGBA kiểm
 26 fixture/WAIT/dòng; giữ CODE/JUMP và điều kiện mở cửa. Chưa có encounter
 tự nhiên cho từng cửa. [Chi tiết](LOCKED_DOORS.md).
+
+## Phiên popuri-complete-01 — 2026-10-24
+
+Hoàn thiện 5 mục cuối: bỏ đúng dấu nháy English tại 005/021/092 theo
+contract nguồn, dịch 038/039 với giới hạn native 26 byte. Popuri đạt
+144/144 mục script chuẩn, chưa phải mọi sự kiện. 148 test đạt; hai mGBA
+kiểm 142 hội thoại/196 WAIT/413 dòng và cả hai lựa chọn native (bitmap,
+Down, A). Tổng 1.597 nháp, 7.712 chờ ngữ cảnh. QA thủ công còn pending.

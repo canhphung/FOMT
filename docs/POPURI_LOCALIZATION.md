@@ -1,6 +1,6 @@
 # Popuri — bản dịch có ngữ cảnh, 2026-10-24
 
-Thêm 87 chuỗi, tổng **139/144** câu trong script chuẩn 993; cả dự án 1.566
+Hoàn tất **144/144** mục trong script chuẩn 993 (142 câu Popuri, hai lựa chọn người chơi); cả dự án 1.597
 bản dịch nháp. Đây không phải toàn bộ lời Popuri trong các sự kiện nhiều NPC.
 Bản Việt ở pilot.json; contract nguồn ở localization/popuri_context.json.
 
@@ -35,25 +35,45 @@ Rick. 133 dùng “đẹp trai” thay “đẹp mã”, giữ sắc thái tình
 English `quite men` được hiểu là lỗi gõ của quiet trong câu đối chiếu vẻ ngoài
 và tính trầm lặng, không sửa nguồn gốc. 136 gọi cha Carter phù hợp nhà thờ.
 
-## Phần chưa dịch
+## Hoàn thiện năm mục cuối
 
-5, 21, 92: chứa RAW:8166 trong dấu nháy của English; chưa đổi/bỏ RAW để
-ép câu Việt qua validator. 38, 39: nhãn lựa chọn lời mời, cần bằng chứng
-caller/choice widget riêng. Cả năm chuỗi giữ nguyên byte. Các heart event,
-rival event, cưới/lễ hội ở script khác chưa được coi là hoàn thành.
+005: “Thật sao? Quà sinh nhật / cho mình à? … Kể mẹ nghe chuyện này, /
+chắc mẹ sẽ bất ngờ lắm!”; 021: “Không, mình sợ lắm!”; 092: “Em đang làm
+việc chăm chỉ / vì anh đấy, {VAR:29}!”. Giữ CR/LF/PAGE/WAIT/VAR nguyên thứ tự.
+
+RAW:8166 là dấu nháy phải ’, được kiểm bằng glyph native gốc và bản vá
+(staging SHA256 trong báo cáo). Tiếng Việt không cần dấu nháy rút gọn English.
+Chỉ 005/021/092 có quyền bỏ RAW:8166 trong catalog do popuri_text.py xác minh
+constructor, literal và CODE; không lấy quyền từ metadata file bản dịch.
+Mọi RAW khác và mọi biến/control vẫn nghiêm ngặt, số dấu nháy không được tăng.
+
+038: **Nghe vui đấy!**; 039: **Xin lỗi, mình có hẹn.** Hai dòng là lựa chọn
+của người chơi, không gán speaker Popuri. CODE 10386..10392 đẩy 3,38,39 rồi
+OnCall39; handler 0x08040980 lấy hai STR và gọi native menu qua 0x080128D0.
+Guard cả handler và widget 0x08050478..0x08050664. Widget dùng strlen, giới
+hạn **26 byte** mỗi lựa chọn: câu có thêm “rồi” dài 30 byte và bị để trống.
+Câu hiện tại dài 25 byte, đáp ứng cả giới hạn glyph và byte. Importer, queue,
+editor cùng kiểm giới hạn nguồn này; không sửa renderer để nới bộ đệm.
+
+Các heart/rival event, cưới/lễ hội nằm ở script khác vẫn chưa thuộc phạm vi
+hoàn thành này. Không tuyên bố mọi lời Popuri trong game đã được dịch.
 
 ## Kiểm chứng
 
-146 test ROM đạt. Hai mGBA: **139 fixture, 192 WAIT, 404 dòng renderer**,
-so bitmap toàn bộ cache tại từng điểm dừng. CODE/JUMP script 993 nguyên vẹn,
-5 chuỗi chưa chọn không đổi byte, SRAM không đổi. Biến dùng 12 chữ số thay
-thế trong fixture để kiểm khoảng trống; không phải chứng minh giá trị biến
-thật hoặc mọi nhánh quan hệ. Fixture ẩn portrait/name, không gán ảnh một NPC
-khác làm Popuri; nền nhà chỉ là host. Chưa có playtest encounter tự nhiên
-cho cả 139 câu hoặc duyệt ngôn ngữ/bố cục thủ công.
+148 test ROM đạt. Hai mGBA kiểm 142 fixture hội thoại/196 WAIT/413 dòng
+renderer, CODE/JUMP giữ nguyên. Hai lựa chọn còn được dựng bằng setter
+native cùng đường gọi của OnCall39: so bitmap cả hai nhãn (kể cả khoảng
+chừa mũi tên 16px), kiểm Down đổi lựa chọn 1→2, và A xác nhận từng dòng,
+widget trở về state 0. SRAM không đổi.
 
-[Kiểm chứng](evidence/popuri-validation.json). Bộ chuẩn font và ảnh cũ được
-giữ nguyên. Full-platform/golden/Chromium trước đây thuộc hash lịch sử,
-không khẳng định đã chạy lại toàn bộ cho bản mới.
+Đây là UI fixture trong nhà, không phải tái hiện tự nhiên lời mời Đêm sao
+hoặc chứng nhận các sự kiện sau khi chọn. Các biến dùng 12 chữ số để kiểm
+layout; nguyên VAR vẫn nằm trong ROM. QA ngôn ngữ/bố cục thủ công, GBA thật
+và toàn bộ nhánh sự kiện còn pending. Font/ảnh chuẩn cũ giữ nguyên; full
+platform/golden trước đó là bằng chứng lịch sử, chưa chạy lại cho hash mới.
 
-Ảnh fixture nằm trong docs/evidence/popuri/, không phải ảnh gặp Popuri tự nhiên.
+[Báo cáo hiện tại](evidence/popuri-complete-validation.json).
+[Báo cáo 139 câu trước đó](evidence/popuri-validation.json) giữ hash lịch sử.
+
+![Hai lựa chọn native](evidence/popuri-complete/choices-initial.png)
+![Phản ứng sợ hãi — fixture](evidence/popuri-complete/script.0993.021-wait-1.png)

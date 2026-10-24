@@ -74,3 +74,5 @@ farm-interactions-validation.json và farm-interactions/: kiểm native fixture 
 popuri-validation.json và popuri/: bằng chứng native fixture 139 câu, không phải encounter hoặc toàn bộ event.
 
 locked-doors-validation.json và locked-doors/: chứng minh nguồn và UI fixture 26 thông báo cửa khóa.
+
+popuri-complete-validation.json và popuri-complete/: 144 mục chuẩn gồm menu hai lựa chọn native; báo cáo 139 mục trước đó giữ hash lịch sử.

@@ -1,0 +1,3490 @@
+{
+  "revision": "popuri-complete-01",
+  "status": "passed",
+  "target_sha256": "ab9813d4deb4dfecf0762336e7d73f0ccce920f9677c8475349107ad6f003852",
+  "patch_sha256": "38e8f443c4fee7c8571cfa2de3e52285e434864214e7ec6886174ff353f68fe8",
+  "pytest": {
+    "passed": 148,
+    "failed": 0
+  },
+  "new_drafts": 5,
+  "standard_script_strings": 144,
+  "dialogue_strings": 142,
+  "player_choices": 2,
+  "release_ips_round_trip": true,
+  "emulators": {
+    "0.10.5": {
+      "dialogue": {
+        "status": "passed",
+        "target_sha256": "ab9813d4deb4dfecf0762336e7d73f0ccce920f9677c8475349107ad6f003852",
+        "sign_records": 144,
+        "native_widget_cases": 142,
+        "choice_labels_renderer_only": 2,
+        "guarded_renderer_lines": 413,
+        "native_waits_verified": 196,
+        "source_scripts_CODE_JUMP_unchanged": 1,
+        "untranslated_strings_byte_identical": 0,
+        "original_RAW_glyphs_unchanged": [],
+        "cases": [
+          {
+            "id": "script.0993.000",
+            "wait_offsets_verified": [
+              51,
+              80
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.001",
+            "wait_offsets_verified": [
+              62
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.002",
+            "wait_offsets_verified": [
+              56
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.003",
+            "wait_offsets_verified": [
+              52,
+              115
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.004",
+            "wait_offsets_verified": [
+              65,
+              87
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              2
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.005",
+            "wait_offsets_verified": [
+              42,
+              101
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": [
+              "script.0993.005-wait-1.png",
+              "script.0993.005-wait-2.png"
+            ]
+          },
+          {
+            "id": "script.0993.006",
+            "wait_offsets_verified": [
+              63
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": [
+              "script.0993.006-wait-1.png"
+            ]
+          },
+          {
+            "id": "script.0993.007",
+            "wait_offsets_verified": [
+              47
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.008",
+            "wait_offsets_verified": [
+              53
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.009",
+            "wait_offsets_verified": [
+              29
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.010",
+            "wait_offsets_verified": [
+              52
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.011",
+            "wait_offsets_verified": [
+              27
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.012",
+            "wait_offsets_verified": [
+              44
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.013",
+            "wait_offsets_verified": [
+              15
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.014",
+            "wait_offsets_verified": [
+              73
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.015",
+            "wait_offsets_verified": [
+              31
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.016",
+            "wait_offsets_verified": [
+              37,
+              62
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.017",
+            "wait_offsets_verified": [
+              35
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.018",
+            "wait_offsets_verified": [
+              19,
+              72,
+              89
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.019",
+            "wait_offsets_verified": [
+              24
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.020",
+            "wait_offsets_verified": [
+              70,
+              97
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              2
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.021",
+            "wait_offsets_verified": [
+              24
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": [
+              "script.0993.021-wait-1.png"
+            ]
+          },
+          {
+            "id": "script.0993.022",
+            "wait_offsets_verified": [
+              63,
+              103
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.023",
+            "wait_offsets_verified": [
+              44,
+              102
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.024",
+            "wait_offsets_verified": [
+              86
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.025",
+            "wait_offsets_verified": [
+              61,
+              93
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.026",
+            "wait_offsets_verified": [
+              76
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.027",
+            "wait_offsets_verified": [
+              49
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.028",
+            "wait_offsets_verified": [
+              72,
+              126
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.029",
+            "wait_offsets_verified": [
+              56,
+              84
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.030",
+            "wait_offsets_verified": [
+              79
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.031",
+            "wait_offsets_verified": [
+              15,
+              96
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.032",
+            "wait_offsets_verified": [
+              52,
+              127
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.033",
+            "wait_offsets_verified": [
+              59,
+              85
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              2
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.034",
+            "wait_offsets_verified": [
+              57
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.035",
+            "wait_offsets_verified": [
+              72
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.036",
+            "wait_offsets_verified": [
+              81
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.037",
+            "wait_offsets_verified": [
+              51,
+              81
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              2
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.040",
+            "wait_offsets_verified": [
+              60
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.041",
+            "wait_offsets_verified": [
+              44
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.042",
+            "wait_offsets_verified": [
+              60,
+              124
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.043",
+            "wait_offsets_verified": [
+              68
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": [
+              "script.0993.043-wait-1.png"
+            ]
+          },
+          {
+            "id": "script.0993.044",
+            "wait_offsets_verified": [
+              64
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.045",
+            "wait_offsets_verified": [
+              65,
+              120
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.046",
+            "wait_offsets_verified": [
+              79
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.047",
+            "wait_offsets_verified": [
+              70,
+              97
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              2
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.048",
+            "wait_offsets_verified": [
+              39,
+              75
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.049",
+            "wait_offsets_verified": [
+              59
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.050",
+            "wait_offsets_verified": [
+              67,
+              100
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              2
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.051",
+            "wait_offsets_verified": [
+              30
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.052",
+            "wait_offsets_verified": [
+              35
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.053",
+            "wait_offsets_verified": [
+              68
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.054",
+            "wait_offsets_verified": [
+              64,
+              96
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.055",
+            "wait_offsets_verified": [
+              60
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.056",
+            "wait_offsets_verified": [
+              74
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.057",
+            "wait_offsets_verified": [
+              79
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": [
+              "script.0993.057-wait-1.png"
+            ]
+          },
+          {
+            "id": "script.0993.058",
+            "wait_offsets_verified": [
+              49,
+              79
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.059",
+            "wait_offsets_verified": [
+              71
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.060",
+            "wait_offsets_verified": [
+              44
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.061",
+            "wait_offsets_verified": [
+              29
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.062",
+            "wait_offsets_verified": [
+              51
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.063",
+            "wait_offsets_verified": [
+              34
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.064",
+            "wait_offsets_verified": [
+              57
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.065",
+            "wait_offsets_verified": [
+              49
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.066",
+            "wait_offsets_verified": [
+              48
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.067",
+            "wait_offsets_verified": [
+              64,
+              80
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              2
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.068",
+            "wait_offsets_verified": [
+              42
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.069",
+            "wait_offsets_verified": [
+              63
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.070",
+            "wait_offsets_verified": [
+              43
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.071",
+            "wait_offsets_verified": [
+              25
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.072",
+            "wait_offsets_verified": [
+              40,
+              106
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.073",
+            "wait_offsets_verified": [
+              65
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.074",
+            "wait_offsets_verified": [
+              63
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.075",
+            "wait_offsets_verified": [
+              19,
+              64
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.076",
+            "wait_offsets_verified": [
+              57
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.077",
+            "wait_offsets_verified": [
+              72,
+              101
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.078",
+            "wait_offsets_verified": [
+              28,
+              49
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.079",
+            "wait_offsets_verified": [
+              28,
+              74,
+              155
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.080",
+            "wait_offsets_verified": [
+              51,
+              87
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.081",
+            "wait_offsets_verified": [
+              55,
+              89
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.082",
+            "wait_offsets_verified": [
+              51
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.083",
+            "wait_offsets_verified": [
+              26
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.084",
+            "wait_offsets_verified": [
+              32
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.085",
+            "wait_offsets_verified": [
+              64
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.086",
+            "wait_offsets_verified": [
+              50,
+              98
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.087",
+            "wait_offsets_verified": [
+              48
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.088",
+            "wait_offsets_verified": [
+              56
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.089",
+            "wait_offsets_verified": [
+              37
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.090",
+            "wait_offsets_verified": [
+              72
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.091",
+            "wait_offsets_verified": [
+              74
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.092",
+            "wait_offsets_verified": [
+              61
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": [
+              "script.0993.092-wait-1.png"
+            ]
+          },
+          {
+            "id": "script.0993.093",
+            "wait_offsets_verified": [
+              75
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.094",
+            "wait_offsets_verified": [
+              74
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.095",
+            "wait_offsets_verified": [
+              63
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.096",
+            "wait_offsets_verified": [
+              42,
+              86
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.097",
+            "wait_offsets_verified": [
+              44
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.098",
+            "wait_offsets_verified": [
+              80
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.099",
+            "wait_offsets_verified": [
+              50
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.100",
+            "wait_offsets_verified": [
+              82
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.101",
+            "wait_offsets_verified": [
+              48
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.102",
+            "wait_offsets_verified": [
+              61,
+              85,
+              153,
+              177
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              2,
+              2,
+              1
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.103",
+            "wait_offsets_verified": [
+              43
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.104",
+            "wait_offsets_verified": [
+              79
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.105",
+            "wait_offsets_verified": [
+              72
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.106",
+            "wait_offsets_verified": [
+              80,
+              111
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              2
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.107",
+            "wait_offsets_verified": [
+              56,
+              107
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.108",
+            "wait_offsets_verified": [
+              67,
+              84,
+              111
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              2,
+              2
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.109",
+            "wait_offsets_verified": [
+              70,
+              96
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              2
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.110",
+            "wait_offsets_verified": [
+              65,
+              89
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              2
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.111",
+            "wait_offsets_verified": [
+              41
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.112",
+            "wait_offsets_verified": [
+              42
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.113",
+            "wait_offsets_verified": [
+              50
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.114",
+            "wait_offsets_verified": [
+              56,
+              109
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.115",
+            "wait_offsets_verified": [
+              43
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.116",
+            "wait_offsets_verified": [
+              56
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.117",
+            "wait_offsets_verified": [
+              44
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.118",
+            "wait_offsets_verified": [
+              31,
+              94
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.119",
+            "wait_offsets_verified": [
+              56,
+              107
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.120",
+            "wait_offsets_verified": [
+              15
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.121",
+            "wait_offsets_verified": [
+              18
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.122",
+            "wait_offsets_verified": [
+              54
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.123",
+            "wait_offsets_verified": [
+              27
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.124",
+            "wait_offsets_verified": [
+              59
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.125",
+            "wait_offsets_verified": [
+              66
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": [
+              "script.0993.125-wait-1.png"
+            ]
+          },
+          {
+            "id": "script.0993.126",
+            "wait_offsets_verified": [
+              42
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.127",
+            "wait_offsets_verified": [
+              53
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.128",
+            "wait_offsets_verified": [
+              69
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.129",
+            "wait_offsets_verified": [
+              40
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.130",
+            "wait_offsets_verified": [
+              36
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.131",
+            "wait_offsets_verified": [
+              43,
+              70
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.132",
+            "wait_offsets_verified": [
+              66
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.133",
+            "wait_offsets_verified": [
+              73,
+              108
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              2
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.134",
+            "wait_offsets_verified": [
+              48
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.135",
+            "wait_offsets_verified": [
+              36
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.136",
+            "wait_offsets_verified": [
+              46,
+              126
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": [
+              "script.0993.136-wait-1.png",
+              "script.0993.136-wait-2.png"
+            ]
+          },
+          {
+            "id": "script.0993.137",
+            "wait_offsets_verified": [
+              51,
+              101
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.138",
+            "wait_offsets_verified": [
+              65
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.139",
+            "wait_offsets_verified": [
+              38,
+              86
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.140",
+            "wait_offsets_verified": [
+              69
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.141",
+            "wait_offsets_verified": [
+              58,
+              83
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.142",
+            "wait_offsets_verified": [
+              66
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.143",
+            "wait_offsets_verified": [
+              41,
+              96
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          }
+        ],
+        "sram_unchanged": true,
+        "emulator_error_count": 0,
+        "limitations": [
+          "Native UI fixtures, not natural object encounters.",
+          "Dialogue variables substitute twelve digits for layout; original VAR preserved.",
+          "Manual language/layout review and other unclassified interactions remain pending."
+        ]
+      },
+      "choices": {
+        "status": "passed",
+        "target_sha256": "ab9813d4deb4dfecf0762336e7d73f0ccce920f9677c8475349107ad6f003852",
+        "RAW_8166_staging_sha256": "1c51019aa18803625339422f598caa657334aa7a1cca67ccd1ed1d06b13f035e",
+        "RAW_8166_matches_original": true,
+        "both_choice_label_bitmaps_verified": true,
+        "cases": [
+          {
+            "down": false,
+            "selection_fields": "0100000000000000c8790e08",
+            "after_A_state": 0
+          },
+          {
+            "down": true,
+            "selection_fields": "0200000000000000c8790e08",
+            "after_A_state": 0
+          }
+        ],
+        "sram_unchanged": true,
+        "limitations": [
+          "Native choice fixture, not natural Starry Night encounter or event branch completion."
+        ]
+      }
+    },
+    "dev": {
+      "dialogue": {
+        "status": "passed",
+        "target_sha256": "ab9813d4deb4dfecf0762336e7d73f0ccce920f9677c8475349107ad6f003852",
+        "sign_records": 144,
+        "native_widget_cases": 142,
+        "choice_labels_renderer_only": 2,
+        "guarded_renderer_lines": 413,
+        "native_waits_verified": 196,
+        "source_scripts_CODE_JUMP_unchanged": 1,
+        "untranslated_strings_byte_identical": 0,
+        "original_RAW_glyphs_unchanged": [],
+        "cases": [
+          {
+            "id": "script.0993.000",
+            "wait_offsets_verified": [
+              51,
+              80
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.001",
+            "wait_offsets_verified": [
+              62
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.002",
+            "wait_offsets_verified": [
+              56
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.003",
+            "wait_offsets_verified": [
+              52,
+              115
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.004",
+            "wait_offsets_verified": [
+              65,
+              87
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              2
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.005",
+            "wait_offsets_verified": [
+              42,
+              101
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": [
+              "script.0993.005-wait-1.png",
+              "script.0993.005-wait-2.png"
+            ]
+          },
+          {
+            "id": "script.0993.006",
+            "wait_offsets_verified": [
+              63
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": [
+              "script.0993.006-wait-1.png"
+            ]
+          },
+          {
+            "id": "script.0993.007",
+            "wait_offsets_verified": [
+              47
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.008",
+            "wait_offsets_verified": [
+              53
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.009",
+            "wait_offsets_verified": [
+              29
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.010",
+            "wait_offsets_verified": [
+              52
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.011",
+            "wait_offsets_verified": [
+              27
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.012",
+            "wait_offsets_verified": [
+              44
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.013",
+            "wait_offsets_verified": [
+              15
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.014",
+            "wait_offsets_verified": [
+              73
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.015",
+            "wait_offsets_verified": [
+              31
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.016",
+            "wait_offsets_verified": [
+              37,
+              62
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.017",
+            "wait_offsets_verified": [
+              35
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.018",
+            "wait_offsets_verified": [
+              19,
+              72,
+              89
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.019",
+            "wait_offsets_verified": [
+              24
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.020",
+            "wait_offsets_verified": [
+              70,
+              97
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              2
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.021",
+            "wait_offsets_verified": [
+              24
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": [
+              "script.0993.021-wait-1.png"
+            ]
+          },
+          {
+            "id": "script.0993.022",
+            "wait_offsets_verified": [
+              63,
+              103
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.023",
+            "wait_offsets_verified": [
+              44,
+              102
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.024",
+            "wait_offsets_verified": [
+              86
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.025",
+            "wait_offsets_verified": [
+              61,
+              93
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.026",
+            "wait_offsets_verified": [
+              76
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.027",
+            "wait_offsets_verified": [
+              49
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.028",
+            "wait_offsets_verified": [
+              72,
+              126
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.029",
+            "wait_offsets_verified": [
+              56,
+              84
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.030",
+            "wait_offsets_verified": [
+              79
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.031",
+            "wait_offsets_verified": [
+              15,
+              96
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.032",
+            "wait_offsets_verified": [
+              52,
+              127
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.033",
+            "wait_offsets_verified": [
+              59,
+              85
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              2
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.034",
+            "wait_offsets_verified": [
+              57
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.035",
+            "wait_offsets_verified": [
+              72
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.036",
+            "wait_offsets_verified": [
+              81
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.037",
+            "wait_offsets_verified": [
+              51,
+              81
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              2
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.040",
+            "wait_offsets_verified": [
+              60
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.041",
+            "wait_offsets_verified": [
+              44
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.042",
+            "wait_offsets_verified": [
+              60,
+              124
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.043",
+            "wait_offsets_verified": [
+              68
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": [
+              "script.0993.043-wait-1.png"
+            ]
+          },
+          {
+            "id": "script.0993.044",
+            "wait_offsets_verified": [
+              64
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.045",
+            "wait_offsets_verified": [
+              65,
+              120
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.046",
+            "wait_offsets_verified": [
+              79
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.047",
+            "wait_offsets_verified": [
+              70,
+              97
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              2
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.048",
+            "wait_offsets_verified": [
+              39,
+              75
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.049",
+            "wait_offsets_verified": [
+              59
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.050",
+            "wait_offsets_verified": [
+              67,
+              100
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              2
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.051",
+            "wait_offsets_verified": [
+              30
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.052",
+            "wait_offsets_verified": [
+              35
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.053",
+            "wait_offsets_verified": [
+              68
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.054",
+            "wait_offsets_verified": [
+              64,
+              96
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.055",
+            "wait_offsets_verified": [
+              60
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.056",
+            "wait_offsets_verified": [
+              74
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.057",
+            "wait_offsets_verified": [
+              79
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": [
+              "script.0993.057-wait-1.png"
+            ]
+          },
+          {
+            "id": "script.0993.058",
+            "wait_offsets_verified": [
+              49,
+              79
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.059",
+            "wait_offsets_verified": [
+              71
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.060",
+            "wait_offsets_verified": [
+              44
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.061",
+            "wait_offsets_verified": [
+              29
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.062",
+            "wait_offsets_verified": [
+              51
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.063",
+            "wait_offsets_verified": [
+              34
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.064",
+            "wait_offsets_verified": [
+              57
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.065",
+            "wait_offsets_verified": [
+              49
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.066",
+            "wait_offsets_verified": [
+              48
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.067",
+            "wait_offsets_verified": [
+              64,
+              80
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              2
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.068",
+            "wait_offsets_verified": [
+              42
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.069",
+            "wait_offsets_verified": [
+              63
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.070",
+            "wait_offsets_verified": [
+              43
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.071",
+            "wait_offsets_verified": [
+              25
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.072",
+            "wait_offsets_verified": [
+              40,
+              106
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.073",
+            "wait_offsets_verified": [
+              65
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.074",
+            "wait_offsets_verified": [
+              63
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.075",
+            "wait_offsets_verified": [
+              19,
+              64
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.076",
+            "wait_offsets_verified": [
+              57
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.077",
+            "wait_offsets_verified": [
+              72,
+              101
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.078",
+            "wait_offsets_verified": [
+              28,
+              49
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.079",
+            "wait_offsets_verified": [
+              28,
+              74,
+              155
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.080",
+            "wait_offsets_verified": [
+              51,
+              87
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.081",
+            "wait_offsets_verified": [
+              55,
+              89
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.082",
+            "wait_offsets_verified": [
+              51
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.083",
+            "wait_offsets_verified": [
+              26
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.084",
+            "wait_offsets_verified": [
+              32
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.085",
+            "wait_offsets_verified": [
+              64
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.086",
+            "wait_offsets_verified": [
+              50,
+              98
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.087",
+            "wait_offsets_verified": [
+              48
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.088",
+            "wait_offsets_verified": [
+              56
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.089",
+            "wait_offsets_verified": [
+              37
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.090",
+            "wait_offsets_verified": [
+              72
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.091",
+            "wait_offsets_verified": [
+              74
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.092",
+            "wait_offsets_verified": [
+              61
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": [
+              "script.0993.092-wait-1.png"
+            ]
+          },
+          {
+            "id": "script.0993.093",
+            "wait_offsets_verified": [
+              75
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.094",
+            "wait_offsets_verified": [
+              74
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.095",
+            "wait_offsets_verified": [
+              63
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.096",
+            "wait_offsets_verified": [
+              42,
+              86
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.097",
+            "wait_offsets_verified": [
+              44
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.098",
+            "wait_offsets_verified": [
+              80
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.099",
+            "wait_offsets_verified": [
+              50
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.100",
+            "wait_offsets_verified": [
+              82
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.101",
+            "wait_offsets_verified": [
+              48
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.102",
+            "wait_offsets_verified": [
+              61,
+              85,
+              153,
+              177
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              2,
+              2,
+              1
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.103",
+            "wait_offsets_verified": [
+              43
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.104",
+            "wait_offsets_verified": [
+              79
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.105",
+            "wait_offsets_verified": [
+              72
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.106",
+            "wait_offsets_verified": [
+              80,
+              111
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              2
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.107",
+            "wait_offsets_verified": [
+              56,
+              107
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.108",
+            "wait_offsets_verified": [
+              67,
+              84,
+              111
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              2,
+              2
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.109",
+            "wait_offsets_verified": [
+              70,
+              96
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              2
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.110",
+            "wait_offsets_verified": [
+              65,
+              89
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              2
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.111",
+            "wait_offsets_verified": [
+              41
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.112",
+            "wait_offsets_verified": [
+              42
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.113",
+            "wait_offsets_verified": [
+              50
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.114",
+            "wait_offsets_verified": [
+              56,
+              109
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.115",
+            "wait_offsets_verified": [
+              43
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.116",
+            "wait_offsets_verified": [
+              56
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.117",
+            "wait_offsets_verified": [
+              44
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.118",
+            "wait_offsets_verified": [
+              31,
+              94
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.119",
+            "wait_offsets_verified": [
+              56,
+              107
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.120",
+            "wait_offsets_verified": [
+              15
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.121",
+            "wait_offsets_verified": [
+              18
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.122",
+            "wait_offsets_verified": [
+              54
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.123",
+            "wait_offsets_verified": [
+              27
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.124",
+            "wait_offsets_verified": [
+              59
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.125",
+            "wait_offsets_verified": [
+              66
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": [
+              "script.0993.125-wait-1.png"
+            ]
+          },
+          {
+            "id": "script.0993.126",
+            "wait_offsets_verified": [
+              42
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.127",
+            "wait_offsets_verified": [
+              53
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.128",
+            "wait_offsets_verified": [
+              69
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.129",
+            "wait_offsets_verified": [
+              40
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.130",
+            "wait_offsets_verified": [
+              36
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.131",
+            "wait_offsets_verified": [
+              43,
+              70
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.132",
+            "wait_offsets_verified": [
+              66
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": true,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.133",
+            "wait_offsets_verified": [
+              73,
+              108
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              2
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.134",
+            "wait_offsets_verified": [
+              48
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.135",
+            "wait_offsets_verified": [
+              36
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.136",
+            "wait_offsets_verified": [
+              46,
+              126
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": [
+              "script.0993.136-wait-1.png",
+              "script.0993.136-wait-2.png"
+            ]
+          },
+          {
+            "id": "script.0993.137",
+            "wait_offsets_verified": [
+              51,
+              101
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.138",
+            "wait_offsets_verified": [
+              65
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.139",
+            "wait_offsets_verified": [
+              38,
+              86
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.140",
+            "wait_offsets_verified": [
+              69
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.141",
+            "wait_offsets_verified": [
+              58,
+              83
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.142",
+            "wait_offsets_verified": [
+              66
+            ],
+            "exact_foreground_cache_rotations": [
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          },
+          {
+            "id": "script.0993.143",
+            "wait_offsets_verified": [
+              41,
+              96
+            ],
+            "exact_foreground_cache_rotations": [
+              0,
+              0
+            ],
+            "dynamic_12_cell_standin": false,
+            "screenshots": []
+          }
+        ],
+        "sram_unchanged": true,
+        "emulator_error_count": 0,
+        "limitations": [
+          "Native UI fixtures, not natural object encounters.",
+          "Dialogue variables substitute twelve digits for layout; original VAR preserved.",
+          "Manual language/layout review and other unclassified interactions remain pending."
+        ]
+      },
+      "choices": {
+        "status": "passed",
+        "target_sha256": "ab9813d4deb4dfecf0762336e7d73f0ccce920f9677c8475349107ad6f003852",
+        "RAW_8166_staging_sha256": "1c51019aa18803625339422f598caa657334aa7a1cca67ccd1ed1d06b13f035e",
+        "RAW_8166_matches_original": true,
+        "both_choice_label_bitmaps_verified": true,
+        "cases": [
+          {
+            "down": false,
+            "selection_fields": "0100000000000000c8790e08",
+            "after_A_state": 0
+          },
+          {
+            "down": true,
+            "selection_fields": "0200000000000000c8790e08",
+            "after_A_state": 0
+          }
+        ],
+        "sram_unchanged": true,
+        "limitations": [
+          "Native choice fixture, not natural Starry Night encounter or event branch completion."
+        ]
+      }
+    }
+  },
+  "limitations": [
+    "Native fixtures, not a natural Starry Night encounter or full event branch completion.",
+    "Dialogue variables use twelve-digit layout stand-ins; original VAR preserved.",
+    "Other multi-NPC event scripts and manual language/layout review still pending."
+  ]
+}

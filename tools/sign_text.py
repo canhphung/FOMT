@@ -37,6 +37,11 @@ def verify(base, contract_path=None):
             sequence = [(608,0x23,0),(610,0x23,1),(612,0x23,2),(614,0x23,3),(616,0x21,36)]
             if sid != 492 or index not in (1,2,3) or not all(x in ins for x in sequence):
                 raise FormatError('sign choice call mismatch')
+        elif row['kind'] == 'popuri_choice':
+            sequence=[(10386,0x23,3),(10388,0x23,38),(10390,0x23,39),(10392,0x21,39)]
+            if sid!=993 or index not in (38,39) or not all(x in ins for x in sequence):raise FormatError('Popuri choice call mismatch')
+            if u32(base,0x3F904+39*4)!=0x08040980 or hashlib.sha256(base[0x40980:0x40A10]).hexdigest()!=data['choice_handler_sha256']:raise FormatError('Popuri choice handler mismatch')
+            if hashlib.sha256(base[0x50478:0x50664]).hexdigest()!=data['choice_widget_sha256']:raise FormatError('Popuri choice widget/byte cap mismatch')
         elif not sites:
             raise FormatError('sign missing display call')
         if row['padding_reflow'] and row['id'] not in ('script.0497.000','script.0507.000'):

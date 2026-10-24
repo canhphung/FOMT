@@ -3,7 +3,7 @@
   "revision": "platform-v5-signs",
   "created_at": "2026-10-23",
   "reference_target_sha256": "98e69a242aaa5eb71c8e0fafa17bbca1379d13d06ebb906aa743ac1b4d9d3335",
-  "policy": "Revision v5 adds verified signs, native RAW glyph/scroll fixtures and a padding-only exception for script.0497.000 and script.0507.000. All other controls, arrows and variables remain strict. Font/layout and all 43 golden reference images are unchanged; reference_target_sha256 retains their original provenance. Farm follow-up adds 23 guarded texts; reusable sign fixture accepts a separate contract. Nonlabel preservation counter counts only byte-identical strings. Golden references unchanged.",
+  "policy": "Revision v5 adds verified signs, native RAW glyph/scroll fixtures and a padding-only exception for script.0497.000 and script.0507.000. All other controls, arrows and variables remain strict. Font/layout and all 43 golden reference images are unchanged; reference_target_sha256 retains their original provenance. Farm follow-up adds 23 guarded texts; reusable sign fixture accepts a separate contract. Nonlabel preservation counter counts only byte-identical strings. Golden references unchanged. Popuri completion: source-verified apostrophe removal only at 993.005/021/092; OnCall39 and native choice-byte-cap guards. Golden images unchanged.",
   "visual_review": "technical regression reference; user approval of the complete gallery pending; translation QA unchanged",
   "contracts": {
     "dialogue": {
@@ -108,7 +108,7 @@
     },
     {
       "path": "tools/fomt_text.py",
-      "sha256": "d4ecced64cd498b1a0ee83a76af51218dc68bb27fe491ae90fc87f0d23669c86"
+      "sha256": "f032008a46346a97189d1d2d992373e9b7e7ea0b096c31fed615f9c1859fc4b4"
     },
     {
       "path": "tools/text_extractor.py",
@@ -116,7 +116,7 @@
     },
     {
       "path": "tools/text_inserter.py",
-      "sha256": "bcf7d1c4210849a22a048e6e2fe78d0f543f0d5e9999f80b612a3f618640c8a7"
+      "sha256": "11944d184a710b05032e14b7b1bb793046556261a3e637575b9a862ea807cedd"
     },
     {
       "path": "tools/ips.py",
@@ -156,7 +156,7 @@
     },
     {
       "path": "tools/platform_check.py",
-      "sha256": "17c0a0df07584d30e51064d78ddd22c167d08f65bb019074be9237a142bb9118"
+      "sha256": "3ab4fca703850860054297c16e4b56408863db4794ef904939f8be4e2b6e23c0"
     },
     {
       "path": "tools/mgba_bridge.c",
@@ -212,11 +212,11 @@
     },
     {
       "path": "tools/sign_text.py",
-      "sha256": "bb92d40a769544fd2e6f665bf7bd4aae4db4cabe66ec7f9c2bdeb122c4cfa74e"
+      "sha256": "a9cb134db230a7222e254fa925a811c442b13c0693df5e7e2ab1f753a82738dd"
     },
     {
       "path": "tools/signs_smoke.py",
-      "sha256": "2c2ab85b3af1dd93b03cef26e899d984866999a531626f90f8ce70a66464b880"
+      "sha256": "9b7e2176d47946b7da9d1969c2f02cbe82050369ad796cc0b9c817c62b0033c1"
     },
     {
       "path": "localization/signs.json",
@@ -232,11 +232,11 @@
     },
     {
       "path": "tools/popuri_smoke.py",
-      "sha256": "b51aa1ff23fe515a839364156edc3d445038b4c4e38c28133fd6fab0ca99b637"
+      "sha256": "53bf9771b7269c2be2dabe21f237e1173bdee41a6720380f7370923cf895f058"
     },
     {
       "path": "localization/popuri_context.json",
-      "sha256": "2458403e1b828992714c23c462660c8a1f068ec633a2c36d2e7dafaa53f49a7f"
+      "sha256": "530cada6f0f5f2d97d63eef42894faabcf18b6e19b12d703b95d43b5c7bcbcbd"
     },
     {
       "path": "tools/locked_doors_smoke.py",
@@ -245,6 +245,14 @@
     {
       "path": "localization/locked_doors.json",
       "sha256": "8fb9dd79a83b01ec0296fa67bdc970062812c6ff880aa88c1691559da4b6f96b"
+    },
+    {
+      "path": "tools/popuri_text.py",
+      "sha256": "86e7acad9eea56ed5ec3b0beee4ba71c6b40b82877872f9a55097b3b279c8644"
+    },
+    {
+      "path": "tools/popuri_choices_smoke.py",
+      "sha256": "a163746fc6d5a738755cfd8bc0ef34520c974751e7979be5e3b7f8cf46930ac5"
     }
   ],
   "save_fixture": {

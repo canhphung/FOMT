@@ -12,7 +12,7 @@ def main():
  from npc_context import script_parts
  script_parts(a.base_rom.read_bytes(),993)
  proof=verify(a.base_rom.read_bytes(),CONTRACT)
- result=run(a,verifier=lambda base:verify(base,CONTRACT),capture_ids={'script.0993.006','script.0993.043','script.0993.057','script.0993.125','script.0993.136'})
+ result=run(a,verifier=lambda base:verify(base,CONTRACT),capture_ids={'script.0993.006','script.0993.043','script.0993.057','script.0993.125','script.0993.136','script.0993.005','script.0993.021','script.0993.092'})
  result['limitations']=['Native UI fixtures, not natural object encounters.','Dialogue variables substitute twelve digits for layout; original VAR preserved.','Manual language/layout review and other unclassified interactions remain pending.']
  (a.output_dir/'report.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n');print(json.dumps({k:v for k,v in result.items() if k!='cases'}))
 if __name__=='__main__':main()

@@ -19908,6 +19908,149 @@
       "max_columns": 28,
       "layout_budget": "conservative; runtime review required",
       "context_evidence": "docs/LOCKED_DOORS.md; exact literal/CODE/native display sites in localization/locked_doors.json"
+    },
+    {
+      "id": "script.0993.005",
+      "rom_address": "0x0839F5FA",
+      "rom_offset": "0x39F5FA",
+      "original_english": "Really? A birthday present{CR}{LF}for me? {WAIT}{PAGE}If I told my mom about this,{CR}{LF}she{RAW:8166}s be so surprised!{WAIT}",
+      "vietnamese_translation": "Thật sao? Quà sinh nhật{CR}{LF}cho mình à?{WAIT}{PAGE}Kể mẹ nghe chuyện này,{CR}{LF}chắc mẹ sẽ bất ngờ lắm!{WAIT}",
+      "context": "script_string_unclassified",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{CR}",
+        "{LF}",
+        "{RAW:8166}",
+        "{WAIT}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "5265616c6c793f20412062697274686461792070726573656e740d0a666f72206d653f20050c4966204920746f6c64206d79206d6f6d2061626f757420746869732c0d0a73686581667320626520736f207375727072697365642105",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 5,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3797628,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; popuri_text.py validates constructor/CODE/literal, apostrophe glyph and OnCall39 choice arguments"
+    },
+    {
+      "id": "script.0993.021",
+      "rom_address": "0x0839F8A3",
+      "rom_offset": "0x39F8A3",
+      "original_english": "No, I{RAW:8166}m scared!{WAIT}",
+      "vietnamese_translation": "Không, mình sợ lắm!{WAIT}",
+      "context": "script_string_unclassified",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{RAW:8166}",
+        "{WAIT}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "4e6f2c204981666d207363617265642105",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 21,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3797692,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; popuri_text.py validates constructor/CODE/literal, apostrophe glyph and OnCall39 choice arguments"
+    },
+    {
+      "id": "script.0993.038",
+      "rom_address": "0x0839FD83",
+      "rom_offset": "0x39FD83",
+      "original_english": "Sounds like fun.",
+      "vietnamese_translation": "Nghe vui đấy!",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "536f756e6473206c696b652066756e2e",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 38,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3797760,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; popuri_text.py validates constructor/CODE/literal, apostrophe glyph and OnCall39 choice arguments"
+    },
+    {
+      "id": "script.0993.039",
+      "rom_address": "0x0839FD94",
+      "rom_offset": "0x39FD94",
+      "original_english": "Sorry, I have other plans.",
+      "vietnamese_translation": "Xin lỗi, mình có hẹn.",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [],
+      "translation_status": "translated",
+      "original_bytes": "536f7272792c20492068617665206f7468657220706c616e732e",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 39,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3797764,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; popuri_text.py validates constructor/CODE/literal, apostrophe glyph and OnCall39 choice arguments"
+    },
+    {
+      "id": "script.0993.092",
+      "rom_address": "0x083A0978",
+      "rom_offset": "0x3A0978",
+      "original_english": "I{RAW:8166}m working very hard{CR}{LF}for you, {VAR:29}!{WAIT}",
+      "vietnamese_translation": "Em đang làm việc chăm chỉ{CR}{LF}vì anh đấy, {VAR:29}!{WAIT}",
+      "context": "script_string_unclassified",
+      "speaker": "Popuri",
+      "control_codes": [
+        "{RAW:8166}",
+        "{CR}",
+        "{LF}",
+        "{VAR:29}",
+        "{WAIT}"
+      ],
+      "translation_status": "translated",
+      "original_bytes": "4981666d20776f726b696e67207665727920686172640d0a666f7220796f752c20ff292105",
+      "source": {
+        "kind": "script",
+        "script_id": 993,
+        "string_index": 92,
+        "script_offset": 3775820,
+        "script_pointer_offset": 1022296,
+        "relative_offset_slot": 3797976,
+        "pool_offset": 3798184,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required",
+      "context_evidence": "docs/POPURI_LOCALIZATION.md; popuri_text.py validates constructor/CODE/literal, apostrophe glyph and OnCall39 choice arguments"
     }
   ]
 }

@@ -28,8 +28,8 @@ def test_only_verified_npc_scopes_are_classified_and_translated(base):
         assert translated['original_english']==row['original_english']
         assert row['source']['npc_context']['show_text_code_offsets']
         check_translation(row['original_english'],translated['vietnamese_translation'],28)
-    assert catalog['script.0993.092']['context']=='script_string_unclassified'
-    assert catalog['script.0993.001']['context']=='script_string_unclassified'
+    assert catalog['script.0993.092']['context']=='popuri_standard_dialogue'
+    assert catalog['script.0993.001']['context']=='popuri_standard_dialogue'
     assert catalog['script.0993.000']['speaker']=='Popuri'
 
 def test_thomas_three_friendship_bands_and_repeat_dialogue(base):
@@ -55,4 +55,4 @@ def test_npc_pronoun_scopes_do_not_leak_to_spouse_dialogue(base):
         match=[p for p in profiles if proof['id'] in p['source_ids']]
         assert len(match)==1
         assert (match[0]['self'],match[0]['player'])==(('bác','cháu') if proof['speaker']=='Thomas' else ('mình','bạn'))
-    assert not any('script.0993.092' in p['source_ids'] for p in profiles)
+    assert any('script.0993.092' in p['source_ids'] for p in profiles)

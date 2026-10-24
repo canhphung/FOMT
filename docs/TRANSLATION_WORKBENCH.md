@@ -116,3 +116,5 @@ Lô `signs-01` được lưu trong `localization/vi/signs.json`. Riêng 497.000 
 507.000 được giảm số RAW:8140 theo contract nguồn để căn lề; bảng vẫn hiển
 thị đầy đủ token gốc/đích. Mọi mũi tên, biến và control khác phải khớp,
 các bản ghi còn lại không có ngoại lệ này. Xem docs/SIGN_LOCALIZATION.md.
+
+Popuri 005/021/092 được bỏ dấu nháy RAW:8166 theo contract nguồn; token còn lại giữ nguyên. Hai lựa chọn 038/039 kiểm tối đa 26 byte, không chỉ số glyph.
