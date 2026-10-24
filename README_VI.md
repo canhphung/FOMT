@@ -6,6 +6,8 @@ Không chứa hoặc tự tải ROM thương mại. Bản vá IPS nằm trong `p
 
 ## Trạng thái hiện tại
 
+[Bổ sung tương tác nông trại](docs/FARM_INTERACTIONS.md): đá/gốc cây, máng nước, kho thức ăn, bảng lượng thức ăn bị sót và ổ ấp; 23 chuỗi mới.
+
 Giờ trên biển hiện dùng dạng **9h - 17h**; [kiểm chứng bản giờ mới](docs/evidence/sign-hours-validation.json).
 
 [Biển chỉ dẫn/thông báo](docs/SIGN_LOCALIZATION.md): 45 nội dung biển và 3 lựa chọn liên quan, gồm Chỗ lấy nước, giờ cửa hàng, nội quy bãi biển và bảng lễ hội.
@@ -20,8 +22,8 @@ Lô [vật phẩm/UI](docs/ITEM_LOCALIZATION.md) hoàn tất nháp; duyệt ngh�
 
 - Trích xuất 9.309 bản ghi: 8.368 chuỗi SCR, 347 tên + 347 mô tả vật phẩm,
   7 nhãn menu tạm dừng, 24 mục tạo game mới, 28 mục hồi tưởng thời thơ ấu, 162 mục trong các menu con START và 26 chuỗi native cửa hàng/vật phẩm.
-- 1.456 bản ghi dịch nháp: 347 tên vật phẩm, 347 mô tả, 26 chuỗi UI native, 7 menu, 1 lời chào Popuri,
-  24 mục tạo game mới, 145 mục intro/hướng dẫn đầu game, 162 mục menu START, 85 câu NPC, 261 nhãn đồ vật, 3 hướng dẫn tương tác và 48 mục biển/thông báo.
+- 1.479 bản ghi dịch nháp: 347 tên vật phẩm, 347 mô tả, 26 chuỗi UI native, 7 menu, 1 lời chào Popuri,
+  24 mục tạo game mới, 145 mục intro/hướng dẫn đầu game, 162 mục menu START, 85 câu NPC, 261 nhãn đồ vật, 3 hướng dẫn tương tác và 48 mục biển/thông báo và 23 tương tác nông trại.
 - Lịch/HUD tiếng Việt: Năm, Xuân/Hè/Thu/Đông, CN/T2…T7 và đồng hồ 24 giờ.
   Tiêu đề lịch đã căn khoảng cách và thu nhỏ riêng số năm; HUD giữ vị trí đồng hồ,
   icon và màu gốc. [Ảnh hiện tại](docs/evidence/date-ui.png),

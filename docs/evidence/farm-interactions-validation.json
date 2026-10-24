@@ -1,0 +1,692 @@
+{
+  "revision": "farm-interactions-01",
+  "status": "passed",
+  "target_sha256": "795d71a987886f7c4abf9a8447988766e1ef9a5e578aee65ae1808e63950c77f",
+  "patch_sha256": "34ebb20942d8332c1364100c8c5aca0a5d9f7a90576a9ce09cb1a4fcf5cea8a2",
+  "new_records": 23,
+  "total_drafts": 1479,
+  "pytest": {
+    "passed": 145,
+    "failed": 0
+  },
+  "emulators": {
+    "0.10.5": {
+      "status": "passed",
+      "target_sha256": "795d71a987886f7c4abf9a8447988766e1ef9a5e578aee65ae1808e63950c77f",
+      "sign_records": 23,
+      "native_widget_cases": 23,
+      "choice_labels_renderer_only": 0,
+      "guarded_renderer_lines": 61,
+      "native_waits_verified": 26,
+      "source_scripts_CODE_JUMP_unchanged": 17,
+      "untranslated_strings_byte_identical": 1,
+      "original_RAW_glyphs_unchanged": [
+        {
+          "code": "8140",
+          "advance_pixels": 16,
+          "foreground_pixels": 0,
+          "staging_sha256": "38723a2e5e8a17aa7950dc008209944e898f69a7bd10a23c839d341e935fd5ca"
+        }
+      ],
+      "cases": [
+        {
+          "id": "script.0098.000",
+          "wait_offsets_verified": [
+            13
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0098.000-wait-1.png"
+          ]
+        },
+        {
+          "id": "script.0098.001",
+          "wait_offsets_verified": [
+            46
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0098.001-wait-1.png"
+          ]
+        },
+        {
+          "id": "script.0098.002",
+          "wait_offsets_verified": [
+            46,
+            101
+          ],
+          "exact_foreground_cache_rotations": [
+            0,
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0098.002-wait-1.png",
+            "script.0098.002-wait-2.png"
+          ]
+        },
+        {
+          "id": "script.0154.000",
+          "wait_offsets_verified": [
+            52
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0154.000-wait-1.png"
+          ]
+        },
+        {
+          "id": "script.0156.001",
+          "wait_offsets_verified": [
+            32
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0156.001-wait-1.png"
+          ]
+        },
+        {
+          "id": "script.0217.000",
+          "wait_offsets_verified": [
+            53
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0217.000-wait-1.png"
+          ]
+        },
+        {
+          "id": "script.0458.000",
+          "wait_offsets_verified": [
+            55
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0458.000-wait-1.png"
+          ]
+        },
+        {
+          "id": "script.0459.000",
+          "wait_offsets_verified": [
+            87
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0459.000-wait-1.png"
+          ]
+        },
+        {
+          "id": "script.0460.000",
+          "wait_offsets_verified": [
+            87
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0460.000-wait-1.png"
+          ]
+        },
+        {
+          "id": "script.0463.000",
+          "wait_offsets_verified": [
+            52
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0463.000-wait-1.png"
+          ]
+        },
+        {
+          "id": "script.0220.000",
+          "wait_offsets_verified": [
+            67
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0220.000-wait-1.png"
+          ]
+        },
+        {
+          "id": "script.0969.000",
+          "wait_offsets_verified": [
+            62,
+            93
+          ],
+          "exact_foreground_cache_rotations": [
+            0,
+            2
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0969.000-wait-1.png",
+            "script.0969.000-wait-2.png"
+          ]
+        },
+        {
+          "id": "script.0970.000",
+          "wait_offsets_verified": [
+            63,
+            86
+          ],
+          "exact_foreground_cache_rotations": [
+            0,
+            2
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0970.000-wait-1.png",
+            "script.0970.000-wait-2.png"
+          ]
+        },
+        {
+          "id": "script.0971.000",
+          "wait_offsets_verified": [
+            73
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0971.000-wait-1.png"
+          ]
+        },
+        {
+          "id": "script.0972.000",
+          "wait_offsets_verified": [
+            68
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0972.000-wait-1.png"
+          ]
+        },
+        {
+          "id": "script.0218.000",
+          "wait_offsets_verified": [
+            51
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0218.000-wait-1.png"
+          ]
+        },
+        {
+          "id": "script.0218.001",
+          "wait_offsets_verified": [
+            65
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0218.001-wait-1.png"
+          ]
+        },
+        {
+          "id": "script.0218.002",
+          "wait_offsets_verified": [
+            48
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0218.002-wait-1.png"
+          ]
+        },
+        {
+          "id": "script.0219.000",
+          "wait_offsets_verified": [
+            51
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0219.000-wait-1.png"
+          ]
+        },
+        {
+          "id": "script.0219.001",
+          "wait_offsets_verified": [
+            65
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0219.001-wait-1.png"
+          ]
+        },
+        {
+          "id": "script.0219.002",
+          "wait_offsets_verified": [
+            48
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0219.002-wait-1.png"
+          ]
+        },
+        {
+          "id": "script.0221.000",
+          "wait_offsets_verified": [
+            58
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": true,
+          "screenshots": [
+            "script.0221.000-wait-1.png"
+          ]
+        },
+        {
+          "id": "script.0461.000",
+          "wait_offsets_verified": [
+            61
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": true,
+          "screenshots": [
+            "script.0461.000-wait-1.png"
+          ]
+        }
+      ],
+      "sram_unchanged": true,
+      "emulator_error_count": 0,
+      "limitations": [
+        "Native UI fixtures, not natural object encounters.",
+        "Two counter rows substitute twelve digits for layout only; ROM VAR preserved.",
+        "Manual language/layout review and other unclassified interactions remain pending."
+      ]
+    },
+    "dev": {
+      "status": "passed",
+      "target_sha256": "795d71a987886f7c4abf9a8447988766e1ef9a5e578aee65ae1808e63950c77f",
+      "sign_records": 23,
+      "native_widget_cases": 23,
+      "choice_labels_renderer_only": 0,
+      "guarded_renderer_lines": 61,
+      "native_waits_verified": 26,
+      "source_scripts_CODE_JUMP_unchanged": 17,
+      "untranslated_strings_byte_identical": 1,
+      "original_RAW_glyphs_unchanged": [
+        {
+          "code": "8140",
+          "advance_pixels": 16,
+          "foreground_pixels": 0,
+          "staging_sha256": "38723a2e5e8a17aa7950dc008209944e898f69a7bd10a23c839d341e935fd5ca"
+        }
+      ],
+      "cases": [
+        {
+          "id": "script.0098.000",
+          "wait_offsets_verified": [
+            13
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0098.000-wait-1.png"
+          ]
+        },
+        {
+          "id": "script.0098.001",
+          "wait_offsets_verified": [
+            46
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0098.001-wait-1.png"
+          ]
+        },
+        {
+          "id": "script.0098.002",
+          "wait_offsets_verified": [
+            46,
+            101
+          ],
+          "exact_foreground_cache_rotations": [
+            0,
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0098.002-wait-1.png",
+            "script.0098.002-wait-2.png"
+          ]
+        },
+        {
+          "id": "script.0154.000",
+          "wait_offsets_verified": [
+            52
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0154.000-wait-1.png"
+          ]
+        },
+        {
+          "id": "script.0156.001",
+          "wait_offsets_verified": [
+            32
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0156.001-wait-1.png"
+          ]
+        },
+        {
+          "id": "script.0217.000",
+          "wait_offsets_verified": [
+            53
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0217.000-wait-1.png"
+          ]
+        },
+        {
+          "id": "script.0458.000",
+          "wait_offsets_verified": [
+            55
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0458.000-wait-1.png"
+          ]
+        },
+        {
+          "id": "script.0459.000",
+          "wait_offsets_verified": [
+            87
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0459.000-wait-1.png"
+          ]
+        },
+        {
+          "id": "script.0460.000",
+          "wait_offsets_verified": [
+            87
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0460.000-wait-1.png"
+          ]
+        },
+        {
+          "id": "script.0463.000",
+          "wait_offsets_verified": [
+            52
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0463.000-wait-1.png"
+          ]
+        },
+        {
+          "id": "script.0220.000",
+          "wait_offsets_verified": [
+            67
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0220.000-wait-1.png"
+          ]
+        },
+        {
+          "id": "script.0969.000",
+          "wait_offsets_verified": [
+            62,
+            93
+          ],
+          "exact_foreground_cache_rotations": [
+            0,
+            2
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0969.000-wait-1.png",
+            "script.0969.000-wait-2.png"
+          ]
+        },
+        {
+          "id": "script.0970.000",
+          "wait_offsets_verified": [
+            63,
+            86
+          ],
+          "exact_foreground_cache_rotations": [
+            0,
+            2
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0970.000-wait-1.png",
+            "script.0970.000-wait-2.png"
+          ]
+        },
+        {
+          "id": "script.0971.000",
+          "wait_offsets_verified": [
+            73
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0971.000-wait-1.png"
+          ]
+        },
+        {
+          "id": "script.0972.000",
+          "wait_offsets_verified": [
+            68
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0972.000-wait-1.png"
+          ]
+        },
+        {
+          "id": "script.0218.000",
+          "wait_offsets_verified": [
+            51
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0218.000-wait-1.png"
+          ]
+        },
+        {
+          "id": "script.0218.001",
+          "wait_offsets_verified": [
+            65
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0218.001-wait-1.png"
+          ]
+        },
+        {
+          "id": "script.0218.002",
+          "wait_offsets_verified": [
+            48
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0218.002-wait-1.png"
+          ]
+        },
+        {
+          "id": "script.0219.000",
+          "wait_offsets_verified": [
+            51
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0219.000-wait-1.png"
+          ]
+        },
+        {
+          "id": "script.0219.001",
+          "wait_offsets_verified": [
+            65
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0219.001-wait-1.png"
+          ]
+        },
+        {
+          "id": "script.0219.002",
+          "wait_offsets_verified": [
+            48
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": false,
+          "screenshots": [
+            "script.0219.002-wait-1.png"
+          ]
+        },
+        {
+          "id": "script.0221.000",
+          "wait_offsets_verified": [
+            58
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": true,
+          "screenshots": [
+            "script.0221.000-wait-1.png"
+          ]
+        },
+        {
+          "id": "script.0461.000",
+          "wait_offsets_verified": [
+            61
+          ],
+          "exact_foreground_cache_rotations": [
+            0
+          ],
+          "dynamic_12_cell_standin": true,
+          "screenshots": [
+            "script.0461.000-wait-1.png"
+          ]
+        }
+      ],
+      "sram_unchanged": true,
+      "emulator_error_count": 0,
+      "limitations": [
+        "Native UI fixtures, not natural object encounters.",
+        "Two counter rows substitute twelve digits for layout only; ROM VAR preserved.",
+        "Manual language/layout review and other unclassified interactions remain pending."
+      ]
+    }
+  },
+  "limitations": [
+    "Native UI fixtures; no natural encounter certification.",
+    "Counters use twelve-digit stand-ins, original VAR remains in ROM.",
+    "Prior platform/golden evidence belongs to earlier ROM hashes."
+  ],
+  "release_ips_round_trip": true
+}

@@ -45,7 +45,7 @@ def test_sign_build_keeps_all_code_and_unselected_event_strings(base):
     from text_inserter import build
     rows=[r for p in DEFAULT_TRANSLATIONS for r in json.loads(p.read_text())['records']]
     vi={r['id']:r for r in rows};target,report=build(base,{'rom_sha1':ROM_SHA1,'records':rows})
-    assert report['translated_records']==1456
+    assert report['translated_records']==1479
     for sid in {r['script_id'] for r in sign_text.verify(base)['source_proofs']}:
         a=parse_script(base,u32(base,SCRIPT_TABLE+sid*4)-ROM_BASE)
         b=parse_script(target,u32(target,SCRIPT_TABLE+sid*4)-ROM_BASE)

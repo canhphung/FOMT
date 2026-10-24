@@ -63,8 +63,8 @@ def assert_cache(actual,expected):
     raise AssertionError(('sign cache foreground mismatch',len(actual),[len(r) for r in expected], 'missing',sorted(combined-actual)[:24], 'extra',sorted(actual-combined)[:24]))
 
 
-def run(args):
-    base=verified_rom(args.base_rom);target=args.rom.read_bytes();contract=verify(base)
+def run(args, verifier=verify, capture_ids=None):
+    base=verified_rom(args.base_rom);target=args.rom.read_bytes();contract=verifier(base)
     proofs={r['id']:r for r in contract['source_proofs']}
     translations={r['id']:r for p in DEFAULT_TRANSLATIONS for r in json.loads(p.read_text())['records']}
     rows=[translations[i] for i in contract['record_ids']]
@@ -127,13 +127,13 @@ def run(args):
                 try:rotations.append(assert_cache(cache_pixels(session,root),wanted))
                 except AssertionError:
                     session.screenshot(out/('failure-'+row['id']+f'-{n}.png'));raise
-                if row['id'] in ('script.0161.000','script.0163.000','script.0403.013','script.0492.000','script.0496.000','script.0497.000','script.0505.000','script.0507.000'):
+                if row['id'] in (capture_ids or ('script.0161.000','script.0163.000','script.0403.013','script.0492.000','script.0496.000','script.0497.000','script.0505.000','script.0507.000')):
                     name=row['id']+f'-wait-{n+1}.png';session.screenshot(out/name);captures.append(name)
                 if n+1<len(offsets):session.press(1,settle=1)
             cases.append({'id':row['id'],'wait_offsets_verified':offsets,'exact_foreground_cache_rotations':rotations,'dynamic_12_cell_standin':dynamic,'screenshots':captures})
         assert session.sram()==sram and session.lib.session_errors()==0 and original.lib.session_errors()==0
         return {'status':'passed','target_sha256':hashlib.sha256(target).hexdigest(),'sign_records':len(rows),'native_widget_cases':len(cases),
-            'choice_labels_renderer_only':3,'guarded_renderer_lines':renderer,'native_waits_verified':sum(len(c['wait_offsets_verified']) for c in cases),
+            'choice_labels_renderer_only':sum(r['kind']=='frisbee_choice' for r in proofs.values()),'guarded_renderer_lines':renderer,'native_waits_verified':sum(len(c['wait_offsets_verified']) for c in cases),
             'source_scripts_CODE_JUMP_unchanged':len({r['script_id'] for r in proofs.values()}),'untranslated_strings_byte_identical':untouched,
             'original_RAW_glyphs_unchanged':glyphs,'cases':cases,'sram_unchanged':True,'emulator_error_count':0,
             'limitations':['Native UI fixtures hosted in the house, not natural encounters with every sign.',

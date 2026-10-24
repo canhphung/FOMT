@@ -68,3 +68,5 @@ Giữ ảnh cần giải thích thiết kế hiện hành và ảnh fixture đư
 `signs-validation.json` và `signs/`: RAW glyph gốc, bitmap native tại 73 WAIT, source contracts và ảnh fixture của lô biển; không phải bằng chứng đi tới mọi biển bằng gameplay.
 
 `sign-hours-validation.json` và `sign-hours/`: kiểm thử tập trung sau khi đổi giờ biển sang `9h - 17h`; báo cáo platform trước đó giữ hash lịch sử riêng.
+
+farm-interactions-validation.json và farm-interactions/: kiểm native fixture cho 23 tương tác nông trại, không phải encounter tự nhiên.

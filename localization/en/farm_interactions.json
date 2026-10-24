@@ -1,0 +1,704 @@
+{
+  "schema_version": 1,
+  "rom_sha1": "a2fc3574f0a65a4fcf7682fb274b9d7eebdef963",
+  "records": [
+    {
+      "id": "script.0098.000",
+      "rom_address": "0x082C563C",
+      "rom_offset": "0x2C563C",
+      "original_english": "Water Tank{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "57617465722054616e6b05",
+      "source": {
+        "kind": "script",
+        "script_id": 98,
+        "string_index": 0,
+        "script_offset": 2905408,
+        "script_pointer_offset": 1018716,
+        "relative_offset_slot": 2905648,
+        "pool_offset": 2905660,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0098.001",
+      "rom_address": "0x082C5648",
+      "rom_offset": "0x2C5648",
+      "original_english": "Inside the water tank is{CR}{LF}a Jewel of Truth.{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "496e73696465207468652077617465722074616e6b2069730d0a61204a6577656c206f662054727574682e05",
+      "source": {
+        "kind": "script",
+        "script_id": 98,
+        "string_index": 1,
+        "script_offset": 2905408,
+        "script_pointer_offset": 1018716,
+        "relative_offset_slot": 2905652,
+        "pool_offset": 2905660,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0098.002",
+      "rom_address": "0x082C5675",
+      "rom_offset": "0x2C5675",
+      "original_english": "Inside the water tank is{CR}{LF}a Jewel of Truth.{WAIT}{PAGE}...But, your hands are full,{CR}{LF}so you can't hold it.{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{PAGE}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "496e73696465207468652077617465722074616e6b2069730d0a61204a6577656c206f662054727574682e050c2e2e2e4275742c20796f75722068616e6473206172652066756c6c2c0d0a736f20796f752063616e277420686f6c642069742e05",
+      "source": {
+        "kind": "script",
+        "script_id": 98,
+        "string_index": 2,
+        "script_offset": 2905408,
+        "script_pointer_offset": 1018716,
+        "relative_offset_slot": 2905656,
+        "pool_offset": 2905660,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0154.000",
+      "rom_address": "0x082CBAB8",
+      "rom_offset": "0x2CBAB8",
+      "original_english": "Bee Nest{CR}{LF}Check everyday to {CR}{LF}find some honey.{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "426565204e6573740d0a436865636b20657665727964617920746f200d0a66696e6420736f6d6520686f6e65792e05",
+      "source": {
+        "kind": "script",
+        "script_id": 154,
+        "string_index": 0,
+        "script_offset": 2931280,
+        "script_pointer_offset": 1018940,
+        "relative_offset_slot": 2931380,
+        "pool_offset": 2931384,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0156.001",
+      "rom_address": "0x082CBDB1",
+      "rom_offset": "0x2CBDB1",
+      "original_english": "There's no Lumber{CR}{LF}in the Woodbin.{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "54686572652773206e6f204c756d6265720d0a696e2074686520576f6f6462696e2e05",
+      "source": {
+        "kind": "script",
+        "script_id": 156,
+        "string_index": 1,
+        "script_offset": 2931840,
+        "script_pointer_offset": 1018948,
+        "relative_offset_slot": 2932132,
+        "pool_offset": 2932136,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0217.000",
+      "rom_address": "0x082D1B38",
+      "rom_offset": "0x2D1B38",
+      "original_english": "There's no Fodder at{CR}{LF}all in the Chicken Fodder{CR}{LF}storage.{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "54686572652773206e6f20466f646465722061740d0a616c6c20696e2074686520436869636b656e20466f646465720d0a73746f726167652e05",
+      "source": {
+        "kind": "script",
+        "script_id": 217,
+        "string_index": 0,
+        "script_offset": 2955880,
+        "script_pointer_offset": 1019192,
+        "relative_offset_slot": 2956084,
+        "pool_offset": 2956088,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0458.000",
+      "rom_address": "0x082F4520",
+      "rom_offset": "0x2F4520",
+      "original_english": "There is no Chicken Feed{CR}{LF}in the Feed Bin.{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "5468657265206973206e6f20436869636b656e20466565640d0a696e2074686520466565642042696e2e05",
+      "source": {
+        "kind": "script",
+        "script_id": 458,
+        "string_index": 0,
+        "script_offset": 3097680,
+        "script_pointer_offset": 1020156,
+        "relative_offset_slot": 3097884,
+        "pool_offset": 3097888,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0459.000",
+      "rom_address": "0x082F45F8",
+      "rom_offset": "0x2F45F8",
+      "original_english": "Pregnant animal Feed Box{CR}{LF}Put Feed for pregnant{CR}{LF}animals here.{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "507265676e616e7420616e696d616c204665656420426f780d0a507574204665656420666f7220707265676e616e740d0a616e696d616c7320686572652e05",
+      "source": {
+        "kind": "script",
+        "script_id": 459,
+        "string_index": 0,
+        "script_offset": 3097932,
+        "script_pointer_offset": 1020160,
+        "relative_offset_slot": 3098100,
+        "pool_offset": 3098104,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0460.000",
+      "rom_address": "0x082F46E4",
+      "rom_offset": "0x2F46E4",
+      "original_english": "Pregnant animal Feed Box{CR}{LF}Put Feed for pregnant{CR}{LF}animals here.{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "507265676e616e7420616e696d616c204665656420426f780d0a507574204665656420666f7220707265676e616e740d0a616e696d616c7320686572652e05",
+      "source": {
+        "kind": "script",
+        "script_id": 460,
+        "string_index": 0,
+        "script_offset": 3098168,
+        "script_pointer_offset": 1020164,
+        "relative_offset_slot": 3098336,
+        "pool_offset": 3098340,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0463.000",
+      "rom_address": "0x082F49A8",
+      "rom_offset": "0x2F49A8",
+      "original_english": "Yarn Maker{CR}{LF}Place Wool in here to {CR}{LF}make Yarn.{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "5961726e204d616b65720d0a506c61636520576f6f6c20696e206865726520746f200d0a6d616b65205961726e2e05",
+      "source": {
+        "kind": "script",
+        "script_id": 463,
+        "string_index": 0,
+        "script_offset": 3098656,
+        "script_pointer_offset": 1020176,
+        "relative_offset_slot": 3099044,
+        "pool_offset": 3099048,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0220.000",
+      "rom_address": "0x082D21B0",
+      "rom_offset": "0x2D21B0",
+      "original_english": "Mayonnaise Maker{CR}{LF}Place Eggs here to{CR}{LF}make Mayonnaise.{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "4d61796f6e6e61697365204d616b65720d0a506c6163652045676773206865726520746f0d0a6d616b65204d61796f6e6e616973652e05",
+      "source": {
+        "kind": "script",
+        "script_id": 220,
+        "string_index": 0,
+        "script_offset": 2957352,
+        "script_pointer_offset": 1019204,
+        "relative_offset_slot": 2957740,
+        "pool_offset": 2957744,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0969.000",
+      "rom_address": "0x0838AA20",
+      "rom_offset": "0x38AA20",
+      "original_english": "Huge Stone{CR}{LF}Your Hammer is LV5,{CR}{LF}but it can't crush{WAIT}{CR}{LF}this Sone.{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "487567652053746f6e650d0a596f75722048616d6d6572206973204c56352c0d0a6275742069742063616e2774206372757368050d0a7468697320536f6e652e05",
+      "source": {
+        "kind": "script",
+        "script_id": 969,
+        "string_index": 0,
+        "script_offset": 3713508,
+        "script_pointer_offset": 1022200,
+        "relative_offset_slot": 3713564,
+        "pool_offset": 3713568,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0970.000",
+      "rom_address": "0x0838AAA0",
+      "rom_offset": "0x38AAA0",
+      "original_english": "Large Stone{CR}{LF}Your Hammer can't crush{CR}{LF}it unless it's LV2{WAIT}{CR}{LF}or higher.{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "4c617267652053746f6e650d0a596f75722048616d6d65722063616e27742063727573680d0a697420756e6c6573732069742773204c5632050d0a6f72206869676865722e05",
+      "source": {
+        "kind": "script",
+        "script_id": 970,
+        "string_index": 0,
+        "script_offset": 3713636,
+        "script_pointer_offset": 1022204,
+        "relative_offset_slot": 3713692,
+        "pool_offset": 3713696,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0971.000",
+      "rom_address": "0x0838AB24",
+      "rom_offset": "0x38AB24",
+      "original_english": "Your Hammer can't crush{CR}{LF}this Stone unless it's{CR}{LF}LV3 or higher.{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "596f75722048616d6d65722063616e27742063727573680d0a746869732053746f6e6520756e6c65737320697427730d0a4c5633206f72206869676865722e05",
+      "source": {
+        "kind": "script",
+        "script_id": 971,
+        "string_index": 0,
+        "script_offset": 3713768,
+        "script_pointer_offset": 1022208,
+        "relative_offset_slot": 3713824,
+        "pool_offset": 3713828,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0972.000",
+      "rom_address": "0x0838ABA4",
+      "rom_offset": "0x38ABA4",
+      "original_english": "Your Axe can't{CR}{LF}cut this stump unless it's{CR}{LF}LV2 or higher.{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "596f7572204178652063616e27740d0a6375742074686973207374756d7020756e6c65737320697427730d0a4c5632206f72206869676865722e05",
+      "source": {
+        "kind": "script",
+        "script_id": 972,
+        "string_index": 0,
+        "script_offset": 3713896,
+        "script_pointer_offset": 1022212,
+        "relative_offset_slot": 3713952,
+        "pool_offset": 3713956,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0218.000",
+      "rom_address": "0x082D1D40",
+      "rom_offset": "0x2D1D40",
+      "original_english": "There are already eggs here.{CR}{LF}Hope they hatch soon...{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "54686572652061726520616c7265616479206567677320686572652e0d0a486f7065207468657920686174636820736f6f6e2e2e2e05",
+      "source": {
+        "kind": "script",
+        "script_id": 218,
+        "string_index": 0,
+        "script_offset": 2956148,
+        "script_pointer_offset": 1019196,
+        "relative_offset_slot": 2956596,
+        "pool_offset": 2956608,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0218.001",
+      "rom_address": "0x082D1D77",
+      "rom_offset": "0x2D1D77",
+      "original_english": "Incubator{CR}{LF}If you place eggs in here,{CR}{LF}they'll hatch in a few days.{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "496e63756261746f720d0a496620796f7520706c616365206567677320696e20686572652c0d0a74686579276c6c20686174636820696e20612066657720646179732e05",
+      "source": {
+        "kind": "script",
+        "script_id": 218,
+        "string_index": 1,
+        "script_offset": 2956148,
+        "script_pointer_offset": 1019196,
+        "relative_offset_slot": 2956600,
+        "pool_offset": 2956608,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0218.002",
+      "rom_address": "0x082D1DBC",
+      "rom_offset": "0x2D1DBC",
+      "original_english": "It's already full, so you {CR}{LF}can't incubate any more.{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "4974277320616c72656164792066756c6c2c20736f20796f75200d0a63616e277420696e63756261746520616e79206d6f72652e05",
+      "source": {
+        "kind": "script",
+        "script_id": 218,
+        "string_index": 2,
+        "script_offset": 2956148,
+        "script_pointer_offset": 1019196,
+        "relative_offset_slot": 2956604,
+        "pool_offset": 2956608,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0219.000",
+      "rom_address": "0x082D1F74",
+      "rom_offset": "0x2D1F74",
+      "original_english": "There are already eggs here.{CR}{LF}Hope they hatch soon...{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "54686572652061726520616c7265616479206567677320686572652e0d0a486f7065207468657920686174636820736f6f6e2e2e2e05",
+      "source": {
+        "kind": "script",
+        "script_id": 219,
+        "string_index": 0,
+        "script_offset": 2956788,
+        "script_pointer_offset": 1019200,
+        "relative_offset_slot": 2957160,
+        "pool_offset": 2957172,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0219.001",
+      "rom_address": "0x082D1FAB",
+      "rom_offset": "0x2D1FAB",
+      "original_english": "Incubator{CR}{LF}If you place eggs in here,{CR}{LF}they'll hatch in a few days.{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "496e63756261746f720d0a496620796f7520706c616365206567677320696e20686572652c0d0a74686579276c6c20686174636820696e20612066657720646179732e05",
+      "source": {
+        "kind": "script",
+        "script_id": 219,
+        "string_index": 1,
+        "script_offset": 2956788,
+        "script_pointer_offset": 1019200,
+        "relative_offset_slot": 2957164,
+        "pool_offset": 2957172,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0219.002",
+      "rom_address": "0x082D1FF0",
+      "rom_offset": "0x2D1FF0",
+      "original_english": "It's already full, so you {CR}{LF}can't incubate any more.{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "4974277320616c72656164792066756c6c2c20736f20796f75200d0a63616e277420696e63756261746520616e79206d6f72652e05",
+      "source": {
+        "kind": "script",
+        "script_id": 219,
+        "string_index": 2,
+        "script_offset": 2956788,
+        "script_pointer_offset": 1019200,
+        "relative_offset_slot": 2957168,
+        "pool_offset": 2957172,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0221.000",
+      "rom_address": "0x082D2234",
+      "rom_offset": "0x2D2234",
+      "original_english": "Amount of Chicken Feed{CR}{LF}{RAW:8140}{CR}{LF}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{VAR:25}bushels{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{RAW:8140}",
+        "{CR}",
+        "{LF}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{VAR:25}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "416d6f756e74206f6620436869636b656e20466565640d0a81400d0a8140814081408140814081408140ff2562757368656c7305",
+      "source": {
+        "kind": "script",
+        "script_id": 221,
+        "string_index": 0,
+        "script_offset": 2957800,
+        "script_pointer_offset": 1019208,
+        "relative_offset_slot": 2957872,
+        "pool_offset": 2957876,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    },
+    {
+      "id": "script.0461.000",
+      "rom_address": "0x082F4770",
+      "rom_offset": "0x2F4770",
+      "original_english": "Amount of Animal Fodder{CR}{LF}{RAW:8140}{CR}{LF}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{VAR:25}bushels{WAIT}",
+      "vietnamese_translation": "",
+      "context": "script_string_unclassified",
+      "speaker": null,
+      "control_codes": [
+        "{CR}",
+        "{LF}",
+        "{RAW:8140}",
+        "{CR}",
+        "{LF}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{RAW:8140}",
+        "{VAR:25}",
+        "{WAIT}"
+      ],
+      "translation_status": "untranslated",
+      "original_bytes": "416d6f756e74206f6620416e696d616c20466f646465720d0a81400d0a8140814081408140814081408140ff2562757368656c7305",
+      "source": {
+        "kind": "script",
+        "script_id": 461,
+        "string_index": 0,
+        "script_offset": 3098404,
+        "script_pointer_offset": 1020168,
+        "relative_offset_slot": 3098476,
+        "pool_offset": 3098480,
+        "reference": "src/script_engine.cc AScriptEngine::Load/GetString; ScriptEngine::LoadById"
+      },
+      "max_columns": 28,
+      "layout_budget": "conservative; runtime review required"
+    }
+  ]
+}

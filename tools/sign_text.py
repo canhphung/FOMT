@@ -9,10 +9,10 @@ from object_text import HANDLERS, verify as verify_handlers
 CONTRACT = Path(__file__).resolve().parents[1]/'localization/signs.json'
 
 
-def verify(base):
+def verify(base, contract_path=None):
     base = bytes(base)
     verify_handlers(base)
-    data = json.loads(CONTRACT.read_text())
+    data = json.loads((contract_path or CONTRACT).read_text())
     if data['schema_version'] != 1 or data['record_ids'] != [r['id'] for r in data['source_proofs']] or len(set(data['record_ids'])) != len(data['record_ids']):
         raise FormatError('invalid sign contract')
     scripts = {}

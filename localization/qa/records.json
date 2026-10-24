@@ -22869,6 +22869,397 @@
         "evidence": "docs/evidence/sign-hours-validation.json",
         "target_sha256": "b0eebdeb03126fe73098e45a9731da79ec98d29446883ec961a895558b6b382f"
       }
+    },
+    {
+      "id": "script.0098.000",
+      "source_sha256": "68c9e712c438d98ad7415e62386765a6ee920f7c79b02fd7fee0288dcdd4dae1",
+      "translation_sha256": "f23a82a300d81c0dfdb3b75be4b07ca4f91481875904db9fb082a6715d4d9453",
+      "context_status": "verified",
+      "context_evidence": "docs/FARM_INTERACTIONS.md; source literal/CODE/display sites in localization/farm_interactions.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/farm-interactions-validation.json",
+        "target_sha256": "795d71a987886f7c4abf9a8447988766e1ef9a5e578aee65ae1808e63950c77f"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0098.001",
+      "source_sha256": "0a1605a0f3c3068f16b3e0697c58f2f76b58197c1743702ffc06bc1c4f7b6605",
+      "translation_sha256": "57112486a279e23670a2c14cc5c5c053cb018fbd9e16ccebcef51cd5015274d7",
+      "context_status": "verified",
+      "context_evidence": "docs/FARM_INTERACTIONS.md; source literal/CODE/display sites in localization/farm_interactions.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/farm-interactions-validation.json",
+        "target_sha256": "795d71a987886f7c4abf9a8447988766e1ef9a5e578aee65ae1808e63950c77f"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0098.002",
+      "source_sha256": "336333386830c5ab7fbb70e447ecd57c6afe9d469653d889899486cb5668f9d8",
+      "translation_sha256": "3ebfc6ae3b4cdc636bbed6c4cd02c18dacaa7687f7f62bfaa84b52c748754e6d",
+      "context_status": "verified",
+      "context_evidence": "docs/FARM_INTERACTIONS.md; source literal/CODE/display sites in localization/farm_interactions.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/farm-interactions-validation.json",
+        "target_sha256": "795d71a987886f7c4abf9a8447988766e1ef9a5e578aee65ae1808e63950c77f"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0154.000",
+      "source_sha256": "5ec054bf672ef3d5534048797f2e7e4e8e1cd8803f64b18b08a267b5c2ec7c6a",
+      "translation_sha256": "ea9b861e855636e4b53ee9706e3f97ac304bd9c10f58c265799b38ac9aabb6f9",
+      "context_status": "verified",
+      "context_evidence": "docs/FARM_INTERACTIONS.md; source literal/CODE/display sites in localization/farm_interactions.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/farm-interactions-validation.json",
+        "target_sha256": "795d71a987886f7c4abf9a8447988766e1ef9a5e578aee65ae1808e63950c77f"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0156.001",
+      "source_sha256": "2f9a858aaa1b68a4aa59a5524fe810df67e080621cce29f003867b4017fc644c",
+      "translation_sha256": "7bfb79c29ce89b2ca7a1dd71b48599a91265dc18cf2f183773dee9e4b751460b",
+      "context_status": "verified",
+      "context_evidence": "docs/FARM_INTERACTIONS.md; source literal/CODE/display sites in localization/farm_interactions.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/farm-interactions-validation.json",
+        "target_sha256": "795d71a987886f7c4abf9a8447988766e1ef9a5e578aee65ae1808e63950c77f"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0217.000",
+      "source_sha256": "acad9b67fca46acd4e2bcb91517b0909a3f4fed334e3332b4566fafbffd85fcf",
+      "translation_sha256": "c351455d60eec43f89725bf4997453d24450f96394888823019f229a68d0f819",
+      "context_status": "verified",
+      "context_evidence": "docs/FARM_INTERACTIONS.md; source literal/CODE/display sites in localization/farm_interactions.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/farm-interactions-validation.json",
+        "target_sha256": "795d71a987886f7c4abf9a8447988766e1ef9a5e578aee65ae1808e63950c77f"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0458.000",
+      "source_sha256": "a0e25cef407db77316df2642e04d8d2b3e14f851284b70c5bc7c9d74484af6ce",
+      "translation_sha256": "8b43e9e2a9210e5a5e5eecab6314da67dca0b345e9f83986ebad3de76f9866da",
+      "context_status": "verified",
+      "context_evidence": "docs/FARM_INTERACTIONS.md; source literal/CODE/display sites in localization/farm_interactions.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/farm-interactions-validation.json",
+        "target_sha256": "795d71a987886f7c4abf9a8447988766e1ef9a5e578aee65ae1808e63950c77f"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0459.000",
+      "source_sha256": "0adcaa99a0581d7afd8c7177cf53befab7965dc048757e07a57078578c7e3911",
+      "translation_sha256": "0ba08db69686698943600d0b30ebd1a1b2225e05513187209adafcbe7a931fc4",
+      "context_status": "verified",
+      "context_evidence": "docs/FARM_INTERACTIONS.md; source literal/CODE/display sites in localization/farm_interactions.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/farm-interactions-validation.json",
+        "target_sha256": "795d71a987886f7c4abf9a8447988766e1ef9a5e578aee65ae1808e63950c77f"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0460.000",
+      "source_sha256": "0adcaa99a0581d7afd8c7177cf53befab7965dc048757e07a57078578c7e3911",
+      "translation_sha256": "0ba08db69686698943600d0b30ebd1a1b2225e05513187209adafcbe7a931fc4",
+      "context_status": "verified",
+      "context_evidence": "docs/FARM_INTERACTIONS.md; source literal/CODE/display sites in localization/farm_interactions.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/farm-interactions-validation.json",
+        "target_sha256": "795d71a987886f7c4abf9a8447988766e1ef9a5e578aee65ae1808e63950c77f"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0463.000",
+      "source_sha256": "ae826d7c693e88b899b163fe36058bf6f064971e876c7f2ce18258254ce6126c",
+      "translation_sha256": "35db7eb83c00533ad3c59ef429466d0279623ed7d25eec0c205ad0380c061f96",
+      "context_status": "verified",
+      "context_evidence": "docs/FARM_INTERACTIONS.md; source literal/CODE/display sites in localization/farm_interactions.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/farm-interactions-validation.json",
+        "target_sha256": "795d71a987886f7c4abf9a8447988766e1ef9a5e578aee65ae1808e63950c77f"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0220.000",
+      "source_sha256": "371597bf8eee986ef3bd03444a676d53193cb756ac67d8d4fe5b9a17ecded388",
+      "translation_sha256": "2c78c0ce6725fdd42625e0b79bdcb04d9f5a6f9cde84786055b954bfd5f00e1b",
+      "context_status": "verified",
+      "context_evidence": "docs/FARM_INTERACTIONS.md; source literal/CODE/display sites in localization/farm_interactions.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/farm-interactions-validation.json",
+        "target_sha256": "795d71a987886f7c4abf9a8447988766e1ef9a5e578aee65ae1808e63950c77f"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0969.000",
+      "source_sha256": "88bc28da8955470ee89c533e5e9715a8ded914c4889879bac386d94b4857e957",
+      "translation_sha256": "0f36a325e5561f9945d05b14939f9ae4b52ebdaad3bbd0dd5740b7a6d698dec2",
+      "context_status": "verified",
+      "context_evidence": "docs/FARM_INTERACTIONS.md; source literal/CODE/display sites in localization/farm_interactions.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/farm-interactions-validation.json",
+        "target_sha256": "795d71a987886f7c4abf9a8447988766e1ef9a5e578aee65ae1808e63950c77f"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0970.000",
+      "source_sha256": "de6d387906d3e6eb9827781beee32c055b37ed97a9da9469d7ef094e89c4bbb3",
+      "translation_sha256": "b22477277cf3e99eecf76a1763ae9d693bbad660324e64b35e205c3c31df9d1d",
+      "context_status": "verified",
+      "context_evidence": "docs/FARM_INTERACTIONS.md; source literal/CODE/display sites in localization/farm_interactions.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/farm-interactions-validation.json",
+        "target_sha256": "795d71a987886f7c4abf9a8447988766e1ef9a5e578aee65ae1808e63950c77f"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0971.000",
+      "source_sha256": "5356705f8e9e2593bab2f1caa5ebf9c0bfa0237d8fd3804107e89116900b324b",
+      "translation_sha256": "044d301befaee034ec1471ee55973c8fd3b4fdf3a3663e3f3de6af2a16809354",
+      "context_status": "verified",
+      "context_evidence": "docs/FARM_INTERACTIONS.md; source literal/CODE/display sites in localization/farm_interactions.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/farm-interactions-validation.json",
+        "target_sha256": "795d71a987886f7c4abf9a8447988766e1ef9a5e578aee65ae1808e63950c77f"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0972.000",
+      "source_sha256": "a4522aaa42e1df6444427ede2063f5b05f9441f051a620efa8007174f11dc0fa",
+      "translation_sha256": "759a2fd36bd2956da40e79dd80cf278020ab004593c9d1d2fa00f10279b441b6",
+      "context_status": "verified",
+      "context_evidence": "docs/FARM_INTERACTIONS.md; source literal/CODE/display sites in localization/farm_interactions.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/farm-interactions-validation.json",
+        "target_sha256": "795d71a987886f7c4abf9a8447988766e1ef9a5e578aee65ae1808e63950c77f"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0218.000",
+      "source_sha256": "8f262cc00230e3a45df56cbf38fcd291469cd1bd8138e34dbd74ee2f1d715e2d",
+      "translation_sha256": "fa37ed88fc59419b0a5fa59ce45ee175138b0944e5677ec7e8518e80ec07c371",
+      "context_status": "verified",
+      "context_evidence": "docs/FARM_INTERACTIONS.md; source literal/CODE/display sites in localization/farm_interactions.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/farm-interactions-validation.json",
+        "target_sha256": "795d71a987886f7c4abf9a8447988766e1ef9a5e578aee65ae1808e63950c77f"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0218.001",
+      "source_sha256": "3d246be994d2943e2d9e3e27e31e489a96f077167aadaac5cfbd55c03957cdd5",
+      "translation_sha256": "eb9ce222d02c8bf25323702e5936485690c19e3ca999a0fc94108a51f3c29baf",
+      "context_status": "verified",
+      "context_evidence": "docs/FARM_INTERACTIONS.md; source literal/CODE/display sites in localization/farm_interactions.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/farm-interactions-validation.json",
+        "target_sha256": "795d71a987886f7c4abf9a8447988766e1ef9a5e578aee65ae1808e63950c77f"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0218.002",
+      "source_sha256": "6db8bd38707d6dd511aac583d24f5197214dd16f6e4c1745fc4363ea6dde50f7",
+      "translation_sha256": "ec7bf113b513a1e9bb71496c4126b214c6b95fb031076e3374de642288707cfb",
+      "context_status": "verified",
+      "context_evidence": "docs/FARM_INTERACTIONS.md; source literal/CODE/display sites in localization/farm_interactions.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/farm-interactions-validation.json",
+        "target_sha256": "795d71a987886f7c4abf9a8447988766e1ef9a5e578aee65ae1808e63950c77f"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0219.000",
+      "source_sha256": "8f262cc00230e3a45df56cbf38fcd291469cd1bd8138e34dbd74ee2f1d715e2d",
+      "translation_sha256": "fa37ed88fc59419b0a5fa59ce45ee175138b0944e5677ec7e8518e80ec07c371",
+      "context_status": "verified",
+      "context_evidence": "docs/FARM_INTERACTIONS.md; source literal/CODE/display sites in localization/farm_interactions.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/farm-interactions-validation.json",
+        "target_sha256": "795d71a987886f7c4abf9a8447988766e1ef9a5e578aee65ae1808e63950c77f"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0219.001",
+      "source_sha256": "3d246be994d2943e2d9e3e27e31e489a96f077167aadaac5cfbd55c03957cdd5",
+      "translation_sha256": "eb9ce222d02c8bf25323702e5936485690c19e3ca999a0fc94108a51f3c29baf",
+      "context_status": "verified",
+      "context_evidence": "docs/FARM_INTERACTIONS.md; source literal/CODE/display sites in localization/farm_interactions.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/farm-interactions-validation.json",
+        "target_sha256": "795d71a987886f7c4abf9a8447988766e1ef9a5e578aee65ae1808e63950c77f"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0219.002",
+      "source_sha256": "6db8bd38707d6dd511aac583d24f5197214dd16f6e4c1745fc4363ea6dde50f7",
+      "translation_sha256": "ec7bf113b513a1e9bb71496c4126b214c6b95fb031076e3374de642288707cfb",
+      "context_status": "verified",
+      "context_evidence": "docs/FARM_INTERACTIONS.md; source literal/CODE/display sites in localization/farm_interactions.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/farm-interactions-validation.json",
+        "target_sha256": "795d71a987886f7c4abf9a8447988766e1ef9a5e578aee65ae1808e63950c77f"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0221.000",
+      "source_sha256": "6ceea377c4a06a172d6c11b0ad9205213ca857815cd2665e32d2787276ce7626",
+      "translation_sha256": "38f7bc874edd3b114f7f70a267ea470c5d156bbabb8ef56c6e191906d03cfbe0",
+      "context_status": "verified",
+      "context_evidence": "docs/FARM_INTERACTIONS.md; source literal/CODE/display sites in localization/farm_interactions.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/farm-interactions-validation.json",
+        "target_sha256": "795d71a987886f7c4abf9a8447988766e1ef9a5e578aee65ae1808e63950c77f"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "script.0461.000",
+      "source_sha256": "0512840c192f2bceb4504ce27d9c3d255debc3b5df961e87d5907dc803527554",
+      "translation_sha256": "0e5bf0829a4e7c1d3deee7cc0d05cc15a6b0f4d71a2b13681d068170619b126e",
+      "context_status": "verified",
+      "context_evidence": "docs/FARM_INTERACTIONS.md; source literal/CODE/display sites in localization/farm_interactions.json",
+      "language_review": "pending",
+      "layout_review": "pending",
+      "renderer_check": {
+        "status": "passed",
+        "evidence": "docs/evidence/farm-interactions-validation.json",
+        "target_sha256": "795d71a987886f7c4abf9a8447988766e1ef9a5e578aee65ae1808e63950c77f"
+      },
+      "playtest": {
+        "status": "not_run"
+      }
     }
   ]
 }

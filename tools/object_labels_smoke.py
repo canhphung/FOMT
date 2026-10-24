@@ -52,7 +52,7 @@ def audit_scripts(base,target,translations,contract):
             key=f"script.{sid:04d}.{x['index']:03d}"
             expected=encode(translations[key]['vietnamese_translation'],True) if key in translations else x['raw']
             assert y['raw']==expected,key
-            untouched+=key not in names
+            untouched+=key not in names and y["raw"]==x["raw"]
     return untouched
 
 

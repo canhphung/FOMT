@@ -3,7 +3,7 @@
   "revision": "platform-v5-signs",
   "created_at": "2026-10-23",
   "reference_target_sha256": "98e69a242aaa5eb71c8e0fafa17bbca1379d13d06ebb906aa743ac1b4d9d3335",
-  "policy": "Revision v5 adds verified signs, native RAW glyph/scroll fixtures and a padding-only exception for script.0497.000 and script.0507.000. All other controls, arrows and variables remain strict. Font/layout and all 43 golden reference images are unchanged; reference_target_sha256 retains their original provenance.",
+  "policy": "Revision v5 adds verified signs, native RAW glyph/scroll fixtures and a padding-only exception for script.0497.000 and script.0507.000. All other controls, arrows and variables remain strict. Font/layout and all 43 golden reference images are unchanged; reference_target_sha256 retains their original provenance. Farm follow-up adds 23 guarded texts; reusable sign fixture accepts a separate contract. Nonlabel preservation counter counts only byte-identical strings. Golden references unchanged.",
   "visual_review": "technical regression reference; user approval of the complete gallery pending; translation QA unchanged",
   "contracts": {
     "dialogue": {
@@ -156,7 +156,7 @@
     },
     {
       "path": "tools/platform_check.py",
-      "sha256": "a41c8166b3de8c19f3b83adab4e230f3fd5e75829d768b67563226779f414089"
+      "sha256": "62d12df3e8ad96a2671e407ef401d3320ee711531441a28dd7ebe6ddd602cf7a"
     },
     {
       "path": "tools/mgba_bridge.c",
@@ -196,7 +196,7 @@
     },
     {
       "path": "tools/object_labels_smoke.py",
-      "sha256": "b3785c4e1dedd7983cb5060dd8843c50255d110bb260e5d96ec7e5c9fddda6e8"
+      "sha256": "27afafdc564f4f9286bf79681aac2f9c0b3c9c443441b57c9df2169fca265171"
     },
     {
       "path": "localization/object_labels.json",
@@ -212,15 +212,23 @@
     },
     {
       "path": "tools/sign_text.py",
-      "sha256": "6bf62ba4ebf4328930392373954f6bdc069c72a120e31f6392c03f2bf5d86b52"
+      "sha256": "bb92d40a769544fd2e6f665bf7bd4aae4db4cabe66ec7f9c2bdeb122c4cfa74e"
     },
     {
       "path": "tools/signs_smoke.py",
-      "sha256": "9a901cb7dadfec9a7dce77d8c1c42f41f96f9dab7deaee2f937fbcb45e8b1c22"
+      "sha256": "2c2ab85b3af1dd93b03cef26e899d984866999a531626f90f8ce70a66464b880"
     },
     {
       "path": "localization/signs.json",
       "sha256": "b738e92eb7dddb2179ba7fd845a4dd273ddefebbcfc3d5f23a9c486f644b8a97"
+    },
+    {
+      "path": "tools/farm_interactions_smoke.py",
+      "sha256": "3ac62897a0243683800e33440fe4bbe6237e36c4399593f0ca2d1ae7e519b082"
+    },
+    {
+      "path": "localization/farm_interactions.json",
+      "sha256": "1fde9127b1e1888c6890589f46e72b87f1550324a60261989a939753f526b2ff"
     }
   ],
   "save_fixture": {

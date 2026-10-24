@@ -1,0 +1,403 @@
+{
+  "schema_version": 1,
+  "record_ids": [
+    "script.0098.000",
+    "script.0098.001",
+    "script.0098.002",
+    "script.0154.000",
+    "script.0156.001",
+    "script.0217.000",
+    "script.0458.000",
+    "script.0459.000",
+    "script.0460.000",
+    "script.0463.000",
+    "script.0220.000",
+    "script.0969.000",
+    "script.0970.000",
+    "script.0971.000",
+    "script.0972.000",
+    "script.0218.000",
+    "script.0218.001",
+    "script.0218.002",
+    "script.0219.000",
+    "script.0219.001",
+    "script.0219.002",
+    "script.0221.000",
+    "script.0461.000"
+  ],
+  "source_proofs": [
+    {
+      "id": "script.0098.000",
+      "script_id": 98,
+      "string_index": 0,
+      "original_english": "Water Tank{WAIT}",
+      "code_sha256": "c964f59fa72023493d4ab3bdb9c6bee29bd994753d8f5c6b0d65e4b0e6a40902",
+      "show_text_sites": [
+        {
+          "code_offset": 48,
+          "native_call": 35,
+          "text_flags": 0
+        },
+        {
+          "code_offset": 191,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "kind": "farm_interaction",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0098.001",
+      "script_id": 98,
+      "string_index": 1,
+      "original_english": "Inside the water tank is{CR}{LF}a Jewel of Truth.{WAIT}",
+      "code_sha256": "c964f59fa72023493d4ab3bdb9c6bee29bd994753d8f5c6b0d65e4b0e6a40902",
+      "show_text_sites": [
+        {
+          "code_offset": 128,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "farm_interaction",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0098.002",
+      "script_id": 98,
+      "string_index": 2,
+      "original_english": "Inside the water tank is{CR}{LF}a Jewel of Truth.{WAIT}{PAGE}...But, your hands are full,{CR}{LF}so you can't hold it.{WAIT}",
+      "code_sha256": "c964f59fa72023493d4ab3bdb9c6bee29bd994753d8f5c6b0d65e4b0e6a40902",
+      "show_text_sites": [
+        {
+          "code_offset": 174,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "farm_interaction",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0154.000",
+      "script_id": 154,
+      "string_index": 0,
+      "original_english": "Bee Nest{CR}{LF}Check everyday to {CR}{LF}find some honey.{WAIT}",
+      "code_sha256": "6c6aee1c4905532fc173da696e1cdbef6d55f239807180cef19977a0d2299deb",
+      "show_text_sites": [
+        {
+          "code_offset": 53,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "kind": "farm_interaction",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0156.001",
+      "script_id": 156,
+      "string_index": 1,
+      "original_english": "There's no Lumber{CR}{LF}in the Woodbin.{WAIT}",
+      "code_sha256": "d5d154a109f513fc66bc3e91b0413057567e597913f1daf36a8fc20eed0ad8ae",
+      "show_text_sites": [
+        {
+          "code_offset": 83,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "kind": "farm_interaction",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0217.000",
+      "script_id": 217,
+      "string_index": 0,
+      "original_english": "There's no Fodder at{CR}{LF}all in the Chicken Fodder{CR}{LF}storage.{WAIT}",
+      "code_sha256": "54777ee96496e91bc099302d64844d4324d5b2323c10b5976a89cd973b168bbb",
+      "show_text_sites": [
+        {
+          "code_offset": 127,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "kind": "farm_interaction",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0458.000",
+      "script_id": 458,
+      "string_index": 0,
+      "original_english": "There is no Chicken Feed{CR}{LF}in the Feed Bin.{WAIT}",
+      "code_sha256": "9245c6cc0ca0fb577a9cddd1032be35147118f773e8ab2a5becbd240398181f2",
+      "show_text_sites": [
+        {
+          "code_offset": 127,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "kind": "farm_interaction",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0459.000",
+      "script_id": 459,
+      "string_index": 0,
+      "original_english": "Pregnant animal Feed Box{CR}{LF}Put Feed for pregnant{CR}{LF}animals here.{WAIT}",
+      "code_sha256": "1efbf8f4bf5deaa385f7d4256e4cacaaa0e4d8ae4c3eeaa70143956a19989ce3",
+      "show_text_sites": [
+        {
+          "code_offset": 119,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "kind": "farm_interaction",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0460.000",
+      "script_id": 460,
+      "string_index": 0,
+      "original_english": "Pregnant animal Feed Box{CR}{LF}Put Feed for pregnant{CR}{LF}animals here.{WAIT}",
+      "code_sha256": "d1c76bdf3d5d4138c99b33d0b4c4f419b7cf6cfc294141a3d881145e567214b4",
+      "show_text_sites": [
+        {
+          "code_offset": 119,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "kind": "farm_interaction",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0463.000",
+      "script_id": 463,
+      "string_index": 0,
+      "original_english": "Yarn Maker{CR}{LF}Place Wool in here to {CR}{LF}make Yarn.{WAIT}",
+      "code_sha256": "5d7293a5563707b70165d61b2d8de610eb368abab93923414aa9c6dab5490e09",
+      "show_text_sites": [
+        {
+          "code_offset": 206,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "kind": "farm_interaction",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0220.000",
+      "script_id": 220,
+      "string_index": 0,
+      "original_english": "Mayonnaise Maker{CR}{LF}Place Eggs here to{CR}{LF}make Mayonnaise.{WAIT}",
+      "code_sha256": "9295e08b295550c4ca203cfd6b27b72399e644f80d4a17dccbc4fb55a1cdbd30",
+      "show_text_sites": [
+        {
+          "code_offset": 206,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "kind": "farm_interaction",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0969.000",
+      "script_id": 969,
+      "string_index": 0,
+      "original_english": "Huge Stone{CR}{LF}Your Hammer is LV5,{CR}{LF}but it can't crush{WAIT}{CR}{LF}this Sone.{WAIT}",
+      "code_sha256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "kind": "farm_interaction",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0970.000",
+      "script_id": 970,
+      "string_index": 0,
+      "original_english": "Large Stone{CR}{LF}Your Hammer can't crush{CR}{LF}it unless it's LV2{WAIT}{CR}{LF}or higher.{WAIT}",
+      "code_sha256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "kind": "farm_interaction",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0971.000",
+      "script_id": 971,
+      "string_index": 0,
+      "original_english": "Your Hammer can't crush{CR}{LF}this Stone unless it's{CR}{LF}LV3 or higher.{WAIT}",
+      "code_sha256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "kind": "farm_interaction",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0972.000",
+      "script_id": 972,
+      "string_index": 0,
+      "original_english": "Your Axe can't{CR}{LF}cut this stump unless it's{CR}{LF}LV2 or higher.{WAIT}",
+      "code_sha256": "825d2342807ff4bbe6a0e67f0461b5c43bccac582f88e35ca68c79a2c31762f0",
+      "show_text_sites": [
+        {
+          "code_offset": 7,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "kind": "farm_interaction",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0218.000",
+      "script_id": 218,
+      "string_index": 0,
+      "original_english": "There are already eggs here.{CR}{LF}Hope they hatch soon...{WAIT}",
+      "code_sha256": "bb6660a056ee8a9a971162930ecc52d4b6cf89e1eba4ee24198f30555151c5e7",
+      "show_text_sites": [
+        {
+          "code_offset": 106,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "kind": "farm_interaction",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0218.001",
+      "script_id": 218,
+      "string_index": 1,
+      "original_english": "Incubator{CR}{LF}If you place eggs in here,{CR}{LF}they'll hatch in a few days.{WAIT}",
+      "code_sha256": "bb6660a056ee8a9a971162930ecc52d4b6cf89e1eba4ee24198f30555151c5e7",
+      "show_text_sites": [
+        {
+          "code_offset": 139,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "kind": "farm_interaction",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0218.002",
+      "script_id": 218,
+      "string_index": 2,
+      "original_english": "It's already full, so you {CR}{LF}can't incubate any more.{WAIT}",
+      "code_sha256": "bb6660a056ee8a9a971162930ecc52d4b6cf89e1eba4ee24198f30555151c5e7",
+      "show_text_sites": [
+        {
+          "code_offset": 312,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "farm_interaction",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0219.000",
+      "script_id": 219,
+      "string_index": 0,
+      "original_english": "There are already eggs here.{CR}{LF}Hope they hatch soon...{WAIT}",
+      "code_sha256": "dfff686b759a7b05a74030d5c51f60927f4ae2442ee38b19d5b413a608f7c6b6",
+      "show_text_sites": [
+        {
+          "code_offset": 106,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "kind": "farm_interaction",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0219.001",
+      "script_id": 219,
+      "string_index": 1,
+      "original_english": "Incubator{CR}{LF}If you place eggs in here,{CR}{LF}they'll hatch in a few days.{WAIT}",
+      "code_sha256": "dfff686b759a7b05a74030d5c51f60927f4ae2442ee38b19d5b413a608f7c6b6",
+      "show_text_sites": [
+        {
+          "code_offset": 139,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "kind": "farm_interaction",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0219.002",
+      "script_id": 219,
+      "string_index": 2,
+      "original_english": "It's already full, so you {CR}{LF}can't incubate any more.{WAIT}",
+      "code_sha256": "dfff686b759a7b05a74030d5c51f60927f4ae2442ee38b19d5b413a608f7c6b6",
+      "show_text_sites": [
+        {
+          "code_offset": 236,
+          "native_call": 33,
+          "text_flags": 256
+        }
+      ],
+      "kind": "farm_interaction",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0221.000",
+      "script_id": 221,
+      "string_index": 0,
+      "original_english": "Amount of Chicken Feed{CR}{LF}{RAW:8140}{CR}{LF}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{VAR:25}bushels{WAIT}",
+      "code_sha256": "f4a0d1e49354f4474cb279a07ee6013ebee3a085b1c72ec29d8c86c6634d05c2",
+      "show_text_sites": [
+        {
+          "code_offset": 23,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "kind": "farm_interaction",
+      "padding_reflow": false
+    },
+    {
+      "id": "script.0461.000",
+      "script_id": 461,
+      "string_index": 0,
+      "original_english": "Amount of Animal Fodder{CR}{LF}{RAW:8140}{CR}{LF}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{RAW:8140}{VAR:25}bushels{WAIT}",
+      "code_sha256": "6fff5a004e2a3a61c9e7cb48cf4ea79b92071a62aa17120cc627da39eaecfc42",
+      "show_text_sites": [
+        {
+          "code_offset": 23,
+          "native_call": 35,
+          "text_flags": 0
+        }
+      ],
+      "kind": "farm_interaction",
+      "padding_reflow": false
+    }
+  ]
+}
